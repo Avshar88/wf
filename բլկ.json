@@ -1,0 +1,996 @@
+{
+  "name": "բլկ",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "28dd7f6b-c44e-4008-81dd-8a25987b4f6d",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -4864,
+        -512
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c01",
+              "name": "ebay_basic_auth",
+              "value": "Basic SHJhY2h5YUstUHJpbWVPdXQtUFJELTE0YzU3NWU0Mi02ZWQ5ZTE2MTpQUkQtNGM1NzVlNDJlOTRmLWFiYjItNGEwZS05MGRkLTAwOWM=",
+              "type": "string"
+            },
+            {
+              "id": "c02",
+              "name": "ebay_refresh_token",
+              "value": "v^1.1#i^1#p^3#I^3#r^1#f^0#t^Ul4xMF85OjM1QjczN0NEQ0FCNUZGRDZCQzgzMEYyOTA4REQ4NjdFXzJfMSNFXjI2MA==",
+              "type": "string"
+            },
+            {
+              "id": "c03",
+              "name": "ebay_fulfillment_policy_id",
+              "value": "252233825012",
+              "type": "string"
+            },
+            {
+              "id": "c04",
+              "name": "ebay_payment_policy_id",
+              "value": "252233826012",
+              "type": "string"
+            },
+            {
+              "id": "c05",
+              "name": "ebay_return_policy_id",
+              "value": "252233824012",
+              "type": "string"
+            },
+            {
+              "id": "c06",
+              "name": "ebay_merchant_location_key",
+              "value": "default",
+              "type": "string"
+            },
+            {
+              "id": "c07",
+              "name": "gdrive_file_id",
+              "value": "1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi",
+              "type": "string"
+            },
+            {
+              "id": "c08",
+              "name": "openai_api_key",
+              "value": "PUT_YOUR_OPENAI_KEY_HERE",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c4d3dee4-3acd-461c-ab1c-acda8b2823cb",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -4688,
+        -752
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.ebay.com/identity/v1/oauth2/token",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Authorization",
+              "value": "={{ $json.ebay_basic_auth }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "grant_type",
+              "value": "refresh_token"
+            },
+            {
+              "name": "refresh_token",
+              "value": "={{ $json.ebay_refresh_token }}"
+            },
+            {
+              "name": "scope",
+              "value": "https://api.ebay.com/oauth/api_scope/sell.inventory"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "3783b68b-137c-4d29-b4df-fbd78ab8a86e",
+      "name": "Get eBay Token",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -4432,
+        -992
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi",
+          "mode": "list",
+          "cachedResultName": "menifest masys COLOR.xlsx",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi/edit?usp=drivesdk&ouid=106657370083647817957&rtpof=true&sd=true"
+        },
+        "options": {}
+      },
+      "id": "d7081d80-0ef5-4fe1-9699-a15cec88cb1d",
+      "name": "Download Manifest",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -4272,
+        -752
+      ],
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "i19wUf8iJAm1dUhF",
+          "name": "Google Drive OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {}
+      },
+      "id": "ca483aea-1936-4c02-8dc6-5ddfbf8e472b",
+      "name": "Extract XLSX Rows",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        -4080,
+        -528
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const row = $input.item.json;\n\nconst get = (...keys) => {\n  for (const k of keys) {\n    for (const rowKey of Object.keys(row)) {\n      if (rowKey.trim().toUpperCase() === k.toUpperCase()) {\n        const v = row[rowKey];\n        if (v !== undefined && v !== null && String(v).trim() !== '') return String(v).trim();\n      }\n    }\n  }\n  return '';\n};\n\nconst upc = get('UPC');\nif (!upc || upc.replace(/[^0-9]/g, '').length < 6) {\n  return { json: { skip: true, upc: '', status: 'skip' } };\n}\n\nconst rawBrand = get('VENDOR NAME') || 'Unbranded';\nconst brand = rawBrand.split('/')[0].trim() || 'Unbranded';\nconst productName = get('ITEM DESCRIPTION', 'PRODUCT NAME', 'DESCRIPTION');\nconst color = get('COLOR');\nconst rawSize = get('SIZE');\n\nconst SIZE_WORD_MAP = {\n  'XXLARGE': 'XXL', 'XX LARGE': 'XXL', 'XXLG': 'XXL', 'XX LG': 'XXL',\n  'XLARGE': 'XL', 'X LARGE': 'XL', 'XLRG': 'XL', 'X LG': 'XL',\n  'LARGE': 'L', 'LRG': 'L', 'LG': 'L',\n  'MEDIUM': 'M', 'MED': 'M',\n  'SMALL': 'S', 'SM': 'S',\n  'XSMALL': 'XS', 'X SMALL': 'XS', 'XS': 'XS',\n  'XXXLARGE': '3XL', 'XXX LARGE': '3XL', '3X LARGE': '3XL', '3XLARGE': '3XL',\n  'ONE SIZE': 'One Size', 'ONESIZE': 'One Size'\n};\n\nlet size = '';\nconst rawUpper = rawSize.toUpperCase().trim();\n\nif (SIZE_WORD_MAP[rawUpper]) {\n  size = SIZE_WORD_MAP[rawUpper];\n} else {\n  const braMatch = rawSize.match(/(\\d{2})\\s*([A-Z]{1,4})/i);\n  if (braMatch) {\n    size = braMatch[1] + braMatch[2].toUpperCase();\n  } else {\n    size = rawSize.replace(/\\([^)]*\\)/g, '').replace(/\\s+/g, '').toUpperCase().trim();\n  }\n}\n\nif (!size && productName) {\n  const sizeMatch = productName.match(/\\b(\\d{2})(AA?|[A-Z]{1,3})\\b/);\n  if (sizeMatch) size = sizeMatch[1] + sizeMatch[2];\n}\n\nconst qty = Math.max(1, parseInt(get('ORIGINAL QTY', 'QUANTITY', 'Qty') || '1', 10) || 1);\nconst rawPrice = get('ORIGINAL RETAIL', 'PRICE');\nconst price = parseFloat(rawPrice.replace(/[$,]/g, '').trim()) || 0;\nconst styleNumber = get('VENDOR / STYLE #', 'VENDOR/STYLE #', 'Style #', 'MPN');\nconst imageUrl = get('IMAGE', 'IMAGE URL', 'Image URL', 'PHOTO').trim();\nconst dept = get('DEPARTMENT NAME', 'DEPARTMENT').toUpperCase().trim();\n\nconst COLOR_MAP = {\n  'black':'Black','white':'White','beige':'Beige','nude':'Beige','cream':'Ivory',\n  'grey':'Gray','gray':'Gray','silver':'Silver','red':'Red','darkred':'Red','wine':'Red',\n  'pink':'Pink','rose':'Pink','coral':'Pink','blush':'Pink','mauve':'Pink','cerise':'Pink',\n  'blue':'Blue','navy':'Blue','royal':'Blue','denim':'Blue','cobalt':'Blue',\n  'green':'Green','mint':'Green','sage':'Green','olive':'Green','teal':'Green',\n  'purple':'Purple','lavender':'Purple','plum':'Purple','burgundy':'Purple','violet':'Purple',\n  'brown':'Brown','tan':'Brown','camel':'Brown','mocha':'Brown','chocolate':'Brown',\n  'yellow':'Yellow','gold':'Gold','mustard':'Yellow','orange':'Orange',\n  'ivory':'Ivory','champagne':'Ivory','natural':'Ivory','ecru':'Ivory',\n  'multi':'Multicolor','multicolor':'Multicolor','print':'Multicolor','floral':'Multicolor',\n  'taupe':'Taupe','heather':'Gray'\n};\n\nconst EBAY_COLORS = ['Beige','Black','Blue','Brown','Gray','Green','Gold','Ivory','Multicolor','Orange','Pink','Purple','Red','Silver','White','Yellow','Taupe'];\nconst colorLower = color.toLowerCase().replace(/[\\s\\-]/g, '');\nlet normalizedColor = EBAY_COLORS.find(c => colorLower.includes(c.toLowerCase()));\nif (!normalizedColor) {\n  for (const [key, val] of Object.entries(COLOR_MAP)) {\n    if (colorLower.includes(key)) { normalizedColor = val; break; }\n  }\n}\nif (!normalizedColor) normalizedColor = color;\n\nconst hint = (productName + ' ' + dept + ' ' + brand).toLowerCase();\n\nreturn { json: {\n  sku: upc, upc, brand, product_name: productName,\n  color_raw: color, color: normalizedColor,\n  size,\n  qty, price,\n  style_number: styleNumber || upc,\n  image_url: imageUrl,\n  dept,\n  category_hint: hint,\n  status: 'pending', _error: null, missing_fields: []\n}};"
+      },
+      "id": "509e3e13-109c-4b1c-bd82-4ddf8d9b24ca",
+      "name": "Normalize Row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3936,
+        -752
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nif (item.status === 'review_needed') return { json: item };\n\nconst hint = (item.category_hint || '').toLowerCase();\nconst dept = (item.dept || '').toUpperCase().trim();\nconst size = item.size || '';\nconst braMatch = size.match(/^(\\d{2})(AA?|[A-Z]{1,4})(\\+?)$/);\nconst isBraSize = !!braMatch;\n\nlet category = 'Bras & Bra Sets';\nlet categoryId = '63853';\n\n// DEPARTMENT NAME-based classification\nif (['PANTIES', 'PANTY', 'PB PANTIES'].includes(dept)) {\n  category = 'Panties'; categoryId = '63854';\n\n} else if (['SHAPEWEAR', 'SHAPE WEAR'].includes(dept)) {\n  category = 'Shapewear'; categoryId = '11530';\n\n} else if (['BRAS', 'BRA', 'COLLECTIONS', 'CK INNERWEAR', 'DESGNR INNRWR'].includes(dept)) {\n  category = 'Bras & Bra Sets'; categoryId = '63853';\n\n} else if (['TRAD SLEEPWR', 'CC SLEEPWEAR', 'DRESSY SLPWR', 'NEOTRAD SLPWR', 'PB STATE/DAY', 'SLEEP', 'SLEEPWEAR'].includes(dept)) {\n  category = 'Sleepwear & Robes'; categoryId = '63855';\n\n} else if (dept === 'CLSD-KIDS ACC') {\n  return { json: { ...item, status: 'review_needed', _error: 'Kids category — skip' } };\n\n} else if (['SWIM','SWIMWEAR','SWIMSUITS','SWIMSUIT','BIKINIS','COVERUPS','COVERUP','ONE PIECES','ONE-PIECES','SWIM BOTTOMS','SWIM TOPS'].includes(dept)) {\n  if (hint.includes('cover')) {\n    category = 'Swimwear Cover-Ups'; categoryId = '15731';\n  } else if (hint.includes('one piece') || hint.includes('onepiece')) {\n    category = 'One-Piece Swimsuits'; categoryId = '15727';\n  } else if (hint.includes('top') || hint.includes('bandeau')) {\n    category = 'Bikini Tops'; categoryId = '16021';\n  } else {\n    category = 'Bikini Bottoms'; categoryId = '15734';\n  }\n\n} else if (hint.includes('bikini') || hint.includes('swim') || hint.includes('tankini')) {\n  if (hint.includes('top') || hint.includes('bandeau')) {\n    category = 'Bikini Tops'; categoryId = '16021';\n  } else if (hint.includes('one piece') || hint.includes('onepiece')) {\n    category = 'One-Piece Swimsuits'; categoryId = '15727';\n  } else if (hint.includes('cover')) {\n    category = 'Swimwear Cover-Ups'; categoryId = '15731';\n  } else {\n    category = 'Bikini Bottoms'; categoryId = '15734';\n  }\n\n} else if (hint.includes('pant') || hint.includes('thong') || hint.includes('hipster') ||\n           hint.includes('cheeky') || hint.includes('boyshort') || hint.includes('bikini brief')) {\n  category = 'Panties'; categoryId = '63854';\n\n} else if (hint.includes('shape') || hint.includes('shaper') || hint.includes('cincher') ||\n           hint.includes('girdle') || hint.includes('waist trainer') || hint.includes('faja')) {\n  category = 'Shapewear'; categoryId = '11530';\n\n} else if (hint.includes('sleep') || hint.includes('pajama') || hint.includes('robe') || hint.includes('nightgown')) {\n  category = 'Sleepwear & Robes'; categoryId = '63855';\n\n} else if (hint.includes('bra') || hint.includes('bralette') || hint.includes('bustier') || isBraSize) {\n  category = 'Bras & Bra Sets'; categoryId = '63853';\n}\n\nlet bandSize = '', cupSize = '';\nif (braMatch) { bandSize = braMatch[1]; cupSize = braMatch[2]; }\n\nlet braStyle = 'T-Shirt Bra';\nif (hint.includes('sports bra')) braStyle = 'Sports Bra';\nelse if (hint.includes('push up') || hint.includes('pushup')) braStyle = 'Push Up Bra';\nelse if (hint.includes('bralette')) braStyle = 'Bralette';\nelse if (hint.includes('balconette')) braStyle = 'Balconette Bra';\nelse if (hint.includes('bandeau')) braStyle = 'Bandeau Bra';\nelse if (hint.includes('minimizer')) braStyle = 'Minimizer Bra';\nelse if (hint.includes('nursing') || hint.includes('maternity')) braStyle = 'Nursing Bra';\nelse if (hint.includes('wireless') || hint.includes('wire free')) braStyle = 'Bralette';\n\nlet shapeStyle = 'One Piece';\nif (hint.includes('high waist') || hint.includes('highwaist')) shapeStyle = 'High-Waisted';\nelse if (hint.includes('brief')) shapeStyle = 'Brief';\nelse if (hint.includes('tank') || hint.includes('cami')) shapeStyle = 'Tank';\nelse if (hint.includes('girdle')) shapeStyle = 'Girdle';\nelse if (hint.includes('waist trainer') || hint.includes('cincher')) shapeStyle = 'Waist Trainer';\n\nconst shapeSizeType = (/\\d+W$/.test(size) || /^[1-9]X/.test(size) || parseInt(size) >= 18) ? 'Plus' : 'Regular';\n\nreturn { json: { ...item, category, categoryId, band_size: bandSize, cup_size: cupSize, bra_style: braStyle, shape_style: shapeStyle, shape_size_type: shapeSizeType } };"
+      },
+      "id": "ef3fbc71-5057-4fe9-9eff-33e545344f27",
+      "name": "Classify Category",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3248,
+        -528
+      ]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an expert eBay listing optimizer for women's intimates (bras, panties, shapewear).\n\nRespond ONLY with valid JSON.\nNo markdown, no code fences, no explanation.\n\nUse these source fields:\n\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || $json.product_name || '' }}\nSource Description: {{ $json.ebay_description || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nDepartment: {{ $json.dept || '' }}\nStyle Number: {{ $json.style_number || '' }}\nCategory Hint: {{ $json.category_hint || '' }}\nBra Style: {{ $json.bra_style || '' }}\nShape Style: {{ $json.shape_style || '' }}\nCup Size: {{ $json.cup_size || '' }}\nBand Size: {{ $json.band_size || '' }}\nAuthoritative Color: {{ $json.normalized_color || $json.color || '' }}\n\nYour task is to create a stronger eBay listing title, a short HTML description, and a category recommendation.\n\nSTRICT FIELD PRECEDENCE:\nUse dedicated structured fields as the highest-priority source of truth.\nPriority order:\n1) Explicit structured fields (Brand, Color, Size, Department, Style Number, Bra Style, Shape Style, Cup Size, Band Size, Category Hint)\n2) Source Title\n3) Source Description\n\nNever let Source Title or Source Description override an explicit structured field.\n\nCOLOR PRIORITY RULES:\n- The Color field is the primary source of truth for color.\n- If Color is provided and is not empty, use only that exact color value.\n- Do not infer, replace, expand, or override the color from Source Title or Source Description.\n- Do not output \"Multicolor\" unless the Color field itself is exactly \"Multicolor\".\n- If Color is \"Gray\", use \"Gray\" only.\n- If Color is empty, then you may infer color from Source Title or Source Description.\n- Never mention any secondary, alternate, assumed, or conflicting color that is not explicitly present in the Color field.\n\nDESCRIPTION ACCURACY RULES:\n- Every attribute in the description must match the provided source fields exactly.\n- Do not introduce any attribute variation from the source title or description when a dedicated field is already provided.\n- Dedicated structured fields always override inferred text.\n- Keep the description clean, short, and factual.\n\nGENERAL RULES:\n- Do not add any fact that is not present in the source data.\n- The title must be natural, SEO-friendly, and no longer than 80 characters.\n- The title must start with the brand.\n- Include the product type inferred from the source title and/or category hint.\n- For bras, size may be included in the title if it improves search relevance.\n- If Color is not empty and not \"Multicolor\", include that exact color.\n- Do not repeat the same keyword in multiple forms.\n- Avoid generic titles such as only \"Bra\" or \"Panties\".\n- Do not use filler words, hype, or unsupported claims.\n- Do NOT include style number or MPN in the title under any circumstances.\n\nDESCRIPTION STRUCTURE:\n1) One short opening line\n2) Key details in HTML lines\n3) Condition line\n4) One short buyer note\n\nDESCRIPTION FORMAT RULES:\n- Output description as clean HTML only.\n- Use short readable lines with <br> tags.\n- Do not make the description too long.\n- Do not include store policies, shipping promises, or return promises unless provided in source data.\n- Do NOT include care instructions (e.g. \"Hand Wash Only\", \"Machine Washable\") in the description.\n\nCONDITION RULES:\n- The condition line must say exactly: \"New with Tags\" — nothing more.\n- Do NOT write \"original packaging\", \"never been worn\", or any other variation.\n- Only write: <p><strong>Condition:</strong> New with Tags</p>\n\nCATEGORY LOGIC:\n- bra, bralette, underwire, t-shirt bra, push-up bra, wireless bra -> \"Bras & Bra Sets\"\n- panties, thong, brief, hipster, boyshort, cheeky -> \"Panties\"\n- shapewear, control, tummy, bodysuit, shaping -> \"Shapewear\"\n\nCATEGORY OUTPUT RULE:\ncategory_recommendation must be exactly one of these 3 values:\n\"Bras & Bra Sets\"\n\"Panties\"\n\"Shapewear\"\n\nTITLE LOGIC:\n- Bras: Brand + Women's + specific bra type/style + color + size\n- Panties: Brand + Women's + specific panty style + color + size\n- Shapewear: Brand + Women's + shapewear type/style + color + size\n\nTITLE CLEANUP RULES:\n- Remove duplicate words or near-duplicate terms.\n- Keep the most relevant searchable terms.\n- Use a natural human-readable order.\n- Do not include attributes that are blank.\n- Do NOT include style number or MPN anywhere in the title.\n\nKEYWORDS_USED RULES:\n- Return keywords_used as an array of the main searchable terms actually used in the title.\n- Do not include keywords that do not appear in or directly support the title.\n- Keep keywords concise and relevant.\n\nSELF-CHECK BEFORE RETURNING JSON:\n- Verify the title is 80 characters or fewer.\n- Verify the title starts with the brand when brand is available.\n- Verify the color in the title and description exactly matches the Color field when Color is not empty.\n- Verify \"Multicolor\" appears only if the Color field is exactly \"Multicolor\".\n- Verify no unsupported fact has been added.\n- Verify the category_recommendation is exactly one allowed value.\n- Verify care instructions are NOT in the description.\n- Verify condition line says exactly \"New with Tags\" only.\n- Verify style number and MPN are NOT in the title.\n- If any rule is violated, correct it before returning the final JSON.\n\nReturn only this JSON structure:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"\",\n  \"keywords_used\": []\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "9018ee63-2fcb-4f02-9422-b5a14928a9be",
+      "name": "OpenAI Generate Content",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        -3088,
+        -752
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const aiJson = $input.item.json;\nconst item = $(\"Classify Category\").item.json;\n\nif (item.status === \"review_needed\") {\n  return { json: item };\n}\n\n// OpenAI content parse\nlet aiContent = {};\ntry {\n  const raw = aiJson?.message?.content || '';\n  aiContent = JSON.parse(raw.replace(/```json|```/g, '').trim());\n} catch(e) {}\n\nconst productName = item.product_name || item.ebay_title || \"\";\nconst brand = item.brand || \"Unbranded\";\nconst color = item.color || \"\";\nconst size = item.size || \"\";\nconst categoryHint = (item.category_hint || \"\").toLowerCase();\nconst specs = item.amazon_specs || {};\n\nconst material = specs.material || \"\";\nconst closure = specs.closure || \"\";\nconst strapType = specs.strap_type || \"\";\nconst pattern = specs.pattern || \"\";\nconst careInstructions = specs.care_instructions || \"\";\nconst cupCoverage = specs.cup_coverage || \"\";\nconst braDesign = specs.bra_design || \"\";\nconst neckStyle = specs.neck_style || \"\";\nconst backStyle = specs.back_style || \"\";\nconst underwireTypeRaw = specs.underwire_type || \"\";\nconst productLine = specs.product_line || \"\";\nconst origin = specs.origin || \"\";\nconst modelNumber = specs.model_number || item.style_number || \"\";\nconst upc = item.upc || \"\";\n\nconst underwireType = underwireTypeRaw.toLowerCase().includes(\"wire\")\n  ? \"Underwired\"\n  : \"Wireless\";\n\nconst amazonDescription = item.ebay_description || \"\";\n\nconst specLines = [];\nif (brand) specLines.push(`<p><strong>Brand:</strong> ${brand}</p>`);\nif (modelNumber) specLines.push(`<p><strong>Style Number:</strong> ${modelNumber}</p>`);\nif (color) specLines.push(`<p><strong>Color:</strong> ${color}</p>`);\nif (size) specLines.push(`<p><strong>Size:</strong> ${size}</p>`);\nif (material) specLines.push(`<p><strong>Material:</strong> ${material}</p>`);\nif (closure) specLines.push(`<p><strong>Closure:</strong> ${closure}</p>`);\nif (strapType) specLines.push(`<p><strong>Strap Type:</strong> ${strapType}</p>`);\nif (cupCoverage) specLines.push(`<p><strong>Features:</strong> ${cupCoverage}</p>`);\nspecLines.push(`<p><strong>Condition:</strong> New with Tags</p>`);\nif (upc) specLines.push(`<p><strong>UPC:</strong> ${upc}</p>`);\n\nconst baseDesc = aiContent.description || amazonDescription || \"\";\nconst ebayDesc = baseDesc\n  ? baseDesc\n  : specLines.join(\"\");\n\nlet ebayTitle = aiContent.title || item.ebay_title || `${brand} ${productName} ${color}`.trim();\nebayTitle = ebayTitle.replace(/shapewear/gi, \"\").replace(/\\s+/g, \" \").trim();\n\nif (size && !ebayTitle.includes(size)) {\n  ebayTitle = `${ebayTitle} ${size}`.substring(0, 80).trim();\n}\n\nif (!ebayTitle.toLowerCase().includes(\"nwt\")) {\n  ebayTitle = `${ebayTitle} NWT`.substring(0, 80).trim();\n}\n\nlet specifics = {};\n\nif (item.category === \"Bras & Bra Sets\") {\n  const braType = productName.toLowerCase().includes(\"set\") ? \"Bra Set\" : \"Bra\";\n  const braStyle = braDesign ? `${braDesign} Bra` : (item.bra_style || \"T-Shirt Bra\");\n\n  specifics = {\n    Brand: [brand],\n    Type: [braType],\n    Style: [braStyle],\n    Department: [\"Women\"],\n    Color: [color],\n    Size: [size],\n    \"Cup Size\": [item.cup_size || \"\"],\n    \"Band Size\": [item.band_size || \"\"],\n    \"Size Type\": [\"Regular\"],\n    \"Underwire Type\": [underwireType]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (closure) specifics[\"Closure\"] = [closure];\n  if (strapType) specifics[\"Strap Type\"] = [strapType];\n  if (pattern) specifics[\"Pattern\"] = [pattern];\n  if (cupCoverage) specifics[\"Features\"] = [cupCoverage];\n  if (neckStyle) specifics[\"Neckline\"] = [neckStyle];\n  if (backStyle) specifics[\"Back Style\"] = [backStyle];\n  if (productLine) specifics[\"Product Line\"] = [productLine];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n  if (origin) specifics[\"Country/Region of Manufacture\"] = [origin];\n\n  Object.keys(specifics).forEach((k) => {\n    if (!specifics[k][0]) delete specifics[k];\n  });\n\n} else if (item.category === \"Panties\") {\n  let pantieStyle = \"Briefs\";\n  if (categoryHint.includes(\"thong\") || categoryHint.includes(\"g-string\")) pantieStyle = \"Thong\";\n  else if (categoryHint.includes(\"hipster\")) pantieStyle = \"Hipster\";\n  else if (categoryHint.includes(\"boyshort\") || categoryHint.includes(\"boy short\")) pantieStyle = \"Boy Shorts\";\n  else if (categoryHint.includes(\"cheeky\")) pantieStyle = \"Cheeky\";\n\n  specifics = {\n    Brand: [brand],\n    Style: [pantieStyle],\n    Type: [\"Panties\"],\n    Color: [color],\n    Department: [\"Women\"],\n    Size: [size]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (pattern) specifics[\"Pattern\"] = [pattern];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n\n} else if (item.category === \"Shapewear\") {\n  specifics = {\n    Brand: [brand],\n    Size: [size],\n    Style: [item.shape_style || \"Shapewear\"],\n    Type: [\"Shapewear\"],\n    Color: [color],\n    Department: [\"Women\"],\n    \"Size Type\": [item.shape_size_type || \"Regular\"]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (closure) specifics[\"Closure\"] = [closure];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n\n} else if (item.category === \"Sleepwear & Robes\") {\n  specifics = {\n    Brand: [brand],\n    Size: [size],\n    Color: [color],\n    Department: [\"Women\"],\n    Type: [\"Nightgown\"]\n  };\n  if (material) specifics[\"Material\"] = [material];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n}\n\nreturn {\n  json: {\n    ...item,\n    product_name: productName,\n    ebay_title: ebayTitle,\n    ebay_description: ebayDesc,\n    category_specifics: specifics\n  }\n};"
+      },
+      "id": "9d0333e9-bf0e-4501-a255-03f852c983f1",
+      "name": "Build Category Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2800,
+        -976
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nif (item.status === 'review_needed') return { json: item };\n\nconst missing = [];\nconst sp = item.category_specifics || {};\nconst cat = item.category;\n\nif (!item.sku) missing.push('sku');\nif (!item.price || item.price <= 0) missing.push('price — must be > 0');\nif (!item.image_urls || item.image_urls.length === 0) missing.push('image_urls — eBay requires at least one image');\nif (!item.ebay_title) missing.push('ebay_title');\nif (!cat) missing.push('category');\n\nconst reqCheck = (key, label) => { if (!sp[key] || !sp[key][0]) missing.push(label || key); };\n\nif (cat === 'Bras & Bra Sets') {\n  reqCheck('Brand', 'C:Brand');\n  reqCheck('Size', 'C:Size (e.g. 36DD)');\n  reqCheck('Type', 'C:Type (Bra or Bra Set)');\n  reqCheck('Style', 'C:Style (T-Shirt Bra etc.)');\n  reqCheck('Color', 'C:Color');\n  reqCheck('Department', 'C:Department');\n} else if (cat === 'Panties') {\n  reqCheck('Brand', 'C:Brand');\n  reqCheck('Style', 'C:Style (Briefs/Thong etc.)');\n  reqCheck('Type', 'C:Type');\n  reqCheck('Color', 'C:Color');\n  reqCheck('Department', 'C:Department');\n} else if (cat === 'Shapewear') {\n  reqCheck('Brand', 'C:Brand');\n  reqCheck('Size', 'C:Size');\n  reqCheck('Style', 'C:Style (Brief/High-Waisted etc.)');\n  reqCheck('Color', 'C:Color');\n  reqCheck('Department', 'C:Department');\n  reqCheck('Size Type', 'C:Size Type (Regular/Plus)');\n}\n\nif (missing.length > 0) {\n  return { json: { ...item, status: 'review_needed', missing_fields: missing, _error: 'Validation failed: ' + missing.join(' | ') } };\n}\n\nreturn { json: { ...item, status: 'approved', missing_fields: [] } };"
+      },
+      "id": "1ae483eb-f817-45d2-b325-18221236f90f",
+      "name": "Validate Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2640,
+        -768
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cond-approved",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "approved",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "d857f665-2c6f-4dc4-8188-25c18d0c591a",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -2496,
+        -544
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nconst cfg = $('Config').first().json;\nconst token = $('Get eBay Token').first().json.access_token;\n\nconst invPayload = {\n  availability: {\n    shipToLocationAvailability: { quantity: item.qty }\n  },\n  condition: 'NEW',\n  packageWeightAndSize: {\n    dimensions: {\n      height: 2,\n      length: 10,\n      width: 5,\n      unit: 'INCH'\n    },\n    packageType: 'PACKAGE_THICK_ENVELOPE',\n    weight: {\n      value: 2,\n      unit: 'POUND'\n    }\n  },\n  product: {\n    aspects: item.category_specifics,\n    brand: item.brand,\n    description: item.ebay_description,\n    imageUrls: item.image_urls && item.image_urls.length > 0 ? item.image_urls : [],\n    mpn: item.style_number,\n    title: item.ebay_title,\n    upc: [item.upc]\n  }\n};\n\nconst offerPayload = {\n  sku: item.sku,\n  marketplaceId: 'EBAY_US',\n  format: 'FIXED_PRICE',\n  availableQuantity: item.qty,\n  categoryId: item.categoryId,\n  listingDescription: item.ebay_description,\n  listingPolicies: {\n    fulfillmentPolicyId: cfg.ebay_fulfillment_policy_id,\n    paymentPolicyId:     cfg.ebay_payment_policy_id,\n    returnPolicyId:      cfg.ebay_return_policy_id\n  },\n  merchantLocationKey: cfg.ebay_merchant_location_key,\n  pricingSummary: {\n    price: {\n      currency: 'USD',\n      value: String(parseFloat(item.price || 0).toFixed(2))\n    }\n  }\n};\n\nreturn { json: { ...item, _ebay_token: token, _inv_payload: invPayload, _offer_payload: offerPayload } };"
+      },
+      "id": "8372b7b5-837d-41b0-9ac4-b393278e88e4",
+      "name": "Prepare API Payloads",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2320,
+        -768
+      ]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "={{ 'https://api.ebay.com/sell/inventory/v1/inventory_item/' + $json.sku }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._ebay_token }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en-US"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json._inv_payload) }}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "1fee04e4-eb2f-4de3-82bc-e4790ce2dba6",
+      "name": "Create Inventory Item",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -2160,
+        -976
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Check inventory creation result\n// 204 = success (item created/updated), other = error\nconst resp = $input.item.json;\nconst prep = $('Prepare API Payloads').item.json;\n\nconst statusCode = resp.statusCode || 0;\n\n// 204 = No Content = success for PUT inventory item\n// If fullResponse, statusCode is at top level\nif (statusCode === 204 || statusCode === 200) {\n  return { json: { ...prep, _inv_status: 'ok', _inv_status_code: statusCode } };\n}\n\n// Check for existing offer conflict (409) — means item exists, continue anyway\nif (statusCode === 409) {\n  return { json: { ...prep, _inv_status: 'conflict_ok', _inv_status_code: statusCode } };\n}\n\n// Any other error — send to review\nconst errMsg = resp.body ? JSON.stringify(resp.body).substring(0, 200) : 'Unknown error';\nreturn { json: { ...prep, status: 'api_error', _error: 'Create Inventory Item failed (' + statusCode + '): ' + errMsg, _inv_status: 'error' } };"
+      },
+      "id": "5316c162-ad02-4ccf-88c5-ea0af7bb4d7c",
+      "name": "Check Inventory Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1648,
+        -848
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cond-inv-ok",
+              "leftValue": "={{ $json._inv_status }}",
+              "rightValue": "error",
+              "operator": {
+                "type": "string",
+                "operation": "notEquals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "7e93f79c-17f1-4425-a1dd-bba45306822e",
+      "name": "Inventory OK?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -1296,
+        -624
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.ebay.com/sell/inventory/v1/offer",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._ebay_token }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en-US"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json._offer_payload) }}",
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "d947674a-d39a-4d05-a9df-784a06f8faa7",
+      "name": "Create Offer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -912,
+        -912
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const resp = $input.item.json;\nconst prev = $('Check Inventory Result').item.json;\n\nconst offerId = resp.offerId || null;\nconst errors = resp.errors || [];\n\nif (!offerId && errors.length > 0) {\n  const dupErr = errors.find(e => e.errorId === 25002 || (e.message && e.message.includes('already exists')));\n  if (dupErr) {\n    const existingOffer = (dupErr.parameters || []).find(p => p.name === 'offerId');\n    if (existingOffer && existingOffer.value) {\n      return { json: { ...prev, _offer_status: 'created', _offer_id: existingOffer.value } };\n    }\n    return { json: { ...prev, _offer_status: 'existing', _offer_id: null, _error: 'Offer exists but no offerId returned', status: 'already_exists' } };\n  }\n  return { json: { ...prev, _offer_status: 'error', _error: 'Create Offer failed: ' + JSON.stringify(errors).substring(0, 200), status: 'api_error' } };\n}\n\nreturn { json: { ...prev, _offer_status: 'created', _offer_id: offerId } };"
+      },
+      "id": "ae06d86f-7e5d-4da9-ae56-7a27350499cf",
+      "name": "Check Offer Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -544,
+        -592
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cond-offer-ok",
+              "leftValue": "={{ $json._offer_status }}",
+              "rightValue": "created",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "7eb1925d-0832-4f09-89bc-4be8bf28c034",
+      "name": "Offer Created?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -1744,
+        -336
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://api.ebay.com/sell/inventory/v1/offer/' + $json._offer_id + '/publish' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._ebay_token }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "7084cb1f-b704-4ed2-98e9-d786bc1fb8b6",
+      "name": "Publish Offer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -1088,
+        -208
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "s1",
+              "name": "sku",
+              "value": "={{ $('Check Inventory Result').item.json.sku }}",
+              "type": "string"
+            },
+            {
+              "id": "s2",
+              "name": "category",
+              "value": "={{ $('Check Inventory Result').item.json.category }}",
+              "type": "string"
+            },
+            {
+              "id": "s3",
+              "name": "status",
+              "value": "published",
+              "type": "string"
+            },
+            {
+              "id": "s4",
+              "name": "listingId",
+              "value": "={{ $json.listingId || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "s5",
+              "name": "ebay_url",
+              "value": "={{ $json.listingId ? 'https://www.ebay.com/itm/' + $json.listingId : '' }}",
+              "type": "string"
+            },
+            {
+              "id": "s6",
+              "name": "ebay_title",
+              "value": "={{ $('Check Inventory Result').item.json.ebay_title }}",
+              "type": "string"
+            },
+            {
+              "id": "s7",
+              "name": "error",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "s8",
+              "name": "missing_fields",
+              "value": "={{ [] }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a0c88c3d-2ce6-4f16-bd66-683bda46e480",
+      "name": "Log Success",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -480,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "r1",
+              "name": "sku",
+              "value": "={{ $json.sku || 'unknown' }}",
+              "type": "string"
+            },
+            {
+              "id": "r2",
+              "name": "category",
+              "value": "={{ $json.category || 'unknown' }}",
+              "type": "string"
+            },
+            {
+              "id": "r3",
+              "name": "status",
+              "value": "={{ $json.status || 'review_needed' }}",
+              "type": "string"
+            },
+            {
+              "id": "r4",
+              "name": "listingId",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "r5",
+              "name": "ebay_url",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "r6",
+              "name": "ebay_title",
+              "value": "={{ $json.ebay_title || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "r7",
+              "name": "error",
+              "value": "={{ $json._error || 'Review required' }}",
+              "type": "string"
+            },
+            {
+              "id": "r8",
+              "name": "missing_fields",
+              "value": "={{ $json.missing_fields || [] }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "6f4970a5-4246-4dfd-81e6-08cc740f447c",
+      "name": "Log Review Needed",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -1968,
+        -704
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://api.rainforestapi.com/request",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "api_key",
+              "value": "1034F764C56A4B3A85ED537C6AED2FB8"
+            },
+            {
+              "name": "type",
+              "value": "product"
+            },
+            {
+              "name": "amazon_domain",
+              "value": "amazon.com"
+            },
+            {
+              "name": "gtin",
+              "value": "=$json.upc\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -3808,
+        -1088
+      ],
+      "id": "8ddcc60a-5d76-4c04-a3b0-c596967a6b29",
+      "name": "HTTP Request imeges",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const excelItems = $('Normalize Row').all();\nconst rainforestItems = $input.all(); // կthrowaway ենք — Amazon-ը ներսից ենք կancel անում\n\nconst RAINFOREST_KEY = '1034F764C56A4B3A85ED537C6AED2FB8';\nconst BARCODE_KEY = 'gteqr323t3bt52bhjbny72okpj24qi';\n\nconst results = [];\n\nfor (let index = 0; index < excelItems.length; index++) {\n  const excel = excelItems[index]?.json || {};\n  \n  const upc = String(excel?.upc || '').replace(/[^0-9]/g, '');\n  \n  let image_urls = [];\n  let amazonTitle = '';\n  let amazonDescription = '';\n  let amazonColor = '';\n  let amazonProduct = {};\n\n  // 1. Amazon (Rainforest API)\n  if (upc) {\n    try {\n      const rfResp = await this.helpers.request({\n        method: 'GET',\n        url: 'https://api.rainforestapi.com/request',\n        qs: {\n          api_key: RAINFOREST_KEY,\n          type: 'product',\n          amazon_domain: 'amazon.com',\n          gtin: upc\n        },\n        timeout: 12000\n      });\n      const rfData = typeof rfResp === 'string' ? JSON.parse(rfResp) : rfResp;\n      const product = rfData?.product || {};\n      amazonProduct = product;\n\n      const mainImage = String(product?.main_image?.link || '').trim();\n      const rawImages = Array.isArray(product.images) ? product.images : [];\n      const otherImages = rawImages\n        .map(img => typeof img === 'string' ? img : String(img.link || img.url || ''))\n        .filter(Boolean)\n        .filter(url => url !== mainImage);\n      const allImages = mainImage ? [mainImage, ...otherImages] : otherImages;\n      image_urls = allImages.filter((url, i, arr) => arr.indexOf(url) === i).slice(0, 12);\n\n      amazonTitle = String(product?.title || '').trim();\n      amazonDescription = String(product?.description || '').trim();\n      amazonColor = String(product?.color || '').trim();\n    } catch(e) {}\n  }\n\n  // 2. Excel IMAGE column fallback\n  const excelImageUrl = String(excel?.image_url || '').trim();\n  if (image_urls.length === 0 && excelImageUrl) image_urls = [excelImageUrl];\n\n  // 3. Barcodelookup fallback\n  let barcodeColor = '';\n  let barcodeSize = '';\n\n  if (image_urls.length === 0 && upc) {\n    try {\n      const barcodeResp = await this.helpers.request({\n        method: 'GET',\n        url: 'https://api.barcodelookup.com/v3/products',\n        qs: {\n          barcode: upc,\n          formatted: 'y',\n          key: BARCODE_KEY\n        },\n        timeout: 8000\n      });\n      const barcodeData = typeof barcodeResp === 'string' ? JSON.parse(barcodeResp) : barcodeResp;\n      const bp = barcodeData?.products?.[0] || {};\n\n      const barcodeImages = bp.images || [];\n      for (const imgUrl of barcodeImages) {\n        if (imgUrl) image_urls.push(imgUrl);\n      }\n      image_urls = [...new Set(image_urls)].slice(0, 8);\n\n      if (!excel?.color) barcodeColor = bp.color || '';\n      if (!excel?.size) barcodeSize = bp.size || '';\n    } catch(e) {}\n  }\n\n  const excelColor = String(excel?.color || '').trim();\n  const finalColor = amazonColor || excelColor || barcodeColor;\n  const finalSize = excel?.size || barcodeSize || '';\n\n  const product = amazonProduct;\n  const specsRaw = product?.specifications_flat ?? '';\n  const specsFlat = typeof specsRaw === 'string' ? specsRaw : JSON.stringify(specsRaw);\n\n  const getSpec = (key) => {\n    if (!specsFlat) return '';\n    const regex = new RegExp(key + '[:\\\\s]+([^.\\\\n]+)', 'i');\n    const match = specsFlat.match(regex);\n    return match ? match[1].trim() : '';\n  };\n\n  const material = product?.material || getSpec('Fabric type') || getSpec('Material Type') || '';\n  const closure = getSpec('Apparel Closure Type') || getSpec('Closure type') || '';\n  const strapType = getSpec('Strap Type') || '';\n  const pattern = product?.pattern || getSpec('Pattern') || '';\n  const careInstructions = getSpec('Care instructions') || getSpec('Product Care Instructions') || '';\n  const fitType = getSpec('Fit Type') || '';\n  const supportLevel = getSpec('Support Level') || '';\n  const cupCoverage = getSpec('Bra Cup Coverage') || '';\n  const braDesign = getSpec('Bra Design') || '';\n  const neckStyle = getSpec('Neck Style') || '';\n  const backStyle = getSpec('Back Style') || '';\n  const underwireType = getSpec('Underwire Type') || '';\n  const productLine = getSpec('Product Line') || '';\n  const occasionType = getSpec('Occasion Type') || '';\n  const origin = getSpec('Origin') || '';\n  const modelNumber = product?.model_number || getSpec('Item model number') || '';\n\n  const status = image_urls.length > 0 ? 'approved' : 'pending';\n\n  results.push({\n    json: {\n      sku: excel?.sku || excel?.upc || '',\n      upc: excel?.upc || '',\n      brand: excel?.brand || '',\n      color: finalColor,\n      color_amazon: amazonColor,\n      color_manifest: excelColor,\n      size: finalSize,\n      qty: excel?.qty || '',\n      price: excel?.price || '',\n      style_number: excel?.style_number || '',\n      mpn: modelNumber || '',\n      dept: excel?.dept || '',\n      category_hint: excel?.category_hint || '',\n      ebay_title: amazonTitle || excel?.product_name || '',\n      ebay_description: amazonDescription || excel?.product_name || '',\n      image_urls,\n      rainforest_image_count: image_urls.length,\n      status,\n      amazon_specs: {\n        material, closure, strap_type: strapType, pattern,\n        care_instructions: careInstructions, fit_type: fitType,\n        support_level: supportLevel, cup_coverage: cupCoverage,\n        bra_design: braDesign, neck_style: neckStyle, back_style: backStyle,\n        underwire_type: underwireType, product_line: productLine,\n        occasion_type: occasionType, origin, model_number: modelNumber\n      }\n    }\n  });\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3424,
+        -736
+      ],
+      "id": "21fea1ab-3a33-45ef-90bd-e1d7cedb56c3",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const excel = $('Normalize Row').item.json || {};\nconst rainforest = $json || {};\nconst product = rainforest?.product || {};\n\nconst clean = (v) => String(v || '').trim().toLowerCase();\nconst digits = (v) => String(v || '').replace(/\\D/g, '');\nconst normalizeSize = (v) => String(v || '').trim().toUpperCase();\n\n// Manifest\nconst manifestBrand = clean(excel.brand);\nconst manifestTitle = clean(excel.product_name || excel.ebay_title || '');\nconst manifestSize = normalizeSize(excel.size);\n\n// Amazon\nconst amazonBrand = clean(product.brand);\nconst amazonTitle = clean(product.title);\nconst amazonDesc = clean(product.description);\nconst amazonText = `${amazonBrand} ${amazonTitle} ${amazonDesc}`.trim();\n\nconst amazonUpc =\n  digits(product.upc) ||\n  digits(product.gtin) ||\n  digits(product.ean) ||\n  digits(product.barcode) ||\n  digits(product.barcodes?.[0]) ||\n  '';\n\nconst manifestUpc = digits(excel.upc);\n\nconst amazonSize =\n  normalizeSize(product.size) ||\n  normalizeSize(product.size_name) ||\n  '';\n\nlet score = 0;\nconst reasons = [];\n\n// 1) UPC check (helper only, not final truth)\nif (manifestUpc && amazonUpc) {\n  if (manifestUpc === amazonUpc) {\n    score += 15;\n    reasons.push('upc_match');\n  } else {\n    score -= 80;\n    reasons.push('upc_mismatch');\n  }\n} else {\n  reasons.push('upc_not_available');\n}\n\n// 2) Brand check\nif (manifestBrand && amazonBrand) {\n  if (\n    amazonBrand.includes(manifestBrand) ||\n    manifestBrand.includes(amazonBrand)\n  ) {\n    score += 30;\n    reasons.push('brand_match');\n  } else {\n    score -= 60;\n    reasons.push('brand_mismatch');\n  }\n} else {\n  reasons.push('brand_not_available');\n}\n\n// 3) Title similarity check\nconst stopWords = new Set([\n  'womens','women',\"women's\",'mens','men',\"men's\",\n  'the','and','with','for','all','new','tags','tag','nwt'\n]);\n\nconst manifestTokens = [...new Set(\n  manifestTitle\n    .replace(/[^a-z0-9\\s-]/g, ' ')\n    .split(/\\s+/)\n    .map(t => t.trim())\n    .filter(t => t.length >= 3 && !stopWords.has(t))\n)];\n\nlet titleHits = 0;\nfor (const token of manifestTokens) {\n  if (amazonText.includes(token)) titleHits++;\n}\n\nconst titleRatio = manifestTokens.length ? titleHits / manifestTokens.length : 0;\n\nif (titleRatio >= 0.6) {\n  score += 25;\n  reasons.push('title_match_strong');\n} else if (titleRatio >= 0.35) {\n  score += 10;\n  reasons.push('title_match_partial');\n} else {\n  score -= 60;\n  reasons.push('title_mismatch');\n}\n\n// 4) Size check\nif (manifestSize) {\n  if (amazonSize && manifestSize === amazonSize) {\n    score += 20;\n    reasons.push('size_match');\n  } else if (amazonText.includes(manifestSize.toLowerCase())) {\n    score += 10;\n    reasons.push('size_match_text');\n  } else {\n    score -= 25;\n    reasons.push('size_mismatch');\n  }\n} else {\n  reasons.push('size_not_available');\n}\n\n// 5) Hard reject logic for wrong product family\nconst manifestLooksBra =\n  /\\bbra\\b|\\bunderwire\\b|\\bpush-?up\\b|\\bt-?shirt bra\\b|\\b\\d{2,3}[a-z]{1,3}\\b/.test(manifestTitle);\n\nconst amazonLooksMensBriefs =\n  /\\bmen\\b|\\bmens\\b|\\bmen's\\b|\\bbrief\\b|\\bbriefs\\b|\\bwaistband\\b|\\bx-large\\b|\\bmid rise\\b/.test(amazonText);\n\nif (manifestLooksBra && amazonLooksMensBriefs) {\n  score = -120;\n  reasons.push('hard_reject_bra_vs_mens_briefs');\n}\n\n// Final decision\nlet amazon_match_status = 'review_needed';\n\nif (\n  reasons.includes('upc_mismatch') ||\n  reasons.includes('hard_reject_bra_vs_mens_briefs')\n) {\n  amazon_match_status = 'reject';\n} else if (score >= 55) {\n  amazon_match_status = 'approved';\n} else if (score < 20) {\n  amazon_match_status = 'reject';\n}\n\nreturn {\n  json: {\n    ...$json,\n    amazon_match_score: score,\n    amazon_match_reason: reasons.join(', '),\n    amazon_match_status\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3600,
+        -1088
+      ],
+      "id": "fc5e82b4-b12b-4138-a92e-096100f3e2e9",
+      "name": "amazon_match_reason"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Get eBay Token",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get eBay Token": {
+      "main": [
+        [
+          {
+            "node": "Download Manifest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Manifest": {
+      "main": [
+        [
+          {
+            "node": "Extract XLSX Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract XLSX Rows": {
+      "main": [
+        [
+          {
+            "node": "Normalize Row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Row": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request imeges",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Classify Category": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Generate Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Generate Content": {
+      "main": [
+        [
+          {
+            "node": "Build Category Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Category Fields": {
+      "main": [
+        [
+          {
+            "node": "Validate Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate Fields": {
+      "main": [
+        [
+          {
+            "node": "Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [
+          {
+            "node": "Prepare API Payloads",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Review Needed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare API Payloads": {
+      "main": [
+        [
+          {
+            "node": "Create Inventory Item",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Inventory Item": {
+      "main": [
+        [
+          {
+            "node": "Check Inventory Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Inventory Result": {
+      "main": [
+        [
+          {
+            "node": "Inventory OK?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Inventory OK?": {
+      "main": [
+        [
+          {
+            "node": "Create Offer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Review Needed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Offer": {
+      "main": [
+        [
+          {
+            "node": "Check Offer Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Offer Result": {
+      "main": [
+        [
+          {
+            "node": "Offer Created?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Offer Created?": {
+      "main": [
+        [
+          {
+            "node": "Publish Offer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Publish Offer": {
+      "main": [
+        [
+          {
+            "node": "Log Success",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request imeges": {
+      "main": [
+        [
+          {
+            "node": "amazon_match_reason",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Classify Category",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Review Needed": {
+      "main": [
+        [
+          {
+            "node": "Offer Created?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "amazon_match_reason": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "f7a35342-b26c-4751-94ab-bf7cab5979cc",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d2fe9ce728554e69c037db673a8835049f0ed91a367043d2112f54371905e772"
+  },
+  "id": "IPD6rMCpxcWotaGf",
+  "tags": []
+}
