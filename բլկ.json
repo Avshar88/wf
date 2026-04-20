@@ -671,91 +671,31 @@
     },
     {
       "parameters": {
-        "mode": "rules",
+        "dataType": "string",
+        "value1": "={{ $json.category }}",
         "rules": {
           "rules": [
             {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "loose",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "rule-bra",
-                    "leftValue": "={{ $json.category }}",
-                    "rightValue": "Bras & Bra Sets",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              },
-              "renameOutput": true,
-              "outputKey": "Bras"
+              "value2": "Bras & Bra Sets",
+              "output": 0
             },
             {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "loose",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "rule-pan",
-                    "leftValue": "={{ $json.category }}",
-                    "rightValue": "Panties",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              },
-              "renameOutput": true,
-              "outputKey": "Panties"
+              "value2": "Panties",
+              "output": 1
             },
             {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "loose",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "rule-shp",
-                    "leftValue": "={{ $json.category }}",
-                    "rightValue": "Shapewear",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              },
-              "renameOutput": true,
-              "outputKey": "Shapewear"
+              "value2": "Shapewear",
+              "output": 2
             }
           ]
         },
-        "options": {
-          "fallbackOutput": "extra"
-        }
+        "fallbackOutput": 3,
+        "options": {}
       },
       "id": "sw-cat-001",
       "name": "Category Switch",
       "type": "n8n-nodes-base.switch",
-      "typeVersion": 3.2,
+      "typeVersion": 3,
       "position": [
         -2960,
         -528
@@ -893,13 +833,12 @@
       "parameters": {
         "httpMethod": "POST",
         "path": "ebay-listing",
-        "responseMode": "responseNode",
         "options": {}
       },
       "id": "webhook-trigger-001",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2,
+      "typeVersion": 1.1,
       "position": [
         -4864,
         -512
@@ -915,7 +854,7 @@
       "id": "webhook-response-001",
       "name": "Webhook Response",
       "type": "n8n-nodes-base.respondToWebhook",
-      "typeVersion": 1.1,
+      "typeVersion": 1,
       "position": [
         -200,
         -240
