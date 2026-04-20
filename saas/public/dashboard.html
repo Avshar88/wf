@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — ListingBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-page">
+  <aside class="sidebar">
+    <a href="index.html" class="logo">ListingBot</a>
+    <nav>
+      <a href="#run" class="nav-link active" onclick="showTab('run')">Run Listings</a>
+      <a href="#settings" class="nav-link" onclick="showTab('settings')">API Settings</a>
+      <a href="#credits" class="nav-link" onclick="showTab('credits')">Buy Credits</a>
+      <a href="#history" class="nav-link" onclick="showTab('history')">History</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="credits-badge">Credits: <strong id="creditsCount">—</strong></div>
+      <button onclick="logout()" class="btn-ghost btn-sm">Logout</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <!-- RUN TAB -->
+    <div id="tab-run" class="tab active">
+      <h2>Run eBay Listings</h2>
+      <div id="runError" class="error-msg hidden"></div>
+      <div id="runSuccess" class="success-msg hidden"></div>
+      <div class="card">
+        <label>Upload XLSX Manifest</label>
+        <div class="file-drop" id="fileDrop">
+          <input type="file" id="xlsxFile" accept=".xlsx" style="display:none">
+          <p>Drag & drop your XLSX file here<br><span>or <a href="#" onclick="document.getElementById('xlsxFile').click()">browse</a></span></p>
+          <p id="fileName" class="file-name hidden"></p>
+        </div>
+        <button class="btn-primary btn-lg" id="runBtn" onclick="runWorkflow()">Run Listings</button>
+      </div>
+
+      <div id="resultsCard" class="card hidden">
+        <h3>Results</h3>
+        <div class="result-stats">
+          <div class="stat green"><span id="publishedCount">0</span><label>Published</label></div>
+          <div class="stat yellow"><span id="reviewCount">0</span><label>Review needed</label></div>
+          <div class="stat blue"><span id="creditsUsed">0</span><label>Credits used</label></div>
+        </div>
+        <div id="resultsList"></div>
+      </div>
+    </div>
+
+    <!-- SETTINGS TAB -->
+    <div id="tab-settings" class="tab hidden">
+      <h2>API Settings</h2>
+      <div id="settingsMsg" class="success-msg hidden"></div>
+      <div class="card">
+        <p class="hint">Your credentials are encrypted and stored securely. Leave a field blank to keep its current value.</p>
+        <form id="settingsForm">
+          <div class="form-group">
+            <label>eBay Basic Auth</label>
+            <input type="password" id="ebay_basic_auth" placeholder="Basic SHJhY2h5YUs...">
+          </div>
+          <div class="form-group">
+            <label>eBay Refresh Token</label>
+            <input type="password" id="ebay_refresh_token" placeholder="v^1.1#i^1...">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Fulfillment Policy ID</label>
+              <input type="text" id="ebay_fulfillment_policy_id" placeholder="252233825012">
+            </div>
+            <div class="form-group">
+              <label>Payment Policy ID</label>
+              <input type="text" id="ebay_payment_policy_id" placeholder="252233826012">
+            </div>
+            <div class="form-group">
+              <label>Return Policy ID</label>
+              <input type="text" id="ebay_return_policy_id" placeholder="252233824012">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Merchant Location Key</label>
+            <input type="text" id="ebay_merchant_location_key" placeholder="default">
+          </div>
+          <div class="form-group">
+            <label>OpenAI API Key</label>
+            <input type="password" id="openai_api_key" placeholder="sk-...">
+          </div>
+          <div class="form-group">
+            <label>Rainforest API Key <span class="optional">(optional — for Amazon images)</span></label>
+            <input type="text" id="rainforest_api_key" placeholder="1034F764...">
+          </div>
+          <button type="submit" class="btn-primary">Save Settings</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- CREDITS TAB -->
+    <div id="tab-credits" class="tab hidden">
+      <h2>Buy Credits</h2>
+      <div id="paymentMsg" class="hidden"></div>
+      <div class="plans-grid">
+        <div class="plan-card">
+          <h3>Starter</h3>
+          <div class="price">$19</div>
+          <div class="credits-amt">50 listings</div>
+          <div class="per-credit">$0.38 / listing</div>
+          <button class="btn-primary btn-block" onclick="checkout('plan_50')">Buy</button>
+        </div>
+        <div class="plan-card featured">
+          <div class="badge">Best value</div>
+          <h3>Growth</h3>
+          <div class="price">$35</div>
+          <div class="credits-amt">100 listings</div>
+          <div class="per-credit">$0.35 / listing</div>
+          <button class="btn-primary btn-block" onclick="checkout('plan_100')">Buy</button>
+        </div>
+        <div class="plan-card">
+          <h3>Pro</h3>
+          <div class="price">$79</div>
+          <div class="credits-amt">250 listings</div>
+          <div class="per-credit">$0.32 / listing</div>
+          <button class="btn-primary btn-block" onclick="checkout('plan_250')">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORY TAB -->
+    <div id="tab-history" class="tab hidden">
+      <h2>Run History</h2>
+      <div id="historyList" class="card">Loading...</div>
+    </div>
+  </main>
+
+  <script>
+    const token = localStorage.getItem('token');
+    if (!token) window.location.href = '/login.html';
+
+    // Check payment status from URL
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+      showTab('credits');
+      document.getElementById('paymentMsg').className = 'success-msg';
+      document.getElementById('paymentMsg').textContent = 'Payment successful! Credits added to your account.';
+    }
+
+    async function api(path, opts = {}) {
+      const res = await fetch(path, {
+        ...opts,
+        headers: { 'Authorization': 'Bearer ' + token, ...(opts.headers || {}) }
+      });
+      if (res.status === 401) { localStorage.clear(); window.location.href = '/login.html'; }
+      return res;
+    }
+
+    async function loadCredits() {
+      const r = await api('/api/payment/credits');
+      const d = await r.json();
+      document.getElementById('creditsCount').textContent = d.credits || 0;
+    }
+
+    function showTab(name) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.add('hidden'));
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      document.getElementById('tab-' + name).classList.remove('hidden');
+      event && event.target && event.target.classList.add('active');
+      if (name === 'history') loadHistory();
+      if (name === 'settings') loadSettings();
+    }
+
+    // File drag & drop
+    const drop = document.getElementById('fileDrop');
+    const fileInput = document.getElementById('xlsxFile');
+    drop.addEventListener('dragover', e => { e.preventDefault(); drop.classList.add('drag-over'); });
+    drop.addEventListener('dragleave', () => drop.classList.remove('drag-over'));
+    drop.addEventListener('drop', e => {
+      e.preventDefault(); drop.classList.remove('drag-over');
+      fileInput.files = e.dataTransfer.files;
+      showFileName();
+    });
+    fileInput.addEventListener('change', showFileName);
+    function showFileName() {
+      const fn = document.getElementById('fileName');
+      fn.textContent = fileInput.files[0]?.name || '';
+      fn.classList.toggle('hidden', !fileInput.files[0]);
+    }
+
+    async function runWorkflow() {
+      if (!fileInput.files[0]) { alert('Please select an XLSX file first'); return; }
+      const btn = document.getElementById('runBtn');
+      btn.textContent = 'Running... (this may take a few minutes)'; btn.disabled = true;
+      document.getElementById('runError').classList.add('hidden');
+      document.getElementById('runSuccess').classList.add('hidden');
+      document.getElementById('resultsCard').classList.add('hidden');
+
+      const form = new FormData();
+      form.append('file', fileInput.files[0]);
+
+      const res = await api('/api/workflow/run', { method: 'POST', body: form });
+      const data = await res.json();
+      btn.textContent = 'Run Listings'; btn.disabled = false;
+
+      if (!res.ok) {
+        const err = document.getElementById('runError');
+        err.textContent = data.error + (data.credits_needed ? ` (Need ${data.credits_needed} credits, you have ${data.credits_available})` : '');
+        err.classList.remove('hidden');
+        return;
+      }
+
+      document.getElementById('publishedCount').textContent = data.published;
+      document.getElementById('reviewCount').textContent = data.review_needed;
+      document.getElementById('creditsUsed').textContent = data.credits_used;
+
+      const list = document.getElementById('resultsList');
+      list.innerHTML = data.results.map(r => `
+        <div class="result-row ${r.status === 'published' ? 'ok' : 'warn'}">
+          <span class="sku">${r.sku || '—'}</span>
+          <span class="status-badge">${r.status}</span>
+          <span class="title">${r.ebay_title || ''}</span>
+          ${r.ebay_url ? `<a href="${r.ebay_url}" target="_blank">View</a>` : ''}
+          ${r.error ? `<span class="err">${r.error}</span>` : ''}
+        </div>
+      `).join('');
+
+      document.getElementById('resultsCard').classList.remove('hidden');
+      loadCredits();
+    }
+
+    async function loadSettings() {
+      const r = await api('/api/config');
+      const cfg = await r.json();
+      ['ebay_basic_auth','ebay_refresh_token','ebay_fulfillment_policy_id',
+       'ebay_payment_policy_id','ebay_return_policy_id','ebay_merchant_location_key',
+       'openai_api_key','rainforest_api_key'].forEach(k => {
+        if (cfg[k]) document.getElementById(k).placeholder = cfg[k];
+      });
+    }
+
+    document.getElementById('settingsForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const body = {};
+      ['ebay_basic_auth','ebay_refresh_token','ebay_fulfillment_policy_id',
+       'ebay_payment_policy_id','ebay_return_policy_id','ebay_merchant_location_key',
+       'openai_api_key','rainforest_api_key'].forEach(k => {
+        const v = document.getElementById(k).value.trim();
+        if (v) body[k] = v;
+      });
+      await api('/api/config', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body) });
+      const msg = document.getElementById('settingsMsg');
+      msg.textContent = 'Settings saved!'; msg.classList.remove('hidden');
+      setTimeout(() => msg.classList.add('hidden'), 3000);
+    });
+
+    async function checkout(planId) {
+      const r = await api('/api/payment/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ plan_id: planId })
+      });
+      const d = await r.json();
+      if (d.url) window.location.href = d.url;
+    }
+
+    async function loadHistory() {
+      const r = await api('/api/workflow/history');
+      const runs = await r.json();
+      const el = document.getElementById('historyList');
+      if (!runs.length) { el.innerHTML = '<p style="color:#888">No runs yet.</p>'; return; }
+      el.innerHTML = `<table class="history-table">
+        <thead><tr><th>Date</th><th>File</th><th>Published</th><th>Review needed</th><th>Credits used</th></tr></thead>
+        <tbody>${runs.map(r => `
+          <tr>
+            <td>${new Date(r.created_at).toLocaleDateString()}</td>
+            <td>${r.filename || '—'}</td>
+            <td class="green">${r.published}</td>
+            <td class="yellow">${r.review_needed}</td>
+            <td>${r.credits_used}</td>
+          </tr>`).join('')}
+        </tbody></table>`;
+    }
+
+    function logout() { localStorage.clear(); window.location.href = '/login.html'; }
+
+    loadCredits();
+  </script>
+</body>
+</html>

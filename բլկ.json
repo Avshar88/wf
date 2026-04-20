@@ -2,66 +2,61 @@
   "name": "բլկ",
   "nodes": [
     {
-      "parameters": {},
-      "id": "28dd7f6b-c44e-4008-81dd-8a25987b4f6d",
-      "name": "Manual Trigger",
-      "type": "n8n-nodes-base.manualTrigger",
-      "typeVersion": 1,
-      "position": [
-        -4864,
-        -512
-      ]
-    },
-    {
       "parameters": {
         "assignments": {
           "assignments": [
             {
               "id": "c01",
               "name": "ebay_basic_auth",
-              "value": "Basic SHJhY2h5YUstUHJpbWVPdXQtUFJELTE0YzU3NWU0Mi02ZWQ5ZTE2MTpQUkQtNGM1NzVlNDJlOTRmLWFiYjItNGEwZS05MGRkLTAwOWM=",
+              "value": "={{ $('Webhook').first().json.body.ebay_basic_auth }}",
               "type": "string"
             },
             {
               "id": "c02",
               "name": "ebay_refresh_token",
-              "value": "v^1.1#i^1#p^3#I^3#r^1#f^0#t^Ul4xMF85OjM1QjczN0NEQ0FCNUZGRDZCQzgzMEYyOTA4REQ4NjdFXzJfMSNFXjI2MA==",
+              "value": "={{ $('Webhook').first().json.body.ebay_refresh_token }}",
               "type": "string"
             },
             {
               "id": "c03",
               "name": "ebay_fulfillment_policy_id",
-              "value": "252233825012",
+              "value": "={{ $('Webhook').first().json.body.ebay_fulfillment_policy_id }}",
               "type": "string"
             },
             {
               "id": "c04",
               "name": "ebay_payment_policy_id",
-              "value": "252233826012",
+              "value": "={{ $('Webhook').first().json.body.ebay_payment_policy_id }}",
               "type": "string"
             },
             {
               "id": "c05",
               "name": "ebay_return_policy_id",
-              "value": "252233824012",
+              "value": "={{ $('Webhook').first().json.body.ebay_return_policy_id }}",
               "type": "string"
             },
             {
               "id": "c06",
               "name": "ebay_merchant_location_key",
-              "value": "default",
+              "value": "={{ $('Webhook').first().json.body.ebay_merchant_location_key || 'default' }}",
               "type": "string"
             },
             {
               "id": "c07",
-              "name": "gdrive_file_id",
-              "value": "1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi",
+              "name": "openai_api_key",
+              "value": "={{ $('Webhook').first().json.body.openai_api_key }}",
               "type": "string"
             },
             {
               "id": "c08",
-              "name": "openai_api_key",
-              "value": "PUT_YOUR_OPENAI_KEY_HERE",
+              "name": "gdrive_file_id",
+              "value": "={{ $('Webhook').first().json.body.gdrive_file_id }}",
+              "type": "string"
+            },
+            {
+              "id": "c09",
+              "name": "rainforest_api_key",
+              "value": "={{ $('Webhook').first().json.body.rainforest_api_key || '1034F764C56A4B3A85ED537C6AED2FB8' }}",
               "type": "string"
             }
           ]
@@ -893,21 +888,42 @@
           "name": "OpenAi account"
         }
       }
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "ebay-listing",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger-001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -4864,
+        -512
+      ],
+      "webhookId": "ebay-listing-trigger"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($input.all().map(i => i.json)) }}",
+        "options": {}
+      },
+      "id": "webhook-response-001",
+      "name": "Webhook Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        -200,
+        -240
+      ]
     }
   ],
   "pinData": {},
   "connections": {
-    "Manual Trigger": {
-      "main": [
-        [
-          {
-            "node": "Config",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Config": {
       "main": [
         [
@@ -1224,6 +1240,28 @@
         [
           {
             "node": "Build Category Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Success": {
+      "main": [
+        [
+          {
+            "node": "Webhook Response",
             "type": "main",
             "index": 0
           }
