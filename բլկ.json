@@ -858,20 +858,16 @@
     },
     {
       "parameters": {
-        "httpMethod": "POST",
-        "path": "ebay-listing",
-        "responseMode": "lastNode",
-        "options": {}
+        "path": "ebay-listing"
       },
       "id": "webhook-trigger-001",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2,
+      "typeVersion": 1,
       "position": [
         -4864,
         -512
-      ],
-      "webhookId": "ebay-listing-trigger"
+      ]
     },
     {
       "parameters": {
