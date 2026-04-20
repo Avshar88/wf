@@ -5,11 +5,8 @@ const path = require('path');
 
 const app = express();
 
-// Stripe webhook needs raw body — mount before json parser
-app.use('/api/payment/webhook', require('./routes/payment').stack
-  ? express.Router()
-  : (req, res, next) => next()
-);
+// Stripe webhook must receive raw body — register before express.json()
+app.use('/api/payment/webhook', express.raw({ type: 'application/json' }));
 
 app.use(cors());
 app.use(express.json());
@@ -23,4 +20,4 @@ app.use('/api/payment',  require('./routes/payment'));
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

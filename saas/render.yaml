@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: ebay-listing-saas
+    runtime: node
+    rootDir: saas
+    buildCommand: npm install
+    startCommand: node server.js
+    disk:
+      name: data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: N8N_WEBHOOK_URL
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: APP_URL
+        sync: false
