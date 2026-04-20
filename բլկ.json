@@ -194,38 +194,6 @@
     },
     {
       "parameters": {
-        "modelId": {
-          "__rl": true,
-          "value": "gpt-4o-mini",
-          "mode": "list",
-          "cachedResultName": "GPT-4O-MINI"
-        },
-        "messages": {
-          "values": [
-            {
-              "content": "=You are an expert eBay listing optimizer for women's intimates (bras, panties, shapewear).\n\nRespond ONLY with valid JSON.\nNo markdown, no code fences, no explanation.\n\nUse these source fields:\n\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || $json.product_name || '' }}\nSource Description: {{ $json.ebay_description || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nDepartment: {{ $json.dept || '' }}\nStyle Number: {{ $json.style_number || '' }}\nCategory Hint: {{ $json.category_hint || '' }}\nBra Style: {{ $json.bra_style || '' }}\nShape Style: {{ $json.shape_style || '' }}\nCup Size: {{ $json.cup_size || '' }}\nBand Size: {{ $json.band_size || '' }}\nAuthoritative Color: {{ $json.normalized_color || $json.color || '' }}\n\nYour task is to create a stronger eBay listing title, a short HTML description, and a category recommendation.\n\nSTRICT FIELD PRECEDENCE:\nUse dedicated structured fields as the highest-priority source of truth.\nPriority order:\n1) Explicit structured fields (Brand, Color, Size, Department, Style Number, Bra Style, Shape Style, Cup Size, Band Size, Category Hint)\n2) Source Title\n3) Source Description\n\nNever let Source Title or Source Description override an explicit structured field.\n\nCOLOR PRIORITY RULES:\n- The Color field is the primary source of truth for color.\n- If Color is provided and is not empty, use only that exact color value.\n- Do not infer, replace, expand, or override the color from Source Title or Source Description.\n- Do not output \"Multicolor\" unless the Color field itself is exactly \"Multicolor\".\n- If Color is \"Gray\", use \"Gray\" only.\n- If Color is empty, then you may infer color from Source Title or Source Description.\n- Never mention any secondary, alternate, assumed, or conflicting color that is not explicitly present in the Color field.\n\nDESCRIPTION ACCURACY RULES:\n- Every attribute in the description must match the provided source fields exactly.\n- Do not introduce any attribute variation from the source title or description when a dedicated field is already provided.\n- Dedicated structured fields always override inferred text.\n- Keep the description clean, short, and factual.\n\nGENERAL RULES:\n- Do not add any fact that is not present in the source data.\n- The title must be natural, SEO-friendly, and no longer than 80 characters.\n- The title must start with the brand.\n- Include the product type inferred from the source title and/or category hint.\n- For bras, size may be included in the title if it improves search relevance.\n- If Color is not empty and not \"Multicolor\", include that exact color.\n- Do not repeat the same keyword in multiple forms.\n- Avoid generic titles such as only \"Bra\" or \"Panties\".\n- Do not use filler words, hype, or unsupported claims.\n- Do NOT include style number or MPN in the title under any circumstances.\n\nDESCRIPTION STRUCTURE:\n1) One short opening line\n2) Key details in HTML lines\n3) Condition line\n4) One short buyer note\n\nDESCRIPTION FORMAT RULES:\n- Output description as clean HTML only.\n- Use short readable lines with <br> tags.\n- Do not make the description too long.\n- Do not include store policies, shipping promises, or return promises unless provided in source data.\n- Do NOT include care instructions (e.g. \"Hand Wash Only\", \"Machine Washable\") in the description.\n\nCONDITION RULES:\n- The condition line must say exactly: \"New with Tags\" — nothing more.\n- Do NOT write \"original packaging\", \"never been worn\", or any other variation.\n- Only write: <p><strong>Condition:</strong> New with Tags</p>\n\nCATEGORY LOGIC:\n- bra, bralette, underwire, t-shirt bra, push-up bra, wireless bra -> \"Bras & Bra Sets\"\n- panties, thong, brief, hipster, boyshort, cheeky -> \"Panties\"\n- shapewear, control, tummy, bodysuit, shaping -> \"Shapewear\"\n\nCATEGORY OUTPUT RULE:\ncategory_recommendation must be exactly one of these 3 values:\n\"Bras & Bra Sets\"\n\"Panties\"\n\"Shapewear\"\n\nTITLE LOGIC:\n- Bras: Brand + Women's + specific bra type/style + color + size\n- Panties: Brand + Women's + specific panty style + color + size\n- Shapewear: Brand + Women's + shapewear type/style + color + size\n\nTITLE CLEANUP RULES:\n- Remove duplicate words or near-duplicate terms.\n- Keep the most relevant searchable terms.\n- Use a natural human-readable order.\n- Do not include attributes that are blank.\n- Do NOT include style number or MPN anywhere in the title.\n\nKEYWORDS_USED RULES:\n- Return keywords_used as an array of the main searchable terms actually used in the title.\n- Do not include keywords that do not appear in or directly support the title.\n- Keep keywords concise and relevant.\n\nSELF-CHECK BEFORE RETURNING JSON:\n- Verify the title is 80 characters or fewer.\n- Verify the title starts with the brand when brand is available.\n- Verify the color in the title and description exactly matches the Color field when Color is not empty.\n- Verify \"Multicolor\" appears only if the Color field is exactly \"Multicolor\".\n- Verify no unsupported fact has been added.\n- Verify the category_recommendation is exactly one allowed value.\n- Verify care instructions are NOT in the description.\n- Verify condition line says exactly \"New with Tags\" only.\n- Verify style number and MPN are NOT in the title.\n- If any rule is violated, correct it before returning the final JSON.\n\nReturn only this JSON structure:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"\",\n  \"keywords_used\": []\n}"
-            }
-          ]
-        },
-        "options": {}
-      },
-      "id": "9018ee63-2fcb-4f02-9422-b5a14928a9be",
-      "name": "OpenAI Generate Content",
-      "type": "@n8n/n8n-nodes-langchain.openAi",
-      "typeVersion": 1.4,
-      "position": [
-        -3088,
-        -752
-      ],
-      "credentials": {
-        "openAiApi": {
-          "id": "qzGdRvdHwoZDDBrI",
-          "name": "OpenAi account"
-        }
-      }
-    },
-    {
-      "parameters": {
         "mode": "runOnceForEachItem",
         "jsCode": "const aiJson = $input.item.json;\nconst item = $(\"Classify Category\").item.json;\n\nif (item.status === \"review_needed\") {\n  return { json: item };\n}\n\n// OpenAI content parse\nlet aiContent = {};\ntry {\n  const raw = aiJson?.message?.content || '';\n  aiContent = JSON.parse(raw.replace(/```json|```/g, '').trim());\n} catch(e) {}\n\nconst productName = item.product_name || item.ebay_title || \"\";\nconst brand = item.brand || \"Unbranded\";\nconst color = item.color || \"\";\nconst size = item.size || \"\";\nconst categoryHint = (item.category_hint || \"\").toLowerCase();\nconst specs = item.amazon_specs || {};\n\nconst material = specs.material || \"\";\nconst closure = specs.closure || \"\";\nconst strapType = specs.strap_type || \"\";\nconst pattern = specs.pattern || \"\";\nconst careInstructions = specs.care_instructions || \"\";\nconst cupCoverage = specs.cup_coverage || \"\";\nconst braDesign = specs.bra_design || \"\";\nconst neckStyle = specs.neck_style || \"\";\nconst backStyle = specs.back_style || \"\";\nconst underwireTypeRaw = specs.underwire_type || \"\";\nconst productLine = specs.product_line || \"\";\nconst origin = specs.origin || \"\";\nconst modelNumber = specs.model_number || item.style_number || \"\";\nconst upc = item.upc || \"\";\n\nconst underwireType = underwireTypeRaw.toLowerCase().includes(\"wire\")\n  ? \"Underwired\"\n  : \"Wireless\";\n\nconst amazonDescription = item.ebay_description || \"\";\n\nconst specLines = [];\nif (brand) specLines.push(`<p><strong>Brand:</strong> ${brand}</p>`);\nif (modelNumber) specLines.push(`<p><strong>Style Number:</strong> ${modelNumber}</p>`);\nif (color) specLines.push(`<p><strong>Color:</strong> ${color}</p>`);\nif (size) specLines.push(`<p><strong>Size:</strong> ${size}</p>`);\nif (material) specLines.push(`<p><strong>Material:</strong> ${material}</p>`);\nif (closure) specLines.push(`<p><strong>Closure:</strong> ${closure}</p>`);\nif (strapType) specLines.push(`<p><strong>Strap Type:</strong> ${strapType}</p>`);\nif (cupCoverage) specLines.push(`<p><strong>Features:</strong> ${cupCoverage}</p>`);\nspecLines.push(`<p><strong>Condition:</strong> New with Tags</p>`);\nif (upc) specLines.push(`<p><strong>UPC:</strong> ${upc}</p>`);\n\nconst baseDesc = aiContent.description || amazonDescription || \"\";\nconst ebayDesc = baseDesc\n  ? baseDesc\n  : specLines.join(\"\");\n\nlet ebayTitle = aiContent.title || item.ebay_title || `${brand} ${productName} ${color}`.trim();\nebayTitle = ebayTitle.replace(/shapewear/gi, \"\").replace(/\\s+/g, \" \").trim();\n\nif (size && !ebayTitle.includes(size)) {\n  ebayTitle = `${ebayTitle} ${size}`.substring(0, 80).trim();\n}\n\nif (!ebayTitle.toLowerCase().includes(\"nwt\")) {\n  ebayTitle = `${ebayTitle} NWT`.substring(0, 80).trim();\n}\n\nlet specifics = {};\n\nif (item.category === \"Bras & Bra Sets\") {\n  const braType = productName.toLowerCase().includes(\"set\") ? \"Bra Set\" : \"Bra\";\n  const braStyle = braDesign ? `${braDesign} Bra` : (item.bra_style || \"T-Shirt Bra\");\n\n  specifics = {\n    Brand: [brand],\n    Type: [braType],\n    Style: [braStyle],\n    Department: [\"Women\"],\n    Color: [color],\n    Size: [size],\n    \"Cup Size\": [item.cup_size || \"\"],\n    \"Band Size\": [item.band_size || \"\"],\n    \"Size Type\": [\"Regular\"],\n    \"Underwire Type\": [underwireType]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (closure) specifics[\"Closure\"] = [closure];\n  if (strapType) specifics[\"Strap Type\"] = [strapType];\n  if (pattern) specifics[\"Pattern\"] = [pattern];\n  if (cupCoverage) specifics[\"Features\"] = [cupCoverage];\n  if (neckStyle) specifics[\"Neckline\"] = [neckStyle];\n  if (backStyle) specifics[\"Back Style\"] = [backStyle];\n  if (productLine) specifics[\"Product Line\"] = [productLine];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n  if (origin) specifics[\"Country/Region of Manufacture\"] = [origin];\n\n  Object.keys(specifics).forEach((k) => {\n    if (!specifics[k][0]) delete specifics[k];\n  });\n\n} else if (item.category === \"Panties\") {\n  let pantieStyle = \"Briefs\";\n  if (categoryHint.includes(\"thong\") || categoryHint.includes(\"g-string\")) pantieStyle = \"Thong\";\n  else if (categoryHint.includes(\"hipster\")) pantieStyle = \"Hipster\";\n  else if (categoryHint.includes(\"boyshort\") || categoryHint.includes(\"boy short\")) pantieStyle = \"Boy Shorts\";\n  else if (categoryHint.includes(\"cheeky\")) pantieStyle = \"Cheeky\";\n\n  specifics = {\n    Brand: [brand],\n    Style: [pantieStyle],\n    Type: [\"Panties\"],\n    Color: [color],\n    Department: [\"Women\"],\n    Size: [size]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (pattern) specifics[\"Pattern\"] = [pattern];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n\n} else if (item.category === \"Shapewear\") {\n  specifics = {\n    Brand: [brand],\n    Size: [size],\n    Style: [item.shape_style || \"Shapewear\"],\n    Type: [\"Shapewear\"],\n    Color: [color],\n    Department: [\"Women\"],\n    \"Size Type\": [item.shape_size_type || \"Regular\"]\n  };\n\n  if (material) specifics[\"Material\"] = [material];\n  if (closure) specifics[\"Closure\"] = [closure];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n\n} else if (item.category === \"Sleepwear & Robes\") {\n  specifics = {\n    Brand: [brand],\n    Size: [size],\n    Color: [color],\n    Department: [\"Women\"],\n    Type: [\"Nightgown\"]\n  };\n  if (material) specifics[\"Material\"] = [material];\n  if (modelNumber) specifics[\"MPN\"] = [modelNumber];\n}\n\nreturn {\n  json: {\n    ...item,\n    product_name: productName,\n    ebay_title: ebayTitle,\n    ebay_description: ebayDesc,\n    category_specifics: specifics\n  }\n};"
       },
@@ -705,6 +673,226 @@
       ],
       "id": "fc5e82b4-b12b-4138-a92e-096100f3e2e9",
       "name": "amazon_match_reason"
+    },
+    {
+      "parameters": {
+        "mode": "rules",
+        "rules": {
+          "rules": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "rule-bra",
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Bras & Bra Sets",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Bras"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "rule-pan",
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Panties",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Panties"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "rule-shp",
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Shapewear",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Shapewear"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "sw-cat-001",
+      "name": "Category Switch",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -2960,
+        -528
+      ]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an eBay listing specialist for women's bras.\nRespond ONLY with valid JSON. No markdown, no code fences, no explanation.\n\nINPUT FIELDS:\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nBra Style: {{ $json.bra_style || '' }}\nCup Size: {{ $json.cup_size || '' }}\nBand Size: {{ $json.band_size || '' }}\n\nTITLE RULES:\n- Format: Brand + Women's + [Bra Style] Bra + Color + Size\n- Max 80 characters, start with brand\n- Use the exact Color value — never change, infer, or expand it\n- Include size if cup_size and band_size are available\n- No style number, no MPN, no filler words\n\nDESCRIPTION RULES:\n- Clean HTML only, short and factual\n- Include: brand, bra style, color, size\n- Condition line exactly: <p><strong>Condition:</strong> New with Tags</p>\n- No care instructions, no shipping info\n\nReturn only:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"Bras & Bra Sets\",\n  \"keywords_used\": []\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "ai-bra-001",
+      "name": "OpenAI Bra",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        -2720,
+        -880
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an eBay listing specialist for women's panties and underwear.\nRespond ONLY with valid JSON. No markdown, no code fences, no explanation.\n\nINPUT FIELDS:\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nCategory Hint: {{ $json.category_hint || '' }}\n\nTITLE RULES:\n- Format: Brand + Women's + [Panty Style: Thong/Hipster/Boyshort/Brief/Cheeky] + Color + Size\n- Infer panty style from Source Title or Category Hint\n- Max 80 characters, start with brand\n- Use the exact Color value — never change or infer\n- No style number, no MPN, no filler words\n\nDESCRIPTION RULES:\n- Clean HTML only, short and factual\n- Include: brand, panty style, color, size\n- Condition line exactly: <p><strong>Condition:</strong> New with Tags</p>\n- No care instructions, no shipping info\n\nReturn only:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"Panties\",\n  \"keywords_used\": []\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "ai-pan-001",
+      "name": "OpenAI Panties",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        -2720,
+        -640
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an eBay listing specialist for women's shapewear.\nRespond ONLY with valid JSON. No markdown, no code fences, no explanation.\n\nINPUT FIELDS:\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nShape Style: {{ $json.shape_style || '' }}\nSize Type: {{ $json.shape_size_type || 'Regular' }}\n\nTITLE RULES:\n- Format: Brand + Women's + [Shape Style] Shapewear + Color + Size\n- Max 80 characters, start with brand\n- Use the exact Color value — never change or infer\n- No style number, no MPN, no filler words\n\nDESCRIPTION RULES:\n- Clean HTML only, short and factual\n- Include: brand, shapewear style, color, size, size type if Plus\n- Condition line exactly: <p><strong>Condition:</strong> New with Tags</p>\n- No care instructions, no shipping info\n\nReturn only:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"Shapewear\",\n  \"keywords_used\": []\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "ai-shp-001",
+      "name": "OpenAI Shapewear",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        -2720,
+        -400
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an eBay listing specialist for women's clothing and intimates.\nRespond ONLY with valid JSON. No markdown, no code fences, no explanation.\n\nINPUT FIELDS:\nBrand: {{ $json.brand || '' }}\nSource Title: {{ $json.ebay_title || '' }}\nColor: {{ $json.color || '' }}\nSize: {{ $json.size || '' }}\nDepartment: {{ $json.dept || '' }}\nCategory: {{ $json.category || '' }}\n\nTITLE RULES:\n- Format: Brand + Women's + [Product Type] + Color + Size\n- Max 80 characters, start with brand\n- Use the exact Color value — never change or infer\n- No style number, no MPN, no filler words\n\nDESCRIPTION RULES:\n- Clean HTML only, short and factual\n- Include: brand, product type, color, size\n- Condition line exactly: <p><strong>Condition:</strong> New with Tags</p>\n- No care instructions, no shipping info\n\nReturn only:\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"category_recommendation\": \"\",\n  \"keywords_used\": []\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "ai-gen-001",
+      "name": "OpenAI Generic",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        -2720,
+        -160
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -779,18 +967,7 @@
       "main": [
         [
           {
-            "node": "OpenAI Generate Content",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "OpenAI Generate Content": {
-      "main": [
-        [
-          {
-            "node": "Build Category Fields",
+            "node": "Category Switch",
             "type": "main",
             "index": 0
           }
@@ -971,6 +1148,82 @@
         [
           {
             "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Category Switch": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Bra",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "OpenAI Panties",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "OpenAI Shapewear",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "OpenAI Generic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Bra": {
+      "main": [
+        [
+          {
+            "node": "Build Category Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Panties": {
+      "main": [
+        [
+          {
+            "node": "Build Category Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Shapewear": {
+      "main": [
+        [
+          {
+            "node": "Build Category Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Generic": {
+      "main": [
+        [
+          {
+            "node": "Build Category Fields",
             "type": "main",
             "index": 0
           }
