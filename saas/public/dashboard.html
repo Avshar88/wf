@@ -12,11 +12,9 @@
     <nav>
       <a href="#run" class="nav-link active" onclick="showTab('run')">Run Listings</a>
       <a href="#settings" class="nav-link" onclick="showTab('settings')">API Settings</a>
-      <a href="#credits" class="nav-link" onclick="showTab('credits')">Buy Credits</a>
       <a href="#history" class="nav-link" onclick="showTab('history')">History</a>
     </nav>
     <div class="sidebar-bottom">
-      <div class="credits-badge">Credits: <strong id="creditsCount">—</strong></div>
       <button onclick="logout()" class="btn-ghost btn-sm">Logout</button>
     </div>
   </aside>
@@ -94,36 +92,6 @@
       </div>
     </div>
 
-    <!-- CREDITS TAB -->
-    <div id="tab-credits" class="tab hidden">
-      <h2>Buy Credits</h2>
-      <div id="paymentMsg" class="hidden"></div>
-      <div class="plans-grid">
-        <div class="plan-card">
-          <h3>Starter</h3>
-          <div class="price">$19</div>
-          <div class="credits-amt">50 listings</div>
-          <div class="per-credit">$0.38 / listing</div>
-          <button class="btn-primary btn-block" onclick="checkout('plan_50')">Buy</button>
-        </div>
-        <div class="plan-card featured">
-          <div class="badge">Best value</div>
-          <h3>Growth</h3>
-          <div class="price">$35</div>
-          <div class="credits-amt">100 listings</div>
-          <div class="per-credit">$0.35 / listing</div>
-          <button class="btn-primary btn-block" onclick="checkout('plan_100')">Buy</button>
-        </div>
-        <div class="plan-card">
-          <h3>Pro</h3>
-          <div class="price">$79</div>
-          <div class="credits-amt">250 listings</div>
-          <div class="per-credit">$0.32 / listing</div>
-          <button class="btn-primary btn-block" onclick="checkout('plan_250')">Buy</button>
-        </div>
-      </div>
-    </div>
-
     <!-- HISTORY TAB -->
     <div id="tab-history" class="tab hidden">
       <h2>Run History</h2>
@@ -135,14 +103,6 @@
     const token = localStorage.getItem('token');
     if (!token) window.location.href = '/login.html';
 
-    // Check payment status from URL
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('payment') === 'success') {
-      showTab('credits');
-      document.getElementById('paymentMsg').className = 'success-msg';
-      document.getElementById('paymentMsg').textContent = 'Payment successful! Credits added to your account.';
-    }
-
     async function api(path, opts = {}) {
       const res = await fetch(path, {
         ...opts,
@@ -150,12 +110,6 @@
       });
       if (res.status === 401) { localStorage.clear(); window.location.href = '/login.html'; }
       return res;
-    }
-
-    async function loadCredits() {
-      const r = await api('/api/payment/credits');
-      const d = await r.json();
-      document.getElementById('creditsCount').textContent = d.credits || 0;
     }
 
     function showTab(name) {
@@ -222,7 +176,6 @@
       `).join('');
 
       document.getElementById('resultsCard').classList.remove('hidden');
-      loadCredits();
     }
 
     async function loadSettings() {
@@ -250,16 +203,6 @@
       setTimeout(() => msg.classList.add('hidden'), 3000);
     });
 
-    async function checkout(planId) {
-      const r = await api('/api/payment/checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ plan_id: planId })
-      });
-      const d = await r.json();
-      if (d.url) window.location.href = d.url;
-    }
-
     async function loadHistory() {
       const r = await api('/api/workflow/history');
       const runs = await r.json();
@@ -279,8 +222,6 @@
     }
 
     function logout() { localStorage.clear(); window.location.href = '/login.html'; }
-
-    loadCredits();
-  </script>
+</script>
 </body>
 </html>
