@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <title>AS-AM Private Transportation | Los Angeles</title>
+  <meta property="og:title" content="AS-AM Private Transportation" />
+  <meta property="og:description" content="Premium SUV Service in Los Angeles. LAX Transfers, Private Events & Hourly Charter." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --red: #c41e3a;
+      --red-dark: #8b1228;
+      --red-glow: rgba(196,30,58,0.35);
+      --silver: #a8a8a8;
+      --silver-light: #e0e0e0;
+      --gold: #b8965a;
+      --bg: #080808;
+      --card: rgba(255,255,255,0.035);
+      --border: rgba(255,255,255,0.07);
+    }
+
+    html, body {
+      min-height: 100%;
+      background: var(--bg);
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Animated radial glows */
+    .bg-glow {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 15% 60%, rgba(196,30,58,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 85% 15%, rgba(184,150,90,0.04) 0%, transparent 55%);
+    }
+
+    /* Top accent line */
+    .top-bar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent 0%, var(--red) 40%, var(--gold) 60%, transparent 100%);
+      z-index: 100;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 430px;
+      margin: 0 auto;
+      padding: 52px 22px 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+
+    /* ── BRAND ── */
+    .brand { text-align: center; margin-bottom: 28px; animation: fadeDown 0.9s ease both; }
+
+    .brand-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 9px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+    .brand-eyebrow::before,
+    .brand-eyebrow::after {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.5;
+    }
+
+    .brand-name {
+      font-size: 58px;
+      font-weight: 900;
+      letter-spacing: -2px;
+      line-height: 1;
+    }
+    .brand-name .as { color: var(--silver-light); }
+    .brand-name .dash { color: var(--red); margin: 0 2px; }
+    .brand-name .am { color: var(--red); }
+
+    .brand-tagline {
+      margin-top: 10px;
+      font-size: 10px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--silver);
+      font-weight: 300;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 22px 0;
+    }
+    .divider-line { flex: 1; height: 1px; background: var(--border); }
+    .divider-diamond {
+      width: 6px; height: 6px;
+      background: var(--red);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      margin-bottom: 28px;
+      animation: fadeUp 0.9s 0.15s ease both;
+    }
+    .hero-line1 {
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--silver);
+      margin-bottom: 8px;
+    }
+    .hero-title {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .hero-title em { color: var(--red); font-style: normal; }
+
+    /* ── CAR BADGE ── */
+    .car-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 10px 20px;
+      margin-bottom: 28px;
+      animation: fadeUp 0.9s 0.25s ease both;
+    }
+    .car-icon { font-size: 20px; }
+    .car-text { font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--silver-light); }
+    .car-text span { color: var(--red); }
+
+    /* ── SERVICES ── */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%;
+      margin-bottom: 28px;
+      animation: fadeUp 0.9s 0.3s ease both;
+    }
+
+    .svc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 8px 16px;
+      text-align: center;
+      transition: all 0.3s ease;
+      cursor: default;
+    }
+    .svc:hover {
+      border-color: rgba(196,30,58,0.35);
+      background: rgba(196,30,58,0.05);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    .svc-icon { font-size: 26px; display: block; margin-bottom: 10px; }
+    .svc-name {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--silver-light);
+      line-height: 1.5;
+    }
+    .svc-detail {
+      font-size: 8px;
+      color: var(--silver);
+      margin-top: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── STATS ── */
+    .stats {
+      display: flex;
+      align-items: stretch;
+      gap: 0;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 28px;
+      animation: fadeUp 0.9s 0.4s ease both;
+    }
+    .stat {
+      flex: 1;
+      text-align: center;
+      padding: 16px 8px;
+    }
+    .stat + .stat { border-left: 1px solid var(--border); }
+    .stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--silver-light);
+      letter-spacing: -0.5px;
+    }
+    .stat-val .accent { color: var(--red); }
+    .stat-lbl {
+      font-size: 8px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--silver);
+      margin-top: 3px;
+      font-weight: 400;
+    }
+
+    /* ── BUTTONS ── */
+    .actions {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+      animation: fadeUp 0.9s 0.5s ease both;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 18px 24px;
+      border-radius: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-call {
+      background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+      color: #fff;
+      box-shadow: 0 4px 20px var(--red-glow), inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .btn-call:active { transform: scale(0.98); }
+    .btn-call:hover { box-shadow: 0 8px 32px rgba(196,30,58,0.5); transform: translateY(-2px); }
+
+    .btn-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+    .btn-outline {
+      background: var(--card);
+      color: var(--silver-light);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.07);
+      border-color: rgba(255,255,255,0.25);
+      transform: translateY(-2px);
+    }
+    .btn-outline:active { transform: scale(0.98); }
+
+    /* ── QR ── */
+    .qr-section {
+      text-align: center;
+      animation: fadeUp 0.9s 0.65s ease both;
+    }
+    .qr-label {
+      font-size: 8px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--silver);
+      margin-bottom: 14px;
+    }
+    .qr-frame {
+      display: inline-block;
+      padding: 14px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 0 40px rgba(196,30,58,0.15);
+    }
+    .qr-sub {
+      margin-top: 14px;
+      font-size: 10px;
+      color: var(--silver);
+      letter-spacing: 1px;
+    }
+    .qr-sub a {
+      color: var(--red);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.2);
+      animation: fadeUp 0.9s 0.75s ease both;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="bg-glow"></div>
+
+<div class="page">
+
+  <!-- BRAND -->
+  <div class="brand">
+    <div class="brand-eyebrow">✦ Premium Chauffeur ✦</div>
+    <div class="brand-name">
+      <span class="as">AS</span><span class="dash">-</span><span class="am">AM</span>
+    </div>
+    <div class="brand-tagline">Private Transportation</div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-diamond"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-line1">Los Angeles, California</div>
+    <div class="hero-title">Your <em>Private Driver</em><br>Wherever You Go</div>
+  </div>
+
+  <!-- CAR BADGE -->
+  <div class="car-badge">
+    <span class="car-icon">🚙</span>
+    <div class="car-text">GMC Yukon <span>Denali</span> · SUV Premier</div>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="services">
+    <div class="svc">
+      <span class="svc-icon">✈️</span>
+      <div class="svc-name">LAX<br>Airport</div>
+      <div class="svc-detail">All terminals</div>
+    </div>
+    <div class="svc">
+      <span class="svc-icon">🥂</span>
+      <div class="svc-name">Private<br>Events</div>
+      <div class="svc-detail">Any occasion</div>
+    </div>
+    <div class="svc">
+      <span class="svc-icon">⏱</span>
+      <div class="svc-name">Hourly<br>Charter</div>
+      <div class="svc-detail">On your time</div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-val">GMC</div>
+      <div class="stat-lbl">Yukon Denali</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val"><span class="accent">SUV</span></div>
+      <div class="stat-lbl">Premium Class</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">24<span class="accent">/</span>7</div>
+      <div class="stat-lbl">Available</div>
+    </div>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="actions">
+    <a class="btn btn-call" href="tel:3138888088">
+      📞 &nbsp; Call &nbsp; (313) 888-8088
+    </a>
+    <div class="btn-row">
+      <a class="btn btn-outline" href="sms:3138888088&body=Hi! I'd like to book a ride with AS-AM.">
+        💬 &nbsp; Text
+      </a>
+      <a class="btn btn-outline" href="sms:3138888088&body=Hi! I'd like to make a reservation.%0ADate: %0APickup: %0ADestination: ">
+        📅 &nbsp; Reserve
+      </a>
+    </div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-diamond"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- QR CODE -->
+  <div class="qr-section">
+    <div class="qr-label">Scan to save &amp; share</div>
+    <div class="qr-frame">
+      <div id="qrcode"></div>
+    </div>
+    <div class="qr-sub">
+      📍 Serving Greater Los Angeles &nbsp;·&nbsp;
+      <a href="tel:3138888088">(313) 888-8088</a>
+    </div>
+  </div>
+
+  <div class="footer">AS-AM Private Transportation · Los Angeles</div>
+
+</div>
+
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: window.location.href,
+    width: 148,
+    height: 148,
+    colorDark: "#1a1a1a",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+  });
+</script>
+</body>
+</html>
