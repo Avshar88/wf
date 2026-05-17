@@ -7,6 +7,7 @@ import StepDetails from './components/StepDetails'
 import StepConfirm from './components/StepConfirm'
 import MyBookings from './components/MyBookings'
 import { saveBooking, generateId } from './utils/storage'
+import { supabase } from './utils/supabase'
 import { formatDate } from './utils/availability'
 
 const STEPS = ['service', 'barber', 'datetime', 'details', 'confirm']
@@ -26,6 +27,8 @@ export default function App() {
   const [datetime, setDatetime] = useState(null)
   const [details, setDetails] = useState(null)
   const [confirmedBooking, setConfirmedBooking] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   const step = STEPS[stepIndex]
   const isLastInputStep = step === 'details'
@@ -38,18 +41,13 @@ export default function App() {
     setDatetime(null)
     setDetails(null)
     setConfirmedBooking(null)
+    setError(null)
   }
 
   function goBack() {
-    if (step === 'confirm') {
-      setScreen('home')
-      return
-    }
-    if (stepIndex === 0) {
-      setScreen('home')
-    } else {
-      setStepIndex(i => i - 1)
-    }
+    if (step === 'confirm') { setScreen('home'); return }
+    if (stepIndex === 0) setScreen('home')
+    else setStepIndex(i => i - 1)
   }
 
   function canProceed() {
@@ -60,25 +58,36 @@ export default function App() {
     return false
   }
 
-  function handleNext() {
-    if (isLastInputStep) {
+  async function handleNext() {
+    if (!isLastInputStep) { setStepIndex(i => i + 1); return }
+
+    setLoading(true)
+    setError(null)
+    try {
       const booking = {
         id: generateId(),
-        serviceId: service.id,
-        barberId: barber.id,
+        service_id: service.id,
+        barber_id: barber.id,
         date: formatDate(datetime.date),
         time: datetime.time,
-        serviceDuration: service.duration,
+        service_duration: service.duration,
         price: service.price,
         name: details.name,
         phone: details.phone,
-        createdAt: new Date().toISOString(),
       }
-      saveBooking(booking)
+      await saveBooking(booking)
+
+      // notify owner via Edge Function
+      supabase.functions.invoke('notify-owner', { body: {
+        booking, service, barber,
+      }}).catch(() => {}) // fire and forget
+
       setConfirmedBooking({ ...booking, service, barber, date: datetime.date })
       setStepIndex(STEPS.indexOf('confirm'))
-    } else {
-      setStepIndex(i => i + 1)
+    } catch (e) {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -142,12 +151,17 @@ export default function App() {
         )}
         {step === 'details' && <StepDetails initial={details} onChange={setDetails} />}
         {step === 'confirm' && <StepConfirm booking={confirmedBooking} />}
+        {error && <p className="error-msg">{error}</p>}
       </div>
 
       <div className="bottom-bar">
         {step !== 'confirm' ? (
-          <button className="btn-primary btn-full" disabled={!canProceed()} onClick={handleNext}>
-            {isLastInputStep ? 'Confirm Booking' : 'Continue'}
+          <button
+            className="btn-primary btn-full"
+            disabled={!canProceed() || loading}
+            onClick={handleNext}
+          >
+            {loading ? 'Saving...' : isLastInputStep ? 'Confirm Booking' : 'Continue'}
           </button>
         ) : (
           <button className="btn-primary btn-full" onClick={() => setScreen('home')}>

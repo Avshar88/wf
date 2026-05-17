@@ -1,18 +1,22 @@
-const KEY = 'barberhub_bookings'
+import { supabase } from './supabase'
 
-export function getBookings() {
-  try {
-    return JSON.parse(localStorage.getItem(KEY) || '[]')
-  } catch {
-    return []
-  }
+export async function getBookings() {
+  const { data, error } = await supabase
+    .from('bookings')
+    .select('*')
+    .order('created_at', { ascending: false })
+  if (error) return []
+  return data || []
 }
 
-export function saveBooking(booking) {
-  const bookings = getBookings()
-  bookings.push(booking)
-  localStorage.setItem(KEY, JSON.stringify(bookings))
-  return booking
+export async function saveBooking(booking) {
+  const { data, error } = await supabase
+    .from('bookings')
+    .insert([booking])
+    .select()
+    .single()
+  if (error) throw error
+  return data
 }
 
 export function generateId() {

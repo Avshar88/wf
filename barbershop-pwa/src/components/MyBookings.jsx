@@ -1,10 +1,27 @@
+import { useEffect, useState } from 'react'
 import { getBookings } from '../utils/storage'
 import { BARBERS, SERVICES } from '../data/config'
 
 const MONTH_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 export default function MyBookings({ onBack }) {
-  const bookings = getBookings().slice().reverse()
+  const [bookings, setBookings] = useState([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    getBookings().then(data => {
+      setBookings(data)
+      setLoading(false)
+    })
+  }, [])
+
+  if (loading) {
+    return (
+      <div className="my-bookings">
+        <div className="empty-state"><p>Loading...</p></div>
+      </div>
+    )
+  }
 
   return (
     <div className="my-bookings">
@@ -24,8 +41,8 @@ export default function MyBookings({ onBack }) {
           {bookings.map(b => {
             const [y, m, d] = b.date.split('-').map(Number)
             const dateLabel = `${MONTH_SHORT[m - 1]} ${d}, ${y}`
-            const service = SERVICES.find(s => s.id === b.serviceId)
-            const barber = BARBERS.find(br => br.id === b.barberId)
+            const service = SERVICES.find(s => s.id === b.service_id)
+            const barber = BARBERS.find(br => br.id === b.barber_id)
             return (
               <div key={b.id} className="booking-item">
                 <div className="bi-left">

@@ -20,10 +20,10 @@ export function isSlotAvailable(bookings, barberId, date, time, serviceDuration)
   const newEnd = newStart + serviceDuration
 
   return !bookings.some(b => {
-    if (b.barberId !== barberId || b.date !== dateStr) return false
+    if (b.barber_id !== barberId || b.date !== dateStr) return false
     const [bH, bM] = b.time.split(':').map(Number)
     const bStart = bH * 60 + bM
-    const bEnd = bStart + b.serviceDuration
+    const bEnd = bStart + b.service_duration
     return newStart < bEnd && newEnd > bStart
   })
 }

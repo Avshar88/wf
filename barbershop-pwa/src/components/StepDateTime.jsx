@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { getAvailableDates, getSlots, isSlotAvailable, formatDate } from '../utils/availability'
 import { getBookings } from '../utils/storage'
 
@@ -8,7 +8,16 @@ const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
 export default function StepDateTime({ barberId, serviceDuration, selected, onSelect }) {
   const dates = getAvailableDates(30)
   const [selectedDate, setSelectedDate] = useState(selected?.date || null)
-  const bookings = getBookings()
+  const [bookings, setBookings] = useState([])
+  const [loadingSlots, setLoadingSlots] = useState(false)
+
+  useEffect(() => {
+    setLoadingSlots(true)
+    getBookings().then(data => {
+      setBookings(data)
+      setLoadingSlots(false)
+    })
+  }, [])
 
   const slots = selectedDate
     ? getSlots(selectedDate, serviceDuration).map(time => ({
@@ -53,20 +62,24 @@ export default function StepDateTime({ barberId, serviceDuration, selected, onSe
       {selectedDate && (
         <div className="slots-section">
           <h3>Available Times</h3>
-          <div className="slots-grid">
-            {slots.map(({ time, available }) => (
-              <button
-                key={time}
-                disabled={!available}
-                className={`slot-btn ${!available ? 'taken' : ''} ${selected?.time === time && formatDate(selected.date) === formatDate(selectedDate) ? 'selected' : ''}`}
-                onClick={() => available && handleSlot(time)}
-              >
-                {time}
-              </button>
-            ))}
-          </div>
-          {slots.every(s => !s.available) && (
-            <p className="no-slots">No available slots for this day. Please choose another date.</p>
+          {loadingSlots ? (
+            <p className="no-slots">Loading slots...</p>
+          ) : (
+            <div className="slots-grid">
+              {slots.map(({ time, available }) => (
+                <button
+                  key={time}
+                  disabled={!available}
+                  className={`slot-btn ${!available ? 'taken' : ''} ${selected?.time === time && formatDate(selected.date) === formatDate(selectedDate) ? 'selected' : ''}`}
+                  onClick={() => available && handleSlot(time)}
+                >
+                  {time}
+                </button>
+              ))}
+            </div>
+          )}
+          {!loadingSlots && slots.every(s => !s.available) && (
+            <p className="no-slots">No available slots. Please choose another date.</p>
           )}
         </div>
       )}
