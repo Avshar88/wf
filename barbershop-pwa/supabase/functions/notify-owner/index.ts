@@ -20,7 +20,9 @@ async function sendSMS(to: string, body: string) {
     },
     body: new URLSearchParams({ To: to, From: TWILIO_FROM, Body: body }).toString(),
   })
-  return res.json()
+  const json = await res.json()
+  console.log('Twilio response:', JSON.stringify(json))
+  return json
 }
 
 serve(async (req) => {
@@ -29,20 +31,23 @@ serve(async (req) => {
   }
 
   try {
+    console.log('TWILIO_SID:', TWILIO_SID ? 'set' : 'MISSING')
+    console.log('TWILIO_TOKEN:', TWILIO_TOKEN ? 'set' : 'MISSING')
+    console.log('TWILIO_FROM:', TWILIO_FROM)
+    console.log('OWNER_PHONE:', OWNER_PHONE)
+
     const { booking, service, barber } = await req.json()
 
     const ownerMsg =
-      `📅 New Booking!\n` +
-      `👤 ${booking.name} · ${booking.phone}\n` +
-      `✂️ ${service.name} with ${barber.name}\n` +
-      `🕐 ${booking.date} at ${booking.time}`
+      `New Booking! ${booking.name} - ${service.name} with ${barber.name} on ${booking.date} at ${booking.time}. Phone: ${booking.phone}`
 
-    await sendSMS(OWNER_PHONE, ownerMsg)
+    const result = await sendSMS(OWNER_PHONE, ownerMsg)
 
-    return new Response(JSON.stringify({ ok: true }), {
+    return new Response(JSON.stringify({ ok: true, result }), {
       headers: { ...CORS, 'Content-Type': 'application/json' },
     })
   } catch (e) {
+    console.error('Error:', String(e))
     return new Response(JSON.stringify({ error: String(e) }), {
       status: 500,
       headers: { ...CORS, 'Content-Type': 'application/json' },
