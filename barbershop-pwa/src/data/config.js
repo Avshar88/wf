@@ -6,7 +6,7 @@ export const SHOP = {
 }
 
 export const BARBERS = [
-  { id: 1, name: 'Arman', emoji: '✂️', speciality: 'Classic & Modern Cuts' },
+  { id: 1, name: 'Karen', emoji: '✂️', speciality: 'Classic & Modern Cuts' },
   { id: 2, name: 'David', emoji: '✂️', speciality: 'Beard & Fade Specialist' },
   { id: 3, name: 'Narek', emoji: '✂️', speciality: 'Kids & Textured Hair' },
   { id: 4, name: 'Gor',   emoji: '✂️', speciality: 'Precision & Styling' },
