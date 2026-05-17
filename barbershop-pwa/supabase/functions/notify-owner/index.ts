@@ -5,6 +5,11 @@ const TWILIO_TOKEN = Deno.env.get('TWILIO_AUTH_TOKEN')!
 const TWILIO_FROM  = Deno.env.get('TWILIO_PHONE_NUMBER')!
 const OWNER_PHONE  = Deno.env.get('OWNER_PHONE')!
 
+const CORS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+}
+
 async function sendSMS(to: string, body: string) {
   const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_SID}/Messages.json`
   const res = await fetch(url, {
@@ -19,17 +24,28 @@ async function sendSMS(to: string, body: string) {
 }
 
 serve(async (req) => {
-  const { booking, service, barber } = await req.json()
+  if (req.method === 'OPTIONS') {
+    return new Response('ok', { headers: CORS })
+  }
 
-  const ownerMsg =
-    `📅 New Booking!\n` +
-    `👤 ${booking.name} · ${booking.phone}\n` +
-    `✂️ ${service.name} with ${barber.name}\n` +
-    `🕐 ${booking.date} at ${booking.time}`
+  try {
+    const { booking, service, barber } = await req.json()
 
-  await sendSMS(OWNER_PHONE, ownerMsg)
+    const ownerMsg =
+      `📅 New Booking!\n` +
+      `👤 ${booking.name} · ${booking.phone}\n` +
+      `✂️ ${service.name} with ${barber.name}\n` +
+      `🕐 ${booking.date} at ${booking.time}`
 
-  return new Response(JSON.stringify({ ok: true }), {
-    headers: { 'Content-Type': 'application/json' },
-  })
+    await sendSMS(OWNER_PHONE, ownerMsg)
+
+    return new Response(JSON.stringify({ ok: true }), {
+      headers: { ...CORS, 'Content-Type': 'application/json' },
+    })
+  } catch (e) {
+    return new Response(JSON.stringify({ error: String(e) }), {
+      status: 500,
+      headers: { ...CORS, 'Content-Type': 'application/json' },
+    })
+  }
 })
