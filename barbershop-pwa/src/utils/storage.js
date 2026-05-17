@@ -19,6 +19,29 @@ export async function saveBooking(booking) {
   return data
 }
 
+export async function cancelBooking(id) {
+  const { error } = await supabase.from('bookings').delete().eq('id', id)
+  if (error) throw error
+}
+
+export async function updateBookingTime(id, date, time) {
+  const { error } = await supabase
+    .from('bookings')
+    .update({ date, time })
+    .eq('id', id)
+  if (error) throw error
+}
+
 export function generateId() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 6).toUpperCase()
+}
+
+export function canCancel(booking) {
+  const appt = new Date(`${booking.date}T${booking.time}:00`)
+  return (appt - new Date()) > 60 * 60 * 1000 // > 1 hour
+}
+
+export function canChange(booking) {
+  const appt = new Date(`${booking.date}T${booking.time}:00`)
+  return (appt - new Date()) > 24 * 60 * 60 * 1000 // > 1 day
 }

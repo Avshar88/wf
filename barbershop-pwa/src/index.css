@@ -777,6 +777,61 @@ input  { font: inherit; color: inherit; }
 
 .empty-state p { color: var(--text2); font-size: .95rem; }
 
+/* ── Booking Actions ── */
+.bi-actions { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+
+.bi-btn {
+  font-size: .75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1.5px solid;
+  transition: opacity .15s;
+}
+.bi-btn.change { color: var(--gold); border-color: var(--gold); }
+.bi-btn.cancel { color: #ff6b6b; border-color: #ff6b6b; }
+.bi-btn:hover  { opacity: .75; }
+.bi-locked     { font-size: .72rem; color: var(--text3); }
+
+/* ── Modal ── */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.75);
+  display: flex; align-items: flex-end;
+  z-index: 100;
+  animation: fadeIn .2s;
+}
+
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+.modal {
+  background: var(--bg2);
+  border-radius: var(--radius) var(--radius) 0 0;
+  padding: 20px 16px calc(var(--safe-bot) + 24px);
+  width: 100%;
+  max-height: 85dvh;
+  overflow-y: auto;
+  animation: slideUp .25s cubic-bezier(.25,.46,.45,.94);
+}
+
+@keyframes slideUp { from { transform: translateY(100%) } to { transform: translateY(0) } }
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.modal-header h3 { font-size: 1.1rem; font-weight: 700; }
+.modal-close {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--bg3);
+  color: var(--text2);
+  font-size: .9rem;
+  display: flex; align-items: center; justify-content: center;
+}
+
 .error-msg {
   color: #ff6b6b;
   font-size: .88rem;

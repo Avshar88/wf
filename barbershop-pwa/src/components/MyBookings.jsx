@@ -1,27 +1,42 @@
 import { useEffect, useState } from 'react'
-import { getBookings } from '../utils/storage'
+import { getBookings, cancelBooking, canCancel, canChange } from '../utils/storage'
+import { supabase } from '../utils/supabase'
 import { BARBERS, SERVICES } from '../data/config'
+import RescheduleModal from './RescheduleModal'
 
 const MONTH_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 export default function MyBookings({ onBack }) {
   const [bookings, setBookings] = useState([])
   const [loading, setLoading] = useState(true)
+  const [rescheduleBooking, setRescheduleBooking] = useState(null)
 
-  useEffect(() => {
-    getBookings().then(data => {
-      setBookings(data)
-      setLoading(false)
-    })
-  }, [])
-
-  if (loading) {
-    return (
-      <div className="my-bookings">
-        <div className="empty-state"><p>Loading...</p></div>
-      </div>
-    )
+  async function load() {
+    setLoading(true)
+    const data = await getBookings()
+    setBookings(data)
+    setLoading(false)
   }
+
+  useEffect(() => { load() }, [])
+
+  async function handleCancel(b) {
+    if (!window.confirm(`Cancel appointment with ${BARBERS.find(br => br.id === b.barber_id)?.name} on ${b.date} at ${b.time}?`)) return
+    await cancelBooking(b.id)
+    const barber  = BARBERS.find(br => br.id === b.barber_id)
+    const service = SERVICES.find(s => s.id === b.service_id)
+    supabase.functions.invoke('notify-owner', {
+      body: {
+        booking: { ...b, name: b.name + ' ❌ CANCELLED', phone: b.phone },
+        service, barber,
+      }
+    }).catch(() => {})
+    load()
+  }
+
+  if (loading) return (
+    <div className="my-bookings"><div className="empty-state"><p>Loading...</p></div></div>
+  )
 
   return (
     <div className="my-bookings">
@@ -42,7 +57,10 @@ export default function MyBookings({ onBack }) {
             const [y, m, d] = b.date.split('-').map(Number)
             const dateLabel = `${MONTH_SHORT[m - 1]} ${d}, ${y}`
             const service = SERVICES.find(s => s.id === b.service_id)
-            const barber = BARBERS.find(br => br.id === b.barber_id)
+            const barber  = BARBERS.find(br => br.id === b.barber_id)
+            const cancelOk = canCancel(b)
+            const changeOk = canChange(b)
+
             return (
               <div key={b.id} className="booking-item">
                 <div className="bi-left">
@@ -52,6 +70,21 @@ export default function MyBookings({ onBack }) {
                   <div className="bi-name">{b.name}</div>
                   <div className="bi-service">{service?.name} · {barber?.name}</div>
                   <div className="bi-time">{dateLabel} at {b.time}</div>
+                  <div className="bi-actions">
+                    {changeOk && (
+                      <button className="bi-btn change" onClick={() => setRescheduleBooking(b)}>
+                        📅 Reschedule
+                      </button>
+                    )}
+                    {cancelOk && (
+                      <button className="bi-btn cancel" onClick={() => handleCancel(b)}>
+                        ✕ Cancel
+                      </button>
+                    )}
+                    {!cancelOk && !changeOk && (
+                      <span className="bi-locked">🔒 Cannot modify</span>
+                    )}
+                  </div>
                 </div>
                 <div className="bi-right">
                   <span className="bi-price">${b.price}</span>
@@ -67,6 +100,14 @@ export default function MyBookings({ onBack }) {
         <button className="btn-primary" style={{ marginTop: '1.5rem' }} onClick={onBack}>
           Book Another
         </button>
+      )}
+
+      {rescheduleBooking && (
+        <RescheduleModal
+          booking={rescheduleBooking}
+          onClose={() => setRescheduleBooking(null)}
+          onDone={() => { setRescheduleBooking(null); load() }}
+        />
       )}
     </div>
   )
