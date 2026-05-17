@@ -22,7 +22,7 @@ export function isSlotAvailable(bookings, barberId, date, time, serviceDuration)
     if (b.barber_id !== barberId || b.date !== dateStr) return false
     const [bH, bM] = b.time.split(':').map(Number)
     const bStart = bH * 60 + bM
-    const bEnd = bStart + b.service_duration
+    const bEnd = bStart + b.service_duration + 5 // 5 min cleanup buffer
     return newStart < bEnd && newEnd > bStart
   })
 }
