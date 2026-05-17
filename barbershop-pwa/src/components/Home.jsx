@@ -13,7 +13,7 @@ function getGreeting() {
   return GREETINGS.evening
 }
 
-export default function Home({ onBook, onMyBookings }) {
+export default function Home({ onBook, onMyBookings, onAdmin }) {
   return (
     <div className="home">
       <div className="home-hero">
@@ -62,6 +62,9 @@ export default function Home({ onBook, onMyBookings }) {
         </button>
         <button className="btn-ghost" onClick={onMyBookings}>
           My Bookings
+        </button>
+        <button className="btn-admin" onClick={onAdmin}>
+          ⚙️ Admin
         </button>
       </div>
     </div>

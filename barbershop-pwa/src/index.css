@@ -761,6 +761,13 @@ input  { font: inherit; color: inherit; }
 }
 
 /* ── Calendar Button ── */
+.btn-admin {
+  font-size: .78rem;
+  color: var(--text3);
+  padding: 8px;
+}
+.btn-admin:hover { color: var(--text2); }
+
 .btn-calendar {
   width: 100%;
   padding: 13px;
@@ -830,6 +837,159 @@ input  { font: inherit; color: inherit; }
   color: var(--text2);
   font-size: .9rem;
   display: flex; align-items: center; justify-content: center;
+}
+
+/* ── Admin Panel ── */
+.admin { display: flex; flex-direction: column; min-height: 100dvh; }
+
+.admin-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.adm-tab {
+  flex: 1;
+  padding: 14px;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--text2);
+  border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+}
+
+.adm-tab.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+.admin-content { padding: 16px 16px 100px; }
+
+.adm-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.adm-select {
+  flex: 1;
+  background: var(--bg2);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: .88rem;
+  color: var(--text);
+  outline: none;
+}
+
+.adm-select:focus { border-color: var(--gold); }
+
+.adm-clear {
+  color: var(--text3);
+  font-size: .9rem;
+  padding: 8px;
+}
+
+.adm-count {
+  font-size: .78rem;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+
+.adm-loading { color: var(--text2); text-align: center; padding: 32px; }
+
+.adm-list { display: flex; flex-direction: column; gap: 10px; }
+
+.adm-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  gap: 12px;
+}
+
+.adm-row-left { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.adm-row-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+
+.adm-datetime { display: flex; gap: 8px; align-items: center; }
+.adm-date { font-size: .78rem; color: var(--text2); }
+.adm-time { font-size: .95rem; font-weight: 700; color: var(--gold); }
+.adm-service { font-size: .9rem; font-weight: 600; }
+.adm-customer { font-size: .82rem; color: var(--text2); }
+.adm-barber-tag {
+  display: inline-block;
+  font-size: .72rem;
+  background: rgba(201,168,76,.12);
+  color: var(--gold);
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-top: 2px;
+  width: fit-content;
+}
+
+.adm-price { font-weight: 700; color: var(--gold); font-size: .95rem; }
+.adm-cancel-btn {
+  font-size: .8rem;
+  color: #ff6b6b;
+  background: rgba(255,107,107,.1);
+  border-radius: 50%;
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* ── Finance ── */
+.fin-summary { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 24px; }
+.fin-card.big { grid-column: 1 / -1; }
+
+.fin-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fin-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; color: var(--text3); }
+.fin-value { font-size: 1.5rem; font-weight: 800; color: var(--text); }
+.fin-value.gold { color: var(--gold); font-size: 2rem; }
+
+.fin-section-title {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text3);
+  margin: 20px 0 10px;
+}
+
+.fin-table { display: flex; flex-direction: column; gap: 8px; }
+
+.fin-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.fin-icon { font-size: 1.2rem; }
+.fin-name { flex: 1; font-size: .9rem; font-weight: 600; }
+.fin-count { font-size: .78rem; color: var(--text2); }
+.fin-amount { font-weight: 700; color: var(--gold); font-size: .95rem; }
+
+.barber-avatar-sm {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .85rem; font-weight: 700; color: #111;
+  flex-shrink: 0;
 }
 
 .error-msg {

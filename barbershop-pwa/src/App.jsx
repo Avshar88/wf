@@ -6,6 +6,7 @@ import StepDateTime from './components/StepDateTime'
 import StepDetails from './components/StepDetails'
 import StepConfirm from './components/StepConfirm'
 import MyBookings from './components/MyBookings'
+import AdminPanel from './components/AdminPanel'
 import { saveBooking, generateId } from './utils/storage'
 import { supabase } from './utils/supabase'
 import { formatDate } from './utils/availability'
@@ -90,8 +91,12 @@ export default function App() {
     touchStartX.current = null
   }
 
+  if (screen === 'admin') return (
+    <div className="app"><AdminPanel onBack={() => setScreen('home')} /></div>
+  )
+
   if (screen === 'home') return (
-    <div className="app"><Home onBook={startBooking} onMyBookings={() => setScreen('mybookings')} /></div>
+    <div className="app"><Home onBook={startBooking} onMyBookings={() => setScreen('mybookings')} onAdmin={() => setScreen('admin')} /></div>
   )
 
   if (screen === 'mybookings') return (
