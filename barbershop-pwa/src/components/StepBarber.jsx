@@ -1,4 +1,5 @@
 import { BARBERS } from '../data/config'
+import { vibrate } from '../utils/haptic'
 
 export default function StepBarber({ selected, onSelect }) {
   return (
@@ -12,9 +13,9 @@ export default function StepBarber({ selected, onSelect }) {
           <button
             key={b.id}
             className={`option-card ${selected?.id === b.id ? 'selected' : ''}`}
-            onClick={() => onSelect(b)}
+            onClick={() => { vibrate(); onSelect(b) }}
           >
-            <div className="barber-avatar-lg">{b.name[0]}</div>
+            <div className={`barber-avatar-lg avatar-${b.id}`}>{b.name[0]}</div>
             <div className="opt-body">
               <span className="opt-name">{b.name}</span>
               <span className="opt-sub">{b.speciality}</span>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getAvailableDates, getSlots, isSlotAvailable, formatDate } from '../utils/availability'
 import { getBookings } from '../utils/storage'
+import { vibrate } from '../utils/haptic'
 
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -13,10 +14,7 @@ export default function StepDateTime({ barberId, serviceDuration, selected, onSe
 
   useEffect(() => {
     setLoadingSlots(true)
-    getBookings().then(data => {
-      setBookings(data)
-      setLoadingSlots(false)
-    })
+    getBookings().then(data => { setBookings(data); setLoadingSlots(false) })
   }, [])
 
   const slots = selectedDate
@@ -26,14 +24,10 @@ export default function StepDateTime({ barberId, serviceDuration, selected, onSe
       }))
     : []
 
-  function handleDate(date) {
-    setSelectedDate(date)
-    onSelect(null)
-  }
+  const availableCount = slots.filter(s => s.available).length
 
-  function handleSlot(time) {
-    onSelect({ date: selectedDate, time })
-  }
+  function handleDate(date) { setSelectedDate(date); onSelect(null) }
+  function handleSlot(time) { vibrate(); onSelect({ date: selectedDate, time }) }
 
   return (
     <div className="step-content">
@@ -49,7 +43,7 @@ export default function StepDateTime({ barberId, serviceDuration, selected, onSe
             <button
               key={formatDate(d)}
               className={`date-chip ${active ? 'selected' : ''}`}
-              onClick={() => handleDate(d)}
+              onClick={() => { vibrate(); handleDate(d) }}
             >
               <span className="dc-day">{DAY_NAMES[d.getDay()]}</span>
               <span className="dc-num">{d.getDate()}</span>
@@ -61,7 +55,12 @@ export default function StepDateTime({ barberId, serviceDuration, selected, onSe
 
       {selectedDate && (
         <div className="slots-section">
-          <h3>Available Times</h3>
+          <div className="slots-header">
+            <h3>Available Times</h3>
+            {!loadingSlots && availableCount > 0 && availableCount <= 4 && (
+              <span className="slots-urgency">🔥 Only {availableCount} left!</span>
+            )}
+          </div>
           {loadingSlots ? (
             <p className="no-slots">Loading slots...</p>
           ) : (

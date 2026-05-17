@@ -1,4 +1,5 @@
 import { SERVICES } from '../data/config'
+import { vibrate } from '../utils/haptic'
 
 export default function StepService({ selected, onSelect }) {
   return (
@@ -8,12 +9,13 @@ export default function StepService({ selected, onSelect }) {
         <p>Select the service you'd like</p>
       </div>
       <div className="option-list">
-        {SERVICES.map(s => (
+        {SERVICES.map((s, i) => (
           <button
             key={s.id}
             className={`option-card ${selected?.id === s.id ? 'selected' : ''}`}
-            onClick={() => onSelect(s)}
+            onClick={() => { vibrate(); onSelect(s) }}
           >
+            {i === 0 && <div className="card-popular-tag">⭐ Popular</div>}
             <span className="opt-icon">{s.icon}</span>
             <div className="opt-body">
               <span className="opt-name">{s.name}</span>

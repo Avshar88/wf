@@ -1,3 +1,13 @@
+/* ── Animations ── */
+@keyframes slideInRight { from { transform: translateX(60px); opacity: 0 } to { transform: translateX(0); opacity: 1 } }
+@keyframes slideInLeft  { from { transform: translateX(-60px); opacity: 0 } to { transform: translateX(0); opacity: 1 } }
+@keyframes pulse        { 0%,100% { box-shadow: 0 0 0 0 rgba(201,168,76,.4) } 50% { box-shadow: 0 0 0 12px rgba(201,168,76,0) } }
+@keyframes fadeUp       { from { transform: translateY(20px); opacity: 0 } to { transform: translateY(0); opacity: 1 } }
+
+.slide-in-right { animation: slideInRight .28s cubic-bezier(.25,.46,.45,.94) both }
+.slide-in-left  { animation: slideInLeft  .28s cubic-bezier(.25,.46,.45,.94) both }
+.pulse-btn      { animation: pulse 2.5s infinite }
+
 /* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -583,6 +593,188 @@ input  { font: inherit; color: inherit; }
 }
 
 .empty-icon { font-size: 3rem; opacity: .5; }
+/* ── Avatar Colors ── */
+.avatar-1 { background: linear-gradient(135deg, #c9a84c, #8b5e20) }
+.avatar-2 { background: linear-gradient(135deg, #6c63ff, #3b37a0) }
+.avatar-3 { background: linear-gradient(135deg, #4caf82, #2d7a5a) }
+.avatar-4 { background: linear-gradient(135deg, #e05c5c, #a03030) }
+
+/* ── Popular Badge ── */
+.popular { border-color: var(--gold) !important; position: relative; }
+.popular-badge {
+  position: absolute; top: -10px; left: 12px;
+  background: var(--gold); color: #111;
+  font-size: .65rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 20px;
+  white-space: nowrap;
+}
+.card-popular-tag {
+  position: absolute; top: -10px; left: 12px;
+  background: var(--gold); color: #111;
+  font-size: .65rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 20px;
+}
+.option-card { position: relative; }
+
+/* ── Hero Greeting ── */
+.hero-greeting {
+  font-size: .85rem;
+  color: var(--gold-light);
+  margin-bottom: 6px;
+  letter-spacing: .02em;
+}
+
+/* ── Slots Urgency ── */
+.slots-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.slots-header h3 {
+  font-size: .85rem;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 0;
+}
+.slots-urgency {
+  font-size: .78rem;
+  font-weight: 700;
+  color: #ff6b6b;
+  background: rgba(255,107,107,.12);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+/* ── Ticket ── */
+.ticket {
+  width: 100%;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 16px 0;
+  animation: fadeUp .4s .3s both;
+}
+
+.ticket-top {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(160deg, #1f1f1f, #1a1a1a);
+}
+
+.ticket-shop {
+  font-size: .75rem;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 8px;
+}
+
+.ticket-service {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.ticket-barber {
+  font-size: .9rem;
+  color: var(--text2);
+}
+
+.ticket-barber strong { color: var(--text); }
+
+.ticket-divider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 24px;
+}
+
+.ticket-dash {
+  flex: 1;
+  border-top: 2px dashed var(--border);
+  margin: 0 16px;
+}
+
+.ticket-notch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bg);
+  flex-shrink: 0;
+}
+
+.ticket-notch.left  { margin-left: -12px; }
+.ticket-notch.right { margin-right: -12px; }
+
+.ticket-bottom {
+  padding: 16px 20px 20px;
+}
+
+.ticket-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.ticket-cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.tc-label {
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text3);
+}
+
+.tc-value {
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.time-big  { font-size: 1.4rem; font-weight: 800; color: var(--gold); }
+.price-gold { color: var(--gold); font-size: 1.2rem; font-weight: 800; }
+
+.ticket-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.ticket-id {
+  font-family: monospace;
+  font-size: .75rem;
+  color: var(--text3);
+  letter-spacing: .05em;
+}
+
+/* ── Calendar Button ── */
+.btn-calendar {
+  width: 100%;
+  padding: 13px;
+  background: transparent;
+  border: 2px solid var(--gold);
+  border-radius: var(--radius);
+  color: var(--gold);
+  font-weight: 700;
+  font-size: .95rem;
+  margin-top: 8px;
+  transition: background .15s;
+}
+.btn-calendar:hover { background: rgba(201,168,76,.08); }
+
 .empty-state p { color: var(--text2); font-size: .95rem; }
 
 .error-msg {
