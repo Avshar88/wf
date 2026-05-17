@@ -4,8 +4,9 @@ export function getSlots(date, serviceDuration) {
   const slots = []
   const { openHour, closeHour, slotInterval } = SCHEDULE
   const totalMinutes = (closeHour - openHour) * 60
+  const step = Math.max(slotInterval, serviceDuration)
 
-  for (let m = 0; m + serviceDuration <= totalMinutes; m += slotInterval) {
+  for (let m = 0; m + serviceDuration <= totalMinutes; m += step) {
     const h = openHour + Math.floor(m / 60)
     const min = m % 60
     slots.push(`${String(h).padStart(2, '0')}:${String(min).padStart(2, '0')}`)
