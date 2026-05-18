@@ -7,28 +7,28 @@ import StepDetails from './components/StepDetails'
 import StepConfirm from './components/StepConfirm'
 import MyBookings from './components/MyBookings'
 import AdminPanel from './components/AdminPanel'
+import { BrandMark, IconArrowLeft, IconArrowRight, IconCalendar } from './components/Icons'
 import { saveBooking, generateId } from './utils/storage'
 import { supabase } from './utils/supabase'
 import { formatDate } from './utils/availability'
 import { vibrate } from './utils/haptic'
 
 const STEPS = ['service', 'barber', 'datetime', 'details', 'confirm']
-const STEP_LABELS = { service: 'Service', barber: 'Barber', datetime: 'Date & Time', details: 'Details' }
 
 export default function App() {
-  const [screen, setScreen] = useState('home')
-  const [stepIndex, setStepIndex] = useState(0)
-  const [dir, setDir] = useState('forward')
-  const [service, setService] = useState(null)
-  const [barber, setBarber] = useState(null)
-  const [datetime, setDatetime] = useState(null)
-  const [details, setDetails] = useState(null)
+  const [screen, setScreen]                   = useState('home')
+  const [stepIndex, setStepIndex]             = useState(0)
+  const [dir, setDir]                         = useState('forward')
+  const [service, setService]                 = useState(null)
+  const [barber, setBarber]                   = useState(null)
+  const [datetime, setDatetime]               = useState(null)
+  const [details, setDetails]                 = useState(null)
   const [confirmedBooking, setConfirmedBooking] = useState(null)
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
+  const [loading, setLoading]                 = useState(false)
+  const [error, setError]                     = useState(null)
   const touchStartX = useRef(null)
 
-  const step = STEPS[stepIndex]
+  const step          = STEPS[stepIndex]
   const isLastInputStep = step === 'details'
 
   function startBooking() {
@@ -46,10 +46,10 @@ export default function App() {
   }
 
   function canProceed() {
-    if (step === 'service') return !!service
-    if (step === 'barber') return !!barber
+    if (step === 'service')  return !!service
+    if (step === 'barber')   return !!barber
     if (step === 'datetime') return !!datetime
-    if (step === 'details') return !!details
+    if (step === 'details')  return !!details
     return false
   }
 
@@ -91,65 +91,154 @@ export default function App() {
     touchStartX.current = null
   }
 
+  // ── Admin ──────────────────────────────────────────────────
   if (screen === 'admin') return (
-    <div className="app"><AdminPanel onBack={() => setScreen('home')} /></div>
+    <div className="app ambient-bg"><AdminPanel onBack={() => setScreen('home')} /></div>
   )
 
+  // ── Home ───────────────────────────────────────────────────
   if (screen === 'home') return (
-    <div className="app"><Home onBook={startBooking} onMyBookings={() => setScreen('mybookings')} onAdmin={() => setScreen('admin')} /></div>
+    <div className="app">
+      <Home onBook={startBooking} onMyBookings={() => setScreen('mybookings')} onAdmin={() => setScreen('admin')} />
+    </div>
   )
 
+  // ── My Bookings ────────────────────────────────────────────
   if (screen === 'mybookings') return (
-    <div className="app">
+    <div className="app ambient-bg">
       <div className="topbar">
-        <button className="back-btn" onClick={() => setScreen('home')}>← Back</button>
-        <span className="topbar-title">BarberHub</span>
-        <span />
+        <button className="back-btn" onClick={() => setScreen('home')}>
+          <IconArrowLeft size={18} color="var(--bh-gold)" />
+          Back
+        </button>
+        <BrandMark size={20} />
+        <span style={{ minWidth: 60 }} />
       </div>
       <MyBookings onBack={startBooking} />
     </div>
   )
 
-  const progressSteps = STEPS.slice(0, -1)
+  // ── Booking flow ───────────────────────────────────────────
   const animClass = dir === 'forward' ? 'slide-in-right' : 'slide-in-left'
 
+  // CTA label
+  let ctaLabel = loading ? 'Saving…' : isLastInputStep ? 'Confirm Appointment' : 'Continue'
+
+  // CTA summary content
+  function renderSummary() {
+    if (step === 'service' && service) {
+      return (
+        <>
+          <div className="cta-summary-left">
+            <span className="cta-summary-label">Selected</span>
+            <span className="cta-summary-value">{service.name}</span>
+          </div>
+          <span className="cta-summary-price">${service.price}</span>
+        </>
+      )
+    }
+    if (step === 'barber' && barber && service) {
+      return (
+        <>
+          <div className="cta-summary-left">
+            <span className="cta-summary-label">Barber</span>
+            <span className="cta-summary-value">{barber.name}</span>
+          </div>
+          <span className="cta-summary-price">${service.price}</span>
+        </>
+      )
+    }
+    if (step === 'datetime' && datetime && service) {
+      const d    = datetime.date
+      const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+      const mons = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+      return (
+        <>
+          <div className="cta-summary-left" style={{ gap: 6 }}>
+            <IconCalendar size={13} color="var(--bh-gold)" />
+            <span className="cta-summary-value">{days[d.getDay()]}, {mons[d.getMonth()]} {d.getDate()}</span>
+            <span style={{ color: 'var(--bh-ink-faint)' }}>·</span>
+            <span style={{ color: 'var(--bh-gold)', fontWeight: 600, fontSize: 12 }}>{datetime.time}</span>
+          </div>
+          <span className="cta-summary-price">${service.price}</span>
+        </>
+      )
+    }
+    return null
+  }
+
+  const summary = renderSummary()
+  const disabled = !canProceed() || loading
+
   return (
-    <div className="app" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+    <div className="app ambient-bg" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+      {/* Top bar */}
       <div className="topbar">
-        <button className="back-btn" onClick={goBack}>{step === 'confirm' ? '← Home' : '← Back'}</button>
-        <span className="topbar-title">BarberHub</span>
-        <span />
+        <button className="back-btn" onClick={goBack}>
+          <IconArrowLeft size={18} color="var(--bh-gold)" />
+          {step === 'confirm' ? 'Home' : 'Back'}
+        </button>
+        <BrandMark size={20} />
+        <span style={{ minWidth: 60 }} />
       </div>
 
-      {step !== 'confirm' && (
-        <div className="progress-bar">
-          {progressSteps.map((s, i) => (
-            <div key={s} className={`progress-step ${i < stepIndex ? 'done' : ''} ${i === stepIndex ? 'active' : ''}`}>
-              <div className="ps-dot">{i < stepIndex ? '✓' : i + 1}</div>
-              <span>{STEP_LABELS[s]}</span>
-            </div>
-          ))}
-        </div>
-      )}
-
+      {/* Step content */}
       <div className={`step-wrapper ${animClass}`} key={stepIndex}>
-        {step === 'service'  && <StepService selected={service} onSelect={setService} />}
-        {step === 'barber'   && <StepBarber selected={barber} onSelect={setBarber} />}
-        {step === 'datetime' && <StepDateTime barberId={barber.id} serviceDuration={service.duration} selected={datetime} onSelect={setDatetime} />}
-        {step === 'details'  && <StepDetails initial={details} onChange={setDetails} />}
+        {step === 'service'  && (
+          <StepService selected={service} onSelect={setService} />
+        )}
+        {step === 'barber'   && (
+          <StepBarber selected={barber} onSelect={setBarber} service={service} />
+        )}
+        {step === 'datetime' && (
+          <StepDateTime
+            barberId={barber.id}
+            serviceDuration={service.duration}
+            selected={datetime}
+            onSelect={setDatetime}
+            service={service}
+            barber={barber}
+          />
+        )}
+        {step === 'details'  && (
+          <StepDetails
+            initial={details}
+            onChange={setDetails}
+            service={service}
+            barber={barber}
+            datetime={datetime}
+          />
+        )}
         {step === 'confirm'  && <StepConfirm booking={confirmedBooking} />}
         {error && <p className="error-msg">{error}</p>}
       </div>
 
-      <div className="bottom-bar">
-        {step !== 'confirm' ? (
-          <button className="btn-primary btn-full" disabled={!canProceed() || loading} onClick={handleNext}>
-            {loading ? 'Saving...' : isLastInputStep ? 'Confirm Booking' : 'Continue →'}
+      {/* Sticky CTA */}
+      {step !== 'confirm' ? (
+        <div className="cta-bar">
+          {summary && (
+            <div className="cta-summary">
+              {summary}
+            </div>
+          )}
+          <button
+            className="btn-cta"
+            disabled={disabled}
+            onClick={handleNext}
+          >
+            {ctaLabel}
+            {!disabled && (
+              <IconArrowRight size={17} color="var(--bh-btn-text)" strokeWidth={2} />
+            )}
           </button>
-        ) : (
-          <button className="btn-primary btn-full" onClick={() => setScreen('home')}>Back to Home</button>
-        )}
-      </div>
+        </div>
+      ) : (
+        <div className="cta-bar">
+          <button className="btn-ghost-gold" onClick={() => setScreen('home')}>
+            Back to Home
+          </button>
+        </div>
+      )}
     </div>
   )
 }
