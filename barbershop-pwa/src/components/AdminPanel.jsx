@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../utils/supabase'
 import { BARBERS, SERVICES } from '../data/config'
+import { BrandMark, IconArrowLeft } from './Icons'
 
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
@@ -68,9 +69,11 @@ export default function AdminPanel({ onBack }) {
   return (
     <div className="admin">
       <div className="topbar">
-        <button className="back-btn" onClick={onBack}>← Back</button>
-        <span className="topbar-title">Admin</span>
-        <span />
+        <button className="back-btn" onClick={onBack}>
+          <IconArrowLeft size={16} color="var(--bh-gold)" /> Back
+        </button>
+        <BrandMark size={20} />
+        <span style={{ width: 60 }} />
       </div>
 
       <div className="admin-tabs">
