@@ -1,0 +1,68 @@
+{
+  "name": "eBay Telegram AI Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": ["message"],
+        "additionalFields": {}
+      },
+      "id": "node-tg-trigger",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.1,
+      "position": [200, 400],
+      "webhookId": "ebay-ai-agent-v1",
+      "credentials": { "telegramApi": { "id": "telegram-cred", "name": "Telegram Bot" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "const msg = $input.first().json;\nconst text = msg?.message?.text || '';\nconst chatId = msg?.message?.chat?.id;\nconst firstName = msg?.message?.from?.first_name || '';\nreturn [{ json: { text, chatId, firstName } }];"
+      },
+      "id": "node-extract",
+      "name": "Extract Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [400, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const CLIENT_ID = $env.EBAY_CLIENT_ID;\nconst CLIENT_SECRET = $env.EBAY_CLIENT_SECRET;\nconst REFRESH_TOKEN = $env.EBAY_REFRESH_TOKEN;\n\nconst chatId = $input.first().json.chatId;\nconst userText = $input.first().json.text;\nconst firstName = $input.first().json.firstName;\n\ntry {\n  const credentials = Buffer.from(CLIENT_ID + ':' + CLIENT_SECRET).toString('base64');\n\n  // Get token with all needed scopes\n  const tokenResp = await this.helpers.request({\n    method: 'POST',\n    url: 'https://api.ebay.com/identity/v1/oauth2/token',\n    headers: {\n      'Authorization': 'Basic ' + credentials,\n      'Content-Type': 'application/x-www-form-urlencoded'\n    },\n    form: {\n      grant_type: 'refresh_token',\n      refresh_token: REFRESH_TOKEN,\n      scope: 'https://api.ebay.com/oauth/api_scope/sell.fulfillment.readonly https://api.ebay.com/oauth/api_scope/sell.inventory.readonly https://api.ebay.com/oauth/api_scope/sell.marketing.readonly'\n    }\n  });\n\n  const { access_token } = JSON.parse(tokenResp);\n\n  // Fetch last 90 days orders (covers most questions)\n  const ninetyDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString();\n  const ordersResp = await this.helpers.request({\n    method: 'GET',\n    url: `https://api.ebay.com/sell/fulfillment/v1/order?filter=creationdate:[${ninetyDaysAgo}..]&limit=200`,\n    headers: { 'Authorization': `Bearer ${access_token}` }\n  });\n\n  const { orders = [], total = 0 } = JSON.parse(ordersResp);\n\n  // Build structured data for Claude\n  const orderData = orders.map(o => ({\n    orderId: (o.orderId || '').slice(-10),\n    date: o.creationDate ? new Date(o.creationDate).toISOString().split('T')[0] : null,\n    amount: parseFloat(o.pricingSummary?.total?.value || 0),\n    currency: o.pricingSummary?.total?.currency || 'USD',\n    buyer: o.buyer?.username || 'unknown',\n    status: o.orderFulfillmentStatus || 'unknown',\n    items: (o.lineItems || []).map(li => ({\n      title: li.title || 'N/A',\n      quantity: li.quantity || 1,\n      price: parseFloat(li.lineItemCost?.value || 0)\n    }))\n  }));\n\n  // Fetch active listings count\n  let listingsSummary = { total: 0, published: 0 };\n  try {\n    const listResp = await this.helpers.request({\n      method: 'GET',\n      url: 'https://api.ebay.com/sell/inventory/v1/offer?limit=100',\n      headers: { 'Authorization': `Bearer ${access_token}` }\n    });\n    const { offers = [], total: lt = 0 } = JSON.parse(listResp);\n    listingsSummary = {\n      total: lt,\n      published: offers.filter(o => o.status === 'PUBLISHED').length,\n      unpublished: offers.filter(o => o.status !== 'PUBLISHED').length\n    };\n  } catch(e) { /* ignore listings errors */ }\n\n  return [{ json: { chatId, userText, firstName, orderData, totalOrders: total, listingsSummary, today: new Date().toISOString().split('T')[0] } }];\n\n} catch(e) {\n  return [{ json: { chatId, userText, firstName, error: e.message, orderData: [], totalOrders: 0, listingsSummary: { total: 0, published: 0 }, today: new Date().toISOString().split('T')[0] } }];\n}"
+      },
+      "id": "node-ebay-data",
+      "name": "Fetch eBay Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [620, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const CLAUDE_API_KEY = $env.CLAUDE_API_KEY || $env.ANTHROPIC_API_KEY || '';\n\nconst { chatId, userText, firstName, orderData, totalOrders, listingsSummary, today, error } = $input.first().json;\n\nif (error) {\n  return [{ json: { chatId, reply: `❌ eBay-ից տվյալ ստանալու սխալ:\\n${error}\\n\\nՍտուգիր Client Secret-ը կամ Refresh Token-ը։` } }];\n}\n\nif (!CLAUDE_API_KEY) {\n  return [{ json: { chatId, reply: '❌ CLAUDE_API_KEY կամ ANTHROPIC_API_KEY env variable-ը սահմանված չէ։' } }];\n}\n\nconst systemPrompt = `Դու eBay seller-ի AI assistant ես։ Քո անունն է Prime Outlet Bot։\nՕգտվողի անունը ${firstName || 'seller'} է։\nՀԱՅԵՐԵՆ պատասխանիր, կարճ ու հստակ, HTML formatting-ով (Telegram-ի համար)։\nՕգտագործիր <b>bold</b> կարևոր թվերի համար։\nԵթե թվեր ես հաշվում, ցույց տուր աշխատանքը (քանի order, ընդհանուր գումար)։\n\nՀargest DATE: ${today}\n\neBay ORDERS DATA (last 90 days, ${orderData.length} orders loaded from total ${totalOrders}):\n${JSON.stringify(orderData, null, 2)}\n\nLISTINGS SUMMARY:\n- Total offers: ${listingsSummary.total}\n- Published: ${listingsSummary.published}\n- Unpublished: ${listingsSummary.unpublished || 0}\n\nInstructions:\n- Օգտատերը կարող է հարցնել ամեն ինչ՝ \"վերջի 10 օրում վաճառք\", \"ամենաշատ վաճառված ապրանք\", \"երեքշաբթի ինչ եղավ\" etc.\n- Ճշտորեն հաշվիր ըստ date-ների\n- Եթե data-ն բավական չէ (90 օրից հին), ասա\n- Revenue հաշվելիս գումարիր amount field-ները`;\n\ntry {\n  const response = await this.helpers.request({\n    method: 'POST',\n    url: 'https://api.anthropic.com/v1/messages',\n    headers: {\n      'x-api-key': CLAUDE_API_KEY,\n      'anthropic-version': '2023-06-01',\n      'content-type': 'application/json'\n    },\n    body: JSON.stringify({\n      model: 'claude-haiku-4-5-20251001',\n      max_tokens: 1024,\n      system: systemPrompt,\n      messages: [{ role: 'user', content: userText }]\n    })\n  });\n\n  const result = JSON.parse(response);\n  const reply = result.content?.[0]?.text || 'Պատասխան ստանալ չհաջողվեց։';\n  return [{ json: { chatId, reply } }];\n\n} catch(e) {\n  return [{ json: { chatId, reply: `❌ Claude API սխալ: ${e.message}` } }];\n}"
+      },
+      "id": "node-claude",
+      "name": "Claude AI Answer",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [860, 400]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "={{ $json.reply }}",
+        "additionalFields": { "parse_mode": "HTML" }
+      },
+      "id": "node-send",
+      "name": "Send Telegram Reply",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1080, 400],
+      "credentials": { "telegramApi": { "id": "telegram-cred", "name": "Telegram Bot" } }
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": { "main": [[{ "node": "Extract Message", "type": "main", "index": 0 }]] },
+    "Extract Message": { "main": [[{ "node": "Fetch eBay Data", "type": "main", "index": 0 }]] },
+    "Fetch eBay Data": { "main": [[{ "node": "Claude AI Answer", "type": "main", "index": 0 }]] },
+    "Claude AI Answer": { "main": [[{ "node": "Send Telegram Reply", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}
