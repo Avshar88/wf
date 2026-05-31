@@ -1,0 +1,68 @@
+{
+  "name": "eBay Mega AI Agent v5",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": ["message"],
+        "additionalFields": {}
+      },
+      "id": "node-tg-trigger",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.1,
+      "position": [180, 400],
+      "webhookId": "ebay-mega-agent-v5",
+      "credentials": { "telegramApi": { "id": "telegram-cred", "name": "Telegram Bot" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "const msg = $input.first().json;\nconst text = msg?.message?.text || '';\nconst chatId = msg?.message?.chat?.id;\nconst firstName = msg?.message?.from?.first_name || '';\nreturn [{ json: { text, chatId, firstName } }];"
+      },
+      "id": "node-extract",
+      "name": "Extract Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [380, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "return await (async function () {\n\nconst CLIENT_ID = 'YOUR_EBAY_CLIENT_ID';\nconst CLIENT_SECRET = 'YOUR_EBAY_CLIENT_SECRET';\nconst REFRESH_TOKEN = 'YOUR_EBAY_REFRESH_TOKEN';\nconst MARKETPLACE_ID = 'EBAY_US';\nconst ORDER_LOOKBACK_DAYS = 90;\nconst PAGE_LIMIT = 100;\n\nconst input = $input.first().json;\nconst userText = input.text || '';\nconst chatId = input.chatId;\nconst firstName = input.firstName || '';\nconst b64 = Buffer.from(CLIENT_ID + ':' + CLIENT_SECRET).toString('base64');\n\nfunction mv(m) { return Number(m?.value || 0); }\nfunction dateLA(v) { return v ? new Date(v).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }) : null; }\n\nasync function getToken(scope) {\n  const r = await this.helpers.request({ method: 'POST', url: 'https://api.ebay.com/identity/v1/oauth2/token', headers: { 'Authorization': 'Basic ' + b64, 'Content-Type': 'application/x-www-form-urlencoded' }, form: { grant_type: 'refresh_token', refresh_token: REFRESH_TOKEN, scope } });\n  const j = typeof r === 'string' ? JSON.parse(r) : r;\n  if (!j.access_token) throw new Error(j.error_description || 'no token');\n  return j.access_token;\n}\n\nasync function apiGet(url, token) {\n  const r = await this.helpers.request({ method: 'GET', url, headers: { 'Authorization': 'Bearer ' + token } });\n  return typeof r === 'string' ? JSON.parse(r) : r;\n}\n\nasync function getPaged(url, token, key) {\n  const out = []; let offset = 0;\n  for (let p = 0; p < 20; p++) {\n    const sep = url.includes('?') ? '&' : '?';\n    const data = await apiGet.call(this, url + sep + 'limit=' + PAGE_LIMIT + '&offset=' + offset, token);\n    const rows = data[key] || [];\n    out.push(...rows);\n    const total = typeof data.total === 'number' ? data.total : out.length;\n    if (!rows.length || out.length >= total || !data.next) break;\n    offset += PAGE_LIMIT;\n  }\n  return out;\n}\n\nasync function safe(label, fn) {\n  try { return { ok: true, data: await fn() }; }\n  catch (e) { return { ok: false, error: label + ': ' + (e.message || String(e)) }; }\n}\n\nfunction summarizeOrders(orders) {\n  const byDate = {}, byItem = {};\n  let gross = 0, dueSeller = 0, unshipped = 0, refunded = 0;\n  for (const o of orders) {\n    const d = dateLA(o.creationDate) || 'unknown';\n    const amt = mv(o.pricingSummary?.total);\n    gross += amt; dueSeller += mv(o.paymentSummary?.totalDueSeller);\n    byDate[d] = byDate[d] || { orders: 0, gross: 0 };\n    byDate[d].orders++; byDate[d].gross += amt;\n    if (o.orderFulfillmentStatus !== 'FULFILLED') unshipped++;\n    if ((o.paymentSummary?.refunds || []).length) refunded++;\n    for (const item of o.lineItems || []) {\n      const k = item.sku || item.title || 'unknown';\n      byItem[k] = byItem[k] || { title: item.title || 'N/A', quantity: 0, revenue: 0 };\n      byItem[k].quantity += Number(item.quantity || 0);\n      byItem[k].revenue += mv(item.lineItemCost) * Number(item.quantity || 1);\n    }\n  }\n  return { count: orders.length, gross, dueSeller, unshipped, refunded, byDate, topItems: Object.values(byItem).sort((a,b) => b.revenue - a.revenue).slice(0,20) };\n}\n\nfunction summarizeOffers(offers) {\n  let pub = 0, unpub = 0; const low = [], unpubList = [];\n  for (const o of offers) {\n    const st = o.status || o.listing?.listingStatus || 'UNKNOWN';\n    const isPub = st === 'PUBLISHED' || st === 'ACTIVE';\n    if (isPub) pub++;\n    else { unpub++; unpubList.push({ sku: o.sku, status: st }); }\n    const qty = Number(o.availableQuantity ?? 0);\n    if (qty > 0 && qty <= 2) low.push({ sku: o.sku, quantity: qty });\n  }\n  return { count: offers.length, published: pub, unpublished: unpub, lowQuantity: low.slice(0,30), unpublishedOffers: unpubList.slice(0,30) };\n}\n\nfunction summarizeInventory(items) {\n  let noImg = 0, noAsp = 0; const low = [], oos = [];\n  const catMap = {};\n  for (const item of items) {\n    if (!(item.product?.imageUrls||[]).length) noImg++;\n    if (!Object.keys(item.product?.aspects||{}).length) noAsp++;\n    const qty = Number(item.availability?.shipToLocationAvailability?.quantity || 0);\n    const s = { sku: item.sku, title: item.product?.title || null, quantity: qty };\n    if (qty === 0) oos.push(s); else if (qty <= 2) low.push(s);\n    const types = item.product?.aspects?.Type || item.product?.aspects?.type || [];\n    const depts = item.product?.aspects?.Department || item.product?.aspects?.department || [];\n    for (const t of types) { catMap[t] = (catMap[t] || 0) + 1; }\n    for (const d of depts) { catMap[d] = (catMap[d] || 0) + 1; }\n  }\n  const categories = Object.entries(catMap).sort((a,b) => b[1]-a[1]).map(([name,count]) => ({ name, count }));\n  return { count: items.length, missingImages: noImg, missingAspects: noAsp, lowStock: low.slice(0,30), outOfStock: oos.slice(0,30), categories };\n}\n\nconst since = new Date(Date.now() - ORDER_LOOKBACK_DAYS * 86400000).toISOString();\nconst tF = await getToken.call(this, 'https://api.ebay.com/oauth/api_scope/sell.fulfillment.readonly');\nconst tI = await getToken.call(this, 'https://api.ebay.com/oauth/api_scope/sell.inventory.readonly');\nconst tM = await getToken.call(this, 'https://api.ebay.com/oauth/api_scope/sell.marketing.readonly');\n\nconst ordersR    = await safe('orders',    () => getPaged.call(this, 'https://api.ebay.com/sell/fulfillment/v1/order?filter=creationdate:[' + since + '..]', tF, 'orders'));\nconst offersR    = await safe('offers',    () => getPaged.call(this, 'https://api.ebay.com/sell/inventory/v1/offer', tI, 'offers'));\nconst inventoryR = await safe('inventory', () => getPaged.call(this, 'https://api.ebay.com/sell/inventory/v1/inventory_item', tI, 'inventoryItems'));\nconst promoR     = await safe('promos',    () => getPaged.call(this, 'https://api.ebay.com/sell/marketing/v1/promotion?marketplace_id=' + MARKETPLACE_ID, tM, 'promotions'));\nconst campR      = await safe('campaigns', () => getPaged.call(this, 'https://api.ebay.com/sell/marketing/v1/ad_campaign', tM, 'campaigns'));\nconst tFinR      = await safe('fin_token', () => getToken.call(this, 'https://api.ebay.com/oauth/api_scope/sell.finances'));\nconst finR       = tFinR.ok ? await safe('transactions', () => getPaged.call(this, 'https://apiz.ebay.com/sell/finances/v1/transaction?filter=transactionDate:[' + since + '..]', tFinR.data, 'transactions')) : { ok: false, error: 'finances not authorized' };\n\nconst orders     = ordersR.ok    ? ordersR.data    : [];\nconst offers     = offersR.ok    ? offersR.data    : [];\nconst inventory  = inventoryR.ok ? inventoryR.data : [];\nconst promotions = promoR.ok     ? promoR.data     : [];\nconst campaigns  = campR.ok      ? campR.data      : [];\nconst txns       = finR.ok       ? finR.data       : [];\nconst errors     = [ordersR, offersR, inventoryR, promoR, campR, finR].filter(x => !x.ok).map(x => x.error);\n\nreturn [{ json: { chatId, userText, firstName, fetchedAt: new Date().toISOString(), dataWindow: { days: ORDER_LOOKBACK_DAYS, since }, errors, summary: { orders: summarizeOrders(orders), offers: summarizeOffers(offers), inventory: summarizeInventory(inventory), promotions: promotions.map(p => ({ name: p.name, status: p.promotionStatus, startDate: p.startDate, endDate: p.endDate })).slice(0,50), adCampaigns: campaigns.map(c => ({ name: c.campaignName || c.name, status: c.campaignStatus, type: c.campaignType })).slice(0,50), finances: { loaded: txns.length } }, rawOrders: orders.slice(0,50), rawOffers: offers.slice(0,100), rawInventory: inventory.slice(0,100) } }];\n}).call(this);"
+      },
+      "id": "node-ebay-data",
+      "name": "Fetch eBay Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [600, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const OPENAI_KEY = 'YOUR_OPENAI_API_KEY';\nconst d = $input.first().json;\nif (!d.summary) return [{ json: { chatId: d.chatId, reply: 'eBay data error.' } }];\nconst s = d.summary;\nconst today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });\nconst byDate = s.orders.byDate || {};\nconst l7 = Object.entries(byDate).filter(([dt]) => new Date(dt) >= new Date(Date.now()-7*86400000));\nconst l30 = Object.entries(byDate).filter(([dt]) => new Date(dt) >= new Date(Date.now()-30*86400000));\nconst r7 = l7.reduce((s,[,v]) => s+v.gross, 0).toFixed(2);\nconst c7 = l7.reduce((s,[,v]) => s+v.orders, 0);\nconst r30 = l30.reduce((s,[,v]) => s+v.gross, 0).toFixed(2);\nconst c30 = l30.reduce((s,[,v]) => s+v.orders, 0);\n\nconst activeListings = s.offers.published > 0 ? s.offers.published : s.inventory.count;\nconst listingSource = s.offers.published > 0 ? 'offers API' : 'inventory items count';\n\nconst cats = (s.inventory.categories || []).map(c => c.name + '(' + c.count + ')').join(', ');\n\nconst system = 'You are an eBay seller assistant named Prime Outlet Bot. ALWAYS reply in Armenian. Use ONLY Telegram HTML formatting: <b>text</b> for bold. NEVER use **markdown**. NEVER use asterisks.\\n\\nSeller: ' + (d.firstName||'seller') + '\\nToday (LA time): ' + today + '\\nData window: last ' + (d.dataWindow?.days||90) + ' days\\nErrors: ' + ((d.errors||[]).join(', ')||'none') + '\\n\\n== QUICK STATS ==\\nLast 7 days: ' + c7 + ' orders, $' + r7 + '\\nLast 30 days: ' + c30 + ' orders, $' + r30 + '\\n90d total: ' + s.orders.count + ' orders, $' + (s.orders.gross||0).toFixed(2) + '\\nUnshipped: ' + s.orders.unshipped + ' | Refunded: ' + s.orders.refunded + '\\nActive listings: ' + activeListings + ' (source: ' + listingSource + ')\\nPublished offers: ' + s.offers.published + ' | Total offers: ' + s.offers.count + '\\nInventory items: ' + s.inventory.count + '\\nLow stock: ' + (s.offers.lowQuantity?.length||0) + ' | Out of stock: ' + (s.inventory.outOfStock?.length||0) + '\\nMissing images: ' + s.inventory.missingImages + ' | Promotions: ' + (s.promotions?.length||0) + ' | Campaigns: ' + (s.adCampaigns?.length||0) + '\\n\\n== CATEGORIES (from inventory aspects) ==\\n' + (cats || 'none') + '\\n\\n== ORDERS BY DATE (LA timezone, YYYY-MM-DD) ==\\n' + JSON.stringify(byDate) + '\\n\\n== TOP SELLING ITEMS ==\\n' + JSON.stringify(s.orders.topItems) + '\\n\\n== PROMOTIONS ==\\n' + JSON.stringify(s.promotions) + '\\n\\n== AD CAMPAIGNS ==\\n' + JSON.stringify(s.adCampaigns) + '\\n\\n== OFFERS SUMMARY ==\\n' + JSON.stringify(s.offers) + '\\n\\n== RAW ORDERS ==\\n' + JSON.stringify(d.rawOrders) + '\\n\\nRULES:\\n- All dates are in LA timezone (America/Los_Angeles)\\n- Answer ONLY from data above, do not guess\\n- For date questions: look up byDate object using exact YYYY-MM-DD key\\n- If a date has no entry in byDate = 0 orders that day\\n- Active listings count = inventory items count (' + s.inventory.count + ') since all listings were created via API\\n- promotions = sale events, coupons, markdowns\\n- campaigns = PPC promoted listings\\n- Max 8 lines per answer\\n- Use <b>bold</b> for all numbers';\n\ntry {\n  const r = await this.helpers.request({ method: 'POST', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Authorization': 'Bearer ' + OPENAI_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify({ model: 'gpt-4o-mini', max_tokens: 1200, temperature: 0.1, messages: [{ role: 'system', content: system }, { role: 'user', content: d.userText }] }) });\n  const result = typeof r === 'string' ? JSON.parse(r) : r;\n  return [{ json: { chatId: d.chatId, reply: result.choices?.[0]?.message?.content || 'Սխալ' } }];\n} catch(e) {\n  return [{ json: { chatId: d.chatId, reply: 'AI error: ' + e.message } }];\n}"
+      },
+      "id": "node-ai",
+      "name": "AI Answer",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [860, 400]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "={{ $json.reply }}",
+        "additionalFields": { "parse_mode": "HTML" }
+      },
+      "id": "node-send",
+      "name": "Send Telegram Reply",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1080, 400],
+      "credentials": { "telegramApi": { "id": "telegram-cred", "name": "Telegram Bot" } }
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": { "main": [[{ "node": "Extract Message", "type": "main", "index": 0 }]] },
+    "Extract Message": { "main": [[{ "node": "Fetch eBay Data", "type": "main", "index": 0 }]] },
+    "Fetch eBay Data": { "main": [[{ "node": "AI Answer", "type": "main", "index": 0 }]] },
+    "AI Answer": { "main": [[{ "node": "Send Telegram Reply", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}
