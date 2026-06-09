@@ -1,0 +1,869 @@
+{
+  "name": "WALMART NEW",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "wm-0001-0001-0001-0001-000000000001",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-2208, 1056]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c01",
+              "name": "walmart_client_id",
+              "value": "793bf3cc-285e-41ce-a063-d30a134cf1fb",
+              "type": "string"
+            },
+            {
+              "id": "c02",
+              "name": "walmart_client_secret",
+              "value": "ecNNDZUXYW_iDgK5yNXcczqhfDXJv1MlWQyhnLnNyU1x1199DinnLSYmaUSsp2qC4JbEvG6ztzc-1k5kGvfjrA",
+              "type": "string"
+            },
+            {
+              "id": "c03",
+              "name": "ebay_basic_auth",
+              "value": "Basic SHJhY2h5YUstUHJpbWVPdXQtUFJELTE0YzU3NWU0Mi02ZWQ5ZTE2MTpQUkQtNGM1NzVlNDJlOTRmLWFiYjItNGEwZS05MGRkLTAwOWM=",
+              "type": "string"
+            },
+            {
+              "id": "c04",
+              "name": "ebay_refresh_token",
+              "value": "v^1.1#i^1#p^3#I^3#r^1#f^0#t^Ul4xMF85OjM1QjczN0NEQ0FCNUZGRDZCQzgzMEYyOTA4REQ4NjdFXzJfMSNFXjI2MA==",
+              "type": "string"
+            },
+            {
+              "id": "c05",
+              "name": "gdrive_file_id",
+              "value": "1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi",
+              "type": "string"
+            },
+            {
+              "id": "c06",
+              "name": "openai_api_key",
+              "value": "PUT_YOUR_OPENAI_KEY_HERE",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0002-0002-0002-0002-000000000002",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [-2160, 672]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://marketplace.walmartapis.com/v3/token",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Basic ' + Buffer.from($json.walmart_client_id + ':' + $json.walmart_client_secret).toString('base64') }}"
+            },
+            {
+              "name": "WM_SVC.NAME",
+              "value": "Walmart Marketplace"
+            },
+            {
+              "name": "WM_QOS.CORRELATION_ID",
+              "value": "={{ $now.toMillis().toString() }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "grant_type",
+              "value": "client_credentials"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0003-0003-0003-0003-000000000003",
+      "name": "Get Walmart Token",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [-1840, 304]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.ebay.com/identity/v1/oauth2/token",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Authorization",
+              "value": "={{ $('Config').first().json.ebay_basic_auth }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "grant_type",
+              "value": "refresh_token"
+            },
+            {
+              "name": "refresh_token",
+              "value": "={{ $('Config').first().json.ebay_refresh_token }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0004-0004-0004-0004-000000000004",
+      "name": "Get eBay Token",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [-1840, 512]
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi",
+          "mode": "list",
+          "cachedResultName": "menifest masys COLOR.xlsx",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1MzJAv7uwY5IJaOSZFbB5neA5Enu5yMWi/edit?usp=drivesdk"
+        },
+        "options": {}
+      },
+      "id": "wm-0005-0005-0005-0005-000000000005",
+      "name": "Download Manifest",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [-1520, 320],
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "i19wUf8iJAm1dUhF",
+          "name": "Google Drive OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "sheetName": "16878279"
+        }
+      },
+      "id": "wm-0006-0006-0006-0006-000000000006",
+      "name": "Extract XLSX Rows",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-1280, 352]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const row = $input.item.json;\n\nconst get = (...keys) => {\n  for (const k of keys) {\n    for (const rowKey of Object.keys(row)) {\n      if (rowKey.trim().toUpperCase() === k.toUpperCase()) {\n        const v = row[rowKey];\n        if (v !== undefined && v !== null && String(v).trim() !== '') {\n          return String(v).trim();\n        }\n      }\n    }\n  }\n  return '';\n};\n\nconst upcRaw = get('UPC');\nconst upcDigits = upcRaw.replace(/[^0-9]/g, '');\nconst upc = upcDigits.length === 11 ? upcDigits.padStart(12, '0') : upcDigits;\n\nif (!upc || upc.length < 6) {\n  return { json: { skip: true, upc: '', status: 'skip' } };\n}\n\nconst rawBrand = get('BRAND') || get('VENDOR NAME') || 'Unbranded';\nconst brand = rawBrand.split('/')[0].trim() || 'Unbranded';\n\nconst productName = get('ITEM DESCRIPTION', 'PRODUCT NAME', 'DESCRIPTION');\nconst color       = get('COLOR');\nconst rawSize     = get('SIZE');\nconst departmentName = get('DEPARTMENT NAME', 'DEPARTMENT');\n\nconst excelCategoryId   = get('CATEGORY_ID');\nconst excelCategoryName = get('CATEGORY_NAME');\nconst excelType         = get('EBAY_TYPE');\nconst excelStyle        = get('EBAY_STYLE');\nconst excelUnderwire    = get('EBAY_UNDERWIRE');\nconst excelStrap        = get('EBAY_STRAP');\nconst excelClosure      = get('EBAY_CLOSURE');\nconst excelBandSize     = get('EBAY_BAND_SIZE');\nconst excelCupSize      = get('EBAY_CUP_SIZE');\nconst excelSizeClean    = get('EBAY_SIZE');\nconst excelDepartment   = get('EBAY_DEPARTMENT');\nconst excelFeatures     = get('EBAY_FEATURES');\nconst excelPattern      = get('EBAY_PATTERN');\nconst excelTheme        = get('EBAY_THEME');\nconst excelSetIncludes  = get('EBAY_SET_INCLUDES');\n\nconst SIZE_WORD_MAP = {\n  'XXLARGE':'XXL','XX LARGE':'XXL','XXLG':'XXL','XX LG':'XXL',\n  'XLARGE':'XL','X LARGE':'XL','XLRG':'XL','X LG':'XL',\n  'LARGE':'L','LRG':'L','LG':'L','MEDIUM':'M','MED':'M',\n  'SMALL':'S','SM':'S','XSMALL':'XS','X SMALL':'XS',\n  'XXXLARGE':'3XL','XXX LARGE':'3XL','3X LARGE':'3XL','3XLARGE':'3XL',\n  'ONE SIZE':'One Size','ONESIZE':'One Size'\n};\n\nlet size = excelSizeClean || '';\nif (!size) {\n  const rawUpper = rawSize.toUpperCase().trim();\n  if (SIZE_WORD_MAP[rawUpper]) {\n    size = SIZE_WORD_MAP[rawUpper];\n  } else {\n    const braMatch = rawSize.match(/(\\d{2})\\s*([A-Z]{1,4})/i);\n    if (braMatch) {\n      size = braMatch[1] + braMatch[2].toUpperCase();\n    } else {\n      size = rawSize.replace(/\\([^)]*\\)/g, '').replace(/\\s+/g,'').toUpperCase().trim();\n    }\n  }\n}\n\nconst COLOR_MAP = {\n  black:'Black',white:'White',beige:'Beige',nude:'Beige',cream:'Ivory',\n  grey:'Gray',gray:'Gray',silver:'Silver',red:'Red',darkred:'Red',\n  wine:'Red',pink:'Pink',rose:'Pink',coral:'Pink',blush:'Pink',\n  mauve:'Pink',cerise:'Pink',blue:'Blue',navy:'Blue',royal:'Blue',\n  denim:'Blue',cobalt:'Blue',green:'Green',mint:'Green',sage:'Green',\n  olive:'Green',teal:'Green',purple:'Purple',lavender:'Purple',\n  plum:'Purple',burgundy:'Purple',violet:'Purple',brown:'Brown',\n  tan:'Brown',camel:'Brown',mocha:'Brown',chocolate:'Brown',\n  yellow:'Yellow',gold:'Gold',mustard:'Yellow',orange:'Orange',\n  ivory:'Ivory',champagne:'Ivory',natural:'Ivory',ecru:'Ivory',\n  multi:'Multicolor',multicolor:'Multicolor',print:'Multicolor',\n  floral:'Multicolor',taupe:'Taupe',heather:'Gray'\n};\n\nconst WALMART_COLORS = [\n  'Beige','Black','Blue','Brown','Gray','Green','Gold',\n  'Ivory','Multicolor','Orange','Pink','Purple','Red',\n  'Silver','White','Yellow','Taupe'\n];\n\nconst colorLower = (color || '').toLowerCase().replace(/[\\s\\-]/g, '');\nlet normalizedColor = WALMART_COLORS.find(c => colorLower.includes(c.toLowerCase()));\nif (!normalizedColor) {\n  for (const [key, val] of Object.entries(COLOR_MAP)) {\n    if (colorLower.includes(key)) { normalizedColor = val; break; }\n  }\n}\nif (!normalizedColor) normalizedColor = color;\n\nconst qty      = Math.max(1, parseInt(get('ORIGINAL QTY','QUANTITY','QTY') || '1', 10) || 1);\nconst rawPrice = get('ebay price','LISTING PRICE','PRICE','ORIGINAL RETAIL');\nconst price    = parseFloat(String(rawPrice).replace(/[$,]/g, '').trim()) || 0;\nconst styleNumber = get('VENDOR/STYLE','VENDOR / STYLE #','VENDOR/STYLE #','STYLE #','MPN');\nconst imageUrl = get('IMAGE URL','IMAGE','PHOTO').trim();\nconst dept     = (excelCategoryName || departmentName || '').toUpperCase().trim();\nconst hint     = `${productName} ${dept} ${brand}`.toLowerCase().trim();\n\nreturn {\n  json: {\n    sku: upc, upc, upc_raw: upcRaw, upc_digits: upcDigits,\n    brand, product_name: productName,\n    color_raw: color, color: normalizedColor,\n    size, qty, price,\n    style_number: styleNumber || upc,\n    image_url: imageUrl,\n    department_name: departmentName,\n    dept, category_hint: hint,\n    excel_category_id:   excelCategoryId,\n    excel_category_name: excelCategoryName,\n    excel_type:          excelType,\n    excel_style:         excelStyle,\n    excel_underwire:     excelUnderwire,\n    excel_strap:         excelStrap,\n    excel_closure:       excelClosure,\n    excel_band_size:     excelBandSize,\n    excel_cup_size:      excelCupSize,\n    excel_department:    excelDepartment || 'Women',\n    excel_features:      excelFeatures,\n    excel_pattern:       excelPattern,\n    excel_theme:         excelTheme,\n    excel_set_includes:  excelSetIncludes,\n    status: 'pending', _error: null, missing_fields: []\n  }\n};"
+      },
+      "id": "wm-0007-0007-0007-0007-000000000007",
+      "name": "Normalize Row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-1424, 816]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nif (item.skip || !item.upc) return { json: { ...item, image_urls: [], image_source: 'none' } };\n\nconst walmartToken = $('Get Walmart Token').first().json.access_token;\nconst ebayToken    = $('Get eBay Token').first().json.access_token;\nconst upc = item.upc || '';\nconst sku = item.sku || upc;\n\nlet image_urls = [];\nlet imageSource = 'none';\n\n// ── Step 1: Walmart catalog lookup by UPC ─────────────────\nif (upc && walmartToken) {\n  try {\n    const wResp = await this.helpers.request({\n      method: 'GET',\n      url: 'https://marketplace.walmartapis.com/v3/items?query=' + encodeURIComponent(upc) + '&limit=5',\n      headers: {\n        'Authorization': 'Bearer ' + walmartToken,\n        'WM_SVC.NAME': 'Walmart Marketplace',\n        'WM_QOS.CORRELATION_ID': Date.now().toString(),\n        'Accept': 'application/json'\n      },\n      timeout: 8000\n    });\n    const wData = typeof wResp === 'string' ? JSON.parse(wResp) : wResp;\n    const items = wData?.ItemResponse || wData?.items || [];\n    const product = items[0];\n    if (product) {\n      const main = String(product.mainImageUrl || '').trim();\n      const secondary = Array.isArray(product.productSecondaryImageURL)\n        ? product.productSecondaryImageURL\n        : [];\n      const all = [main, ...secondary].filter(Boolean);\n      image_urls = [...new Set(all)].slice(0, 12);\n      if (image_urls.length > 0) imageSource = 'walmart';\n    }\n  } catch(e) {}\n}\n\n// ── Step 2: eBay seller inventory fallback ────────────────\nif (image_urls.length === 0 && sku && ebayToken) {\n  try {\n    const eResp = await this.helpers.request({\n      method: 'GET',\n      url: 'https://api.ebay.com/sell/inventory/v1/inventory_item/' + encodeURIComponent(sku),\n      headers: {\n        'Authorization': 'Bearer ' + ebayToken,\n        'Content-Language': 'en-US'\n      },\n      timeout: 8000\n    });\n    const eData = typeof eResp === 'string' ? JSON.parse(eResp) : eResp;\n    const imgs = eData?.product?.imageUrls || [];\n    if (imgs.length > 0) {\n      image_urls = imgs.slice(0, 12);\n      imageSource = 'ebay';\n    }\n  } catch(e) {}\n}\n\n// ── Step 3: Excel manifest fallback ──────────────────────\nif (image_urls.length === 0) {\n  const excelImg = String(item.image_url || '').trim();\n  if (excelImg) {\n    image_urls = [excelImg];\n    imageSource = 'excel';\n  }\n}\n\nreturn {\n  json: {\n    ...item,\n    image_urls,\n    image_source: imageSource\n  }\n};"
+      },
+      "id": "wm-0008-0008-0008-0008-000000000008",
+      "name": "Get Images",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-1088, 816]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nif (item.skip) return { json: item };\n\nconst dept = (item.dept || '').toUpperCase().trim();\nconst hint = (item.category_hint || '').toLowerCase();\nconst size = item.size || '';\n\n// ── Map from Excel eBay category if available ─────────────\nconst EBAY_TO_WALMART = {\n  'Bras & Bra Sets':   { productType: 'WomensBras',       categoryPath: 'Clothing/Womens Clothing/Intimates/Bras' },\n  'Panties':           { productType: 'WomensPanties',     categoryPath: 'Clothing/Womens Clothing/Intimates/Panties' },\n  'Shapewear':         { productType: 'WomensShapewear',   categoryPath: 'Clothing/Womens Clothing/Intimates/Shapewear' },\n  'Sleepwear & Robes': { productType: 'WomensSleepwear',   categoryPath: 'Clothing/Womens Clothing/Sleepwear & Loungewear' }\n};\n\nlet productType = '';\nlet categoryPath = '';\n\nif (item.excel_category_name && EBAY_TO_WALMART[item.excel_category_name]) {\n  const mapped = EBAY_TO_WALMART[item.excel_category_name];\n  productType  = mapped.productType;\n  categoryPath = mapped.categoryPath;\n} else if (['PANTIES','PANTY','PB PANTIES'].includes(dept)) {\n  productType = 'WomensPanties'; categoryPath = 'Clothing/Womens Clothing/Intimates/Panties';\n} else if (['SHAPEWEAR','SHAPE WEAR'].includes(dept)) {\n  productType = 'WomensShapewear'; categoryPath = 'Clothing/Womens Clothing/Intimates/Shapewear';\n} else if (['BRAS','BRA','PB BRAS','CK INNERWEAR','COLLECTIONS','DESGNR INNRWR'].includes(dept)) {\n  productType = 'WomensBras'; categoryPath = 'Clothing/Womens Clothing/Intimates/Bras';\n} else if (['TRAD SLEEPWR','CC SLEEPWEAR','DRESSY SLPWR','NEOTRAD SLPWR','SLEEP','SLEEPWEAR',\n            'FAMLYPJ/DSGSL','JENNI COLLECT','MB INTIM/HSRY'].includes(dept)) {\n  productType = 'WomensSleepwear'; categoryPath = 'Clothing/Womens Clothing/Sleepwear & Loungewear';\n} else if (hint.includes('pant') || hint.includes('thong') || hint.includes('hipster') ||\n           hint.includes('cheeky') || hint.includes('boyshort')) {\n  productType = 'WomensPanties'; categoryPath = 'Clothing/Womens Clothing/Intimates/Panties';\n} else if (hint.includes('shape') || hint.includes('shaper') || hint.includes('girdle') ||\n           hint.includes('bodysuit') || hint.includes('cincher')) {\n  productType = 'WomensShapewear'; categoryPath = 'Clothing/Womens Clothing/Intimates/Shapewear';\n} else if (hint.includes('sleep') || hint.includes('pajama') || hint.includes('robe') ||\n           hint.includes('nightgown')) {\n  productType = 'WomensSleepwear'; categoryPath = 'Clothing/Womens Clothing/Sleepwear & Loungewear';\n} else {\n  productType = 'WomensBras'; categoryPath = 'Clothing/Womens Clothing/Intimates/Bras';\n}\n\nconst braMatch = size.match(/^(\\d{2})(AA?|[A-Z]{1,4})(\\+?)$/i);\nconst bandSize = braMatch ? braMatch[1] : item.excel_band_size || '';\nconst cupSize  = braMatch ? braMatch[2].toUpperCase() : item.excel_cup_size || '';\n\nconst sizeType = (/\\d+W$/i.test(size) || /^[1-9]X/i.test(size)) ? 'Plus' : 'Regular';\n\nreturn {\n  json: {\n    ...item,\n    walmart_product_type: productType,\n    walmart_category_path: categoryPath,\n    band_size: bandSize,\n    cup_size: cupSize,\n    size_type: sizeType\n  }\n};"
+      },
+      "id": "wm-0009-0009-0009-0009-000000000009",
+      "name": "Classify Walmart Category",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-768, 624]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an expert Walmart listing copywriter for women's intimates.\n\nRespond ONLY with valid JSON. No markdown, no code fences, no explanation.\n\nThese fields come directly from the product manifest — treat them as ground truth:\n\nBrand: {{ $json.brand }}\nCategory: {{ $json.excel_category_name || $json.walmart_product_type }}\nType: {{ $json.excel_type }}\nStyle: {{ $json.excel_style }}\nColor: {{ $json.color }}\nSize: {{ $json.size }}\nBand Size: {{ $json.excel_band_size }}\nCup Size: {{ $json.excel_cup_size }}\nUnderwire: {{ $json.excel_underwire }}\nStrap: {{ $json.excel_strap }}\nClosure: {{ $json.excel_closure }}\nDepartment: {{ $json.excel_department }}\nProduct Name: {{ $json.product_name }}\n\nYOUR TASKS:\n1) Write an SEO-optimized Walmart title (max 200 characters)\n2) Write a short HTML product description\n\nTITLE RULES:\n- Start with the Brand\n- Include Type or Style, Color, Size (if available)\n- Natural, human-readable, search-friendly\n- Do NOT include style number, MPN, or SKU\n- Do NOT exceed 200 characters\n- End with NWT\n\nDESCRIPTION RULES:\n- Output clean HTML only (use <p> and <br> tags)\n- Short opening line describing the item\n- Key details: Brand, Type, Color, Size, Underwire, Closure, Strap\n- Use only values from the fields above — do not invent any fact\n- Condition line must say exactly: <p><strong>Condition:</strong> New with Tags</p>\n- No care instructions, no shipping promises, no store policies\n- Keep it concise\n\nCOLOR RULE:\n- Use the Color field exactly as provided\n- Never replace, infer, or expand the color from the Product Name\n\nReturn only this JSON:\n{\n  \"title\": \"\",\n  \"description\": \"\"\n}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0010-0010-0010-0010-000000000010",
+      "name": "OpenAI Generate Content",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.4,
+      "position": [-576, 320],
+      "credentials": {
+        "openAiApi": {
+          "id": "qzGdRvdHwoZDDBrI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const aiJson = $input.item.json;\nconst item   = $('Classify Walmart Category').item.json;\n\nif (item.status === 'review_needed') return { json: item };\n\nlet aiContent = {};\ntry {\n  const raw = aiJson?.message?.content || '';\n  aiContent = JSON.parse(raw.replace(/```json|```/g, '').trim());\n} catch(e) {}\n\nconst brand   = item.brand  || 'Unbranded';\nconst color   = item.color  || '';\nconst size    = item.size   || '';\nconst pt      = item.walmart_product_type || 'WomensBras';\n\nlet walmartTitle = aiContent.title || `${brand} ${item.product_name} ${color}`.trim();\nif (size && !walmartTitle.includes(size)) {\n  walmartTitle = `${walmartTitle} ${size}`.substring(0, 200).trim();\n}\nif (!walmartTitle.toLowerCase().includes('nwt')) {\n  walmartTitle = `${walmartTitle} NWT`.substring(0, 200).trim();\n}\n\nconst shortDesc = (aiContent.description || item.product_name || '')\n  .replace(/<[^>]*>/g, ' ').replace(/\\s+/g, ' ').trim().substring(0, 4000);\nconst longDesc = aiContent.description || item.product_name || '';\n\nconst underwireRaw  = item.excel_underwire || '';\nconst underwireType = underwireRaw.toLowerCase().includes('wireless') ? 'Wireless' : underwireRaw ? 'Underwire' : '';\n\n// ── Build Walmart visible attributes by product type ──────\nconst visible = {\n  productName:                 walmartTitle.substring(0, 200),\n  shortDescription:            shortDesc,\n  longDescription:             longDesc,\n  brand:                       brand,\n  mainImageUrl:                (item.image_urls || [])[0] || '',\n  productSecondaryImageURL:    (item.image_urls || []).slice(1, 9),\n  gender:                      'Female',\n  color:                       color,\n  colorCategory:               color,\n  size:                        size,\n  sizeGroup:                   item.size_type || 'Regular',\n  condition:                   'New',\n  isProp65WarningRequired:     'No',\n  isChemicalAerosolPesticide:  'No'\n};\n\nif (item.style_number) visible.manufacturerPartNumber = item.style_number;\nif (item.upc)          visible.gtin                   = item.upc;\n\nif (pt === 'WomensBras') {\n  if (item.excel_type  || 'Bra')       visible.braStyle    = item.excel_type || 'Bra';\n  if (underwireType)                   visible.underwireType = underwireType;\n  if (item.excel_closure)              visible.closure      = item.excel_closure;\n  if (item.excel_strap)                visible.strapType    = item.excel_strap;\n  if (item.band_size)                  visible.bandSize     = item.band_size;\n  if (item.cup_size)                   visible.cupSize      = item.cup_size;\n} else if (pt === 'WomensPanties') {\n  if (item.excel_type) visible.pantiesStyle = item.excel_type;\n} else if (pt === 'WomensShapewear') {\n  if (item.excel_type  || item.excel_style) visible.shapewearStyle = item.excel_type || item.excel_style;\n  if (item.excel_closure)                   visible.closure        = item.excel_closure;\n} else if (pt === 'WomensSleepwear') {\n  if (item.excel_type)         visible.sleepwearStyle = item.excel_type;\n  if (item.excel_set_includes) visible.setIncludes    = item.excel_set_includes;\n  if (item.excel_theme)        visible.theme          = item.excel_theme;\n}\n\nif (item.excel_style)    visible.style   = item.excel_style;\nif (item.excel_pattern)  visible.pattern = item.excel_pattern;\nif (item.excel_features) visible.features = item.excel_features;\n\n// Remove empty values\nfor (const key of Object.keys(visible)) {\n  const v = visible[key];\n  if (v === '' || v === null || v === undefined || (Array.isArray(v) && v.length === 0)) {\n    delete visible[key];\n  }\n}\n\nreturn {\n  json: {\n    ...item,\n    walmart_title:   walmartTitle,\n    walmart_desc:    longDesc,\n    walmart_visible: visible\n  }\n};"
+      },
+      "id": "wm-0011-0011-0011-0011-000000000011",
+      "name": "Build Walmart Item Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-304, 832]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item = $input.item.json;\nif (item.status === 'review_needed') return { json: item };\n\nconst missing = [];\n\nif (!item.sku)                                    missing.push('sku');\nif (!item.price || item.price <= 0)               missing.push('price > 0');\nif (!item.image_urls || item.image_urls.length === 0) missing.push('image_urls — Walmart requires at least 1 image');\nif (!item.walmart_title)                          missing.push('walmart_title');\nif (!item.walmart_product_type)                   missing.push('walmart_product_type');\nif (!item.brand || item.brand === 'Unbranded')    missing.push('brand');\nif (!item.color)                                  missing.push('color');\nif (!item.size)                                   missing.push('size');\n\nconst vis = item.walmart_visible || {};\nif (!vis.mainImageUrl) missing.push('mainImageUrl');\n\nif (missing.length > 0) {\n  return {\n    json: {\n      ...item,\n      status: 'review_needed',\n      missing_fields: missing,\n      _error: 'Validation failed: ' + missing.join(' | ')\n    }\n  };\n}\n\nreturn { json: { ...item, status: 'approved', missing_fields: [] } };"
+      },
+      "id": "wm-0012-0012-0012-0012-000000000012",
+      "name": "Validate Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-288, 1088]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cond-approved",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "approved",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "wm-0013-0013-0013-0013-000000000013",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [-64, 1104]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const item  = $input.item.json;\nconst token = $('Get Walmart Token').first().json.access_token;\nconst pt    = item.walmart_product_type || 'WomensBras';\nconst corrId = `n8n-${item.sku}-${Date.now()}`;\n\nconst feedPayload = {\n  MPItemFeedHeader: {\n    version: '4.7',\n    requestId: corrId,\n    feedDate: new Date().toISOString().split('.')[0],\n    subset: 'EXTERNAL',\n    mart: 'WALMART_US',\n    locale: 'en'\n  },\n  MPItem: [{\n    Orderable: {\n      sku:           item.sku,\n      productName:   item.walmart_title,\n      productType:   pt,\n      price:         parseFloat((item.price || 0).toFixed(2)),\n      currency:      'USD',\n      ShippingWeight: { measure: 0.5, unit: 'lbs' },\n      quantity:      item.qty || 1\n    },\n    Visible: {\n      [pt]: item.walmart_visible\n    }\n  }]\n};\n\nconst pricePayload = {\n  sku:      item.sku,\n  currency: 'USD',\n  price:    parseFloat((item.price || 0).toFixed(2))\n};\n\nconst inventoryPayload = {\n  sku:      item.sku,\n  quantity: { unit: 'EACH', amount: item.qty || 1 },\n  fulfillmentLagTime: 1\n};\n\nreturn {\n  json: {\n    ...item,\n    _walmart_token:     token,\n    _corr_id:           corrId,\n    _feed_payload:      feedPayload,\n    _price_payload:     pricePayload,\n    _inventory_payload: inventoryPayload\n  }\n};"
+      },
+      "id": "wm-0014-0014-0014-0014-000000000014",
+      "name": "Prepare Walmart Payload",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [192, 864]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://marketplace.walmartapis.com/v3/feeds?feedType=item",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._walmart_token }}"
+            },
+            {
+              "name": "WM_SVC.NAME",
+              "value": "Walmart Marketplace"
+            },
+            {
+              "name": "WM_QOS.CORRELATION_ID",
+              "value": "={{ $json._corr_id }}"
+            },
+            {
+              "name": "WM_MARKET",
+              "value": "walmart.com"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json._feed_payload) }}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "wm-0015-0015-0015-0015-000000000015",
+      "name": "Create Walmart Item",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [192, 608]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const resp = $input.item.json;\nconst prep = $('Prepare Walmart Payload').item.json;\n\nconst statusCode = resp.statusCode || 0;\nconst body       = resp.body || {};\n\nif (statusCode === 200 || statusCode === 201 || statusCode === 202) {\n  const feedId = body.feedId || body.feed_id || '';\n  return { json: { ...prep, _item_status: 'ok', _feed_id: feedId, _item_status_code: statusCode } };\n}\n\nif (statusCode === 409) {\n  return { json: { ...prep, _item_status: 'conflict_ok', _feed_id: '', _item_status_code: statusCode } };\n}\n\nconst errMsg = body ? JSON.stringify(body).substring(0, 300) : 'Unknown error';\nreturn { json: { ...prep, _item_status: 'error', _error: 'Create Item failed (' + statusCode + '): ' + errMsg, status: 'api_error' } };"
+      },
+      "id": "wm-0016-0016-0016-0016-000000000016",
+      "name": "Check Item Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [192, 304]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cond-item-ok",
+              "leftValue": "={{ $json._item_status }}",
+              "rightValue": "error",
+              "operator": {
+                "type": "string",
+                "operation": "notEquals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "wm-0017-0017-0017-0017-000000000017",
+      "name": "Item OK?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [208, 0]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "https://marketplace.walmartapis.com/v3/price",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._walmart_token }}"
+            },
+            {
+              "name": "WM_SVC.NAME",
+              "value": "Walmart Marketplace"
+            },
+            {
+              "name": "WM_QOS.CORRELATION_ID",
+              "value": "={{ $json._corr_id + '-price' }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json._price_payload) }}",
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "wm-0018-0018-0018-0018-000000000018",
+      "name": "Set Walmart Price",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [752, 272]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "={{ 'https://marketplace.walmartapis.com/v3/inventory?sku=' + encodeURIComponent($json.sku) }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json._walmart_token }}"
+            },
+            {
+              "name": "WM_SVC.NAME",
+              "value": "Walmart Marketplace"
+            },
+            {
+              "name": "WM_QOS.CORRELATION_ID",
+              "value": "={{ $json._corr_id + '-inv' }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json._inventory_payload) }}",
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          }
+        }
+      },
+      "id": "wm-0019-0019-0019-0019-000000000019",
+      "name": "Set Walmart Inventory",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [1104, 576]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "s1",
+              "name": "sku",
+              "value": "={{ $('Check Item Result').item.json.sku }}",
+              "type": "string"
+            },
+            {
+              "id": "s2",
+              "name": "walmart_product_type",
+              "value": "={{ $('Check Item Result').item.json.walmart_product_type }}",
+              "type": "string"
+            },
+            {
+              "id": "s3",
+              "name": "status",
+              "value": "published",
+              "type": "string"
+            },
+            {
+              "id": "s4",
+              "name": "feed_id",
+              "value": "={{ $('Check Item Result').item.json._feed_id }}",
+              "type": "string"
+            },
+            {
+              "id": "s5",
+              "name": "image_source",
+              "value": "={{ $('Check Item Result').item.json.image_source }}",
+              "type": "string"
+            },
+            {
+              "id": "s6",
+              "name": "walmart_title",
+              "value": "={{ $('Check Item Result').item.json.walmart_title }}",
+              "type": "string"
+            },
+            {
+              "id": "s7",
+              "name": "error",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "s8",
+              "name": "missing_fields",
+              "value": "={{ [] }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0020-0020-0020-0020-000000000020",
+      "name": "Log Success",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [1424, 992]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "r1",
+              "name": "sku",
+              "value": "={{ $json.sku || 'unknown' }}",
+              "type": "string"
+            },
+            {
+              "id": "r2",
+              "name": "walmart_product_type",
+              "value": "={{ $json.walmart_product_type || 'unknown' }}",
+              "type": "string"
+            },
+            {
+              "id": "r3",
+              "name": "status",
+              "value": "={{ $json.status || 'review_needed' }}",
+              "type": "string"
+            },
+            {
+              "id": "r4",
+              "name": "feed_id",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "r5",
+              "name": "image_source",
+              "value": "={{ $json.image_source || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "r6",
+              "name": "walmart_title",
+              "value": "={{ $json.walmart_title || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "r7",
+              "name": "error",
+              "value": "={{ $json._error || 'Review required' }}",
+              "type": "string"
+            },
+            {
+              "id": "r8",
+              "name": "missing_fields",
+              "value": "={{ $json.missing_fields || [] }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "wm-0021-0021-0021-0021-000000000021",
+      "name": "Log Review Needed",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [560, 544]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Get Walmart Token",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Walmart Token": {
+      "main": [
+        [
+          {
+            "node": "Get eBay Token",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get eBay Token": {
+      "main": [
+        [
+          {
+            "node": "Download Manifest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Manifest": {
+      "main": [
+        [
+          {
+            "node": "Extract XLSX Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract XLSX Rows": {
+      "main": [
+        [
+          {
+            "node": "Normalize Row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Row": {
+      "main": [
+        [
+          {
+            "node": "Get Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Images": {
+      "main": [
+        [
+          {
+            "node": "Classify Walmart Category",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Classify Walmart Category": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Generate Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Generate Content": {
+      "main": [
+        [
+          {
+            "node": "Build Walmart Item Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Walmart Item Fields": {
+      "main": [
+        [
+          {
+            "node": "Validate Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate Fields": {
+      "main": [
+        [
+          {
+            "node": "Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [
+          {
+            "node": "Prepare Walmart Payload",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Review Needed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Walmart Payload": {
+      "main": [
+        [
+          {
+            "node": "Create Walmart Item",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Walmart Item": {
+      "main": [
+        [
+          {
+            "node": "Check Item Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Item Result": {
+      "main": [
+        [
+          {
+            "node": "Item OK?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Item OK?": {
+      "main": [
+        [
+          {
+            "node": "Set Walmart Price",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Review Needed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Walmart Price": {
+      "main": [
+        [
+          {
+            "node": "Set Walmart Inventory",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Walmart Inventory": {
+      "main": [
+        [
+          {
+            "node": "Log Success",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Success": {
+      "main": [
+        []
+      ]
+    },
+    "Log Review Needed": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "meta": {
+    "instanceId": "d2fe9ce728554e69c037db673a8835049f0ed91a367043d2112f54371905e772"
+  },
+  "tags": []
+}
