@@ -279,8 +279,16 @@ def main() -> int:
             continue
         if published_dt < cutoff:
             continue
+        title = re.sub(
+            r"\s+-\s+(?:Real Madrid CF \| Web Oficial|UEFA\.com)$",
+            "",
+            title,
+            flags=re.IGNORECASE,
+        ).strip()
+        normalized_story = dict(story)
+        normalized_story["title"] = title
         key = re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
-        unique.setdefault(key, story)
+        unique.setdefault(key, normalized_story)
 
     stories = sorted(
         unique.values(),
