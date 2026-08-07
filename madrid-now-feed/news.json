@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "7f9a09e86a8c57f45801",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Sevilla: aiming to stay unbeaten in preseason",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRE9Ebnp6WVQtSzU3bGtVY3gxNXNhLVFOZ0ZVb1hQOTFwbk91dUlacmhGRW01RnZ1QXJUaGNfOFdlOUtGMUZ3b1FEenVXMllMUXZRWkVrTi0wNWlWdUFJblV5U3pzMEoyTzdLM0VtZ05RUTlsY3hDV2Y0MzN1WXlkTGlqSUkta1RYZWgyT0dHNmt0NzdadXRqaTNaczlYd0k4MUhvTTVUcUpRTk1GMVF1ZkNKWU9rZ0FJZHk2QlNsLXNKWmNQMVVYT1BwVnQ5NTJad1lZRkZQaXY5dVFnaHc?oc=5",
+      "publishedAt": "2026-08-07T22:24:41Z"
+    },
+    {
       "id": "f29f960fcc43f55702a2",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=KJF1Wx7Du24",
       "publishedAt": "2026-08-04T13:12:35Z"
-    },
-    {
-      "id": "1bb65803ac4452f08f48",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Kylian Mbappé's four goals for Real Madrid vs Olympiacos | Video | UEFA Champions League 2026/27",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdHJhUnF0NmJueldpNEFuY1lreUxhOUhGNHVUS19JbEhLX0lob1Vubk9rblB2dDFmNk10Z3NHRndmNFo0SUdfcC1tWnJyVXB6OVBscUEteGUySWpyTnRGUHJ6S3k4QzdWRFN2UmczNkVZeHp5a01TMVRUWUFDUklndVZQdWo3U0JiSFI2a1JRVElCMF9hWFRKbDhlcWdfR3FPaU1saW41NVZqdC1JS0RDSFRudEp1TkNPSGRIMk4xbm1ldXF3WU5xcUhqblEwRllVMTVETFdCb18?oc=5",
-      "publishedAt": "2026-08-03T22:00:13Z"
     }
   ],
-  "updatedAt": "2026-08-07T21:58:17Z",
+  "updatedAt": "2026-08-07T22:31:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
