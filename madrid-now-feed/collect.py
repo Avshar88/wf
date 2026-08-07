@@ -78,6 +78,11 @@ TRANSFER_TERMS = re.compile(
     r"agreement|here we go",
     re.IGNORECASE,
 )
+EXCLUDE_TERMS = re.compile(
+    r"\bfoundation\b|\bcastilla\b|\bbasket(?:ball)?\b|women(?:'s)?|femenino|"
+    r"\byouth\b|\bunder-?20\b|^history:|\bstats\b|european qualifiers",
+    re.IGNORECASE,
+)
 
 
 def now_iso() -> str:
@@ -155,6 +160,12 @@ def collect_google(config: dict[str, object]) -> list[dict[str, str]]:
 
         source_name = str(config["name"])
         title = re.sub(rf"\s+-\s+{re.escape(source_name)}$", "", title, flags=re.IGNORECASE).strip()
+        title = re.sub(
+            r"\s+-\s+(?:Real Madrid CF \| Web Oficial|UEFA\.com)$",
+            "",
+            title,
+            flags=re.IGNORECASE,
+        ).strip()
         stories.append(
             {
                 "id": hashlib.sha256(f"{source_name}|{title}|{published}".encode()).hexdigest()[:20],
@@ -260,7 +271,7 @@ def main() -> int:
     for story in candidates:
         title = clean_text(str(story.get("title", "")))
         published = str(story.get("publishedAt", ""))
-        if not title or not published:
+        if not title or not published or EXCLUDE_TERMS.search(title):
             continue
         try:
             published_dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
