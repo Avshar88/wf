@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "stories": [],
+  "updatedAt": null,
+  "refreshSeconds": 60,
+  "collectionIntervalMinutes": 5,
+  "availableSources": [],
+  "mode": "fallback"
+}
