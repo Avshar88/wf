@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "fbd4d80e86fcedf7bc32",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😉 Our arrival... with a difference.",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=RfD8B8g2WN4",
+      "publishedAt": "2026-08-07T20:02:12Z"
+    },
+    {
       "id": "42a62932aec41b17380b",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNDN3Y0VsTndQR21iUUtZcDQzQ3ZyNUlHSG5Wcm9VWWRBY2swYmRYeEx6RERtakJ5YnZucVU3WGg2MUNWNW1oR2drdUNaYUxuZEoxeVFrS0xKM3ZHbUVBRThHVVJ4YXkydS1DQTN1UUtnSVRmcmQtOUhoUWZJNlVZcVZ6T1duMkYxWHFOUEFRVDdseXBhSnpHeFRfRFRPRmRiNWtsQVlFaGhkOFgxUUx5WHJ5U2FuWGVSMkdzdWU2d2JveDZncGNXSklPd2p6eHJCeXNZQkNkbWNEN19WX2tEZFlSWWgwZHM?oc=5",
       "publishedAt": "2026-08-03T14:15:00Z"
-    },
-    {
-      "id": "4ecca37ef79c0a0c7d13",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Bernardo Silva: 'When Real Madrid came calling, I didn’t think twice'",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWE5nT2RpOXhjdXpWaHQyZDhOYS1hVGxxNm9ObmF1Y2VrUlFCNFhkYVBza281NnBtYnMxM0FNVG53MjFEeWFPMy1Cb3I2UXJNck5EUzVPQ1NkQThjREtSS2RiWnZoVXdiNmlDSWVaWDh5bHhVdjdTVTZrN3FCTXU4cmxJcDJ6d1VtQkZ1eUZSUERvbzE0N2g2czRibHVnVEF5dDM4YXhDTHQtdFFULVFFbGN1QTZPTnRjbWc?oc=5",
-      "publishedAt": "2026-08-03T10:24:00Z"
     }
   ],
-  "updatedAt": "2026-08-07T20:00:28Z",
+  "updatedAt": "2026-08-07T20:37:43Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
