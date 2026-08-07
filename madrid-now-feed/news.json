@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f29f960fcc43f55702a2",
+      "category": "Official",
+      "time": "NEW",
+      "title": "✍️ The boss x Madridistas in Budapest.",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=nf4Y9x3lE-c",
+      "publishedAt": "2026-08-07T21:30:04Z"
+    },
+    {
       "id": "5204d52da3b795a9aade",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdHJhUnF0NmJueldpNEFuY1lreUxhOUhGNHVUS19JbEhLX0lob1Vubk9rblB2dDFmNk10Z3NHRndmNFo0SUdfcC1tWnJyVXB6OVBscUEteGUySWpyTnRGUHJ6S3k4QzdWRFN2UmczNkVZeHp5a01TMVRUWUFDUklndVZQdWo3U0JiSFI2a1JRVElCMF9hWFRKbDhlcWdfR3FPaU1saW41NVZqdC1JS0RDSFRudEp1TkNPSGRIMk4xbm1ldXF3WU5xcUhqblEwRllVMTVETFdCb18?oc=5",
       "publishedAt": "2026-08-03T22:00:13Z"
-    },
-    {
-      "id": "4a7c4476c38be99619d6",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Fulham sign Gonzalo, Palacios from Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVjQ4bl9NbWVuRFFEQy0tVEFDMTB4amFvT3ppLUJXUEFYSFlZME1xaXUxNmtKcHNvQkVYSjdJZDdzQ2dqS3JTVlgtUlR3M25xQmtfUk9VMHh5YmxzT05JWGd5cUNQWFo0UUFyMlo4SzRRanJyNW93c0dTbWotSWJscHZBeHdCRGNZNFRsNWFhNzVBZDg?oc=5",
-      "publishedAt": "2026-08-03T21:34:34Z"
     }
   ],
-  "updatedAt": "2026-08-07T21:19:44Z",
+  "updatedAt": "2026-08-07T21:58:17Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
