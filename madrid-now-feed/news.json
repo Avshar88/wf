@@ -1,9 +1,316 @@
 {
   "version": 2,
-  "stories": [],
-  "updatedAt": null,
+  "stories": [
+    {
+      "id": "42a62932aec41b17380b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⚡ Last training before our next friendly match! #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=XxaLAWlmkRA",
+      "publishedAt": "2026-08-07T19:13:46Z"
+    },
+    {
+      "id": "d2b34a53594a25d83110",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤯 OUTRAGEOUS RÜDIGER strike! | Real Madrid are READY for Ferencvaros",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=7E7d91GlKUw",
+      "publishedAt": "2026-08-07T19:01:09Z"
+    },
+    {
+      "id": "4891094be69815a31a2d",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Courtois joins the preseason - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdEQyOGg0cjdlT0ZFbkxmdG56VHNhWkQ2N0xYaFBUdGhqWHFLSU5neHpSNUpad194bTFMVVI1ZERXaktYbE5XZndhOURUazh5bUhFWkF1MUJPZFp4UE1xTkEyX0x5cWZzMFJBa0NsSGgyT1pkM2ZSNXBqVjVTTnJya1MxS1ZmVFp0SlhTZjJSOE9OLTJUQktpaE5KOTVtZmlYdEIwZnpKQVNyODBnSk9paWJGOFMyUm5wMm9ueg?oc=5",
+      "publishedAt": "2026-08-07T17:52:00Z"
+    },
+    {
+      "id": "47829be2979bc6534657",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Thibaut Courtois | Stats | Belgium | European Qualifiers - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRGZVQ1Y2N0dOVDdnZ0dOZUc2WDRSUndnRkJqT0Z3MmhLRnVwVkpnMG5fa2dhaDRZWVlPUng5TnZUamN0T01wU09LM2JLXzhaNjNmeXltMDE5RHRjUmJuWDRCbUJwcnE5a2F6bWV4c1ZBVHBuYWVoWnhwNDRMTmd3bFByc1JjR3p5Mnh4bGdacklpakxkSzNURQ?oc=5",
+      "publishedAt": "2026-08-07T14:36:33Z"
+    },
+    {
+      "id": "d6d6d4c6aa3074b1ef5b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid strengthens its commitment to the social work of the Foundation through meetings with beneficiaries - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQUEZCcHcxbFF0MDY0ZTltRXRpckxmQ0dZVVo0TzdmWEt0UThsMUxVRE52aVFCXzVFaDA5NHRGLXR3bHU1a05IQjRMNGNQMTd3dS04R0dPTmxoY2JzQVlXeGwtSWlSUjdZTmZkYXVJeHFKWWpjTDIwQTlEVkJCandjcXY5N2lLaXIweUk3Rk1wWlcwRW9INHNCWTAyVkpjSHo0cVlCT2RMOFdCMWEwX3ZEWDdkV3hHZE1lQ1BKX0pLdWE2NV9MQUktOEhQalBacEdmckJWOGtQX1BjVmRGbkQ2Y2hzY1l4b0JBbEtGWUlfQTZvLVA2U2tXeHlsdklqdlRPb0ladmxjVTF6VER6TWtNOA?oc=5",
+      "publishedAt": "2026-08-07T10:25:07Z"
+    },
+    {
+      "id": "c86aa4e1e48a7f5b0bc5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Thibaut Courtois | Belgium | European Qualifiers - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWhCZDhSWWctRzZDTklrWlhyMlVPUmhsWVNIaGIyWEJiWEhmRldJbEpnc2lTazRtdWpNQTRyX19wNlpjX2ZkX1dybk5CQm9wRi1VOE43RDZKMk5fQnZBeGxyVDJOeUo4NFNQM0xPNktJMkxPTjMtVUxEY3h5VURqNlktRzF3R1BFaVE?oc=5",
+      "publishedAt": "2026-08-07T05:57:33Z"
+    },
+    {
+      "id": "15ccfb340005ecc12974",
+      "category": "Official",
+      "time": "NEW",
+      "title": "VINI JR. UNTIL 2032! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=zPTUrX1-yz4",
+      "publishedAt": "2026-08-06T21:46:31Z"
+    },
+    {
+      "id": "ad979c5971008d7a7494",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💭 Come back later, we're busy right now. #ViniJr2032 #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=_zSPkzDYU4I",
+      "publishedAt": "2026-08-06T20:04:42Z"
+    },
+    {
+      "id": "f1e466cec99fd7b1ceeb",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 Stop scrolling, you won't find a better video today!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=YUwMbxEBfZg",
+      "publishedAt": "2026-08-06T19:06:54Z"
+    },
+    {
+      "id": "7e0bf4203ad0481b015f",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "Real Madrid secure Vinicius Jr with new long-term deal",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dpYnd2QkJCRDhuSWlDVDNFZ2h5WUo4UzEzMzBydmVnMXJWS0FwdkJ2QmxWMFM4bm9IRUdSdkdYM25zcE8zZEhEUnEteldHMFVraFVhSEN4NFNndmhSd2hWZ05Xd2NWSGZfT2VFbGM4UmRORDJ4di1RTFVHaHJwbkdjYXhDQVNBZjlLWlZlcU8xUnR6SkZObG00a0tLRU9MSnM1ZmhSSQ?oc=5",
+      "publishedAt": "2026-08-06T18:49:45Z"
+    },
+    {
+      "id": "e2f4f35cfcb697b16d1b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "History: Real Madrid 3-0 Inter | Match info | UEFA Europa League 1984/85 - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdlpfYzhTNlh4VWpsTDNpaEZBQVN3Q1JQTHRSRU92c0FJano0VHBmMFpZckZPcEFiQ19oWklGSlhIclotTEhIQzZVcTB3WWNEenhvSEt3NTl1QlBGTDZEakI0dUhhQjZ1VWtYeDUwbUI5RUVrM285M0lzd1MxTXB3TmF0QWkzU05z?oc=5",
+      "publishedAt": "2026-08-06T18:14:41Z"
+    },
+    {
+      "id": "f8ab161a54a18e17d781",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "Official Announcement: Vini Jr. renewed until 2032 - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTlJnUDZRcThxM2RiZWJrOWxERy1Cdmt6WTluaXJ3TjlZT1lYSV9vWjlJRUJCRmxaYURqeEpGWHRDRTFDU2g0RmdHX3FHQ1VISFJ1bW55czRKNExwb25kZE9jN0p3YjYzYnQzSXRwN3VlZHIxZXhhcjlxX2I0WDJmNjJUV3lXX196SkJKVXdnNnA3TlFsLTkyRldNT3h6RTgwRXN5V0gxd3hMS0UxYS1jMTdaN20?oc=5",
+      "publishedAt": "2026-08-06T18:00:14Z"
+    },
+    {
+      "id": "bbbc2d33e9755b7756e2",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This is the Ferencváros Stadion in Budapest - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbnlKNW5oNTRjY0N6amp5UldNV0pDMWtONXNET0t2MjI4S0ZCQmFWdktYVXFGcl9SbWszMkJYZmM0b052WFAzTVBLS0RiRElMUlJYRXdCdUQ3MWpDZFRJUnhKa3RZOC1DbzgySlpNcUJud0Y1SDhuckpyWF9jaU1haFpGdlRvY1FvMXB3WjBzNXliQjdpMUZNYVM2UExJZUg1TUx4YnZRckozTjM1YjdrbFZsdFZWYVpFUmNKczZpdw?oc=5",
+      "publishedAt": "2026-08-06T17:49:00Z"
+    },
+    {
+      "id": "97a3b0d7fd6d11551a1d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "YAN DIOMANDE | NEW REAL MADRID PLAYER!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=gj9aOjjUbHI",
+      "publishedAt": "2026-08-06T17:47:57Z"
+    },
+    {
+      "id": "03f0c89b3cd047e04b8b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔛 Pre-season training continues...",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=E4xxyNlPkl4",
+      "publishedAt": "2026-08-06T16:49:49Z"
+    },
+    {
+      "id": "1a377f3604f0cef1ba98",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Dumfries, Espí & Real Madrid are COOKING! 👨‍🍳 | Pre-season training 26/27",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=NcVCPHrNOJo",
+      "publishedAt": "2026-08-06T16:26:57Z"
+    },
+    {
+      "id": "9080259a51a54c63d948",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "Real Madrid agree deal to sign Diomande until 2033",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUtsTzVCZ2NscU5IU0plcExIcGtYS2VJdHduUi05QWUyRDhVaENKN3d4cWdDSlNSZlJyTG11ZTFoZ0s3eDhYSGtJX21kQkJiYmlwejkxY1FxY01OVG0zeWt5OXNqaUtlVHgwTFVBTHFZcko3VmxzbFNPb1ZwNG1acEVVUlVpOGNEZE55QWhzMHBJNGdpYmUxeXFLc3A3VkY5X1RrbkNDQ1ppbUk4eXdJRXdBYk0?oc=5",
+      "publishedAt": "2026-08-06T14:45:56Z"
+    },
+    {
+      "id": "676792fd4ec0a41a8de7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👀📱 #WelcomeDiomande",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=D9MlK3u-vDc",
+      "publishedAt": "2026-08-06T14:15:12Z"
+    },
+    {
+      "id": "bf380be3aae4c7c5b0bc",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement: Diomande - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnV4RjBwTldYMm1WMWhHSlNGQ1p4M3FXWVdhb0RPOHUtbVhVRjNFN1F4QTFVSEJqZXJOdm9UNGJoMDc4eFVRa3ZoVVYwVkJnZlYtM0VjY2Y4bEdPQWJPdHdQZjBvZDRNUjQ3YldnYnhHVk5iSmE0LVB6cE1ZTG9lWjhnbEV5WXBxempLYy1FWWd2dVNUcWZYX0daNA?oc=5",
+      "publishedAt": "2026-08-06T11:13:00Z"
+    },
+    {
+      "id": "8221957bd0745aef85be",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement: Mastantuono - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOENFSU5ZRFpaX1l6b3h2enhoTEhtdzU2Q1JtM3I0NVA1SG1iY25HMVYxdW16Zm03UG5NTDZFYk9McGxNMmJzTDJoZXVsMlhpa1pwdUw3QTdjc2ZuenRwMUNjOEp0Z3Z1Vm5kTHJMWk5admdOUXQwdVMzTDNfSmpud2dUekUwOXFhUER1V0duOTFpUnBoTHNoV25vMFQ5MW8?oc=5",
+      "publishedAt": "2026-08-06T09:39:00Z"
+    },
+    {
+      "id": "90c5a0e30b2db073bf08",
+      "category": "Official",
+      "time": "NEW",
+      "title": "History: Real Madrid 3-0 Inter | UEFA Europa League 1984/85 - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83Q1BvcU1vdmFFaUV1ck5fVkxrQW5rWWZVRVJBSks1VHB6aHZVTDBQVU9aNnZzZ1FxMVpDWDBFVFhZQjV2S1RvSE9la19kRldnVjJtRVNjQXVuOFV6al9MLTNLaEpKN3Uyb0JEbTZLX0ItVXBOZy1weFVKRQ?oc=5",
+      "publishedAt": "2026-08-06T05:44:50Z"
+    },
+    {
+      "id": "e4cbf0cba6c90fae19f9",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "History: Real Madrid 0-1 Paris | Stats | UEFA Women's Champions League 2023/24 - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa3F3YmxLQXRBU2NPMDRWU3lWclAtM2cteW9CWVNEbXFTZVplVzIzWERsa244WkxWVWJyTXh1dG1EZlZfSl9pYkNsVnVRbnJoWXZsUUp1dGd0UmRrUFpxczV1ODRhc2VlQnhjYl9oemxxRDctV09FLThrVmZYSE5DZGVYZEMwa1JyaDdEUU1NeHhzc09l?oc=5",
+      "publishedAt": "2026-08-05T20:02:11Z"
+    },
+    {
+      "id": "57cffc0890f33b1056af",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Castilla wins the Luis de Carlos Memorial - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVkc4QUtHYW8wSDRqa0o4X1JOUDI3Sm84S1YyNjVrUkU0M0JXVUNTOFpkVV9WbHdLYnlQQ19yUE9EX3lhanlSOUlQME01ZFRfVTM5d0xXWWFKQXBPaU9DRUdoTjBuYTRhTnRnTEZ4SmJjZHlHb3N3eFFGazl6eER1WTFxanRESlA0N2YzdUM4U1hFalhzeGpMdWFOTk4?oc=5",
+      "publishedAt": "2026-08-05T19:00:46Z"
+    },
+    {
+      "id": "39c92705871725b7a157",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "🚨💣💣 BOOM VINICIUS! BIG NEWS! ARSENAL: MEDICAL BOOKED! MAN UNITED: DEAL NOT IMMINENT! DIOMANDE YES",
+      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
+      "source": "Fabrizio Romano",
+      "href": "https://www.youtube.com/watch?v=IFlP6UxcipM",
+      "publishedAt": "2026-08-05T17:46:48Z"
+    },
+    {
+      "id": "21145cb2d87104011bd6",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "BRAHIM IS BACK! | Real Madrid pre-season 26/27",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=3vEkV8n4v2w",
+      "publishedAt": "2026-08-05T15:21:11Z"
+    },
+    {
+      "id": "ffebe558ed5dadb005ca",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔋Another INTENSE training day!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=BRUoxyZLcA8",
+      "publishedAt": "2026-08-05T15:07:45Z"
+    },
+    {
+      "id": "c893b5b8ea4a3a58640a",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⚡ INTENSITY AT ITS PEAK at Real Madrid City! | Inside Training",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=b_5wQLtEZck",
+      "publishedAt": "2026-08-05T14:46:06Z"
+    },
+    {
+      "id": "870a462f2328b859e9cd",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Santiago Wanderers | Match info | Under-20 Intercontinental Cup 2025/26 Final - UEFA.com",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSG9lZ1gwbmh1cFBDdlJ4Zk9xb3lUSWRlYVAtdG5mR3lBcnRmTWxEYjRBNm0tbFg5SkIwYWdmdm5LQmJDTTlTME5BQVpyaUZTOGFWNmlxbHVRX29yYzliM0NIZ1dYVEtkUXludFVtTG5uLWxSTUd3dGd6YjVvczdETzRSdlNFYjBQZEZCRWdHcU9QMkQwc0JzS0I1bElWcTFDc0xDamRn?oc=5",
+      "publishedAt": "2026-08-05T14:18:44Z"
+    },
+    {
+      "id": "a2983f178d71952abeb5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Brahim: “It’s been a very good preparation” - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUml6bG9KZlYwM3dySDlXRFI4eGNUQjBDaW8wNjNQcjdabk0yZWNjVHFvYmhVMDlaM0lpaEdxcm1CU2xNNkI2eXVIX1pvQS1FVGJfV3RLQWl0LVhQSVIzc0w0S1AtLVZTeVVTdnloUTJyaFR0RVMxdEFYbk1GNHlOc3BwdklKYjM4eUtrODZTVFMyOENiQXNXYzVwYUV6aEk?oc=5",
+      "publishedAt": "2026-08-05T12:10:00Z"
+    },
+    {
+      "id": "c0de27b083e3c4beec0a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "The Real Madrid Foundation promotes social reintegration through sports in penitentiary centers - Real Madrid CF | Web Oficial",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYVNrSFk4T3dMSlB3VGo1ZTd3UjYwQkZPYXhRVXg4SEJacEc2YkgyTllBb0hMemhrWjFsQzlVeThYaVRPNjdXaF9QaVBreXNXOFBhajJGOWtWS2pHa0Z6SVFNNlJDOF9zVlpGUGlKV3pIYXNZT01rMGRpOGxVREJfUkV5TldITkpvcmFkSk85T29falNkenF1clUwZ0pQc21CdnB5dU9vd3cxT1dGLWp2cjJaYVl3bG42WVBxSzJ1bDl3NC1TSWVVcEhxblZLTG9aMDJhbGh5ZFZhVU02a0N3SGVvVmZnUXRKSXdXTW4tWHVGSEF2T2dEc1N3?oc=5",
+      "publishedAt": "2026-08-05T10:23:00Z"
+    }
+  ],
+  "updatedAt": "2026-08-07T19:58:08Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
-  "availableSources": [],
-  "mode": "fallback"
+  "availableSources": [
+    "Real Madrid",
+    "LaLiga",
+    "UEFA",
+    "Reuters",
+    "Fabrizio Romano"
+  ],
+  "mode": "live"
 }
