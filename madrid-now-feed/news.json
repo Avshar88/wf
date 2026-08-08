@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "7f9a09e86a8c57f45801",
+      "id": "ac5209a4083f4cdb4fe3",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid-Sevilla: aiming to stay unbeaten in preseason",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRE9Ebnp6WVQtSzU3bGtVY3gxNXNhLVFOZ0ZVb1hQOTFwbk91dUlacmhGRW01RnZ1QXJUaGNfOFdlOUtGMUZ3b1FEenVXMllMUXZRWkVrTi0wNWlWdUFJblV5U3pzMEoyTzdLM0VtZ05RUTlsY3hDV2Y0MzN1WXlkTGlqSUkta1RYZWgyT0dHNmt0NzdadXRqaTNaczlYd0k4MUhvTTVUcUpRTk1GMVF1ZkNKWU9rZ0FJZHk2QlNsLXNKWmNQMVVYT1BwVnQ5NTJad1lZRkZQaXY5dVFnaHc?oc=5",
-      "publishedAt": "2026-08-07T22:24:41Z"
+      "publishedAt": "2026-08-08T04:24:41Z"
     },
     {
       "id": "f29f960fcc43f55702a2",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-04T13:12:35Z"
     }
   ],
-  "updatedAt": "2026-08-07T22:31:14Z",
+  "updatedAt": "2026-08-08T04:38:57Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
