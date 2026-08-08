@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "0e9b535c30e9c5962fba",
+      "id": "8a6d73e4546b53b22d36",
       "category": "Official",
       "time": "NEW",
       "title": "Nine years since the fourth UEFA Super Cup",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc2NtRlo2Tk1LdTJQRHhMb2g1MXJMb3dxMUo2YUk2a18wNHF5Umx0bG5rYnhpMjktb0lGWnFpRVpiTEdEcTl6SC14SWZoVjdrckxqSjM0Y2o1bWM0RkFHMGdGdlNUTUZSWi1HLUlaYmpVOFpHeWE2bi1tc2VCSnp0MWN2aENFV2xINEZJb2Z2QW9oWGtLbFNOZV9CODljNTlEOFlqeEgzUHc5enFUSUFjLTBDREVyaWVVWkdhbw?oc=5",
-      "publishedAt": "2026-08-08T11:13:20Z"
+      "publishedAt": "2026-08-08T14:15:53Z"
     },
     {
       "id": "92d49397457add61a259",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-06T09:39:00Z"
     }
   ],
-  "updatedAt": "2026-08-08T13:48:31Z",
+  "updatedAt": "2026-08-08T14:18:52Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
