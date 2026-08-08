@@ -12,6 +12,16 @@
       "publishedAt": "2026-08-08T11:13:20Z"
     },
     {
+      "id": "92d49397457add61a259",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Tribute to Puskas in Budapest",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGltUmdrOEl5Z1M0bjhmN1pOWmkwaThReWNjRFZhMTFiOXEtbUY0QWd3cHNvbDV0XzdCcVlENEU1dWZaRlgwN2d4UzJEQVF5c3dMUjNlVG0yc3pUMFYwbWVsVTNOUkZJZG01YU9ZUEtralFYeUstYzV6NGtlZF80dXRNQ09xX0E3Qnp6bGlFWUp6bWZnUlVENzk3VQ?oc=5",
+      "publishedAt": "2026-08-08T10:51:00Z"
+    },
+    {
       "id": "7d66c393f74c5df12148",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=3vEkV8n4v2w",
       "publishedAt": "2026-08-05T15:21:11Z"
-    },
-    {
-      "id": "ffebe558ed5dadb005ca",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔋Another INTENSE training day!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=BRUoxyZLcA8",
-      "publishedAt": "2026-08-05T15:07:45Z"
     }
   ],
-  "updatedAt": "2026-08-08T11:15:14Z",
+  "updatedAt": "2026-08-08T11:43:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
