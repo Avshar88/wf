@@ -132,6 +132,16 @@
       "publishedAt": "2026-08-07T17:52:00Z"
     },
     {
+      "id": "a86a35cfd1f0f322a52d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid is now in Budapest",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3dHeV9OaWdkN1BocFB5WklVX0JCcjhpOHRpb3dNaXAtR0JnR2ZjalRIOWdxUzFKZVFBSGI3ZFF0Wm5BR0pqZ0tCaHo1dk1oNjg2UlEtX2doNDc5eDNMOUF6SWRnMUlqOHBSX0MzNjM4eWRDT1pvY3NtTExCRW8wU1hKYS1WdnZUdXdicllBUFRsQXVMTlBTNTVkei1UNVNaUFBDYUpRcTdzTnBhMWJRTkx2NzZvdw?oc=5",
+      "publishedAt": "2026-08-07T10:13:00Z"
+    },
+    {
       "id": "15ccfb340005ecc12974",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Fabrizio Romano",
       "href": "https://www.youtube.com/watch?v=IFlP6UxcipM",
       "publishedAt": "2026-08-05T17:46:48Z"
-    },
-    {
-      "id": "21145cb2d87104011bd6",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "BRAHIM IS BACK! | Real Madrid pre-season 26/27",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=3vEkV8n4v2w",
-      "publishedAt": "2026-08-05T15:21:11Z"
     }
   ],
-  "updatedAt": "2026-08-08T11:43:33Z",
+  "updatedAt": "2026-08-08T13:00:43Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
