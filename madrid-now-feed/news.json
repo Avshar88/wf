@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "dc04b587ace399296436",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🥹 A lifetime memory! #MarioRivas #realmadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ptLg8D0ZyhA",
+      "publishedAt": "2026-08-08T19:01:20Z"
+    },
+    {
       "id": "ade773d7d9049f74e5db",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=D9MlK3u-vDc",
       "publishedAt": "2026-08-06T14:15:12Z"
-    },
-    {
-      "id": "ab1d3a4f88164596b69b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement: Diomande",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnV4RjBwTldYMm1WMWhHSlNGQ1p4M3FXWVdhb0RPOHUtbVhVRjNFN1F4QTFVSEJqZXJOdm9UNGJoMDc4eFVRa3ZoVVYwVkJnZlYtM0VjY2Y4bEdPQWJPdHdQZjBvZDRNUjQ3YldnYnhHVk5iSmE0LVB6cE1ZTG9lWjhnbEV5WXBxempLYy1FWWd2dVNUcWZYX0daNA?oc=5",
-      "publishedAt": "2026-08-06T11:13:00Z"
     }
   ],
-  "updatedAt": "2026-08-08T17:12:51Z",
+  "updatedAt": "2026-08-08T19:18:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
