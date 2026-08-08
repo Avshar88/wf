@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "a4c5e5a7e154f2f949f3",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Ferencváros 1-2 Real Madrid | GOALS",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=1Wf6EIsSwO8",
+      "publishedAt": "2026-08-08T21:25:48Z"
+    },
+    {
       "id": "b8904b591f9d5d3e3343",
       "category": "Matchday",
       "time": "NEW",
@@ -40,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=H1AvLtijsR8",
       "publishedAt": "2026-08-08T15:53:48Z"
+    },
+    {
+      "id": "6a42c4cb2010c68e4e84",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Defeat against Sevilla",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ01wdlhMSlQ3MUlGOTk5S3ZOTV84NFR6OTVLUHF0SXpmdlBOSWpsTkhOTDFFRERhSHNiT3BTRmxrQVVIUk9mUFJGMF9WeWdqZVVwZldrUW8zbm5FTE1CTjFYYjkzUG5CSEFyVVZTMHBRNkZmU2dOM0NOWlZaSzRod0hVMVJYd09qR2o2Q3pTVEtTQ3V4ZkczXzdGMk5Xek81eXliakcxLTc?oc=5",
+      "publishedAt": "2026-08-08T14:57:00Z"
     },
     {
       "id": "92d49397457add61a259",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=gj9aOjjUbHI",
       "publishedAt": "2026-08-06T17:47:57Z"
-    },
-    {
-      "id": "03f0c89b3cd047e04b8b",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔛 Pre-season training continues...",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=E4xxyNlPkl4",
-      "publishedAt": "2026-08-06T16:49:49Z"
-    },
-    {
-      "id": "1a377f3604f0cef1ba98",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Dumfries, Espí & Real Madrid are COOKING! 👨‍🍳 | Pre-season training 26/27",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=NcVCPHrNOJo",
-      "publishedAt": "2026-08-06T16:26:57Z"
     }
   ],
-  "updatedAt": "2026-08-08T21:03:49Z",
+  "updatedAt": "2026-08-08T21:38:52Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
