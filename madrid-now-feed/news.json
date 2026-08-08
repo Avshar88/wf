@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "0e9b535c30e9c5962fba",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Nine years since the fourth UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc2NtRlo2Tk1LdTJQRHhMb2g1MXJMb3dxMUo2YUk2a18wNHF5Umx0bG5rYnhpMjktb0lGWnFpRVpiTEdEcTl6SC14SWZoVjdrckxqSjM0Y2o1bWM0RkFHMGdGdlNUTUZSWi1HLUlaYmpVOFpHeWE2bi1tc2VCSnp0MWN2aENFV2xINEZJb2Z2QW9oWGtLbFNOZV9CODljNTlEOFlqeEgzUHc5enFUSUFjLTBDREVyaWVVWkdhbw?oc=5",
+      "publishedAt": "2026-08-08T11:13:20Z"
+    },
+    {
       "id": "7d66c393f74c5df12148",
       "category": "Matchday",
       "time": "NEW",
@@ -30,16 +40,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNmw5MlRkUDZHZFphNkFuTzhxanZfVGtjd3ZpNWJsUHg5YVJTUlJuTXhwdjJUeEVyaFBTUWZTQ3RzV0paSVhMU0Q2ODk1VTg3Ql9jSWJ2ellWN3ptUGlrYkpzZWR5QTM2UWNBdEUyYzUzMU9icUxCcFIzVFJ3MDhzbDB0U3dkeEpDa3ZXdFJGRUZhVFhiSVAtTWNVQ2NQZFhkcUlJZE51RFpKTGp5TnNlWG1oUkMwRUNoMUVBMzkxNGRtUzZpSlgwRG9yNXF5Zw?oc=5",
       "publishedAt": "2026-08-08T05:43:24Z"
-    },
-    {
-      "id": "98145b560b9ef9bda640",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Nine years since the fourth UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc2NtRlo2Tk1LdTJQRHhMb2g1MXJMb3dxMUo2YUk2a18wNHF5Umx0bG5rYnhpMjktb0lGWnFpRVpiTEdEcTl6SC14SWZoVjdrckxqSjM0Y2o1bWM0RkFHMGdGdlNUTUZSWi1HLUlaYmpVOFpHeWE2bi1tc2VCSnp0MWN2aENFV2xINEZJb2Z2QW9oWGtLbFNOZV9CODljNTlEOFlqeEgzUHc5enFUSUFjLTBDREVyaWVVWkdhbw?oc=5",
-      "publishedAt": "2026-08-08T04:24:42Z"
     },
     {
       "id": "ff41e660f0ed0d873801",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-05T15:07:45Z"
     }
   ],
-  "updatedAt": "2026-08-08T10:51:48Z",
+  "updatedAt": "2026-08-08T11:15:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
