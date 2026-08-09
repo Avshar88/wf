@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "e94dacf3bb917500d4cf",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Courtois: “The team is doing well, and we need to prepare because the league starts soon”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2xUYWtWYmZMdWZyWm1QbFFWU1A4al9URnJmb0JoRXZRZ1BSZkZjOVk1bWswcVNiVEZGVzI0WU5tNWljbHRUV2ZJUWhyYW1kSlZtOUljdWFtQm5PYndmdlVoTjZaYXFnRlJaMlk2MnlzRjhkdlBhU2hKclR2UWh6SlFOdGRzS3U4bUZ4SDFQdWluN2M?oc=5",
+      "publishedAt": "2026-08-09T08:38:00Z"
+    },
+    {
       "id": "ecc740b0f97f5ee9f9cb",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdEQyOGg0cjdlT0ZFbkxmdG56VHNhWkQ2N0xYaFBUdGhqWHFLSU5neHpSNUpad194bTFMVVI1ZERXaktYbE5XZndhOURUazh5bUhFWkF1MUJPZFp4UE1xTkEyX0x5cWZzMFJBa0NsSGgyT1pkM2ZSNXBqVjVTTnJya1MxS1ZmVFp0SlhTZjJSOE9OLTJUQktpaE5KOTVtZmlYdEIwZnpKQVNyODBnSk9paWJGOFMyUm5wMm9ueg?oc=5",
       "publishedAt": "2026-08-07T17:52:00Z"
-    },
-    {
-      "id": "a86a35cfd1f0f322a52d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid is now in Budapest",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3dHeV9OaWdkN1BocFB5WklVX0JCcjhpOHRpb3dNaXAtR0JnR2ZjalRIOWdxUzFKZVFBSGI3ZFF0Wm5BR0pqZ0tCaHo1dk1oNjg2UlEtX2doNDc5eDNMOUF6SWRnMUlqOHBSX0MzNjM4eWRDT1pvY3NtTExCRW8wU1hKYS1WdnZUdXdicllBUFRsQXVMTlBTNTVkei1UNVNaUFBDYUpRcTdzTnBhMWJRTkx2NzZvdw?oc=5",
-      "publishedAt": "2026-08-07T10:13:00Z"
     }
   ],
-  "updatedAt": "2026-08-09T09:51:19Z",
+  "updatedAt": "2026-08-09T13:15:57Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
