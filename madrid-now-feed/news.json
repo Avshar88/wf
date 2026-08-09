@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "ecc740b0f97f5ee9f9cb",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Le triplé de Kylian Mbappé à Almaty | Video History",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdzdvTU12cnozaE5IREFIVnAxREVBUjlPMTd4bGJzbGl6QUtBWVMzTXpOeXJOVVRzQ1VaS3ZXR0hVZEthV0RWY0xvQ3UyUzRRSzdoUEU2NDkwcmQ3X1Z5d1RRc3ZyRG5RU2t4YXBZTlgzdVhHQ2ZOS21tRll3MlYzS2dWZVJIN3EtTkhKQTVWTGFCSHJ6ZEtFdjNGb3VzcmowdElLRDBBYWhqN3ZJZ0xuektFa0YzNmd5WWxlM01uMl8xcVlZcmZR?oc=5",
+      "publishedAt": "2026-08-08T22:52:33Z"
+    },
+    {
       "id": "a4c5e5a7e154f2f949f3",
       "category": "Matchday",
       "time": "NEW",
@@ -50,6 +60,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ptLg8D0ZyhA",
       "publishedAt": "2026-08-08T19:01:20Z"
+    },
+    {
+      "id": "b8c843bf708bbca7eec3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Bernardo Silva: “I am very happy to have debuted with Real Madrid”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVFFBaUdRU1lIdUZ1RXlsMXpDQTJuV2Nobl9vd3YtdjU3RkMyLVRHRzlzY0taMVJZQUFLVC1TSGtjQkh0RlRUMEppeFluakE2V1Vlb3lCS1FuczZPb2gwQ2xpOFA0dzBkVmRYVndNUm5zMUZCY3U0cVdpZ1h2NGJLQUE1THlqNlV3Q1o1eHJOdnBxQTgxQlpLLWp2elFJN1l5UUhUV19KSWQ1WFpVN2xxbWN4eGRTNzlYaUtxZ1ZsOW5tN19NWFY3ZE9Gdw?oc=5",
+      "publishedAt": "2026-08-08T18:31:00Z"
     },
     {
       "id": "18c66228fc18b05f1553",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=YUwMbxEBfZg",
       "publishedAt": "2026-08-06T19:06:54Z"
-    },
-    {
-      "id": "7e0bf4203ad0481b015f",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Real Madrid secure Vinicius Jr with new long-term deal",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dpYnd2QkJCRDhuSWlDVDNFZ2h5WUo4UzEzMzBydmVnMXJWS0FwdkJ2QmxWMFM4bm9IRUdSdkdYM25zcE8zZEhEUnEteldHMFVraFVhSEN4NFNndmhSd2hWZ05Xd2NWSGZfT2VFbGM4UmRORDJ4di1RTFVHaHJwbkdjYXhDQVNBZjlLWlZlcU8xUnR6SkZObG00a0tLRU9MSnM1ZmhSSQ?oc=5",
-      "publishedAt": "2026-08-06T18:49:45Z"
-    },
-    {
-      "id": "6b3ec9e705bf16b9de2d",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Real Madrid secure Vinicius Jr with new long-term deal - reuters.com",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dpYnd2QkJCRDhuSWlDVDNFZ2h5WUo4UzEzMzBydmVnMXJWS0FwdkJ2QmxWMFM4bm9IRUdSdkdYM25zcE8zZEhEUnEteldHMFVraFVhSEN4NFNndmhSd2hWZ05Xd2NWSGZfT2VFbGM4UmRORDJ4di1RTFVHaHJwbkdjYXhDQVNBZjlLWlZlcU8xUnR6SkZObG00a0tLRU9MSnM1ZmhSSQ?oc=5",
-      "publishedAt": "2026-08-06T18:49:45Z"
     }
   ],
-  "updatedAt": "2026-08-09T00:35:45Z",
+  "updatedAt": "2026-08-09T02:37:19Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
