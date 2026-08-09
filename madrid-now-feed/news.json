@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "374541cbc481378e893c",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "🚨💣 SWAP DEAL TRUTH! BARCOLA, REAL MADRID 3 DECISION, TCHOUAMENI-UNITED, ENDRICK LOAN, FERRAN, RODRI…",
+      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
+      "source": "Fabrizio Romano",
+      "href": "https://www.youtube.com/watch?v=KQ1NeEKNpqo",
+      "publishedAt": "2026-08-09T21:52:19Z"
+    },
+    {
       "id": "fa9c4c6e960d9961cc5e",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNmw5MlRkUDZHZFphNkFuTzhxanZfVGtjd3ZpNWJsUHg5YVJTUlJuTXhwdjJUeEVyaFBTUWZTQ3RzV0paSVhMU0Q2ODk1VTg3Ql9jSWJ2ellWN3ptUGlrYkpzZWR5QTM2UWNBdEUyYzUzMU9icUxCcFIzVFJ3MDhzbDB0U3dkeEpDa3ZXdFJGRUZhVFhiSVAtTWNVQ2NQZFhkcUlJZE51RFpKTGp5TnNlWG1oUkMwRUNoMUVBMzkxNGRtUzZpSlgwRG9yNXF5Zw?oc=5",
       "publishedAt": "2026-08-08T08:23:00Z"
-    },
-    {
-      "id": "f29f960fcc43f55702a2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "✍️ The boss x Madridistas in Budapest.",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=nf4Y9x3lE-c",
-      "publishedAt": "2026-08-07T21:30:04Z"
     }
   ],
-  "updatedAt": "2026-08-09T21:05:25Z",
+  "updatedAt": "2026-08-09T22:03:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
