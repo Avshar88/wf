@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "8099c12efff4677e13c7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "BERNARDO SILVA on his REAL MADRID DEBUT!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=bG3uWMlkHK0",
+      "publishedAt": "2026-08-09T18:17:30Z"
+    },
+    {
       "id": "70c329d134299a49272c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=XxaLAWlmkRA",
       "publishedAt": "2026-08-07T19:13:46Z"
-    },
-    {
-      "id": "d2b34a53594a25d83110",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤯 OUTRAGEOUS RÜDIGER strike! | Real Madrid are READY for Ferencvaros",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=7E7d91GlKUw",
-      "publishedAt": "2026-08-07T19:01:09Z"
     }
   ],
-  "updatedAt": "2026-08-09T17:47:10Z",
+  "updatedAt": "2026-08-09T19:01:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
