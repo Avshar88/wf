@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "3c5c0332c29c65d3b4a4",
+      "category": "Official",
+      "time": "NEW",
+      "title": "⚡ ViniJr. & Bernardo Silva ⚡ #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ntj_Sp1wJaY",
+      "publishedAt": "2026-08-10T20:19:58Z"
+    },
+    {
+      "id": "7c6fe0b76a797f56f3bc",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "FIRST TRAINING SESSION FOR CUCURELLA AND KONATÉ! MBAPPÉ AND TCHOUAMENI ARE BACK!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=NE7BfWucofQ",
+      "publishedAt": "2026-08-10T20:08:47Z"
+    },
+    {
       "id": "d62dff2d8ec80cf92aeb",
       "category": "Transfers",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ01wdlhMSlQ3MUlGOTk5S3ZOTV84NFR6OTVLUHF0SXpmdlBOSWpsTkhOTDFFRERhSHNiT3BTRmxrQVVIUk9mUFJGMF9WeWdqZVVwZldrUW8zbm5FTE1CTjFYYjkzUG5CSEFyVVZTMHBRNkZmU2dOM0NOWlZaSzRod0hVMVJYd09qR2o2Q3pTVEtTQ3V4ZkczXzdGMk5Xek81eXliakcxLTc?oc=5",
       "publishedAt": "2026-08-08T14:57:00Z"
-    },
-    {
-      "id": "92d49397457add61a259",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Tribute to Puskas in Budapest",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGltUmdrOEl5Z1M0bjhmN1pOWmkwaThReWNjRFZhMTFiOXEtbUY0QWd3cHNvbDV0XzdCcVlENEU1dWZaRlgwN2d4UzJEQVF5c3dMUjNlVG0yc3pUMFYwbWVsVTNOUkZJZG01YU9ZUEtralFYeUstYzV6NGtlZF80dXRNQ09xX0E3Qnp6bGlFWUp6bWZnUlVENzk3VQ?oc=5",
-      "publishedAt": "2026-08-08T10:51:00Z"
-    },
-    {
-      "id": "5507818ad8d9393e7594",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Roberto Carlos with the madridista supporter clubs in Hungary",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT3RwYkM2dU5vN1BjV3lVYjFvSnQ4bW1oNU9sWHRUNTZsR3pDVzdPSC1jVjBveDJZa0Rfa3dzSFlqelRLaGxJUmJPenBwZnZfcGdaZWdKY2REdzZYM0xvRTM4WWtXblBDYUhHdnBLUmgtUGg4UVZaVVBxaXo2VDZWTmxVNEx4MkhEZ2lSaUJSQjRKYjU0elozUDVlWWxfcFhaYk4wendUaV9YUXhpeGRxa3hwcVNqSTdK?oc=5",
-      "publishedAt": "2026-08-08T10:48:00Z"
     }
   ],
-  "updatedAt": "2026-08-10T19:59:53Z",
+  "updatedAt": "2026-08-10T20:42:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
