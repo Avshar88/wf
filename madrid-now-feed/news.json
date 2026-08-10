@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "172b6b6f1107a5bbd58f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😉 Train with #Cucurella... #RealMadrid #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=6MbC4xN9Abg",
+      "publishedAt": "2026-08-10T16:08:54Z"
+    },
+    {
       "id": "954bdeab445850d59148",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUVFdV81NVQtUFFJc29Qei1WWWZzWWhMVG9sb0lXMFZjaHBNNm02VkVIdzlPd0o5WkxjSWdtakFTd1NiTW4yMmJuNzdBVXJ4OE95RGhHNzdzVHVlMVMtQmUzdmpUb2Y5VWw3RjMtWkZpanVMVW5kMUtJZWRfNW5tR1NtaVQ3d3cyU2FjU24xVDIzTEJPdHZ1M08xa3FwY0FxUDcxVElrVHJ5VjhHZ05EblhJVXV3Mm03UWlwRml4VQ?oc=5",
       "publishedAt": "2026-08-08T08:33:00Z"
-    },
-    {
-      "id": "80c7ff11d1c99aae1822",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid's starting lineup against Ferencvaros",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd2poWmJaRjdwNDkwOEEtU2RGcjR0UkJtODdNQjAxdkxiVk9xdG5lbTlvMTlkQnRicWxvb3JfdWdKbEd2V1g1QmMwaWtqcnVma2IyUy1qaWxXb3Q1SnpCOXhsQU4yYnFkb0FwVm5GRHBpSjVwOUlTd2p3bXFTYWd3aWhqcDF2SS12SmViZTdUTmtoeTJLLW9qakNteFNvb0JveTJCVTJIczd5cDQtRHVJM3RYWHVHcDg3TGY0SldXYXppTHRuU19vS2U4Yw?oc=5",
-      "publishedAt": "2026-08-08T08:28:00Z"
     }
   ],
-  "updatedAt": "2026-08-10T13:53:11Z",
+  "updatedAt": "2026-08-10T16:29:07Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
