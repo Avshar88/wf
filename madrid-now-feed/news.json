@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "954bdeab445850d59148",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Cucurella: “It’s a privilege to be at the biggest club in Europe”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONmRfcGo0NUg2UkZmelRzcWd6WXNYWmJNNk5kWXhCZDVSY1NUOFJXYWdlMzNzMU84V0FOWHVIeTFXb0ZJWGFGM0RjUWtaTTZ3My05WUhFN20tR3d4REVKcE1YRUl5SHUyZFAyeHowVUlSZ1Fkb0pkVV9DU1NodDRLb2l5aU1wdU5sbWtQYUp6dXBQbTZlNlI2cElDMnljX0ZkeXdoUjhqQTZkRmI3UERjaWJPZjJnWXJ1dnlJTzZlZUxJYW5FUmQtY1I3T1Y4NmtWaUlSZTJSRnUzZk1LZmc?oc=5",
+      "publishedAt": "2026-08-10T12:50:00Z"
+    },
+    {
       "id": "34b122ef141123b5c1a2",
       "category": "Official",
       "time": "NEW",
@@ -10,6 +20,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ZuNF6Dp-Md0",
       "publishedAt": "2026-08-10T12:10:50Z"
+    },
+    {
+      "id": "024a30b034a2c68d011b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid squad numbers for the 2026/27 season",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1didE1SUzYwdXVudENuVVRfQi1Wd3JZaEV6dVU0cFpvaHVta0dqUGpPdzFZTFZ1dmJFbjd1UTQ1Z3lnZjZOdkc2bDVQdFkwQ09mTk8xYTVlWDlmWDNtRFAwRllNNEpjQzdtTTZkSjF5Tm9ERDc4RWJTUW9pLURDb2NoT01OM0pZN1RCeXlpR3JfX05zVFAzTUJhZE1sTjBvelZxRHVodVV5enp1WUJLLU9uOWZjYVRPRVh6TWFFam1wNWJqQXV5dXc5aw?oc=5",
+      "publishedAt": "2026-08-10T10:30:00Z"
     },
     {
       "id": "2ad1f38d0134ca1cdcf9",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd2poWmJaRjdwNDkwOEEtU2RGcjR0UkJtODdNQjAxdkxiVk9xdG5lbTlvMTlkQnRicWxvb3JfdWdKbEd2V1g1QmMwaWtqcnVma2IyUy1qaWxXb3Q1SnpCOXhsQU4yYnFkb0FwVm5GRHBpSjVwOUlTd2p3bXFTYWd3aWhqcDF2SS12SmViZTdUTmtoeTJLLW9qakNteFNvb0JveTJCVTJIczd5cDQtRHVJM3RYWHVHcDg3TGY0SldXYXppTHRuU19vS2U4Yw?oc=5",
       "publishedAt": "2026-08-08T08:28:00Z"
-    },
-    {
-      "id": "9f13b7b790fc6ea963a7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid's starting lineup against Ferencvaros - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd2poWmJaRjdwNDkwOEEtU2RGcjR0UkJtODdNQjAxdkxiVk9xdG5lbTlvMTlkQnRicWxvb3JfdWdKbEd2V1g1QmMwaWtqcnVma2IyUy1qaWxXb3Q1SnpCOXhsQU4yYnFkb0FwVm5GRHBpSjVwOUlTd2p3bXFTYWd3aWhqcDF2SS12SmViZTdUTmtoeTJLLW9qakNteFNvb0JveTJCVTJIczd5cDQtRHVJM3RYWHVHcDg3TGY0SldXYXppTHRuU19vS2U4Yw?oc=5",
-      "publishedAt": "2026-08-08T08:28:00Z"
-    },
-    {
-      "id": "8f7c60a3238a72dfffe0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Victory in Budapest",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVW5Ya1BDUmZSMzJ5MHN0SzJhdnhuNTJYYzZ5cGQ1R2YwMTFkblBtaUM4SDllQ1hKbzc1NHhPaENBbENVc3pPYTA1WHRyeERpbjh3MTJLbXJZdm41dWJBTXN5dG1MaHdyUlFuWFBWSGFZSDN4dGhPSlpKTk1oc091T3JnME5DdW9KQmFsRWNOaDBXYU1wOUk3V3dERWlBeF80OVE?oc=5",
-      "publishedAt": "2026-08-08T08:25:00Z"
     }
   ],
-  "updatedAt": "2026-08-10T12:27:32Z",
+  "updatedAt": "2026-08-10T13:53:11Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
