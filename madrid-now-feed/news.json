@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "22bd005f888f858ce677",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😏⚽ Golazo x4 #RMCity #RealMadrid #football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=OII15pjXw_c",
+      "publishedAt": "2026-08-11T15:58:47Z"
+    },
+    {
       "id": "95b5747f4030b4d64fc8",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT1NwUF9fVVRWRFpJSDJuYkk1cUNvUTVYdE5aMktIWmFPaTYwMGxnNWNud3RVaEp1NUh4RmUyV3pvMjMzQkFuUTFpR1hzN3hQZ0NaMERjQm5mZWh4aTgzUTVsTDhkaVNIaGdkVE1LLWFqS3FhejFyXzcyWlVlMHU3Q1hWT1AwcXZNUGdSMldidDEzSXNPTEh2U1RLUWRPMGc3ZWdabENvLThmampLNlpnUXBRV2M?oc=5",
       "publishedAt": "2026-08-08T19:47:00Z"
-    },
-    {
-      "id": "de4745c6a94ded2d9332",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Valverde: “The energy and dynamics of the match were very good” - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT1NwUF9fVVRWRFpJSDJuYkk1cUNvUTVYdE5aMktIWmFPaTYwMGxnNWNud3RVaEp1NUh4RmUyV3pvMjMzQkFuUTFpR1hzN3hQZ0NaMERjQm5mZWh4aTgzUTVsTDhkaVNIaGdkVE1LLWFqS3FhejFyXzcyWlVlMHU3Q1hWT1AwcXZNUGdSMldidDEzSXNPTEh2U1RLUWRPMGc3ZWdabENvLThmampLNlpnUXBRV2M?oc=5",
-      "publishedAt": "2026-08-08T19:47:00Z"
     }
   ],
-  "updatedAt": "2026-08-11T15:52:18Z",
+  "updatedAt": "2026-08-11T16:41:21Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
