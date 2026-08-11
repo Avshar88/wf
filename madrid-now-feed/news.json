@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "544db2dc98ce9867ea7b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😉 Train with Diomande! #RMCity #RealMadrid #football #Diomande",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=FOMzazJSKPI",
+      "publishedAt": "2026-08-11T17:12:24Z"
+    },
+    {
       "id": "22bd005f888f858ce677",
       "category": "Official",
       "time": "NEW",
@@ -222,20 +232,20 @@
       "publishedAt": "2026-08-09T15:23:06Z"
     },
     {
-      "id": "5c2e99919d0a244670ad",
+      "id": "519b4dc54229331275c5",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid's schedule for the next month - realmadrid.com",
+      "title": "Real Madrid's schedule for the next month",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEE5X0xnaldqUmRNUzdvUGU5OGZsdmtYOVRJbmtxYmFOdGoxc240YW1IazVsREhVOUVCU0c4dkpsNVp6bTc5SUQtUXNrR2c4Y1BVMXJMVThhdUw1bE94UHMxQmJsM21iZU53aTlzOXRrOE1zTjdNNDROazBQNk1QS0lBUmFhd0Y2RGpuRXAtSEJZTTlsbXhXX25wMTZCaEZ0RENXd3NJYWpkZC1KbDk3cGdTTEpvNmRBRUljVFRzNA?oc=5",
       "publishedAt": "2026-08-09T09:05:00Z"
     },
     {
-      "id": "519b4dc54229331275c5",
+      "id": "5c2e99919d0a244670ad",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid's schedule for the next month",
+      "title": "Real Madrid's schedule for the next month - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEE5X0xnaldqUmRNUzdvUGU5OGZsdmtYOVRJbmtxYmFOdGoxc240YW1IazVsREhVOUVCU0c4dkpsNVp6bTc5SUQtUXNrR2c4Y1BVMXJMVThhdUw1bE94UHMxQmJsM21iZU53aTlzOXRrOE1zTjdNNDROazBQNk1QS0lBUmFhd0Y2RGpuRXAtSEJZTTlsbXhXX25wMTZCaEZ0RENXd3NJYWpkZC1KbDk3cGdTTEpvNmRBRUljVFRzNA?oc=5",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMmotdTY0bEczYnF3ZjNfSHA5S2g5Y0RBRlhwSnNOb3BlTzZqNzV4LUpNMkQ0LW1CWmdCZy1nanBKd0FYX2xZWTNjRXpLYjhBTkx2azIyMHFROHpkbFNFT3g2Z0Y1MjRJVGxUNi1CcjBWNmZSMldxcGQ0QS1abUtLX0hXeXc4T3BCT21lYjNzVkJXUzJnYlFJ?oc=5",
       "publishedAt": "2026-08-08T20:11:00Z"
-    },
-    {
-      "id": "b8904b591f9d5d3e3343",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Valverde: “The energy and dynamics of the match were very good”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT1NwUF9fVVRWRFpJSDJuYkk1cUNvUTVYdE5aMktIWmFPaTYwMGxnNWNud3RVaEp1NUh4RmUyV3pvMjMzQkFuUTFpR1hzN3hQZ0NaMERjQm5mZWh4aTgzUTVsTDhkaVNIaGdkVE1LLWFqS3FhejFyXzcyWlVlMHU3Q1hWT1AwcXZNUGdSMldidDEzSXNPTEh2U1RLUWRPMGc3ZWdabENvLThmampLNlpnUXBRV2M?oc=5",
-      "publishedAt": "2026-08-08T19:47:00Z"
     }
   ],
-  "updatedAt": "2026-08-11T16:41:21Z",
+  "updatedAt": "2026-08-11T17:37:53Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
