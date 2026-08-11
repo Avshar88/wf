@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "95b5747f4030b4d64fc8",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "\"When MADRID calls, you DON'T say no!\" | DIOMANDE x Real Madrid pre-season 26/27",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=xWAZWI6PPEU",
+      "publishedAt": "2026-08-11T13:26:17Z"
+    },
+    {
+      "id": "5ddab74b3c10545390b3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb1d3QTBNVGFmSElSaFNQdTJaQkJDOHk0Q0R4eGJRYk9peGhtaWtRa05OWk93Z04yX1JndWlqMFlaaE43UDZ6ZDV0cjR5ZExlSnI5Ry0tTnFqTjY3X1hhU3JvZW9jN1dfTmxlcVc3QXdtcGF1NmxVVEk3MVlibFh6ek80UWx5dw?oc=5",
+      "publishedAt": "2026-08-11T11:37:52Z"
+    },
+    {
       "id": "9b3b2bda6503630ce8b7",
       "category": "Official",
       "time": "NEW",
@@ -130,16 +150,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVl4Z2ZCQlNKaVBVaTRDSFBqZUY3WGQ3VFZQZTlucHktRWtkMVRsdXFJTWN2dktGaHNyeVpwRWFQUkVNaXk5VEN3RkM0dFpMT3lfTl9CUEptYXpIakg2eTFXSkE3NEZ4U3RyNzlDVXZnVUs5YlJycGNQNlk5ODlQOC12Q2swMmVfeEZTdE11cmkzTGRIdnd4V002Z1VpUlpvdG9EQlJjMzBnSTFNUEVPTGo1eVJBLWo1NFQtTElnTjRlMS1nQUxvcE1YcUNvdw?oc=5",
       "publishedAt": "2026-08-10T08:37:00Z"
-    },
-    {
-      "id": "fb21f96e1c7e614db525",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42c1ZxNVdYbzlmNEZZOG02WjVDNDFtNGdnZWJQNzhmM1VhT0lnWF9rZkdvOWdwWTczMlBkNTRyLTVzX1duMF9pM201RTFmeGFtNDIzT3BnVVYtYjdKZVlwMVk1WjNtaC1DbHhGdmVNcElKTXla?oc=5",
-      "publishedAt": "2026-08-10T03:14:42Z"
     },
     {
       "id": "f29f0fa6ad1d5f81d7d0",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLXhnNzZfRk05MllGS3V0U0Zkcnk0NjZzQlB2WnV1LS1ON2pZdmwxZGYzTjNlaHlmaW5YTUdwUVFCbWw2NHVWb2lIbUF6Mi1EVjRvekttYzFDVWVpRmYxcUtESWp3RVNFelVXZm9lTkt0bnJ3aE8wTkZnTk9aRWNLcmowbXlpcHNjNUk3dzhyTVFUTnNkSWxzeHYyWFJXbUQ4MU5oczZRNE5YaVRRU1BRQnIxbjNaNFlENzZmbXpTUmM3TDBzXzQ0Sl9QVTZnOUlEdEVrQTZSa3dxTzQ?oc=5",
       "publishedAt": "2026-08-08T19:06:00Z"
-    },
-    {
-      "id": "dc04b587ace399296436",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🥹 A lifetime memory! #MarioRivas #realmadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=ptLg8D0ZyhA",
-      "publishedAt": "2026-08-08T19:01:20Z"
     }
   ],
-  "updatedAt": "2026-08-11T08:27:54Z",
+  "updatedAt": "2026-08-11T13:59:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
