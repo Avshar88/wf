@@ -122,6 +122,16 @@
       "publishedAt": "2026-08-10T08:37:00Z"
     },
     {
+      "id": "fb21f96e1c7e614db525",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42c1ZxNVdYbzlmNEZZOG02WjVDNDFtNGdnZWJQNzhmM1VhT0lnWF9rZkdvOWdwWTczMlBkNTRyLTVzX1duMF9pM201RTFmeGFtNDIzT3BnVVYtYjdKZVlwMVk1WjNtaC1DbHhGdmVNcElKTXla?oc=5",
+      "publishedAt": "2026-08-10T03:14:42Z"
+    },
+    {
       "id": "374541cbc481378e893c",
       "category": "Transfers",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVFFBaUdRU1lIdUZ1RXlsMXpDQTJuV2Nobl9vd3YtdjU3RkMyLVRHRzlzY0taMVJZQUFLVC1TSGtjQkh0RlRUMEppeFluakE2V1Vlb3lCS1FuczZPb2gwQ2xpOFA0dzBkVmRYVndNUm5zMUZCY3U0cVdpZ1h2NGJLQUE1THlqNlV3Q1o1eHJOdnBxQTgxQlpLLWp2elFJN1l5UUhUV19KSWQ1WFpVN2xxbWN4eGRTNzlYaUtxZ1ZsOW5tN19NWFY3ZE9Gdw?oc=5",
       "publishedAt": "2026-08-08T18:31:00Z"
-    },
-    {
-      "id": "18c66228fc18b05f1553",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Nine years since the fourth UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc2NtRlo2Tk1LdTJQRHhMb2g1MXJMb3dxMUo2YUk2a18wNHF5Umx0bG5rYnhpMjktb0lGWnFpRVpiTEdEcTl6SC14SWZoVjdrckxqSjM0Y2o1bWM0RkFHMGdGdlNUTUZSWi1HLUlaYmpVOFpHeWE2bi1tc2VCSnp0MWN2aENFV2xINEZJb2Z2QW9oWGtLbFNOZV9CODljNTlEOFlqeEgzUHc5enFUSUFjLTBDREVyaWVVWkdhbw?oc=5",
-      "publishedAt": "2026-08-08T18:24:00Z"
     }
   ],
-  "updatedAt": "2026-08-11T02:49:06Z",
+  "updatedAt": "2026-08-11T05:17:37Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
