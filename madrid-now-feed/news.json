@@ -22,6 +22,16 @@
       "publishedAt": "2026-08-10T20:08:47Z"
     },
     {
+      "id": "0db803b7500afafdc170",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Four years since the fifth UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeTVtbXVYcFVQdDIxMkhITkFWMXU5VFZiVFFRb0F4eHRaeU1panliZkM1c1NBeTJGcmhWdGkxUG5zdlFuR2hoYVIzSjVxR21wNmpMRE9fYkctWWRpN1AtNmNqbmlJMkRwdEFSMzh3S19GQzdQTnpHdXNTRjFHSDFGcUhWVC1OOGZ4M2Z2ODgteXd2WHZsbzFOWDFyLU5tQjBvV0xvVHFCTElTRzFMdGJGcW1NSGdUZ2VfYXhuaUVR?oc=5",
+      "publishedAt": "2026-08-10T18:32:00Z"
+    },
+    {
       "id": "d62dff2d8ec80cf92aeb",
       "category": "Transfers",
       "time": "NEW",
@@ -30,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=58-1G0_3WQs",
       "publishedAt": "2026-08-10T18:00:00Z"
+    },
+    {
+      "id": "5328fc081d9977818a19",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0RZQ2Y1ZDNOWkxQd1cwNDJ1c05Md3BKclFaWXg5c1p0VU82TVJCcUdrYWNJbWhnVjFSTWlVNkhUT0NiQkpWSXNHQk5WTUhfRkZ5bzR3LUdacXhFZjgxUzZSTkRtMlFZb1dEdmU3am84VXpJT3p5Q0Y3SmZKTkJMWE93TkZFWEY3MGw5YV9tNA?oc=5",
+      "publishedAt": "2026-08-10T17:37:00Z"
     },
     {
       "id": "29dfdd228a3b8b89f3af",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc2NtRlo2Tk1LdTJQRHhMb2g1MXJMb3dxMUo2YUk2a18wNHF5Umx0bG5rYnhpMjktb0lGWnFpRVpiTEdEcTl6SC14SWZoVjdrckxqSjM0Y2o1bWM0RkFHMGdGdlNUTUZSWi1HLUlaYmpVOFpHeWE2bi1tc2VCSnp0MWN2aENFV2xINEZJb2Z2QW9oWGtLbFNOZV9CODljNTlEOFlqeEgzUHc5enFUSUFjLTBDREVyaWVVWkdhbw?oc=5",
       "publishedAt": "2026-08-08T18:24:00Z"
-    },
-    {
-      "id": "ade773d7d9049f74e5db",
-      "category": "Official",
-      "time": "NEW",
-      "title": "It’s almost time! 📸🇭🇺",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=H1AvLtijsR8",
-      "publishedAt": "2026-08-08T15:53:48Z"
-    },
-    {
-      "id": "6a42c4cb2010c68e4e84",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Defeat against Sevilla",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ01wdlhMSlQ3MUlGOTk5S3ZOTV84NFR6OTVLUHF0SXpmdlBOSWpsTkhOTDFFRERhSHNiT3BTRmxrQVVIUk9mUFJGMF9WeWdqZVVwZldrUW8zbm5FTE1CTjFYYjkzUG5CSEFyVVZTMHBRNkZmU2dOM0NOWlZaSzRod0hVMVJYd09qR2o2Q3pTVEtTQ3V4ZkczXzdGMk5Xek81eXliakcxLTc?oc=5",
-      "publishedAt": "2026-08-08T14:57:00Z"
     }
   ],
-  "updatedAt": "2026-08-10T20:42:40Z",
+  "updatedAt": "2026-08-11T02:49:06Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
