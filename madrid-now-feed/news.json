@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "adef5ab90b48699c9811",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid starting lineup against Deportivo",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeG80ejZmMFc2dHIxX2xHTHZWM3M4YUtzbFEtd1NmNTUxaWZYVEU1dmNxZmRDOUdlUVd3Yy1SNTFjQ1BncFJuQlZoRUJCY2RBenUtT0N0S1l2ZnJtY0l2bU9xbnB3ZWFqTVVlRXFTM0ZDeUNhSS1pRGVyejdReW1oTkR1SGNBWDdqLU9NWldCcUNLbmRQZERlWWZwVTRhRjdrZWxseWR4cDhKVW0yWm9rakZjWGEya192UUNYQUJhTnREaS1RWXc?oc=5",
+      "publishedAt": "2026-08-12T17:30:00Z"
+    },
+    {
       "id": "fd4764140db98c81e81b",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONmRfcGo0NUg2UkZmelRzcWd6WXNYWmJNNk5kWXhCZDVSY1NUOFJXYWdlMzNzMU84V0FOWHVIeTFXb0ZJWGFGM0RjUWtaTTZ3My05WUhFN20tR3d4REVKcE1YRUl5SHUyZFAyeHowVUlSZ1Fkb0pkVV9DU1NodDRLb2l5aU1wdU5sbWtQYUp6dXBQbTZlNlI2cElDMnljX0ZkeXdoUjhqQTZkRmI3UERjaWJPZjJnWXJ1dnlJTzZlZUxJYW5FUmQtY1I3T1Y4NmtWaUlSZTJSRnUzZk1LZmc?oc=5",
       "publishedAt": "2026-08-10T12:50:00Z"
-    },
-    {
-      "id": "34b122ef141123b5c1a2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🎁 A welcome fit for a world champion! | #RealMadrid #RMCity #Cucurella",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=ZuNF6Dp-Md0",
-      "publishedAt": "2026-08-10T12:10:50Z"
     }
   ],
-  "updatedAt": "2026-08-12T17:28:38Z",
+  "updatedAt": "2026-08-12T18:25:34Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
