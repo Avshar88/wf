@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "166af6814e966d51d0c2",
+      "category": "Official",
+      "time": "NEW",
+      "title": "JB5️⃣. Day 1. #JudeBellingham #RealMadrid #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=oj1tUcCqd90",
+      "publishedAt": "2026-08-12T14:46:29Z"
+    },
+    {
       "id": "f67d5b2a5a888fc1a94d",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Fabrizio Romano",
       "href": "https://www.youtube.com/watch?v=KQ1NeEKNpqo",
       "publishedAt": "2026-08-09T21:52:19Z"
-    },
-    {
-      "id": "fa9c4c6e960d9961cc5e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🇭🇺 Our goals in Budapest! @emirates",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=GxyWcmH7aVc",
-      "publishedAt": "2026-08-09T19:20:38Z"
     }
   ],
-  "updatedAt": "2026-08-12T14:40:11Z",
+  "updatedAt": "2026-08-12T15:34:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
