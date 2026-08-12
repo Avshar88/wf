@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f207b1fe11eed227058c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Here is the third jersey for the 2026/27 season",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQai1lVHNuNmR6MzFBZTcyQ05PY3ZraC1VRW5UNlV5MlAwRnM0R2NtSzkwV2FfVjV6R2RkZ044SzF1ZnVHOFBlNklhRFhtem9XRVFDQ1F0a0lkWE1QVXduUUhfcVh3ZUl5TndSWkhuOFJDdWo4VWVTNFVqbnZjN2QwV294NlZZdUY4Z0JQOHZoZG5tVnRYOFI4TVQyVDlObXhiNG9kTC14X0xaNU11aDQ5enZXcDVFUXBDNWtaT0h1UzB3Sy1nSDRuanR4bGp5dw?oc=5",
+      "publishedAt": "2026-08-12T08:00:00Z"
+    },
+    {
       "id": "ab4f91412c2e549f1b4a",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2xUYWtWYmZMdWZyWm1QbFFWU1A4al9URnJmb0JoRXZRZ1BSZkZjOVk1bWswcVNiVEZGVzI0WU5tNWljbHRUV2ZJUWhyYW1kSlZtOUljdWFtQm5PYndmdlVoTjZaYXFnRlJaMlk2MnlzRjhkdlBhU2hKclR2UWh6SlFOdGRzS3U4bUZ4SDFQdWluN2M?oc=5",
       "publishedAt": "2026-08-09T08:38:00Z"
-    },
-    {
-      "id": "8ff514456dfbd917cd2f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Courtois: “The team is doing well, and we need to prepare because the league starts soon” - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2xUYWtWYmZMdWZyWm1QbFFWU1A4al9URnJmb0JoRXZRZ1BSZkZjOVk1bWswcVNiVEZGVzI0WU5tNWljbHRUV2ZJUWhyYW1kSlZtOUljdWFtQm5PYndmdlVoTjZaYXFnRlJaMlk2MnlzRjhkdlBhU2hKclR2UWh6SlFOdGRzS3U4bUZ4SDFQdWluN2M?oc=5",
-      "publishedAt": "2026-08-09T08:38:00Z"
     }
   ],
-  "updatedAt": "2026-08-12T05:50:58Z",
+  "updatedAt": "2026-08-12T08:17:46Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
