@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "bffe653a82a459eb1a4f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid triumphs over Tottenham",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREF3VDEwcFMwNWdkWFFJdU5kQlF5bHpkaFU5REtqMFlPMTlsbld3aHEwYzlaMFI2dGhkWUdvQTNTOHZ1SHpCczVLeVZ6Y3F3dERNM2w5UUV6Q2NSRUJGck9Hay1EX2hyeVBXYnh4QXd6QnNyT2RRRGs5Q1IyVHRhM3ZBUW9MSjBsWWJJLWJ3YUpCZUlURldGWUpFRG84QjhIdnpPbzJHVHMxVkU?oc=5",
+      "publishedAt": "2026-08-12T20:01:00Z"
+    },
+    {
       "id": "2f8cf33b82cd7ccf89ff",
       "category": "Official",
       "time": "NEW",
@@ -40,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=qpP5cFyKdy0",
       "publishedAt": "2026-08-12T15:35:04Z"
+    },
+    {
+      "id": "19935e45aa49edc69631",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid is already in Coruña",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRlZMMHpwVzByMkhmRDlQdGFNUW96ck16Ykt6VldnQlNsMmVFcWVBQTJxM0FwWE51OUp3R1g5TndXaVlXSUxFQXFzTU1WamYwLTVpNnhPNkRxc2ZCcEZkWUw0RGZXSmxBSEx0ME9RVE14R3pTUElDeURRcUstNEF1bVVWckhBTjdmQ3V2cEM4NF9Kd21YdUNBQTY4SjdHSU1DeFRoMzhRUzhBTXJ4UnJsSGc2OXdldw?oc=5",
+      "publishedAt": "2026-08-12T14:53:00Z"
     },
     {
       "id": "166af6814e966d51d0c2",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ntj_Sp1wJaY",
       "publishedAt": "2026-08-10T20:19:58Z"
-    },
-    {
-      "id": "7c6fe0b76a797f56f3bc",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "FIRST TRAINING SESSION FOR CUCURELLA AND KONATÉ! MBAPPÉ AND TCHOUAMENI ARE BACK!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=NE7BfWucofQ",
-      "publishedAt": "2026-08-10T20:08:47Z"
-    },
-    {
-      "id": "0db803b7500afafdc170",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Four years since the fifth UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeTVtbXVYcFVQdDIxMkhITkFWMXU5VFZiVFFRb0F4eHRaeU1panliZkM1c1NBeTJGcmhWdGkxUG5zdlFuR2hoYVIzSjVxR21wNmpMRE9fYkctWWRpN1AtNmNqbmlJMkRwdEFSMzh3S19GQzdQTnpHdXNTRjFHSDFGcUhWVC1OOGZ4M2Z2ODgteXd2WHZsbzFOWDFyLU5tQjBvV0xvVHFCTElTRzFMdGJGcW1NSGdUZ2VfYXhuaUVR?oc=5",
-      "publishedAt": "2026-08-10T18:32:00Z"
     }
   ],
-  "updatedAt": "2026-08-12T19:33:05Z",
+  "updatedAt": "2026-08-12T21:00:42Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
