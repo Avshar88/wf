@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "04c004c9d767a14b7405",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Deportivo-Real Madrid: the Teresa Herrera Trophy, at 9:00 pm live on Realmadrid TV and RM Play",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUlXYk1lcDljNEU1cmcxWWdEODI3TWdtQk9LQ0k4bXh0MU5yV252MDRYbEt1T2RGTENfM3YwejAycmJVd0tPS0ZsWmI2OG82Y1JnT0stYU4yX2xHdFVlQTNmS0hFU0dsR3ljMW4zS2tvdEJycUVvdnAxYVlCMm9hRnVQdXJJQ3NWcTRRWi1sSmFaX21lSEhJZzFWOXpETFdYckhTV0ttZm1SdDNINkxtOTNXeUgxaDlMZ1RsbzJkYndSQlVZY29mREtKUmJDZUJVYnBINGl3?oc=5",
+      "publishedAt": "2026-08-12T02:23:36Z"
+    },
+    {
+      "id": "ba1c11ff9c42955ba84d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaTlZMmF1WUloUWVfNmxmczd1RWZoeVktRjhxeWwwRkdkWFk0M25QeWNDN1pMWjlYZEdKbGdPSkFGdWptX0pQYzMwaDhpTnNON1l5SHZOV0RKMS15VWVNX25Cd0RURGVKNXVrSzlfTGhaRjBYeHZua2FaR0lkVVptVUFYTy1lZw?oc=5",
+      "publishedAt": "2026-08-12T01:13:17Z"
+    },
+    {
       "id": "a90baed37af7f9d3692f",
       "category": "Official",
       "time": "NEW",
@@ -50,16 +70,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=xWAZWI6PPEU",
       "publishedAt": "2026-08-11T13:26:17Z"
-    },
-    {
-      "id": "5ddab74b3c10545390b3",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb1d3QTBNVGFmSElSaFNQdTJaQkJDOHk0Q0R4eGJRYk9peGhtaWtRa05OWk93Z04yX1JndWlqMFlaaE43UDZ6ZDV0cjR5ZExlSnI5Ry0tTnFqTjY3X1hhU3JvZW9jN1dfTmxlcVc3QXdtcGF1NmxVVEk3MVlibFh6ek80UWx5dw?oc=5",
-      "publishedAt": "2026-08-11T11:37:52Z"
     },
     {
       "id": "928cc59a85287a051f88",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2xUYWtWYmZMdWZyWm1QbFFWU1A4al9URnJmb0JoRXZRZ1BSZkZjOVk1bWswcVNiVEZGVzI0WU5tNWljbHRUV2ZJUWhyYW1kSlZtOUljdWFtQm5PYndmdlVoTjZaYXFnRlJaMlk2MnlzRjhkdlBhU2hKclR2UWh6SlFOdGRzS3U4bUZ4SDFQdWluN2M?oc=5",
       "publishedAt": "2026-08-09T08:38:00Z"
-    },
-    {
-      "id": "ecc740b0f97f5ee9f9cb",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Le triplé de Kylian Mbappé à Almaty | Video History",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdzdvTU12cnozaE5IREFIVnAxREVBUjlPMTd4bGJzbGl6QUtBWVMzTXpOeXJOVVRzQ1VaS3ZXR0hVZEthV0RWY0xvQ3UyUzRRSzdoUEU2NDkwcmQ3X1Z5d1RRc3ZyRG5RU2t4YXBZTlgzdVhHQ2ZOS21tRll3MlYzS2dWZVJIN3EtTkhKQTVWTGFCSHJ6ZEtFdjNGb3VzcmowdElLRDBBYWhqN3ZJZ0xuektFa0YzNmd5WWxlM01uMl8xcVlZcmZR?oc=5",
-      "publishedAt": "2026-08-08T22:52:33Z"
     }
   ],
-  "updatedAt": "2026-08-11T21:59:20Z",
+  "updatedAt": "2026-08-12T02:35:28Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
