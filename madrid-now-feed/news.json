@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "993794a8af0fbf78aad8",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Do what #BernardoSilva says, Madridistas.",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=raMy3ui1Jj8",
+      "publishedAt": "2026-08-12T11:02:27Z"
+    },
+    {
       "id": "cb287179ced6a2e24811",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=yPjFfqdmYO4",
       "publishedAt": "2026-08-09T15:23:06Z"
-    },
-    {
-      "id": "519b4dc54229331275c5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid's schedule for the next month",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEE5X0xnaldqUmRNUzdvUGU5OGZsdmtYOVRJbmtxYmFOdGoxc240YW1IazVsREhVOUVCU0c4dkpsNVp6bTc5SUQtUXNrR2c4Y1BVMXJMVThhdUw1bE94UHMxQmJsM21iZU53aTlzOXRrOE1zTjdNNDROazBQNk1QS0lBUmFhd0Y2RGpuRXAtSEJZTTlsbXhXX25wMTZCaEZ0RENXd3NJYWpkZC1KbDk3cGdTTEpvNmRBRUljVFRzNA?oc=5",
-      "publishedAt": "2026-08-09T09:05:00Z"
     }
   ],
-  "updatedAt": "2026-08-12T10:38:00Z",
+  "updatedAt": "2026-08-12T11:26:09Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
