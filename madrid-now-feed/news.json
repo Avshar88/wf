@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f67d5b2a5a888fc1a94d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😊➡️😮‍💨 #JudeBellingham #RealMadrid #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=HoeA_fTcgpM",
+      "publishedAt": "2026-08-12T13:15:27Z"
+    },
+    {
       "id": "993794a8af0fbf78aad8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=bG3uWMlkHK0",
       "publishedAt": "2026-08-09T18:17:30Z"
-    },
-    {
-      "id": "70c329d134299a49272c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Courtois 🤝 Mourinho | #RMCity #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=yPjFfqdmYO4",
-      "publishedAt": "2026-08-09T15:23:06Z"
     }
   ],
-  "updatedAt": "2026-08-12T11:26:09Z",
+  "updatedAt": "2026-08-12T13:37:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
