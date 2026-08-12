@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "2f8cf33b82cd7ccf89ff",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🏟️ The STAGE is set! #RealMadrid #Deportivo",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=uMsSMGfXgi8",
+      "publishedAt": "2026-08-12T18:55:23Z"
+    },
+    {
       "id": "adef5ab90b48699c9811",
       "category": "Matchday",
       "time": "NEW",
@@ -52,6 +62,16 @@
       "publishedAt": "2026-08-12T13:15:27Z"
     },
     {
+      "id": "5bbfe8448e06b6425844",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Reception at the City Hall of A Coruña",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmo3d1hDQ09EVzQ3WE9mTUt4Y3BNUW1NUV9oM2JET0x5OUdJWkFsX0JyVVU0akRmcnBVeTJaekN3em54UmtRbjgyTHFSY1Ryck8xLWJGY2ZaQlpaNTh0TW55X3lxaXhPa0ZHMGx1YVRnMVRQZmxWNUhKa3UyWXVuM05VN2F3WG90LUdjcER1bEZnOFNjZll3UlVvaXBBZGJReDN2Z282X01aNVk?oc=5",
+      "publishedAt": "2026-08-12T13:01:00Z"
+    },
+    {
       "id": "993794a8af0fbf78aad8",
       "category": "Official",
       "time": "NEW",
@@ -60,6 +80,26 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=raMy3ui1Jj8",
       "publishedAt": "2026-08-12T11:02:27Z"
+    },
+    {
+      "id": "985326ca98eb7807bdb6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Twelfth anniversary of the second UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS2N6SjNRckhmTV9IN1RlTzkyYnF1MlJVQTlVblBMdEEzM1NsTl83Z2lYSkFyQ2FoRDR6MUk5SmtIeDhqTVY2ZFQtQk9TaFJYSkcwR2FhTlRCUS1IQ0xvS2c1alVzcXFwOTVOWmFsZFdCWEhXSFhkZG9ESUZBbHhnb2ZfMVFpR3EzMHNXOU1GYmUwZDFaNW1lcTFvY2J3dGxqQ2RnTjNLUG5oS2c0TjF4dWd0VGNPU3hFYVFxbGxB?oc=5",
+      "publishedAt": "2026-08-12T09:29:00Z"
+    },
+    {
+      "id": "0e4d3521374da9b5a52f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Bellingham trained alongside the non-selected players",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbm9RMW9ZVlZiV3pjeUMxc21oNUVfUjFjTV80cjRXa0N5cUlOWVJUN19RZm4yYTRkMjNNRzF2RTlQVnVnS3RSN2lEOVVMaFdvZFF2X2VGOGxONlN2QW1WSlpCSXZJM0pxdUJvOUlmU25fUm5FbFFhVFNDY0R5UFB2QkNpNGxZTHZzOW5Zd3NNUUo3VjJYenIyYmNB?oc=5",
+      "publishedAt": "2026-08-12T08:56:00Z"
     },
     {
       "id": "cb287179ced6a2e24811",
@@ -212,6 +252,16 @@
       "publishedAt": "2026-08-11T11:00:45Z"
     },
     {
+      "id": "2efbb4d9df77bfe3a209",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Final training session before the match against Deportivo",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWTJFZEJnLVFmMDhZWU1YeE5MVUtmN1pOMUhXZ2YteVVnZ19tS3VZdXR0WFlOQ3kyVDlkNk4wbWd0RlZ3TUZrMVptRzQ4STZLZnVVaEYxSnNSaDIyWUVuQTQtU0ZydjlmM05vNlhicXJrdU4xVGYwQ2xVMGFNc21udDNKc1RfblNkRG9YcG03YzR1d0xiazFjY1pNLXUzNXNHb2dld0dwVkx1V3M?oc=5",
+      "publishedAt": "2026-08-11T08:00:07Z"
+    },
+    {
       "id": "9b3b2bda6503630ce8b7",
       "category": "Official",
       "time": "NEW",
@@ -250,59 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeTVtbXVYcFVQdDIxMkhITkFWMXU5VFZiVFFRb0F4eHRaeU1panliZkM1c1NBeTJGcmhWdGkxUG5zdlFuR2hoYVIzSjVxR21wNmpMRE9fYkctWWRpN1AtNmNqbmlJMkRwdEFSMzh3S19GQzdQTnpHdXNTRjFHSDFGcUhWVC1OOGZ4M2Z2ODgteXd2WHZsbzFOWDFyLU5tQjBvV0xvVHFCTElTRzFMdGJGcW1NSGdUZ2VfYXhuaUVR?oc=5",
       "publishedAt": "2026-08-10T18:32:00Z"
-    },
-    {
-      "id": "d62dff2d8ec80cf92aeb",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "👀 Our new signings’ shirt numbers! 👕 ​⁠@adidas | *Provisional shirt numbers #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=58-1G0_3WQs",
-      "publishedAt": "2026-08-10T18:00:00Z"
-    },
-    {
-      "id": "5328fc081d9977818a19",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0RZQ2Y1ZDNOWkxQd1cwNDJ1c05Md3BKclFaWXg5c1p0VU82TVJCcUdrYWNJbWhnVjFSTWlVNkhUT0NiQkpWSXNHQk5WTUhfRkZ5bzR3LUdacXhFZjgxUzZSTkRtMlFZb1dEdmU3am84VXpJT3p5Q0Y3SmZKTkJMWE93TkZFWEY3MGw5YV9tNA?oc=5",
-      "publishedAt": "2026-08-10T17:37:00Z"
-    },
-    {
-      "id": "29dfdd228a3b8b89f3af",
-      "category": "Official",
-      "time": "NEW",
-      "title": "DISCOVER Cucurella as a MADRIDISTA! 🤍 | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=xRpCGjHGyKc",
-      "publishedAt": "2026-08-10T17:26:34Z"
-    },
-    {
-      "id": "172b6b6f1107a5bbd58f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "😉 Train with #Cucurella... #RealMadrid #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=6MbC4xN9Abg",
-      "publishedAt": "2026-08-10T16:08:54Z"
-    },
-    {
-      "id": "954bdeab445850d59148",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella: “It’s a privilege to be at the biggest club in Europe”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONmRfcGo0NUg2UkZmelRzcWd6WXNYWmJNNk5kWXhCZDVSY1NUOFJXYWdlMzNzMU84V0FOWHVIeTFXb0ZJWGFGM0RjUWtaTTZ3My05WUhFN20tR3d4REVKcE1YRUl5SHUyZFAyeHowVUlSZ1Fkb0pkVV9DU1NodDRLb2l5aU1wdU5sbWtQYUp6dXBQbTZlNlI2cElDMnljX0ZkeXdoUjhqQTZkRmI3UERjaWJPZjJnWXJ1dnlJTzZlZUxJYW5FUmQtY1I3T1Y4NmtWaUlSZTJSRnUzZk1LZmc?oc=5",
-      "publishedAt": "2026-08-10T12:50:00Z"
     }
   ],
-  "updatedAt": "2026-08-12T18:25:34Z",
+  "updatedAt": "2026-08-12T19:33:05Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
