@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "4ffb25259462423a7ed2",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😎🌑 #RealMadrid #Madridistas",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=qpP5cFyKdy0",
+      "publishedAt": "2026-08-12T15:35:04Z"
+    },
+    {
       "id": "166af6814e966d51d0c2",
       "category": "Official",
       "time": "NEW",
@@ -152,6 +162,16 @@
       "publishedAt": "2026-08-11T13:26:17Z"
     },
     {
+      "id": "83a952be2fdd256bc09b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad list against Deportivo",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXRvS2FxdnpBZm5aMEtjdVNMUU85ZEljdFpxZld4TVZnMnZIdmNDQkYtbERlZlFrWWxRVjlHS3V5clFKblBMVVRYb3kyQkEzZ2FNV1RBaVZ5b0JHSmFRTGQyd0RoandpdFhnOFpjMi1XdlZ5eTZ6VVVtQ2JzNWo4VmhrLVpMX3dhc1VfWVpQNU5ReHNjcFBfU2lRNFlBUVlGT3lTV0JFTnFrT2JVcmNONG1NOXYxN3VBOGFETWlrRE5OTThzNllV?oc=5",
+      "publishedAt": "2026-08-11T13:00:21Z"
+    },
+    {
       "id": "928cc59a85287a051f88",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1didE1SUzYwdXVudENuVVRfQi1Wd3JZaEV6dVU0cFpvaHVta0dqUGpPdzFZTFZ1dmJFbjd1UTQ1Z3lnZjZOdkc2bDVQdFkwQ09mTk8xYTVlWDlmWDNtRFAwRllNNEpjQzdtTTZkSjF5Tm9ERDc4RWJTUW9pLURDb2NoT01OM0pZN1RCeXlpR3JfX05zVFAzTUJhZE1sTjBvelZxRHVodVV5enp1WUJLLU9uOWZjYVRPRVh6TWFFam1wNWJqQXV5dXc5aw?oc=5",
       "publishedAt": "2026-08-10T10:30:00Z"
-    },
-    {
-      "id": "2ad1f38d0134ca1cdcf9",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Medical examinations for Cucurella, Mbappé, and Konaté",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVl4Z2ZCQlNKaVBVaTRDSFBqZUY3WGQ3VFZQZTlucHktRWtkMVRsdXFJTWN2dktGaHNyeVpwRWFQUkVNaXk5VEN3RkM0dFpMT3lfTl9CUEptYXpIakg2eTFXSkE3NEZ4U3RyNzlDVXZnVUs5YlJycGNQNlk5ODlQOC12Q2swMmVfeEZTdE11cmkzTGRIdnd4V002Z1VpUlpvdG9EQlJjMzBnSTFNUEVPTGo1eVJBLWo1NFQtTElnTjRlMS1nQUxvcE1YcUNvdw?oc=5",
-      "publishedAt": "2026-08-10T08:37:00Z"
-    },
-    {
-      "id": "374541cbc481378e893c",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "🚨💣 SWAP DEAL TRUTH! BARCOLA, REAL MADRID 3 DECISION, TCHOUAMENI-UNITED, ENDRICK LOAN, FERRAN, RODRI…",
-      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
-      "source": "Fabrizio Romano",
-      "href": "https://www.youtube.com/watch?v=KQ1NeEKNpqo",
-      "publishedAt": "2026-08-09T21:52:19Z"
     }
   ],
-  "updatedAt": "2026-08-12T15:34:25Z",
+  "updatedAt": "2026-08-12T16:29:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
