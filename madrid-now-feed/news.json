@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "8f6a3f7eba57bc45a482",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😉 Train with Mbappé... #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=uo5rJkQXkrU",
+      "publishedAt": "2026-08-13T20:13:25Z"
+    },
+    {
       "id": "b4c0c13db47a33db30b6",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=raMy3ui1Jj8",
       "publishedAt": "2026-08-12T11:02:27Z"
-    },
-    {
-      "id": "985326ca98eb7807bdb6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Twelfth anniversary of the second UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS2N6SjNRckhmTV9IN1RlTzkyYnF1MlJVQTlVblBMdEEzM1NsTl83Z2lYSkFyQ2FoRDR6MUk5SmtIeDhqTVY2ZFQtQk9TaFJYSkcwR2FhTlRCUS1IQ0xvS2c1alVzcXFwOTVOWmFsZFdCWEhXSFhkZG9ESUZBbHhnb2ZfMVFpR3EzMHNXOU1GYmUwZDFaNW1lcTFvY2J3dGxqQ2RnTjNLUG5oS2c0TjF4dWd0VGNPU3hFYVFxbGxB?oc=5",
-      "publishedAt": "2026-08-12T09:29:00Z"
     }
   ],
-  "updatedAt": "2026-08-13T18:26:23Z",
+  "updatedAt": "2026-08-13T20:55:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
