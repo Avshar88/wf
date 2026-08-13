@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "c8747d15a10ddc3250d7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👌 Everyone’s PERFECT! #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=4vR3gXzziyY",
+      "publishedAt": "2026-08-13T12:30:36Z"
+    },
+    {
       "id": "d1bd21d414ecfc6a69e6",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUlXYk1lcDljNEU1cmcxWWdEODI3TWdtQk9LQ0k4bXh0MU5yV252MDRYbEt1T2RGTENfM3YwejAycmJVd0tPS0ZsWmI2OG82Y1JnT0stYU4yX2xHdFVlQTNmS0hFU0dsR3ljMW4zS2tvdEJycUVvdnAxYVlCMm9hRnVQdXJJQ3NWcTRRWi1sSmFaX21lSEhJZzFWOXpETFdYckhTV0ttZm1SdDNINkxtOTNXeUgxaDlMZ1RsbzJkYndSQlVZY29mREtKUmJDZUJVYnBINGl3?oc=5",
       "publishedAt": "2026-08-12T07:00:00Z"
-    },
-    {
-      "id": "081fe8f4ce4099a4bed5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMi1jWmJCTmZ0ZzlRUFRzbmRGU2p3al9taVRGZHZpTEVINXl1NWNQTUoxNHhodnBCdTkwaERSVVFLSTJZNUVjNjg1QUx4a2ZNUFpBX1R2R2E3LUJSSnFJRjlCWngtOUZtakY5OURWREdFUjBLUHQtd1hPWjI2MEIxWEVsWTBsWWF3VWpRX3FBaTU3VFdUaC1SNW1OQWxfbU53NlppNFRZcmg0bWF5YWJGdElNdWZtTGd6anpTV2xNRG4wS2JVU3ZYTURKbmY5NGlfWXdwdndjWWcwRUhsSjhfQ0pWbWdkbW5Hc2ppMHlxbFdKSmZqMXl2Y0JJSWZoVnNnOXVZ?oc=5",
-      "publishedAt": "2026-08-12T02:45:30Z"
     }
   ],
-  "updatedAt": "2026-08-13T10:31:01Z",
+  "updatedAt": "2026-08-13T13:36:35Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
