@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f73aa581870f7f707d6a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💬 Bellingham 💬 #RealMadrid #Bellingham #Mourinho",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=WwWLee1RoUY",
+      "publishedAt": "2026-08-13T15:40:08Z"
+    },
+    {
       "id": "05dcb91ee9a31e90888c",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=F2k-bCqXrgw",
       "publishedAt": "2026-08-12T08:03:41Z"
-    },
-    {
-      "id": "f207b1fe11eed227058c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Here is the third jersey for the 2026/27 season",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQai1lVHNuNmR6MzFBZTcyQ05PY3ZraC1VRW5UNlV5MlAwRnM0R2NtSzkwV2FfVjV6R2RkZ044SzF1ZnVHOFBlNklhRFhtem9XRVFDQ1F0a0lkWE1QVXduUUhfcVh3ZUl5TndSWkhuOFJDdWo4VWVTNFVqbnZjN2QwV294NlZZdUY4Z0JQOHZoZG5tVnRYOFI4TVQyVDlObXhiNG9kTC14X0xaNU11aDQ5enZXcDVFUXBDNWtaT0h1UzB3Sy1nSDRuanR4bGp5dw?oc=5",
-      "publishedAt": "2026-08-12T08:00:00Z"
     }
   ],
-  "updatedAt": "2026-08-13T15:35:48Z",
+  "updatedAt": "2026-08-13T16:29:21Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
