@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "e862f87145738b261ae7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0NlF3dHhHZTVYVlJsOWZTSEtNNGtxLUozM05SU0pqbkNWV29ydE84ejVrdHA1TWtwT2ozWlF6NDNUQzJ0VUhhQlFLUG1vajY1dTVCZElLcGNKTGtIUndWTm93MnJIaEgzNGFFOE9R?oc=5",
+      "publishedAt": "2026-08-13T01:49:04Z"
+    },
+    {
       "id": "f14cad3ae9226736c8c8",
       "category": "Matchday",
       "time": "NEW",
@@ -70,6 +80,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcW53VjRveWtKUkFIaVkyZEVjNjJKMklISGJhR3cyb29pbTBwdmxNcGpwOWJKdFFaZTFGejlfdmx2NDQtYjlrVGthYk1QalNBQ19acThpNVQydWtfM1pxMWlwbERoTWlHRjdBRVdFeGdFMXV0QnBPaGhld3JyM0tyYjR3SzRsMXBZUDdVWVJlaHZEWGVBVVZzaVdEcHhQSm8?oc=5",
       "publishedAt": "2026-08-12T21:00:00Z"
+    },
+    {
+      "id": "b8681bbbd78c413ffd32",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Brahim: “I'm very happy with the team's work”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY0ZYYWJJSzFtSUdJb1RfbmNvRzBIUFNEUnpRYjZ5ZU5CWVNEdFpfX0FZRWlhU1dPRDlZbmdXTFRfbnlUOXI4UnoyN2RJVGcxa1ZmdkFWME1HYk9EOC0tLWJQTEVmdE13NFBqeEJjcXpCdmRURVluM2FjdjNmcGd4RGVOeF9oQzNqaGh0cGVkODU?oc=5",
+      "publishedAt": "2026-08-12T20:49:00Z"
     },
     {
       "id": "bffe653a82a459eb1a4f",
@@ -252,16 +272,6 @@
       "publishedAt": "2026-08-12T07:00:00Z"
     },
     {
-      "id": "fa481d11aef4c2f3f2d6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMi1jWmJCTmZ0ZzlRUFRzbmRGU2p3al9taVRGZHZpTEVINXl1NWNQTUoxNHhodnBCdTkwaERSVVFLSTJZNUVjNjg1QUx4a2ZNUFpBX1R2R2E3LUJSSnFJRjlCWngtOUZtakY5OURWREdFUjBLUHQtd1hPWjI2MEIxWEVsWTBsWWF3VWpRX3FBaTU3VFdUaC1SNW1OQWxfbU53NlppNFRZcmg0bWF5YWJGdElNdWZtTGd6anpTV2xNRG4wS2JVU3ZYTURKbmY5NGlfWXdwdndjWWcwRUhsSjhfQ0pWbWdkbW5Hc2ppMHlxbFdKSmZqMXl2Y0JJSWZoVnNnOXVZ?oc=5",
-      "publishedAt": "2026-08-12T02:45:30Z"
-    },
-    {
       "id": "081fe8f4ce4099a4bed5",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=tp7VrPa79Q4",
       "publishedAt": "2026-08-11T21:49:46Z"
-    },
-    {
-      "id": "f2876deaefc2cbf195e4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "😎 Slick #RMCity #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=qSq-ZCvnS9k",
-      "publishedAt": "2026-08-11T18:00:40Z"
     }
   ],
-  "updatedAt": "2026-08-13T03:15:52Z",
+  "updatedAt": "2026-08-13T05:06:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
