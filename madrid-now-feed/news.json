@@ -15,6 +15,16 @@
       "id": "f14cad3ae9226736c8c8",
       "category": "Matchday",
       "time": "NEW",
+      "title": "BRAHIM SOLO GOAL & LUNIN ASSIST! | Deportivo 0-1 Real Madrid | Highlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=YnlzVw6edk4",
+      "publishedAt": "2026-08-12T22:51:22Z"
+    },
+    {
+      "id": "f14cad3ae9226736c8c8",
+      "category": "Matchday",
+      "time": "NEW",
       "title": "CRAZY LUNIN ASSIST & BRAHIM GOAL! | Deportivo 0-1 Real Madrid | Highlights",
       "summary": "New video update from Real Madrid's official YouTube channel.",
       "source": "Real Madrid",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=tp7VrPa79Q4",
       "publishedAt": "2026-08-11T21:49:46Z"
-    },
-    {
-      "id": "a90baed37af7f9d3692f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "A RAIN OF SCREAMERS at Real Madrid City!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=tp7VrPa79Q4",
-      "publishedAt": "2026-08-11T21:49:46Z"
     }
   ],
-  "updatedAt": "2026-08-13T05:06:48Z",
+  "updatedAt": "2026-08-13T09:20:12Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
