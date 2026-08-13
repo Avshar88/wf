@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "b4c0c13db47a33db30b6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "BEHIND THE SCENES OF DEPORTIVO 0-1 REAL MADRID! | Real Madrid Diaries",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=yWAYOg6XgNk",
+      "publishedAt": "2026-08-13T18:08:38Z"
+    },
+    {
       "id": "a5530db22b73ca8ee1a8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS2N6SjNRckhmTV9IN1RlTzkyYnF1MlJVQTlVblBMdEEzM1NsTl83Z2lYSkFyQ2FoRDR6MUk5SmtIeDhqTVY2ZFQtQk9TaFJYSkcwR2FhTlRCUS1IQ0xvS2c1alVzcXFwOTVOWmFsZFdCWEhXSFhkZG9ESUZBbHhnb2ZfMVFpR3EzMHNXOU1GYmUwZDFaNW1lcTFvY2J3dGxqQ2RnTjNLUG5oS2c0TjF4dWd0VGNPU3hFYVFxbGxB?oc=5",
       "publishedAt": "2026-08-12T09:29:00Z"
-    },
-    {
-      "id": "0e4d3521374da9b5a52f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Bellingham trained alongside the non-selected players",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbm9RMW9ZVlZiV3pjeUMxc21oNUVfUjFjTV80cjRXa0N5cUlOWVJUN19RZm4yYTRkMjNNRzF2RTlQVnVnS3RSN2lEOVVMaFdvZFF2X2VGOGxONlN2QW1WSlpCSXZJM0pxdUJvOUlmU25fUm5FbFFhVFNDY0R5UFB2QkNpNGxZTHZzOW5Zd3NNUUo3VjJYenIyYmNB?oc=5",
-      "publishedAt": "2026-08-12T08:56:00Z"
     }
   ],
-  "updatedAt": "2026-08-13T17:28:47Z",
+  "updatedAt": "2026-08-13T18:26:23Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
