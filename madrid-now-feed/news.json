@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "cad4eef91683d2710258",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🗣️ Meet Cucurella! #RealMadrid #Cucurella",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=CdUpni9tSG0",
+      "publishedAt": "2026-08-14T08:34:41Z"
+    },
+    {
       "id": "46622dd611f1be872b03",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREF3VDEwcFMwNWdkWFFJdU5kQlF5bHpkaFU5REtqMFlPMTlsbld3aHEwYzlaMFI2dGhkWUdvQTNTOHZ1SHpCczVLeVZ6Y3F3dERNM2w5UUV6Q2NSRUJGck9Hay1EX2hyeVBXYnh4QXd6QnNyT2RRRGs5Q1IyVHRhM3ZBUW9MSjBsWWJJLWJ3YUpCZUlURldGWUpFRG84QjhIdnpPbzJHVHMxVkU?oc=5",
       "publishedAt": "2026-08-12T20:01:00Z"
-    },
-    {
-      "id": "2f8cf33b82cd7ccf89ff",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🏟️ The STAGE is set! #RealMadrid #Deportivo",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=uMsSMGfXgi8",
-      "publishedAt": "2026-08-12T18:55:23Z"
     }
   ],
-  "updatedAt": "2026-08-14T07:49:58Z",
+  "updatedAt": "2026-08-14T08:50:49Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
