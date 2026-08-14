@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "0134d3c0ce312b6ff376",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 MBAPPÉ: “WE’RE GOING TO WIN TROPHIES THIS YEAR” | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=JFNtwEISLHA",
+      "publishedAt": "2026-08-14T16:54:46Z"
+    },
+    {
+      "id": "a85dda021d3d831f6d07",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💬 Mbappé: “We are going to win titles.” #Mbappé #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=Ew66Ui9_EAA",
+      "publishedAt": "2026-08-14T16:15:22Z"
+    },
+    {
       "id": "089a0ce5147b7db84d64",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=YnlzVw6edk4",
       "publishedAt": "2026-08-12T22:51:22Z"
-    },
-    {
-      "id": "f14cad3ae9226736c8c8",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "CRAZY LUNIN ASSIST & BRAHIM GOAL! | Deportivo 0-1 Real Madrid | Highlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=YnlzVw6edk4",
-      "publishedAt": "2026-08-12T22:51:22Z"
-    },
-    {
-      "id": "3e12b61c5a3335ad0681",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⚖️ Carrying the Trofeo Teresa Herrera - a two-man job!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=DHU_Gzyyq4E",
-      "publishedAt": "2026-08-12T22:42:56Z"
     }
   ],
-  "updatedAt": "2026-08-14T16:09:21Z",
+  "updatedAt": "2026-08-14T17:07:36Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
