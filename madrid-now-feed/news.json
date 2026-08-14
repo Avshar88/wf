@@ -122,6 +122,16 @@
       "publishedAt": "2026-08-14T11:33:00Z"
     },
     {
+      "id": "b430217d88593a49e587",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This is how Shulga plays",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEQxLUR0Zlh0RXZXc0Uza2FyT1FWejRxWUVUalZBeTlHRmFuc0NfbjhoazZnOGw4QjlqYU00Qkg0d294VzZ0eXczRkhnM3FvOE04c2xuZ0RDYVFUc2F0Nnd0MU1vQ25lV2VJYkxYV2RxX0dsZEp1cWZJd3BpQVR0ak41Z2xlMU5naEFQcDFxdzJrLXA1NDg3YkJhMmQwa3g0?oc=5",
+      "publishedAt": "2026-08-14T10:57:00Z"
+    },
+    {
       "id": "de9a6ac91ec7c13d8fc9",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=twDyslJT7eg",
       "publishedAt": "2026-08-13T09:54:45Z"
-    },
-    {
-      "id": "90935f93b74313070f9a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Bellingham: “I’m very happy to be back with my teammates”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0praDdIX3RGNUdaQ2RlWWIzSDRNOUFxaTNpN1BQU0tnYXpRb00zZEdJSHNNMGhaVGxLVGRuRURpdFBJSTYzUmxhemg2blFzQWZJNWl2MDdicDd5dEgtWXF6M0RSOHJQV01KWjcxaE9TbTFFZEtHUkszU1o0aFdQc1R5dUxBdkhzSklaM1VheHhXaHB0cnc?oc=5",
-      "publishedAt": "2026-08-13T09:54:00Z"
     }
   ],
-  "updatedAt": "2026-08-14T18:57:22Z",
+  "updatedAt": "2026-08-14T19:43:58Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
