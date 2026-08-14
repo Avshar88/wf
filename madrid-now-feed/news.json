@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "4c44b89f81f9662528a8",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🫵 What was YOUR childhood nickname? @adidas #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=y32xZ9wgi38",
+      "publishedAt": "2026-08-14T12:58:20Z"
+    },
+    {
       "id": "de9a6ac91ec7c13d8fc9",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcW53VjRveWtKUkFIaVkyZEVjNjJKMklISGJhR3cyb29pbTBwdmxNcGpwOWJKdFFaZTFGejlfdmx2NDQtYjlrVGthYk1QalNBQ19acThpNVQydWtfM1pxMWlwbERoTWlHRjdBRVdFeGdFMXV0QnBPaGhld3JyM0tyYjR3SzRsMXBZUDdVWVJlaHZEWGVBVVZzaVdEcHhQSm8?oc=5",
       "publishedAt": "2026-08-12T21:00:00Z"
-    },
-    {
-      "id": "b8681bbbd78c413ffd32",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Brahim: “I'm very happy with the team's work”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY0ZYYWJJSzFtSUdJb1RfbmNvRzBIUFNEUnpRYjZ5ZU5CWVNEdFpfX0FZRWlhU1dPRDlZbmdXTFRfbnlUOXI4UnoyN2RJVGcxa1ZmdkFWME1HYk9EOC0tLWJQTEVmdE13NFBqeEJjcXpCdmRURVluM2FjdjNmcGd4RGVOeF9oQzNqaGh0cGVkODU?oc=5",
-      "publishedAt": "2026-08-12T20:49:00Z"
     }
   ],
-  "updatedAt": "2026-08-14T11:24:57Z",
+  "updatedAt": "2026-08-14T13:24:17Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
