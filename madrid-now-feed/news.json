@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "089a0ce5147b7db84d64",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity'",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
+      "publishedAt": "2026-08-14T14:32:00Z"
+    },
+    {
       "id": "979bb41231e27bede872",
       "category": "Official",
       "time": "NEW",
@@ -10,6 +20,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=kJeOL0PcBZo",
       "publishedAt": "2026-08-14T14:27:50Z"
+    },
+    {
+      "id": "f649c16f2b6a2bc5e69c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mbappé: “We are going to win titles”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2dZYkc5Smw3TkRpYzk2MUR3SnVqZ2Z0dnRUUGVGMHB6N2RMd3dwT1pNb192cTMyZGxkSXpvU1V3QjZnLURwc0daelprT2MtOEdZandBS1p0b3hPVUxHWmRHZzBHbDczNzFWakRuNWhSTzRqd01fei1lR250dkNRRXlwQVlEZE1NT2lpV1VVME83VzZ1S1ctMHc4YnplYkR3OVBCQjgxU200OWVOLTVFbEhBbUZSdE9VMTNzMmpnSEtHQ0F0ZVAyZDBCQXFGYWtIN0VnSmplRzQ3c2tCUVp5aA?oc=5",
+      "publishedAt": "2026-08-14T14:09:00Z"
     },
     {
       "id": "4c44b89f81f9662528a8",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=DHU_Gzyyq4E",
       "publishedAt": "2026-08-12T22:42:56Z"
-    },
-    {
-      "id": "4e8cb44d3ec4be68be80",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤳 Carreras: Madridistas, very happy about the win, we'll see you in the next one. Hala Madrid!\"",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=AjRZCZsEii8",
-      "publishedAt": "2026-08-12T21:35:26Z"
-    },
-    {
-      "id": "dd1808dd44fda747fa92",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: “The team is progressing in every aspect”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbzhXbFBJY3ZMMkYtVEw1dFcySmxDZU5xR3BIOUpkRDRWWDFVMGhIV0RyYTBpLTNFTV9pQWpIa0NKX1B6V0h3bXJtekJnT3lfX3lVaGprOUM0U1lXckt1R1lUQkRrRndWRC0zTTVyR1FQNTBvQ1ctV0hSSzc3YXBWZlFEeE1QcWFxV2ljamtvOWxyQjg?oc=5",
-      "publishedAt": "2026-08-12T21:33:00Z"
     }
   ],
-  "updatedAt": "2026-08-14T15:21:42Z",
+  "updatedAt": "2026-08-14T16:09:21Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
