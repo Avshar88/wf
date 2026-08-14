@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "dcfeb06f8e57db6c185c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Second anniversary of the sixth UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ04ybGxQNWVVend5ZF9TRTUyNFNaSDluQWRXTG9oRFdtYmdjeVpPMXMzdWVjSDByTDN6a29ueGVCZ1FjcWFYVUN5OHYyU1JXTzhmLVB0LWhrRWZ0SEE4YzJrUW5qaURwUmx3RVFKa0RJQ0NtNUhoWUh0bVkyR3A1REhRYlYyNC1TMzY5X1N0SXV5R2JPRE9HaHp0UXBLSUszT1FwSkpLRHhqTlVfN1hGYldiMjBpNmpD?oc=5",
+      "publishedAt": "2026-08-14T09:37:00Z"
+    },
+    {
       "id": "cad4eef91683d2710258",
       "category": "Official",
       "time": "NEW",
@@ -12,14 +22,14 @@
       "publishedAt": "2026-08-14T08:34:41Z"
     },
     {
-      "id": "46622dd611f1be872b03",
-      "category": "Official",
+      "id": "b76cf1ce308fd4fe4a8c",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "Second anniversary of the sixth UEFA Super Cup",
+      "title": "Intense training session at Ciudad Real Madrid",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ04ybGxQNWVVend5ZF9TRTUyNFNaSDluQWRXTG9oRFdtYmdjeVpPMXMzdWVjSDByTDN6a29ueGVCZ1FjcWFYVUN5OHYyU1JXTzhmLVB0LWhrRWZ0SEE4YzJrUW5qaURwUmx3RVFKa0RJQ0NtNUhoWUh0bVkyR3A1REhRYlYyNC1TMzY5X1N0SXV5R2JPRE9HaHp0UXBLSUszT1FwSkpLRHhqTlVfN1hGYldiMjBpNmpD?oc=5",
-      "publishedAt": "2026-08-14T04:08:46Z"
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQekY2RmlfVGkxd3RqQlFfenVyWm52djV1Yi1OUkE1V2Mxal96LTR0N2ozWGVBaEpCd283dDZPbGFyeURxbWt1ajNXeVFvcXV2MHJ4aXJBOGQ0SlZCWEhlbHptalJLNlNwMEcwelFwbTdTOXd5MHdvdlBycTVMRW5jemh1QmV2dDdpOWp1T3NMLXBKWUhBYl8zZTlyMzFvRnJZN2JRN2Y0SnJ1c2s1U2dtV0p3?oc=5",
+      "publishedAt": "2026-08-14T07:04:00Z"
     },
     {
       "id": "fae3e24410b4a232d41f",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREF3VDEwcFMwNWdkWFFJdU5kQlF5bHpkaFU5REtqMFlPMTlsbld3aHEwYzlaMFI2dGhkWUdvQTNTOHZ1SHpCczVLeVZ6Y3F3dERNM2w5UUV6Q2NSRUJGck9Hay1EX2hyeVBXYnh4QXd6QnNyT2RRRGs5Q1IyVHRhM3ZBUW9MSjBsWWJJLWJ3YUpCZUlURldGWUpFRG84QjhIdnpPbzJHVHMxVkU?oc=5",
       "publishedAt": "2026-08-12T20:01:00Z"
-    },
-    {
-      "id": "66d28ed7ef9117c12a8a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid triumphs over Tottenham - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREF3VDEwcFMwNWdkWFFJdU5kQlF5bHpkaFU5REtqMFlPMTlsbld3aHEwYzlaMFI2dGhkWUdvQTNTOHZ1SHpCczVLeVZ6Y3F3dERNM2w5UUV6Q2NSRUJGck9Hay1EX2hyeVBXYnh4QXd6QnNyT2RRRGs5Q1IyVHRhM3ZBUW9MSjBsWWJJLWJ3YUpCZUlURldGWUpFRG84QjhIdnpPbzJHVHMxVkU?oc=5",
-      "publishedAt": "2026-08-12T20:01:00Z"
     }
   ],
-  "updatedAt": "2026-08-14T08:50:49Z",
+  "updatedAt": "2026-08-14T10:40:24Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
