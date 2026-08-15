@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "b66d49fb6523ac232cee",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Ninth anniversary of the 10th Spanish Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
+      "publishedAt": "2026-08-15T22:33:54Z"
+    },
+    {
+      "id": "fb04dd9a4e5092ee72ef",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
+      "publishedAt": "2026-08-15T22:28:51Z"
+    },
+    {
       "id": "ee09e5a1822387cd54cb",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
       "publishedAt": "2026-08-14T14:32:00Z"
-    },
-    {
-      "id": "779ddc4cc3bc714dafb0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity' - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
-      "publishedAt": "2026-08-14T14:32:00Z"
-    },
-    {
-      "id": "979bb41231e27bede872",
-      "category": "Official",
-      "time": "NEW",
-      "title": "😂 Which meme has #Cucurella chosen for the day of his debut? #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=kJeOL0PcBZo",
-      "publishedAt": "2026-08-14T14:27:50Z"
     }
   ],
-  "updatedAt": "2026-08-15T21:47:33Z",
+  "updatedAt": "2026-08-15T22:41:51Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
