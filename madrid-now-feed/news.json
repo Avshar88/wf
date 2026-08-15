@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "1f486eac39b7694218ab",
+      "id": "1cc149fcd492d286b148",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid squad list against Schalke 04",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR1ZtdlpzOG5jdnc1NWs4UlhuU25jbkhDMDBjYlRpUGd1aDdmRXZ6Z3dWVVhzWEN6UXNwUk1aS3lsQUotWXVfUks4YUxWTlc3TXB2eW52c29VMGdvZGVWMFRnVHg3TmJrOHRLb29uWEI5SmNZNUFxY2I5dHRRRkUwVEJndldKQlFhdGxzUklsSFNzTkUtV0tRZ3gtR0JrM0xlbGNER2lyRFltVzBMTXgta0JrUzluYVhtdGh1MHNpOXc3VlNlajYwNg?oc=5",
-      "publishedAt": "2026-08-15T12:48:32Z"
+      "publishedAt": "2026-08-15T13:00:27Z"
     },
     {
       "id": "be99f97e3b98fc9a9503",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-13T21:12:58Z"
     }
   ],
-  "updatedAt": "2026-08-15T13:00:23Z",
+  "updatedAt": "2026-08-15T13:53:23Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
