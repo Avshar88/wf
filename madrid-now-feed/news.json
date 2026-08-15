@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "f44644c404b0fd0b63a1",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Final training session before the friendly against Schalke 04",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFdwREhEMUNHYnZhaXNiLUl5ZGZEYmptdGdCRFNHNWxsdjk2YTlWY3FXQ3o5VkVMOGM3cUgzYTlNV2pYVzhYdG9fSE1GbFpVU2hoT2xhcHFEZTZyMHcya1NjVTRDczlsUFNCWDJsMzlpNUtEVnpHR3VONFZnSmhLTXFhaVpYb1J3dG43dVJ4eVdkenVCTTBXNzBCb3k0X1BzbnRwUjVJcG8zajRfRDNlcDVR?oc=5",
+      "publishedAt": "2026-08-15T09:00:00Z"
+    },
+    {
+      "id": "c1dae9aa03d95554f53f",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "Sarr: “I am very excited to join the biggest club in Europe\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2hsSlI2TG41Ri1xLWhOLXBkRTMyU25ZclZEM2tBYUw3XzV5VTVoTHYwM3hwYU9CYnNScDN2amtlVXpFeVdqbVNMb3VSdlpZRHlTLU95TXBhS1JBX2xFRWdIQUJYbDFzUFBDVTVBNFVMYWdNWlNlekxhdHZEZHlfNnVSSDNCck1RTnFaSDVEeDY0ckNsTnBsRklHaGtQU3lCaDQ5WA?oc=5",
+      "publishedAt": "2026-08-15T07:52:00Z"
+    },
+    {
       "id": "52ca26fa47b64d036c7f",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=yWAYOg6XgNk",
       "publishedAt": "2026-08-13T18:08:38Z"
-    },
-    {
-      "id": "a5530db22b73ca8ee1a8",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid continues preparing for the season",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdFZmcUhHUm5Gbk11Vnk2S3d1d2VOQ2dBaFZsUndiX0Job0haeHh2c00tM0N5dEJra2h3WUEzVFFuMndaZ2pKOFM1OWtUZk0xSWUtWklBRHpPdEJybHhTOGpaOEhUcGVqSUVfUWhUSGVELS1tbVp4VXY0MkktTzdLcVRsY2Y4eklwQWRJWTVNTTZhSlBhZWUySm9maEJhYzJ0dlVrWmotQmhOU0ZVQkJVRlN3?oc=5",
-      "publishedAt": "2026-08-13T16:40:00Z"
-    },
-    {
-      "id": "68433d0c39712f02024c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid continues preparing for the season - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdFZmcUhHUm5Gbk11Vnk2S3d1d2VOQ2dBaFZsUndiX0Job0haeHh2c00tM0N5dEJra2h3WUEzVFFuMndaZ2pKOFM1OWtUZk0xSWUtWklBRHpPdEJybHhTOGpaOEhUcGVqSUVfUWhUSGVELS1tbVp4VXY0MkktTzdLcVRsY2Y4eklwQWRJWTVNTTZhSlBhZWUySm9maEJhYzJ0dlVrWmotQmhOU0ZVQkJVRlN3?oc=5",
-      "publishedAt": "2026-08-13T16:40:00Z"
     }
   ],
-  "updatedAt": "2026-08-15T10:06:32Z",
+  "updatedAt": "2026-08-15T11:02:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
