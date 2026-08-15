@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "be99f97e3b98fc9a9503",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎬🩷🔝@adidasFootball #RealMadrid #Adidas #ThirdKit",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=xfc1W_6Sye0",
+      "publishedAt": "2026-08-15T12:06:52Z"
+    },
+    {
       "id": "f44644c404b0fd0b63a1",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=uo5rJkQXkrU",
       "publishedAt": "2026-08-13T20:13:25Z"
-    },
-    {
-      "id": "b4c0c13db47a33db30b6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "BEHIND THE SCENES OF DEPORTIVO 0-1 REAL MADRID! | Real Madrid Diaries",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=yWAYOg6XgNk",
-      "publishedAt": "2026-08-13T18:08:38Z"
     }
   ],
-  "updatedAt": "2026-08-15T11:02:20Z",
+  "updatedAt": "2026-08-15T12:16:54Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
