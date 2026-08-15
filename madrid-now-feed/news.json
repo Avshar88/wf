@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "014e91117305fd4768d2",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad list against Schalke 04 - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR1ZtdlpzOG5jdnc1NWs4UlhuU25jbkhDMDBjYlRpUGd1aDdmRXZ6Z3dWVVhzWEN6UXNwUk1aS3lsQUotWXVfUks4YUxWTlc3TXB2eW52c29VMGdvZGVWMFRnVHg3TmJrOHRLb29uWEI5SmNZNUFxY2I5dHRRRkUwVEJndldKQlFhdGxzUklsSFNzTkUtV0tRZ3gtR0JrM0xlbGNER2lyRFltVzBMTXgta0JrUzluYVhtdGh1MHNpOXc3VlNlajYwNg?oc=5",
+      "publishedAt": "2026-08-15T13:00:27Z"
+    },
+    {
       "id": "1cc149fcd492d286b148",
       "category": "Matchday",
       "time": "NEW",
@@ -122,16 +132,6 @@
       "publishedAt": "2026-08-14T16:15:22Z"
     },
     {
-      "id": "3c8e9f899ab799c32d5f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Noticias del Real Madrid | Web Oficial",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54VFZvUWVNN2N2WkdrbWtENHk2SEVPaDRRMndBS3BJMGR6X1NicGozWDJZYUgtRjJNSDNWREc3MTFHa1RHdHUwNGhjSm9XZWpvNGpfZ1dTWGF5SU90X2dyRTVwc0dHZ21zNzlHMWkyQXJjRzMxc1N5eHEySQ?oc=5",
-      "publishedAt": "2026-08-14T15:54:37Z"
-    },
-    {
       "id": "fc0cf28fdd41878cf56e",
       "category": "Official",
       "time": "NEW",
@@ -142,20 +142,30 @@
       "publishedAt": "2026-08-14T15:54:37Z"
     },
     {
-      "id": "089a0ce5147b7db84d64",
+      "id": "3c8e9f899ab799c32d5f",
       "category": "Official",
       "time": "NEW",
-      "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity'",
+      "title": "Noticias del Real Madrid | Web Oficial",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
-      "publishedAt": "2026-08-14T14:32:00Z"
+      "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54VFZvUWVNN2N2WkdrbWtENHk2SEVPaDRRMndBS3BJMGR6X1NicGozWDJZYUgtRjJNSDNWREc3MTFHa1RHdHUwNGhjSm9XZWpvNGpfZ1dTWGF5SU90X2dyRTVwc0dHZ21zNzlHMWkyQXJjRzMxc1N5eHEySQ?oc=5",
+      "publishedAt": "2026-08-14T15:54:37Z"
     },
     {
       "id": "779ddc4cc3bc714dafb0",
       "category": "Official",
       "time": "NEW",
       "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity' - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
+      "publishedAt": "2026-08-14T14:32:00Z"
+    },
+    {
+      "id": "089a0ce5147b7db84d64",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity'",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
@@ -172,20 +182,20 @@
       "publishedAt": "2026-08-14T14:27:50Z"
     },
     {
-      "id": "f649c16f2b6a2bc5e69c",
+      "id": "d5fbd440c679e636c16b",
       "category": "Official",
       "time": "NEW",
-      "title": "Mbappé: “We are going to win titles”",
+      "title": "Mbappé: “We are going to win titles” - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2dZYkc5Smw3TkRpYzk2MUR3SnVqZ2Z0dnRUUGVGMHB6N2RMd3dwT1pNb192cTMyZGxkSXpvU1V3QjZnLURwc0daelprT2MtOEdZandBS1p0b3hPVUxHWmRHZzBHbDczNzFWakRuNWhSTzRqd01fei1lR250dkNRRXlwQVlEZE1NT2lpV1VVME83VzZ1S1ctMHc4YnplYkR3OVBCQjgxU200OWVOLTVFbEhBbUZSdE9VMTNzMmpnSEtHQ0F0ZVAyZDBCQXFGYWtIN0VnSmplRzQ3c2tCUVp5aA?oc=5",
       "publishedAt": "2026-08-14T14:09:00Z"
     },
     {
-      "id": "d5fbd440c679e636c16b",
+      "id": "f649c16f2b6a2bc5e69c",
       "category": "Official",
       "time": "NEW",
-      "title": "Mbappé: “We are going to win titles” - realmadrid.com",
+      "title": "Mbappé: “We are going to win titles”",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2dZYkc5Smw3TkRpYzk2MUR3SnVqZ2Z0dnRUUGVGMHB6N2RMd3dwT1pNb192cTMyZGxkSXpvU1V3QjZnLURwc0daelprT2MtOEdZandBS1p0b3hPVUxHWmRHZzBHbDczNzFWakRuNWhSTzRqd01fei1lR250dkNRRXlwQVlEZE1NT2lpV1VVME83VzZ1S1ctMHc4YnplYkR3OVBCQjgxU200OWVOLTVFbEhBbUZSdE9VMTNzMmpnSEtHQ0F0ZVAyZDBCQXFGYWtIN0VnSmplRzQ3c2tCUVp5aA?oc=5",
@@ -262,20 +272,20 @@
       "publishedAt": "2026-08-14T08:34:41Z"
     },
     {
-      "id": "b76cf1ce308fd4fe4a8c",
+      "id": "1f28439f013a75c3ca09",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Intense training session at Ciudad Real Madrid",
+      "title": "Intense training session at Ciudad Real Madrid - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQekY2RmlfVGkxd3RqQlFfenVyWm52djV1Yi1OUkE1V2Mxal96LTR0N2ozWGVBaEpCd283dDZPbGFyeURxbWt1ajNXeVFvcXV2MHJ4aXJBOGQ0SlZCWEhlbHptalJLNlNwMEcwelFwbTdTOXd5MHdvdlBycTVMRW5jemh1QmV2dDdpOWp1T3NMLXBKWUhBYl8zZTlyMzFvRnJZN2JRN2Y0SnJ1c2s1U2dtV0p3?oc=5",
       "publishedAt": "2026-08-14T07:04:00Z"
     },
     {
-      "id": "1f28439f013a75c3ca09",
+      "id": "b76cf1ce308fd4fe4a8c",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Intense training session at Ciudad Real Madrid - realmadrid.com",
+      "title": "Intense training session at Ciudad Real Madrid",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQekY2RmlfVGkxd3RqQlFfenVyWm52djV1Yi1OUkE1V2Mxal96LTR0N2ozWGVBaEpCd283dDZPbGFyeURxbWt1ajNXeVFvcXV2MHJ4aXJBOGQ0SlZCWEhlbHptalJLNlNwMEcwelFwbTdTOXd5MHdvdlBycTVMRW5jemh1QmV2dDdpOWp1T3NMLXBKWUhBYl8zZTlyMzFvRnJZN2JRN2Y0SnJ1c2s1U2dtV0p3?oc=5",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=IO-BYFHRrq4",
       "publishedAt": "2026-08-13T21:18:19Z"
-    },
-    {
-      "id": "600de55f652a29b28e74",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "MBAPPÉ'S MAGIC ASSIST! 🤯 | Real Madrid Inside Training",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=tuaIOgWivOo",
-      "publishedAt": "2026-08-13T21:12:58Z"
     }
   ],
-  "updatedAt": "2026-08-15T15:47:22Z",
+  "updatedAt": "2026-08-15T15:58:35Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
