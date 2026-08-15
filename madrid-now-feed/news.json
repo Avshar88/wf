@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "0da8a91a1d1feb529dad",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
+      "publishedAt": "2026-08-15T23:02:47Z"
+    },
+    {
       "id": "b66d49fb6523ac232cee",
       "category": "Official",
       "time": "NEW",
@@ -10,16 +20,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
       "publishedAt": "2026-08-15T22:33:54Z"
-    },
-    {
-      "id": "fb04dd9a4e5092ee72ef",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
-      "publishedAt": "2026-08-15T22:28:51Z"
     },
     {
       "id": "ee09e5a1822387cd54cb",
@@ -140,6 +140,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR1ZtdlpzOG5jdnc1NWs4UlhuU25jbkhDMDBjYlRpUGd1aDdmRXZ6Z3dWVVhzWEN6UXNwUk1aS3lsQUotWXVfUks4YUxWTlc3TXB2eW52c29VMGdvZGVWMFRnVHg3TmJrOHRLb29uWEI5SmNZNUFxY2I5dHRRRkUwVEJndldKQlFhdGxzUklsSFNzTkUtV0tRZ3gtR0JrM0xlbGNER2lyRFltVzBMTXgta0JrUzluYVhtdGh1MHNpOXc3VlNlajYwNg?oc=5",
       "publishedAt": "2026-08-15T13:00:27Z"
+    },
+    {
+      "id": "4b5ab37354b0755f8596",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Deportivo: aiming to close the preseason with a victory, today at 8:00 pm CEST, live on Realmadrid TV",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOU2RhUG1hdjQ2Qld5UzNhd3dDZ2VDSXRWYUc2aEl4MjlBU3pBNXJxVW9TeUtDNEUtUEpwc2Z1QV9hMF96bEhwY1RKTlJqRHZqeTYyWUNmYTU2bzUyTVhZNVRXQUFCQUdRWW9nbnI5YV9RcjN1TFFFcVlFYlFrNEVURy1NNFFRNEJWb25HcFRFS0VrMEVkUHR6aUh4dFppbkc4ckFHUVpaZjdTbDVBa2VyYkdhejVYRDQzUlRRek9RMURhMGEtMlJuTXRxZkJSMWd5ZG51VHd0YjMyTDlPeENyTF9xN3I2VFYyR2plc29IblJPNjRZUGlYeDM5NE1fdDNfLVFjTjBMU1U4bDl4NjNfM01B?oc=5",
+      "publishedAt": "2026-08-15T13:00:00Z"
     },
     {
       "id": "bac60cb066bd96926630",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54VFZvUWVNN2N2WkdrbWtENHk2SEVPaDRRMndBS3BJMGR6X1NicGozWDJZYUgtRjJNSDNWREc3MTFHa1RHdHUwNGhjSm9XZWpvNGpfZ1dTWGF5SU90X2dyRTVwc0dHZ21zNzlHMWkyQXJjRzMxc1N5eHEySQ?oc=5",
       "publishedAt": "2026-08-14T15:54:37Z"
-    },
-    {
-      "id": "089a0ce5147b7db84d64",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Shulga: 'Real Madrid is the best club in Europe, and I couldn't pass up this opportunity'",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRUxSQThya0lNdU1tWUF4dUVFdllwMkNKR19uZHlvb2JpZy1EOUdnV0hlSjNoZmFKMWphYVNSR1NBX2prdnVpNVIwWXQ5eUhKZVJ4X1dDaHF2eFRRRGV3WXdhZGtUNGRhT0NzQlppM09FeVJkaTJhZ09tSUhEbklEX2dNSmlPRmFtYmxZMUlTWkFZU1BYNFlXQzdqdV9va1RJRUR1QjU4SkdRRVd6NkRDaHJ1WElzUFJYbUVoVk5mM3duT3RfUWxaSU43enpTalBRbkhNaHJyb1o4UEJJVVdWUg?oc=5",
-      "publishedAt": "2026-08-14T14:32:00Z"
     }
   ],
-  "updatedAt": "2026-08-15T22:41:51Z",
+  "updatedAt": "2026-08-15T23:33:57Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
