@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "10c3012a6519df639048",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🛬 Touchdown in Düsseldorf! #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=DR6TmmYNpIA",
+      "publishedAt": "2026-08-15T17:48:01Z"
+    },
+    {
       "id": "fb25997fde9267cb7c17",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=oveqLGD4lKg",
       "publishedAt": "2026-08-14T10:26:29Z"
-    },
-    {
-      "id": "dcfeb06f8e57db6c185c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Second anniversary of the sixth UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ04ybGxQNWVVend5ZF9TRTUyNFNaSDluQWRXTG9oRFdtYmdjeVpPMXMzdWVjSDByTDN6a29ueGVCZ1FjcWFYVUN5OHYyU1JXTzhmLVB0LWhrRWZ0SEE4YzJrUW5qaURwUmx3RVFKa0RJQ0NtNUhoWUh0bVkyR3A1REhRYlYyNC1TMzY5X1N0SXV5R2JPRE9HaHp0UXBLSUszT1FwSkpLRHhqTlVfN1hGYldiMjBpNmpD?oc=5",
-      "publishedAt": "2026-08-14T09:37:00Z"
     }
   ],
-  "updatedAt": "2026-08-15T17:00:42Z",
+  "updatedAt": "2026-08-15T18:09:58Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
