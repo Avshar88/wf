@@ -42,6 +42,16 @@
       "publishedAt": "2026-08-15T16:30:00Z"
     },
     {
+      "id": "46873dfff27b0f132c20",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid Squad for the Match Against Deportivo",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTVZCSEdDTURoUUxOU1lIVVRRLThkaVZQdURKX01DTmN1c015aGZlQnlGQ2J1SEVpeVR0aVRXWEdSX0w2OGw1eThIYUN0dUtHek9nUFRXLUtQbTZEcmIzU1BUQnIxNkQwWEdhYkNqOGxtY2NFaGhnM1FxVFU1TFpJX0R5bW8yUGdndGtpa2pSOElsZzlNMUdxNjBXUDFzQmZ4MzlNcGJGT0huWXllRkdka045SzB3ZEZvY2NkOFJUcDNqSkZxRUE?oc=5",
+      "publishedAt": "2026-08-15T14:52:00Z"
+    },
+    {
       "id": "1cc149fcd492d286b148",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEQxLUR0Zlh0RXZXc0Uza2FyT1FWejRxWUVUalZBeTlHRmFuc0NfbjhoazZnOGw4QjlqYU00Qkg0d294VzZ0eXczRkhnM3FvOE04c2xuZ0RDYVFUc2F0Nnd0MU1vQ25lV2VJYkxYV2RxX0dsZEp1cWZJd3BpQVR0ak41Z2xlMU5naEFQcDFxdzJrLXA1NDg3YkJhMmQwa3g0?oc=5",
       "publishedAt": "2026-08-14T10:57:00Z"
-    },
-    {
-      "id": "de9a6ac91ec7c13d8fc9",
-      "category": "Official",
-      "time": "NEW",
-      "title": "☕ Good morning, team! #RMCity #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=oveqLGD4lKg",
-      "publishedAt": "2026-08-14T10:26:29Z"
     }
   ],
-  "updatedAt": "2026-08-15T18:09:58Z",
+  "updatedAt": "2026-08-15T18:45:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
