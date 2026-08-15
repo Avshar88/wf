@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "52ca26fa47b64d036c7f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement: Olivier Sarr",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTS1jdU5MOWYyUklYZ0U4Yjd6TkdZVXUwRGZSV29uSmdFRGN5UlVrdzF5VXRrZWk0MTFPYXpMSmJ2YVN6VE9WZ1ZEcU1xWDlCWkdBWHd3NzBRMlU5Vld6Qkx4QlVwRGhBYlFjaldBU25HMEFackc4bVJEMXQ1OU5MSGVfLXBLMG1Hbzlac21kbFRyd2c1UWc?oc=5",
+      "publishedAt": "2026-08-15T07:25:00Z"
+    },
+    {
+      "id": "5eb573d50362ff734b0f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Medical check-up of Olivier Sarr",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVW9GYkRvVVBWVTJzQmg1bTAxMTIyWmJSektNRzluQ2JUZU5LcTBYTnBjbDNRUzJvUjB3ck1xaEc2R3piZjBYQjdiYmNZOC1fTF9EWEo2ZUpzY1BybHZ6dDVSNWVUcDM1dXdZRVVrOEEwbGRGT3M4ekhXZks0TEh5UHFpYUtmZVFoUHQtQjNYSWpoQU1qOURZWWlkczdEV3BmYzYwcVJwX0tWVzVFTmNyYXBZRGV4UTg?oc=5",
+      "publishedAt": "2026-08-15T07:21:00Z"
+    },
+    {
       "id": "516c769353809de07e01",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdFZmcUhHUm5Gbk11Vnk2S3d1d2VOQ2dBaFZsUndiX0Job0haeHh2c00tM0N5dEJra2h3WUEzVFFuMndaZ2pKOFM1OWtUZk0xSWUtWklBRHpPdEJybHhTOGpaOEhUcGVqSUVfUWhUSGVELS1tbVp4VXY0MkktTzdLcVRsY2Y4eklwQWRJWTVNTTZhSlBhZWUySm9maEJhYzJ0dlVrWmotQmhOU0ZVQkJVRlN3?oc=5",
       "publishedAt": "2026-08-13T16:40:00Z"
-    },
-    {
-      "id": "f73aa581870f7f707d6a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "💬 Bellingham 💬 #RealMadrid #Bellingham #Mourinho",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=WwWLee1RoUY",
-      "publishedAt": "2026-08-13T15:40:08Z"
-    },
-    {
-      "id": "05dcb91ee9a31e90888c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "BELLINGHAM interview in SPANISH! | Return to REAL MADRID",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=3unss_0fWaY",
-      "publishedAt": "2026-08-13T15:11:38Z"
     }
   ],
-  "updatedAt": "2026-08-15T04:52:09Z",
+  "updatedAt": "2026-08-15T10:06:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
