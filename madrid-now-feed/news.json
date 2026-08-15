@@ -52,6 +52,16 @@
       "publishedAt": "2026-08-15T07:25:00Z"
     },
     {
+      "id": "caffa41284c0331b0676",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This is how Sarr plays",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWVzR0xrcGg5enlfYWptekw0cUltS19TWklvUU1DRHVOWFZDMjNlZWxQeWZGaDkxaFlnTHBDNjNjSnF6OXhGOWEzenRNOC13UXJjNW9xVTVtcWU5RG1xTVBGY0hUUkhZQ3BSZkFoRFR4QXd5eE13YXYyNTRXd3Y5aWhlR2w0X0l3NWUtaHUtMTdUSjVTVHMxZw?oc=5",
+      "publishedAt": "2026-08-15T07:23:00Z"
+    },
+    {
       "id": "5eb573d50362ff734b0f",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=tuaIOgWivOo",
       "publishedAt": "2026-08-13T21:12:58Z"
-    },
-    {
-      "id": "600de55f652a29b28e74",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "INCREDIBLE TEAMWORK & COMBINATION PLAY! 🔥 Real Madrid Inside Training",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=tuaIOgWivOo",
-      "publishedAt": "2026-08-13T21:12:58Z"
     }
   ],
-  "updatedAt": "2026-08-15T13:53:23Z",
+  "updatedAt": "2026-08-15T15:47:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
