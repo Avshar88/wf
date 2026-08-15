@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "fb25997fde9267cb7c17",
+      "category": "Official",
+      "time": "NEW",
+      "title": "⚽🔛🥅 #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=jSODJ2nQiXY",
+      "publishedAt": "2026-08-15T16:34:16Z"
+    },
+    {
+      "id": "3fe2462cb214a963eec1",
+      "category": "Official",
+      "time": "NEW",
+      "title": "⚔️ ALL SET FOR SCHALKE 04! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=jKNcZ5xfrBc",
+      "publishedAt": "2026-08-15T16:31:52Z"
+    },
+    {
+      "id": "703bb91100b5f5c7eb82",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid is already in Germany",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUV1ZjdVOFpqVUR6VTBka0JPMG5WX1NEblhpN010blJxOElMd092ZkNmWUdfbHVhSm15NW9PRHpWQWhaSFFjR1JyMXBTa3paOE5uRkV5a1Y1YW9TWGR2MVVGMUxFU25NVGpjaFkxNWQ1TlNBOVlUbWVZR3dmV2hOX0Z5NmxKc0R2UmRHZEtMdHJPVmhtd1IxeW1YSUVVcmJodlZWbkwwU3BvWU9TSmpBWlFSYUk3dw?oc=5",
+      "publishedAt": "2026-08-15T16:30:00Z"
+    },
+    {
       "id": "1cc149fcd492d286b148",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ04ybGxQNWVVend5ZF9TRTUyNFNaSDluQWRXTG9oRFdtYmdjeVpPMXMzdWVjSDByTDN6a29ueGVCZ1FjcWFYVUN5OHYyU1JXTzhmLVB0LWhrRWZ0SEE4YzJrUW5qaURwUmx3RVFKa0RJQ0NtNUhoWUh0bVkyR3A1REhRYlYyNC1TMzY5X1N0SXV5R2JPRE9HaHp0UXBLSUszT1FwSkpLRHhqTlVfN1hGYldiMjBpNmpD?oc=5",
       "publishedAt": "2026-08-14T09:37:00Z"
-    },
-    {
-      "id": "cad4eef91683d2710258",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🗣️ Meet Cucurella! #RealMadrid #Cucurella",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=CdUpni9tSG0",
-      "publishedAt": "2026-08-14T08:34:41Z"
-    },
-    {
-      "id": "b76cf1ce308fd4fe4a8c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Intense training session at Ciudad Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQekY2RmlfVGkxd3RqQlFfenVyWm52djV1Yi1OUkE1V2Mxal96LTR0N2ozWGVBaEpCd283dDZPbGFyeURxbWt1ajNXeVFvcXV2MHJ4aXJBOGQ0SlZCWEhlbHptalJLNlNwMEcwelFwbTdTOXd5MHdvdlBycTVMRW5jemh1QmV2dDdpOWp1T3NMLXBKWUhBYl8zZTlyMzFvRnJZN2JRN2Y0SnJ1c2s1U2dtV0p3?oc=5",
-      "publishedAt": "2026-08-14T07:04:00Z"
-    },
-    {
-      "id": "1f28439f013a75c3ca09",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Intense training session at Ciudad Real Madrid - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQekY2RmlfVGkxd3RqQlFfenVyWm52djV1Yi1OUkE1V2Mxal96LTR0N2ozWGVBaEpCd283dDZPbGFyeURxbWt1ajNXeVFvcXV2MHJ4aXJBOGQ0SlZCWEhlbHptalJLNlNwMEcwelFwbTdTOXd5MHdvdlBycTVMRW5jemh1QmV2dDdpOWp1T3NMLXBKWUhBYl8zZTlyMzFvRnJZN2JRN2Y0SnJ1c2s1U2dtV0p3?oc=5",
-      "publishedAt": "2026-08-14T07:04:00Z"
     }
   ],
-  "updatedAt": "2026-08-15T16:45:23Z",
+  "updatedAt": "2026-08-15T17:00:42Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
