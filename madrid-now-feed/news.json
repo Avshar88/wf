@@ -2,24 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "0da8a91a1d1feb529dad",
+      "id": "bedb55f3053cd16c19ab",
       "category": "Matchday",
       "time": "NEW",
       "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
-      "publishedAt": "2026-08-15T23:02:47Z"
+      "publishedAt": "2026-08-16T00:15:03Z"
     },
     {
-      "id": "b66d49fb6523ac232cee",
+      "id": "889c5802e6f54d08961c",
       "category": "Official",
       "time": "NEW",
       "title": "Ninth anniversary of the 10th Spanish Super Cup",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
-      "publishedAt": "2026-08-15T22:33:54Z"
+      "publishedAt": "2026-08-16T00:15:03Z"
     },
     {
       "id": "ee09e5a1822387cd54cb",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-14T15:54:37Z"
     }
   ],
-  "updatedAt": "2026-08-15T23:33:57Z",
+  "updatedAt": "2026-08-16T01:20:05Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
