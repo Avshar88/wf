@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "eff362b3174538140bbb",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎯🎯🎯 #Mbappe #RealMadrid #football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=PFA0BJcfXV4",
+      "publishedAt": "2026-08-16T17:05:59Z"
+    },
+    {
       "id": "c962c1a1d3288e63c84c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=6nxWfRSuAZ4",
       "publishedAt": "2026-08-14T18:30:19Z"
-    },
-    {
-      "id": "9021adf4045bc149315e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⚡ SHOTS, FINISHING & HIGH INTENSITY! | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=AL4YgwESb1k",
-      "publishedAt": "2026-08-14T17:49:52Z"
     }
   ],
-  "updatedAt": "2026-08-16T14:29:16Z",
+  "updatedAt": "2026-08-16T17:19:02Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
