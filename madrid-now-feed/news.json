@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "3ad08909119aae86d132",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Ninth anniversary of the 10th Spanish Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
+      "publishedAt": "2026-08-16T10:28:50Z"
+    },
+    {
       "id": "6a1d53cb73c866cfe620",
       "category": "Matchday",
       "time": "NEW",
@@ -10,16 +20,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
       "publishedAt": "2026-08-16T08:31:00Z"
-    },
-    {
-      "id": "fbb072d47e4c13f91958",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Ninth anniversary of the 10th Spanish Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
-      "publishedAt": "2026-08-16T08:27:49Z"
     },
     {
       "id": "ee09e5a1822387cd54cb",
@@ -218,7 +218,7 @@
       "title": "This is how Sarr plays",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWVzR0xrcGg5enlfYWptekw0cUltS19TWklvUU1DRHVOWFZDMjNlZWxQeWZGaDkxaFlnTHBDNjNjSnF6OXhGOWEzenRNOC13UXJjNW9xVTVtcWU5RG1xTVBGY0hUUkhZQ3BSZkFoRFR4QXd5eE13YXYyNTRXd3Y5aWhlR2w0X0l3NWUtaHUtMTdUSjVTVHMxZw?oc=5",
+      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWVNhaWJFOXotR0ZyWHdvQ2pfdXE0YXJqUml6WUV3QTRidnVkeWVELUpKUkNnMG90LTlwWXVla3MwVkZSLW9NbndDWWNka2RkTU13RTkxVnctTXc3eGt4dmNET3VCUmdZZ19oUGZORXl5aXZUOWFJR2M0U2dtbHVPVlZzUE11d3I1MGFqQ3lsMjZMU21VeVdfNzJ3ZzJvem1LUmYyalZjdm9wM2c3alByRWdCX2ZFLV9kZS1KMVdNNHFqMTgzQlhOWFFxdnRsUWhYRFh5Vw?oc=5",
       "publishedAt": "2026-08-15T07:23:00Z"
     },
     {
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-14T15:54:37Z"
     }
   ],
-  "updatedAt": "2026-08-16T08:54:37Z",
+  "updatedAt": "2026-08-16T10:43:41Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
