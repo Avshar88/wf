@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "3ad08909119aae86d132",
+      "id": "aeb71cd7c285743ab83c",
       "category": "Official",
       "time": "NEW",
       "title": "Ninth anniversary of the 10th Spanish Super Cup",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
-      "publishedAt": "2026-08-16T10:28:50Z"
+      "publishedAt": "2026-08-16T11:38:35Z"
     },
     {
       "id": "2ac2a76d2f89321749d9",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-14T16:54:46Z"
     }
   ],
-  "updatedAt": "2026-08-16T11:37:29Z",
+  "updatedAt": "2026-08-16T11:52:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
