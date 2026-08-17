@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "766d70953bd0c250488f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Europe strengthens its network of social sports schools and surpasses 2,000 beneficiaries",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQajZpVDM4RXNXcjdVSWpTelNsX0NRWmtWNHgwUmI2MC15MllwU0N6V3E3U29Qc1hwcTZFczlwQndkMWE3R1ZERHM2R3RRSTQ1ZVBiN3Z1S0pLYll2VEwxdk9SdnRGX0FLYUJab1NYSFdwcERjZ3lhWnh5eWJXUlJjam1fdXF6SUl1Tjd5MVduUmRVTDgxR2xNR19EbmNkODZnTmxIUHhHOG9BSmJzYWFGR0hwMWFpTmhUclVjSVBta0JKZnpiV1g1RTRUcnQ4dE41TlZsUHlHeEFqdzIwX2FMOHBR?oc=5",
+      "publishedAt": "2026-08-17T07:26:56Z"
+    },
+    {
       "id": "dab24b3047175cc51d3c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
       "publishedAt": "2026-08-16T08:31:00Z"
-    },
-    {
-      "id": "82418d74076461b9b2b4",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
-      "publishedAt": "2026-08-16T08:31:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T06:24:03Z",
+  "updatedAt": "2026-08-17T08:06:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
