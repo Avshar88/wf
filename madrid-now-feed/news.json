@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "bbb4dfd80f0b6c391fe5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement: Jacobo Ortega",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzhVb2ZsUURJdEpRYXREWWpKcjBCXzNHUDBSdVh2YzNVMEZLeUtsLUhnYU9pbnBmcERBR0VxbzkyclRVN0JTTVh3SmNZYzNJVDl2YUppTkxNYWtycXIxcU9ZTEo4SmRSbE5KcHBBOGxkeXE0NlVXQ1VLQjdYRzZqTE5xRTJRalFkT01HRWhjYVhoUUhDUTB1MXM4SFlyWVBhOEE?oc=5",
+      "publishedAt": "2026-08-17T09:00:25Z"
+    },
+    {
       "id": "766d70953bd0c250488f",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTC01azdKNkcwVkxUSVBuNFFKRzVCNzdtR1VUd2UxQm1ob3Vwb3hsSThncWNINlppaVJKb3U2U3hGdUNEVEhnNU52Y1JKdDI4b1JhV2huQzI2cVY5VnhBN25CSklWUXdpblJUZV9xVFNSUDhpNVVReGQzeTAtSmwzc1cxTFBTTjV5dDBrWnlma0FxX1FvZVhGaExSR1kyYWI5R2RsTzRROWlZV09fdkozS1ktNjhHeWRXcVF4OEtFb1hEeXpBOHUwazZSOA?oc=5",
       "publishedAt": "2026-08-16T09:19:00Z"
-    },
-    {
-      "id": "6a1d53cb73c866cfe620",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schalke 04-Real Madrid: final preseason test, at 5:00 pm, live on Realmadrid TV and RM Play",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcWJXdC1OYkVlcFhYbXFzNmg1S2RNNEpXdFpYbDdoNkdmOXJib3g0V1BEcUhHb3A1NlVaMG80NHBiX3hIeVFhMXd4M3E3VEtMZk5SbWphR2pzdXZlLWFGZzZHZXRHZ0tmaWxzYVIwV2EwVVA4MnU1N0NhZXlNdl9ZZnpSZHBIYlN4bWJRbW1ES2xnQ0JGVzY1alZmS3NEeDhtS2RDRlJhckUzXzRabWVIVHJacU5SVXpLbVlWRlVUc3JhbUd5eTFfaUl6YzhSdEtwcTZRSTFYa0swOFBOVHRZQWNxQm51a1pF?oc=5",
-      "publishedAt": "2026-08-16T08:31:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T08:06:25Z",
+  "updatedAt": "2026-08-17T09:30:07Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
