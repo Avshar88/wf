@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "168d283c26f2b5c29170",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Europe strengthens its network of social sports schools and surpasses 2,000 beneficiaries",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQajZpVDM4RXNXcjdVSWpTelNsX0NRWmtWNHgwUmI2MC15MllwU0N6V3E3U29Qc1hwcTZFczlwQndkMWE3R1ZERHM2R3RRSTQ1ZVBiN3Z1S0pLYll2VEwxdk9SdnRGX0FLYUJab1NYSFdwcERjZ3lhWnh5eWJXUlJjam1fdXF6SUl1Tjd5MVduUmRVTDgxR2xNR19EbmNkODZnTmxIUHhHOG9BSmJzYWFGR0hwMWFpTmhUclVjSVBta0JKZnpiV1g1RTRUcnQ4dE41TlZsUHlHeEFqdzIwX2FMOHBR?oc=5",
+      "publishedAt": "2026-08-17T14:40:00Z"
+    },
+    {
       "id": "f0aba651129b1d797b9f",
       "category": "Matchday",
       "time": "NEW",
@@ -40,16 +50,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzhVb2ZsUURJdEpRYXREWWpKcjBCXzNHUDBSdVh2YzNVMEZLeUtsLUhnYU9pbnBmcERBR0VxbzkyclRVN0JTTVh3SmNZYzNJVDl2YUppTkxNYWtycXIxcU9ZTEo4SmRSbE5KcHBBOGxkeXE0NlVXQ1VLQjdYRzZqTE5xRTJRalFkT01HRWhjYVhoUUhDUTB1MXM4SFlyWVBhOEE?oc=5",
       "publishedAt": "2026-08-17T09:00:25Z"
-    },
-    {
-      "id": "766d70953bd0c250488f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Europe strengthens its network of social sports schools and surpasses 2,000 beneficiaries",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQajZpVDM4RXNXcjdVSWpTelNsX0NRWmtWNHgwUmI2MC15MllwU0N6V3E3U29Qc1hwcTZFczlwQndkMWE3R1ZERHM2R3RRSTQ1ZVBiN3Z1S0pLYll2VEwxdk9SdnRGX0FLYUJab1NYSFdwcERjZ3lhWnh5eWJXUlJjam1fdXF6SUl1Tjd5MVduUmRVTDgxR2xNR19EbmNkODZnTmxIUHhHOG9BSmJzYWFGR0hwMWFpTmhUclVjSVBta0JKZnpiV1g1RTRUcnQ4dE41TlZsUHlHeEFqdzIwX2FMOHBR?oc=5",
-      "publishedAt": "2026-08-17T07:26:56Z"
     },
     {
       "id": "dab24b3047175cc51d3c",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-16T11:17:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T11:30:28Z",
+  "updatedAt": "2026-08-17T15:45:37Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
