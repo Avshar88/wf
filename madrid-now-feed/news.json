@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "0e7e9c9afadec0dda77d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎼 In perfect harmony #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=JuFyccaEYR4",
+      "publishedAt": "2026-08-17T16:46:48Z"
+    },
+    {
+      "id": "8e908e09e7859e916cdb",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "CUCURELLA, DIOMANDE & KONATÉ DEBUT IN GOAL FEST! | Schalke 04 0-3 Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=Pkdfice5Oow",
+      "publishedAt": "2026-08-17T16:44:30Z"
+    },
+    {
       "id": "168d283c26f2b5c29170",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
       "publishedAt": "2026-08-16T16:04:00Z"
-    },
-    {
-      "id": "c962c1a1d3288e63c84c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⏳🏟️⚽️ VELTINS-Arena #RealMadrid #Football",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=v9VphJ_oJus",
-      "publishedAt": "2026-08-16T14:01:00Z"
-    },
-    {
-      "id": "7b2ecf15440ddade0f6c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Goal fest in the final preseason friendly",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjdFZmZ3RG5QYmFFdzRHUTRhUkxTLW4yZnVtZ3RibktnOGJqd0hrMGxIOC1tUi14Z195cXV3VEVyVXI1Y2hNWDZKbnBWZGxUamUybWpGZDBYMldrelBNc25PazJoenJmOEU0TXZVLVRDXzBFWWNKenNmYjJlRFdLQlRhcTE5T004MmE1XzM0MWRwa0xqSl85cDJRcEpfSW5C?oc=5",
-      "publishedAt": "2026-08-16T11:17:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T15:45:37Z",
+  "updatedAt": "2026-08-17T16:55:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
