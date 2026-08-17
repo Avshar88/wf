@@ -72,6 +72,16 @@
       "publishedAt": "2026-08-17T09:00:25Z"
     },
     {
+      "id": "efbdf40557221d07c040",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "The goals of the preseason",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcEJZN2NzdnYwRDB1MzJMUTZyTzdaVUp1eTJ1RmxhUzdCcFh2SzVCTU5wY195V2xzRTdCbi12UHdtYm9RbVNrcG02NHBSOElkWjBYRlZvcjdjSWdTTTltWElFd1o5UjF6Wml5WHdxcUVFcy00OW9HSEJuTlJLZTh3YlE0YVVua29ZOTJiRGNRSjZkaUhqZEJPeW5Vb1hPLVJaZFFrc3FFek1ONmswVlI0Z2JlSWRNd0VxSUFwMVNoRFZ6b3J6ajBOY2phQllkWmhfZ2ZSc01ia2RNdUVUaGJIVjNuOHRkQWMtZHRTQw?oc=5",
+      "publishedAt": "2026-08-17T08:00:00Z"
+    },
+    {
       "id": "dab24b3047175cc51d3c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHB4WEZiNVJaQXVsX3FBenVGUTFmTHBTZTZPMEZjOUJWbzBRWDVlUTRLRXJqbzB2aE9WM1JVNmZ2UUVQR3dkN1dRbmVsTC0yNklPSGpKcnNGNEd2cEE5Qm4xVVpZS3VKa3NPRnIwaGctalFtal9MN291bTBpRGdTdGhyeEMwTFBiT3lMbnBoWGw3WDdvT1hWd1RNcG5xdmRPcUF5dkxfZjV2VzBpWXlIbjZBTWFEMHM3SzllZEJMQ2YyaDBldHp4cHZR?oc=5",
       "publishedAt": "2026-08-16T16:19:00Z"
-    },
-    {
-      "id": "6c880e95df5d9e789b9d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Ninth anniversary of the 10th Spanish Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhmQi1TeTVWc1ZySEhmLTFEckxkd2QtTlY3cmtKVWhVejB0eTFuTlVQZVFHeXJEV25xX25VcE9wcjRrN0VoQjlpM3JPZGZKUWdEbXZjX1NaTmR0QjBhZHVTbzdJbkNxdjFKajlwNkdlVy1fUE1wYlhaMDJZYnBORXFUbmVKMHRwblRPM2kxbGs4YkE1N1F0YUxoYVVfMnRKdjhVdHV2UGNKVHBKOEdBcFhLcW4?oc=5",
-      "publishedAt": "2026-08-16T16:04:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T16:55:20Z",
+  "updatedAt": "2026-08-17T20:00:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
