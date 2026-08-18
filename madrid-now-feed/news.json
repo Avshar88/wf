@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "004b0f302517e6bc4ae9",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid completes the first training session of the season",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUxpVVhKUkNBaENBQTR6R19UdUcxUXRCMGZiWmY4NmxoTkw2Sklrb0J4ZVlxbVlFMkl0UmVlTHZrNElRbFdWWFdSNzJpT1Y3NmJQcXlFUkxOOWhYU0pwNERycmF5c05fNFFEZlZvMEpLTHMxNEQxWVZ4a0ZNMWJzTUVzem81c3NKbkl1SWRZWkRaaEF5T3EydmlPeEhlTzZ2OGVF?oc=5",
+      "publishedAt": "2026-08-18T15:30:19Z"
+    },
+    {
       "id": "38a36aba41842f9996a8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=PFA0BJcfXV4",
       "publishedAt": "2026-08-16T17:05:59Z"
-    },
-    {
-      "id": "dd8ad6f77fd9b30a85f7",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Illia makes his debut with the first team",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbUtQeUozWnphZS1xakJSTmtNbVNJWDFkMUhwZVo4dmJtZWZnOGJXMXVkczlPenpETjJlZ2U1WHVDQ3VDaFktY0p5N3VSX1V6cy1vYTQ1YzRSZmhxLVh2YTRLSjNxX1ZnMUxyNEM0MVdUVTNHLVFQTXNfX3JfYVltMGVwbGtRdDlZN3gzTTFZYXNXUDVSbVBIeGtQbw?oc=5",
-      "publishedAt": "2026-08-16T16:44:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T15:50:36Z",
+  "updatedAt": "2026-08-18T16:12:54Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
