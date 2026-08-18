@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "3379ff0be6006a6341bd",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
+      "publishedAt": "2026-08-18T15:52:51Z"
+    },
+    {
       "id": "004b0f302517e6bc4ae9",
       "category": "Matchday",
       "time": "NEW",
@@ -30,16 +40,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=xNhG0AYLJxo",
       "publishedAt": "2026-08-18T14:44:33Z"
-    },
-    {
-      "id": "f0ec35c67e32f8400a5e",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
-      "publishedAt": "2026-08-18T13:45:43Z"
     },
     {
       "id": "4c9db9f0a1d59d831e09",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-16T17:05:59Z"
     }
   ],
-  "updatedAt": "2026-08-18T16:12:54Z",
+  "updatedAt": "2026-08-18T16:47:34Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
