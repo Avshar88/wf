@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "4c9db9f0a1d59d831e09",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors - reuters.com",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
+      "publishedAt": "2026-08-18T13:45:43Z"
+    },
+    {
+      "id": "778b6190f5ac29f23930",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤍 “I've always been one of you.” #RealMadrid #Mourinho",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ctNB_PW5N5Q",
+      "publishedAt": "2026-08-18T13:08:55Z"
+    },
+    {
       "id": "2314c1c27607ce251506",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTAxUXI4UUFzTkx1NjdhR2pPUW9iSHVQNUxwUVNiRm13eGR5aFpndU01MW94ZEdSckZWMGJMSGllQk0wMXRGUXFXQkYtRWxMRk5SeF9aZ3ZaVFRlSWZ0ZWhlV1V4NVgwWTNjX2VDX3E3akpNWDFYRXF0dzFmemFMaDRXRmJFcDU3S3N4WEJHQ2lvY3VaMEE?oc=5",
       "publishedAt": "2026-08-16T16:32:00Z"
-    },
-    {
-      "id": "3db467c0cb856c3a4b51",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Diomande played his first minutes as a madridista",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLXI1R3ZMcm5ZRVFJRFZYbFBLSEtmNkJ3a0xFX2VIRzVWckFLTWJRdzRwWVJ1RlgtQnlObU0yendjNVA5TnZTdGlQTlJqMF9saG5aX2dKNUt1UFRBRUM5eFRoWUFwdGhXQ0w5dTVCeGRWZ3ZfeHNpRzNOV1RWMEJWQ05lX21pXzZXWUZWWTVBU0g1UjdtOG9UTlBxOW9KdU10QUt2OU9wU1o2dG45c1Z4MDJER004dDdES24wS1RndmtxV05RQ1ZOSVR6NGVlZ1RfM1E?oc=5",
-      "publishedAt": "2026-08-16T16:26:00Z"
-    },
-    {
-      "id": "7633343f560707ea63a6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella, after his debut with Real Madrid: \"I am very happy, behind all this there is a lot of work\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOVNTMFQ4cU0wcW9NMXFITGlKMW1iNFo3M3J6bHhVR2NtTjhFLTI1Uy1GVXV1VkxZeEJ3ZzJYVmdSbE95UGJORmJFRERycENPMEZxMnJWWUVMZFZYRmJ3LXE2b3UzY21LamNaTkQybkdjUW02cHRTMzBVdWdhMjVGVTJleEJfdnVhakFlMFVDSzVJdnVWY1ZCQUxsTDYxVjBqYVNKSjkzNG9rX08xUlpmY3dVeDM0aEpiNGRZM3RRMGVDalJjekRLVVk1UHcxQQ?oc=5",
-      "publishedAt": "2026-08-16T16:23:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T12:15:57Z",
+  "updatedAt": "2026-08-18T13:53:53Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
