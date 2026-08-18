@@ -22,6 +22,16 @@
       "publishedAt": "2026-08-18T17:02:04Z"
     },
     {
+      "id": "94b480941d4d9b629726",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "The cadets and infants kicked off the preseason",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcUx1ZE9jaW5FS3BqWGtaV3lxT0ZlenRKd1lrVE13TVNmZDVCY1NIZGNiMXdJZlNfSkZlOXdNWUk0bmRRTVc3WUxSUHB6dWhDQnRjNUlKRU9wb0QwbGZRb3FYdGI0WW5kbFNpMTBDaXhkVzBUaWRmZmY0bExFZ0o0czZfMUpYVnRzWjA1RGFMNzBoVHZDa1RpelBQODQwN21VRWVxUGk3Q1F2NDhwMk5UOHNaWGF2d1pkR3lKTHZtSGtUVl8wTzlmVUJBUjk0dw?oc=5",
+      "publishedAt": "2026-08-18T17:00:04Z"
+    },
+    {
       "id": "3379ff0be6006a6341bd",
       "category": "Reported",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=C3nmuEYyK-0",
       "publishedAt": "2026-08-16T17:30:25Z"
-    },
-    {
-      "id": "c9ee4fcc29e051517369",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Courtois: “It was the last test before starting LaLiga, and we played a good game”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcHZmb2ltQ3VYc0otbTZRaXVWS1hNdHBQZ1dzT2ROb09mTkk5S0ZHQU8zRWpsYkFvLUxROEROaGZkRHphZWtOdExKNERPVk9wMm1kelBVZnpMZ3RRYTJWR2gxOUhqTUlqZ2V5dnYteEQ1cDloV3gxZWFmNmVKclRidlZWMmFMOXZHVF8teDV1cHFyeXpDYWF5ZmVjMDYxY3VkelNLSGludkJJX2RPdjln?oc=5",
-      "publishedAt": "2026-08-16T17:30:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T17:39:55Z",
+  "updatedAt": "2026-08-18T17:59:11Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
