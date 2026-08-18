@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "dbbb218e475bc7b1c9dd",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🗣️ Meet Mourinho! #RealMadrid #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=xNhG0AYLJxo",
+      "publishedAt": "2026-08-18T14:44:33Z"
+    },
+    {
       "id": "f0ec35c67e32f8400a5e",
       "category": "Reported",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSXh6UTAzYzlTYlpucGVQM3VFX3hiWENnZDlTQnpGNm1hZDFEWmx1UGppWjg5TVFXbDdsVFZNSVN5bmtvcE9kQUxCcmZnbklpY0ZtN3JzQXdSY0ZaUXdOUFNtRXVPakJmRldmazNOZ0sxREZ6Ti1OREhRT2dMeHFXUUxKRUFubGVhM1R5U25GZ1BxV251amJz?oc=5",
       "publishedAt": "2026-08-16T16:33:00Z"
-    },
-    {
-      "id": "3228b50a5015bcebc71f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mbappe opened the scoring in Gelsenkirchen",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTAxUXI4UUFzTkx1NjdhR2pPUW9iSHVQNUxwUVNiRm13eGR5aFpndU01MW94ZEdSckZWMGJMSGllQk0wMXRGUXFXQkYtRWxMRk5SeF9aZ3ZaVFRlSWZ0ZWhlV1V4NVgwWTNjX2VDX3E3akpNWDFYRXF0dzFmemFMaDRXRmJFcDU3S3N4WEJHQ2lvY3VaMEE?oc=5",
-      "publishedAt": "2026-08-16T16:32:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T14:19:19Z",
+  "updatedAt": "2026-08-18T14:55:31Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
