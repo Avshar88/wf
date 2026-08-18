@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "2314c1c27607ce251506",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mourinho's Presentation Event",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDJ0MjlBS2VhRUVJSVpSUDk3aHgyd0hUMkdGWUJGT1FBbTJvTzlRNDFILXlITmlFVEZjSkNXSVM1eVFzMzZ2WFg2NWNLd3hGRExjSTdWaUdmUGFNcHZxMjhzZHVwRHRXYmdCNTlfTG45eGxZRVdqREFDNm5lTXhoX1Ixc0RFRThVNGQ3ZDFiNEUxOE5kcjMzRnIxRkY5ZV9MU3JsbC1KUi05Y0RQRTNlWV8zYw?oc=5",
+      "publishedAt": "2026-08-18T11:50:00Z"
+    },
+    {
       "id": "9774386ef31bad9bb2cf",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOVNTMFQ4cU0wcW9NMXFITGlKMW1iNFo3M3J6bHhVR2NtTjhFLTI1Uy1GVXV1VkxZeEJ3ZzJYVmdSbE95UGJORmJFRERycENPMEZxMnJWWUVMZFZYRmJ3LXE2b3UzY21LamNaTkQybkdjUW02cHRTMzBVdWdhMjVGVTJleEJfdnVhakFlMFVDSzVJdnVWY1ZCQUxsTDYxVjBqYVNKSjkzNG9rX08xUlpmY3dVeDM0aEpiNGRZM3RRMGVDalJjekRLVVk1UHcxQQ?oc=5",
       "publishedAt": "2026-08-16T16:23:00Z"
-    },
-    {
-      "id": "f10c8ebfe5364d5e5aef",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella, after his debut with Real Madrid: \"I am very happy, behind all this there is a lot of work\" - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOVNTMFQ4cU0wcW9NMXFITGlKMW1iNFo3M3J6bHhVR2NtTjhFLTI1Uy1GVXV1VkxZeEJ3ZzJYVmdSbE95UGJORmJFRERycENPMEZxMnJWWUVMZFZYRmJ3LXE2b3UzY21LamNaTkQybkdjUW02cHRTMzBVdWdhMjVGVTJleEJfdnVhakFlMFVDSzVJdnVWY1ZCQUxsTDYxVjBqYVNKSjkzNG9rX08xUlpmY3dVeDM0aEpiNGRZM3RRMGVDalJjekRLVVk1UHcxQQ?oc=5",
-      "publishedAt": "2026-08-16T16:23:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T11:32:30Z",
+  "updatedAt": "2026-08-18T12:15:57Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
