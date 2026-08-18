@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f0ec35c67e32f8400a5e",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
+      "publishedAt": "2026-08-18T13:45:43Z"
+    },
+    {
       "id": "4c9db9f0a1d59d831e09",
       "category": "Reported",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTAxUXI4UUFzTkx1NjdhR2pPUW9iSHVQNUxwUVNiRm13eGR5aFpndU01MW94ZEdSckZWMGJMSGllQk0wMXRGUXFXQkYtRWxMRk5SeF9aZ3ZaVFRlSWZ0ZWhlV1V4NVgwWTNjX2VDX3E3akpNWDFYRXF0dzFmemFMaDRXRmJFcDU3S3N4WEJHQ2lvY3VaMEE?oc=5",
       "publishedAt": "2026-08-16T16:32:00Z"
-    },
-    {
-      "id": "116534fffa091b0a5526",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mbappe opened the scoring in Gelsenkirchen - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTAxUXI4UUFzTkx1NjdhR2pPUW9iSHVQNUxwUVNiRm13eGR5aFpndU01MW94ZEdSckZWMGJMSGllQk0wMXRGUXFXQkYtRWxMRk5SeF9aZ3ZaVFRlSWZ0ZWhlV1V4NVgwWTNjX2VDX3E3akpNWDFYRXF0dzFmemFMaDRXRmJFcDU3S3N4WEJHQ2lvY3VaMEE?oc=5",
-      "publishedAt": "2026-08-16T16:32:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T13:53:53Z",
+  "updatedAt": "2026-08-18T14:19:19Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
