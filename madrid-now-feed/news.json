@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f9dc3eb09100d2914d13",
+      "category": "Official",
+      "time": "NEW",
+      "title": "25 years since Zidane's debut",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
+      "publishedAt": "2026-08-18T22:46:44Z"
+    },
+    {
       "id": "8a631cbd6dba2e9a553c",
       "category": "Official",
       "time": "NEW",
@@ -32,20 +42,20 @@
       "publishedAt": "2026-08-18T17:00:04Z"
     },
     {
-      "id": "3379ff0be6006a6341bd",
+      "id": "e77b16aeee4d73de0de4",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors - reuters.com",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
       "publishedAt": "2026-08-18T15:52:51Z"
     },
     {
-      "id": "e77b16aeee4d73de0de4",
+      "id": "3379ff0be6006a6341bd",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mourinho formally unveiled by Real Madrid behind closed doors - reuters.com",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX1BsYjZqSDA5NldNZ2RmOHRmOUJ1UUcyR0lOYnlWVGRQdEs0N055aEd2NUttbDk1YkJpbXVoYWJhN0doMi1KV29Yem9yd0RIY0dhNFhJYmNtRkgtN0pmRHJlTmhielBlZFRMWnMxa2hzTWZqdVp2NTZlZkJBVFN6SWtZcUFmcFFFYjJ3cnJzMFV0eFk?oc=5",
       "publishedAt": "2026-08-16T17:44:00Z"
-    },
-    {
-      "id": "e5cb795ecba2c1d836ae",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⚽ CLINICAL. #Espi #RealMadrid #football",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=C3nmuEYyK-0",
-      "publishedAt": "2026-08-16T17:30:25Z"
     }
   ],
-  "updatedAt": "2026-08-18T21:52:16Z",
+  "updatedAt": "2026-08-18T22:51:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
