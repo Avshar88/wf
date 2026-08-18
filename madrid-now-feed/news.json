@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "9774386ef31bad9bb2cf",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid prepares for the first La Liga match",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlZpdEZyeUNCWFVsZFRqSjhHRk81ODItZldGNnlNY1ItaE5zaWNud0FCTnRpdC1rbVE4Ymc2NV8zNnZ6TENkN0ZFbjZoaWhCd2RFOWxfQjgwQnpUSzFjcS1iN3EwNFQ5ODlXcU12UlVJNUF6YXVOMmRpRFRzbk5rc3FheE5rSERDYVY2b0sxRTM4SFZ4QVdXWkJyT0JkemJqdExpcVVKbnF6WXpZMm9CQ0x3?oc=5",
+      "publishedAt": "2026-08-18T06:59:00Z"
+    },
+    {
       "id": "0e7e9c9afadec0dda77d",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOVNTMFQ4cU0wcW9NMXFITGlKMW1iNFo3M3J6bHhVR2NtTjhFLTI1Uy1GVXV1VkxZeEJ3ZzJYVmdSbE95UGJORmJFRERycENPMEZxMnJWWUVMZFZYRmJ3LXE2b3UzY21LamNaTkQybkdjUW02cHRTMzBVdWdhMjVGVTJleEJfdnVhakFlMFVDSzVJdnVWY1ZCQUxsTDYxVjBqYVNKSjkzNG9rX08xUlpmY3dVeDM0aEpiNGRZM3RRMGVDalJjekRLVVk1UHcxQQ?oc=5",
       "publishedAt": "2026-08-16T16:23:00Z"
-    },
-    {
-      "id": "0a584994bd8643042320",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Konaté's first match with Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHB4WEZiNVJaQXVsX3FBenVGUTFmTHBTZTZPMEZjOUJWbzBRWDVlUTRLRXJqbzB2aE9WM1JVNmZ2UUVQR3dkN1dRbmVsTC0yNklPSGpKcnNGNEd2cEE5Qm4xVVpZS3VKa3NPRnIwaGctalFtal9MN291bTBpRGdTdGhyeEMwTFBiT3lMbnBoWGw3WDdvT1hWd1RNcG5xdmRPcUF5dkxfZjV2VzBpWXlIbjZBTWFEMHM3SzllZEJMQ2YyaDBldHp4cHZR?oc=5",
-      "publishedAt": "2026-08-16T16:19:00Z"
     }
   ],
-  "updatedAt": "2026-08-17T23:54:52Z",
+  "updatedAt": "2026-08-18T11:32:30Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
