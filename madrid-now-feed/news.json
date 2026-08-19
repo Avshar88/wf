@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "51948d4b248333aeacf3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "25 years since Zidane's debut",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
+      "publishedAt": "2026-08-19T15:10:13Z"
+    },
+    {
       "id": "2470d5c89ddc2665ad7d",
       "category": "Official",
       "time": "NEW",
@@ -30,16 +40,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=xM1-DqSnzOs",
       "publishedAt": "2026-08-19T12:55:14Z"
-    },
-    {
-      "id": "286ce11ca6d776b96de6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "25 years since Zidane's debut",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
-      "publishedAt": "2026-08-19T12:07:14Z"
     },
     {
       "id": "6f83be9bdbfa7a8d8e46",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-16T20:55:32Z"
     }
   ],
-  "updatedAt": "2026-08-19T14:56:18Z",
+  "updatedAt": "2026-08-19T15:21:50Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
