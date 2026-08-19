@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "48cd4d995a9365c511b0",
+      "id": "92438150d126b8531f58",
       "category": "Official",
       "time": "NEW",
       "title": "25 years since Zidane's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
-      "publishedAt": "2026-08-19T09:06:52Z"
+      "publishedAt": "2026-08-19T10:46:44Z"
+    },
+    {
+      "id": "a33d9db9c6c7cdf87b1c",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Tickets for the matches against Atlético, Ajax, and Eibar are now available",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTjJjd1pQUTZwMmtGM05tOFN4TV9wcG82SFNveHFYN2ZqV2tTOWNOY01NTTNvUDRXLWMzVHRucHdrc3UtRHpnZ1plaEFOeDNaRlp2bVI2SGZxdU90Q3ZZai1NUk1tNFlXeUFuTHRWeHc2MS1nSXhzYzMzNVpvX09va285SjFUU0o2RFRVN0p3YzdubWktYTZtNElMVUo1X2lGU3U3ZFVCT01xMG5oSXIxaFZJcU1pLVl1emNMRFFQT2pqbFM2YWp6aGJLOHZKLUtaMWpUTzE0Z08wZXdfSEdYRUJFWXJoOXdVNmVldFE5RzU2dEpoM1R6NQ?oc=5",
+      "publishedAt": "2026-08-19T10:00:00Z"
     },
     {
       "id": "a57f062d1a0425c14990",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNUUwVm1wVElYQ29YZGRCUXpndlRoNjFldlo4dWtWQkE2X3Z5V1gtcUlwV2U2cWdvUjJ4WkJiam15Qjh4OEwxRk9KUElIdkZUai1OQUxHUGFzLXV5N3hGQzQ0bHMtVGpMZHc0cWVjOWtEWmFrSU90d2lERmV1SXBOeG5UbHlCN1BIYkxpc2xzSXdQUmFBcUtPbHZWRXllYi1Jc21uVUEzVkZOMVUxekM3eFR3aG05eUJJTXc1RXM1VkpkU21pWDI1M09kQ0FpWkZuMVNLYUZ5MkRjN1l6WUpsSHFMcExzYWlhSmM4NkwyUQ?oc=5",
       "publishedAt": "2026-08-16T17:54:00Z"
-    },
-    {
-      "id": "4f5da7aa6cceb852dec4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "😹 Promise fulfilled! 📱#Cucurella #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=_kDWFTqB85M",
-      "publishedAt": "2026-08-16T17:52:36Z"
     }
   ],
-  "updatedAt": "2026-08-19T10:45:50Z",
+  "updatedAt": "2026-08-19T11:03:01Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
