@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "133db1da1560cf091cba",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "💥👉⚽️ #RMCity #RealMadrid #training",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=IN64q4qrqCo",
+      "publishedAt": "2026-08-19T15:32:46Z"
+    },
+    {
+      "id": "1f4eca2f3bc531cdac08",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "MBAPPÉ'S GOAL OF THE DAY! 🔥 | Real Madrid Inside Training",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=mwo3Qf1meK4",
+      "publishedAt": "2026-08-19T15:20:00Z"
+    },
+    {
       "id": "51948d4b248333aeacf3",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzhVb2ZsUURJdEpRYXREWWpKcjBCXzNHUDBSdVh2YzNVMEZLeUtsLUhnYU9pbnBmcERBR0VxbzkyclRVN0JTTVh3SmNZYzNJVDl2YUppTkxNYWtycXIxcU9ZTEo4SmRSbE5KcHBBOGxkeXE0NlVXQ1VLQjdYRzZqTE5xRTJRalFkT01HRWhjYVhoUUhDUTB1MXM4SFlyWVBhOEE?oc=5",
       "publishedAt": "2026-08-17T09:00:25Z"
-    },
-    {
-      "id": "efbdf40557221d07c040",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The goals of the preseason",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNFRma2tMazcwckhKQzhHQ1QzRWFXT3VqT3ZRd0w5VGthWlZGeHNmcXJQS2lGSEZwOFJ3eDRyaVl5SGd5REpsUERIaHdsMS1sMkt5Tjl6VnZmQTB3cXlGTUtXeHJrVW0zWnpBN0lqUkRvYWJBVU9sLTJRV2d0NExmWXdrWEEzTGdUV1pfU1Y1a0lsaTZSNjNlVGdtNElULWRJOE1CQ1p4WE5BSWtpZk5nUEhjNGJRWTZvSXdHQW1CV3c0LWJJa2pqMy02RTFfQjZ4LWxqVjFoQnpEcXVfaTgyQVJNX3o3VE8yTEE?oc=5",
-      "publishedAt": "2026-08-17T08:00:00Z"
-    },
-    {
-      "id": "dab24b3047175cc51d3c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "📹 THE BEST OF Real Madrid x Schalke 04!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=boIrOqf5Yyc",
-      "publishedAt": "2026-08-16T20:55:32Z"
     }
   ],
-  "updatedAt": "2026-08-19T15:21:50Z",
+  "updatedAt": "2026-08-19T15:50:56Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
