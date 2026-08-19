@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "f9dc3eb09100d2914d13",
+      "id": "78d671df2f7b57f0dd7d",
       "category": "Official",
       "time": "NEW",
       "title": "25 years since Zidane's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
-      "publishedAt": "2026-08-18T22:46:44Z"
+      "publishedAt": "2026-08-19T03:05:29Z"
     },
     {
       "id": "8a631cbd6dba2e9a553c",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-16T17:44:00Z"
     }
   ],
-  "updatedAt": "2026-08-18T23:08:44Z",
+  "updatedAt": "2026-08-19T03:28:42Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
