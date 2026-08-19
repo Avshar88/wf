@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f737b3f91b698555f4e1",
+      "category": "Official",
+      "time": "NEW",
+      "title": "✨\"I am genuinely so happy.\" #RealMadrid #BernardoSilva",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=swV5Mh3KXEY",
+      "publishedAt": "2026-08-19T19:00:33Z"
+    },
+    {
       "id": "d0dd8143b2462f4187e5",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ryFGc4uxYK0",
       "publishedAt": "2026-08-17T10:45:01Z"
-    },
-    {
-      "id": "72b57b25ac7e41272ae4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement: Ndiaye",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWkVOV09lY1YyNkxHWFVBdV9uWEVGdUpHQVg0UWJ4SXFiSm9RU01kTE4zUV9WMkxDTFFoeVMzdm9ERW1LOURxU05uQ2I2em9OU3g3STNoVlRuUTg4UEkxTW5jOVZLZkRCdm02d0x1cWlhRUJqTkQ1T2Z1bjNTYlZfTzNHdkNuakFMdWNYOTV5QTZLYkM2S1B6VjN6eURRTW9vRWZKcw?oc=5",
-      "publishedAt": "2026-08-17T10:30:13Z"
     }
   ],
-  "updatedAt": "2026-08-19T18:52:02Z",
+  "updatedAt": "2026-08-19T19:13:51Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
