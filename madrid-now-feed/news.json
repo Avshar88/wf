@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "d0dd8143b2462f4187e5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔝 #RealMadrid #Mourinho #Interview",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=STV-jaKnswg",
+      "publishedAt": "2026-08-19T17:15:36Z"
+    },
+    {
+      "id": "07ecbf33e29763562afa",
+      "category": "Official",
+      "time": "NEW",
+      "title": "MOURINHO ‘Real Madrid is the PINNACLE of my coaching career!’",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=W3eNLKOSHcc",
+      "publishedAt": "2026-08-19T17:00:02Z"
+    },
+    {
       "id": "975665f188e764fe3b7d",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWVlrcDg5VjhRVmd1ZE1fMGtlZk5lMHJaLU4xM09oQl9wOVEtQmVLWGVnbllOZkJCaDBWY2Jja3hHRGNwMjdGeHFYT2ZiVG9rVTY0QVdkajNhMkZEUFM1aEVWNDlCNVVKZnA2UER5dzR5WWVwaENTcEVmQ2F4eDRVRHRLbGtaaTVqZ05RcGMzSGd0Vl9GQlo1T21kZ2hmT3g5b2NEa3lCdHdhSnhvRkNnSzBVQmdsdXdRM1ZqclBkZTRjQlpPMUdmcEJvVmZYdThOTFpjR2tPRGZLZGV4eS03Z0VNTEp3Z28xeDJzMDJ6N2ZTYTZrOFJQUw?oc=5",
       "publishedAt": "2026-08-17T10:28:00Z"
-    },
-    {
-      "id": "d1212baa2861fc988fe9",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Get the Real Madrid Third kit with an exclusive discount for the Madridista Community - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWVlrcDg5VjhRVmd1ZE1fMGtlZk5lMHJaLU4xM09oQl9wOVEtQmVLWGVnbllOZkJCaDBWY2Jja3hHRGNwMjdGeHFYT2ZiVG9rVTY0QVdkajNhMkZEUFM1aEVWNDlCNVVKZnA2UER5dzR5WWVwaENTcEVmQ2F4eDRVRHRLbGtaaTVqZ05RcGMzSGd0Vl9GQlo1T21kZ2hmT3g5b2NEa3lCdHdhSnhvRkNnSzBVQmdsdXdRM1ZqclBkZTRjQlpPMUdmcEJvVmZYdThOTFpjR2tPRGZLZGV4eS03Z0VNTEp3Z28xeDJzMDJ6N2ZTYTZrOFJQUw?oc=5",
-      "publishedAt": "2026-08-17T10:28:00Z"
-    },
-    {
-      "id": "bbb4dfd80f0b6c391fe5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement: Jacobo Ortega",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzhVb2ZsUURJdEpRYXREWWpKcjBCXzNHUDBSdVh2YzNVMEZLeUtsLUhnYU9pbnBmcERBR0VxbzkyclRVN0JTTVh3SmNZYzNJVDl2YUppTkxNYWtycXIxcU9ZTEo4SmRSbE5KcHBBOGxkeXE0NlVXQ1VLQjdYRzZqTE5xRTJRalFkT01HRWhjYVhoUUhDUTB1MXM4SFlyWVBhOEE?oc=5",
-      "publishedAt": "2026-08-17T09:00:25Z"
     }
   ],
-  "updatedAt": "2026-08-19T16:46:10Z",
+  "updatedAt": "2026-08-19T17:34:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
