@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "422b640e50fc866798dc",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤳 Konaté #RealMadrid #Konaté # RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=4SCfkAxD7Js",
+      "publishedAt": "2026-08-20T12:52:27Z"
+    },
+    {
       "id": "c11c60568dca9e199c47",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ggWGD04yfMI",
       "publishedAt": "2026-08-18T15:24:03Z"
-    },
-    {
-      "id": "dbbb218e475bc7b1c9dd",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🗣️ Meet Mourinho! #RealMadrid #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=xNhG0AYLJxo",
-      "publishedAt": "2026-08-18T14:44:33Z"
     }
   ],
-  "updatedAt": "2026-08-20T12:17:31Z",
+  "updatedAt": "2026-08-20T13:13:27Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
