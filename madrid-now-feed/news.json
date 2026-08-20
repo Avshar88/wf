@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "c11c60568dca9e199c47",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official welcome ceremony for Konaté",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNDZvd0pMVTdwcXhLbE9HSVFlXzJEamg4alR0ZTVqQkNCT3VUQjRNSUtEQ2EwQ2RYOXhDcnFCWmduZzB3VWlWQzh4VGtkN2Q0TklJUmhTbk1yb19HQ3JXR2tzUk9WZVc1SXNGRHc5TmtENThjYnlfdEc4WU5udHBXNGR2VzF0WkRmOVl1NFFxdWR0QVY0emtRWHJvRl9tcEVXOFgyWQ?oc=5",
+      "publishedAt": "2026-08-20T10:30:00Z"
+    },
+    {
       "id": "0ab3d5d0a344c2634e81",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=xNhG0AYLJxo",
       "publishedAt": "2026-08-18T14:44:33Z"
-    },
-    {
-      "id": "778b6190f5ac29f23930",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤍 “I've always been one of you.” #RealMadrid #Mourinho",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=ctNB_PW5N5Q",
-      "publishedAt": "2026-08-18T13:08:55Z"
     }
   ],
-  "updatedAt": "2026-08-20T11:53:15Z",
+  "updatedAt": "2026-08-20T12:17:31Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
