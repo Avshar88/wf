@@ -52,16 +52,6 @@
       "publishedAt": "2026-08-19T17:00:02Z"
     },
     {
-      "id": "0899c24e24e6efa3bd96",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaS0zTUFjS3FRYkNDaWhkQXNhV0Y5Q3BvV0tfRkI2QjNsaFlXN3REZW1DZ3ZWQU1WN1FsdFVhZExhQ2NuMTQwczBzTldIazVLaGhVVE5UU3lZa3JKeWktZXM5VzFwVVcyenJtZzBaRjQ0VUVuaVVpVVVsaE1JSDJhdW5vQWNDZElJaWF5a3hkMGEyNVIteXc?oc=5",
-      "publishedAt": "2026-08-19T16:32:23Z"
-    },
-    {
       "id": "c2b89706082ce39f59c8",
       "category": "Official",
       "time": "NEW",
@@ -202,20 +192,20 @@
       "publishedAt": "2026-08-18T17:00:04Z"
     },
     {
-      "id": "3379ff0be6006a6341bd",
+      "id": "e77b16aeee4d73de0de4",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors - reuters.com",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
       "publishedAt": "2026-08-18T15:52:51Z"
     },
     {
-      "id": "e77b16aeee4d73de0de4",
+      "id": "3379ff0be6006a6341bd",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mourinho formally unveiled by Real Madrid behind closed doors - reuters.com",
+      "title": "Mourinho formally unveiled by Real Madrid behind closed doors",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbENrOWxPU1ZQZ2k1VUZzVnpUbkg4SUFmdnJnbV9iN08yOW95SFpqSGNfSUNwbHNPNjZPNlY5bWZmNE1WeFRuSkVmeUhlSzJSa2V3dTlMVXI1cGYwWnd1elVqR2cyQjIyZkRFV2lrOWp4NU5DZGp0REVDR1VCSWlmV1V4QURzaXhYTkhsbGV0ZXV3Z09ESlZmSWs3czdxWkVRU21iX2oya19uM1NjZldIYQ?oc=5",
@@ -300,9 +290,19 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlZpdEZyeUNCWFVsZFRqSjhHRk81ODItZldGNnlNY1ItaE5zaWNud0FCTnRpdC1rbVE4Ymc2NV8zNnZ6TENkN0ZFbjZoaWhCd2RFOWxfQjgwQnpUSzFjcS1iN3EwNFQ5ODlXcU12UlVJNUF6YXVOMmRpRFRzbk5rc3FheE5rSERDYVY2b0sxRTM4SFZ4QVdXWkJyT0JkemJqdExpcVVKbnF6WXpZMm9CQ0x3?oc=5",
       "publishedAt": "2026-08-18T06:59:00Z"
+    },
+    {
+      "id": "168d283c26f2b5c29170",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Europe strengthens its network of social sports schools and surpasses 2,000 beneficiaries",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQajZpVDM4RXNXcjdVSWpTelNsX0NRWmtWNHgwUmI2MC15MllwU0N6V3E3U29Qc1hwcTZFczlwQndkMWE3R1ZERHM2R3RRSTQ1ZVBiN3Z1S0pLYll2VEwxdk9SdnRGX0FLYUJab1NYSFdwcERjZ3lhWnh5eWJXUlJjam1fdXF6SUl1Tjd5MVduUmRVTDgxR2xNR19EbmNkODZnTmxIUHhHOG9BSmJzYWFGR0hwMWFpTmhUclVjSVBta0JKZnpiV1g1RTRUcnQ4dE41TlZsUHlHeEFqdzIwX2FMOHBR?oc=5",
+      "publishedAt": "2026-08-17T14:40:00Z"
     }
   ],
-  "updatedAt": "2026-08-20T00:24:31Z",
+  "updatedAt": "2026-08-20T02:48:44Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
