@@ -132,6 +132,16 @@
       "publishedAt": "2026-08-20T08:00:50Z"
     },
     {
+      "id": "a7eed9c4ca57f5539edf",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid will start the League with three matches in eight days",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1ZUbVVvX0k2SnlmaDhzT2IxTnRBa01Dd1JqMXloTXN0S3ZldndFS1NwVDF5UXJNUnU2dDVoSDdTSnhmQTZhLWpRQ3pOSi1QeGVJdTJtakFVZXoxenZGa05kYVRWX2ppaENoMEJ3ZzNTLWpJLVZvNjIzMUpYQ0xLWlpGOWQyS0F3NmVQQ2k4dmR1WldIRXNjTnI5VmRzOW1LS0JINUJYdF9QbXNPUnF1dFVwWVJqQQ?oc=5",
+      "publishedAt": "2026-08-20T08:00:00Z"
+    },
+    {
       "id": "7a29c15f08c6d5ac028b",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTjJjd1pQUTZwMmtGM05tOFN4TV9wcG82SFNveHFYN2ZqV2tTOWNOY01NTTNvUDRXLWMzVHRucHdrc3UtRHpnZ1plaEFOeDNaRlp2bVI2SGZxdU90Q3ZZai1NUk1tNFlXeUFuTHRWeHc2MS1nSXhzYzMzNVpvX09va285SjFUU0o2RFRVN0p3YzdubWktYTZtNElMVUo1X2lGU3U3ZFVCT01xMG5oSXIxaFZJcU1pLVl1emNMRFFQT2pqbFM2YWp6aGJLOHZKLUtaMWpUTzE0Z08wZXdfSEdYRUJFWXJoOXdVNmVldFE5RzU2dEpoM1R6NQ?oc=5",
       "publishedAt": "2026-08-19T10:00:00Z"
-    },
-    {
-      "id": "a57f062d1a0425c14990",
-      "category": "Official",
-      "time": "NEW",
-      "title": "The team continues preparing for the league debut",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMU9PajZMQVQ2cllPODZKMzNzNkdhV3prc21HczlJVjB4MlBfUm9xMGsxQlVpZGFjQjZFRXpLeVlSWE1vTWxxeDF5SDBwODItMjZWeHNETEUwZDZoWS1MeEdKa3U3Q2hQQnhEV2NULURIRTRhdHhXWEphemVxQ1c3N2xjU1Y5aTdONVFORHdHMFA2UXhFeTBNbGpvNDBRRnVLcURUV2tVUWdxU1RDTWptUTRR?oc=5",
-      "publishedAt": "2026-08-19T08:00:12Z"
     }
   ],
-  "updatedAt": "2026-08-20T18:49:32Z",
+  "updatedAt": "2026-08-20T19:49:21Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
