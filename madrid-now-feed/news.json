@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "fe90cd318df1ed0ed40b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💬 Bernardo Silva: \"I hope to have very special nights at the Bernabéu.\" #RealMadrid #BernardoSilva",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=U_rd_BqMsQ0",
+      "publishedAt": "2026-08-20T17:35:14Z"
+    },
+    {
+      "id": "c15044567bd5f7552561",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "“PLAYING FOR A CLUB WITH 15 CHAMPIONS LEAGUES IS NOT FOR EVERYONE” | BERNARDO SILVA Interview",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=z8EjLPb0Z4g",
+      "publishedAt": "2026-08-20T17:13:07Z"
+    },
+    {
       "id": "bb6cf1f21f2501330bb8",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=o-X3BhLCFes",
       "publishedAt": "2026-08-18T17:09:02Z"
-    },
-    {
-      "id": "63d81536a53f11686c24",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔥 AFTER THE BIG WIN, A SESSION FULL OF SCREAMERS! | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=_iIczSLvqUc",
-      "publishedAt": "2026-08-18T17:02:04Z"
-    },
-    {
-      "id": "94b480941d4d9b629726",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The cadets and infants kicked off the preseason",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcUx1ZE9jaW5FS3BqWGtaV3lxT0ZlenRKd1lrVE13TVNmZDVCY1NIZGNiMXdJZlNfSkZlOXdNWUk0bmRRTVc3WUxSUHB6dWhDQnRjNUlKRU9wb0QwbGZRb3FYdGI0WW5kbFNpMTBDaXhkVzBUaWRmZmY0bExFZ0o0czZfMUpYVnRzWjA1RGFMNzBoVHZDa1RpelBQODQwN21VRWVxUGk3Q1F2NDhwMk5UOHNaWGF2d1pkR3lKTHZtSGtUVl8wTzlmVUJBUjk0dw?oc=5",
-      "publishedAt": "2026-08-18T17:00:04Z"
     }
   ],
-  "updatedAt": "2026-08-20T15:44:48Z",
+  "updatedAt": "2026-08-20T17:43:39Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
