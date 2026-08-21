@@ -22,6 +22,16 @@
       "publishedAt": "2026-08-21T13:31:30Z"
     },
     {
+      "id": "3edad1ef3f8fc038d288",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Konaté: 'Since I was a child, I dreamed of this moment, and that dream has come true.'",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGxkMlpweUZiNzM2blpodG9kQ1gtcHRXN19BbzNkVU1OZm5BMEFVeFdrWmpOZHI0QjV5dU9DZzBZd1NpYW4zcXFOUk1kczlVVnJHa1Rrc0t5V2Y5Tkx1a3VRTm1nSzVaTEVkazZhSUNkQUFVMURiZjVjM2ZzV1V4VjZ3NlE2S1lpQm1abXVCMDFPVmYyNWk4YldiOU9keW8?oc=5",
+      "publishedAt": "2026-08-21T13:23:00Z"
+    },
+    {
       "id": "9fc613a089084d632daf",
       "category": "Official",
       "time": "NEW",
@@ -30,16 +40,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdGEzVkphQXRlLS1TdTdtZnBYUnA2elJZdFhuVC1ieFVVNTNKcHVFUmVwZmxPZjg5SW9GQzlESTlDaHpIVENZbHNRc0J3ZURHeFY1LURJZWhNOHM5UzFOVDZMQnhrWmdMaHpXVFF3WFRRc2V3ZEZyLVYyRnREb2tQRWNEN3V1UGx6cm9SZVR3RmhEdXQ2VHpveUFOd2VLMUk4QlExWUk5MThkZzBva2cxaXd4UndoR2N3UENXQ1RpSmFpYXFCenc?oc=5",
       "publishedAt": "2026-08-21T12:09:00Z"
-    },
-    {
-      "id": "758a0fc9dfbfa6d8d02a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Konaté: 'Since I was a child, I dreamed of this moment, and that dream has come true.'",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGxkMlpweUZiNzM2blpodG9kQ1gtcHRXN19BbzNkVU1OZm5BMEFVeFdrWmpOZHI0QjV5dU9DZzBZd1NpYW4zcXFOUk1kczlVVnJHa1Rrc0t5V2Y5Tkx1a3VRTm1nSzVaTEVkazZhSUNkQUFVMURiZjVjM2ZzV1V4VjZ3NlE2S1lpQm1abXVCMDFPVmYyNWk4YldiOU9keW8?oc=5",
-      "publishedAt": "2026-08-21T11:51:25Z"
     },
     {
       "id": "6b7fdd1d2705da8c9efd",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-19T19:00:33Z"
     }
   ],
-  "updatedAt": "2026-08-21T15:41:40Z",
+  "updatedAt": "2026-08-21T16:03:07Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
