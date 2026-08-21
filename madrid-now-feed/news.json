@@ -12,16 +12,6 @@
       "publishedAt": "2026-08-21T18:30:27Z"
     },
     {
-      "id": "abd5a5d157be93cd3ba3",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rbHloekhvUFFfUkhKZXl4cDN4Rkk2dHFtc3ZZU29fbTFaeVozNmUxVm1RTnVzRFRtRGhSNkR2Tjl4N1lFdjZVOG1uZXNPY2NGZlJSOG9TN1JHZ0wyVXBfSXl0bjRyRVluLWgySkxsaG82dUZiZUMwUg?oc=5",
-      "publishedAt": "2026-08-21T16:38:39Z"
-    },
-    {
       "id": "fca769620bce19016d5b",
       "category": "Matchday",
       "time": "NEW",
@@ -300,9 +290,19 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMHkxNU1iT0ZWcmhfTWFJR015c1hnZXFuMEdQMk82R0Nyd2pMOFVqUnZ5TzBMMnlzVU51TjZoM2RUdmNhZ3pSOVZNQWpIN3hoeHhrOGhIb2lzSU1NV0dHdWxyTFU4NVpzYmhYZmE0cXgxNWx1SjhTOHFOcnFzeTdsdWFrS04tR0I2YjRVbzZWclJIbmRZRFRudnF0UGRLZ0d1cVFNWlc3cWJaR1NVRHVzVlJR?oc=5",
       "publishedAt": "2026-08-20T08:00:50Z"
+    },
+    {
+      "id": "a7eed9c4ca57f5539edf",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid will start the League with three matches in eight days",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1ZUbVVvX0k2SnlmaDhzT2IxTnRBa01Dd1JqMXloTXN0S3ZldndFS1NwVDF5UXJNUnU2dDVoSDdTSnhmQTZhLWpRQ3pOSi1QeGVJdTJtakFVZXoxenZGa05kYVRWX2ppaENoMEJ3ZzNTLWpJLVZvNjIzMUpYQ0xLWlpGOWQyS0F3NmVQQ2k4dmR1WldIRXNjTnI5VmRzOW1LS0JINUJYdF9QbXNPUnF1dFVwWVJqQQ?oc=5",
+      "publishedAt": "2026-08-20T08:00:00Z"
     }
   ],
-  "updatedAt": "2026-08-21T18:38:27Z",
+  "updatedAt": "2026-08-21T19:33:58Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
