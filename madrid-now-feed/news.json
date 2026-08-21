@@ -32,16 +32,6 @@
       "publishedAt": "2026-08-21T16:14:01Z"
     },
     {
-      "id": "8efe3a04fab91d65ed4d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"I have great confidence in the ambition of the players\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdTFCZWxlX2tLeTREMHNXNmlDZnNDV0ZLTFN3RHEwaUNuU0ZFLUJrMjlVNFJRdklKVFQ1aWhQcWJIbmI4YUxEdGdVcDNJNlg0Q1JVRENuTzhwNXRrVmRtbm0xM0R3NFdkdzc1NUE0c010SFJCcWcwUnJLRUdGVmNMVUJucDdrLU0zdE5JQlYwUTNjenB6ZVFNUGNR?oc=5",
-      "publishedAt": "2026-08-21T16:13:29Z"
-    },
-    {
       "id": "5ca3f52bcd6a4d7f6881",
       "category": "Official",
       "time": "NEW",
@@ -110,6 +100,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT0pYa2lpd3JZd1dMVXNyeDJETkY3eG8zVGR2YmJ0ZFNCdjVTeldfbTkxT3lIQmpxUzlUWFpLT1MzRVNiQWF6dzVmQmExRlBkOXpCYlcwNDU3emNXWkk3R1p6UXBtV3BQRmFIUzJ1b3FVZXlqSnItd2N2TW5Xcmdaa2U5amhVQk5DT05Ya01tU2hxVzNCVUl3Sll1ZkpQTXUxTG9QOWJ1ei1zVW1samo4Nzc5VzFicU1TYW1n?oc=5",
       "publishedAt": "2026-08-21T09:54:00Z"
+    },
+    {
+      "id": "29092d80ddf72526ff1b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mourinho: \"I have great confidence in the ambition of the players\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdTFCZWxlX2tLeTREMHNXNmlDZnNDV0ZLTFN3RHEwaUNuU0ZFLUJrMjlVNFJRdklKVFQ1aWhQcWJIbmI4YUxEdGdVcDNJNlg0Q1JVRENuTzhwNXRrVmRtbm0xM0R3NFdkdzc1NUE0c010SFJCcWcwUnJLRUdGVmNMVUJucDdrLU0zdE5JQlYwUTNjenB6ZVFNUGNR?oc=5",
+      "publishedAt": "2026-08-21T06:50:00Z"
     },
     {
       "id": "dbeb8a5ef720538392ba",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-19T21:37:00Z"
     }
   ],
-  "updatedAt": "2026-08-21T17:38:05Z",
+  "updatedAt": "2026-08-21T18:00:23Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
