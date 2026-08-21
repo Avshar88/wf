@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "abd5a5d157be93cd3ba3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rbHloekhvUFFfUkhKZXl4cDN4Rkk2dHFtc3ZZU29fbTFaeVozNmUxVm1RTnVzRFRtRGhSNkR2Tjl4N1lFdjZVOG1uZXNPY2NGZlJSOG9TN1JHZ0wyVXBfSXl0bjRyRVluLWgySkxsaG82dUZiZUMwUg?oc=5",
+      "publishedAt": "2026-08-21T16:38:39Z"
+    },
+    {
+      "id": "fca769620bce19016d5b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🫡 All set for our LaLiga opener!🔥 #RealMadrid #RMCity #football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=vP6Zvrquw2I",
+      "publishedAt": "2026-08-21T16:26:03Z"
+    },
+    {
+      "id": "3305c6d2d01cc8184599",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "ALL SET FOR OUR LALIGA OPENER! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=sy8pgVUD3iQ",
+      "publishedAt": "2026-08-21T16:14:01Z"
+    },
+    {
       "id": "5ca3f52bcd6a4d7f6881",
       "category": "Official",
       "time": "NEW",
@@ -10,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=RrWMklX00s8",
       "publishedAt": "2026-08-21T15:28:10Z"
+    },
+    {
+      "id": "18895a734a154ccadf7b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Dumfries: \"I am very proud and grateful to play for Madrid\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb0d5NEtOc3NlYjA3em8xX1l4d1NpdTduRE5FSS11R0UySERVTjhoU01GMVo4MzFnU1BGSlR4ZFlXR19wSUpnY2tDbldMYTNrc1otYUtKR0dZR1J3MTBDdmUtWXpUMUZwcC1BT0J3eWl4MFpMMGpvSlZSNk8zMF9IRTJjcmd6aDlNTkVObkk1c0xKSFk?oc=5",
+      "publishedAt": "2026-08-21T13:44:00Z"
     },
     {
       "id": "dab3ce62dde13d2d7ce1",
@@ -242,16 +282,6 @@
       "publishedAt": "2026-08-20T08:00:50Z"
     },
     {
-      "id": "a7eed9c4ca57f5539edf",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid will start the League with three matches in eight days",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1ZUbVVvX0k2SnlmaDhzT2IxTnRBa01Dd1JqMXloTXN0S3ZldndFS1NwVDF5UXJNUnU2dDVoSDdTSnhmQTZhLWpRQ3pOSi1QeGVJdTJtakFVZXoxenZGa05kYVRWX2ppaENoMEJ3ZzNTLWpJLVZvNjIzMUpYQ0xLWlpGOWQyS0F3NmVQQ2k4dmR1WldIRXNjTnI5VmRzOW1LS0JINUJYdF9QbXNPUnF1dFVwWVJqQQ?oc=5",
-      "publishedAt": "2026-08-20T08:00:00Z"
-    },
-    {
       "id": "9d80f27df39fd6c8521e",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnFjR1VkaDk2dmpLWHFTdzFqWlBpbGpCenlYWVY1WnhIQnZUdTlmbjZIY0ZLaF9mNy1FRVJPYWlHR1I1S3B0OHNjWWFWMEpXOExHcG5yaXZCYWVuS3A0MGEtRXUzNDNuZXhIZUVwZVd3X0laaWdsNm1kQzV3QlpFSGs2OGxOOFI0Yk81cnlucDRmb0FxVGxTUWg3RWFPcG1TVEpj?oc=5",
       "publishedAt": "2026-08-19T21:37:00Z"
-    },
-    {
-      "id": "7a29c15f08c6d5ac028b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Bernardo Silva: “I hope to have very special nights at the Bernabéu”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdGFvRUdGMHRDc3FmMmZqWmRMeEd3YkJWYjhhTFdUR0pYRGY0bmZVSUFyQ1V5SERnNDJGSmRwSU0tTnpmYl8tU2dvSDFJR3BPLVA4NGk5dTFBYmJIbWh3SEVJTmpUZFJpeVIwOHpFbk55Y3JBcDZmWnlhYm9mV0cyQ3lfVXlJcHEzOFlkMHpPLWJ2QVh1SHR2NnJoQTZiLWV2c1pkZndNUk8xZw?oc=5",
-      "publishedAt": "2026-08-19T19:41:00Z"
-    },
-    {
-      "id": "6c9da3a3e5b3dd1ab9ca",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Bernardo Silva: “I hope to have very special nights at the Bernabéu” - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdGFvRUdGMHRDc3FmMmZqWmRMeEd3YkJWYjhhTFdUR0pYRGY0bmZVSUFyQ1V5SERnNDJGSmRwSU0tTnpmYl8tU2dvSDFJR3BPLVA4NGk5dTFBYmJIbWh3SEVJTmpUZFJpeVIwOHpFbk55Y3JBcDZmWnlhYm9mV0cyQ3lfVXlJcHEzOFlkMHpPLWJ2QVh1SHR2NnJoQTZiLWV2c1pkZndNUk8xZw?oc=5",
-      "publishedAt": "2026-08-19T19:41:00Z"
-    },
-    {
-      "id": "f737b3f91b698555f4e1",
-      "category": "Official",
-      "time": "NEW",
-      "title": "✨\"I am genuinely so happy.\" #RealMadrid #BernardoSilva",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=swV5Mh3KXEY",
-      "publishedAt": "2026-08-19T19:00:33Z"
     }
   ],
-  "updatedAt": "2026-08-21T16:03:07Z",
+  "updatedAt": "2026-08-21T16:43:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
