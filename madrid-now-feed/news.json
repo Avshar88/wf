@@ -22,16 +22,6 @@
       "publishedAt": "2026-08-21T19:52:17Z"
     },
     {
-      "id": "cc03e77d3be7fc8447b5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oYW5HSG5sOERENy12VTl5a0tZekdkSXlNSW1WQkRoVzJyZjBGQnB5QlhlMUdTOE1ZQXRRdXFwRzFFV295ODJYMlhMVnBsN1FpOVFCUzlha3IyS0FJSnZwRFlaMzhZdHZUenVISE9EZ1JUSTdibUhkc29yMkZGdw?oc=5",
-      "publishedAt": "2026-08-21T19:33:47Z"
-    },
-    {
       "id": "615306964860f5dec2ae",
       "category": "Official",
       "time": "NEW",
@@ -300,9 +290,19 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPeWlOTENhNzNESkRvdml3b0d5azk0OGhKaGhIUDNRNWJ5R1BSbldhRGQ2dmdKMmxMUmhqYVMtUXJ3UElmMTJzNExrRlZIanNiOUxNM3Ziamo1U0dDeWFkT2NzMXJZUmRwRHNNOFZSVF9jRFRWYk5JWlVXVzJpMGNXWjNaNGhMSERwcVlxWEdwMnlqemktbDdQeWx2dG5WcUdFTVJnQUd2MGs2OWZ5a012Unp0MGtlTF92UDJrYlQ2RU1FYnhVdEI5UkswX1pUVFhuMi1QY0dTVzFVVGd2TFNNcUdRZ2Y5eDVYaXFKbER1V0ZpM0M4OG9CSWtFY2xrUm9sTWlycHhXOGN4bGhqQ0JBUkRlbmFXSXF4RkJfM2hldkEtVV94cktpbF94cHpGa3ZYNHc?oc=5",
       "publishedAt": "2026-08-20T09:05:00Z"
+    },
+    {
+      "id": "796503d5d99b0a4e6299",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid continues preparing for the match against Espanyol",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMHkxNU1iT0ZWcmhfTWFJR015c1hnZXFuMEdQMk82R0Nyd2pMOFVqUnZ5TzBMMnlzVU51TjZoM2RUdmNhZ3pSOVZNQWpIN3hoeHhrOGhIb2lzSU1NV0dHdWxyTFU4NVpzYmhYZmE0cXgxNWx1SjhTOHFOcnFzeTdsdWFrS04tR0I2YjRVbzZWclJIbmRZRFRudnF0UGRLZ0d1cVFNWlc3cWJaR1NVRHVzVlJR?oc=5",
+      "publishedAt": "2026-08-20T08:00:50Z"
     }
   ],
-  "updatedAt": "2026-08-21T20:01:56Z",
+  "updatedAt": "2026-08-21T20:32:07Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
