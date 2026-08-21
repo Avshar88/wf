@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "dab3ce62dde13d2d7ce1",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤳😁 Hi, #Madridistas! #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=uui2c_DBj1Q",
+      "publishedAt": "2026-08-21T13:31:30Z"
+    },
+    {
       "id": "9fc613a089084d632daf",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=STV-jaKnswg",
       "publishedAt": "2026-08-19T17:15:36Z"
-    },
-    {
-      "id": "07ecbf33e29763562afa",
-      "category": "Official",
-      "time": "NEW",
-      "title": "MOURINHO: ‘Real Madrid is the PINNACLE of my coaching career!’",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=W3eNLKOSHcc",
-      "publishedAt": "2026-08-19T17:00:02Z"
     }
   ],
-  "updatedAt": "2026-08-21T13:13:29Z",
+  "updatedAt": "2026-08-21T13:57:44Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
