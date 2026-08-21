@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "758a0fc9dfbfa6d8d02a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Konaté: 'Since I was a child, I dreamed of this moment, and that dream has come true.'",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGxkMlpweUZiNzM2blpodG9kQ1gtcHRXN19BbzNkVU1OZm5BMEFVeFdrWmpOZHI0QjV5dU9DZzBZd1NpYW4zcXFOUk1kczlVVnJHa1Rrc0t5V2Y5Tkx1a3VRTm1nSzVaTEVkazZhSUNkQUFVMURiZjVjM2ZzV1V4VjZ3NlE2S1lpQm1abXVCMDFPVmYyNWk4YldiOU9keW8?oc=5",
+      "publishedAt": "2026-08-21T11:51:25Z"
+    },
+    {
       "id": "646cbd4e9029c5474846",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWJTUFRhOXNFNlRyWEdCb2JRTzYtWjIzNXp3dnBaOWowMjljdHdtQUt1WGRWRVdMVlFidWI4dU5ELUxiZ29PZ2diS1Bab2NvYVNzRWNmTzVBZHItNzYyZUlUdTl1ZVJVZjdkLXF3ZXRJdFBVdXlRaEFySUdTLU54Z25ER3ZvTUFZOFk3Tm1mc0NOVDZsamQtSG8teDVRSFpfeVl1Uy03VQ?oc=5",
       "publishedAt": "2026-08-19T16:06:00Z"
-    },
-    {
-      "id": "133db1da1560cf091cba",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "💥👉⚽️ #RMCity #RealMadrid #training",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=IN64q4qrqCo",
-      "publishedAt": "2026-08-19T15:32:46Z"
     }
   ],
-  "updatedAt": "2026-08-21T11:31:11Z",
+  "updatedAt": "2026-08-21T11:53:43Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
