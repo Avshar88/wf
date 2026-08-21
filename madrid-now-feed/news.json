@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "5ca3f52bcd6a4d7f6881",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Dumfries 🎦",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=RrWMklX00s8",
+      "publishedAt": "2026-08-21T15:28:10Z"
+    },
+    {
       "id": "dab3ce62dde13d2d7ce1",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=swV5Mh3KXEY",
       "publishedAt": "2026-08-19T19:00:33Z"
-    },
-    {
-      "id": "d0dd8143b2462f4187e5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔝 #RealMadrid #Mourinho #Interview",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=STV-jaKnswg",
-      "publishedAt": "2026-08-19T17:15:36Z"
     }
   ],
-  "updatedAt": "2026-08-21T13:57:44Z",
+  "updatedAt": "2026-08-21T15:41:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
