@@ -22,6 +22,16 @@
       "publishedAt": "2026-08-22T22:42:02Z"
     },
     {
+      "id": "ec8ac3031e1204047764",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mourinho decries alleged bullying of Vinicius after Real's win at Espanyol",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUERQQjhvN2ZaU0pfazNtLWhYbEhNb2c0Yno1bGZOSGFvZVF6OXN5REtRWVIxZGg2eWMyMmRYQWVHTTZrOW0tTmtaTEU0SWZHS0RpeFVPLXVpUVBlcjM0Ynh2a2RKZkhEdEtjWDlZRnpCandodWlmOGJXaUNwN2N6b1liaG9zZG9aZ3pOT1RRYjJrc1hlNG1VQWd0djZtUlp0S3RXXzFWakY5aEZ5VGhfd0VIOHFQdXBn?oc=5",
+      "publishedAt": "2026-08-22T22:38:10Z"
+    },
+    {
       "id": "728a362afa1bf782cac3",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa1M0eHAtYkJocUhrYXJ1dk8yYkJnM2dsbm95WnhnV01EMXgtZTBuNUJRVURCVFZfdUVxUkVBTlBGWnZaWGtidnJkWVVSU1h1NVg1WUQyUlBpMHc4TVVUUE8xNENpQV9kNDdVVGlBX3RYMFk2YldBcXhLcE9acWVzVkRRcThFM1A1dE8xWVF3cW9zeUJmMVI4dU5kNGV0Q252U1Q3em1wNkY0UQ?oc=5",
       "publishedAt": "2026-08-21T14:04:00Z"
-    },
-    {
-      "id": "18895a734a154ccadf7b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Dumfries: \"I am very proud and grateful to play for Madrid\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb0d5NEtOc3NlYjA3em8xX1l4d1NpdTduRE5FSS11R0UySERVTjhoU01GMVo4MzFnU1BGSlR4ZFlXR19wSUpnY2tDbldMYTNrc1otYUtKR0dZR1J3MTBDdmUtWXpUMUZwcC1BT0J3eWl4MFpMMGpvSlZSNk8zMF9IRTJjcmd6aDlNTkVObkk1c0xKSFk?oc=5",
-      "publishedAt": "2026-08-21T13:44:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T23:36:57Z",
+  "updatedAt": "2026-08-22T23:52:29Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
