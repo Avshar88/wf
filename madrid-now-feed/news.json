@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "7342f67927e4728df186",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Espanyol-Real Madrid: La Liga kicks off",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVBpTVgyTkZHdXBvVlJIek5oLTdwQXdidjhFTDl4YmgzaF9hNXlaajlVb0tXMGJJMXZGbXBFMExaOWRCSGhXVUtCWUxLdlA4S1FkdDVRNngxWTE2MDM4VGFHZ2FJcmpUdmhyb2M5bzdRT2dJUG15bHktSWRSOGVWckdIVXA5dTBmRmV4MUltQzlpM0M0ZmRsMmh5TlpRN0ZpS0x3M05EMVNzOUlieHEyTFd4SWFCdGNwS0lPRmIxUTBWakNvNjVXcA?oc=5",
+      "publishedAt": "2026-08-22T05:13:24Z"
+    },
+    {
       "id": "0944fb071a7d9dba7eff",
       "category": "Official",
       "time": "NEW",
@@ -10,16 +20,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYnNESUxmZ0RLMmlCWUw0azNPSm1UelVCaml6LVF6Q3JhUWw2ekQyTjNqZGlUZ1BvX0gtRnl5MlhkNlZxd19TY2ZjVlhJSXRfVHY0ZW44U3YzdE55YlZnMkRRM29xd1hkRXMwOTExdjdwbGlaU285LWVobDd2aGpDNm56LXVuTHlhbjJKeXV4aTRxbXlMMUNFYTdDVFcxVUJuUVpPSTRuSU9kRzlmNlNQMmkzYUhTZw?oc=5",
       "publishedAt": "2026-08-22T04:34:48Z"
-    },
-    {
-      "id": "adfae1c66cf23fa8cd51",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Espanyol-Real Madrid: La Liga kicks off",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVBpTVgyTkZHdXBvVlJIek5oLTdwQXdidjhFTDl4YmgzaF9hNXlaajlVb0tXMGJJMXZGbXBFMExaOWRCSGhXVUtCWUxLdlA4S1FkdDVRNngxWTE2MDM4VGFHZ2FJcmpUdmhyb2M5bzdRT2dJUG15bHktSWRSOGVWckdIVXA5dTBmRmV4MUltQzlpM0M0ZmRsMmh5TlpRN0ZpS0x3M05EMVNzOUlieHEyTFd4SWFCdGNwS0lPRmIxUTBWakNvNjVXcA?oc=5",
-      "publishedAt": "2026-08-22T04:34:46Z"
     },
     {
       "id": "12782d8f205f4f9e6512",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-20T09:05:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T04:45:05Z",
+  "updatedAt": "2026-08-22T05:36:24Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
