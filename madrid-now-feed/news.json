@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "c83331dfe9d15d7f92aa",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Brahim and Carlos Espí, stars of the autograph session in Barcelona",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNGNsZlg1R3lEa0t4TVBfQm1xLVJtRkl3LXdONGJDa2hST2V1QW4wSlJuTTVoekl2NWtQbS1nMFpOTGdwNXBpOGkyVVZJNjhUSVNlSlFWdWRLbHhFYlFILXJSMGg1NjFFdXc2eW9mMjFyZnpXd2NaeWpMbURQNVNqUVMtWFZMVkNKUGpxai1mREpTSmhRcjdBZFZQamZKdVhnMmthemVBUmxaU3ZFN3NUMg?oc=5",
+      "publishedAt": "2026-08-22T11:00:00Z"
+    },
+    {
       "id": "545d798a1b7cafa637fe",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpXNGhMbGJmdVB3MVlhOEJkcmNJYWNSbk55NDl4d2RYOXJSS1psRGZqRjBKNzJsVzdyYnVHeGRjRmFpVlNyNmNTUXhzT1ZKYWdseXMzcTVRb1RfcVVHTElYODNVaXB1LW41MTZCU2J5bHFLSG5mSXNhYlRTWUIwbkdYai15UktxWUNhRm1yOE01dm9EMnZhVmYxaUxIYWx4amNnb29SSWd4ajdWTGQzV0NHNFlIME1GTVFSTmJMaVMwV0VyelVEcUtR?oc=5",
       "publishedAt": "2026-08-20T10:36:00Z"
-    },
-    {
-      "id": "c11c60568dca9e199c47",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official welcome ceremony for Konaté",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNDZvd0pMVTdwcXhLbE9HSVFlXzJEamg4alR0ZTVqQkNCT3VUQjRNSUtEQ2EwQ2RYOXhDcnFCWmduZzB3VWlWQzh4VGtkN2Q0TklJUmhTbk1yb19HQ3JXR2tzUk9WZVc1SXNGRHc5TmtENThjYnlfdEc4WU5udHBXNGR2VzF0WkRmOVl1NFFxdWR0QVY0emtRWHJvRl9tcEVXOFgyWQ?oc=5",
-      "publishedAt": "2026-08-20T10:30:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T10:58:57Z",
+  "updatedAt": "2026-08-22T11:54:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
