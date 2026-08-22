@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "2a050e2533bfc6ad5ea1",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🪄 Marcelo magic 🆚 Espanyol!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ThjUWrM2Iqo",
+      "publishedAt": "2026-08-22T13:17:28Z"
+    },
+    {
       "id": "ca0ba840a47ec3e37ec8",
       "category": "Transfers",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTnJaM3BzMkNuNGlBdHBGNTZmMW45bWwxRHpsLXQzaEVpakJ0QTZKWlBURXdEcnQtSWRIM3pzblZxMC1QTFF5QWc3dW5OVmpiQXJUbjBja0pjZGZtME5UT1g5VkdWWjRkM2theVByeExUXzh0bDNmcV8wYmQ1UzVvU2pXM1RVZXNzVkplUE40TUtBTWdXdVlLSmNnUUpyRVk?oc=5",
       "publishedAt": "2026-08-20T10:37:00Z"
-    },
-    {
-      "id": "6b6796c1ac02ea94b902",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "New preseason session at Ciudad Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpXNGhMbGJmdVB3MVlhOEJkcmNJYWNSbk55NDl4d2RYOXJSS1psRGZqRjBKNzJsVzdyYnVHeGRjRmFpVlNyNmNTUXhzT1ZKYWdseXMzcTVRb1RfcVVHTElYODNVaXB1LW41MTZCU2J5bHFLSG5mSXNhYlRTWUIwbkdYai15UktxWUNhRm1yOE01dm9EMnZhVmYxaUxIYWx4amNnb29SSWd4ajdWTGQzV0NHNFlIME1GTVFSTmJMaVMwV0VyelVEcUtR?oc=5",
-      "publishedAt": "2026-08-20T10:36:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T12:58:32Z",
+  "updatedAt": "2026-08-22T13:51:39Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
