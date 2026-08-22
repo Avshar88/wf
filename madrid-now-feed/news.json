@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "fdf7c2f5f019ceff17b6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "29 years since the fifth Spanish Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLUNHcUpMNlVtYkY0YXFoZkx6cXozVnFFQzlqQnFMOXdPd0FiYmhrSFBtTEEyUGVELWgxTDZ5Q0Y1bmdiOXI4a0RlU0Y1QlJwZzBLdkNla2t5NUxINXNLMXJWTUR1SXB2ZThOVlY0RmE5SWJ3VjR4OGJrLWc5V0xfZFlVUmJlb2sydUY5UUtWSjF3d1JNSk5TNzM4ZjZaV01XbGNncTJiLUNERncyaERReVZRTHdvUjA3?oc=5",
+      "publishedAt": "2026-08-22T22:53:20Z"
+    },
+    {
       "id": "728a362afa1bf782cac3",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT0pYa2lpd3JZd1dMVXNyeDJETkY3eG8zVGR2YmJ0ZFNCdjVTeldfbTkxT3lIQmpxUzlUWFpLT1MzRVNiQWF6dzVmQmExRlBkOXpCYlcwNDU3emNXWkk3R1p6UXBtV3BQRmFIUzJ1b3FVZXlqSnItd2N2TW5Xcmdaa2U5amhVQk5DT05Ya01tU2hxVzNCVUl3Sll1ZkpQTXUxTG9QOWJ1ei1zVW1samo4Nzc5VzFicU1TYW1n?oc=5",
       "publishedAt": "2026-08-21T09:54:00Z"
-    },
-    {
-      "id": "29092d80ddf72526ff1b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"I have great confidence in the ambition of the players\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdTFCZWxlX2tLeTREMHNXNmlDZnNDV0ZLTFN3RHEwaUNuU0ZFLUJrMjlVNFJRdklKVFQ1aWhQcWJIbmI4YUxEdGdVcDNJNlg0Q1JVRENuTzhwNXRrVmRtbm0xM0R3NFdkdzc1NUE0c010SFJCcWcwUnJLRUdGVmNMVUJucDdrLU0zdE5JQlYwUTNjenB6ZVFNUGNR?oc=5",
-      "publishedAt": "2026-08-21T06:50:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T22:43:20Z",
+  "updatedAt": "2026-08-22T22:58:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
