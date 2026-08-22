@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "728a362afa1bf782cac3",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔥 ESPÍ'S 90TH-MINUTE HEROICS ON HIS DEBUT! | Espanyol 1-2 Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=D-JH84rLupQ",
+      "publishedAt": "2026-08-22T22:24:01Z"
+    },
+    {
       "id": "e709016d1ea7c4661bf0",
       "category": "Matchday",
       "time": "NEW",
@@ -30,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlpnM1lhaGZDcTNTN0JhWVN3V0ZkeEJuNkZQR0VxMnRlaDhDS2I3ZzJ0YkphbEtGeHUyb09vNm9SYU9xQUlBQU5pN2VQc1ZXY0p4QzFkeEdNaHJlcUw0QWFpUDJjV0VsdHVRa0lKODY4emdzY0tFeVVvZ3pxTkk2SHl6eExSdjFSSHBtNkJDdVdqMGZtNWtiNmdOaWxaNjdIUE1VTkNfY3JiV1hMMWhGT3BPaw?oc=5",
       "publishedAt": "2026-08-22T21:30:36Z"
+    },
+    {
+      "id": "b4c23e24b0a0b0543a38",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "Official debut of the six Real Madrid signings",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTnlEcVJ2NnUxTENSNGJhOEZVTzNnTTljRE5NNnpzYXh3SzZrSnZTaTBNbWp4SnNrVGVPSkNrMWFfQ3NCSkpVc2gwcU5VaU1Rb2NFY3QxNEVMMnlqTFZBcm9XVTFqN0UtNERJdkNFVTVfRGFybWd3OWRqWUFwU2lNSlNOSDhLMEZPMWhKVkJRZzNWX2Z3eUlrdVh1eXJLTTJLcFdVMS1WckhfczM0YkJGTWdTZl9mM21ZRWJFaU5kYUZkaE80RTc1M3dOR1JOOXVYWU41VXZWbURLWHRiSnF5a29Mdw?oc=5",
+      "publishedAt": "2026-08-22T21:19:00Z"
     },
     {
       "id": "28778612df67b99bbb21",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdTFCZWxlX2tLeTREMHNXNmlDZnNDV0ZLTFN3RHEwaUNuU0ZFLUJrMjlVNFJRdklKVFQ1aWhQcWJIbmI4YUxEdGdVcDNJNlg0Q1JVRENuTzhwNXRrVmRtbm0xM0R3NFdkdzc1NUE0c010SFJCcWcwUnJLRUdGVmNMVUJucDdrLU0zdE5JQlYwUTNjenB6ZVFNUGNR?oc=5",
       "publishedAt": "2026-08-21T06:50:00Z"
-    },
-    {
-      "id": "dbeb8a5ef720538392ba",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid 🤍 Ibrahima Konaté #RealMadrid #IbrahimaKonaté #Welcome",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=qxtmeVWpqO8",
-      "publishedAt": "2026-08-20T18:30:58Z"
-    },
-    {
-      "id": "9def682d86876726a109",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid vs Bayern München: Previous Champions League meetings | Video | UEFA Champions League 2026/27",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN1lpNDVTb2lmR0Z2bDQ1b0xLR2ZERHhtVS1uRUhxckxJR1pma1BPbXc2dkJVMXRhLTV1dXo1LU15NUlzUndXamR4VzRZVFF4M1MxaU9kZnktSm1CVHhkeVpBMVNPT05uZ2hqNVRLZzhPQTNmcTZyR0N1X2FsWXRmN0gxSmVuWXJyTVZSY1I1Nlp5TlJZM05QQUV6djhzaDVfRERpamItMEczeW1mU1NwQXpoV0VoYVRfNWcwMTZlYU84aExHSUVfazFBbkJOWVhEcGpZTUxicTg0V1p6?oc=5",
-      "publishedAt": "2026-08-20T18:10:07Z"
     }
   ],
-  "updatedAt": "2026-08-22T22:24:28Z",
+  "updatedAt": "2026-08-22T22:43:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
