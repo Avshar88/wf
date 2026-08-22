@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "28778612df67b99bbb21",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🏟️ The stage is set! #RealMadrid #EspanyolRealMadrid #LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=8cKaYh6k3rQ",
+      "publishedAt": "2026-08-22T18:29:07Z"
+    },
+    {
+      "id": "ac5ae5e8eb309e0152b7",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid starting lineup against Espanyol",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNGZ4NVR5NU9mTGxUTDJvQlhUTkhkRkJWazFaTDduS29IUm1UMDVBU0JLNWhycVhyUkN4SkVvT3dXS3liaGVvS0gzOW43SDNtbHpuazBubUZEa1VxanhtNFluOTBKa2R0ajJHbjh5bG50M2lNWnJaamlrbk9YcXhFSmY5MEtmeTUtcmZpM3BxeWpIa2ZaM2k5UTk4VXJrV2tIaFZsMWVYeEdyVGI3N211dWJTYkhzNXBndGFOdnBVSUgwTEpF?oc=5",
+      "publishedAt": "2026-08-22T18:00:13Z"
+    },
+    {
+      "id": "b9164682083016dcf034",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Espanyol vs Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=dBNOVnyL_Ps",
+      "publishedAt": "2026-08-22T17:57:04Z"
+    },
+    {
       "id": "b9164682083016dcf034",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=z8EjLPb0Z4g",
       "publishedAt": "2026-08-20T17:13:07Z"
-    },
-    {
-      "id": "bb6cf1f21f2501330bb8",
-      "category": "Official",
-      "time": "NEW",
-      "title": "#ArdaGuler ⚽️✖️2️⃣ #RealMadrid #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=yqlrt6AO1q4",
-      "publishedAt": "2026-08-20T15:15:31Z"
-    },
-    {
-      "id": "310c8d4d94258a434058",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🇪🇸 #Konaté #RealMadrid #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=MPzOY-jWbH0",
-      "publishedAt": "2026-08-20T13:27:02Z"
-    },
-    {
-      "id": "422b640e50fc866798dc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤳 Konaté #RealMadrid #Konaté # RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=4SCfkAxD7Js",
-      "publishedAt": "2026-08-20T12:52:27Z"
     }
   ],
-  "updatedAt": "2026-08-22T18:00:34Z",
+  "updatedAt": "2026-08-22T18:33:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
