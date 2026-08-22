@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "b9164682083016dcf034",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "CORAZÓN CLASSIC MATCH 2026 | Real Madrid Leyendas vs Inter Legends",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=dBNOVnyL_Ps",
+      "publishedAt": "2026-08-22T17:57:04Z"
+    },
+    {
       "id": "731d557a548ce5428e5a",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=4SCfkAxD7Js",
       "publishedAt": "2026-08-20T12:52:27Z"
-    },
-    {
-      "id": "0f77e96ca8325e95cb71",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Konaté: \"I want to be part of this club's history and win a Champions League\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVZwbWhlNHNUNVNsb0dnSWl3QThtb19rYkZveWc3WXJESmtSeVAxMDdwZ1lIOTJXbXBVYnlOak9LU1ZfcnVvaVVvN1NVT0N4a1d6UV9HNG5tM2ZhYXJYNTlzazRtVVJzUTJnS21jb09XWllQdlN4b3V3NXU1UENaS0ItYnpBV3ZQLTZYTVRvWks0dU16cVJINXhxbzlSZDVabVc0?oc=5",
-      "publishedAt": "2026-08-20T10:42:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T17:50:34Z",
+  "updatedAt": "2026-08-22T18:00:34Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
