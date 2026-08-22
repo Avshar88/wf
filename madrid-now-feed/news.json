@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "ca0ba840a47ec3e37ec8",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "🥰 Signing session in Barcelona!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ZRvvuW9sPFo",
+      "publishedAt": "2026-08-22T12:41:15Z"
+    },
+    {
       "id": "c83331dfe9d15d7f92aa",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpXNGhMbGJmdVB3MVlhOEJkcmNJYWNSbk55NDl4d2RYOXJSS1psRGZqRjBKNzJsVzdyYnVHeGRjRmFpVlNyNmNTUXhzT1ZKYWdseXMzcTVRb1RfcVVHTElYODNVaXB1LW41MTZCU2J5bHFLSG5mSXNhYlRTWUIwbkdYai15UktxWUNhRm1yOE01dm9EMnZhVmYxaUxIYWx4amNnb29SSWd4ajdWTGQzV0NHNFlIME1GTVFSTmJMaVMwV0VyelVEcUtR?oc=5",
       "publishedAt": "2026-08-20T10:36:00Z"
-    },
-    {
-      "id": "d77a4446ca786ba14a7c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "New preseason session at Ciudad Real Madrid - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpXNGhMbGJmdVB3MVlhOEJkcmNJYWNSbk55NDl4d2RYOXJSS1psRGZqRjBKNzJsVzdyYnVHeGRjRmFpVlNyNmNTUXhzT1ZKYWdseXMzcTVRb1RfcVVHTElYODNVaXB1LW41MTZCU2J5bHFLSG5mSXNhYlRTWUIwbkdYai15UktxWUNhRm1yOE01dm9EMnZhVmYxaUxIYWx4amNnb29SSWd4ajdWTGQzV0NHNFlIME1GTVFSTmJMaVMwV0VyelVEcUtR?oc=5",
-      "publishedAt": "2026-08-20T10:36:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T11:54:38Z",
+  "updatedAt": "2026-08-22T12:58:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
