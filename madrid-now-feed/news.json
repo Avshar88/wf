@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "a4fa73486369003f3c75",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Carlos Espí: \"These have been incredible days, but I can't wait to step onto the Bernabéu\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaGZoel9WYVQxV2RYRVhjYUE1QVdKNG5FVjdvanI2bl9EWUx5RExkdlNNNjczWkVyLV9scGZEZW9xVHZWM2JxclV0Tmc3Y1IxdGQzVGVZbkIyZ0MtNG9vWHhGeld0QlVackZjcHNEVlg2Mkc3QW9WTnlEdWo5ZHdTcEMtSFgxYWFwZWhwcXR3X2hOOXhjV2xYYl85cmdwTDNBbUdiVDVn?oc=5",
+      "publishedAt": "2026-08-23T16:48:26Z"
+    },
+    {
       "id": "d0b5f455b05a0a895183",
       "category": "Matchday",
       "time": "NEW",
@@ -50,16 +60,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=eq-lQHNciro",
       "publishedAt": "2026-08-23T12:45:27Z"
-    },
-    {
-      "id": "1694af8625d6191de62b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Carlos Espí: \"These have been incredible days, but I can't wait to step onto the Bernabéu\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLVp4Nk9VekF2YTJTRVdnMVQ3d1NQWXpIV0hIcFNBVU82SXE5d19EeHljbTUxRlpORE1XTHVfdG9iOGVVY0daOXFad1BJTmM5VEdlY3FUczdCdFRkTHE3cG5vdkVBdEVQZGE3eDRyUDFkbnQ3NzhrVTJ4TmZyVXRHSHNWU0xkSEtfWURCUDlkcVJGeHNQby1JTnpxNnZQWDVGVV85WG9vbGFqY2d2dlRF?oc=5",
-      "publishedAt": "2026-08-23T12:00:19Z"
     },
     {
       "id": "b1253d3c19ba08cbb224",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-22T11:00:00Z"
     }
   ],
-  "updatedAt": "2026-08-23T16:39:56Z",
+  "updatedAt": "2026-08-23T16:57:51Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
