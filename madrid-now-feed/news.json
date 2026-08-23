@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "d0b5f455b05a0a895183",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🤍 A last-minute goal and our first win of the season! #EspanyolRealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=m9n03W2vCi8",
+      "publishedAt": "2026-08-23T16:17:20Z"
+    },
+    {
       "id": "634ed6189d91f7342682",
       "category": "Official",
       "time": "NEW",
@@ -40,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=eq-lQHNciro",
       "publishedAt": "2026-08-23T12:45:27Z"
+    },
+    {
+      "id": "1694af8625d6191de62b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Carlos Espí: \"These have been incredible days, but I can't wait to step onto the Bernabéu\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLVp4Nk9VekF2YTJTRVdnMVQ3d1NQWXpIV0hIcFNBVU82SXE5d19EeHljbTUxRlpORE1XTHVfdG9iOGVVY0daOXFad1BJTmM5VEdlY3FUczdCdFRkTHE3cG5vdkVBdEVQZGE3eDRyUDFkbnQ3NzhrVTJ4TmZyVXRHSHNWU0xkSEtfWURCUDlkcVJGeHNQby1JTnpxNnZQWDVGVV85WG9vbGFqY2d2dlRF?oc=5",
+      "publishedAt": "2026-08-23T12:00:19Z"
     },
     {
       "id": "b1253d3c19ba08cbb224",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNGNsZlg1R3lEa0t4TVBfQm1xLVJtRkl3LXdONGJDa2hST2V1QW4wSlJuTTVoekl2NWtQbS1nMFpOTGdwNXBpOGkyVVZJNjhUSVNlSlFWdWRLbHhFYlFILXJSMGg1NjFFdXc2eW9mMjFyZnpXd2NaeWpMbURQNVNqUVMtWFZMVkNKUGpxai1mREpTSmhRcjdBZFZQamZKdVhnMmthemVBUmxaU3ZFN3NUMg?oc=5",
       "publishedAt": "2026-08-22T11:00:00Z"
-    },
-    {
-      "id": "545d798a1b7cafa637fe",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Dumfries: \"Being here is a great responsibility and the goal is to win more titles\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMTZLM1F3RWc1dlB6SkF5WmpYek9DaGE3SXY1WjVQOWVDajBXeWM0M3lyb0VRR2xMTHJQQ0hBZ1pTdkQ4TGpXaGtyemJaeHhwVzBBZ053aVJ2dWtyUE1DbTlQYkcxcDQyQWx2c01FYVBaOFBsSTFELTFlTkNKRTFGYUZRdHc4em1iWjdLcURCSVZCbjUwRG55TzdKVzJ2TE5QNnVqVm8wajRWNmQyWDIzNmx3R0UtRmkxOGxXeWlXWWpWZ1F5NEpBNVQ1Yk9ZVWRvWUx0YkRER292NHRMMllnMzB1VnpFaTJURXdMX3k5UGlleGVUR0E?oc=5",
-      "publishedAt": "2026-08-22T10:43:00Z"
-    },
-    {
-      "id": "65aa9e782cf97b9347c6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid has arrived in Barcelona",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT2hTWTJUNUloMDZmMnBHV1pxOWZLU0tPaU83TzlmRnRGeFotR2xibC0wdVQ0WWJmWlp0ak9VTUt3YWY0Qk5ZSWxrcVlIcXhVMUlGQldjb3JQeDF4bGUwMVhub1BpRzNxaklScWx3djVPUDlmVGpZSEJCLVBYNG9xWGpoU3paY3M5a3BYLTJ0VDhOYVh2Z2ladFc5cmxlamJNcHNIUUtyaWg1ZlUweDZ6NHZaRXdOVVNFd2tIUkdzSHpRakRqN2c?oc=5",
-      "publishedAt": "2026-08-22T10:00:00Z"
     }
   ],
-  "updatedAt": "2026-08-23T16:10:37Z",
+  "updatedAt": "2026-08-23T16:39:56Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
