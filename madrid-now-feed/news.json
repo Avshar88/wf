@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "75c5ba1551e9eb414a26",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤳 CARLOS ESPÍ'S presentation selfie after late Espanyol winner! #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=eq-lQHNciro",
+      "publishedAt": "2026-08-23T12:45:27Z"
+    },
+    {
       "id": "b1253d3c19ba08cbb224",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=PXLfqU0Yiho",
       "publishedAt": "2026-08-21T19:56:28Z"
-    },
-    {
-      "id": "57a93e73a3c4ee26fc17",
-      "category": "Official",
-      "time": "NEW",
-      "title": "IBRAHIMA KONATÉ: 'Since I was a child, I dreamed of this moment, and that dream has come true.'",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=56AAc2VNxaA",
-      "publishedAt": "2026-08-21T19:52:17Z"
     }
   ],
-  "updatedAt": "2026-08-23T12:12:40Z",
+  "updatedAt": "2026-08-23T13:00:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
