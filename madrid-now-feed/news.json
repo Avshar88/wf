@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "540e14ad69f7517de116",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤩 An unforgettable day for Carlos Espí!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=6gwRiLJNYyU",
+      "publishedAt": "2026-08-23T18:30:23Z"
+    },
+    {
       "id": "a4fa73486369003f3c75",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ThjUWrM2Iqo",
       "publishedAt": "2026-08-22T13:17:28Z"
-    },
-    {
-      "id": "ca0ba840a47ec3e37ec8",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "🥰 Signing session in Barcelona!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=ZRvvuW9sPFo",
-      "publishedAt": "2026-08-22T12:41:15Z"
     }
   ],
-  "updatedAt": "2026-08-23T17:16:17Z",
+  "updatedAt": "2026-08-23T18:59:39Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
