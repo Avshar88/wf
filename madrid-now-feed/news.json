@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "634ed6189d91f7342682",
+      "category": "Official",
+      "time": "NEW",
+      "title": "BELLINGHAM and ESPÍ SEAL THE COMEBACK in the FIRST LEAGUE GAME! | Espanyol 1-2 Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=mwmf26jZG8o",
+      "publishedAt": "2026-08-23T15:58:56Z"
+    },
+    {
       "id": "f21cf8370521e8d82b23",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT2hTWTJUNUloMDZmMnBHV1pxOWZLU0tPaU83TzlmRnRGeFotR2xibC0wdVQ0WWJmWlp0ak9VTUt3YWY0Qk5ZSWxrcVlIcXhVMUlGQldjb3JQeDF4bGUwMVhub1BpRzNxaklScWx3djVPUDlmVGpZSEJCLVBYNG9xWGpoU3paY3M5a3BYLTJ0VDhOYVh2Z2ladFc5cmxlamJNcHNIUUtyaWg1ZlUweDZ6NHZaRXdOVVNFd2tIUkdzSHpRakRqN2c?oc=5",
       "publishedAt": "2026-08-22T10:00:00Z"
-    },
-    {
-      "id": "c962847480786aedfe9b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "25 years ago, the sixth Spanish Super Cup was won",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYnNESUxmZ0RLMmlCWUw0azNPSm1UelVCaml6LVF6Q3JhUWw2ekQyTjNqZGlUZ1BvX0gtRnl5MlhkNlZxd19TY2ZjVlhJSXRfVHY0ZW44U3YzdE55YlZnMkRRM29xd1hkRXMwOTExdjdwbGlaU285LWVobDd2aGpDNm56LXVuTHlhbjJKeXV4aTRxbXlMMUNFYTdDVFcxVUJuUVpPSTRuSU9kRzlmNlNQMmkzYUhTZw?oc=5",
-      "publishedAt": "2026-08-22T09:50:00Z"
     }
   ],
-  "updatedAt": "2026-08-23T15:39:38Z",
+  "updatedAt": "2026-08-23T16:10:37Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
