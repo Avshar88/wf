@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "027a7c658d2eb5e7d83c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😎 #CarlosEspí ✖️2️⃣ #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=K1lVaozdMi0",
+      "publishedAt": "2026-08-23T13:33:19Z"
+    },
+    {
       "id": "75c5ba1551e9eb414a26",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVBpTVgyTkZHdXBvVlJIek5oLTdwQXdidjhFTDl4YmgzaF9hNXlaajlVb0tXMGJJMXZGbXBFMExaOWRCSGhXVUtCWUxLdlA4S1FkdDVRNngxWTE2MDM4VGFHZ2FJcmpUdmhyb2M5bzdRT2dJUG15bHktSWRSOGVWckdIVXA5dTBmRmV4MUltQzlpM0M0ZmRsMmh5TlpRN0ZpS0x3M05EMVNzOUlieHEyTFd4SWFCdGNwS0lPRmIxUTBWakNvNjVXcA?oc=5",
       "publishedAt": "2026-08-22T07:00:00Z"
-    },
-    {
-      "id": "12782d8f205f4f9e6512",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤍A DREAM come TRUE for Konaté!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=PXLfqU0Yiho",
-      "publishedAt": "2026-08-21T19:56:28Z"
     }
   ],
-  "updatedAt": "2026-08-23T13:00:48Z",
+  "updatedAt": "2026-08-23T13:56:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
