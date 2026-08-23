@@ -35,6 +35,16 @@
       "id": "728a362afa1bf782cac3",
       "category": "Matchday",
       "time": "NEW",
+      "title": "HIGHLIGHTS | Espanyol 1-2 Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=D-JH84rLupQ",
+      "publishedAt": "2026-08-22T22:24:01Z"
+    },
+    {
+      "id": "728a362afa1bf782cac3",
+      "category": "Matchday",
+      "time": "NEW",
       "title": "🔥 ESPÍ'S 90TH-MINUTE HEROICS ON HIS DEBUT! | Espanyol 1-2 Real Madrid | LaLiga",
       "summary": "New video update from Real Madrid's official YouTube channel.",
       "source": "Real Madrid",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=RrWMklX00s8",
       "publishedAt": "2026-08-21T15:28:10Z"
-    },
-    {
-      "id": "81a6ac7c31596f6d603e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Linda Caicedo: \"We have a young team with a lot of quality\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa1M0eHAtYkJocUhrYXJ1dk8yYkJnM2dsbm95WnhnV01EMXgtZTBuNUJRVURCVFZfdUVxUkVBTlBGWnZaWGtidnJkWVVSU1h1NVg1WUQyUlBpMHc4TVVUUE8xNENpQV9kNDdVVGlBX3RYMFk2YldBcXhLcE9acWVzVkRRcThFM1A1dE8xWVF3cW9zeUJmMVI4dU5kNGV0Q252U1Q3em1wNkY0UQ?oc=5",
-      "publishedAt": "2026-08-21T14:04:00Z"
     }
   ],
-  "updatedAt": "2026-08-22T23:52:29Z",
+  "updatedAt": "2026-08-23T00:01:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
