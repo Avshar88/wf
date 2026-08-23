@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "b1253d3c19ba08cbb224",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official welcome ceremony for Carlos Espí",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNEZ1QU9yaDBBUE0xZ3lEclQ2VGRabUdoaXFELVppZUtHcC04Q2Jsb3gxWkk5YkRqSV9tc3RHTVkxNEZlLTVrcXdVSkJ4dEdXSEo4Q1liNzVHbUc3cnMybEZ0enVfRF82MmNZblV4LUxsOXFPN24tSlJCSzJPOTJvckprNkRfbjlpUGpFVGZWakFPWWExUHNYU3VoWjdnbGt5SE1paWlIRHpyYm9RY0ZIVkNPa3h0bG9laVFVaGtLcw?oc=5",
+      "publishedAt": "2026-08-23T11:00:40Z"
+    },
+    {
       "id": "1334011317e035652d34",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=56AAc2VNxaA",
       "publishedAt": "2026-08-21T19:52:17Z"
-    },
-    {
-      "id": "615306964860f5dec2ae",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid 🤍 Dumfries #RealMadrid #Dumfries #Welcome",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=4nLrnE-gV68",
-      "publishedAt": "2026-08-21T18:30:27Z"
     }
   ],
-  "updatedAt": "2026-08-23T10:42:03Z",
+  "updatedAt": "2026-08-23T12:12:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
