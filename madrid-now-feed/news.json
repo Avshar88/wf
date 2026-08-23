@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "f21cf8370521e8d82b23",
+      "category": "Official",
+      "time": "NEW",
+      "title": "📱Yesterday, but from a different perspective.",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=kXhn68iM7bE",
+      "publishedAt": "2026-08-23T15:19:15Z"
+    },
+    {
       "id": "027a7c658d2eb5e7d83c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYnNESUxmZ0RLMmlCWUw0azNPSm1UelVCaml6LVF6Q3JhUWw2ekQyTjNqZGlUZ1BvX0gtRnl5MlhkNlZxd19TY2ZjVlhJSXRfVHY0ZW44U3YzdE55YlZnMkRRM29xd1hkRXMwOTExdjdwbGlaU285LWVobDd2aGpDNm56LXVuTHlhbjJKeXV4aTRxbXlMMUNFYTdDVFcxVUJuUVpPSTRuSU9kRzlmNlNQMmkzYUhTZw?oc=5",
       "publishedAt": "2026-08-22T09:50:00Z"
-    },
-    {
-      "id": "7e66ff0f26ec04307a6c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Espanyol-Real Madrid: La Liga kicks off",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVBpTVgyTkZHdXBvVlJIek5oLTdwQXdidjhFTDl4YmgzaF9hNXlaajlVb0tXMGJJMXZGbXBFMExaOWRCSGhXVUtCWUxLdlA4S1FkdDVRNngxWTE2MDM4VGFHZ2FJcmpUdmhyb2M5bzdRT2dJUG15bHktSWRSOGVWckdIVXA5dTBmRmV4MUltQzlpM0M0ZmRsMmh5TlpRN0ZpS0x3M05EMVNzOUlieHEyTFd4SWFCdGNwS0lPRmIxUTBWakNvNjVXcA?oc=5",
-      "publishedAt": "2026-08-22T07:00:00Z"
     }
   ],
-  "updatedAt": "2026-08-23T13:56:48Z",
+  "updatedAt": "2026-08-23T15:39:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
