@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "0b0f250d0b2714887806",
+      "category": "Official",
+      "time": "NEW",
+      "title": "MADRIDISTAS, Cucurella has a message for you! 🤩",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=7tfI0yBgRZE",
+      "publishedAt": "2026-08-24T13:00:16Z"
+    },
+    {
       "id": "552e3bd3e770ffdd1fd8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYU9JVnJMZjBKLUdOTkEzNGdYdkI1eDY0bkNWWlVLeXVBb2tOVkw0clYyTE9aNlZjSXBEbXdnZkZkUlRaTXEwb0pXWTlxMkRRZEhRUEVUd1FrY0VTamtaT1ZvMDlkdHZVcE1vSS14RWVDc0ZBajZiT2tHTEotSlVKNTdXRF9wVC1HdmJJNUpnWFVoRnpOQlpGd2RRa1M0dw?oc=5",
       "publishedAt": "2026-08-22T18:41:54Z"
-    },
-    {
-      "id": "28778612df67b99bbb21",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🏟️ The stage is set! #RealMadrid #EspanyolRealMadrid #LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=8cKaYh6k3rQ",
-      "publishedAt": "2026-08-22T18:29:07Z"
     }
   ],
-  "updatedAt": "2026-08-24T12:40:25Z",
+  "updatedAt": "2026-08-24T13:35:02Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
