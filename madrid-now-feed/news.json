@@ -32,6 +32,16 @@
       "publishedAt": "2026-08-24T17:37:26Z"
     },
     {
+      "id": "0e93d2111146411785f5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYlpJU0JPdnp1S1hURlNTbTM3aUtjYUlSZHc4RlFXV3ZraUthVTZ0VW12UmducTdERkJ0T2ZDWGc4ZHI4S0FxdUpVdnNZZmU1Q0dHWV9FTml2Nm83b2daLW1WVVQ5VGYwd3FGTkR5T1dlbHA5RTdIUUZSOXIyak9MMw?oc=5",
+      "publishedAt": "2026-08-24T17:15:31Z"
+    },
+    {
       "id": "261a4b9768ce048c212c",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=dBNOVnyL_Ps",
       "publishedAt": "2026-08-22T21:39:10Z"
-    },
-    {
-      "id": "01819c9b0cf6c5cd64d1",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Victory against Espanyol in the opening league match",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlpnM1lhaGZDcTNTN0JhWVN3V0ZkeEJuNkZQR0VxMnRlaDhDS2I3ZzJ0YkphbEtGeHUyb09vNm9SYU9xQUlBQU5pN2VQc1ZXY0p4QzFkeEdNaHJlcUw0QWFpUDJjV0VsdHVRa0lKODY4emdzY0tFeVVvZ3pxTkk2SHl6eExSdjFSSHBtNkJDdVdqMGZtNWtiNmdOaWxaNjdIUE1VTkNfY3JiV1hMMWhGT3BPaw?oc=5",
-      "publishedAt": "2026-08-22T21:30:36Z"
     }
   ],
-  "updatedAt": "2026-08-24T19:03:14Z",
+  "updatedAt": "2026-08-24T19:58:24Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
