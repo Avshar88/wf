@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "ac78731aea4fbe879e8e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💬 C. Espí: \"I'm going to give my all for this club.\" #CarlosEspí #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=6BItmkFw5gA",
+      "publishedAt": "2026-08-24T20:00:03Z"
+    },
+    {
       "id": "aa5a7b7a2f3156e2c549",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcVM5S3JtZFJfeGpBMTF5MWFNczNlMnBYVXFoamlxUW13VGZiZEMwVk43MW1XQ3RaS2dYeGR4UEM1bjViXzdXaDQ0eS1TdnY2clB5NTI0NWQxM2NGWnBIZDhicmlSd1lKYlVlbDAwaHlWVU53N1MzNDhQZ1lZRUtZZGViLW9tWTZCVG9OYU9QbUUxRG81bGFHcXoxVE1reWpjZHNZWEc0YzU0Umlta2tRUGpHcHN4empfRXZfcDlmWFhXTWFXYXc?oc=5",
       "publishedAt": "2026-08-22T21:40:00Z"
-    },
-    {
-      "id": "b9164682083016dcf034",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⏱️ MINUTO A MINUTO | Espanyol vs Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=dBNOVnyL_Ps",
-      "publishedAt": "2026-08-22T21:39:10Z"
     }
   ],
-  "updatedAt": "2026-08-24T19:58:24Z",
+  "updatedAt": "2026-08-24T20:26:03Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
