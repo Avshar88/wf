@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "0d8d3edafeb991283ec5",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid prepares for the match against Real Sociedad",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV3ZnNG5TVWllVFBsak1SMGhTZTk4cnVUbjdkZHFnZVB1am1LdXdEM3drZzVPeVhpVm1VazlrNFFhSzlSclhucFRlMlVCcnc4ZkZ3emhVUndKV2ZpOTBfUXNvN0FrY0xuaVFQcFJheEZlTnl3Z0dvU0JfbEU0bS1fMC1ZN0U4VS1TdWJlQlVOdk0xOHFmVXBwR21tSHNMV3FULVhRYmx0QUo4OHFOTGlUUGtR?oc=5",
+      "publishedAt": "2026-08-24T08:00:59Z"
+    },
+    {
       "id": "6bc18a885ae00e6f0ffb",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=8cKaYh6k3rQ",
       "publishedAt": "2026-08-22T18:29:07Z"
-    },
-    {
-      "id": "ac5ae5e8eb309e0152b7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid starting lineup against Espanyol",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNGZ4NVR5NU9mTGxUTDJvQlhUTkhkRkJWazFaTDduS29IUm1UMDVBU0JLNWhycVhyUkN4SkVvT3dXS3liaGVvS0gzOW43SDNtbHpuazBubUZEa1VxanhtNFluOTBKa2R0ajJHbjh5bG50M2lNWnJaamlrbk9YcXhFSmY5MEtmeTUtcmZpM3BxeWpIa2ZaM2k5UTk4VXJrV2tIaFZsMWVYeEdyVGI3N211dWJTYkhzNXBndGFOdnBVSUgwTEpF?oc=5",
-      "publishedAt": "2026-08-22T18:00:13Z"
     }
   ],
-  "updatedAt": "2026-08-24T08:22:21Z",
+  "updatedAt": "2026-08-24T10:35:27Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
