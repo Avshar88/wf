@@ -272,6 +272,16 @@
       "publishedAt": "2026-08-22T21:19:00Z"
     },
     {
+      "id": "d6fd91c5293f48b3f864",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYU9JVnJMZjBKLUdOTkEzNGdYdkI1eDY0bkNWWlVLeXVBb2tOVkw0clYyTE9aNlZjSXBEbXdnZkZkUlRaTXEwb0pXWTlxMkRRZEhRUEVUd1FrY0VTamtaT1ZvMDlkdHZVcE1vSS14RWVDc0ZBajZiT2tHTEotSlVKNTdXRF9wVC1HdmJJNUpnWFVoRnpOQlpGd2RRa1M0dw?oc=5",
+      "publishedAt": "2026-08-22T18:41:54Z"
+    },
+    {
       "id": "28778612df67b99bbb21",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNGZ4NVR5NU9mTGxUTDJvQlhUTkhkRkJWazFaTDduS29IUm1UMDVBU0JLNWhycVhyUkN4SkVvT3dXS3liaGVvS0gzOW43SDNtbHpuazBubUZEa1VxanhtNFluOTBKa2R0ajJHbjh5bG50M2lNWnJaamlrbk9YcXhFSmY5MEtmeTUtcmZpM3BxeWpIa2ZaM2k5UTk4VXJrV2tIaFZsMWVYeEdyVGI3N211dWJTYkhzNXBndGFOdnBVSUgwTEpF?oc=5",
       "publishedAt": "2026-08-22T18:00:13Z"
-    },
-    {
-      "id": "b9164682083016dcf034",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "CORAZÓN CLASSIC MATCH 2026 | Real Madrid Leyendas vs Inter Legends",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=dBNOVnyL_Ps",
-      "publishedAt": "2026-08-22T17:57:04Z"
     }
   ],
-  "updatedAt": "2026-08-24T01:36:23Z",
+  "updatedAt": "2026-08-24T04:26:10Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
