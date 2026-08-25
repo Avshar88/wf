@@ -12,16 +12,6 @@
       "publishedAt": "2026-08-25T19:18:00Z"
     },
     {
-      "id": "985ef29c5fbde02a2246",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PNDNCVDJ4bjFoeE9nVU8yaEpzM0JDU050dHNVbXZCeTNZS0FvOHZFaUlOeVQ1UmpxYkVZZkdweGlFSlFVdlcxbFVITEoxZmoxSkxZakV6YjE0RjFkWlpQVlZVT204eHdUd182Y3NuYkFLZ1lUTFprVXZB?oc=5",
-      "publishedAt": "2026-08-25T17:31:45Z"
-    },
-    {
       "id": "55bcbfa4ac2802f948af",
       "category": "Official",
       "time": "NEW",
@@ -50,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ItEc0T6U52Q",
       "publishedAt": "2026-08-25T15:21:01Z"
+    },
+    {
+      "id": "3dea512f9c67868d7a4e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Julián López de Lerma: \"We want to be the most complete team possible to compete across different scenarios.”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2NlTjVSSHRadWVMbEV2NE5tVXRTZktrV1pHLWFZTzU5VmQ0b1FMbmZwbFQ2QTIzcXpXQzFZRU1aZEdjdDBVeExSQzZHVlJIb2Y5RW5aS1JiaWxaVWItMVZEUWVBQzA0ZHNReEk3b0lPNWlLLWVFZWFoMXFRU0hGbFZLU3dMNWRaYUlVOU90Z1c0MTlp?oc=5",
+      "publishedAt": "2026-08-25T15:20:00Z"
     },
     {
       "id": "13e806246ad4c8c62110",
@@ -252,6 +252,16 @@
       "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
+      "id": "70e1250b364c70b09800",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
+      "publishedAt": "2026-08-25T01:04:15Z"
+    },
+    {
       "id": "18513e15be29fdb29d6a",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=u2Chn1r59WE",
       "publishedAt": "2026-08-24T18:29:32Z"
-    },
-    {
-      "id": "af79900205bc0c175a6f",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "UNBELIEVABLE TCHOUAMENI FINISH! 😳 | Real Madrid training",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=kgmwlgVKIvc",
-      "publishedAt": "2026-08-24T17:51:18Z"
     }
   ],
-  "updatedAt": "2026-08-25T19:48:09Z",
+  "updatedAt": "2026-08-25T20:38:12Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
