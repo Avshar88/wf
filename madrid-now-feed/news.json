@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "714a3f9f7f2b1c4d4219",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "☝️ A debut goal and a win!🎯 Carlos Espí #LaLigaHighlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=EEpn8SXcYgE",
+      "publishedAt": "2026-08-25T09:23:15Z"
+    },
+    {
+      "id": "8f14a6ac4afb2b154bde",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🚀 BULLET header from Jude! #LaLigaHighlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=T7WyIIALF0c",
+      "publishedAt": "2026-08-25T08:59:20Z"
+    },
+    {
       "id": "9d3ebb519cd6add69517",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=D-JH84rLupQ",
       "publishedAt": "2026-08-22T22:24:01Z"
-    },
-    {
-      "id": "728a362afa1bf782cac3",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔥 ESPÍ'S 90TH-MINUTE HEROICS ON HIS DEBUT! | Espanyol 1-2 Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=D-JH84rLupQ",
-      "publishedAt": "2026-08-22T22:24:01Z"
-    },
-    {
-      "id": "e709016d1ea7c4661bf0",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Substitute Espi snatches last-gasp winner in Real Madrid LaLiga opener",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMTFWZUNMSEtWX3ZFREQwakZYQkRnM1dwMDFSb1l4cTF5eXpjd3FtUFdSa3RUMk5YQUl5Tmg0ZkVFTGNLcUZ4dUVHZllkUHVwN2NOdElCNzdYbzM0OFhMcHZxcVoxcHBmNFdwNFQ0a3o5WUZTNEg3eWZQYnByVXFaTWxkakJxVk5Dd1J5WDdDY3E1cGdXcUMwcFM2MnJ4eTd2aXpTWG5VRzZqUQ?oc=5",
-      "publishedAt": "2026-08-22T22:08:05Z"
     }
   ],
-  "updatedAt": "2026-08-25T09:10:29Z",
+  "updatedAt": "2026-08-25T10:15:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
