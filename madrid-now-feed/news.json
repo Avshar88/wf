@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "7755456bb99fc686274d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid Squad Announcement Against Ajax",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTWt1U0lJeU8zcW15WGwwUU5KUU5IX3U1NzV5eE5obWt3X2F1amxkYkdMNHEzdzZvTXVVTl9QWDRxWE1iVmNVcjdrd2ZhSDBKSndodzBvSnRkbGtLMXFncnp4aFRJM3ZfNmVwVWpxM003aVZjQkVja19Kd2h3Qlo1ZmNPZ3hBUjl1SVRIMGhRVVQwVmN1MjMyYlE4TVBMdVhZSk42YlhoZW5WR0hnUGRYbFdUbThsczBiMDBfN05NSQ?oc=5",
+      "publishedAt": "2026-08-25T09:25:00Z"
+    },
+    {
       "id": "714a3f9f7f2b1c4d4219",
       "category": "Matchday",
       "time": "NEW",
@@ -40,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa0ZXMUE2OHpNYllPMVFwT3RhSmNiaHppY2RTY2FJWU5EMlpxNWVXMjVJaGNXZGZPcnZSdFJveDhFT1BGUlZUY2xFTi1XbFRwRkZJWlBtcS1hUVFtakh3blhKVWhrY294NmFLeXJKaDhhSjc0SXFWM0U4TldZRlI0QThVZEtLQ1ZsVGhBVXctQUcxZF9IajAya2YwVkhmWnFIWWdMMnVxRl9JbE91OU5oQjNObHUtWDRHSVRab0tNTU9qTURadlk1RFF6Tk5sZw?oc=5",
       "publishedAt": "2026-08-25T07:53:00Z"
+    },
+    {
+      "id": "f7d8886faecc9db073a4",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Cucurella: “Experiencing the magic of the Bernabéu from the inside will be very special”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bkIwWVRkbkhlUXNqV2Y4S0poYzVMNl9UVjZGWDB6Rk10dldLVllYTVR2Y2NSRTIyZF9NQnlFcWRfajdvX2RNYkFvdnVIV2tyUFpBdEdEdjNsQ1Q3QnZYWnBOand4cnRSbzQybTA1aTd6RzZSZXBSdnBHeTlXeGtDblBIWUFuTWhNZkdmVXZacVdQaHRFa2ZVX29Fc2RTc0dVekZ5b3JiQQ?oc=5",
+      "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
       "id": "70e1250b364c70b09800",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ZtxSK348zVo",
       "publishedAt": "2026-08-22T22:42:02Z"
-    },
-    {
-      "id": "ec8ac3031e1204047764",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Mourinho decries alleged bullying of Vinicius after Real's win at Espanyol",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUERQQjhvN2ZaU0pfazNtLWhYbEhNb2c0Yno1bGZOSGFvZVF6OXN5REtRWVIxZGg2eWMyMmRYQWVHTTZrOW0tTmtaTEU0SWZHS0RpeFVPLXVpUVBlcjM0Ynh2a2RKZkhEdEtjWDlZRnpCandodWlmOGJXaUNwN2N6b1liaG9zZG9aZ3pOT1RRYjJrc1hlNG1VQWd0djZtUlp0S3RXXzFWakY5aEZ5VGhfd0VIOHFQdXBn?oc=5",
-      "publishedAt": "2026-08-22T22:38:10Z"
-    },
-    {
-      "id": "728a362afa1bf782cac3",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "HIGHLIGHTS | Espanyol 1-2 Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=D-JH84rLupQ",
-      "publishedAt": "2026-08-22T22:24:01Z"
     }
   ],
-  "updatedAt": "2026-08-25T10:15:14Z",
+  "updatedAt": "2026-08-25T10:49:58Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
