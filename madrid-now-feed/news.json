@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "985ef29c5fbde02a2246",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PNDNCVDJ4bjFoeE9nVU8yaEpzM0JDU050dHNVbXZCeTNZS0FvOHZFaUlOeVQ1UmpxYkVZZkdweGlFSlFVdlcxbFVITEoxZmoxSkxZakV6YjE0RjFkWlpQVlZVT204eHdUd182Y3NuYkFLZ1lUTFprVXZB?oc=5",
+      "publishedAt": "2026-08-25T17:31:45Z"
+    },
+    {
       "id": "55bcbfa4ac2802f948af",
       "category": "Official",
       "time": "NEW",
@@ -232,16 +242,6 @@
       "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
-      "id": "70e1250b364c70b09800",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
-      "publishedAt": "2026-08-25T01:04:15Z"
-    },
-    {
       "id": "18513e15be29fdb29d6a",
       "category": "Official",
       "time": "NEW",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-24T17:37:26Z"
     }
   ],
-  "updatedAt": "2026-08-25T17:06:25Z",
+  "updatedAt": "2026-08-25T17:40:06Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
