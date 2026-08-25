@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "55bcbfa4ac2802f948af",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Diomande 2033 😎 #RealMadrid #Diomande #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=pI5DAvdlS8w",
+      "publishedAt": "2026-08-25T16:16:06Z"
+    },
+    {
+      "id": "b85defffaca86a0c5340",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤳 Diomande. #RealMadrid #Diomande #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ItEc0T6U52Q",
+      "publishedAt": "2026-08-25T15:21:01Z"
+    },
+    {
       "id": "b85defffaca86a0c5340",
       "category": "Official",
       "time": "NEW",
@@ -62,20 +82,20 @@
       "publishedAt": "2026-08-25T13:38:00Z"
     },
     {
-      "id": "6ca8016a39be61a85183",
+      "id": "4f6a03d78879867de765",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid-Río Breogán, August 29 at 8:00 pm CEST, live on Realmadrid TV - realmadrid.com",
+      "title": "Real Madrid-Río Breogán, August 29 at 8:00 pm CEST, live on Realmadrid TV",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ0YyTmd0aVVGN3FQWUJTX0xtTjF6NzgtSGI3c0pFWm52TmNGWnBhcjIyMGlVb1JYaGloSlVJTzlWYmlWWlNZQ0ktM1NneGtsTUoxS3RKUmhWTzdyc29iOFhvMHBZYVpCWHd0SktpWUxYbDFmd0IyUWRiN3JBelZyVWxPTmxQZVFkSTEtNnJ2UXdLNk1CVVRNOWtCLUVORGEzWUpZWVFUT3dfT2JJbDc0M19MOEN0UFIwR2ZXTTdaRXVjQzNLMnQtZFRPREhGWjc1QUV6RVR4ZldxRlRjSG9wQlpZS3I0YWhvWkFtWllDUFpJMjQ?oc=5",
       "publishedAt": "2026-08-25T11:57:00Z"
     },
     {
-      "id": "4f6a03d78879867de765",
+      "id": "6ca8016a39be61a85183",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid-Río Breogán, August 29 at 8:00 pm CEST, live on Realmadrid TV",
+      "title": "Real Madrid-Río Breogán, August 29 at 8:00 pm CEST, live on Realmadrid TV - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ0YyTmd0aVVGN3FQWUJTX0xtTjF6NzgtSGI3c0pFWm52TmNGWnBhcjIyMGlVb1JYaGloSlVJTzlWYmlWWlNZQ0ktM1NneGtsTUoxS3RKUmhWTzdyc29iOFhvMHBZYVpCWHd0SktpWUxYbDFmd0IyUWRiN3JBelZyVWxPTmxQZVFkSTEtNnJ2UXdLNk1CVVRNOWtCLUVORGEzWUpZWVFUT3dfT2JJbDc0M19MOEN0UFIwR2ZXTTdaRXVjQzNLMnQtZFRPREhGWjc1QUV6RVR4ZldxRlRjSG9wQlpZS3I0YWhvWkFtWllDUFpJMjQ?oc=5",
@@ -102,16 +122,6 @@
       "publishedAt": "2026-08-25T11:00:47Z"
     },
     {
-      "id": "4c0c4e9bd9a607b18309",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"I want the Bernabéu to welcome the team with passion\" - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYUhIcERvV0dTbW5qekRTLTJISG5QTlpHYWMzcFhPdC15V1cxSkM2NHUwWV9sY29hLXZPanNrQlU2TE5EZW1BaVN1dWVBRVBYZUdOX1V0V2NFeE9vN2w1dzV3ODd0Z1lPN19oYXlnNnNfR1E2d2czYlYzQlZvZXBhMGUwRl9TQTFvd0prU1EwR2tYYkZXc29NaGJ4TG5CT0xqOGVUZ0R4d19LckFFQ1RGVjZuNGRFN1RzMFhTRzkxdHZ0OWU0UGVVZWV1WXN2VU5KalgtZFl0UXFRNjEzRDFyMGxNVWpSUQ?oc=5",
-      "publishedAt": "2026-08-25T10:30:56Z"
-    },
-    {
       "id": "c38277b5bf0974a7b7f9",
       "category": "Official",
       "time": "NEW",
@@ -122,20 +132,30 @@
       "publishedAt": "2026-08-25T10:30:56Z"
     },
     {
-      "id": "dbeca0f4de070caabcb8",
+      "id": "4c0c4e9bd9a607b18309",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid Squad Announcement Against Ajax - realmadrid.com",
+      "title": "Mourinho: \"I want the Bernabéu to welcome the team with passion\" - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTWt1U0lJeU8zcW15WGwwUU5KUU5IX3U1NzV5eE5obWt3X2F1amxkYkdMNHEzdzZvTXVVTl9QWDRxWE1iVmNVcjdrd2ZhSDBKSndodzBvSnRkbGtLMXFncnp4aFRJM3ZfNmVwVWpxM003aVZjQkVja19Kd2h3Qlo1ZmNPZ3hBUjl1SVRIMGhRVVQwVmN1MjMyYlE4TVBMdVhZSk42YlhoZW5WR0hnUGRYbFdUbThsczBiMDBfN05NSQ?oc=5",
-      "publishedAt": "2026-08-25T09:25:00Z"
+      "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYUhIcERvV0dTbW5qekRTLTJISG5QTlpHYWMzcFhPdC15V1cxSkM2NHUwWV9sY29hLXZPanNrQlU2TE5EZW1BaVN1dWVBRVBYZUdOX1V0V2NFeE9vN2w1dzV3ODd0Z1lPN19oYXlnNnNfR1E2d2czYlYzQlZvZXBhMGUwRl9TQTFvd0prU1EwR2tYYkZXc29NaGJ4TG5CT0xqOGVUZ0R4d19LckFFQ1RGVjZuNGRFN1RzMFhTRzkxdHZ0OWU0UGVVZWV1WXN2VU5KalgtZFl0UXFRNjEzRDFyMGxNVWpSUQ?oc=5",
+      "publishedAt": "2026-08-25T10:30:56Z"
     },
     {
       "id": "7755456bb99fc686274d",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid Squad Announcement Against Ajax",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTWt1U0lJeU8zcW15WGwwUU5KUU5IX3U1NzV5eE5obWt3X2F1amxkYkdMNHEzdzZvTXVVTl9QWDRxWE1iVmNVcjdrd2ZhSDBKSndodzBvSnRkbGtLMXFncnp4aFRJM3ZfNmVwVWpxM003aVZjQkVja19Kd2h3Qlo1ZmNPZ3hBUjl1SVRIMGhRVVQwVmN1MjMyYlE4TVBMdVhZSk42YlhoZW5WR0hnUGRYbFdUbThsczBiMDBfN05NSQ?oc=5",
+      "publishedAt": "2026-08-25T09:25:00Z"
+    },
+    {
+      "id": "dbeca0f4de070caabcb8",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid Squad Announcement Against Ajax - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTWt1U0lJeU8zcW15WGwwUU5KUU5IX3U1NzV5eE5obWt3X2F1amxkYkdMNHEzdzZvTXVVTl9QWDRxWE1iVmNVcjdrd2ZhSDBKSndodzBvSnRkbGtLMXFncnp4aFRJM3ZfNmVwVWpxM003aVZjQkVja19Kd2h3Qlo1ZmNPZ3hBUjl1SVRIMGhRVVQwVmN1MjMyYlE4TVBMdVhZSk42YlhoZW5WR0hnUGRYbFdUbThsczBiMDBfN05NSQ?oc=5",
@@ -192,16 +212,6 @@
       "publishedAt": "2026-08-25T07:53:00Z"
     },
     {
-      "id": "4e1b0bcd8046b7a4a9c9",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella: “Experiencing the magic of the Bernabéu from the inside will be very special” - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bkIwWVRkbkhlUXNqV2Y4S0poYzVMNl9UVjZGWDB6Rk10dldLVllYTVR2Y2NSRTIyZF9NQnlFcWRfajdvX2RNYkFvdnVIV2tyUFpBdEdEdjNsQ1Q3QnZYWnBOand4cnRSbzQybTA1aTd6RzZSZXBSdnBHeTlXeGtDblBIWUFuTWhNZkdmVXZacVdQaHRFa2ZVX29Fc2RTc0dVekZ5b3JiQQ?oc=5",
-      "publishedAt": "2026-08-25T07:43:00Z"
-    },
-    {
       "id": "f7d8886faecc9db073a4",
       "category": "Official",
       "time": "NEW",
@@ -212,20 +222,30 @@
       "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
-      "id": "18513e15be29fdb29d6a",
+      "id": "4e1b0bcd8046b7a4a9c9",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
+      "title": "Cucurella: “Experiencing the magic of the Bernabéu from the inside will be very special” - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
-      "publishedAt": "2026-08-25T01:04:15Z"
+      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bkIwWVRkbkhlUXNqV2Y4S0poYzVMNl9UVjZGWDB6Rk10dldLVllYTVR2Y2NSRTIyZF9NQnlFcWRfajdvX2RNYkFvdnVIV2tyUFpBdEdEdjNsQ1Q3QnZYWnBOand4cnRSbzQybTA1aTd6RzZSZXBSdnBHeTlXeGtDblBIWUFuTWhNZkdmVXZacVdQaHRFa2ZVX29Fc2RTc0dVekZ5b3JiQQ?oc=5",
+      "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
       "id": "70e1250b364c70b09800",
       "category": "Official",
       "time": "NEW",
       "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
+      "publishedAt": "2026-08-25T01:04:15Z"
+    },
+    {
+      "id": "18513e15be29fdb29d6a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=ftKuiMoGFzU",
       "publishedAt": "2026-08-24T17:37:26Z"
-    },
-    {
-      "id": "1c1271b39c594a3364b2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid faces its first challenges of the season",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMWZlWC1zcGRkaEw2eWhURlZTaXFQUEhGMFNNTVV0emp2V3NoRUhDOWpxbThENnhrSWRmOGlIcGxFeGxPS0FGMktGS3VqYUt0UXIzZXMzbFRCX1hTY3QxbVFoaGZIcW84dFU3bk5WWUdSRk1ZcE9iWmx6dzE3cU1od3ViQWlyWjgyM1BhcXk1Uy0wQ3ZfdndVMUNYWGxuRWVoYWpHOUw0d1daMXktUlMtTUdHSFB0YVZJUmtPXy11T3E?oc=5",
-      "publishedAt": "2026-08-24T16:06:00Z"
-    },
-    {
-      "id": "261a4b9768ce048c212c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤜 Play along with Cucurella and Admin! #RealMadrid #Cucurella #Games",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=iaoTdVQOC4c",
-      "publishedAt": "2026-08-24T15:39:22Z"
     }
   ],
-  "updatedAt": "2026-08-25T15:58:08Z",
+  "updatedAt": "2026-08-25T17:06:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
