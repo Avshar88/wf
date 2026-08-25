@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "c0a94df0d1133a7ee380",
+      "category": "Official",
+      "time": "NEW",
+      "title": "✨ Diomande✨\"I'm happy to represent this club and give my all.\" #RealMadrid #Diomande",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=lLT9BKtQsUk",
+      "publishedAt": "2026-08-25T19:18:00Z"
+    },
+    {
       "id": "985ef29c5fbde02a2246",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=kgmwlgVKIvc",
       "publishedAt": "2026-08-24T17:51:18Z"
-    },
-    {
-      "id": "070e841364ee8476ad59",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⚔️ No stopping now! #RealMadrid #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=ftKuiMoGFzU",
-      "publishedAt": "2026-08-24T17:37:26Z"
     }
   ],
-  "updatedAt": "2026-08-25T17:40:06Z",
+  "updatedAt": "2026-08-25T19:48:09Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
