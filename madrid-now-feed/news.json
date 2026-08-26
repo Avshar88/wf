@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "cc4b7238264549c227bc",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤯 CUCURELLA: 'WHEN REAL MADRID CALLED ME, I COULDN'T BELIEVE IT' | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=I6G8sPSYORU",
+      "publishedAt": "2026-08-26T09:00:36Z"
+    },
+    {
       "id": "11a923b7a2db148fd5ad",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
       "publishedAt": "2026-08-25T01:04:15Z"
-    },
-    {
-      "id": "ac78731aea4fbe879e8e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "💬 C. Espí: \"I'm going to give my all for this club.\" #CarlosEspí #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=6BItmkFw5gA",
-      "publishedAt": "2026-08-24T20:00:03Z"
     }
   ],
-  "updatedAt": "2026-08-26T04:21:44Z",
+  "updatedAt": "2026-08-26T09:53:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
