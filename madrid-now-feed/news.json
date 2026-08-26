@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "807e37f4a7fc10881202",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🏟️ FINALLY BACK AT HOME! #RealMadrisRealSociedad",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=s085nQFsYT0",
+      "publishedAt": "2026-08-26T18:02:44Z"
+    },
+    {
+      "id": "02f5705e47ac70dcd6d5",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Real Sociedad | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=j7YybmDwwwM",
+      "publishedAt": "2026-08-26T17:25:47Z"
+    },
+    {
       "id": "a70da8c922871916c79f",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=T7WyIIALF0c",
       "publishedAt": "2026-08-25T08:59:20Z"
-    },
-    {
-      "id": "eb1f0e377610d0806ec5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid squad announcement against Real Sociedad - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hKQTRIdFR5VkhEaDUxNjdZYlZ2Z1ZwMmptR3lHUmpFd1BnOHhuazQzdVNiLUVxWHNCUUpZdXE2NmtkZ1JxSUUxaFJZOHVxRjg0TnNaM1E1ZjZ3bnNHUEgwcEc5cGU5YmszdUd3dkNrcVpzS0V4eVhKNWlUVThkYzlBV2NSS2ctaW1rUEl5RWlMLUtJZ0ItRWMyN0swdldxU2lwN2lxa1BkTWFkOURtM2VmMF8tREFUckdhRFhZR2cyOWswN1cxamlB?oc=5",
-      "publishedAt": "2026-08-25T08:31:00Z"
-    },
-    {
-      "id": "32bf93df702bd0f8668f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid squad announcement against Real Sociedad",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hKQTRIdFR5VkhEaDUxNjdZYlZ2Z1ZwMmptR3lHUmpFd1BnOHhuazQzdVNiLUVxWHNCUUpZdXE2NmtkZ1JxSUUxaFJZOHVxRjg0TnNaM1E1ZjZ3bnNHUEgwcEc5cGU5YmszdUd3dkNrcVpzS0V4eVhKNWlUVThkYzlBV2NSS2ctaW1rUEl5RWlMLUtJZ0ItRWMyN0swdldxU2lwN2lxa1BkTWFkOURtM2VmMF8tREFUckdhRFhZR2cyOWswN1cxamlB?oc=5",
-      "publishedAt": "2026-08-25T08:31:00Z"
     }
   ],
-  "updatedAt": "2026-08-26T16:11:43Z",
+  "updatedAt": "2026-08-26T18:54:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
