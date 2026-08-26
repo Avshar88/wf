@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "da0a52c5117679b35522",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Diomande: “Real Madrid players are the best in the world, and you have to fight every day to earn your place”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGVtcmNKUEU2dmRPdzRBUVJhaWotN1IyVi04S1kyVm95R0VHdGRQbkN1RUgxQkpuMnNIVzMyV3lmLUN3SDlYdGJNSXR5NkFzRlNHQ0dJc1JJS1V6OUhNZHV5aXNxTEVEbzd4M2hxYzdfN2dwOFc4bHRBZ1RsTUZBdHdJdlNhUmwxYXJiRUJWc2dCOXlmWVVzR1NTWnZJYTh0eUxPTU1OVQ?oc=5",
+      "publishedAt": "2026-08-26T11:46:19Z"
+    },
+    {
       "id": "12622c12f73bec8b8c55",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa0ZXMUE2OHpNYllPMVFwT3RhSmNiaHppY2RTY2FJWU5EMlpxNWVXMjVJaGNXZGZPcnZSdFJveDhFT1BGUlZUY2xFTi1XbFRwRkZJWlBtcS1hUVFtakh3blhKVWhrY294NmFLeXJKaDhhSjc0SXFWM0U4TldZRlI0QThVZEtLQ1ZsVGhBVXctQUcxZF9IajAya2YwVkhmWnFIWWdMMnVxRl9JbE91OU5oQjNObHUtWDRHSVRab0tNTU9qTURadlk1RFF6Tk5sZw?oc=5",
       "publishedAt": "2026-08-25T07:53:00Z"
-    },
-    {
-      "id": "f7d8886faecc9db073a4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella: “Experiencing the magic of the Bernabéu from the inside will be very special”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bkIwWVRkbkhlUXNqV2Y4S0poYzVMNl9UVjZGWDB6Rk10dldLVllYTVR2Y2NSRTIyZF9NQnlFcWRfajdvX2RNYkFvdnVIV2tyUFpBdEdEdjNsQ1Q3QnZYWnBOand4cnRSbzQybTA1aTd6RzZSZXBSdnBHeTlXeGtDblBIWUFuTWhNZkdmVXZacVdQaHRFa2ZVX29Fc2RTc0dVekZ5b3JiQQ?oc=5",
-      "publishedAt": "2026-08-25T07:43:00Z"
     }
   ],
-  "updatedAt": "2026-08-26T10:54:38Z",
+  "updatedAt": "2026-08-26T11:47:42Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
