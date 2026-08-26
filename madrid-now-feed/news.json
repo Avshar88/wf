@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "75e5d648861e213e42df",
+      "id": "11a923b7a2db148fd5ad",
       "category": "Official",
       "time": "NEW",
       "title": "Web oficial del Real Madrid CF",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORFpvYWhBM1R2RTNnM0F4dFI4NUpCWXVwTHU0S1dCZlZkUkkxMS1WcTY4amVnQ3BCU09QY3Y2TTBqMmhSeVotWnVHVnY2THVDdjdTd2VNM05pcUVuM1FMdlZCVUc5TDQ2b2F4LVdjZmlrUDg1LTN1eGszOUdUVnBZTDhkNlV1dEJ3Y1dXT2d5V1pVSjhvOWtjZDZR?oc=5",
-      "publishedAt": "2026-08-26T01:29:25Z"
+      "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LcHQzX3ZpN1h5RUdqaDRMbDQ2OUx0TDFrTkpTYm1uaE03TVU2M19RUUd4cUVBS2tNaUUxY2wwOWRERVEyWFZZaGV6bWQxcHFtNmVCUDdGY2xSeml1cTl4cnVMUHdOU3BsRl9JRA?oc=5",
+      "publishedAt": "2026-08-26T04:19:44Z"
     },
     {
       "id": "c0a94df0d1133a7ee380",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-24T20:00:03Z"
     }
   ],
-  "updatedAt": "2026-08-26T03:40:50Z",
+  "updatedAt": "2026-08-26T04:21:44Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
