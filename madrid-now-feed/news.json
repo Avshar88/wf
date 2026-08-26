@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "12622c12f73bec8b8c55",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 BACK AT HOME. #RealMadridRealSociedad #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=c8ZVAy64o1c",
+      "publishedAt": "2026-08-26T09:57:35Z"
+    },
+    {
       "id": "cc4b7238264549c227bc",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bkIwWVRkbkhlUXNqV2Y4S0poYzVMNl9UVjZGWDB6Rk10dldLVllYTVR2Y2NSRTIyZF9NQnlFcWRfajdvX2RNYkFvdnVIV2tyUFpBdEdEdjNsQ1Q3QnZYWnBOand4cnRSbzQybTA1aTd6RzZSZXBSdnBHeTlXeGtDblBIWUFuTWhNZkdmVXZacVdQaHRFa2ZVX29Fc2RTc0dVekZ5b3JiQQ?oc=5",
       "publishedAt": "2026-08-25T07:43:00Z"
-    },
-    {
-      "id": "18513e15be29fdb29d6a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
-      "publishedAt": "2026-08-25T01:04:15Z"
     }
   ],
-  "updatedAt": "2026-08-26T09:53:40Z",
+  "updatedAt": "2026-08-26T10:21:03Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
