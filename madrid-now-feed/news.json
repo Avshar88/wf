@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "75e5d648861e213e42df",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORFpvYWhBM1R2RTNnM0F4dFI4NUpCWXVwTHU0S1dCZlZkUkkxMS1WcTY4amVnQ3BCU09QY3Y2TTBqMmhSeVotWnVHVnY2THVDdjdTd2VNM05pcUVuM1FMdlZCVUc5TDQ2b2F4LVdjZmlrUDg1LTN1eGszOUdUVnBZTDhkNlV1dEJ3Y1dXT2d5V1pVSjhvOWtjZDZR?oc=5",
+      "publishedAt": "2026-08-26T01:29:25Z"
+    },
+    {
       "id": "c0a94df0d1133a7ee380",
       "category": "Official",
       "time": "NEW",
@@ -232,6 +242,16 @@
       "publishedAt": "2026-08-25T08:31:00Z"
     },
     {
+      "id": "11ef6ce90ccaf426bb27",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Final training session before hosting Real Sociedad",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcXNSRzdzelJJd2ZUM1h6R2hNdXZwV2JfMDljcUx5S2RqV3FzMDFGekJLQndGcm1lX2pvaVcwT25xZGI3aVhSeHlneWpMWktYZWJiUUh1N1d4bkdCd1U3RzFoblVfWFlNcnJFX24xVF93U2pnMmJmZVEwX2hLNGxzZHN0SjZ5WXNHX3B4WTA5Q1JaNGVUR1ZtSkJDUk8yQXh3TWNNQ3VsN19aWWs?oc=5",
+      "publishedAt": "2026-08-25T08:00:59Z"
+    },
+    {
       "id": "ae5f79b4197abf5b0c90",
       "category": "Official",
       "time": "NEW",
@@ -262,16 +282,6 @@
       "publishedAt": "2026-08-25T07:43:00Z"
     },
     {
-      "id": "70e1250b364c70b09800",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWFmc0FrcEZaNEhoNy1YTzdRQnNuUE5TWVpmWmNYbHVKS2FFdmZIaWJvT3ozYTVoSFVnNzlnTTY1R2VvVGVLckpxdWYtTWJOcHJFSklfVUJ6THdCRVFRVXhtQkxQeXo0ckpaYzRZbmZfN0Y1VjJEMDByUU82a2dtY2dISE1uc2ZueTJ3dg?oc=5",
-      "publishedAt": "2026-08-25T01:04:15Z"
-    },
-    {
       "id": "18513e15be29fdb29d6a",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=6BItmkFw5gA",
       "publishedAt": "2026-08-24T20:00:03Z"
-    },
-    {
-      "id": "3be0f5ae7177ae971f32",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Caruso: \"I have a winning mentality and I can contribute my experience\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdDY2UXhnOURSSU1KMGcyYWZlRUViMmVoMmlKNHNUQ3VwVjNpM0oza2xSbFhpSFpZM0dHWUdTU05mV2JsNzlZRl9DNkNUWThGVlJnOWMxRFNFVUIxTC1nNVlvZzNOaGJvYk5NdElkWC14eDlCY1I3dU1PdTI5UDZOWDRDSlZ3YTlHcnlISF9jek1Wdzg3cEtWNkxuS3pkMzVXMFhzVWVVaFBXR1o5R1FJbVlaNXVEcTloWnJ4M3BQMFlJMHRlV2RZZ1ZGVGFVVVRLTHQ2VmFydXNKZ3JSWENEUlhvbw?oc=5",
-      "publishedAt": "2026-08-24T19:13:00Z"
     }
   ],
-  "updatedAt": "2026-08-25T23:28:24Z",
+  "updatedAt": "2026-08-26T03:40:50Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
