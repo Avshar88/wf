@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "a70da8c922871916c79f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💭 Describe the Bernabéu in ONE word... #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=f5lRLUGGy5k",
+      "publishedAt": "2026-08-26T14:00:20Z"
+    },
+    {
       "id": "22d600d0f408c1e0994f",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hKQTRIdFR5VkhEaDUxNjdZYlZ2Z1ZwMmptR3lHUmpFd1BnOHhuazQzdVNiLUVxWHNCUUpZdXE2NmtkZ1JxSUUxaFJZOHVxRjg0TnNaM1E1ZjZ3bnNHUEgwcEc5cGU5YmszdUd3dkNrcVpzS0V4eVhKNWlUVThkYzlBV2NSS2ctaW1rUEl5RWlMLUtJZ0ItRWMyN0swdldxU2lwN2lxa1BkTWFkOURtM2VmMF8tREFUckdhRFhZR2cyOWswN1cxamlB?oc=5",
       "publishedAt": "2026-08-25T08:31:00Z"
-    },
-    {
-      "id": "11ef6ce90ccaf426bb27",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Final training session before hosting Real Sociedad",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcXNSRzdzelJJd2ZUM1h6R2hNdXZwV2JfMDljcUx5S2RqV3FzMDFGekJLQndGcm1lX2pvaVcwT25xZGI3aVhSeHlneWpMWktYZWJiUUh1N1d4bkdCd1U3RzFoblVfWFlNcnJFX24xVF93U2pnMmJmZVEwX2hLNGxzZHN0SjZ5WXNHX3B4WTA5Q1JaNGVUR1ZtSkJDUk8yQXh3TWNNQ3VsN19aWWs?oc=5",
-      "publishedAt": "2026-08-25T08:00:59Z"
     }
   ],
-  "updatedAt": "2026-08-26T13:19:06Z",
+  "updatedAt": "2026-08-26T14:06:54Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
