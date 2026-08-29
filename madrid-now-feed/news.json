@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "807ad87eb3346998f51e",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Río Breogán: first preseason game, live at 8:00 pm on Realmadrid TV",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQcUx1R1ZWTEZmT1l4SU0xd1FqUVUyWGgtMG80bGdpSC1KXy1UM1dwdW9lRUpLalZ0cUNiWVNadmRMaDUwWWNHUklpQlI0dGEtbmM0al9RcVAwSEJpRUtSQW1fejVXUWRJcVlRaTZjLVlhLTBwZElhcnVrRVlzY2lpMXdsc1VsanE3bVVBZVdrd1huZjMzUU1SUWxUVG5vQ3QxVmtDMkcwNlRvRUVQcU1jbkZzcGo3aUthd3VKTXlXWHFRSDFrcklhTURIbzEyUHAya1RORVNtN0VoUWRpS2NqZnBPdWZRX0h2dWEwVF9jS3AyV3NtSENBdmpWVmgyVnlNR0JLeVdLSWItdWN5ZGc?oc=5",
+      "publishedAt": "2026-08-28T21:51:32Z"
+    },
+    {
+      "id": "5bc6dee378b9f95ad853",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RMFkzNzlCYjFZODE4OFVSdldmVWpncVA3ZERNbHpiRHpCSUFmQldhNHN0WGhDa0xTcGg4Y09vZ2NCODlxdmxjaTNrUUYxSS1Fb0E0dWRkV1liZWxBcVRmV0tCZmdGMkJCSkE?oc=5",
+      "publishedAt": "2026-08-28T20:48:45Z"
+    },
+    {
+      "id": "e599e2b3b709e0fd2ede",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎨 Adding some colour to football! #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=dzq11I-ICFg",
+      "publishedAt": "2026-08-28T19:00:14Z"
+    },
+    {
+      "id": "2e3f07c6fcd94dbe2fa4",
+      "category": "Official",
+      "time": "NEW",
+      "title": "The Real Madrid Graduate School – European University and FIU Business celebrate five years of collaboration",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQM3haQ3k0b3VzNDJfZ2d6TE03R3pYTGhRR05fck5NQW9sVUxJYzRoV01fOUF5Tzg5cDR6Mk4wU2lKZHA4endRTExZTEFLUS04aVkyeEFJaUpFbm5RUlFuWFMtMEdWT2staWRrWS1oR28zSHlUclNLZ3dYQUdlLXVfWlZETDlXb1dlQk1zZi1VWXIzR2VBeTlub3g3QVV3aExGblB0cnZWNFdJbGI5MHNoYVJ5SHo1LWJremJiZklIQTRrX1d2RXNvU1J5WG9RQUdkdjg4QlZJT3BRQTBVWmF5a1RmRlZzaEo1OUhfSXhYZVRjZFFHZ19DV1JFZzJqMkVSZ0w5ZDAtYw?oc=5",
+      "publishedAt": "2026-08-28T16:32:00Z"
+    },
+    {
       "id": "53f2178cf6d2c5df05ff",
       "category": "Official",
       "time": "NEW",
@@ -10,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=9_bcApAHOBI",
       "publishedAt": "2026-08-28T15:37:01Z"
+    },
+    {
+      "id": "1dab8f0427ee5f6e961a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This is how Jones plays",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb3BhdG9lZDFNNUttSGZ6N0JDSlNmdTQzel9ncDJySjFSM3dQeVROOG1VZlJRd1NOTHlmSVpZWVdsbzdlcjc3bTVNM3R1M19KZnFPTE4tRDJKSzFwOE1tYlJhSXRnckVuNWNSTFU5aWtWSndsc25RTUFsODEzSnRaLWFrLWVlUklGZDNhVWVVbl90em9nMDBneWlZOE1DeTVkRWV6cThuQnd5MEx2X0huODZRbUV4aUlKQzNHZWpfZTc1STRPRGx1dkFyRkQ2ZFhEUVdNa2pkVDJGLVc0SFB3?oc=5",
+      "publishedAt": "2026-08-28T15:01:47Z"
     },
     {
       "id": "91b309fb48f407488003",
@@ -250,59 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=xssDr9wNr_8",
       "publishedAt": "2026-08-26T22:31:48Z"
-    },
-    {
-      "id": "b097690c269d062ecd15",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Mbappe hat-trick powers Real Madrid past Real Sociedad on Mourinho's Bernabeu return",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUpQV2FTNjMwS0FObGFHREJvTnZzeE8yUHk4LWhqUXJVNkpIbW5mWmpqM2EtMFgzVW5oTEctLW9WTW5hdkp4TWlzS1BpVV83WkFCcTVPNUdMeEZ0WmxsSkxaOU9aWHNYZ19SbVR6Vlctd05ydFNTdmdkVzNoSzFVVlFEeUc5b21PR1dId2twOXY2b0cxcjF4NlJPZHQ2LW5jZXFVdS1EOA?oc=5",
-      "publishedAt": "2026-08-26T21:58:45Z"
-    },
-    {
-      "id": "6394c3ca91e0be6869de",
-      "category": "Official",
-      "time": "NEW",
-      "title": "“Great win today. Very happy with the team’s work and and to debut in front of you. Hala Madrid!”",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=CPSwEabZzds",
-      "publishedAt": "2026-08-26T21:50:46Z"
-    },
-    {
-      "id": "50efe735dc746c99f85d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Cucurella: \"A perfect night, you can't ask for more\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0tqWnhsWTRvSk5aMVlWYkFEWWppU09YYmNlSnJfeTlhQXQ2MkhqNnVtcHhBUGw5aVYzdWJvMnhwaGVWVERtWkQzRF9CODIySkZBVW1JMkhvRDRXNlUyejdialRsSE96WmpncUZYOGpSSXM1TDhLV3FsdXNUc1pIZUpFcF9KVnhhbUo3N3JBcUtRQkNlZEdITnNtNmpkcnhBaUZwRUF0UQ?oc=5",
-      "publishedAt": "2026-08-26T21:50:00Z"
-    },
-    {
-      "id": "7d11aa18fe786d64a362",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤳 Fede Valverde",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=fGWAK0cLVgE",
-      "publishedAt": "2026-08-26T21:41:11Z"
-    },
-    {
-      "id": "de1104a02b578b0f8c7c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "👌 #RealMadridRealSociedad #LaLigaHighlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=mzL476_rpTQ",
-      "publishedAt": "2026-08-26T21:38:40Z"
     }
   ],
-  "updatedAt": "2026-08-28T16:48:39Z",
+  "updatedAt": "2026-08-29T00:43:12Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
