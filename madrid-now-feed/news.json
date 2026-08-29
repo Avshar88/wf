@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "dd84d55462832efaa1fa",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Málaga: continuing the strong start to LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
+      "publishedAt": "2026-08-29T23:21:54Z"
+    },
+    {
+      "id": "534b45fa9cb1df5c0feb",
+      "category": "Official",
+      "time": "NEW",
+      "title": "24 years since the first UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzRRVDVkT1RqSE9xeWJReHEybElkYUpXeGdOdzdwdnVPRmx3WVZOTDJDYnNyTWRndXpOMUJyUUxPc0ZPYnVtbm93ckExLUp3UnB1bVhfa0xoV3lLbE15YWYyM3ZJRlVyaFRPYUJDM2stTzBEYndxdXNrU2JKSkZUWE0tY25EMzJlNUNVdEFaM0lRX0RhTTJFUFlmdUdHUFRCSWRIV0lwUHUyclQ5V3ROZDNVVkVUWXFZeHc?oc=5",
+      "publishedAt": "2026-08-29T22:27:14Z"
+    },
+    {
       "id": "6a86055359d994d0bc00",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=YV2hBtxLijM",
       "publishedAt": "2026-08-28T09:04:29Z"
-    },
-    {
-      "id": "a1af2871aff99685d2c6",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⚽⚽⚽ KYLIAN MBAPP3 #Mbappe #LaLigaHighlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=k8xTmkCXKZM",
-      "publishedAt": "2026-08-28T08:39:22Z"
-    },
-    {
-      "id": "3a27bfc6c032133cf8dc",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid continues preparing for the match against Málaga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVDU0d192N0JkR2JaczJJenNjdzZtNV9zaHB0b0VIS0otRThBNmtNZ3lEa1NEWUxQMkdkbmU5enRFWG5RUHFpd3dQTEx3S19objBWNzd3NEhnS3JWZThjUDdLSldBVnZ3cmVuSUx3R1hoUG9nTzRSa29ZcVotY2t0MzBseFEzSEJZWmxKVGEtTmd3bThXOEtDUDVDZ1lmaWtZaGZrZlk4U1ZyYk9kdHZ5N3FB?oc=5",
-      "publishedAt": "2026-08-28T08:00:49Z"
     }
   ],
-  "updatedAt": "2026-08-29T21:55:54Z",
+  "updatedAt": "2026-08-29T23:41:29Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
