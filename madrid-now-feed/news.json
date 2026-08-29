@@ -2,14 +2,34 @@
   "version": 2,
   "stories": [
     {
-      "id": "8f1b3bb299a4dd5ecc84",
+      "id": "06d2e1f80ba729b1ac9e",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "🚨💣 DEALS DONE! TWO GEMS! ARSENAL & REAL MADRID: TWO SURPRISES! GAKPO HOURS! ENZO ATTACK…",
+      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
+      "source": "Fabrizio Romano",
+      "href": "https://www.youtube.com/watch?v=QkV1Y6ptXcA",
+      "publishedAt": "2026-08-29T18:55:34Z"
+    },
+    {
+      "id": "ce79bd53a211aff15ab3",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Roma vs Real Madrid - UEFA Champions League",
+      "summary": "Latest verified Real Madrid update published by LaLiga.",
+      "source": "LaLiga",
+      "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXkxM3BEeW1VRHU3R3lZcUdzMWxDQlZSYW4xU3dFUkFxUlR0bl9HOEFCX19vblZhTDlzTERTNEJCOE1JT2YtOUk1TGJhNlJyVzRDdHlCX2luQ2lPMTNlWHZTVGh1VHZRM2draTNJZnZYUlFwa0ctQTE5b29udmhkVTh6M21MUllFRGdKeldUaW5JU3Rk?oc=5",
+      "publishedAt": "2026-08-29T16:53:11Z"
+    },
+    {
+      "id": "9327bda56a1fcd91e40e",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid's Schedule for the First Phase of the 2026/27 Champions League",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTmdHSkQ1aGs2V0ZOaE80WE9VOWtHWUd0MnlCQ2dnTk9QX2hOTEZHSGlDbUhZZlNzXzllbXdLalR3YkMtRkl1bkpkRHA2aUR1T3JTMnhxR3NkLWQwS01RR1I5UEdWU3VrRTdGTUFYSUJPMFZjTVFBNHFQVGhSOXh3bUVHNlc5SXEybmdIeWphWFlOYnRIWGJXb1BfYnVLdHFXR0txX09VQmdVSE9CTEV6RktoVjdfbW5tOEp0QlhtMTRrTUtCc2t0NWVhN0Zha19Rb0pNUVE0UVpHalFVTmVYQkRwYjdNUQ?oc=5",
-      "publishedAt": "2026-08-29T15:44:21Z"
+      "publishedAt": "2026-08-29T16:20:00Z"
     },
     {
       "id": "fafa11b718895f41dc8d",
@@ -70,6 +90,16 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQmhwYjBKbERXbFhObUV1T0ZDbzd1dDIyV0Y2SGdZa2FCX3NsWm1vQ2VuQTNleUprSzV1UHB3dzRONWkwaTVHOHpUSGFzRFh5RmF1NU1MOTExUlRlbVNQNHJCc1RXWl9IMDhhcF9vUHpoZlN0MnpVV285VE12ZkZXQWVGMmR3a0xwSnd1SmxKTWY?oc=5",
       "publishedAt": "2026-08-29T15:16:18Z"
+    },
+    {
+      "id": "964c87e58bca25484e14",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid vs Inter | League phase table",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFR6U0N4VV9tWXpVRm1HWnNGdUxad2RDdzRJSUpXYjhPVEVfbUt5RVN2bUZmMmt3VGVtcGFzOWpqQ1dzZDNtNlppMEh3M0hBUzVXZU90ZkhWWlZHbWZSd2l0UjY3SUh0REgxdmhHWEhBV1E3Q05KVFdPNnI0RUsyeFBlbEktVUIydFAwWTBMMXo?oc=5",
+      "publishedAt": "2026-08-29T15:02:55Z"
     },
     {
       "id": "c69cce306b1bd98f1a83",
@@ -262,47 +292,17 @@
       "publishedAt": "2026-08-28T05:49:43Z"
     },
     {
-      "id": "48a7bccfc18350ccee22",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Paris vs Galatasaray: Neymar and Mbappé combine in 2019 | Video History | UEFA Champions League",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcXpCOXFBaGV5Z0FTVmhFOGhPamtyd3M2T3o0c0ljZzdQYkRPWHJxNlNEdVExQ1lQbHhQYXp3T3VXby1uUTRHMW5RSExCRnlidDJ3cUdDNTRiSnd0dFNRSVlubzctT1VyQ1VrQm14aFhPR2NSRFEtWWdlLU9MOG1iWm9hY3I5QmVlRHVYVnZ2V2piNk9yXzZibEFQOVd0Ml9BZE5VRXI3ajNPQkMwY0I1MFFBUjBDNEJlVVZKbWFtblBPSm02R1JkcDNwYzFqdl8wcGE3VDhHZXdjNFpZZ055Sw?oc=5",
-      "publishedAt": "2026-08-28T00:12:51Z"
-    },
-    {
-      "id": "ce169d28993f1699fc93",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid legend Butragueño on Champions League draw | Video",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVXFhTFpBQ2h3Z1Z1dk92NUFGRjF6dklZRTdHWUlxZ0hYeGppa1E1X1RlS1NHTUpTTnZaRmRBLUo4blM3MUJZTUhydDdtUUZXLVNab1ZTQTdyVHc5cmU0dk1MTEJjcmNkOU1DeUlGYUJfNkI5cVJrZHExcG1DU2Q4Mko2NjR2LVZ6WTFNTi13YkFPeGRrNG9DdHpsQ2NIYkZoZ0J6b19JdGlQSjVhcHRiMERyYjFhd2x3a2xkSzlvTTRIb3J4eWJfS2R1YzdFUWF6eklON2VB?oc=5",
-      "publishedAt": "2026-08-27T23:57:53Z"
-    },
-    {
-      "id": "02abe950a3f4360c1831",
+      "id": "2f25e8f7b0d17f1d9ed6",
       "category": "Official",
       "time": "NEW",
-      "title": "Keown on 'mouthwatering' Arsenal-Real Madrid clash",
+      "title": "Keown on 'mouthwatering' Arsenal-Real Madrid clash | Video",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTXBZT29nSmNFZWpWbGdUYzRnREZmTXBiVkZGeWV5UzJqUUE0aERZQ1hwc2hQZVVhb1BwLU90b0tDTnhNaTdrR3VHM0VFdTk0THV1QTdoaHd6dl9CbkpqSVVpLUZrZjhEdDFMZFRvbEg0QWFfdlVZUnpKSjkzelktaEdLMUJYeEE?oc=5",
-      "publishedAt": "2026-08-27T21:13:01Z"
-    },
-    {
-      "id": "158b7b10e9bfe700a61d",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔜 NEXT MATCH: MÁLAGA AT HOME | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=4Uiw4qMrhOk",
-      "publishedAt": "2026-08-27T20:04:39Z"
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeVNpNE5iMHFjdHhMbUlqQjZkZlVFNVRlalhXZjVxSnpwQmxEUEhMTzBXRDZTSkg2djVJX2R4LVdIdHpoNERFY0JaRFJ4WXk4MnBqQ3ZmQ2w0NlVWTW1HZEZjRGFGVnJSSG5uZVBHREpaOUt5eGhrUEI1RUZKbnNwSkNDWmJTZUJ0WGpTTEJnUW04R2tWMFNWYlY2cXZOckp0TUNNaTVYU3RHVzUwWFVOT3M5b292SjNaYXI2Tjk5NGZFOFJ1NkVXdDZMZGFhdw?oc=5",
+      "publishedAt": "2026-08-28T02:13:02Z"
     }
   ],
-  "updatedAt": "2026-08-29T17:06:35Z",
+  "updatedAt": "2026-08-29T19:41:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
