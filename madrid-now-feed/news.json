@@ -2,34 +2,54 @@
   "version": 2,
   "stories": [
     {
-      "id": "3615de5488a5a897b0d4",
-      "category": "Official",
+      "id": "78c770fefa4fa3be7955",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Real Sociedad | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONnF0enRzemFGeUhwb2xrZ1Y0aTBUb0djVXRNNHdBYWtJcUlvZ1MteWZ2dWF2TXV4QW82WkhLUVdFQTNZMDFaaV9DemdpMHYzT3RIS2xwTVZGcWVLNVYxSUhiX2s2cjZFM0xJQXo3WXU0MFN2Y1AyTXNVQ3RGQTBnN3N1Sm11Z004QW1BbHh0OEswcUxwQVg1QmdFT3VrcjVmZ2VtS2hUdw?oc=5",
-      "publishedAt": "2026-08-29T23:26:04Z"
+      "href": "https://www.youtube.com/watch?v=gXJgBxBeysI",
+      "publishedAt": "2026-08-30T12:55:57Z"
     },
     {
-      "id": "534b45fa9cb1df5c0feb",
-      "category": "Official",
-      "time": "NEW",
-      "title": "24 years since the first UEFA Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzRRVDVkT1RqSE9xeWJReHEybElkYUpXeGdOdzdwdnVPRmx3WVZOTDJDYnNyTWRndXpOMUJyUUxPc0ZPYnVtbm93ckExLUp3UnB1bVhfa0xoV3lLbE15YWYyM3ZJRlVyaFRPYUJDM2stTzBEYndxdXNrU2JKSkZUWE0tY25EMzJlNUNVdEFaM0lRX0RhTTJFUFlmdUdHUFRCSWRIV0lwUHUyclQ5V3ROZDNVVkVUWXFZeHc?oc=5",
-      "publishedAt": "2026-08-29T22:27:14Z"
-    },
-    {
-      "id": "2ee469b86271b2f52ce8",
+      "id": "9484e2c433d978f4dce8",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid-Málaga: continuing the strong start to LaLiga",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
-      "publishedAt": "2026-08-29T22:27:12Z"
+      "publishedAt": "2026-08-30T12:18:13Z"
+    },
+    {
+      "id": "74a18139383233218999",
+      "category": "Official",
+      "time": "NEW",
+      "title": "A GOLAZO to remember! #Cristiano 🆚 #Málaga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=DVDyGGqxRoQ",
+      "publishedAt": "2026-08-30T11:48:54Z"
+    },
+    {
+      "id": "4572550a821dbe5990cd",
+      "category": "Official",
+      "time": "NEW",
+      "title": "24 years since the first UEFA Super Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzRRVDVkT1RqSE9xeWJReHEybElkYUpXeGdOdzdwdnVPRmx3WVZOTDJDYnNyTWRndXpOMUJyUUxPc0ZPYnVtbm93ckExLUp3UnB1bVhfa0xoV3lLbE15YWYyM3ZJRlVyaFRPYUJDM2stTzBEYndxdXNrU2JKSkZUWE0tY25EMzJlNUNVdEFaM0lRX0RhTTJFUFlmdUdHUFRCSWRIV0lwUHUyclQ5V3ROZDNVVkVUWXFZeHc?oc=5",
+      "publishedAt": "2026-08-30T07:00:00Z"
+    },
+    {
+      "id": "1c91e34cfea743f047cb",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Arsenal vs Real Madrid | League phase table",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORG53WTdZdllIVy1nNkZOMmRNMC0zV3gxLUtEWTBJX3RwbjZqRXNHV21COVhBa04zTVhmanExNWJCWURGUnlUVlk5Tk0tWUhXbGxVd0syenBiWHFhOURmT0hmSXdETE40WWpYdjI2V3RmRzFBdmRIazV1UFhMTEJxaU9OR2wwTWhCd3NWZmFlOTBWcEk?oc=5",
+      "publishedAt": "2026-08-29T21:45:29Z"
     },
     {
       "id": "6a86055359d994d0bc00",
@@ -92,6 +112,26 @@
       "publishedAt": "2026-08-29T16:53:11Z"
     },
     {
+      "id": "5fb8801affac8b8b4732",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Roma vs Real Madrid | Match info",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFRVVnA0QzdfOG9FRlBjTHQwNENmRktxaTcwQWw3RmxsZWY5bnd2Zl9hZU1OdDhTbTBkdXJmSGVWTUZPZWhHM0Z6UXZLTWVXSWFSMHhidFhwRHBEcnJtNWN5Y1VBUGYtWnBFUUhUTHppWEFMR2dhdU95MzhxNXpWSGd6Q1k3YjRmNlAtX0xpYw?oc=5",
+      "publishedAt": "2026-08-29T16:36:36Z"
+    },
+    {
+      "id": "44817f3e302b514450b5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Roma vs Real Madrid | League phase table",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMV9jd04wT1VWTmNha0dVZml1WndZTUloRWVCUGtzNVM1SUh5dkNlellsX0hXVENQR3hmU2NOS1Zza0NLdW1lOVhtVl8tT0FaNjVFaHlGS0Uxek9vQ2xTcGFybkRCamNnc01XOVBySkt3TE45UEJGbG5PSUlvc1FIS1h0TDJRZFloQWUzTl9Xbw?oc=5",
+      "publishedAt": "2026-08-29T16:36:22Z"
+    },
+    {
       "id": "9327bda56a1fcd91e40e",
       "category": "Matchday",
       "time": "NEW",
@@ -132,6 +172,16 @@
       "publishedAt": "2026-08-29T15:33:03Z"
     },
     {
+      "id": "955c4957c4b58f5a8e31",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid vs LASK | Squad lists",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ05sa2xVNkZsZ01Fci03SlVEalJqc0h2Q0toMEcxQk9xaDNuZGk2YlJIWVRvWWNsaTJlaTdld0VHUkJsdWFsT2NJNlI3U0VmdERkSEVxR1ZzUS1ETWt4dnR0bU15bkRZU0YybWEtMWxGNzd0TVItdGZiYnRaMFZpQzBxb0JKdzJLV3hZbA?oc=5",
+      "publishedAt": "2026-08-29T15:31:38Z"
+    },
+    {
       "id": "f1fba070f20b4bb1951c",
       "category": "Matchday",
       "time": "NEW",
@@ -140,6 +190,36 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=oLzJT06rRhE",
       "publishedAt": "2026-08-29T15:30:12Z"
+    },
+    {
+      "id": "be2a6d563fae5fd398e0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid vs Leipzig | League phase table",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRDN2eXVZNmJIbi1IX1hZNlhJWjZsZVZ4YjZDdWwtaXpodWhMenkyckhoUDNUNnBZOC1HRm1way1DN1BfRnJQNk1ab0xwS0xfeTVPY2VCRVdlY1hMcXlWeW4zUzN1S0Nqa29hUGZZQTdpZnZDWTRHdnlPZ0lOMFVKa3lFUFVTTGpqSGdlNm9KN3dnRE0?oc=5",
+      "publishedAt": "2026-08-29T15:23:53Z"
+    },
+    {
+      "id": "dacb21b83c45f23e3616",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Shakhtar vs Real Madrid | Squad lists",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTG5TLUlxV3VzcFJBcUd0d0V1eHVrM2phNUJlX0tweDdpX1F2dFVISVAtd09LalVMWUNSd3BMVEhsMEkwZ0xKb3ltT0Fla3p2ay1xRW5kMDl0X3VUN25DOFhzTzNjTzlOYV9WcXNKdy1WOWNFS3g0SHJnYzNiWTVFYXpMZ2Y4YXZ3X2VTRUI3WVhYUQ?oc=5",
+      "publishedAt": "2026-08-29T15:18:00Z"
+    },
+    {
+      "id": "ae04536e64b07600bd20",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Shakhtar vs Real Madrid | Match info",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb0VMTVJ1dVAyTExBM0IyNVJuWmhCYjFPWHRwUHI3bV9MbHh0SXJleVU4cEpJMk92LXRUZlRxcmFuSXRuMVB4ak5Ybmd1NVBVY2w5YjR2bEdjX2FNd3BrZngxOFF3UGZkWmN5ZHkybV9Ta0lxVGhhTzNyV3d0QWlSWmszMXBqN011YmNURXZXakxiTXB2?oc=5",
+      "publishedAt": "2026-08-29T15:16:25Z"
     },
     {
       "id": "7fe4b6caf0c9bf34028f",
@@ -160,6 +240,26 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFR6U0N4VV9tWXpVRm1HWnNGdUxad2RDdzRJSUpXYjhPVEVfbUt5RVN2bUZmMmt3VGVtcGFzOWpqQ1dzZDNtNlppMEh3M0hBUzVXZU90ZkhWWlZHbWZSd2l0UjY3SUh0REgxdmhHWEhBV1E3Q05KVFdPNnI0RUsyeFBlbEktVUIydFAwWTBMMXo?oc=5",
       "publishedAt": "2026-08-29T15:02:55Z"
+    },
+    {
+      "id": "c3e4b55926546a77f1b0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid vs LASK",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3pfNExlQy1NNlRJbFBGYUpxckVHeG5KaUxjYlBIUzVpSmZMUDRQLV9LM3M4NFNXSGZLbktUSUVGcU5PcEs4R25ZUVdiWjU3Q3pWbm1TZUpnS0RRbWJUejJhZWV1dHZRM1VQVDFmQmVzdE40ekFCYkNxdFhGVUdJalVn?oc=5",
+      "publishedAt": "2026-08-29T14:22:03Z"
+    },
+    {
+      "id": "39c659ed00a995b324d3",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid vs Leipzig | Match info",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXAyUERQVVVuT1ZPUkV1QmhqbExpOG5VaUFwMFhqdEpfRWszMHFocU8wamtWOWprbXBLM2FTdWNKUktZODZZYThWbnVudGJ1WnFWSWpPZzNVSnlHbks5REtrN3pHMjl0Y0ZJOEUzTWNKVjE4U1dEU2VrcXJSR2pvYXR1Z09hZEg3NG0yekNOVXF1ejQ?oc=5",
+      "publishedAt": "2026-08-29T14:03:56Z"
     },
     {
       "id": "c69cce306b1bd98f1a83",
@@ -192,117 +292,17 @@
       "publishedAt": "2026-08-29T13:04:40Z"
     },
     {
-      "id": "d1471ca5cd98552f7ecf",
+      "id": "5fc08dd978bb32a412b9",
       "category": "Official",
       "time": "NEW",
-      "title": "AEK Athens vs Real Madrid",
+      "title": "Real Madrid vs PSV",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2hEdnF6TjlfeHRPdGVxdGRUNlRYVy1OWW9lalZXaU5sdXpPVzJrTm9VbGliWWZubWpFS3gzcFFsOU9mdXhvY2xoSzJaY3FVcjRXUVlxbFNRWEsyRnNkblY4TGxQWVlkMWtkQ3lCUldSR0lSaGhLU1lZZXU0UjQxZTBscTVXWlRaSHc?oc=5",
+      "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQjM4S0xsOHVYM3Y4T1hQam9Gd1k4ampNV3JxSnBQVTdZcm15aEU0YmJZbi1YN1RhWi1UbVM1SXBlQzFrUU5SdGJLLVk5ZjJHMkhlTTJOXzRZTk9lZ0dqUkphRzBnWUJ2NGNCZjRpWkFYN3NUWUppY3pIaDY0REQzeA?oc=5",
       "publishedAt": "2026-08-29T13:04:40Z"
-    },
-    {
-      "id": "5f43d2e77a00ff43814f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Roma vs Real Madrid",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOEpDVklraEZ4QWNHSHZnZ3d1REwwcU1TcjJhU2Z4SHV4WGZ5cjdib1k5X3RwRlRUUHE0MFE3NmR3bW5jWjM2bmNBRERUS05xNGx5T1Z2YVpMT2REMHY4WDdQVXNydnhPdHVNelRTbnM2alh5UjRxOWJOSjVsSGlCa0lB?oc=5",
-      "publishedAt": "2026-08-29T12:36:15Z"
-    },
-    {
-      "id": "df11ed543e38890ba902",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid vs Inter",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN3pQb1pyMGZIV1lNMXRudFJXVzE4cEtoV0ptMnMzUW9hbVBPdjJNQmR0TFpTMDNsWmlOek1zMUliUkFwTzl3SlpDWk12bXk0ZUtkYlNUV05nODFSbGJ1bGdlWnp1OG9xamQ4Z0tJUFZCMjBDcWg4eDVaOHJDZXRocmdVOA?oc=5",
-      "publishedAt": "2026-08-29T12:08:18Z"
-    },
-    {
-      "id": "5f1586ce4ad81cbe57e7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔥 DIOMANDE: “I WANT TO WIN THE CHAMPIONS LEAGUE WITH REAL MADRID”",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=Pe8xQQeFsP8",
-      "publishedAt": "2026-08-29T09:20:24Z"
-    },
-    {
-      "id": "e599e2b3b709e0fd2ede",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🎨 Adding some colour to football! #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=dzq11I-ICFg",
-      "publishedAt": "2026-08-28T19:00:14Z"
-    },
-    {
-      "id": "348db4d88f2d82bc6e96",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid vs Monaco: Watch every Kylian Mbappé goal | Video | UEFA Champions League 2026/27",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNjNpQlpOUjFuVDJXNTRyMTFmVFQyZ1I2bWpQbWE3dnhBQU02Mm52b3pDSktWcHZZMEpLV3hmZFdYRlUtZjVHQkIzcFFEMndGdFoxVE1rWlVYLWJGQnR4cTdBOFhmZGpxbW1kcVFKUm9wWXd1UjZlMFpXTkdCMzBBZzlGbF8ta2pjbHZSTkNCQ0poams2ZTh0eUpDeERPaVdIZlpBd0RvaEdMZXlFdENwc25tbWtCLXpORXBNdEYyZkhmaWl4Y0FkY0NNcXgwbE9NV3FF?oc=5",
-      "publishedAt": "2026-08-28T17:11:52Z"
-    },
-    {
-      "id": "2e3f07c6fcd94dbe2fa4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "The Real Madrid Graduate School – European University and FIU Business celebrate five years of collaboration",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQM3haQ3k0b3VzNDJfZ2d6TE03R3pYTGhRR05fck5NQW9sVUxJYzRoV01fOUF5Tzg5cDR6Mk4wU2lKZHA4endRTExZTEFLUS04aVkyeEFJaUpFbm5RUlFuWFMtMEdWT2staWRrWS1oR28zSHlUclNLZ3dYQUdlLXVfWlZETDlXb1dlQk1zZi1VWXIzR2VBeTlub3g3QVV3aExGblB0cnZWNFdJbGI5MHNoYVJ5SHo1LWJremJiZklIQTRrX1d2RXNvU1J5WG9RQUdkdjg4QlZJT3BRQTBVWmF5a1RmRlZzaEo1OUhfSXhYZVRjZFFHZ19DV1JFZzJqMkVSZ0w5ZDAtYw?oc=5",
-      "publishedAt": "2026-08-28T16:32:00Z"
-    },
-    {
-      "id": "53f2178cf6d2c5df05ff",
-      "category": "Official",
-      "time": "NEW",
-      "title": "✅ Work done for today!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=9_bcApAHOBI",
-      "publishedAt": "2026-08-28T15:37:01Z"
-    },
-    {
-      "id": "1dab8f0427ee5f6e961a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This is how Jones plays",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb3BhdG9lZDFNNUttSGZ6N0JDSlNmdTQzel9ncDJySjFSM3dQeVROOG1VZlJRd1NOTHlmSVpZWVdsbzdlcjc3bTVNM3R1M19KZnFPTE4tRDJKSzFwOE1tYlJhSXRnckVuNWNSTFU5aWtWSndsc25RTUFsODEzSnRaLWFrLWVlUklGZDNhVWVVbl90em9nMDBneWlZOE1DeTVkRWV6cThuQnd5MEx2X0huODZRbUV4aUlKQzNHZWpfZTc1STRPRGx1dkFyRkQ2ZFhEUVdNa2pkVDJGLVc0SFB3?oc=5",
-      "publishedAt": "2026-08-28T15:01:47Z"
-    },
-    {
-      "id": "38eaac1ffda7fdc1b087",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement: Damian Jones",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdFlNSE1HWThQbUxsVXBBalc4OFUtTVNDWUZXYnZYUjdxdHAzdEZueWUzaVR5YWRuN3h0LWQ2ZEtucDhrT3dGYWNhOFJDZEpxNGJlWHcySjhCSTVrMnBQajVNTzdITVhXcF84TTJtUmpUd3hMSVNXRzJRT0hmdjR0TkRKWHFTWldrN3N3eEVDbU9ndGc5QWU0MW16OUNZSGdu?oc=5",
-      "publishedAt": "2026-08-28T12:53:00Z"
-    },
-    {
-      "id": "91b309fb48f407488003",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Damian Jones' Medical Check-Up",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVldmdTRuMkZzbzFBaWRYOHdhUUstRWdxQV8yZ2loTU8zcF9hbGhUSEw2cnN0N1NwWGI0V3ZueEkyT0U3LVg2OGdyTVBZWlUtX1lmRlpISnRrVkx2Q2RtTlpoWVlsTDF5d3ZVaUkyQkRrQUVYWk9YMFpLMndFX0ZrT01tWnY4NmR3b3JRaHFKTFB6di03TmpaNkh1Mnk0M0R0ZHNDZHc1YTZ3WG9reVhIQ19TVDhqZE0?oc=5",
-      "publishedAt": "2026-08-28T12:00:04Z"
     }
   ],
-  "updatedAt": "2026-08-30T01:38:25Z",
+  "updatedAt": "2026-08-30T12:59:02Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
