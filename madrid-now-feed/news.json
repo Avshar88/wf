@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "4a7f104f243eeec602e9",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "GOALS | Real Madrid 4-0 Málaga | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=PlJ2Nodosdo",
+      "publishedAt": "2026-08-30T21:33:46Z"
+    },
+    {
+      "id": "10050aa2b6f92eaac4a8",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Real Madrid 4-0 Málaga CF | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=y-J_ZKFyWX8",
+      "publishedAt": "2026-08-30T21:33:09Z"
+    },
+    {
+      "id": "5dec9a3a77a3ce0228e0",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Málaga: continuing the strong start to LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
+      "publishedAt": "2026-08-30T20:09:00Z"
+    },
+    {
+      "id": "173f3200012a4a746486",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "✊ #ArdaGüler #LaLigaHighlights #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=jtB0g2Y3J5o",
+      "publishedAt": "2026-08-30T19:52:48Z"
+    },
+    {
       "id": "bfba81b4c861aac23843",
       "category": "Official",
       "time": "NEW",
@@ -60,16 +100,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=gXJgBxBeysI",
       "publishedAt": "2026-08-30T17:17:58Z"
-    },
-    {
-      "id": "280f0e0bb57b537de860",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid-Málaga: continuing the strong start to LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
-      "publishedAt": "2026-08-30T17:14:32Z"
     },
     {
       "id": "895395cea91dcb88b4de",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTmdHSkQ1aGs2V0ZOaE80WE9VOWtHWUd0MnlCQ2dnTk9QX2hOTEZHSGlDbUhZZlNzXzllbXdLalR3YkMtRkl1bkpkRHA2aUR1T3JTMnhxR3NkLWQwS01RR1I5UEdWU3VrRTdGTUFYSUJPMFZjTVFBNHFQVGhSOXh3bUVHNlc5SXEybmdIeWphWFlOYnRIWGJXb1BfYnVLdHFXR0txX09VQmdVSE9CTEV6RktoVjdfbW5tOEp0QlhtMTRrTUtCc2t0NWVhN0Zha19Rb0pNUVE0UVpHalFVTmVYQkRwYjdNUQ?oc=5",
       "publishedAt": "2026-08-29T16:20:00Z"
-    },
-    {
-      "id": "2d5ca23d7529729da1bc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: 'We have a strong squad with solutions'",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQng4YWsxTU02WnJIR0IxdllJQVZvZmQzWnItdjFEWlpBdzNOUF9KNGFWZFB4RGV5enpQTFIyeERSY0d6RFpqRWtpUGs4TTFNeWd5VUp6eTFJaWVPVVpWYjZ6dGs4dDJJS2lodUFHQ1ZHdDB6eXc5SmhyVDBwMm8zSDVkZ2F0cFBrVUdqaDcxWUd3MW9Jdl9RNFBn?oc=5",
-      "publishedAt": "2026-08-29T15:39:00Z"
-    },
-    {
-      "id": "e02a6a7d89b6b3275624",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🫡 WAIT for that Rüdiger goal!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=NYGEcKw0IrY",
-      "publishedAt": "2026-08-29T15:37:13Z"
-    },
-    {
-      "id": "b0e1d9dbe8f382eb8bf2",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid vs Inter | Squad lists",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1dXTWNwUVI5eEhNakJVSE1hQ2RNam5hMDRhcTd6NHlucGlidks4OUdmLVFQR2p2TnltS3YySmdsMW1OOFYxdHRmYVVtejdqdDZPMXRYTEQ4NGNqcVI5QlpqMmxobUxSYU9uUjgzdTRUMjVoYjJudGNCcVFiY2d1UzNWOXBZdnc3enppSTFn?oc=5",
-      "publishedAt": "2026-08-29T15:33:03Z"
     }
   ],
-  "updatedAt": "2026-08-30T19:49:31Z",
+  "updatedAt": "2026-08-30T22:07:47Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
