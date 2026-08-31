@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "2385db3ebd1a86dffb20",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSHBwVk5NYUw5ZWxFSXhoMks2dm8xa0NEWjNTMm5ORWNZZi1iWVVLWFdzelZLS1M2LWZPa0FvVnBDdTh1SW5FM2VwVmUtMVBXUkVkR3J2cVpaellZeXpLRWJ4RDFCSGpRM05uMzJEYmlCbFpib1dnSWpsanE3QzllNUlDMnl3a241Y1U1VldDc3RBdWZCcUMwSFgyU3FhTU5pUENNVXR5cjRVQUJ0ZE5mekk3T19KVzl4WXZwUG1VejVKSEZXeXB5dkRYLUpad1g5bnQ4enF4MldXT3FENGtHbUhFWkxGQjVqOVRSOXlB?oc=5",
+      "publishedAt": "2026-08-31T21:51:31Z"
+    },
+    {
       "id": "5f9cbce6114278cdad79",
       "category": "Matchday",
       "time": "NEW",
@@ -22,14 +32,14 @@
       "publishedAt": "2026-08-31T14:57:51Z"
     },
     {
-      "id": "55034ad9aad8cb2d55a8",
+      "id": "7603dfcc6369cfea08c8",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
+      "title": "This is how the victory against Malaga was experienced",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EM2U2Z0xnM2d6Zi1Xa3lGMVBZQ0YwX2ZjVVB2R25tTFV2bFVlQXRxQXV6QXRtUVVqVVBCLWkwX1VsMUE1Q2NwN0JkT0g3dUxfdUFnSWRrT0tLUnRRSDB3MW13bUdMWXVsUFMxbFg2NC1BTXB3el85bjZ4QQ?oc=5",
-      "publishedAt": "2026-08-31T14:32:34Z"
+      "href": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNb0xYYkJUeEJGOXNsRUg0QUZFMHEwdjVqUzc1VktHcG16dlhVRlpETmNCZ1VISlJqeDI4Yzd6N25iTXpLLUNTUlFla0VIckdNMGgyQ1ZScFVLamNrSEYzYTB6MlluOHlLLU4xWEEtTnNLdDhkblY5ZDdFZEM3MjljcUhibkdBcVd1eVhHRXhkZElMVmtkWFQtbTJCZEZMelRPcFNET3NURGs3MDJadVNaWjNyLVFhOS0tX0RXM090T3kxbU5md1NyOEg1cDZEQVFnMWQ3WWlUblR1QUF0aUtYcEpRQmYtbm9Wckt5Q014RS1XYlRfMFktcjR3?oc=5",
+      "publishedAt": "2026-08-31T14:07:00Z"
     },
     {
       "id": "bd60edc9a7ee6e2860d2",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzRRVDVkT1RqSE9xeWJReHEybElkYUpXeGdOdzdwdnVPRmx3WVZOTDJDYnNyTWRndXpOMUJyUUxPc0ZPYnVtbm93ckExLUp3UnB1bVhfa0xoV3lLbE15YWYyM3ZJRlVyaFRPYUJDM2stTzBEYndxdXNrU2JKSkZUWE0tY25EMzJlNUNVdEFaM0lRX0RhTTJFUFlmdUdHUFRCSWRIV0lwUHUyclQ5V3ROZDNVVkVUWXFZeHc?oc=5",
       "publishedAt": "2026-08-30T07:00:00Z"
-    },
-    {
-      "id": "39ce67b2dadc396faa8e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Arsenal vs Real Madrid | Squad lists",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVktoUnB2VGRTWHlUMllROUFVTHJ5ZEY3enFVbVJ4SWFsNmlMWmhXLU9oYVhaaG1ZdE81YjJFNXkxeFFQUWNiUHo3UzExMl9WV1VJVldsTDZJZHpsS3A2anRLN1BGWjBtRlh3WXFTUDZZeHdyM0Y0M3ZXYThWTWJJV2dZS3dvVnFKWW9UR0hYcnc?oc=5",
-      "publishedAt": "2026-08-30T03:59:46Z"
     }
   ],
-  "updatedAt": "2026-08-31T18:13:17Z",
+  "updatedAt": "2026-08-31T22:49:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
