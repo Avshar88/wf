@@ -12,6 +12,16 @@
       "publishedAt": "2026-08-31T00:25:32Z"
     },
     {
+      "id": "0839d01380798ec63e6f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid vs PSV | Match info",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUVpkQjVwdGRHT05yMDBqMk9QTmdrY25TcEhOSTU5MmhWcERzRXIzZzJhb0wwcDN6R0lkdjFuUWhBRU5PSFFBMzJTWkdkWks4NjdqT01wRTBQSFRxX0l5a2RPcXVfdk1hT0tkWWRmV1hYU3NVRVN4VWZuRllvSm1BNzJaRmVWTXZXUmI5MEFR?oc=5",
+      "publishedAt": "2026-08-30T22:05:36Z"
+    },
+    {
       "id": "4a7f104f243eeec602e9",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Fabrizio Romano",
       "href": "https://www.youtube.com/watch?v=QkV1Y6ptXcA",
       "publishedAt": "2026-08-29T18:55:34Z"
-    },
-    {
-      "id": "06d2e1f80ba729b1ac9e",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "🚨💣 DEALS DONE! TWO GEMS! ARSENAL & REAL MADRID: TWO SURPRISES! GAKPO HOURS! ENZO ATTACK…",
-      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
-      "source": "Fabrizio Romano",
-      "href": "https://www.youtube.com/watch?v=QkV1Y6ptXcA",
-      "publishedAt": "2026-08-29T18:55:34Z"
     }
   ],
-  "updatedAt": "2026-08-31T05:54:37Z",
+  "updatedAt": "2026-08-31T11:54:29Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
