@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "bdf8573f8fe7fa0b7be1",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Kylian = Goal | #LaLigaHighlights #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=GtiHKG_t3dw",
+      "publishedAt": "2026-09-01T09:00:25Z"
+    },
+    {
+      "id": "b9a3f639f74a61d671e0",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "😮‍💨 Jude does what Jude wants... #LaLigaHighlights #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=pTosLW49YV0",
+      "publishedAt": "2026-09-01T08:25:31Z"
+    },
+    {
       "id": "1222481f6d47db51b570",
       "category": "Official",
       "time": "NEW",
@@ -252,6 +272,16 @@
       "publishedAt": "2026-08-30T17:17:58Z"
     },
     {
+      "id": "767dd245987bc657739d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Bellingham: \"We are a great team with quality everywhere\" - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYkloVkZJWF95YU1WMC1OclppMDQ1STlRa083LW9FWmRlbXpsZDN0S3JJcEFPYld4cU9NMlRhcS0wOGRHMHd1NGtrMVRneVFabnRlQzU1RmI3SWZyNFhfTlJxNnlxcEpjSy1hVFFTNmtMckpOM1NoX3Z0azFJbFN2OWNWZ3dDYnI4NnpYck5XYVVmdG40cmNnLUtZaERKd3oyNFE3T25qdkhid3ZVZF83NXJyWW05MVNHSkpMN21xX1gwQ09qSHVfRHpHdzEwV0ZFM3c?oc=5",
+      "publishedAt": "2026-08-30T17:08:00Z"
+    },
+    {
       "id": "895395cea91dcb88b4de",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=2N43xd92B04",
       "publishedAt": "2026-08-30T16:16:11Z"
-    },
-    {
-      "id": "cb7b8465fe7b3c2fe689",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Picture Perfect 📷",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=x5Kr2mvzwpo",
-      "publishedAt": "2026-08-30T16:14:03Z"
-    },
-    {
-      "id": "216d6aa0fd22424b672d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Thrashing and third consecutive win in La Liga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWR3b3NiMy1sSHBPWlowRC1SVDdwak1XalNzNFM4Y2ZVNXJVbVRxci1HT3NpQWNJeDBOSmp3TjFnSm5SaWhNMTBlZWJ3Q3BvU2xsOXlWdmJ4MTZHSGFidnNjb1J6QlBQNXBQbGFMbDB2bUd2YjVrRmVpNXE5M1JDOU1CM1pnRWV5bVhXQUFUdXp6cElIdFRsem9YUQ?oc=5",
-      "publishedAt": "2026-08-30T16:04:00Z"
-    },
-    {
-      "id": "6424b6d916b59a167f89",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid and Málaga starting lineups - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYTVCMmJZMlVmdjIydXA2YlRhZUxxMENKbU5jNHZNNlR1V3R3UHIzZzBNTy0tUGZSYmc1Uk9TY0xZOVYzNTUyTUJ3cjFfTHd1RHphMzJIMkdBYUtIVk1obF9qOFhQVE9wNzBaYkdWamxodF9GcU5WVkcxbks1SnZBZEVxUVZGdndQYVN5ZGo1ZkxKZDZ1aEJaYTZPcEtiNTNnOEFqUG1fMTVTb1V1OGEzNC1YYzhfSk5KVU9sX3FIbGVFeDM3?oc=5",
-      "publishedAt": "2026-08-30T15:55:00Z"
     }
   ],
-  "updatedAt": "2026-09-01T06:21:11Z",
+  "updatedAt": "2026-09-01T11:47:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
