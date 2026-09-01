@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "76702bb3dfbba87f4cc2",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "What's your favourite goal from today's training session?",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=UEaAX9P3GnY",
+      "publishedAt": "2026-09-01T21:07:04Z"
+    },
+    {
+      "id": "b4d5130309ba7781db43",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "All EYES on Betis! | Real Madrid Training",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=zbmV79361Ns",
+      "publishedAt": "2026-09-01T20:55:36Z"
+    },
+    {
+      "id": "5f3584710dd7402d2c59",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Announcement: Manuel Ángel",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEdocUZmV25EeWNLSXItbVQ2TTNRZ2JxbFctMjJSMmdxalllSjlWc0J3b3c1RG13eUt4dTJFeGY3cC1vTzlnSnNQUWJQbnh4SWd2SXZEdHZkTEc2Nm95YzU0TG5jaVZXLUVxSDkwOFNra2NDaXlKTDZzR0VqNVVJQ1hBUlRkT0wxal9nWHFqTjRqdjVGQmpaTWlIYnhudmVR?oc=5",
+      "publishedAt": "2026-09-01T19:26:00Z"
+    },
+    {
+      "id": "cef50414c8c3bb5b719c",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "First preseason day for Alevín B and Alevín C",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY19xMkwwTHJLaVpaaVNzbGpBaU1LTGlKVG9QSmhpMjE0T1R4QXZsb2JUU1lWc0pDbVlMOTZpYXRKU0VCUER2MmtqRXFpVGVPRDZITFA1RkJRYlhucEJDSXpvTjJ6dHYzd05yTklnNTFYRml6V3Njenp5d1VwQnNUMHIxSnZ1ZG13azloSXRsNzdya013cmRZLU43ZE5VYlJsYlZQNzl6Skt3M2pXUXNn?oc=5",
+      "publishedAt": "2026-09-01T16:09:00Z"
+    },
+    {
       "id": "25c649dbb0211ae49e14",
       "category": "Official",
       "time": "NEW",
@@ -260,49 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkhCM0I3TUxId1pzdXlvQWlUa21Na1V5NkZVVUlrdTR5clBQOTVhZWFFUlJub2VaQUlHWEVmdE0zYzU4WVUwcWJuSjJIY2Y4VW52VGxiNWNJRkNHYmR3ck9nelRuUGp0MmttMFBSSHdUd21qUDAwQ04xRHVDYmR5Qm5zSlhQZ2ttMWhNWDkzTlpXTFJ2TVp3dVdoOEhtbGpYdkpvZDRPMmliRVVFQ05jRXVqVi1PN2l2dUZB?oc=5",
       "publishedAt": "2026-08-30T18:54:00Z"
-    },
-    {
-      "id": "19071d8cfea05c7513ac",
-      "category": "Official",
-      "time": "NEW",
-      "title": "1-0: Bellingham finishes a brilliant solo move",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZjNkNDg1TVlHMDdrVjYyLTdVQlIxSUk5TWFDbl9HSmdEY3VHbmJkdzlHSVZWTEtzS0pTTzQtRS1lckU0OEFZTUQyOUxJaFR2TEVaSS1NWTJ3NGg3U2JKQUxYVW55MmNYeXlPRGxEUUhSNmRFUU1PVFdnTlAtemwxRVpsNm1EZWZGQXdONVBaWDRzbjB0OU9NbDZsN21Rd1IzR1NyemE3MnUyemU5ZmZYZEhMdmRmX2ZmcmFIeDF5YkV6TkRFellMMGo0aw?oc=5",
-      "publishedAt": "2026-08-30T18:43:00Z"
-    },
-    {
-      "id": "b05b72fd8dccb57af0a4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"I’m very happy with everyone\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbktaOEVGb1NWMWp1UjQwakNpNXNBeU5rbXgtNkpCNVhXeXNiMXpuaHcxNW9vRVFyZzI2eUh2SHVDUy0wODc2cmh0Y19SdER0UktFM25aMWFrZHVtWWdyaXNOcVBkNzU4ZWFyYXFic1lRelVrMC1ISGxPRnpIWjNRYk12RHVuMVp0dDVOTjZCa2lUTFlWSmxZYWpB?oc=5",
-      "publishedAt": "2026-08-30T18:25:00Z"
-    },
-    {
-      "id": "ff74c89033bf0de4073f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSzN1dlpVT0FjYXpnc1E3ZVlpU29lbkhleWhTRlhIUkFZczM2NlZ2SDFNemhJeEFDV0JvRUlVZldvWHhaTmdKS0Y3ZTFyWUpzYkotM0Y5NVVXd2NaNFNTRHRwaTExVkJiRWJ1T000ZzVRY1dzeElPWWRZR192NlRpb1JRRmI4Mzk2UXlrZURfTjViZ1RtdjNTV0NLTGh4OGloamc1YXRFUlBvTkFLRUJ4aExxeWRiZmQ5bklDSlVYUDM5UUVKNEUwRGdFM2xJclhhQnhjSm9iQjUxeEFEZjNqWFI2VkotR01ScS1ReEpn?oc=5",
-      "publishedAt": "2026-08-30T18:13:00Z"
-    },
-    {
-      "id": "383ba8dcbe13ca19cef4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence” - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSzN1dlpVT0FjYXpnc1E3ZVlpU29lbkhleWhTRlhIUkFZczM2NlZ2SDFNemhJeEFDV0JvRUlVZldvWHhaTmdKS0Y3ZTFyWUpzYkotM0Y5NVVXd2NaNFNTRHRwaTExVkJiRWJ1T000ZzVRY1dzeElPWWRZR192NlRpb1JRRmI4Mzk2UXlrZURfTjViZ1RtdjNTV0NLTGh4OGloamc1YXRFUlBvTkFLRUJ4aExxeWRiZmQ5bklDSlVYUDM5UUVKNEUwRGdFM2xJclhhQnhjSm9iQjUxeEFEZjNqWFI2VkotR01ScS1ReEpn?oc=5",
-      "publishedAt": "2026-08-30T18:13:00Z"
     }
   ],
-  "updatedAt": "2026-09-01T18:46:11Z",
+  "updatedAt": "2026-09-01T21:21:55Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
