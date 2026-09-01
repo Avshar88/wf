@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "b79d7b49bc69a93fc197",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "The Barcelona-Real Madrid match will be played on Sunday, October 25, at 9:00 pm CEST",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSXpFWEtoXzJwZ2ZWNGpUYmFRc2hTRndpeXRNakF0SmlWQmppNGRoOEp1UkxDakFZaWVDaHlhMUVSOFZDUUMyWXRCR2gxbnV0RlZFVTRHVmEtTFp0RThjRE8xd296RUlheTd3bUhSM201TkhDRFdMay1zeHRORGsyNWUyQ3dCNTR3bThkM0lZTGJ6S2ZTRzFLaFJrNndwVENQb3dlZ20yNy1OQk5vbGpVTFNST3lNaURtcFdDYU5VUkt6M3NhazFKdlBxajYwODZyWmJXdnh6TDRMUmZwVk9YSzdtZkhKY2p1X3c?oc=5",
+      "publishedAt": "2026-09-01T13:53:00Z"
+    },
+    {
       "id": "bdf8573f8fe7fa0b7be1",
       "category": "Matchday",
       "time": "NEW",
@@ -22,20 +32,20 @@
       "publishedAt": "2026-09-01T08:25:31Z"
     },
     {
-      "id": "1222481f6d47db51b570",
+      "id": "2385db3ebd1a86dffb20",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
+      "title": "Web oficial del Real Madrid CF",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSHBwVk5NYUw5ZWxFSXhoMks2dm8xa0NEWjNTMm5ORWNZZi1iWVVLWFdzelZLS1M2LWZPa0FvVnBDdTh1SW5FM2VwVmUtMVBXUkVkR3J2cVpaellZeXpLRWJ4RDFCSGpRM05uMzJEYmlCbFpib1dnSWpsanE3QzllNUlDMnl3a241Y1U1VldDc3RBdWZCcUMwSFgyU3FhTU5pUENNVXR5cjRVQUJ0ZE5mekk3T19KVzl4WXZwUG1VejVKSEZXeXB5dkRYLUpad1g5bnQ4enF4MldXT3FENGtHbUhFWkxGQjVqOVRSOXlB?oc=5",
       "publishedAt": "2026-08-31T21:51:31Z"
     },
     {
-      "id": "2385db3ebd1a86dffb20",
+      "id": "1222481f6d47db51b570",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
+      "title": "Web oficial del Real Madrid CF - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSHBwVk5NYUw5ZWxFSXhoMks2dm8xa0NEWjNTMm5ORWNZZi1iWVVLWFdzelZLS1M2LWZPa0FvVnBDdTh1SW5FM2VwVmUtMVBXUkVkR3J2cVpaellZeXpLRWJ4RDFCSGpRM05uMzJEYmlCbFpib1dnSWpsanE3QzllNUlDMnl3a241Y1U1VldDc3RBdWZCcUMwSFgyU3FhTU5pUENNVXR5cjRVQUJ0ZE5mekk3T19KVzl4WXZwUG1VejVKSEZXeXB5dkRYLUpad1g5bnQ4enF4MldXT3FENGtHbUhFWkxGQjVqOVRSOXlB?oc=5",
@@ -68,7 +78,7 @@
       "title": "This is how the victory against Malaga was experienced",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNb0xYYkJUeEJGOXNsRUg0QUZFMHEwdjVqUzc1VktHcG16dlhVRlpETmNCZ1VISlJqeDI4Yzd6N25iTXpLLUNTUlFla0VIckdNMGgyQ1ZScFVLamNrSEYzYTB6MlluOHlLLU4xWEEtTnNLdDhkblY5ZDdFZEM3MjljcUhibkdBcVd1eVhHRXhkZElMVmtkWFQtbTJCZEZMelRPcFNET3NURGs3MDJadVNaWjNyLVFhOS0tX0RXM090T3kxbU5md1NyOEg1cDZEQVFnMWQ3WWlUblR1QUF0aUtYcEpRQmYtbm9Wckt5Q014RS1XYlRfMFktcjR3?oc=5",
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONk1QWGdSV094b3dtR1JqYWJoNENqVmlVRWZFUXo2d2lXcmhZSHRnYkh5UWtUSVQ3SUZfWG41aDZjS242WWNiNUhId0Z0enROVkFoY1lSTkRXaHFiN3RkUndnNG9VZVdHQk1aakNNUUswcFNXSmxMLXZsdGhMZmNYNTZWUk9paGVlQ1EwVWFKOThiMkFmVkhQdmV3TVo3dVVVekRZMEFhdTIwa3pIcE5MVlUxRHhoS1F0ZXpMM0RB?oc=5",
       "publishedAt": "2026-08-31T14:07:00Z"
     },
     {
@@ -112,16 +122,6 @@
       "publishedAt": "2026-08-30T21:33:09Z"
     },
     {
-      "id": "8b8ba34b776061caf137",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Madrid starts the season with a derby victory - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQV83bk9XMVZLcXJJckZaYmlLdE1NdUloOWpybWVid3BfaXFTY1FUV1lCWDdTM0pDQk1iVkNUYnVsNnR2dVhQT3BIaFRRdU1SejAxRjZrNXNJa19PdXdXUmJEYVVSLTVjY2VZTzZKYmpfUURLR2l6SmlYeEpkZ0w1UkNPV1JoanpqUnhvcVhjcDgydFFmX2dKTUloZVI3TWh1TFM0SVo4QU4zSElJOGRQRUlCVmdDaGtuNjBJLVI2YzBBZjNJLWFaUHpn?oc=5",
-      "publishedAt": "2026-08-30T21:00:14Z"
-    },
-    {
       "id": "f51cc8e8dc279db9b4b9",
       "category": "Official",
       "time": "NEW",
@@ -132,20 +132,30 @@
       "publishedAt": "2026-08-30T21:00:14Z"
     },
     {
-      "id": "5c60688aa43a6a68ecfe",
-      "category": "Matchday",
+      "id": "8b8ba34b776061caf137",
+      "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid-Málaga: continuing the strong start to LaLiga - realmadrid.com",
+      "title": "Madrid starts the season with a derby victory - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
-      "publishedAt": "2026-08-30T20:09:00Z"
+      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQV83bk9XMVZLcXJJckZaYmlLdE1NdUloOWpybWVid3BfaXFTY1FUV1lCWDdTM0pDQk1iVkNUYnVsNnR2dVhQT3BIaFRRdU1SejAxRjZrNXNJa19PdXdXUmJEYVVSLTVjY2VZTzZKYmpfUURLR2l6SmlYeEpkZ0w1UkNPV1JoanpqUnhvcVhjcDgydFFmX2dKTUloZVI3TWh1TFM0SVo4QU4zSElJOGRQRUlCVmdDaGtuNjBJLVI2YzBBZjNJLWFaUHpn?oc=5",
+      "publishedAt": "2026-08-30T21:00:14Z"
     },
     {
       "id": "5dec9a3a77a3ce0228e0",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid-Málaga: continuing the strong start to LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
+      "publishedAt": "2026-08-30T20:09:00Z"
+    },
+    {
+      "id": "5c60688aa43a6a68ecfe",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Málaga: continuing the strong start to LaLiga - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnBqZENZWjRCTW9ta1o5cW4tRy1rTlJvY0FxZW9WLU0wMThISXB4T25OQ001UHh6al8zSEJoWGt2b09qbmNiR0ozbENITkR4WXA2eWNFMjZ4dVBOamZ3TmM0X29hR1N1VnJYc2d0eEF3bjdxbDM5Y3ViVkRhaHg0UDVWUkZmMklHU0thbnBVNU9xcGxuS0xzbllPbkV2UmFWa2k3OFlGM0hOVEFZVlJ6M1FpQlU4SkxxSTZCc1lRei1tdU5ZT202NHBiQUljaGtWc2xN?oc=5",
@@ -182,20 +192,20 @@
       "publishedAt": "2026-08-30T18:55:00Z"
     },
     {
-      "id": "33d2e8977467558af2b9",
+      "id": "f24910162988e2892911",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Mbappé scored the third goal assisted by Trent - realmadrid.com",
+      "title": "Mbappé scored the third goal assisted by Trent",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkhCM0I3TUxId1pzdXlvQWlUa21Na1V5NkZVVUlrdTR5clBQOTVhZWFFUlJub2VaQUlHWEVmdE0zYzU4WVUwcWJuSjJIY2Y4VW52VGxiNWNJRkNHYmR3ck9nelRuUGp0MmttMFBSSHdUd21qUDAwQ04xRHVDYmR5Qm5zSlhQZ2ttMWhNWDkzTlpXTFJ2TVp3dVdoOEhtbGpYdkpvZDRPMmliRVVFQ05jRXVqVi1PN2l2dUZB?oc=5",
       "publishedAt": "2026-08-30T18:54:00Z"
     },
     {
-      "id": "f24910162988e2892911",
+      "id": "33d2e8977467558af2b9",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Mbappé scored the third goal assisted by Trent",
+      "title": "Mbappé scored the third goal assisted by Trent - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkhCM0I3TUxId1pzdXlvQWlUa21Na1V5NkZVVUlrdTR5clBQOTVhZWFFUlJub2VaQUlHWEVmdE0zYzU4WVUwcWJuSjJIY2Y4VW52VGxiNWNJRkNHYmR3ck9nelRuUGp0MmttMFBSSHdUd21qUDAwQ04xRHVDYmR5Qm5zSlhQZ2ttMWhNWDkzTlpXTFJ2TVp3dVdoOEhtbGpYdkpvZDRPMmliRVVFQ05jRXVqVi1PN2l2dUZB?oc=5",
@@ -222,20 +232,20 @@
       "publishedAt": "2026-08-30T18:25:00Z"
     },
     {
-      "id": "383ba8dcbe13ca19cef4",
+      "id": "ff74c89033bf0de4073f",
       "category": "Official",
       "time": "NEW",
-      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence” - realmadrid.com",
+      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence”",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSzN1dlpVT0FjYXpnc1E3ZVlpU29lbkhleWhTRlhIUkFZczM2NlZ2SDFNemhJeEFDV0JvRUlVZldvWHhaTmdKS0Y3ZTFyWUpzYkotM0Y5NVVXd2NaNFNTRHRwaTExVkJiRWJ1T000ZzVRY1dzeElPWWRZR192NlRpb1JRRmI4Mzk2UXlrZURfTjViZ1RtdjNTV0NLTGh4OGloamc1YXRFUlBvTkFLRUJ4aExxeWRiZmQ5bklDSlVYUDM5UUVKNEUwRGdFM2xJclhhQnhjSm9iQjUxeEFEZjNqWFI2VkotR01ScS1ReEpn?oc=5",
       "publishedAt": "2026-08-30T18:13:00Z"
     },
     {
-      "id": "ff74c89033bf0de4073f",
+      "id": "383ba8dcbe13ca19cef4",
       "category": "Official",
       "time": "NEW",
-      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence”",
+      "title": "Courtois: “Keeping a clean sheet is important for the team’s confidence” - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSzN1dlpVT0FjYXpnc1E3ZVlpU29lbkhleWhTRlhIUkFZczM2NlZ2SDFNemhJeEFDV0JvRUlVZldvWHhaTmdKS0Y3ZTFyWUpzYkotM0Y5NVVXd2NaNFNTRHRwaTExVkJiRWJ1T000ZzVRY1dzeElPWWRZR192NlRpb1JRRmI4Mzk2UXlrZURfTjViZ1RtdjNTV0NLTGh4OGloamc1YXRFUlBvTkFLRUJ4aExxeWRiZmQ5bklDSlVYUDM5UUVKNEUwRGdFM2xJclhhQnhjSm9iQjUxeEFEZjNqWFI2VkotR01ScS1ReEpn?oc=5",
@@ -272,6 +282,16 @@
       "publishedAt": "2026-08-30T17:17:58Z"
     },
     {
+      "id": "c47aada76e94141f9f37",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Bellingham: \"We are a great team with quality everywhere\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYkloVkZJWF95YU1WMC1OclppMDQ1STlRa083LW9FWmRlbXpsZDN0S3JJcEFPYld4cU9NMlRhcS0wOGRHMHd1NGtrMVRneVFabnRlQzU1RmI3SWZyNFhfTlJxNnlxcEpjSy1hVFFTNmtMckpOM1NoX3Z0azFJbFN2OWNWZ3dDYnI4NnpYck5XYVVmdG40cmNnLUtZaERKd3oyNFE3T25qdkhid3ZVZF83NXJyWW05MVNHSkpMN21xX1gwQ09qSHVfRHpHdzEwV0ZFM3c?oc=5",
+      "publishedAt": "2026-08-30T17:08:00Z"
+    },
+    {
       "id": "767dd245987bc657739d",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYkloVkZJWF95YU1WMC1OclppMDQ1STlRa083LW9FWmRlbXpsZDN0S3JJcEFPYld4cU9NMlRhcS0wOGRHMHd1NGtrMVRneVFabnRlQzU1RmI3SWZyNFhfTlJxNnlxcEpjSy1hVFFTNmtMckpOM1NoX3Z0azFJbFN2OWNWZ3dDYnI4NnpYck5XYVVmdG40cmNnLUtZaERKd3oyNFE3T25qdkhid3ZVZF83NXJyWW05MVNHSkpMN21xX1gwQ09qSHVfRHpHdzEwV0ZFM3c?oc=5",
       "publishedAt": "2026-08-30T17:08:00Z"
-    },
-    {
-      "id": "895395cea91dcb88b4de",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔟#LaLigaHighlights #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=wwodh1DOtRI",
-      "publishedAt": "2026-08-30T16:20:25Z"
-    },
-    {
-      "id": "4952c801d3586d167599",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🫲🫱 #LaLigaHighlights #RealMadrid #Bellingham",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=2N43xd92B04",
-      "publishedAt": "2026-08-30T16:16:11Z"
     }
   ],
-  "updatedAt": "2026-09-01T11:47:32Z",
+  "updatedAt": "2026-09-01T15:33:53Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
