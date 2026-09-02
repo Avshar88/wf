@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "d487511dac8affcf99aa",
+      "id": "c038ffbad843908c3136",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid squad for the match against Ajax",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORWZPUmIzVUt1X1hvV2t1eXhKRmo4SE1UejhCNW9FcXZEaWlMU0RBM0ZVVWdOdExpQjVUTnE1OWlIUDIwRHpwdXY3V2dyWEVuRkd3S1FmZ0J1OFhYVEVuWjR4SDN4NWxQTFNGb1hlOVJQMHdaQVVTZEhkcVRsWGprOXo2UXRLUWlRaTFGZmJ0Z2lSYzNVRWI5N1pCOTAyV00xdEZzQ1d3bk85MkQ4bFhFUzBNb2czUHpSb29kX1hOSlo?oc=5",
-      "publishedAt": "2026-09-02T16:17:09Z"
+      "publishedAt": "2026-09-02T18:05:00Z"
+    },
+    {
+      "id": "85f765889689c73ee151",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Baskonia: second preseason game, Saturday at 8:00 pm, live on Real Madrid TV",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVzZ4cEFqMkZsZkJpS3gxbVdWZTQzTE1qM3IzZ0hKbm96SjJtX3VYREIzZ0NxemQ1cnBROUsxR0NDdE9iSm5ablR5MHd0dVdIQ3NRRTYzYU9lSWw1X1NpN1lJUTFhY016VVc3WXoxZFlyOTZBWGJOOWxscHZ6WDZhSDFROEdLdTk3TnJqWVBkNmxfUUFJczIzSnpmTC1IbW9Zc3lwaFpGYkpPbmdMbzFnTWxMbnk2elBkRWJmdk5GWWJNSmU1TWdxUGpQcXBQUmtDNmxDdDRzbEdOaHN6Vy1GUHJDVTVoY1ozYzhMZmo0X2JJU3c2NGE4YWV5Z3JLMUNhdmVIc2Y4amgyb0lwaVUyaXQxYWtaZw?oc=5",
+      "publishedAt": "2026-09-02T15:17:00Z"
     },
     {
       "id": "2be7ab9ef180eced3330",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT0FyN25yT2pSdGQzSnRnWHRYWE1xM3Jic0tHdUFyU2pyY1pZTXZSd3VMeDJaTG04azBFbGJFWG9LZGFwUzRnT1dBeUR5SzUxVUJtU1Fab3Axa3BJTGFLbU8zNnpIZnRmZEFlckZMVmxYSVl0YU05M2xsYWpCNUNMUVhBU3BDeV9XS2dQUlB5UUl6ZDdHenhXdFFNUkh3Nk5nM2dwZ1hlb0lyYXBBc3QzTWFlbllrWDBFcE9yc2xhazgzcVZQTWUxOVVMWEs?oc=5",
       "publishedAt": "2026-08-30T19:40:00Z"
-    },
-    {
-      "id": "bfba81b4c861aac23843",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Moment of silence at the Alfredo Di Stéfano",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUjZJUkJhcG1uSGQwdUM1OU5lV0tXOHgwcXFhdXZNSGlrVzdiVFQyalpiOWh4LXRRMG1xZXpFVkdxWkxIZ0ItS2R0TWlnR2U1TjBDbzJGVDZIVTRyS2hCZXNlbEtVLWFSc0ozcmtPLU40UTlFUWstYTUteFNtUHQ3VzByS3UxeUk4Y2NzdUlYWDZiN2tSS2FPbTNwZnE2UG9xN3NiT24zZElCZTA0Qlc0UWlCZkdMSWI0eFJfLWtjQkhxOTA?oc=5",
-      "publishedAt": "2026-08-30T19:09:00Z"
     }
   ],
-  "updatedAt": "2026-09-02T17:26:58Z",
+  "updatedAt": "2026-09-02T19:57:01Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
