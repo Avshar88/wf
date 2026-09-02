@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "051b78050aba6cc90cf4",
+      "id": "d487511dac8affcf99aa",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid squad for the match against Ajax",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORWZPUmIzVUt1X1hvV2t1eXhKRmo4SE1UejhCNW9FcXZEaWlMU0RBM0ZVVWdOdExpQjVUTnE1OWlIUDIwRHpwdXY3V2dyWEVuRkd3S1FmZ0J1OFhYVEVuWjR4SDN4NWxQTFNGb1hlOVJQMHdaQVVTZEhkcVRsWGprOXo2UXRLUWlRaTFGZmJ0Z2lSYzNVRWI5N1pCOTAyV00xdEZzQ1d3bk85MkQ4bFhFUzBNb2czUHpSb29kX1hOSlo?oc=5",
-      "publishedAt": "2026-09-02T12:52:03Z"
+      "publishedAt": "2026-09-02T16:17:09Z"
     },
     {
       "id": "2be7ab9ef180eced3330",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-08-30T19:09:00Z"
     }
   ],
-  "updatedAt": "2026-09-02T13:54:36Z",
+  "updatedAt": "2026-09-02T17:26:58Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
