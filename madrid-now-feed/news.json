@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "1ad6bf48aebbe1c02c6a",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad for the match against Ajax",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORWZPUmIzVUt1X1hvV2t1eXhKRmo4SE1UejhCNW9FcXZEaWlMU0RBM0ZVVWdOdExpQjVUTnE1OWlIUDIwRHpwdXY3V2dyWEVuRkd3S1FmZ0J1OFhYVEVuWjR4SDN4NWxQTFNGb1hlOVJQMHdaQVVTZEhkcVRsWGprOXo2UXRLUWlRaTFGZmJ0Z2lSYzNVRWI5N1pCOTAyV00xdEZzQ1d3bk85MkQ4bFhFUzBNb2czUHpSb29kX1hOSlo?oc=5",
+      "publishedAt": "2026-09-02T09:39:16Z"
+    },
+    {
+      "id": "2be7ab9ef180eced3330",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🤌 Arda starting the move and finishing it #LaLigaHighlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=_sPAj64RDcw",
+      "publishedAt": "2026-09-02T09:20:40Z"
+    },
+    {
       "id": "76702bb3dfbba87f4cc2",
       "category": "Matchday",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONTNFbzRibm1kb2RzeFdQckVGNFVVU3FNcjlJdnc0UlBlMmlDemNlVFd0bkFWeVViMXVYUXpyWjU5WWlqUl82Q09xLW4yWF9NSnJ3U1NBenVUdVctVm81WFo1SzVIckEwTzY1LWIzSTBlYl9tWHNxdlp6WDVyczZuVnUzVlVGdWtER0o0Y08zc2RlTUVxUEEtbExxQ2ZtWUsyS2xGaHU4Q2l4MzNyUHUxSXBxUHVEQm9TaGI4d19QeVZJZDhmLXNFeE1pdTMtZVhCUGo5QUNn?oc=5",
       "publishedAt": "2026-08-30T18:55:00Z"
-    },
-    {
-      "id": "f24910162988e2892911",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Mbappé scored the third goal assisted by Trent",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkhCM0I3TUxId1pzdXlvQWlUa21Na1V5NkZVVUlrdTR5clBQOTVhZWFFUlJub2VaQUlHWEVmdE0zYzU4WVUwcWJuSjJIY2Y4VW52VGxiNWNJRkNHYmR3ck9nelRuUGp0MmttMFBSSHdUd21qUDAwQ04xRHVDYmR5Qm5zSlhQZ2ttMWhNWDkzTlpXTFJ2TVp3dVdoOEhtbGpYdkpvZDRPMmliRVVFQ05jRXVqVi1PN2l2dUZB?oc=5",
-      "publishedAt": "2026-08-30T18:54:00Z"
-    },
-    {
-      "id": "33d2e8977467558af2b9",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Mbappé scored the third goal assisted by Trent - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkhCM0I3TUxId1pzdXlvQWlUa21Na1V5NkZVVUlrdTR5clBQOTVhZWFFUlJub2VaQUlHWEVmdE0zYzU4WVUwcWJuSjJIY2Y4VW52VGxiNWNJRkNHYmR3ck9nelRuUGp0MmttMFBSSHdUd21qUDAwQ04xRHVDYmR5Qm5zSlhQZ2ttMWhNWDkzTlpXTFJ2TVp3dVdoOEhtbGpYdkpvZDRPMmliRVVFQ05jRXVqVi1PN2l2dUZB?oc=5",
-      "publishedAt": "2026-08-30T18:54:00Z"
     }
   ],
-  "updatedAt": "2026-09-01T21:21:55Z",
+  "updatedAt": "2026-09-02T09:54:43Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
