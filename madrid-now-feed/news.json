@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "6d81bbb020d59c666ac0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 Ready to face Betis! #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=g4VSHsY3FP8",
+      "publishedAt": "2026-09-03T19:21:46Z"
+    },
+    {
+      "id": "9c643efe662926510d7f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "DIOMANDE STUNS with a training GOLAZO, and WHAT was that from ARDA…! | Ciudad Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=oAelItDCAgY",
+      "publishedAt": "2026-09-03T19:17:08Z"
+    },
+    {
+      "id": "ec6700a1caa7b9eaf88f",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Real Madrid's Asencio acquitted in sex-video sharing case",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc4cTMwLU1zdzI0UjBXeEhYN0VrWl8wYXlsYTdPelRiOHNfUTdTNDBfQkJmWGZWdk9IZ1lpVUZzeFl3eTNFdzExczkwdUFjdE5wNUp1QzVVZ3RUU2I2cUgyQk5SNW5qQjJySmZrMzA0NDlpS2tpWWlORXIwNENhMnNXbk9xRHVZMHFjVVFjamFka3ppZ25SR0ZzMHBmVVhVbFVVT3NR?oc=5",
+      "publishedAt": "2026-09-03T17:51:35Z"
+    },
+    {
       "id": "b001271de099b0bbe68e",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=X0ILrHG2PAg",
       "publishedAt": "2026-08-31T14:57:51Z"
-    },
-    {
-      "id": "7603dfcc6369cfea08c8",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This is how the victory against Malaga was experienced",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONk1QWGdSV094b3dtR1JqYWJoNENqVmlVRWZFUXo2d2lXcmhZSHRnYkh5UWtUSVQ3SUZfWG41aDZjS242WWNiNUhId0Z0enROVkFoY1lSTkRXaHFiN3RkUndnNG9VZVdHQk1aakNNUUswcFNXSmxMLXZsdGhMZmNYNTZWUk9paGVlQ1EwVWFKOThiMkFmVkhQdmV3TVo3dVVVekRZMEFhdTIwa3pIcE5MVlUxRHhoS1F0ZXpMM0RB?oc=5",
-      "publishedAt": "2026-08-31T14:07:00Z"
-    },
-    {
-      "id": "bd60edc9a7ee6e2860d2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid vs PSV | League phase table",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXJuUVJQdUEybDhZRUlEN3JBbGQ3TmxiRzZQMzRidWlDYlE5R1ZNaGVFdXhUemM3RU1reUVaQll1a0xpa19kTG9VMkFPNkRyNWR2UHpRazlBcGJfcTBFWTVzQnpwTVBFQjg4Z3RDczh3aWNfODZrYVpPZk9ab2lfYjBGY2g5T3R6NTBJQXRR?oc=5",
-      "publishedAt": "2026-08-31T00:25:32Z"
-    },
-    {
-      "id": "0839d01380798ec63e6f",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid vs PSV | Match info",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUVpkQjVwdGRHT05yMDBqMk9QTmdrY25TcEhOSTU5MmhWcERzRXIzZzJhb0wwcDN6R0lkdjFuUWhBRU5PSFFBMzJTWkdkWks4NjdqT01wRTBQSFRxX0l5a2RPcXVfdk1hT0tkWWRmV1hYU3NVRVN4VWZuRllvSm1BNzJaRmVWTXZXUmI5MEFR?oc=5",
-      "publishedAt": "2026-08-30T22:05:36Z"
     }
   ],
-  "updatedAt": "2026-09-03T17:07:02Z",
+  "updatedAt": "2026-09-03T19:45:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
