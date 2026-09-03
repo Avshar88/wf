@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "694ac311eadcbc758af9",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔜 A BIG away day awaits! #RealMadrid #RealBetisRealMadrid #mourinho",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=Dg8L7sFUmM0",
+      "publishedAt": "2026-09-03T20:00:15Z"
+    },
+    {
       "id": "6d81bbb020d59c666ac0",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=dhjZOlHJlco",
       "publishedAt": "2026-08-31T15:04:53Z"
-    },
-    {
-      "id": "d54c04e7266fc5315d48",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🤍 BELLINGHAM MASTERCLASS AT THE BERNABÉU! | Real Madrid 4-0 Málaga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=X0ILrHG2PAg",
-      "publishedAt": "2026-08-31T14:57:51Z"
     }
   ],
-  "updatedAt": "2026-09-03T19:45:20Z",
+  "updatedAt": "2026-09-03T21:53:28Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
