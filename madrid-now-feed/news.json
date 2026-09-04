@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "582e8b6736efcad1f031",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Málaga | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
+      "publishedAt": "2026-09-04T16:40:24Z"
+    },
+    {
+      "id": "b1cc73c8bdd737b2d978",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid has arrived in Seville",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
+      "publishedAt": "2026-09-04T15:45:00Z"
+    },
+    {
+      "id": "7a74cea3af71cd822b47",
+      "category": "Official",
+      "time": "NEW",
+      "title": "☄️ Free-kick perfection! 📐 GarethBale vs Betis #RealBetisRealMadrid #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=Bog62RgDaRM",
+      "publishedAt": "2026-09-04T15:00:09Z"
+    },
+    {
+      "id": "e2ddac8cd950327dde2e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💜🤝🤳 #realmadrid #madridistas",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=PgUJjNEt-AA",
+      "publishedAt": "2026-09-04T14:12:05Z"
+    },
+    {
       "id": "c6385071e7141fb02afa",
       "category": "Transfers",
       "time": "NEW",
@@ -10,16 +50,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOazBoaUFCV0xqcmR2QjBrQ1U0eHluSTMtU1BOV0JpSVNfQnVXNlNVbmJoTUZJVFpqUjVnOXVFd1pYN2Rwd0FUSzdJNXdyNmdVWjIzbGJBVENZc0Z1enpVTGR0cERDN2VMS0lUbzhCN2lySTBBUlF0ZDRuS3ZVOGpXS25kRDgzdWQyZEhfVGZ3bklQS0lLaTNXWnlKMjcxOGRBaC1GY0lydzY1S3JzbS1jR1h2Mnc1QnhTdkxyZEhnZnVSN3FzM3Zfbmg0c1JfbUk?oc=5",
       "publishedAt": "2026-09-04T11:54:00Z"
-    },
-    {
-      "id": "167f11ba70e214e1fabb",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid has arrived in Seville",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
-      "publishedAt": "2026-09-04T11:39:24Z"
     },
     {
       "id": "cfa6e9aa2e819fb25708",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEdocUZmV25EeWNLSXItbVQ2TTNRZ2JxbFctMjJSMmdxalllSjlWc0J3b3c1RG13eUt4dTJFeGY3cC1vTzlnSnNQUWJQbnh4SWd2SXZEdHZkTEc2Nm95YzU0TG5jaVZXLUVxSDkwOFNra2NDaXlKTDZzR0VqNVVJQ1hBUlRkT0wxal9nWHFqTjRqdjVGQmpaTWlIYnhudmVR?oc=5",
       "publishedAt": "2026-09-01T19:26:00Z"
-    },
-    {
-      "id": "cef50414c8c3bb5b719c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "First preseason day for Alevín B and Alevín C",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY19xMkwwTHJLaVpaaVNzbGpBaU1LTGlKVG9QSmhpMjE0T1R4QXZsb2JUU1lWc0pDbVlMOTZpYXRKU0VCUER2MmtqRXFpVGVPRDZITFA1RkJRYlhucEJDSXpvTjJ6dHYzd05yTklnNTFYRml6V3Njenp5d1VwQnNUMHIxSnZ1ZG13azloSXRsNzdya013cmRZLU43ZE5VYlJsYlZQNzl6Skt3M2pXUXNn?oc=5",
-      "publishedAt": "2026-09-01T16:09:00Z"
-    },
-    {
-      "id": "25c649dbb0211ae49e14",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Pau Quesada: \"We want to start with a very high tempo to energize the Di Stéfano.\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWlJqbFRhYU80eWNSa3Q3VEV4b2Y1cFpETmNoSXpDdERnTk5qZXNrM2tWT1A3eTRFYl8xNmxJS0VYcklJV29TdTlKaHlXTVotbXFwdEQzckpPeXVzNGJFZEo4UEtEcG85X1FBRDIxZlZOU2xuQ2xwX1R0eG95NFphQjlxeTZEYVZxMzZfOTdMbG1RMXFfQW8xbWJzTTJLblBYd0YxSFFpQ2VveDhLMDVVcEVhN3Y?oc=5",
-      "publishedAt": "2026-09-01T16:00:33Z"
-    },
-    {
-      "id": "903fc078d21dc86e68e5",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Final training session before hosting Ajax",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnNySEFNM2hPUW1aZ2dVUmI0UHJMUkM5UHFzTUZLOUpvcmJFdlNGRzFRRWNyUlliQTQySE5iVmNXSk1zNkQzX3h0RjRqZ3JTbnRmWVdvc2hwYmlQUWRhcFl1WW1GRXYzS2dVbUZOVmpfUjJCR2g2WklqYVVYWFllMFdiRm16NVFzWVdzcklrM3BKUjR0SEtreWRPR3U2cEE?oc=5",
-      "publishedAt": "2026-09-01T15:00:21Z"
     }
   ],
-  "updatedAt": "2026-09-04T14:17:00Z",
+  "updatedAt": "2026-09-04T17:37:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
