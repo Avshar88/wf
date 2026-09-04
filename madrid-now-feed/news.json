@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "582e8b6736efcad1f031",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Betis vs Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
+      "publishedAt": "2026-09-04T21:19:56Z"
+    },
+    {
       "id": "82e2ddcd270b96991920",
       "category": "Official",
       "time": "NEW",
@@ -30,16 +40,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=Y45epeVNipA",
       "publishedAt": "2026-09-04T17:51:32Z"
-    },
-    {
-      "id": "582e8b6736efcad1f031",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⏱️ MINUTO A MINUTO | Betis vs Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
-      "publishedAt": "2026-09-04T16:40:24Z"
     },
     {
       "id": "582e8b6736efcad1f031",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-02T15:07:00Z"
     }
   ],
-  "updatedAt": "2026-09-04T19:49:29Z",
+  "updatedAt": "2026-09-04T21:51:19Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
