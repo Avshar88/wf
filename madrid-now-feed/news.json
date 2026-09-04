@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "b3bf7e91ff25ad2d3d2d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "64 years since Amancio's debut",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVE4SGhHdWljRU9VallYWV9WVUlLbnUwbjVqZm04WXRtNEU2RG40OVFpRklPQlloS21rT2lrb3Nab1lTcjdKdjZGVTFvNWZkQVlyV0otYllLX1M1THJsWDZaWndMbnJPOHUtVWhublAxQzdTQkIwQ2c1SXJ3VHpFNHN0ZWVjc1BWcmxvajBud2tEbElraHItdXNpU0Raa1J6ZnZ6U2dNTFQ?oc=5",
+      "publishedAt": "2026-09-04T22:26:11Z"
+    },
+    {
+      "id": "04ea34a00ed06ce1cf2f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Real Betis 1-0 Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=CUcWWgIIuZU",
+      "publishedAt": "2026-09-04T22:15:08Z"
+    },
+    {
+      "id": "e1bbd46f58f987eb8d8f",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mbappe denied at the death as Betis beat Real Madrid",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQVktT01vUnJFU1kwNTdBa0g1ekhEQ1lhdzF2bnF3eDRLamhoN012dzFWTUNmemZxTjViUmFRUkh6N2VITXptNzQxQ0JPNHJvN2FhOXo4MFVZaVNRcENaa1pwenZBaWFENVh4SWFpZmNBN3NuOF9OaWdJY2VaN0tOejBiTUE1cFk4dkhTSUJ0ajZES2djeG1V?oc=5",
+      "publishedAt": "2026-09-04T21:59:05Z"
+    },
+    {
       "id": "582e8b6736efcad1f031",
       "category": "Matchday",
       "time": "NEW",
@@ -10,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
       "publishedAt": "2026-09-04T21:19:56Z"
+    },
+    {
+      "id": "a089265bc91b34cda42b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "AEK Athens vs Real Madrid | League phase table",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0plUWt0YmI3U0l3UEdsR0NJRHNyY1JzLUZZMURXNFpqeG5MRkN0elpaWVNLNi1lVHdZOGZKWmhwUllycWcxenQ0M0lfcmRHaFF2ejlrbmhuTUNmVzN5Q3FFd01fWmFIaEtWaEd5c1NBNWYtQjg2eWZqcXJfQ1E2ekVKMlBFdGlaclNuS2p1bjItdUt5SF80?oc=5",
+      "publishedAt": "2026-09-04T20:13:57Z"
     },
     {
       "id": "82e2ddcd270b96991920",
@@ -62,6 +102,16 @@
       "publishedAt": "2026-09-04T15:45:00Z"
     },
     {
+      "id": "b3020871b37cbc5d59cd",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mourinho: “Sometimes you lose and don’t know why or how to explain it”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVF9BeTFjOGRWRklNRllvS05jUGpjZ29ORXRPSW5SOUliTGQ3R3VmWVRoQ3BVbFdLZWRZaHBqTGJ1VXBNWUlfbHZIUnltdE1CNmc3d3dnVWVpMmtXN2pja1NDNlNtQ3h3cFMyWUQtT3paWEFvblgyVkNsMENhbUFQSGxPYzgzV242eUNpOF9aWGlWbERGX2NFWXRB?oc=5",
+      "publishedAt": "2026-09-04T15:06:00Z"
+    },
+    {
       "id": "6f89918a0c9cf979f008",
       "category": "Matchday",
       "time": "NEW",
@@ -80,6 +130,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=Bog62RgDaRM",
       "publishedAt": "2026-09-04T15:00:09Z"
+    },
+    {
+      "id": "efed15e26d3ec72a5ada",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Defeat at La Cartuja",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmluaDVDUEkzUXVkSjI1MngzU1gxTFpRNTU3cEVfbzZ6dmRhbEo5bmQzczhCcUVfUW8xdGpHVG5MckRwa05SQUVrdlhGZkMzR1FuTWtxUlhMckpOZ2lxcGVqSG9UOEE5Y3BvVTJlM01hRXVELVdZc0tYRUNOOHdramR1ckhZSmx4Znhnd1JBY0VaQXBuVGhpUjQ1Mk82UjJhZmN3bA?oc=5",
+      "publishedAt": "2026-09-04T15:00:00Z"
     },
     {
       "id": "e2ddac8cd950327dde2e",
@@ -240,69 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSG55aXpUcHRvWFNzc0ZPbzVtbGFDUXUxUC1lbEFZWnNLNUpleUhyaF8xYkRzejdUQnJUWHkyQjcxNTNGQTlTcE1GSmxEOXpCLUdyVF9NOVQyTHd1dTFoUVdnN0k4WUJyeENORDFVWGR6YXFkeURYM050ZzYzNUM3VjIxSmdSZmRxU3FvRGVEc2NWNHZ0UkxndTZYNEJ3NjJNaUwtZTBnSDRFaEdpRUVwZXMyU041YTFkazhJUkNVa1lEdw?oc=5",
       "publishedAt": "2026-09-03T09:10:00Z"
-    },
-    {
-      "id": "f0112e0b83041af1c46d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"To beat Betis, you have to be at your best\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQnJhbjgtcnNHdjg2RDdWQUY2VnVnS3AxbXYyb2MyVXJsQ1ZDdGk4WHhuaE9IOUFpT2lOb1QtXzQ0WUpic18xbkh3cFBrVjZ6Yk9OWjF0SEdTbkRGaklvYUhZX2hIUWs1VDlDRFNsUl9Lbk9JVlV1c1ZQNWpPaElqV2szTFhWRHdJSWM2U1FqOXN5Qk9NcGVZa3JR?oc=5",
-      "publishedAt": "2026-09-03T08:15:00Z"
-    },
-    {
-      "id": "b116c41213f6a5629d33",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "New session to prepare for the second preseason game",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMFRZYm9vbzVzbEowTkVMRXRFMFN5ZlhjNF9FdjlVZk5ISFV6aE5XOE5RZG5ZRFRhNFY2UXQ1X2FaX1N3QkNfMTNLNEFxMVc2WU05OVd2OVVDSWt1SVhrZ2xyWk5uLS0wZzdXaTFLOWFVcGZ1eEd2R2tXX1B3OFFkd2hOT0xHM1lMSUVEeFRNX29qZWphVllWR1o4OC1ZZw?oc=5",
-      "publishedAt": "2026-09-03T07:57:00Z"
-    },
-    {
-      "id": "c038ffbad843908c3136",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid squad for the match against Ajax",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORWZPUmIzVUt1X1hvV2t1eXhKRmo4SE1UejhCNW9FcXZEaWlMU0RBM0ZVVWdOdExpQjVUTnE1OWlIUDIwRHpwdXY3V2dyWEVuRkd3S1FmZ0J1OFhYVEVuWjR4SDN4NWxQTFNGb1hlOVJQMHdaQVVTZEhkcVRsWGprOXo2UXRLUWlRaTFGZmJ0Z2lSYzNVRWI5N1pCOTAyV00xdEZzQ1d3bk85MkQ4bFhFUzBNb2czUHpSb29kX1hOSlo?oc=5",
-      "publishedAt": "2026-09-02T18:05:00Z"
-    },
-    {
-      "id": "85f765889689c73ee151",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid-Baskonia: second preseason game, Saturday at 8:00 pm, live on Real Madrid TV",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVzZ4cEFqMkZsZkJpS3gxbVdWZTQzTE1qM3IzZ0hKbm96SjJtX3VYREIzZ0NxemQ1cnBROUsxR0NDdE9iSm5ablR5MHd0dVdIQ3NRRTYzYU9lSWw1X1NpN1lJUTFhY016VVc3WXoxZFlyOTZBWGJOOWxscHZ6WDZhSDFROEdLdTk3TnJqWVBkNmxfUUFJczIzSnpmTC1IbW9Zc3lwaFpGYkpPbmdMbzFnTWxMbnk2elBkRWJmdk5GWWJNSmU1TWdxUGpQcXBQUmtDNmxDdDRzbEdOaHN6Vy1GUHJDVTVoY1ozYzhMZmo0X2JJU3c2NGE4YWV5Z3JLMUNhdmVIc2Y4amgyb0lwaVUyaXQxYWtaZw?oc=5",
-      "publishedAt": "2026-09-02T15:17:00Z"
-    },
-    {
-      "id": "8849fc2534fad78d575b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid vs Inter",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwNkVCLV8wdjBNaDRQQkdMSjQzZ3EyT1RsVVp6MWtvY052TFR1bWdhWmVhOWcxNTJSaXlXRDNHWUs1bGNZcW9iT3pKVE5kNFE1cWFFQ2NaNzFxX09ac0o5NmpkajY0bFd6amx3VmJGRWZLTnVFS1A5UmZiS3N1dw?oc=5",
-      "publishedAt": "2026-09-02T15:15:25Z"
-    },
-    {
-      "id": "5779103a1d41d86cf2bc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid prepares for the friendly against Baskonia",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR01pU1VwUzVBM3QzSkprdGFTamFVOHFGZDd2akp4YVRmc1JfeWg4WDJkQzlSa2RmMjk5aXV4ck9KQUZ6SEdZQVRVdUlJci1GSC1IZm1VRnpPWU9ReFh5b0xCWWtwMnY3WDRmZE5hQk5mbFQ2RUpfNkhtSGpoSlBqU2lLWjhGNElJU0xZdm1qYzFnZEZ1MHA5LVJwN3I4VHlrbTZyUWZB?oc=5",
-      "publishedAt": "2026-09-02T15:07:00Z"
     }
   ],
-  "updatedAt": "2026-09-04T21:51:19Z",
+  "updatedAt": "2026-09-04T23:25:12Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
