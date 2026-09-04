@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "82e2ddcd270b96991920",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 VAMOS! #RealBetisRealMadrid #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=HcsrwUHa7FM",
+      "publishedAt": "2026-09-04T18:42:41Z"
+    },
+    {
+      "id": "f01242f1160c09c99589",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🚶 Our arrival! #RealBetisRealMadrid #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=-BaYSTSCMB0",
+      "publishedAt": "2026-09-04T18:38:57Z"
+    },
+    {
+      "id": "9b58e1ff1cb0a19a1746",
+      "category": "Official",
+      "time": "NEW",
+      "title": "📍 The VIBES at La Cartuja! #RealBetisRealMadrid #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=Y45epeVNipA",
+      "publishedAt": "2026-09-04T17:51:32Z"
+    },
+    {
+      "id": "582e8b6736efcad1f031",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Betis vs Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
+      "publishedAt": "2026-09-04T16:40:24Z"
+    },
+    {
       "id": "582e8b6736efcad1f031",
       "category": "Matchday",
       "time": "NEW",
@@ -20,6 +60,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
       "publishedAt": "2026-09-04T15:45:00Z"
+    },
+    {
+      "id": "6f89918a0c9cf979f008",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's starting lineup against Betis",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkNidVoyMXNYWUlDN1NuTDZNbEdLTzJfbFVodVJ2amVHUmgzY2dFV1FFTjVuSm1UZjVQaVQ3NUk3dElDOUoyRjdhR3NCeUhwMWVWUy1fRmVYaHhwTDJ6N1ZQR2E0UEUwd2RUekRGVk8weThpMEktbFNxYlpKRWliUHE2Z0pHcThROXp2emd0RGpPb1dERi0yWU5jcWk5WlhMS3ZYc05xTVR5R1AzcGRGd2RjNWVlUnRiWmlFazhFNWVjZw?oc=5",
+      "publishedAt": "2026-09-04T15:01:00Z"
     },
     {
       "id": "7a74cea3af71cd822b47",
@@ -142,6 +192,16 @@
       "publishedAt": "2026-09-03T17:51:35Z"
     },
     {
+      "id": "7ad53d5373cb1e010b1a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Santiago Wanderers: U-20 Intercontinental Cup final on September 19 at the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPU2duTEc1S1lIeW0xajBfT0YzVlcyajRsSGp6NXJaNnh3Nk1LNXNyQWEwaHJkajNBY25mbXlLVy1LeWlBR3FjQjY3TVVqVWhFOWw3X3dGTnNfUGJaZ1B6VFprS0hHVFhxQUZ6QURBZW1iS1pPZDN0U3hKUGZzdkFUcU1iLUNWSG1BSy1wNVZ1Skd3b1pnblpSVEhubWJWVlFqR3c1Vm1KNGsxcUxEalowaWJrZ1BaMXUzLV9yNFhEbFhYQVBxS3VaQlA2MUV6TEpCdDNZU1pkZHNiRFlXbVV6X3lDYVBMU3pTUjVQWUlTYldSZXE0RXNCekktUXV1emF2V2JweWc3cEE5TFpIWHptdmNR?oc=5",
+      "publishedAt": "2026-09-03T17:00:00Z"
+    },
+    {
       "id": "b001271de099b0bbe68e",
       "category": "Matchday",
       "time": "NEW",
@@ -240,69 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR01pU1VwUzVBM3QzSkprdGFTamFVOHFGZDd2akp4YVRmc1JfeWg4WDJkQzlSa2RmMjk5aXV4ck9KQUZ6SEdZQVRVdUlJci1GSC1IZm1VRnpPWU9ReFh5b0xCWWtwMnY3WDRmZE5hQk5mbFQ2RUpfNkhtSGpoSlBqU2lLWjhGNElJU0xZdm1qYzFnZEZ1MHA5LVJwN3I4VHlrbTZyUWZB?oc=5",
       "publishedAt": "2026-09-02T15:07:00Z"
-    },
-    {
-      "id": "369c5a39b4c6cb59aa23",
-      "category": "Official",
-      "time": "NEW",
-      "title": "2026 Intercontinental U20 Final: Real Madrid vs Santiago Wanderers - Get tickets now!",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU1I0S3NfaUw5NEtFSUE1MElCN2VSZmcwM2pBcFlrOVB6LVVSYzZnUmo4dUZMVFFIdTZBQmo1X1lrczJSa2Uyei1mT1FObFQyOWRlc2x0SUMyREw4UTUtTFV3b0xXWWppWDJaWjdMMEF1eE11SEdURWRWUDQ3Zy0tMmFpdzBPT1ljZE1xUTBYYkZseUdOeDFDd0NqXy1WbEZRZk1CUm9FSkFYYW5McVV3cmlMTldYOEFFSjZzTV9faElFZnNHMTBmd0h4eFh4ZzdIRkEzbFJRRWJnRmN0S3c?oc=5",
-      "publishedAt": "2026-09-02T11:22:39Z"
-    },
-    {
-      "id": "2be7ab9ef180eced3330",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🤌 Arda starting the move and finishing it #LaLigaHighlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=_sPAj64RDcw",
-      "publishedAt": "2026-09-02T09:20:40Z"
-    },
-    {
-      "id": "56e1ce4a91f991e6f6f4",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "New session to prepare for the match against Betis",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY2lWay1zSFItOHkwblpzWHFGSTVid0c0SjFzeXV2eHUwaGJNZWNnNVRjdVhHZHA1TnhxNEgzbFYtWWpFQVdFZDhWTUN3Q2hEY1RObnlPMGNKR1lOdE5ld2FKZnViMFBCeE80RWt4SDk4T1g2T294N2thOHZ2cVlYdlFwNDVuRndXLUIzUHU2UVlpaG9fdExZM1NIS3pFOW5RTTk1OThrVGd3YkE?oc=5",
-      "publishedAt": "2026-09-02T08:30:17Z"
-    },
-    {
-      "id": "76702bb3dfbba87f4cc2",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "What's your favourite goal from today's training session?",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=UEaAX9P3GnY",
-      "publishedAt": "2026-09-01T21:07:04Z"
-    },
-    {
-      "id": "b4d5130309ba7781db43",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "All EYES on Betis! | Real Madrid Training",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=zbmV79361Ns",
-      "publishedAt": "2026-09-01T20:55:36Z"
-    },
-    {
-      "id": "5f3584710dd7402d2c59",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Announcement: Manuel Ángel",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEdocUZmV25EeWNLSXItbVQ2TTNRZ2JxbFctMjJSMmdxalllSjlWc0J3b3c1RG13eUt4dTJFeGY3cC1vTzlnSnNQUWJQbnh4SWd2SXZEdHZkTEc2Nm95YzU0TG5jaVZXLUVxSDkwOFNra2NDaXlKTDZzR0VqNVVJQ1hBUlRkT0wxal9nWHFqTjRqdjVGQmpaTWlIYnhudmVR?oc=5",
-      "publishedAt": "2026-09-01T19:26:00Z"
     }
   ],
-  "updatedAt": "2026-09-04T17:37:38Z",
+  "updatedAt": "2026-09-04T19:49:29Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
