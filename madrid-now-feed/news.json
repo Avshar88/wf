@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "e9daae8571a66475cc0a",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWG43YTVPRTFZb0xPOFNxUG1FN0dtNW90WkItQk43Z0ZFNHNldG9heTF5MlIyaFVFVWhiMmVDTVNzQ3djYklXblhDR2MtSGdjSGtkdW1zbUo4RHM0M2k3Nm94YVdVbEZIZTVWOE5jMklaSGw1YUpKdzNRZ3BtazN2ZG96NFlzRDVPdVpPWVdnMElUZWExaE1qcFNESVIzRHE1ZVJKa1ZTam04TGhWaWxuQWZHSnRFRS13Y3NPOWMtaWZnX0ktS044M012Q09Uc0hCTVl3MDhycw?oc=5",
+      "publishedAt": "2026-09-04T07:50:45Z"
+    },
+    {
       "id": "8c7b1cc61f7ee7988b7a",
       "category": "Matchday",
       "time": "NEW",
@@ -10,16 +20,6 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOThCck5OTUZ2Ym9QR0pjRU1pY3M1Q1NDRF9EVHk3cTBmeE9DQUlZSFRpUktteE8waHpXWWQ3Qm54cXhTQ3NiSnBEYVRzM1BmYmpPWnJad3A4Nm9oTHJCcEQzSG1iNGFQaTlIQTJESl9ibFY4UlBIbHNJT0VmX3FPVTdUREVWVTYzajNlUHI1dzN4NWM?oc=5",
       "publishedAt": "2026-09-04T05:02:31Z"
-    },
-    {
-      "id": "44f33630e809daa3869e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWG43YTVPRTFZb0xPOFNxUG1FN0dtNW90WkItQk43Z0ZFNHNldG9heTF5MlIyaFVFVWhiMmVDTVNzQ3djYklXblhDR2MtSGdjSGtkdW1zbUo4RHM0M2k3Nm94YVdVbEZIZTVWOE5jMklaSGw1YUpKdzNRZ3BtazN2ZG96NFlzRDVPdVpPWVdnMElUZWExaE1qcFNESVIzRHE1ZVJKa1ZTam04TGhWaWxuQWZHSnRFRS13Y3NPOWMtaWZnX0ktS044M012Q09Uc0hCTVl3MDhycw?oc=5",
-      "publishedAt": "2026-09-04T04:50:59Z"
     },
     {
       "id": "7dbcf8d8853224cc7aec",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-01T13:53:00Z"
     }
   ],
-  "updatedAt": "2026-09-04T05:55:36Z",
+  "updatedAt": "2026-09-04T10:07:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
