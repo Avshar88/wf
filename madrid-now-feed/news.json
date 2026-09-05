@@ -32,6 +32,16 @@
       "publishedAt": "2026-09-05T17:00:00Z"
     },
     {
+      "id": "1987b040939fcf3d4ebc",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Great victory in the second preseason game",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzRWRFBGS25nUlZwdkRuMjVSOXR2TmhpZ1NGcmZMckx0S0huVWJnQmMybEJfS3B6YmstWGo2MHJVNzdMcmtLRHNzRE5NSDN3WVBCV3A0blRPVGZXd2dWZlp3X2N1RWdFZlZKT0dtM3FhamVQZmxwRWh0MTlqWS1ZTS04X2tMSGpZRHdzX3c3bVlQeUZxVEFHRW8xM1JDOW55TEZYZVdn?oc=5",
+      "publishedAt": "2026-09-05T11:43:00Z"
+    },
+    {
       "id": "6492d4bf55c114ec0cc6",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc4cTMwLU1zdzI0UjBXeEhYN0VrWl8wYXlsYTdPelRiOHNfUTdTNDBfQkJmWGZWdk9IZ1lpVUZzeFl3eTNFdzExczkwdUFjdE5wNUp1QzVVZ3RUU2I2cUgyQk5SNW5qQjJySmZrMzA0NDlpS2tpWWlORXIwNENhMnNXbk9xRHVZMHFjVVFjamFka3ppZ25SR0ZzMHBmVVhVbFVVT3NR?oc=5",
       "publishedAt": "2026-09-03T17:51:35Z"
-    },
-    {
-      "id": "7ad53d5373cb1e010b1a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid-Santiago Wanderers: U-20 Intercontinental Cup final on September 19 at the Bernabéu",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPU2duTEc1S1lIeW0xajBfT0YzVlcyajRsSGp6NXJaNnh3Nk1LNXNyQWEwaHJkajNBY25mbXlLVy1LeWlBR3FjQjY3TVVqVWhFOWw3X3dGTnNfUGJaZ1B6VFprS0hHVFhxQUZ6QURBZW1iS1pPZDN0U3hKUGZzdkFUcU1iLUNWSG1BSy1wNVZ1Skd3b1pnblpSVEhubWJWVlFqR3c1Vm1KNGsxcUxEalowaWJrZ1BaMXUzLV9yNFhEbFhYQVBxS3VaQlA2MUV6TEpCdDNZU1pkZHNiRFlXbVV6X3lDYVBMU3pTUjVQWUlTYldSZXE0RXNCekktUXV1emF2V2JweWc3cEE5TFpIWHptdmNR?oc=5",
-      "publishedAt": "2026-09-03T17:00:00Z"
     }
   ],
-  "updatedAt": "2026-09-05T19:21:30Z",
+  "updatedAt": "2026-09-05T21:21:06Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
