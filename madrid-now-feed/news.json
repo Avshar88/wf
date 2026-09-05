@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "f791298340f014cb2de8",
+      "id": "230d08afde62d3f1f040",
       "category": "Matchday",
       "time": "NEW",
       "title": "The Champions League begins.",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZDh6R1NadUtJX3d3WXRwVDgwbHd1STNmTFFidExRT0lCRHJiUU9hLUxTUExMTzRWZndLOExwb0tzQ2I0ZVdiWjBOQjdwaVRsSXM5bDROZUJTSVJ5MFE3cU5aUUFKWFphY1dPaVpZWnM0ZFQxMy1CNDNoN013SFljY00wbm02RnhDREJkdWd1Tmk4WVhubFVTZFJmTndHZ01DVHRZ?oc=5",
-      "publishedAt": "2026-09-05T18:52:23Z"
+      "publishedAt": "2026-09-05T21:52:16Z"
+    },
+    {
+      "id": "e9556fba90109ca88fb5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Pedro Martínez: “We have been on the right track”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX0ZyMW5jcDBXUkJoZVZOSFVPVkVNZGRhZXk3RGpLLW5QTmZsbE9XMjhBd2FidUJrc3gxUUotOG1CQXBMTkFRVlNKd1FvZGgxZTJCakF3OW04bEhxSFBtaHlrek5YOEwwd0IydXpzWUlwaU12VFlwUVlscTY2Q21wLW40bGRYT240cGF0LUtoNkZVdnNuWWdzSGRmWjNWbmRxZjh0dDVoY04wRzJYQXVCblk4d2N0ZUUxZm5qT1ZzZFhXc3hQRlRRMFJR?oc=5",
+      "publishedAt": "2026-09-05T20:52:00Z"
     },
     {
       "id": "9cbdc1101cff2b560887",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=oAelItDCAgY",
       "publishedAt": "2026-09-03T19:17:08Z"
-    },
-    {
-      "id": "ec6700a1caa7b9eaf88f",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Real Madrid's Asencio acquitted in sex-video sharing case",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc4cTMwLU1zdzI0UjBXeEhYN0VrWl8wYXlsYTdPelRiOHNfUTdTNDBfQkJmWGZWdk9IZ1lpVUZzeFl3eTNFdzExczkwdUFjdE5wNUp1QzVVZ3RUU2I2cUgyQk5SNW5qQjJySmZrMzA0NDlpS2tpWWlORXIwNENhMnNXbk9xRHVZMHFjVVFjamFka3ppZ25SR0ZzMHBmVVhVbFVVT3NR?oc=5",
-      "publishedAt": "2026-09-03T17:51:35Z"
     }
   ],
-  "updatedAt": "2026-09-05T21:21:06Z",
+  "updatedAt": "2026-09-05T22:59:11Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
