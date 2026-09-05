@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "5ef7fed3363c84ae6f08",
+      "id": "182921e0b182fd99f5cc",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "The Champions League begins.",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZDh6R1NadUtJX3d3WXRwVDgwbHd1STNmTFFidExRT0lCRHJiUU9hLUxTUExMTzRWZndLOExwb0tzQ2I0ZVdiWjBOQjdwaVRsSXM5bDROZUJTSVJ5MFE3cU5aUUFKWFphY1dPaVpZWnM0ZFQxMy1CNDNoN013SFljY00wbm02RnhDREJkdWd1Tmk4WVhubFVTZFJmTndHZ01DVHRZ?oc=5",
+      "publishedAt": "2026-09-05T12:31:55Z"
+    },
+    {
+      "id": "6492d4bf55c114ec0cc6",
       "category": "Official",
       "time": "NEW",
       "title": "64 years since Amancio's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVE4SGhHdWljRU9VallYWV9WVUlLbnUwbjVqZm04WXRtNEU2RG40OVFpRklPQlloS21rT2lrb3Nab1lTcjdKdjZGVTFvNWZkQVlyV0otYllLX1M1THJsWDZaWndMbnJPOHUtVWhublAxQzdTQkIwQ2c1SXJ3VHpFNHN0ZWVjc1BWcmxvajBud2tEbElraHItdXNpU0Raa1J6ZnZ6U2dNTFQ?oc=5",
-      "publishedAt": "2026-09-05T04:26:11Z"
+      "publishedAt": "2026-09-05T10:26:11Z"
     },
     {
       "id": "04ea34a00ed06ce1cf2f",
@@ -22,20 +32,20 @@
       "publishedAt": "2026-09-04T22:15:08Z"
     },
     {
-      "id": "4b16baea146196d41f8b",
+      "id": "e1bbd46f58f987eb8d8f",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe denied at the death as Betis beat Real Madrid - reuters.com",
+      "title": "Mbappe denied at the death as Betis beat Real Madrid",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQVktT01vUnJFU1kwNTdBa0g1ekhEQ1lhdzF2bnF3eDRLamhoN012dzFWTUNmemZxTjViUmFRUkh6N2VITXptNzQxQ0JPNHJvN2FhOXo4MFVZaVNRcENaa1pwenZBaWFENVh4SWFpZmNBN3NuOF9OaWdJY2VaN0tOejBiTUE1cFk4dkhTSUJ0ajZES2djeG1V?oc=5",
       "publishedAt": "2026-09-04T21:59:05Z"
     },
     {
-      "id": "e1bbd46f58f987eb8d8f",
+      "id": "4b16baea146196d41f8b",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe denied at the death as Betis beat Real Madrid",
+      "title": "Mbappe denied at the death as Betis beat Real Madrid - reuters.com",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQVktT01vUnJFU1kwNTdBa0g1ekhEQ1lhdzF2bnF3eDRLamhoN012dzFWTUNmemZxTjViUmFRUkh6N2VITXptNzQxQ0JPNHJvN2FhOXo4MFVZaVNRcENaa1pwenZBaWFENVh4SWFpZmNBN3NuOF9OaWdJY2VaN0tOejBiTUE1cFk4dkhTSUJ0ajZES2djeG1V?oc=5",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2h2R2pORGtlS05ZU3cyZnV5YUFfb25wZFEyZFZDLU9Fa1JneXYzb1ctWUdIMTdoWHlnX2RpR2EtdVJ3UDN5Z3lZTURJU2VhcFZ5T24yemNjbW82U2JGc3JlbmFOUFVEUVFVdmR5M0k3ZnhSMmliNEh5Yzkwc05TamRIWTNoZlJDTnp6VWlIdjRZRTdxTG5Bd2FCVTVZUDJvREdHMzgxdWU0WDJndndlNTRLeWhMRVg5MTh1OUpB?oc=5",
       "publishedAt": "2026-09-03T10:08:00Z"
-    },
-    {
-      "id": "7ed575360b296d3516ff",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Final training session before the match against Betis",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFlITkV2M3luQ0YtUXg0cDNhVlM1T0c0SXF4RzZFN2JoMnNBZ1oteU9qVDk4S0RTWWJHb3dPampEUEhCb0U0WFlWWjhYMUFDdGp1OXVSRXhKM21FX0Y5ZlozdVZvcVJoMjBTcTZjeHdscjVxQWxKRk5kWmtDYnhDSGEtSUdXeF9MYkVNbHBoS29qRl9DMHEtcWd1MjFQWDlFT1Y3N3kzUWhtZzQ?oc=5",
-      "publishedAt": "2026-09-03T10:07:00Z"
     }
   ],
-  "updatedAt": "2026-09-05T09:19:39Z",
+  "updatedAt": "2026-09-05T12:47:11Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
