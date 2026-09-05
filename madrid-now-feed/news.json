@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "182921e0b182fd99f5cc",
+      "id": "b7d489a6b0638f171484",
       "category": "Matchday",
       "time": "NEW",
       "title": "The Champions League begins.",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZDh6R1NadUtJX3d3WXRwVDgwbHd1STNmTFFidExRT0lCRHJiUU9hLUxTUExMTzRWZndLOExwb0tzQ2I0ZVdiWjBOQjdwaVRsSXM5bDROZUJTSVJ5MFE3cU5aUUFKWFphY1dPaVpZWnM0ZFQxMy1CNDNoN013SFljY00wbm02RnhDREJkdWd1Tmk4WVhubFVTZFJmTndHZ01DVHRZ?oc=5",
-      "publishedAt": "2026-09-05T12:31:55Z"
+      "publishedAt": "2026-09-05T15:51:14Z"
     },
     {
       "id": "6492d4bf55c114ec0cc6",
@@ -282,6 +282,16 @@
       "publishedAt": "2026-09-03T17:00:00Z"
     },
     {
+      "id": "81da52ed8f5e8f201f76",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Arsenal vs Real Madrid - UEFA Champions League",
+      "summary": "Latest verified Real Madrid update published by LaLiga.",
+      "source": "LaLiga",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFN1czE0VzczbkFZWWIya0xCTElmOGQ0b0dONVBDcHJkQ08zaDUzTkN1WUttX1I2X1dmdFlqTEF0S3NwZHd3NjJfc1lPUVVGNUttakxuTHNBUGJKdGEya0RhVzRQX1hnUmQ5WGxBOHgwX3hRZHdNcGFNTDFSVko4aEpFQVFKWWJ4LThjM25Ec1d2MDRCclFfeQ?oc=5",
+      "publishedAt": "2026-09-03T16:00:18Z"
+    },
+    {
       "id": "b001271de099b0bbe68e",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
       "publishedAt": "2026-09-03T10:44:04Z"
-    },
-    {
-      "id": "05c90f158c6538dbdf39",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Carlo Ancelotti at Real Madrid City",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2h2R2pORGtlS05ZU3cyZnV5YUFfb25wZFEyZFZDLU9Fa1JneXYzb1ctWUdIMTdoWHlnX2RpR2EtdVJ3UDN5Z3lZTURJU2VhcFZ5T24yemNjbW82U2JGc3JlbmFOUFVEUVFVdmR5M0k3ZnhSMmliNEh5Yzkwc05TamRIWTNoZlJDTnp6VWlIdjRZRTdxTG5Bd2FCVTVZUDJvREdHMzgxdWU0WDJndndlNTRLeWhMRVg5MTh1OUpB?oc=5",
-      "publishedAt": "2026-09-03T10:08:00Z"
     }
   ],
-  "updatedAt": "2026-09-05T12:47:11Z",
+  "updatedAt": "2026-09-05T17:33:01Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
