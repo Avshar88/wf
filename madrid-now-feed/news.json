@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "b3bf7e91ff25ad2d3d2d",
+      "id": "5ef7fed3363c84ae6f08",
       "category": "Official",
       "time": "NEW",
       "title": "64 years since Amancio's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVE4SGhHdWljRU9VallYWV9WVUlLbnUwbjVqZm04WXRtNEU2RG40OVFpRklPQlloS21rT2lrb3Nab1lTcjdKdjZGVTFvNWZkQVlyV0otYllLX1M1THJsWDZaWndMbnJPOHUtVWhublAxQzdTQkIwQ2c1SXJ3VHpFNHN0ZWVjc1BWcmxvajBud2tEbElraHItdXNpU0Raa1J6ZnZ6U2dNTFQ?oc=5",
-      "publishedAt": "2026-09-04T22:26:11Z"
+      "publishedAt": "2026-09-05T04:26:11Z"
     },
     {
       "id": "04ea34a00ed06ce1cf2f",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-03T09:10:00Z"
     }
   ],
-  "updatedAt": "2026-09-04T23:25:12Z",
+  "updatedAt": "2026-09-05T05:40:15Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
