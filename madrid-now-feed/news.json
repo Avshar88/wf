@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "6d55b75ea630ace80bc9",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👀 Something’s coming tomorrow… STAY TUNED. #ViniJr #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=MrI1KGKcUKA",
+      "publishedAt": "2026-09-06T19:07:09Z"
+    },
+    {
       "id": "d2702c43d8243102871f",
       "category": "Matchday",
       "time": "NEW",
@@ -152,20 +162,20 @@
       "publishedAt": "2026-09-04T22:15:08Z"
     },
     {
-      "id": "4b16baea146196d41f8b",
+      "id": "e1bbd46f58f987eb8d8f",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe denied at the death as Betis beat Real Madrid - reuters.com",
+      "title": "Mbappe denied at the death as Betis beat Real Madrid",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQVktT01vUnJFU1kwNTdBa0g1ekhEQ1lhdzF2bnF3eDRLamhoN012dzFWTUNmemZxTjViUmFRUkh6N2VITXptNzQxQ0JPNHJvN2FhOXo4MFVZaVNRcENaa1pwenZBaWFENVh4SWFpZmNBN3NuOF9OaWdJY2VaN0tOejBiTUE1cFk4dkhTSUJ0ajZES2djeG1V?oc=5",
       "publishedAt": "2026-09-04T21:59:05Z"
     },
     {
-      "id": "e1bbd46f58f987eb8d8f",
+      "id": "4b16baea146196d41f8b",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe denied at the death as Betis beat Real Madrid",
+      "title": "Mbappe denied at the death as Betis beat Real Madrid - reuters.com",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQVktT01vUnJFU1kwNTdBa0g1ekhEQ1lhdzF2bnF3eDRLamhoN012dzFWTUNmemZxTjViUmFRUkh6N2VITXptNzQxQ0JPNHJvN2FhOXo4MFVZaVNRcENaa1pwenZBaWFENVh4SWFpZmNBN3NuOF9OaWdJY2VaN0tOejBiTUE1cFk4dkhTSUJ0ajZES2djeG1V?oc=5",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=Bog62RgDaRM",
       "publishedAt": "2026-09-04T15:00:09Z"
-    },
-    {
-      "id": "efed15e26d3ec72a5ada",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Defeat at La Cartuja",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmluaDVDUEkzUXVkSjI1MngzU1gxTFpRNTU3cEVfbzZ6dmRhbEo5bmQzczhCcUVfUW8xdGpHVG5MckRwa05SQUVrdlhGZkMzR1FuTWtxUlhMckpOZ2lxcGVqSG9UOEE5Y3BvVTJlM01hRXVELVdZc0tYRUNOOHdramR1ckhZSmx4Znhnd1JBY0VaQXBuVGhpUjQ1Mk82UjJhZmN3bA?oc=5",
-      "publishedAt": "2026-09-04T15:00:00Z"
     }
   ],
-  "updatedAt": "2026-09-06T17:45:37Z",
+  "updatedAt": "2026-09-06T19:32:20Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
