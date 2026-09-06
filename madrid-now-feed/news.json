@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "230d08afde62d3f1f040",
+      "id": "cd8b7c64ecc4235277ed",
       "category": "Matchday",
       "time": "NEW",
       "title": "The Champions League begins.",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZDh6R1NadUtJX3d3WXRwVDgwbHd1STNmTFFidExRT0lCRHJiUU9hLUxTUExMTzRWZndLOExwb0tzQ2I0ZVdiWjBOQjdwaVRsSXM5bDROZUJTSVJ5MFE3cU5aUUFKWFphY1dPaVpZWnM0ZFQxMy1CNDNoN013SFljY00wbm02RnhDREJkdWd1Tmk4WVhubFVTZFJmTndHZ01DVHRZ?oc=5",
-      "publishedAt": "2026-09-05T21:52:16Z"
+      "publishedAt": "2026-09-05T21:55:00Z"
     },
     {
       "id": "e9556fba90109ca88fb5",
@@ -22,16 +22,6 @@
       "publishedAt": "2026-09-05T20:52:00Z"
     },
     {
-      "id": "0277b0dd04f87510e7e8",
-      "category": "Official",
-      "time": "NEW",
-      "title": "3-2: Inter's comeback before visiting the Bernabéu - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS2ppQTJZWXplc2pfU0VTU0c0QzZEX0JNVUxWdC11N0xDV1JiUDZNenhOZjRwdm1lcFZNWHRJUmVDMy1lOVk1MS11U2JWclcxOUlVbFNCSU5JSkRTR0ZHUnMtSUxjeExId29fMzdLSnlJTGNJV18zZ3FBQVlTcTFrXzduaWNIR2ZQeGI2Z2wxMkRQSW03Y3huazFoYXoxRnA5VkhHMw?oc=5",
-      "publishedAt": "2026-09-05T17:13:00Z"
-    },
-    {
       "id": "9cbdc1101cff2b560887",
       "category": "Official",
       "time": "NEW",
@@ -42,20 +32,30 @@
       "publishedAt": "2026-09-05T17:13:00Z"
     },
     {
-      "id": "dbb0300e4c0e9bd8f25e",
+      "id": "0277b0dd04f87510e7e8",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid-Eibar: aiming for the third consecutive victory at the Di Stéfano - realmadrid.com",
+      "title": "3-2: Inter's comeback before visiting the Bernabéu - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUHRQaG9NWjR4S28yU0h2LUNrM01zQ2tscWZPTTBEVmpreUliamJ1RVI0WTJEaW4zekl4em5MR0FzVjZGdlVrU0k1LW1td0hMWVlSQTNtZ0VrcTdQUjhrUy11bTRhREh3WDlZcGI0MEdQM2owOFpXc3RGQjU5RVlHREZyNl9ZQlBTd2VrUjI4SFhqb0dVSEtXT1pPUHNSS3FJZ2RXYjdPMzNjdExfd3NBMUtUUl9rYm1FeGw3aW40OGxWdmo1VTFPMDVTckhhaWFjTnBXV1BaY2lYenRWbUh0OA?oc=5",
-      "publishedAt": "2026-09-05T17:00:00Z"
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS2ppQTJZWXplc2pfU0VTU0c0QzZEX0JNVUxWdC11N0xDV1JiUDZNenhOZjRwdm1lcFZNWHRJUmVDMy1lOVk1MS11U2JWclcxOUlVbFNCSU5JSkRTR0ZHUnMtSUxjeExId29fMzdLSnlJTGNJV18zZ3FBQVlTcTFrXzduaWNIR2ZQeGI2Z2wxMkRQSW03Y3huazFoYXoxRnA5VkhHMw?oc=5",
+      "publishedAt": "2026-09-05T17:13:00Z"
     },
     {
       "id": "2ab62e1c939579fb00e2",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid-Eibar: aiming for the third consecutive victory at the Di Stéfano",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUHRQaG9NWjR4S28yU0h2LUNrM01zQ2tscWZPTTBEVmpreUliamJ1RVI0WTJEaW4zekl4em5MR0FzVjZGdlVrU0k1LW1td0hMWVlSQTNtZ0VrcTdQUjhrUy11bTRhREh3WDlZcGI0MEdQM2owOFpXc3RGQjU5RVlHREZyNl9ZQlBTd2VrUjI4SFhqb0dVSEtXT1pPUHNSS3FJZ2RXYjdPMzNjdExfd3NBMUtUUl9rYm1FeGw3aW40OGxWdmo1VTFPMDVTckhhaWFjTnBXV1BaY2lYenRWbUh0OA?oc=5",
+      "publishedAt": "2026-09-05T17:00:00Z"
+    },
+    {
+      "id": "dbb0300e4c0e9bd8f25e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Eibar: aiming for the third consecutive victory at the Di Stéfano - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUHRQaG9NWjR4S28yU0h2LUNrM01zQ2tscWZPTTBEVmpreUliamJ1RVI0WTJEaW4zekl4em5MR0FzVjZGdlVrU0k1LW1td0hMWVlSQTNtZ0VrcTdQUjhrUy11bTRhREh3WDlZcGI0MEdQM2owOFpXc3RGQjU5RVlHREZyNl9ZQlBTd2VrUjI4SFhqb0dVSEtXT1pPUHNSS3FJZ2RXYjdPMzNjdExfd3NBMUtUUl9rYm1FeGw3aW40OGxWdmo1VTFPMDVTckhhaWFjTnBXV1BaY2lYenRWbUh0OA?oc=5",
@@ -172,20 +172,20 @@
       "publishedAt": "2026-09-04T16:40:24Z"
     },
     {
-      "id": "ff4d60a284211b21fab3",
+      "id": "b1cc73c8bdd737b2d978",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid has arrived in Seville - realmadrid.com",
+      "title": "Real Madrid has arrived in Seville",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
       "publishedAt": "2026-09-04T15:45:00Z"
     },
     {
-      "id": "b1cc73c8bdd737b2d978",
+      "id": "ff4d60a284211b21fab3",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid has arrived in Seville",
+      "title": "Real Madrid has arrived in Seville - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
@@ -202,20 +202,20 @@
       "publishedAt": "2026-09-04T15:06:00Z"
     },
     {
-      "id": "b5923793743e5375722a",
+      "id": "6f89918a0c9cf979f008",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid's starting lineup against Betis - realmadrid.com",
+      "title": "Real Madrid's starting lineup against Betis",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkNidVoyMXNYWUlDN1NuTDZNbEdLTzJfbFVodVJ2amVHUmgzY2dFV1FFTjVuSm1UZjVQaVQ3NUk3dElDOUoyRjdhR3NCeUhwMWVWUy1fRmVYaHhwTDJ6N1ZQR2E0UEUwd2RUekRGVk8weThpMEktbFNxYlpKRWliUHE2Z0pHcThROXp2emd0RGpPb1dERi0yWU5jcWk5WlhMS3ZYc05xTVR5R1AzcGRGd2RjNWVlUnRiWmlFazhFNWVjZw?oc=5",
       "publishedAt": "2026-09-04T15:01:00Z"
     },
     {
-      "id": "6f89918a0c9cf979f008",
+      "id": "b5923793743e5375722a",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid's starting lineup against Betis",
+      "title": "Real Madrid's starting lineup against Betis - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkNidVoyMXNYWUlDN1NuTDZNbEdLTzJfbFVodVJ2amVHUmgzY2dFV1FFTjVuSm1UZjVQaVQ3NUk3dElDOUoyRjdhR3NCeUhwMWVWUy1fRmVYaHhwTDJ6N1ZQR2E0UEUwd2RUekRGVk8weThpMEktbFNxYlpKRWliUHE2Z0pHcThROXp2emd0RGpPb1dERi0yWU5jcWk5WlhMS3ZYc05xTVR5R1AzcGRGd2RjNWVlUnRiWmlFazhFNWVjZw?oc=5",
@@ -262,20 +262,20 @@
       "publishedAt": "2026-09-04T11:54:00Z"
     },
     {
-      "id": "09c3e0a8b3a2c32f67dc",
+      "id": "cfa6e9aa2e819fb25708",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga - realmadrid.com",
+      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWG43YTVPRTFZb0xPOFNxUG1FN0dtNW90WkItQk43Z0ZFNHNldG9heTF5MlIyaFVFVWhiMmVDTVNzQ3djYklXblhDR2MtSGdjSGtkdW1zbUo4RHM0M2k3Nm94YVdVbEZIZTVWOE5jMklaSGw1YUpKdzNRZ3BtazN2ZG96NFlzRDVPdVpPWVdnMElUZWExaE1qcFNESVIzRHE1ZVJKa1ZTam04TGhWaWxuQWZHSnRFRS13Y3NPOWMtaWZnX0ktS044M012Q09Uc0hCTVl3MDhycw?oc=5",
       "publishedAt": "2026-09-04T07:58:00Z"
     },
     {
-      "id": "cfa6e9aa2e819fb25708",
+      "id": "09c3e0a8b3a2c32f67dc",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga",
+      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWG43YTVPRTFZb0xPOFNxUG1FN0dtNW90WkItQk43Z0ZFNHNldG9heTF5MlIyaFVFVWhiMmVDTVNzQ3djYklXblhDR2MtSGdjSGtkdW1zbUo4RHM0M2k3Nm94YVdVbEZIZTVWOE5jMklaSGw1YUpKdzNRZ3BtazN2ZG96NFlzRDVPdVpPWVdnMElUZWExaE1qcFNESVIzRHE1ZVJKa1ZTam04TGhWaWxuQWZHSnRFRS13Y3NPOWMtaWZnX0ktS044M012Q09Uc0hCTVl3MDhycw?oc=5",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-04T05:02:31Z"
     }
   ],
-  "updatedAt": "2026-09-06T00:34:50Z",
+  "updatedAt": "2026-09-06T05:01:04Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
