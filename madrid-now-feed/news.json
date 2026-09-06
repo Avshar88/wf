@@ -282,6 +282,16 @@
       "publishedAt": "2026-09-04T07:58:00Z"
     },
     {
+      "id": "82a52550aa6c8c404020",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Champions League Matchday 1: Real Madrid vs Inter facts",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHNKc1lQUjF0bVRvWVVqYkI3amo4dGw1dU9ZZ1djNnFLYzdZdkkyT1dXaDNwSnBWLWFUSnhJX2plT0J0LW0xVDloa1ozOWFhYk1ybmpoNEIxVmx3NFhkT1NuRFptV0h0a3U4TEt4WDluS3pjRi1oSk9BOTVQZ1BVejdWTmdXY0VZMUdKdDR2Z3k3elFlbjk4N2paSEluRTB5ano2WlZDU2NTYnl6dkJYUXAxSTJaUEd6ejh6OVJxdklHWlpqSXM5Wk1yTm55OUJoLTBpRg?oc=5",
+      "publishedAt": "2026-09-04T07:00:00Z"
+    },
+    {
       "id": "d2ec91d1577e4d1478f4",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNempwUFJHREdYbmdoWkRXOTl3VWdvN0FHVm4xblR4WE1lRGd6UHk5YlpYcjdjN2hNYzdESlotZG1nYWFEcHNUTjJ2b1pHM2V1dnZOaFdUeGdqa19ONkE2U3lJOVktc0UyVXo3QjlJMEp6ZnlRNzZ0VTcwTjVDSjViOWdYa2MzX2R4SUpjOVUxaU1zakJmb2h6Y2lIUC1JX2EzXzdKeTl5Y0Q0YklpMGJ4MGR0UDNlVFBsUU5HMw?oc=5",
       "publishedAt": "2026-09-04T06:48:00Z"
-    },
-    {
-      "id": "8c7b1cc61f7ee7988b7a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Diego Villalba | Matches | Real Madrid",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOThCck5OTUZ2Ym9QR0pjRU1pY3M1Q1NDRF9EVHk3cTBmeE9DQUlZSFRpUktteE8waHpXWWQ3Qm54cXhTQ3NiSnBEYVRzM1BmYmpPWnJad3A4Nm9oTHJCcEQzSG1iNGFQaTlIQTJESl9ibFY4UlBIbHNJT0VmX3FPVTdUREVWVTYzajNlUHI1dzN4NWM?oc=5",
-      "publishedAt": "2026-09-04T05:02:31Z"
     }
   ],
-  "updatedAt": "2026-09-06T05:01:04Z",
+  "updatedAt": "2026-09-06T09:12:56Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
