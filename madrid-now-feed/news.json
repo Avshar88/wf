@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "7f7c1dce6264b49b35c7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Draw against Eibar at the Di Stéfano",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbVBOS0UwYzlxODFIejR4N3hQR0p0MGNZZFZBRnVQQTlOWWhNT3VyYVdISmVQdnBsVnJOXzAyQXloNGhFbjFlQW8xMkhWc1J2eFAwQjN6d0xsdmJHTktOSkVvb3NUZUlNWGIwTEpvY1dsNzByUlFGUzE3cGEzWHQtVC04alJIb3YwckNSOWd1Tm04NTNJdmJkeWY3T1Bxa2R3cjM2eDRCMllyT25Pd3pTeQ?oc=5",
+      "publishedAt": "2026-09-06T20:30:37Z"
+    },
+    {
       "id": "6d55b75ea630ace80bc9",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkNidVoyMXNYWUlDN1NuTDZNbEdLTzJfbFVodVJ2amVHUmgzY2dFV1FFTjVuSm1UZjVQaVQ3NUk3dElDOUoyRjdhR3NCeUhwMWVWUy1fRmVYaHhwTDJ6N1ZQR2E0UEUwd2RUekRGVk8weThpMEktbFNxYlpKRWliUHE2Z0pHcThROXp2emd0RGpPb1dERi0yWU5jcWk5WlhMS3ZYc05xTVR5R1AzcGRGd2RjNWVlUnRiWmlFazhFNWVjZw?oc=5",
       "publishedAt": "2026-09-04T15:01:00Z"
-    },
-    {
-      "id": "7a74cea3af71cd822b47",
-      "category": "Official",
-      "time": "NEW",
-      "title": "☄️ Free-kick perfection! 📐 GarethBale vs Betis #RealBetisRealMadrid #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=Bog62RgDaRM",
-      "publishedAt": "2026-09-04T15:00:09Z"
     }
   ],
-  "updatedAt": "2026-09-06T19:32:20Z",
+  "updatedAt": "2026-09-06T21:36:10Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
