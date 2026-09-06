@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "d2702c43d8243102871f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "ENDRICK’S INCREDIBLE CHIP GOAL in training! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rwsYfiRjM0Q",
+      "publishedAt": "2026-09-06T15:31:24Z"
+    },
+    {
+      "id": "4e9ad88cc3172c5c70e0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😮‍💨 On repeat! #Endrick #RealMadrid #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=nRfIemBqe7s",
+      "publishedAt": "2026-09-06T15:14:45Z"
+    },
+    {
+      "id": "013a48fe6d3a421c52a5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1lmYWkwNGRTZEVSMlhaNXNHT2tBQVZkeHhuS2hkQWFDVWx3aFRVOFBIbklIdzZudlI5Q0Nic3VIbGtpd2pRRmpVZ3Nwc1RMLTJablNJa2NwWmw4VFZiYVFHN09wenVPS29ZeXdidEU4dDlObzFHVmNhU1RteXYwelpONXFqa0V4aU00?oc=5",
+      "publishedAt": "2026-09-06T10:59:47Z"
+    },
+    {
       "id": "b080c0f10172e9b8de7b",
       "category": "Matchday",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmluaDVDUEkzUXVkSjI1MngzU1gxTFpRNTU3cEVfbzZ6dmRhbEo5bmQzczhCcUVfUW8xdGpHVG5MckRwa05SQUVrdlhGZkMzR1FuTWtxUlhMckpOZ2lxcGVqSG9UOEE5Y3BvVTJlM01hRXVELVdZc0tYRUNOOHdramR1ckhZSmx4Znhnd1JBY0VaQXBuVGhpUjQ1Mk82UjJhZmN3bA?oc=5",
       "publishedAt": "2026-09-04T15:00:00Z"
-    },
-    {
-      "id": "e2ddac8cd950327dde2e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "💜🤝🤳 #realmadrid #madridistas",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=PgUJjNEt-AA",
-      "publishedAt": "2026-09-04T14:12:05Z"
-    },
-    {
-      "id": "c6385071e7141fb02afa",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Cucurella and Lunin, stars of the signing session in Seville",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOazBoaUFCV0xqcmR2QjBrQ1U0eHluSTMtU1BOV0JpSVNfQnVXNlNVbmJoTUZJVFpqUjVnOXVFd1pYN2Rwd0FUSzdJNXdyNmdVWjIzbGJBVENZc0Z1enpVTGR0cERDN2VMS0lUbzhCN2lySTBBUlF0ZDRuS3ZVOGpXS25kRDgzdWQyZEhfVGZ3bklQS0lLaTNXWnlKMjcxOGRBaC1GY0lydzY1S3JzbS1jR1h2Mnc1QnhTdkxyZEhnZnVSN3FzM3Zfbmg0c1JfbUk?oc=5",
-      "publishedAt": "2026-09-04T11:54:00Z"
-    },
-    {
-      "id": "cfa6e9aa2e819fb25708",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Betis-Real Madrid: a challenging outing on Matchday 4 of LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWG43YTVPRTFZb0xPOFNxUG1FN0dtNW90WkItQk43Z0ZFNHNldG9heTF5MlIyaFVFVWhiMmVDTVNzQ3djYklXblhDR2MtSGdjSGtkdW1zbUo4RHM0M2k3Nm94YVdVbEZIZTVWOE5jMklaSGw1YUpKdzNRZ3BtazN2ZG96NFlzRDVPdVpPWVdnMElUZWExaE1qcFNESVIzRHE1ZVJKa1ZTam04TGhWaWxuQWZHSnRFRS13Y3NPOWMtaWZnX0ktS044M012Q09Uc0hCTVl3MDhycw?oc=5",
-      "publishedAt": "2026-09-04T07:58:00Z"
     }
   ],
-  "updatedAt": "2026-09-06T12:52:55Z",
+  "updatedAt": "2026-09-06T15:50:37Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
