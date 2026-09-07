@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "b23f4728fda2ad11e0b8",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🙌 Training time! #RMCity #RealMadrid #Football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=_rTWleflZT4",
+      "publishedAt": "2026-09-07T09:09:19Z"
+    },
+    {
+      "id": "5e115e772d89559a772c",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "José Mourinho interview: Real Madrid coach on league phase opponents in the Champions League and his return to the Santiago Bernabéu",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSE1WUHNHYW5ldFV2RVdqNENBV3VDQ0M5b09qX3R4NkxGM01HY08xeXNqWThWUVZfLXlFSzRnSm90RjNFZDlIRWFheGV1MkxxanU0djk5NkVPbVMtbEozbkJORTBXaXdkam9CVVJXZGMya3FfeVlqQUhOQnA4OEFYUTRJVkMzd09xODR2OGFwVGRMckFqZkRCcGJpY1RxMTUtaWNRQ0VRS19jNmR1cXpJaUk1MTZfNFNRTjluVXRuMFBkRlZweDFmTmJIVGJ4VzVqRUpmbTJNYw?oc=5",
+      "publishedAt": "2026-09-07T08:31:49Z"
+    },
+    {
       "id": "7f7c1dce6264b49b35c7",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=Y45epeVNipA",
       "publishedAt": "2026-09-04T17:51:32Z"
-    },
-    {
-      "id": "582e8b6736efcad1f031",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Málaga | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=rYqhY2Hv20Q",
-      "publishedAt": "2026-09-04T16:40:24Z"
-    },
-    {
-      "id": "b1cc73c8bdd737b2d978",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid has arrived in Seville",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYVVMdUNOUjVHSWtoX1hSUlU2OERLZF93NERCdDdTX3E3aV9TUWxrOERwSTdzaWcxdWFuRS15NjhZS2FzeE5oS2Rha2JpQ1owem1kWmxycWFtZzdXbEc3WFdyUENYUzJHWGNQZ09iSGc0VktkRV9KZ3g0d3U0RFdaS0JDNlQ5ZjAzZVN4V2hCejVwVHhtTFBpZTNRSnVNTkMwUWpIeHdBZzQ1YV9ma0hxMXBGLXc?oc=5",
-      "publishedAt": "2026-09-04T15:45:00Z"
     }
   ],
-  "updatedAt": "2026-09-07T05:18:09Z",
+  "updatedAt": "2026-09-07T10:25:04Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
