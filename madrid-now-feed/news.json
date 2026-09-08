@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "e521379e7b7a816bb436",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid-Inter: The Champions League kicks off at the Bernabéu - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONUhyc21tQW9KVjZOZ0Rtamk5V1Nscnp3M3ZEN0NBbWpqZzV2NGlBRHJuLUJwcmNpVlR0MGtEUXdvTVA5MVI0SFJXYmQ1LUxoNkJ1V3dxZ1hLS3VvT2NQaUlVVjRfZmNZSTFIXzhBQ1RJQXViRVM0Z29tU19ndUZrMzh2S1RZZHI5ZWJ0WkphSzR5WTAyY0lBc09lNDBxNGRtd0gwaEpiSERKVFNMbXZwTTFYMHlLdEhaWFN6NmhEaHliU3V3eUp4bFRIdw?oc=5",
+      "publishedAt": "2026-09-07T22:26:24Z"
+    },
+    {
       "id": "546d29fe31ddc81a654d",
       "category": "Official",
       "time": "NEW",
@@ -22,6 +32,16 @@
       "publishedAt": "2026-09-07T18:06:24Z"
     },
     {
+      "id": "49491410ea01c916d269",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Cristian Chivu: “We like having the opportunity to play a Champions League match at the Bernabéu\" - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOenZTNHRXRnRnU0U0c1dLLW9SaUtIa285dURVV3ZjR3ktWGJPWGowWXkwa2czOU9EVGdXYUd0c2Nrcnl1bmUzcGRfUjFuNVVhYWJvQVNKbG9pSG1JQnpQbzctN0RkTVY1a0hPRnVZcDZhX1Y4QWpxZlB0akMzQjIyc3p2WVQ1N1hBT3ZicmllNWl1bVBEdjlBaHA4RQ?oc=5",
+      "publishedAt": "2026-09-07T18:00:02Z"
+    },
+    {
       "id": "191eff364a9b2a6fe7f8",
       "category": "Matchday",
       "time": "NEW",
@@ -40,6 +60,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=EmAs925-M8w",
       "publishedAt": "2026-09-07T17:00:21Z"
+    },
+    {
+      "id": "ca3874f3a71dee54e6b9",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid's José Mourinho: 'I always have to win the next game' | Video",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdk5MbThTVXgwTDFla3V1c2pQM0RIMHZiMUlpUDAzQ3lsS0o5cmlSeG9CQTZFRzJBS2xEdkhLd3JvOEM2Sl9YTTc4bkM3U3hKbzJrWGNOWm1veTN5Wm1xMmt2M19JZDVyYjhxYzZZZ1AtdmJRbWJvOFRMWXI1aHhJb1hLSnBNRWhjVjZPNXpJY1pHYVF3bkVEUDB6dUZzdTNTM3kwbF9SNW9MdzgtLWVmVkJpQ193ZzlQbkFtc0RFeEF2dl8tMTZQeWpwWkgwYml1b3pSSUd1YXFidw?oc=5",
+      "publishedAt": "2026-09-07T16:12:01Z"
     },
     {
       "id": "c7a4e25f71a225708f23",
@@ -132,6 +162,16 @@
       "publishedAt": "2026-09-07T10:30:00Z"
     },
     {
+      "id": "7d0b2533c23c0d935245",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid CF official website - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU2JSeFpCVGFhamhaeERiWXNVZ1FoN3F3R3ExR1VfMlJlVUdhMVoyMjM0NHJnRXhRNzdJanBSOXF3bmVNalRKRUJPWmpyOERpRzZaN2ZNR1d4d2ZQakpTbDl3WVl1ZEQ2NldpNTZxczY4V1o5YUpORkdMVzBtTUtxZw?oc=5",
+      "publishedAt": "2026-09-07T10:03:30Z"
+    },
+    {
       "id": "9d7f0ad2d2cb53f50bc4",
       "category": "Official",
       "time": "NEW",
@@ -180,6 +220,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaG1McVBpaE5odzR6YlEyZEpmLWExSUw0X2c2TVprYjJWX3YzZTQ4UnQ4TkJwZlA3SnlGQ282SWlHMlQxblB2SW1wVjh1Ynh4ajA3a3ZLVzZQc01ZQWx3N3pLMF9xSjFKNmFzRzNfYkZja2ZqZXV4cHZmY1RORGdXb3J0SEFZNXpjeHozcXdxcVR6QnFIakZHak14UHJhZ1VxNndLSjdxeVlkcHM?oc=5",
       "publishedAt": "2026-09-07T08:30:00Z"
+    },
+    {
+      "id": "439492199a6986368d99",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Mbappé: \"Starting the Champions League at the Bernabéu is an extra motivation\" - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGFZZHFSOF8zeUFrbUE4M2xMMlRVTmtRR2xCaDZjQm5WLVVmT2dKVHMtck1IZUJVSXVPczVTQXFpc3V0YVpEcmg0SEI5NkJKZUs0OHFfTjBYWUYtdjdxSzh4SFNwMnZnMDE2aTFBNG1Lc1c4TUVTUGxXVXJiRWFJN3ZIbHFSU1pHVTVmU0lMT2dYRDZWbnBnTw?oc=5",
+      "publishedAt": "2026-09-07T08:05:00Z"
     },
     {
       "id": "bd00183186452a451f13",
@@ -250,59 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=nRfIemBqe7s",
       "publishedAt": "2026-09-06T15:14:45Z"
-    },
-    {
-      "id": "013a48fe6d3a421c52a5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1lmYWkwNGRTZEVSMlhaNXNHT2tBQVZkeHhuS2hkQWFDVWx3aFRVOFBIbklIdzZudlI5Q0Nic3VIbGtpd2pRRmpVZ3Nwc1RMLTJablNJa2NwWmw4VFZiYVFHN09wenVPS29ZeXdidEU4dDlObzFHVmNhU1RteXYwelpONXFqa0V4aU00?oc=5",
-      "publishedAt": "2026-09-06T10:59:47Z"
-    },
-    {
-      "id": "7d2fa6cd5bb206a70f4a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1lmYWkwNGRTZEVSMlhaNXNHT2tBQVZkeHhuS2hkQWFDVWx3aFRVOFBIbklIdzZudlI5Q0Nic3VIbGtpd2pRRmpVZ3Nwc1RMLTJablNJa2NwWmw4VFZiYVFHN09wenVPS29ZeXdidEU4dDlObzFHVmNhU1RteXYwelpONXFqa0V4aU00?oc=5",
-      "publishedAt": "2026-09-06T10:59:47Z"
-    },
-    {
-      "id": "b080c0f10172e9b8de7b",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid prepares for the match against Inter",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcV9ES3Z1c2pzd1lUSUNZWE1vaWNFcXlBUmpUUkVGZVV2Mk1yMkprUzVadDNRRUFJaHpiSy1KaVdIbHFSV3VUdXhNVlhBNWhzckFueHFIZ2lCVHdlMXF5MGpUVXR0SUJ5cUIzOXB4Slo0SEJrYUFVLXZHdTA3V296bUd2emJiSnRxZmFIcl9fRzJTOUhaV2d2b1hoNlVGeGM4anhZZmtMWG9INDQ?oc=5",
-      "publishedAt": "2026-09-06T08:10:00Z"
-    },
-    {
-      "id": "ca44cee97f578f797206",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid prepares for the match against Inter - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcV9ES3Z1c2pzd1lUSUNZWE1vaWNFcXlBUmpUUkVGZVV2Mk1yMkprUzVadDNRRUFJaHpiSy1KaVdIbHFSV3VUdXhNVlhBNWhzckFueHFIZ2lCVHdlMXF5MGpUVXR0SUJ5cUIzOXB4Slo0SEJrYUFVLXZHdTA3V296bUd2emJiSnRxZmFIcl9fRzJTOUhaV2d2b1hoNlVGeGM4anhZZmtMWG9INDQ?oc=5",
-      "publishedAt": "2026-09-06T08:10:00Z"
-    },
-    {
-      "id": "a9ce30a4123d8edba627",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid squad announcement against Eibar",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjF0SkhTNnJNdVVSWXRaS0txUGJwUzNvZURYX21Xdy1pMExWZHBQSWU5cnh6LVNpbFVuLVhHWWlqUGxpLXltMXhIakNDVm1CTHp0MWJHZUVEMjZSNVMxcWdwQi04Vm45SnNrUkltMjZNWTB6dUlHTWljYkh2YmN0dzFvbDFQZ0J5STd0NzJyNVNrcHd6aURlNTdVbWk3U1p5aDZLWWtyWkItRVVqVXp4dk9zVzRTVm81OG1YMV9VLUt4eTQ?oc=5",
-      "publishedAt": "2026-09-06T08:00:00Z"
     }
   ],
-  "updatedAt": "2026-09-07T22:11:52Z",
+  "updatedAt": "2026-09-08T00:23:05Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
