@@ -2,6 +2,86 @@
   "version": 2,
   "stories": [
     {
+      "id": "0af90670d7d530cdee12",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Tribute to Ceuta by the Grada Fans",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMG9TajYtTGVnN2MyVm9tT3lNQjE1cFJQUHp0V25SS0hGUVdrQUR0SmsxN3Q1d1RsUmJZUHBVQ1o4b1liOUhIcjFVRnI0Ql9OZ2hwdE1Nelh5dzZvMkctVng0c3UyZ0E4NEstcEozbnc4bXN6eEd1M1VRdUZwaWo0b0dSZHpBMHZJUmVjTG9nTEdLbjVnWG1EbWFfQzVWNGpFZFFaLVRmNjJfbnZyR3kzQVE0Zm8?oc=5",
+      "publishedAt": "2026-09-08T19:11:00Z"
+    },
+    {
+      "id": "97b12488328e88fab61b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Moment of silence at the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdkoxc3ZPWnd6NmVPcU96M3JDdExEWXhRUC1qZ3B1bjRnVko2NXdUVTRBaENBQk1sNjBjVXFkN1o2c1dzOEg2LWY3bGI1YkFxbVJZVm1Db3JoREJlR0xiRmp6bWtCYUhOVHNaWmIxamxoLWU1Mk1uOEt4dVg3TERQdl9tMjh5TEJkbDJYYlkyX3dWN2wyN2pZQkZ5VVBCdExnRWlsSDdpUWMtaF9XYWc1a041SEU?oc=5",
+      "publishedAt": "2026-09-08T18:53:00Z"
+    },
+    {
+      "id": "3c2978ddfe63d3b8bc20",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👉 READY! #RealMadrid #UCL #Bernabeu",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=CYvJeh59eDo",
+      "publishedAt": "2026-09-08T18:44:08Z"
+    },
+    {
+      "id": "a372024b05141046324f",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔝 Here for it! | #RealMadrid #UCL #football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=8W0SLURP_a4",
+      "publishedAt": "2026-09-08T18:23:44Z"
+    },
+    {
+      "id": "b6a54b75ef50f0da11aa",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🏟️ The state is set! | #RealMadrid # #football #UCL",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rfrodlm3-tI",
+      "publishedAt": "2026-09-08T18:16:59Z"
+    },
+    {
+      "id": "64abc722d5b89eafcb57",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's Starting Lineup Against Inter",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRFRMT2ktNVBjSXRVYjdkM2FBZ3ZOT3JRZlFqRFBzX0xmQmJvSzlSMkZlWXRxYk9mR0NURUZ2aFlVR25mM3Y4eFhXb01ZY1dkb3RyX0MxZE15ZGpEX1lNNjEwcUZ6QkhVSzFfWTU2dzROR0J1VTBTZS1FektvMG05OW1GX2duUjJkYWxKVTBMN2p1MFdiSkdCYWJJZVBCdjEyUmJsQi1kNjJFNHdpTlphUXpneGR0OUsxR0JKOGVzMXdQR28?oc=5",
+      "publishedAt": "2026-09-08T18:00:15Z"
+    },
+    {
+      "id": "4cf9c3101548d8ca1fa9",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🌟 It’s Champions League time! #RealMadrid #UCL",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=rA6tMbhAZB0",
+      "publishedAt": "2026-09-08T17:22:26Z"
+    },
+    {
+      "id": "792f9d40cc1b5bd6c8c3",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Inter | Champions League",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=vVA99929hmI",
+      "publishedAt": "2026-09-08T17:10:59Z"
+    },
+    {
       "id": "792f9d40cc1b5bd6c8c3",
       "category": "Matchday",
       "time": "NEW",
@@ -10,6 +90,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=vVA99929hmI",
       "publishedAt": "2026-09-08T17:10:59Z"
+    },
+    {
+      "id": "bfe0201d3eab2f5308b1",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "This was Real Madrid's arrival at the Bernabéu before the match against Inter",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMjBOSmJRcktna2llaEI5RnBUQ1oyREs1QjZBVVJodzN4MmRERWdyaTRCdXllOUt5NV9UbHJES2NtOUc5emJTOElDb2Y4MUhlU0J1Y2NselBPZWxZeVNINi1fZmlvUjRsUU0wNjdPN2xESTdrNlc3N01VTXZrMDBtVkk5dEVhRkdQVGs1Q3Rqcmg3cFdoVnNRUU0tUFlkNEktSlVTV2ZER2FDemxWdXFrUWZUZm5NRHFFZ2IwNWNvb3dDaDlxaWc?oc=5",
+      "publishedAt": "2026-09-08T16:19:00Z"
     },
     {
       "id": "98f14d66cc349a430de0",
@@ -40,6 +130,26 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzZUNTNqMmVRMHdGY0tTSFpVcXkzTHZQRlBKWWw0cDlPZHVBdnpYZTZaR25OazJKQ1Nra2ZxRjVmcHhVc0VSYUpOMExhZFdBUHk0Z0p4bTJodUJIeUEtdnFNWDBTaWFOcTNRUzZZbGJIS2ViWEhUOU5GTmdIMTlCWnBPZVZ3ZmpjemF1Y2RRYUtUZThGZUZhdTVXbE5zRUdua05oYWJjZzMzdW5Fb2Z1M2R3NXY1Zw?oc=5",
       "publishedAt": "2026-09-08T14:44:00Z"
+    },
+    {
+      "id": "3195eb2d3fb6c737960c",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Mbappé receives the top scorer trophy for the 2025/26 Champions League",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVWhkMnlLQVlNRWFzcEtBajFqdGREd2d6LVRfVnNZc2ZmMnN4bDFWZEFEWGJZa0pQdjNSaUZpSUpQaUFFUG1lY3lPYS1FNEtDREhYcUJ4eFVBY1BZRWpOdzduVGZXMno1MEYwN2pId1VwbTQwZU1DOWlpYUY4SVFLWENUVVRHbG8wUXkwR3UtZWd2ZWlYQk02cmFFYm82b2xkRzV5d1JfVUJSQjkzZTNEb1RlVTJBRXI1dFlQZXhkWGlHb3NHdUpNZ0hWbUNISUo5V0FsQUU5OURpMTRTMUdWX3R0XzQ5ZmtyU3c?oc=5",
+      "publishedAt": "2026-09-08T14:21:00Z"
+    },
+    {
+      "id": "d22296c94d19baa44167",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Arda Güler receives the Breakthrough Player award for the Champions League 2025/26",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRkVkV00xdzlPTFhwYjhmQ2dJSW1XVkFVR3E3ME8tWHc3Wkx4S1VfRFVzdklUdHFWV2lSUnJLQTdyS1BMY0lreng2M2FsLTlFMWlELTIzMEF0bHo3b0RLbVhGNERWZFFSeWZQMGtXcjFaS29oSDN5dU56V05EREdCQUtESGJmOTZZWUFaWE9yR2V5ZFhReUdDcDlvMWY1YnpZSXVGRmlrNUZkUmFUX1ZYcE5ydXJacjBBMzJFOGF0akF1aGdNamxQTWZxU184aDU4RnozX1hLbFptdVFWOENwdFhNNEowWjFURWd3NzJzSVp2Yms?oc=5",
+      "publishedAt": "2026-09-08T14:19:00Z"
     },
     {
       "id": "95ae722797981c75e1df",
@@ -172,6 +282,16 @@
       "publishedAt": "2026-09-07T22:26:24Z"
     },
     {
+      "id": "84035b167bdd0da7bc2a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Statement",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUGtzemZkWDJYZmh2bzdGY3k4dW52NmVuYmZrU2dMOHNwS3J1eE9vTTVXd0xRRm11bnZNTXlOaGZVREZHQ2VqbkQ0T29BV2tsWW5MX2JlYWN3OWQ4d3hnTGl4YWtvWVd2ODlNUkFTY2UzMmlobF91TjREcXJoOHJobzVvUEtxTWNPZjlRQ3Axaw?oc=5",
+      "publishedAt": "2026-09-07T20:15:57Z"
+    },
+    {
       "id": "4d3521d4e80e434c8444",
       "category": "Matchday",
       "time": "NEW",
@@ -180,129 +300,9 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY010YVd4MzhUR1R4Z1c4Uzh4TTRJRUh5ZV9ZUVJOcU9ORHNpbk1ScmdzY3pwa0FJRGtUcnVTN3cxUFpkeE5sQzNuWDdhaVFtOGV6VldHZW4xaE1pQkNFdTBTYjQ2RG1GTldZMFhWQjdVdmtSOU9vQjRVRUlVbF8xTUtiVGtpTE5xMDIyQ2VwMnlmejBIdjhSLThFNGVmNUJFOFk3QjhaZTJ3NFhadFN5bklXQzZWc2hrcXpuVlU4Mm1FLXJ2aGVkWHI0WlB6V3FHZ0ZPdmlQamlpQQ?oc=5",
       "publishedAt": "2026-09-07T20:11:59Z"
-    },
-    {
-      "id": "546d29fe31ddc81a654d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Statement",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUGtzemZkWDJYZmh2bzdGY3k4dW52NmVuYmZrU2dMOHNwS3J1eE9vTTVXd0xRRm11bnZNTXlOaGZVREZHQ2VqbkQ0T29BV2tsWW5MX2JlYWN3OWQ4d3hnTGl4YWtvWVd2ODlNUkFTY2UzMmlobF91TjREcXJoOHJobzVvUEtxTWNPZjlRQ3Axaw?oc=5",
-      "publishedAt": "2026-09-07T19:59:00Z"
-    },
-    {
-      "id": "98f35d38e60b24fc05e9",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Ranking Vini Jr.’s top 5️⃣ Champions League goals, by Vini Jr!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=3kSTMPpkn4w",
-      "publishedAt": "2026-09-07T18:06:24Z"
-    },
-    {
-      "id": "191eff364a9b2a6fe7f8",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Cristian Chivu: “We like having the opportunity to play a Champions League match at the Bernabéu\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOenZTNHRXRnRnU0U0c1dLLW9SaUtIa285dURVV3ZjR3ktWGJPWGowWXkwa2czOU9EVGdXYUd0c2Nrcnl1bmUzcGRfUjFuNVVhYWJvQVNKbG9pSG1JQnpQbzctN0RkTVY1a0hPRnVZcDZhX1Y4QWpxZlB0akMzQjIyc3p2WVQ1N1hBT3ZicmllNWl1bVBEdjlBaHA4RQ?oc=5",
-      "publishedAt": "2026-09-07T18:00:02Z"
-    },
-    {
-      "id": "49491410ea01c916d269",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Cristian Chivu: “We like having the opportunity to play a Champions League match at the Bernabéu\" - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOenZTNHRXRnRnU0U0c1dLLW9SaUtIa285dURVV3ZjR3ktWGJPWGowWXkwa2czOU9EVGdXYUd0c2Nrcnl1bmUzcGRfUjFuNVVhYWJvQVNKbG9pSG1JQnpQbzctN0RkTVY1a0hPRnVZcDZhX1Y4QWpxZlB0akMzQjIyc3p2WVQ1N1hBT3ZicmllNWl1bVBEdjlBaHA4RQ?oc=5",
-      "publishedAt": "2026-09-07T18:00:02Z"
-    },
-    {
-      "id": "fa4e213a09373d894578",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "👀 Madridistas, which goal is your favourite? #UCL #RealMadrid #CristianoRonaldo #Zidane #Bale",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=EmAs925-M8w",
-      "publishedAt": "2026-09-07T17:00:21Z"
-    },
-    {
-      "id": "ca3874f3a71dee54e6b9",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid's José Mourinho: 'I always have to win the next game' | Video",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdk5MbThTVXgwTDFla3V1c2pQM0RIMHZiMUlpUDAzQ3lsS0o5cmlSeG9CQTZFRzJBS2xEdkhLd3JvOEM2Sl9YTTc4bkM3U3hKbzJrWGNOWm1veTN5Wm1xMmt2M19JZDVyYjhxYzZZZ1AtdmJRbWJvOFRMWXI1aHhJb1hLSnBNRWhjVjZPNXpJY1pHYVF3bkVEUDB6dUZzdTNTM3kwbF9SNW9MdzgtLWVmVkJpQ193ZzlQbkFtc0RFeEF2dl8tMTZQeWpwWkgwYml1b3pSSUd1YXFidw?oc=5",
-      "publishedAt": "2026-09-07T16:12:01Z"
-    },
-    {
-      "id": "c7a4e25f71a225708f23",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔥 TOMORROW. #UCL #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=hb48IALulE8",
-      "publishedAt": "2026-09-07T16:08:32Z"
-    },
-    {
-      "id": "77f6351a6c7192534738",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔥 READY FOR THE CHAMPIONS LEAGUE! | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=zoY7nQv4BXI",
-      "publishedAt": "2026-09-07T15:29:38Z"
-    },
-    {
-      "id": "49767de45097357f74f5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid's José Mourinho: 'I always have to win the next game'",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdk5MbThTVXgwTDFla3V1c2pQM0RIMHZiMUlpUDAzQ3lsS0o5cmlSeG9CQTZFRzJBS2xEdkhLd3JvOEM2Sl9YTTc4bkM3U3hKbzJrWGNOWm1veTN5Wm1xMmt2M19JZDVyYjhxYzZZZ1AtdmJRbWJvOFRMWXI1aHhJb1hLSnBNRWhjVjZPNXpJY1pHYVF3bkVEUDB6dUZzdTNTM3kwbF9SNW9MdzgtLWVmVkJpQ193ZzlQbkFtc0RFeEF2dl8tMTZQeWpwWkgwYml1b3pSSUd1YXFidw?oc=5",
-      "publishedAt": "2026-09-07T15:12:01Z"
-    },
-    {
-      "id": "1db2df115e06190f3386",
-      "category": "Official",
-      "time": "NEW",
-      "title": "We are READY for tomorrow! 🤩 #RealMadrid #Mbappe #ViniJr #Bellingham #Trent",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=socL1eQtIUk",
-      "publishedAt": "2026-09-07T15:03:44Z"
-    },
-    {
-      "id": "a7d7db9b548c0b6c0be7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⁉️ A special Champions League Q&A with Vini Jr.! #RealMadrid #UCL",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=wjPkhOWrPyE",
-      "publishedAt": "2026-09-07T14:14:48Z"
-    },
-    {
-      "id": "0d57f58ae6a248fca68f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Abalde: \"We are eager to face the first title of the season\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVzJXNnhlTlNIYUhlTlRLNXB2eFN1WUthdm15bHM1c2tUb3VYZTBUM1BuUVRUYmhXTGVWM3A5UUxjNGRLb3B1N2R0LWxOMTF5Zk9meTVrVVVxdWo2UWdyWGRYNTRzejZVOTFRZG9fX0FDb1ZDc1QzUko4NzJhVFBMeDFXVDNuZ3VxdnMycnpn?oc=5",
-      "publishedAt": "2026-09-07T12:23:00Z"
     }
   ],
-  "updatedAt": "2026-09-08T17:24:20Z",
+  "updatedAt": "2026-09-08T19:58:12Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
