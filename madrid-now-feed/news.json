@@ -172,6 +172,16 @@
       "publishedAt": "2026-09-08T22:47:42Z"
     },
     {
+      "id": "73c1ef1d11471ae7464f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Carlos Espí | Matches | Real Madrid",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRUtPbFRYWFNGY2w4dmVNSUVEM25mZ0hQNkRKWXNyTVVudWlqNDJId3J0MTZDVlU4a3d2cnlWTzdoU0EtdXBQN0I1WDYxRzRIcG0xeTNRQzM4YnI5cV9leTRFYVRzRkZpaG1LTWw0WjBadmo5TTVrUWtYM0pRRmJlMm9aZ0Q0WXljN2VvTHhKOA?oc=5",
+      "publishedAt": "2026-09-08T22:21:36Z"
+    },
+    {
       "id": "746156ecaa8057023c89",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxQODUzM2hQMGoyRXRzdlhqUk9LZjJaVHVUQ2R3MGRZVGY1U1RobmJKTTd6UldhRUdTX1FGN0t0MmNuUFg5aWxfQUtWTFNvRVQ1TkpkbzYxYmRES0s1eW9MdkZiZFZ1MkM3OFpfRlhBeWVWTjR5OFBBVHdyWlBWN1BVU0hrcWRDRW8zd1VENDlCMFJVXzN4Qzk3QmhUWl96WElpV1UtM3JPTng0N1dUMTFILTNGd1lYWnNaTlllRnEteWxjWDBrNk50M1ctNjVadDExemUwaHBCZ1hHMWlxSnJzTUNPSjQ4aFFhYmNlanlkN2lETlN5cWVWd2dqbUdFWEFyTFlfS3Qta3V0RU93VW9ra1Vpc1RqY3J4eEdMWHU1QUtuYnQ3eDgtMEhZTURiVGNKVG81Rk05V2I4UjZkZFplcnI2b3Z4aHdzdzdCMEZLWlB5RkRiS0ZlRDhUYzB5VUtqd29pVE13Nnk0ZFkxbGl3VEQzQ2xEcnVMdnJYaDRJV1h4c0taTENJa0sxakpjbUZubXFxWXc1RUZGOGlPN0YyWWU2eHVaejFNbGVYbHN3TkttLUxHSGtoZXMtN2czTm02a3FLVjQ0WWZWRUI3enRBTHVNOA?oc=5",
       "publishedAt": "2026-09-08T21:11:00Z"
-    },
-    {
-      "id": "326dfd79bd9e509bf496",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Valverde, MVP of the match: 'It’s always important to win and regain confidence'",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVnBqeHNjZzlRYUlhclpENWdvb3lVN2pQYUdwNGM4c0N5TnlJNlpiVW84cVBTbGV5clRGMEczSlNZU0NfWXpCWFFieVdxUzNpSmIweVZ6cTZibFdHU3ZDMldNVXN1WnRLYzJsdG9SUldyS0tKZDNOMEF0T3BsMTVmQ1U2OTNFTklwNDhZeFBrRVV5QndpaDdqbGpVNkNMNGx5aG9VWFJ2U0xiNl9BaDRrbUhMa3ZjR3BXejlYc0djQThJaXV0a3hEalBQYnc?oc=5",
-      "publishedAt": "2026-09-08T21:10:11Z"
     }
   ],
-  "updatedAt": "2026-09-09T21:58:53Z",
+  "updatedAt": "2026-09-10T01:30:30Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
