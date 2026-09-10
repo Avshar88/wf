@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "20b7786e6b4f67b8a741",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Fixtures for the fifth matchday of the league",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOENuX0ZLWmtKWlpZcUJoeUpNVVVQZzJNY0t5UDRGU2NuY2NzMmI4U014X2tMbVF5UUVPaUZuamxKOXhvcTFOdUd6Njl3YldxUzBEZzN3UVlPaVFXTGJpTV9IR0M2SC1HN3FDVXJJcWZFYklnOWRNLXhybjVCd1lHczdmV0Y4UkJLZEVDYlB1UU9ibVo0NTh3NVBIRm1YNFpRSWVjeTVQQmJ1THQwUk5pUmxoTXJCSDZyLVE?oc=5",
+      "publishedAt": "2026-09-10T21:38:12Z"
+    },
+    {
       "id": "b0cf1b58b8f9b10c94b7",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa09yWmxzVndVNXZxMm9RQmhMNTcydldlWTdMSkZON0hZdkRaTnFXekxNaGY0T25CR0d1enpmLWVpaElPWkFhMXhuRG5Ha1pSajJCLXkxeDJrbExOcFRiazJ0WnoxT3RtbkFNXzIwMVBnbElmbFlQck5wX0JYY2M4Qmt2ai1OWkVBZXRzV2pqTGlXbHAteG9NUjJESHpSR1AtcDdBODI0TWRSRGxmRnJVaXI4WmJWRzlvZmR4VG5qRTRvWm5ja0ZOdG9uUnFzVjR3REhLV01zOFJ1WE56SHc?oc=5",
       "publishedAt": "2026-09-08T23:12:42Z"
-    },
-    {
-      "id": "4dc643a675ff80bd354f",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Champions League Matchday 1 highlights and round-up: Real Madrid, Man City and Dortmund open with wins",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX2hySEphYUFzejk0WHM2elNFUzVGU2daUkszNTR3OVo5MzFvUjJZd0ZWSXBZZ2J3cEJBWl9WcFItMnloaFlsRWROY0oxaWd3TlZObEx4YTd3eGNlWDVrS0xONTctVl82dVJhOWN1UV9UcTk2enJsMGprQTB6empHRURKanJkWjg0cmlZbGxET0Y4U1h3NFBraks2MDBDeVFkSDZGV0tnQ1R3VllNRWEtY1hZTGtUN0VHMU5vOGpOaTlrWnJpMThpd1NWVXdOVTMwdkNwMGt4UlFBaEhy?oc=5",
-      "publishedAt": "2026-09-08T23:01:06Z"
     }
   ],
-  "updatedAt": "2026-09-10T20:57:23Z",
+  "updatedAt": "2026-09-10T22:53:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
