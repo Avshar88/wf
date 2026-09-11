@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "20b7786e6b4f67b8a741",
+      "id": "d7eed71f901e196c9960",
       "category": "Matchday",
       "time": "NEW",
       "title": "Fixtures for the fifth matchday of the league",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOENuX0ZLWmtKWlpZcUJoeUpNVVVQZzJNY0t5UDRGU2NuY2NzMmI4U014X2tMbVF5UUVPaUZuamxKOXhvcTFOdUd6Njl3YldxUzBEZzN3UVlPaVFXTGJpTV9IR0M2SC1HN3FDVXJJcWZFYklnOWRNLXhybjVCd1lHczdmV0Y4UkJLZEVDYlB1UU9ibVo0NTh3NVBIRm1YNFpRSWVjeTVQQmJ1THQwUk5pUmxoTXJCSDZyLVE?oc=5",
-      "publishedAt": "2026-09-10T21:38:12Z"
+      "publishedAt": "2026-09-11T03:38:12Z"
     },
     {
       "id": "b0cf1b58b8f9b10c94b7",
@@ -42,20 +42,20 @@
       "publishedAt": "2026-09-10T17:04:18Z"
     },
     {
-      "id": "2f3aa6d4c208095f386b",
+      "id": "fec411e6669121d9e45c",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Deportivo-Real Madrid: first away match in the Liga - realmadrid.com",
+      "title": "Deportivo-Real Madrid: first away match in the Liga",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR0xDMEtyVHFRTkVYdGVSbjFzX1hjRWtPRTNEdkdBeGoxR2xUVXFLRVdEWWpVVC1lVEJnMWtETTA5MFRibUhPWXpwWlNxRmdTUXBhbDJndjBjRWlmc1BUVUxBdW1tT0htRU9BZzVEazJpcG1zNzFJM0lhQzFHRlhvTS1UOFJlcFo5SXM2N3NXajlGbWtHVUUxXzM1SWVTU3NKQjZXWGxTaTRSYWhiLWxBZlp6dTNpVFl1NC1ZVzJWRFF2clR4R2tjMDhWRWdqZ1hpQjB1eVRQRlNkLUY3OVdOcnVpcXl4VHcwZWxLblVtUGY?oc=5",
       "publishedAt": "2026-09-10T16:10:00Z"
     },
     {
-      "id": "fec411e6669121d9e45c",
+      "id": "2f3aa6d4c208095f386b",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Deportivo-Real Madrid: first away match in the Liga",
+      "title": "Deportivo-Real Madrid: first away match in the Liga - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR0xDMEtyVHFRTkVYdGVSbjFzX1hjRWtPRTNEdkdBeGoxR2xUVXFLRVdEWWpVVC1lVEJnMWtETTA5MFRibUhPWXpwWlNxRmdTUXBhbDJndjBjRWlmc1BUVUxBdW1tT0htRU9BZzVEazJpcG1zNzFJM0lhQzFHRlhvTS1UOFJlcFo5SXM2N3NXajlGbWtHVUUxXzM1SWVTU3NKQjZXWGxTaTRSYWhiLWxBZlp6dTNpVFl1NC1ZVzJWRFF2clR4R2tjMDhWRWdqZ1hpQjB1eVRQRlNkLUY3OVdOcnVpcXl4VHcwZWxLblVtUGY?oc=5",
@@ -72,16 +72,6 @@
       "publishedAt": "2026-09-10T15:14:38Z"
     },
     {
-      "id": "c6c4d47b649bcefdddf6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "The Real Madrid-Villarreal game will take place on Saturday, October 10, at 9:00 pm CEST - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeDVXRzVFWFMyRHQ5Vk9xNEpqdTFoWEpOM2dEOVk4SFRTQWRLdGNtZHJKcGV3UUpCcmpabXNHVVFINmNBS0NTaGNBMmotTWlEZUVMbFlPc3UwaVRQcV9CY00zdFU3bmhFYmdyQndhVzdvbDVtblZXY0EtNnJCUndTZXM4SVliVWFlaGZtR3IzM0E3ODIzbDFST0lJV0pqeDdQSkM5akstblZsUUhWYThQQ2dKZk1XVmpHTTRyOUtVZWpjZTJtZlAxSmV2aGNGYVh3VS16SFQ0ZzNLLU9MRlVEREV1MXNpQQ?oc=5",
-      "publishedAt": "2026-09-10T10:38:00Z"
-    },
-    {
       "id": "953af7900812b3d2f466",
       "category": "Official",
       "time": "NEW",
@@ -92,20 +82,30 @@
       "publishedAt": "2026-09-10T10:38:00Z"
     },
     {
-      "id": "c75f5a9301f328a3cac7",
+      "id": "c6c4d47b649bcefdddf6",
       "category": "Official",
       "time": "NEW",
-      "title": "Mbappé, Mahou Five-Star Player for August - realmadrid.com",
+      "title": "The Real Madrid-Villarreal game will take place on Saturday, October 10, at 9:00 pm CEST - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSms1Y3R6LXREWExmZjItRHAyV2ZzYk5nbFBoT1dfVmtUODZZVXY3cVA4Mnc1b2oxTXhhTUxzQVlfX2tqdW1GLW02R01TbEFYOWFSMHdwU05CUUo2Rmo4ZF9KVzFuc1hoWW5xOHBMM0tKeHM4d1lTeXBnYy12MmhpRXdiRVJZSDdsM1FfZ09qbjlkNW94MVhNUFh2MDlLSnVvRlRFY013Z3RVZDE1YmhCbk55TzNyOGhGbVNSdHc3ZjRmNHZSRUE?oc=5",
-      "publishedAt": "2026-09-10T10:00:41Z"
+      "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeDVXRzVFWFMyRHQ5Vk9xNEpqdTFoWEpOM2dEOVk4SFRTQWRLdGNtZHJKcGV3UUpCcmpabXNHVVFINmNBS0NTaGNBMmotTWlEZUVMbFlPc3UwaVRQcV9CY00zdFU3bmhFYmdyQndhVzdvbDVtblZXY0EtNnJCUndTZXM4SVliVWFlaGZtR3IzM0E3ODIzbDFST0lJV0pqeDdQSkM5akstblZsUUhWYThQQ2dKZk1XVmpHTTRyOUtVZWpjZTJtZlAxSmV2aGNGYVh3VS16SFQ0ZzNLLU9MRlVEREV1MXNpQQ?oc=5",
+      "publishedAt": "2026-09-10T10:38:00Z"
     },
     {
       "id": "20dc2674eb1955d02891",
       "category": "Official",
       "time": "NEW",
       "title": "Mbappé, Mahou Five-Star Player for August",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSms1Y3R6LXREWExmZjItRHAyV2ZzYk5nbFBoT1dfVmtUODZZVXY3cVA4Mnc1b2oxTXhhTUxzQVlfX2tqdW1GLW02R01TbEFYOWFSMHdwU05CUUo2Rmo4ZF9KVzFuc1hoWW5xOHBMM0tKeHM4d1lTeXBnYy12MmhpRXdiRVJZSDdsM1FfZ09qbjlkNW94MVhNUFh2MDlLSnVvRlRFY013Z3RVZDE1YmhCbk55TzNyOGhGbVNSdHc3ZjRmNHZSRUE?oc=5",
+      "publishedAt": "2026-09-10T10:00:41Z"
+    },
+    {
+      "id": "c75f5a9301f328a3cac7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mbappé, Mahou Five-Star Player for August - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSms1Y3R6LXREWExmZjItRHAyV2ZzYk5nbFBoT1dfVmtUODZZVXY3cVA4Mnc1b2oxTXhhTUxzQVlfX2tqdW1GLW02R01TbEFYOWFSMHdwU05CUUo2Rmo4ZF9KVzFuc1hoWW5xOHBMM0tKeHM4d1lTeXBnYy12MmhpRXdiRVJZSDdsM1FfZ09qbjlkNW94MVhNUFh2MDlLSnVvRlRFY013Z3RVZDE1YmhCbk55TzNyOGhGbVNSdHc3ZjRmNHZSRUE?oc=5",
@@ -122,20 +122,20 @@
       "publishedAt": "2026-09-10T09:31:38Z"
     },
     {
-      "id": "31678460e610a149c857",
+      "id": "1cff9a1a94e58726ab10",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid prepares for the match against Rayo - realmadrid.com",
+      "title": "Real Madrid prepares for the match against Rayo",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUp1MnpsUDNRODJQeUFRekk1TFdBNzd0QVZ0R1BIMnJfMk1WVUE1UXN5ZWZOT2NrTjFfTk1iTDZtWHBMNmV3bnp4QVhYR3p2ZElvTEFxb0tNU0FXa3BEb3NrME0tVnJteHQzRU82Nzk2OFZtd3JGMjdMZ0loNnVRNnpZRlZRVDlVYzFGYmdObmk5bzZuT0ZfY0Vma1htQkNUT1VUTENueXNtWFk?oc=5",
       "publishedAt": "2026-09-10T07:08:00Z"
     },
     {
-      "id": "1cff9a1a94e58726ab10",
+      "id": "31678460e610a149c857",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid prepares for the match against Rayo",
+      "title": "Real Madrid prepares for the match against Rayo - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUp1MnpsUDNRODJQeUFRekk1TFdBNzd0QVZ0R1BIMnJfMk1WVUE1UXN5ZWZOT2NrTjFfTk1iTDZtWHBMNmV3bnp4QVhYR3p2ZElvTEFxb0tNU0FXa3BEb3NrME0tVnJteHQzRU82Nzk2OFZtd3JGMjdMZ0loNnVRNnpZRlZRVDlVYzFGYmdObmk5bzZuT0ZfY0Vma1htQkNUT1VUTENueXNtWFk?oc=5",
@@ -150,6 +150,16 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlBvTk9tZkY3MnRYd2UyVEJTcWpDdzNCMktnSFZmT0xIRmhGcFhkQlVvSm9saEdkcVBGLU9oN2ctdDA3bDVIMUxxU29DUGJZb1R3V2J1aXc5M0ZNWlRaeGhOV1FDQ2hQSWxpTFVWRXcyU2pxc3pIVTdwSEl2NUNMLWFucjQ4R1FZazlWUFR3Zkp3YUpm?oc=5",
       "publishedAt": "2026-09-10T06:01:49Z"
+    },
+    {
+      "id": "92cd641072b9d8c95047",
+      "category": "Official",
+      "time": "NEW",
+      "title": "In the Zone: Courtois keeps them out",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORmVaTk5kNVA3czlPbmQyUC1FU1RXeTBsUl9Hb3I3eGp3anB1Z3BWdXN1bUkwcjNFZG5SR3FEODdGVDBrRlEwMDczWE9waG8yTkxycm9mSjhUZDlfUi1Td0tKQWtOM2tKUC1ab3hpLXp4V290WERaN0x6OVdFVUNoVjJsNGtISFk?oc=5",
+      "publishedAt": "2026-09-10T05:55:36Z"
     },
     {
       "id": "4e7e1affcba50a92f021",
@@ -262,20 +272,20 @@
       "publishedAt": "2026-09-09T11:53:57Z"
     },
     {
-      "id": "bdc3338e738a15f7d093",
+      "id": "3cb1a16c547ce7fc6232",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid continues to prepare for the match against Deportivo - realmadrid.com",
+      "title": "Real Madrid continues to prepare for the match against Deportivo",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVHYwZzR5RFhXLTJ4Sno4cVlVRzFNVjdETmRsVzdrRnFxLW5sVG8tMFFWOTg3UHdiMGhaMWQ5ZmZXbWNsTkt5dUhPRkpDNDlYSm5PcFFJaDFKelRzUGRGd285d19qNDRMczd2elhoMHQzNXl5Y3BVUjB1bUwzN0QwLUNncmNZdk9FVTc0aG82dG5Tekh1SHdEVURGWjJWdTlNWERfOG5JRUtNSTJ3YTFLRnVrVHYweG1oVHNIalVSSVlNa2Y0aW9iYUFtd29kVURtaEpWbERUOGc?oc=5",
       "publishedAt": "2026-09-09T08:32:00Z"
     },
     {
-      "id": "3cb1a16c547ce7fc6232",
+      "id": "bdc3338e738a15f7d093",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid continues to prepare for the match against Deportivo",
+      "title": "Real Madrid continues to prepare for the match against Deportivo - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVHYwZzR5RFhXLTJ4Sno4cVlVRzFNVjdETmRsVzdrRnFxLW5sVG8tMFFWOTg3UHdiMGhaMWQ5ZmZXbWNsTkt5dUhPRkpDNDlYSm5PcFFJaDFKelRzUGRGd285d19qNDRMczd2elhoMHQzNXl5Y3BVUjB1bUwzN0QwLUNncmNZdk9FVTc0aG82dG5Tekh1SHdEVURGWjJWdTlNWERfOG5JRUtNSTJ3YTFLRnVrVHYweG1oVHNIalVSSVlNa2Y0aW9iYUFtd29kVURtaEpWbERUOGc?oc=5",
@@ -290,19 +300,9 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTVVQUXVGZjdsbzNqOW53Q3h5aWV6dWhvRDNRb0l1NkFMcTh2WGlMcU1NU0JXNTdOaWY1R3ZnUWFTZ1JLYW1CTmsydHNaQTFDMmpLSS1ud0xoSUhfWDlUT3liSmVJSTRGRkRBbW1ZNURTOWNrM0Y3cHk5Y3Y0UjBfbE9ZcXc4d2x1cHZoODlreUhGVS1KREFsc0tuVW9XZG4xTFdNTmx3STVtVjMtYnZvSkpfYnZBM0djWUk0U2UxQmFkaUhw?oc=5",
       "publishedAt": "2026-09-09T07:36:09Z"
-    },
-    {
-      "id": "1684b677b07dfea570bd",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "José Mourinho interview: Real Madrid coach on league phase opponents in the Champions League and his return to the Santiago Bernabéu",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSE1WUHNHYW5ldFV2RVdqNENBV3VDQ0M5b09qX3R4NkxGM01HY08xeXNqWThWUVZfLXlFSzRnSm90RjNFZDlIRWFheGV1MkxxanU0djk5NkVPbVMtbEozbkJORTBXaXdkam9CVVJXZGMya3FfeVlqQUhOQnA4OEFYUTRJVkMzd09xODR2OGFwVGRMckFqZkRCcGJpY1RxMTUtaWNRQ0VRS19jNmR1cXpJaUk1MTZfNFNRTjluVXRuMFBkRlZweDFmTmJIVGJ4VzVqRUpmbTJNYw?oc=5",
-      "publishedAt": "2026-09-09T01:16:49Z"
     }
   ],
-  "updatedAt": "2026-09-11T00:36:56Z",
+  "updatedAt": "2026-09-11T05:10:11Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
