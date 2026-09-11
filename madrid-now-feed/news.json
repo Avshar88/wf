@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "e9a899b90820e2f4a4aa",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad list against Deportivo",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVh0aEJzSDIxU0JscTB0Yi1DamlqNEt3LUFNT1FERDNvXzFFTEp0ZkxUZXNEZHJ2bFBIanhYVnZtSjBmcC1KZ25FQkZ2MEV0Q283LUJJRFY3ZUIzc3UyMjJHWHlYZU5NT0g1aHBlcVBpTF9DTEtxUnRJOE9NQ1UxM3J0M00xMVZub1NSbFBOc1hCYVVqMV9MNjVaRDE2RU9udnpJMzd3aWhfbGIyQjdoSG4zSWZnaVhGZTFlOFY1eEJGamxIM1ZzZQ?oc=5",
+      "publishedAt": "2026-09-11T08:32:43Z"
+    },
+    {
+      "id": "776ff99503103131b00b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
+      "publishedAt": "2026-09-11T08:25:43Z"
+    },
+    {
+      "id": "7602b5436f2ecf89fa80",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid v La Laguna Tenerife: the opening match of the Costa del Sol Tournament, at 8.00 pm on Realmadrid TV",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUW9xZXZvNWVtcTZySGEwV0VkS2JpQS14RHJ0NkViMjlnWVVhd3pHRUtzSE45dm0wTFEwRmQyOUw3MXZDV0ZRLUo5OWZDZ1lDcFhpV3NzR1JvM19yWlg4engtZmZjbjVCU1BTT05iZmozLWlPZHh0REw4WVV6TzYwbUJrMzFoT0FsWktmMTF0U0FGZC11LWZHdUNnblU3V0lPaEpnZ2JTYU9aZw?oc=5",
+      "publishedAt": "2026-09-11T03:38:12Z"
+    },
+    {
       "id": "d7eed71f901e196c9960",
       "category": "Matchday",
       "time": "NEW",
@@ -30,16 +60,6 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=7ZjtpPttJ2I",
       "publishedAt": "2026-09-10T17:39:54Z"
-    },
-    {
-      "id": "ad8b84c61228c6d7665b",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
-      "publishedAt": "2026-09-10T17:04:18Z"
     },
     {
       "id": "fec411e6669121d9e45c",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVHYwZzR5RFhXLTJ4Sno4cVlVRzFNVjdETmRsVzdrRnFxLW5sVG8tMFFWOTg3UHdiMGhaMWQ5ZmZXbWNsTkt5dUhPRkpDNDlYSm5PcFFJaDFKelRzUGRGd285d19qNDRMczd2elhoMHQzNXl5Y3BVUjB1bUwzN0QwLUNncmNZdk9FVTc0aG82dG5Tekh1SHdEVURGWjJWdTlNWERfOG5JRUtNSTJ3YTFLRnVrVHYweG1oVHNIalVSSVlNa2Y0aW9iYUFtd29kVURtaEpWbERUOGc?oc=5",
       "publishedAt": "2026-09-09T08:32:00Z"
-    },
-    {
-      "id": "bdc3338e738a15f7d093",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid continues to prepare for the match against Deportivo - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVHYwZzR5RFhXLTJ4Sno4cVlVRzFNVjdETmRsVzdrRnFxLW5sVG8tMFFWOTg3UHdiMGhaMWQ5ZmZXbWNsTkt5dUhPRkpDNDlYSm5PcFFJaDFKelRzUGRGd285d19qNDRMczd2elhoMHQzNXl5Y3BVUjB1bUwzN0QwLUNncmNZdk9FVTc0aG82dG5Tekh1SHdEVURGWjJWdTlNWERfOG5JRUtNSTJ3YTFLRnVrVHYweG1oVHNIalVSSVlNa2Y0aW9iYUFtd29kVURtaEpWbERUOGc?oc=5",
-      "publishedAt": "2026-09-09T08:32:00Z"
-    },
-    {
-      "id": "8540a8b35675e9e4c801",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Courtois given green light to skip Belgium’s Nations League campaign, reports say",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTVVQUXVGZjdsbzNqOW53Q3h5aWV6dWhvRDNRb0l1NkFMcTh2WGlMcU1NU0JXNTdOaWY1R3ZnUWFTZ1JLYW1CTmsydHNaQTFDMmpLSS1ud0xoSUhfWDlUT3liSmVJSTRGRkRBbW1ZNURTOWNrM0Y3cHk5Y3Y0UjBfbE9ZcXc4d2x1cHZoODlreUhGVS1KREFsc0tuVW9XZG4xTFdNTmx3STVtVjMtYnZvSkpfYnZBM0djWUk0U2UxQmFkaUhw?oc=5",
-      "publishedAt": "2026-09-09T07:36:09Z"
     }
   ],
-  "updatedAt": "2026-09-11T05:10:11Z",
+  "updatedAt": "2026-09-11T09:36:23Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
