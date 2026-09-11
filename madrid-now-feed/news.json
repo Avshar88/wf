@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "523e48419002cc6ad360",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Pedro Martínez: \"The team fought hard and stayed focused\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnZpQmNRclpzc255TWZhOWhETjJBRDU4R3h1OXhGSFVySmZid2xiYkVHWXZuQlI4NVcya2hkT3pEOFBqdHlRc2F4NzFjd2pMUzN5ZERVZkdjaFRVRTFSR2pFaTFudDFwOWlwQV9yWWZtXzBEaXVwZXhVM2VhckZtampWcjQxbmpJZlVsRFdLYVhZMUVyaUFHUktYTjhaMGFybDhWN05ZM3Z3Zlo1VE1lVTBEYTdfN052XzlLNzJ6YjBXdw?oc=5",
+      "publishedAt": "2026-09-11T20:57:00Z"
+    },
+    {
+      "id": "ef48980564f2494254ce",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid triumphs over La Laguna Tenerife",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlM1OXB3T3FOckVCUWxzemdDSXJTalZrSzl4YVRtMG5pczZ1YjE5Q2daLVh2TEo3ZENWdnNMMmJCQktHeFFIc05jREc1LTZ6STBNQlV5aGFMaGxBVVhKS3k3NXExOTB0QnVOWVJnT3lRclBSaGFvVGdYMW9iN3J5Q2FWYlBnTlREWmxuN1N0ald2UzBwV2hWMjZFVE04aTBmaWp5dGFkMXRjRjdVTmlaWXVTT3JmUG1KeTNDLWxGYngwQ2dPV0lXb0h3TGk0dG1zQWYzcEs0bVRKQjJBbVBEQlBHbw?oc=5",
+      "publishedAt": "2026-09-11T20:00:28Z"
+    },
+    {
       "id": "51b42556c1c7e0846499",
       "category": "Official",
       "time": "NEW",
@@ -12,14 +32,14 @@
       "publishedAt": "2026-09-11T19:10:29Z"
     },
     {
-      "id": "4fefff915cee7c32ab9e",
+      "id": "519aadaa008799097785",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid squad list against Deportivo",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVh0aEJzSDIxU0JscTB0Yi1DamlqNEt3LUFNT1FERDNvXzFFTEp0ZkxUZXNEZHJ2bFBIanhYVnZtSjBmcC1KZ25FQkZ2MEV0Q283LUJJRFY3ZUIzc3UyMjJHWHlYZU5NT0g1aHBlcVBpTF9DTEtxUnRJOE9NQ1UxM3J0M00xMVZub1NSbFBOc1hCYVVqMV9MNjVaRDE2RU9udnpJMzd3aWhfbGIyQjdoSG4zSWZnaVhGZTFlOFY1eEJGamxIM1ZzZQ?oc=5",
-      "publishedAt": "2026-09-11T18:13:56Z"
+      "publishedAt": "2026-09-11T18:16:00Z"
     },
     {
       "id": "1ff4fd4d3fb04d2382fd",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSms1Y3R6LXREWExmZjItRHAyV2ZzYk5nbFBoT1dfVmtUODZZVXY3cVA4Mnc1b2oxTXhhTUxzQVlfX2tqdW1GLW02R01TbEFYOWFSMHdwU05CUUo2Rmo4ZF9KVzFuc1hoWW5xOHBMM0tKeHM4d1lTeXBnYy12MmhpRXdiRVJZSDdsM1FfZ09qbjlkNW94MVhNUFh2MDlLSnVvRlRFY013Z3RVZDE1YmhCbk55TzNyOGhGbVNSdHc3ZjRmNHZSRUE?oc=5",
       "publishedAt": "2026-09-10T10:00:41Z"
-    },
-    {
-      "id": "b2b524dd7adb08ca9e18",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔛 Let's get to work! #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=Rdjgss5J6yw",
-      "publishedAt": "2026-09-10T09:31:38Z"
-    },
-    {
-      "id": "1cff9a1a94e58726ab10",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid prepares for the match against Rayo",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUp1MnpsUDNRODJQeUFRekk1TFdBNzd0QVZ0R1BIMnJfMk1WVUE1UXN5ZWZOT2NrTjFfTk1iTDZtWHBMNmV3bnp4QVhYR3p2ZElvTEFxb0tNU0FXa3BEb3NrME0tVnJteHQzRU82Nzk2OFZtd3JGMjdMZ0loNnVRNnpZRlZRVDlVYzFGYmdObmk5bzZuT0ZfY0Vma1htQkNUT1VUTENueXNtWFk?oc=5",
-      "publishedAt": "2026-09-10T07:08:00Z"
     }
   ],
-  "updatedAt": "2026-09-11T19:45:57Z",
+  "updatedAt": "2026-09-11T21:58:27Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
