@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "6b7c8db7a3cb8e3ac912",
+      "category": "Official",
+      "time": "NEW",
+      "title": "aiming to maintain a perfect record at the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
+      "publishedAt": "2026-09-12T10:55:29Z"
+    },
+    {
       "id": "aa110d7be6fb1cad13d9",
       "category": "Official",
       "time": "NEW",
@@ -22,6 +32,16 @@
       "publishedAt": "2026-09-12T10:43:18Z"
     },
     {
+      "id": "4f27b605a78502031aee",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Unicaja-Real Madrid: final of the XV Costa del Sol Tournament, at 7:00 pm live on Realmadrid TV",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMkl6TnZhUVZfczBzcjhnQTFPVlhBQjhvcGZCWFRBYmZNVlBjTlNsYkdtUDhmbnUxWWRjdll3WjFya3l3U3JaaEVfT3dZTEtRY3lrd1N2ZWo0VVFPcEE1dzNJTDRfTmViX2Jldl80bzhvcXU3UkpkaklRZ2RQelAtWF9KN1BXRWo3a29fUURZQmdEeHFFMXJrT3VNYVctQ0Fnek9FblVoa0hIUEJPWjlMeTFhR3hiNFhad010RDJaQUhsamdNYndpZS1pVHh3b2FhYk1YUm9fVGJUQUVJR1dzQnBkOTJoRGFFUnJESnBRM0NMSllzZENZNVRHVjNKT3lwZW44?oc=5",
+      "publishedAt": "2026-09-12T10:23:01Z"
+    },
+    {
       "id": "595886d1c5a6d0e8f5d3",
       "category": "Official",
       "time": "NEW",
@@ -32,24 +52,14 @@
       "publishedAt": "2026-09-12T10:23:01Z"
     },
     {
-      "id": "d2cd0af175bdba1bd682",
-      "category": "Official",
+      "id": "15461aee6baa9cc9eaa7",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "aiming to maintain a perfect record at the Bernabéu",
+      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
-      "publishedAt": "2026-09-12T04:53:46Z"
-    },
-    {
-      "id": "9da29b24c52e54b7f9dc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Unicaja-Real Madrid: final of the XV Costa del Sol Tournament, at 7:00 pm live on Realmadrid TV",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMkl6TnZhUVZfczBzcjhnQTFPVlhBQjhvcGZCWFRBYmZNVlBjTlNsYkdtUDhmbnUxWWRjdll3WjFya3l3U3JaaEVfT3dZTEtRY3lrd1N2ZWo0VVFPcEE1dzNJTDRfTmViX2Jldl80bzhvcXU3UkpkaklRZ2RQelAtWF9KN1BXRWo3a29fUURZQmdEeHFFMXJrT3VNYVctQ0Fnek9FblVoa0hIUEJPWjlMeTFhR3hiNFhad010RDJaQUhsamdNYndpZS1pVHh3b2FhYk1YUm9fVGJUQUVJR1dzQnBkOTJoRGFFUnJESnBRM0NMSllzZENZNVRHVjNKT3lwZW44?oc=5",
-      "publishedAt": "2026-09-12T04:23:00Z"
+      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
+      "publishedAt": "2026-09-12T03:52:37Z"
     },
     {
       "id": "f70830eda6ccb7eec929",
@@ -72,20 +82,20 @@
       "publishedAt": "2026-09-11T20:57:00Z"
     },
     {
-      "id": "727b94f8b229760b9f48",
+      "id": "ef48980564f2494254ce",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid triumphs over La Laguna Tenerife - realmadrid.com",
+      "title": "Real Madrid triumphs over La Laguna Tenerife",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlM1OXB3T3FOckVCUWxzemdDSXJTalZrSzl4YVRtMG5pczZ1YjE5Q2daLVh2TEo3ZENWdnNMMmJCQktHeFFIc05jREc1LTZ6STBNQlV5aGFMaGxBVVhKS3k3NXExOTB0QnVOWVJnT3lRclBSaGFvVGdYMW9iN3J5Q2FWYlBnTlREWmxuN1N0ald2UzBwV2hWMjZFVE04aTBmaWp5dGFkMXRjRjdVTmlaWXVTT3JmUG1KeTNDLWxGYngwQ2dPV0lXb0h3TGk0dG1zQWYzcEs0bVRKQjJBbVBEQlBHbw?oc=5",
       "publishedAt": "2026-09-11T20:00:28Z"
     },
     {
-      "id": "ef48980564f2494254ce",
+      "id": "727b94f8b229760b9f48",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid triumphs over La Laguna Tenerife",
+      "title": "Real Madrid triumphs over La Laguna Tenerife - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlM1OXB3T3FOckVCUWxzemdDSXJTalZrSzl4YVRtMG5pczZ1YjE5Q2daLVh2TEo3ZENWdnNMMmJCQktHeFFIc05jREc1LTZ6STBNQlV5aGFMaGxBVVhKS3k3NXExOTB0QnVOWVJnT3lRclBSaGFvVGdYMW9iN3J5Q2FWYlBnTlREWmxuN1N0ald2UzBwV2hWMjZFVE04aTBmaWp5dGFkMXRjRjdVTmlaWXVTT3JmUG1KeTNDLWxGYngwQ2dPV0lXb0h3TGk0dG1zQWYzcEs0bVRKQjJBbVBEQlBHbw?oc=5",
@@ -102,20 +112,20 @@
       "publishedAt": "2026-09-11T19:10:29Z"
     },
     {
-      "id": "25646cbae16523fb07c1",
+      "id": "519aadaa008799097785",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid squad list against Deportivo - realmadrid.com",
+      "title": "Real Madrid squad list against Deportivo",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVh0aEJzSDIxU0JscTB0Yi1DamlqNEt3LUFNT1FERDNvXzFFTEp0ZkxUZXNEZHJ2bFBIanhYVnZtSjBmcC1KZ25FQkZ2MEV0Q283LUJJRFY3ZUIzc3UyMjJHWHlYZU5NT0g1aHBlcVBpTF9DTEtxUnRJOE9NQ1UxM3J0M00xMVZub1NSbFBOc1hCYVVqMV9MNjVaRDE2RU9udnpJMzd3aWhfbGIyQjdoSG4zSWZnaVhGZTFlOFY1eEJGamxIM1ZzZQ?oc=5",
       "publishedAt": "2026-09-11T18:16:00Z"
     },
     {
-      "id": "519aadaa008799097785",
+      "id": "25646cbae16523fb07c1",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid squad list against Deportivo",
+      "title": "Real Madrid squad list against Deportivo - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVh0aEJzSDIxU0JscTB0Yi1DamlqNEt3LUFNT1FERDNvXzFFTEp0ZkxUZXNEZHJ2bFBIanhYVnZtSjBmcC1KZ25FQkZ2MEV0Q283LUJJRFY3ZUIzc3UyMjJHWHlYZU5NT0g1aHBlcVBpTF9DTEtxUnRJOE9NQ1UxM3J0M00xMVZub1NSbFBOc1hCYVVqMV9MNjVaRDE2RU9udnpJMzd3aWhfbGIyQjdoSG4zSWZnaVhGZTFlOFY1eEJGamxIM1ZzZQ?oc=5",
@@ -152,20 +162,20 @@
       "publishedAt": "2026-09-11T15:08:00Z"
     },
     {
-      "id": "444f401bdff3523e7069",
+      "id": "e5953231ea466922912c",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid's starting lineup against Deportivo - realmadrid.com",
+      "title": "Real Madrid's starting lineup against Deportivo",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUVEdXAzazRDOVVNWEM0UnktSEl3Y1YwcXJvbjJudmpBM2FOZXA2MlRVOWx2b285TnctSGs0NDliSENWeFk3MlZyb01Ed0lnWjg1Yi1mQXhRUHVBUGRFNlhKZFZKenBnOGtRMTVnV05mVmdDUjlzdG1tTm9zazcyX1I2MXlJRVJ5aFJwRk5wRFI2dDRlQ0taaTFhZ2NTRXp6YW9hNXp5aVFHclliMmFhdEh5QnlVek9EQ3VSaWY3WXJwVXVLZjJMUjJR?oc=5",
       "publishedAt": "2026-09-11T15:03:00Z"
     },
     {
-      "id": "e5953231ea466922912c",
+      "id": "444f401bdff3523e7069",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid's starting lineup against Deportivo",
+      "title": "Real Madrid's starting lineup against Deportivo - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUVEdXAzazRDOVVNWEM0UnktSEl3Y1YwcXJvbjJudmpBM2FOZXA2MlRVOWx2b285TnctSGs0NDliSENWeFk3MlZyb01Ed0lnWjg1Yi1mQXhRUHVBUGRFNlhKZFZKenBnOGtRMTVnV05mVmdDUjlzdG1tTm9zazcyX1I2MXlJRVJ5aFJwRk5wRFI2dDRlQ0taaTFhZ2NTRXp6YW9hNXp5aVFHclliMmFhdEh5QnlVek9EQ3VSaWY3WXJwVXVLZjJMUjJR?oc=5",
@@ -182,20 +192,20 @@
       "publishedAt": "2026-09-11T14:02:14Z"
     },
     {
-      "id": "f3b0ac28ad767a2da32e",
+      "id": "21a157a4dbc9de5073d9",
       "category": "Official",
       "time": "NEW",
-      "title": "The Historical Heritage Center surpasses 291,000 cataloged items and strengthens the preservation of Real Madrid's memory. - realmadrid.com",
+      "title": "The Historical Heritage Center surpasses 291,000 cataloged items and strengthens the preservation of Real Madrid's memory.",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMingJBVV95cUxPaE9OTVI3VllBREVrRnUzQzJfbXN6NXNqNElENV9Sd1V3dk1iTkJBbUQzVklwdGppTjZIRlEwNkZSX0RBYURxVHMtNmtDOHpidDhyVTRqZ0t5T3poTVRmYkZxZTAyM3FJVFFoWHRJTWVXU2Vqa0FBZWRRNWZWbkQxajNiTjkza2pfbDhCM2wzUWJOYjJzZ2RRZmIycmdXb21PMjlTSXVjY3hXV2NIM2NUMzZ1QUF6X3Y4RHp1VzluWFU4c3h6ZnBqQlFNMlIwZm9FZGF3aDZGUTZ1OW5iU0dKWTlZU2YyWWwwNW1rTkUzemZOb0xIblpCZVlWdEE3VmR3cnNDUklTbFgyTmE5RW9xbEp1NkM3eE5Xa29IVzF3?oc=5",
       "publishedAt": "2026-09-11T13:07:00Z"
     },
     {
-      "id": "21a157a4dbc9de5073d9",
+      "id": "f3b0ac28ad767a2da32e",
       "category": "Official",
       "time": "NEW",
-      "title": "The Historical Heritage Center surpasses 291,000 cataloged items and strengthens the preservation of Real Madrid's memory.",
+      "title": "The Historical Heritage Center surpasses 291,000 cataloged items and strengthens the preservation of Real Madrid's memory. - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMingJBVV95cUxPaE9OTVI3VllBREVrRnUzQzJfbXN6NXNqNElENV9Sd1V3dk1iTkJBbUQzVklwdGppTjZIRlEwNkZSX0RBYURxVHMtNmtDOHpidDhyVTRqZ0t5T3poTVRmYkZxZTAyM3FJVFFoWHRJTWVXU2Vqa0FBZWRRNWZWbkQxajNiTjkza2pfbDhCM2wzUWJOYjJzZ2RRZmIycmdXb21PMjlTSXVjY3hXV2NIM2NUMzZ1QUF6X3Y4RHp1VzluWFU4c3h6ZnBqQlFNMlIwZm9FZGF3aDZGUTZ1OW5iU0dKWTlZU2YyWWwwNW1rTkUzemZOb0xIblpCZVlWdEE3VmR3cnNDUklTbFgyTmE5RW9xbEp1NkM3eE5Xa29IVzF3?oc=5",
@@ -242,16 +252,6 @@
       "publishedAt": "2026-09-11T10:37:31Z"
     },
     {
-      "id": "a18993133d1d340da34a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5cUxRR1paNk1YbVNsU053UzlpWG9Kc2ZuYzVCb0hVUHhyTjBfemVGcVZ1NEktRTVIc2M3WGlmZlBabHByMGxLTUp2bHhlRHRKcm81bXdiNEdjQUhfekpNVG5VZWZZd3hLZkhR?oc=5",
-      "publishedAt": "2026-09-11T10:37:31Z"
-    },
-    {
       "id": "3eafd554ab36b9dbfe71",
       "category": "Official",
       "time": "NEW",
@@ -292,17 +292,17 @@
       "publishedAt": "2026-09-11T08:58:52Z"
     },
     {
-      "id": "4314e4c1df69a7ce36b7",
+      "id": "aa45048564a7b286e74f",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid squad list against Rayo Vallecano - realmadrid.com",
+      "title": "Real Madrid squad list against Rayo Vallecano",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaV9YdjZKZmpqZXlLWTR4VlA2OTcwOFU5VVVEREMwc0dxWW01V3NtTmtLZzRfT0E1ZlBIYUd2LV9sZG15ckkta0FXQlhndXNnYno0enlBY3NabEhGamJpUmU0NVppVnNLWmVHX1B2UXdhUnlVTjczYUdVQjRIbTVZMDcwTEhDWDhLYU5qOTlscWtaYXBCcjd4WE92VUk5eGdidFJRaDRMaWdMRmo0X0E0V2w5Mi1wRTAwMkJQNWJlRFJPUXhEWEVYdEJ5RzJlUQ?oc=5",
       "publishedAt": "2026-09-11T08:40:00Z"
     }
   ],
-  "updatedAt": "2026-09-12T11:02:07Z",
+  "updatedAt": "2026-09-12T13:57:54Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
