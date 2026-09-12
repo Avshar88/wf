@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "384c5dd30992b5846449",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Rayo Vallecano | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=XD1rXPuV-AQ",
+      "publishedAt": "2026-09-12T17:11:21Z"
+    },
+    {
+      "id": "f804f7b0a153a5c84d3a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "aiming to maintain a perfect record at the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
+      "publishedAt": "2026-09-12T17:02:54Z"
+    },
+    {
+      "id": "11750bca2bd2458a57e4",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
+      "publishedAt": "2026-09-12T15:56:38Z"
+    },
+    {
       "id": "4dacb857232637668489",
       "category": "Official",
       "time": "NEW",
@@ -12,14 +42,24 @@
       "publishedAt": "2026-09-12T14:47:21Z"
     },
     {
-      "id": "afbeb8d3fa94a6014807",
-      "category": "Official",
+      "id": "ee5bab6c48547e4c314f",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "aiming to maintain a perfect record at the Bernabéu",
+      "title": "Starting lineups for Real Madrid and Rayo Vallecano",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
-      "publishedAt": "2026-09-12T14:02:11Z"
+      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUE0U3JPUGFTV3hSMWI1MG5TRVBkZU40bkRmX2hlUEJyNldyLVBGU3VWeUJOSHJFX2lWYjBJdGpOUDBmZW5aNjU3SG5rV0tLbEY5TFZQbE9zc1VrWllBMHVsLXhRU2NXS2ZhMUl6QlNjQjNuQ3lwemVzd2dGd0ViQU9zNTNQelJ5Wk1zUFR6NEpac3F0dFppM1JlYnU3eVNQdG9TaURrWE9faTlTMkk0YTlXNHE0SFdWcTZXZmJPbTFDd1dYX05pVWp1SE8?oc=5",
+      "publishedAt": "2026-09-12T14:22:00Z"
+    },
+    {
+      "id": "cb98f64a654312bb1f48",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This was Real Madrid's arrival at the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEt3QkVSR2pGaDNhdTlDeWtSZVNra2lNWDFRTlhjRUFRVWJNeEd5UjE4YVhWV3VGOGhtdTB6Q2dyM1d3eks5ZjJfcnh2QXZibUx2UzZCTU9nTnZCZ2U1M3JoMVVsSHA1WEl6YXFnYnh2ODlsZkI5WlFEMGlUY0wtNThQdkRvWWxPeURxcld6cVRQdWVRQVRYa0o5Q05SWGJCaERSSV96bW84M0dJajFuaEFfTjNDU0lCeTlXVkR0OGpXLWR1UEE?oc=5",
+      "publishedAt": "2026-09-12T14:17:00Z"
     },
     {
       "id": "aa110d7be6fb1cad13d9",
@@ -50,16 +90,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMkl6TnZhUVZfczBzcjhnQTFPVlhBQjhvcGZCWFRBYmZNVlBjTlNsYkdtUDhmbnUxWWRjdll3WjFya3l3U3JaaEVfT3dZTEtRY3lrd1N2ZWo0VVFPcEE1dzNJTDRfTmViX2Jldl80bzhvcXU3UkpkaklRZ2RQelAtWF9KN1BXRWo3a29fUURZQmdEeHFFMXJrT3VNYVctQ0Fnek9FblVoa0hIUEJPWjlMeTFhR3hiNFhad010RDJaQUhsamdNYndpZS1pVHh3b2FhYk1YUm9fVGJUQUVJR1dzQnBkOTJoRGFFUnJESnBRM0NMSllzZENZNVRHVjNKT3lwZW44?oc=5",
       "publishedAt": "2026-09-12T10:23:01Z"
-    },
-    {
-      "id": "15461aee6baa9cc9eaa7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
-      "publishedAt": "2026-09-12T03:52:37Z"
     },
     {
       "id": "43bf082f6bb27f23e003",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=tbZaIIfSIdY",
       "publishedAt": "2026-09-11T10:19:46Z"
-    },
-    {
-      "id": "1a7c62a7300946671323",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid v La Laguna Tenerife: the opening match of the Costa del Sol Tournament, at 8.00 pm on Realmadrid TV",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUW9xZXZvNWVtcTZySGEwV0VkS2JpQS14RHJ0NkViMjlnWVVhd3pHRUtzSE45dm0wTFEwRmQyOUw3MXZDV0ZRLUo5OWZDZ1lDcFhpV3NzR1JvM19yWlg4engtZmZjbjVCU1BTT05iZmozLWlPZHh0REw4WVV6TzYwbUJrMzFoT0FsWktmMTF0U0FGZC11LWZHdUNnblU3V0lPaEpnZ2JTYU9aZw?oc=5",
-      "publishedAt": "2026-09-11T09:47:00Z"
-    },
-    {
-      "id": "66d866c442c0e46265b4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "☀️ Good morning, Madridistas! #RMCity",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=Yv2DyBxLXls",
-      "publishedAt": "2026-09-11T09:40:24Z"
-    },
-    {
-      "id": "05a6c3167bca56ce9f62",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Raúl Asencio | Matches | Real Madrid",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sMG5LcFBQaEdMZ1BNNFdHMWNPcFRua0VfLVN5UnFxMHpROGh3V1lUQU9VNEtROHNnZzd2RGtLQzE1c1lZdk1KbFRlc1JvTDMzcFYzdjVOWHF0NFlXeWZ6dkp6UU9tXzh1OWpjYW9RUnRZWldkeUVtQk1WZE42QQ?oc=5",
-      "publishedAt": "2026-09-11T08:58:52Z"
     }
   ],
-  "updatedAt": "2026-09-12T16:41:23Z",
+  "updatedAt": "2026-09-12T18:45:06Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
