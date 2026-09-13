@@ -42,6 +42,16 @@
       "publishedAt": "2026-09-12T21:11:42Z"
     },
     {
+      "id": "080cfc492467e9027d8c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "aiming to maintain a perfect record at the Bernabéu - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
+      "publishedAt": "2026-09-12T20:32:00Z"
+    },
+    {
       "id": "a31c64291bc6f7298244",
       "category": "Matchday",
       "time": "NEW",
@@ -70,16 +80,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUUZ1YThZSllDbnRiMzUySTktS09DN0l4S3kyM21PSjNiQ2kwZGZvdnhqaFdEbEE2STFqZkJDNmkzQ1YxSnJTcUc4SVVRbVdXMlZmUXN1eFhTQ3BZVEdJTTB1R3lUcTZZUjJHVHNQaGNTQzE2cEZGZ0xQN0Zaak4yeGI1bXdzamRQUldaT0xjOU90N0szM004UmwxMlhjcm8xdTRIOXNrcUlEaHJjWG0xXzk0aklTbUpBOGhKM0xYZ2JqSTJTNzZYeXRvVVJ6QVVvdTUwSk4wVmo1TGtJMS1WcFAxRnRFbWFhMVdUVjlEVmNOZFA5?oc=5",
       "publishedAt": "2026-09-12T19:32:00Z"
-    },
-    {
-      "id": "8a3507b9b9d033077512",
-      "category": "Official",
-      "time": "NEW",
-      "title": "aiming to maintain a perfect record at the Bernabéu - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
-      "publishedAt": "2026-09-12T17:02:54Z"
     },
     {
       "id": "f804f7b0a153a5c84d3a",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-11T17:55:49Z"
     }
   ],
-  "updatedAt": "2026-09-12T22:47:30Z",
+  "updatedAt": "2026-09-13T00:25:40Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
