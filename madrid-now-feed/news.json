@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "8ef29e07eeabc10f9b0d",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🤌 On today's menu: two tasty training goals! #rmcity #football #realmadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=K0wb55ccu0w",
+      "publishedAt": "2026-09-13T18:01:39Z"
+    },
+    {
+      "id": "5e0b871593c74eb9a271",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👀 CUCURELLA'S CHEEKY LOB! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=feJdC7x-AfM",
+      "publishedAt": "2026-09-13T17:56:27Z"
+    },
+    {
       "id": "025d770bd8e930de5c0a",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFd2d2NGOWZScXRZZTVJdHZvS1ExblpET2U3bGNIZUZyV2Y0MFpKcmtYNjUtY2FpVHJKc3BraTZLQTd2cWp1UDdQS0xsaGNYaTdDeFR3RVUyR1VWbTNwRlAzSHNhSkozeUNyd1VVZFJaV0E4TDhmZ1ZWYi05bF9oaHI4RHhMb3lPbS1kOWoySUdzR3RyeXZFajVzLXRLSHBvQzRqRW1pVFp6RnJ0empOaA?oc=5",
       "publishedAt": "2026-09-12T14:25:00Z"
-    },
-    {
-      "id": "ee5bab6c48547e4c314f",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Starting lineups for Real Madrid and Rayo Vallecano",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUE0U3JPUGFTV3hSMWI1MG5TRVBkZU40bkRmX2hlUEJyNldyLVBGU3VWeUJOSHJFX2lWYjBJdGpOUDBmZW5aNjU3SG5rV0tLbEY5TFZQbE9zc1VrWllBMHVsLXhRU2NXS2ZhMUl6QlNjQjNuQ3lwemVzd2dGd0ViQU9zNTNQelJ5Wk1zUFR6NEpac3F0dFppM1JlYnU3eVNQdG9TaURrWE9faTlTMkk0YTlXNHE0SFdWcTZXZmJPbTFDd1dYX05pVWp1SE8?oc=5",
-      "publishedAt": "2026-09-12T14:22:00Z"
-    },
-    {
-      "id": "c07a15b0b1583ec76cb3",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Starting lineups for Real Madrid and Rayo Vallecano - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUE0U3JPUGFTV3hSMWI1MG5TRVBkZU40bkRmX2hlUEJyNldyLVBGU3VWeUJOSHJFX2lWYjBJdGpOUDBmZW5aNjU3SG5rV0tLbEY5TFZQbE9zc1VrWllBMHVsLXhRU2NXS2ZhMUl6QlNjQjNuQ3lwemVzd2dGd0ViQU9zNTNQelJ5Wk1zUFR6NEpac3F0dFppM1JlYnU3eVNQdG9TaURrWE9faTlTMkk0YTlXNHE0SFdWcTZXZmJPbTFDd1dYX05pVWp1SE8?oc=5",
-      "publishedAt": "2026-09-12T14:22:00Z"
     }
   ],
-  "updatedAt": "2026-09-13T17:25:18Z",
+  "updatedAt": "2026-09-13T19:34:30Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
