@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "025d770bd8e930de5c0a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎶 ¡Hala Madriiid! ¡Y nada más! 🎶 #RealMadridRayo #Mbappé #Bellingham #Carreras",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=WNL7xzkOk1s",
+      "publishedAt": "2026-09-13T16:00:14Z"
+    },
+    {
+      "id": "76537ebc717e5bf5d72e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 WHAT A SHOW FROM MBAPPÉ, BELLINGHAM AND CARRERAS! 🤯 | REAL MADRID 4-1 RAYO VALLECANO",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=4E81zoOk7g8",
+      "publishedAt": "2026-09-13T15:12:59Z"
+    },
+    {
       "id": "806bec69775c894bd572",
       "category": "Matchday",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUE0U3JPUGFTV3hSMWI1MG5TRVBkZU40bkRmX2hlUEJyNldyLVBGU3VWeUJOSHJFX2lWYjBJdGpOUDBmZW5aNjU3SG5rV0tLbEY5TFZQbE9zc1VrWllBMHVsLXhRU2NXS2ZhMUl6QlNjQjNuQ3lwemVzd2dGd0ViQU9zNTNQelJ5Wk1zUFR6NEpac3F0dFppM1JlYnU3eVNQdG9TaURrWE9faTlTMkk0YTlXNHE0SFdWcTZXZmJPbTFDd1dYX05pVWp1SE8?oc=5",
       "publishedAt": "2026-09-12T14:22:00Z"
-    },
-    {
-      "id": "cb98f64a654312bb1f48",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This was Real Madrid's arrival at the Bernabéu",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEt3QkVSR2pGaDNhdTlDeWtSZVNra2lNWDFRTlhjRUFRVWJNeEd5UjE4YVhWV3VGOGhtdTB6Q2dyM1d3eks5ZjJfcnh2QXZibUx2UzZCTU9nTnZCZ2U1M3JoMVVsSHA1WEl6YXFnYnh2ODlsZkI5WlFEMGlUY0wtNThQdkRvWWxPeURxcld6cVRQdWVRQVRYa0o5Q05SWGJCaERSSV96bW84M0dJajFuaEFfTjNDU0lCeTlXVkR0OGpXLWR1UEE?oc=5",
-      "publishedAt": "2026-09-12T14:17:00Z"
-    },
-    {
-      "id": "6e52aded033d11afc8d1",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This was Real Madrid's arrival at the Bernabéu - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEt3QkVSR2pGaDNhdTlDeWtSZVNra2lNWDFRTlhjRUFRVWJNeEd5UjE4YVhWV3VGOGhtdTB6Q2dyM1d3eks5ZjJfcnh2QXZibUx2UzZCTU9nTnZCZ2U1M3JoMVVsSHA1WEl6YXFnYnh2ODlsZkI5WlFEMGlUY0wtNThQdkRvWWxPeURxcld6cVRQdWVRQVRYa0o5Q05SWGJCaERSSV96bW84M0dJajFuaEFfTjNDU0lCeTlXVkR0OGpXLWR1UEE?oc=5",
-      "publishedAt": "2026-09-12T14:17:00Z"
     }
   ],
-  "updatedAt": "2026-09-13T14:16:52Z",
+  "updatedAt": "2026-09-13T17:25:18Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
