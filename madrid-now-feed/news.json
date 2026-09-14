@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "ba11da2fdacbc0eb3130",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Lamine Yamal says Mbappe his only rival for Ballon d'Or",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTd0YVhySzluYlR2ak5IM2FxbjdHTFVoZEpZQ0JubVZRNDRiWXUwNUdNUGJVSzVEWGU0bUIyb21ueUNvQ1dndE5TeVJXR2VtSmhOVTR6VHJpQUpUajJEZTZnblBETV9uQXJsdXR4ZUdEcDI3aTFCTnRzV3IyaFhyUXAtNTFfLVgtTG9VdmZRVnJuUl9KTHhEMTY1ZjBTYV9IRXc?oc=5",
+      "publishedAt": "2026-09-14T05:11:00Z"
+    },
+    {
       "id": "8ef29e07eeabc10f9b0d",
       "category": "Matchday",
       "time": "NEW",
@@ -70,16 +80,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLWZXOHYtQ1NYSzNTcDdYRUN0UGRSS0F4Z0N6dTBCYllhbXVTYU1rd2RnUHlMVjZsNDVwa3FjVGNiYkJxcGZGVkZydjRnN3BsYnl5SWZITGRzaU51ZG1WYjRkNU9heXRCOXFrUHU5eFJfTUNfUDdZMXlFbnRwMTRXUkRZSVZ2NkMxNGpGT1ZCLU1USWtOdEN1bVZvQTBERGo5a21PMFln?oc=5",
       "publishedAt": "2026-09-13T08:00:00Z"
-    },
-    {
-      "id": "4b737fb457d7ab4b68c1",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This is how the 3-0 came: Bellingham finishes off a great team play",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX1ZxWGhBcVI1eHluNGtvU1l0eHlsck9LZUlaNWZXX0FOZGRRSjZMNXV6RVg3d2c4dmRqUVBxN25kVTdqekN5OXFnMXpRTS0xWVVRb3BPeXo4Nks3WThDT0dLa2VBbUNtLTlWNXp0RTc2RW9jNl83STA5Sl9TS2FzU1p1UHRIeTFpQ1RJRGVMVHliQmgzRGdka3MyaWxwUl92SGhkOUthSG9Ca0lsQ19CVHJDWmZ1bGhDM2dYUUtDanY2dXBTTmJZdEZaanpnQlI4cWJpbEN6VGhiZw?oc=5",
-      "publishedAt": "2026-09-13T07:12:19Z"
     },
     {
       "id": "e7d416db6ab0a9025dfd",
@@ -170,6 +170,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORktUdjNmVThhRWNiN0tuUlFzVWppdlh5UTUzWFFZRDhHRy1ZVUY0eTFOLTl4YkZRekR6cjEzRHZBa0ZfSlV6cTNoaW1yZW9xWFo4LWhfdFNsSWRUeDgyRFRxX1M2RVc4LU0wLVY3MEJ4TzRyN0ZPU3pKMF85c0hKLTNLSFBReVFLZDI4dkNtamhJOXhQdHZoenNQTDVCNi1hZU52Nlcyb2FvcU0zVHRZSGJtSnFocTF1OUpYRnY0UlMwNUhvVHV6d284MHpsN1c5Z2ZhanA0dGJIQW0yNHIya01IZ2VFSzdkb2dJYzFSb0o?oc=5",
       "publishedAt": "2026-09-12T21:00:53Z"
+    },
+    {
+      "id": "252759aafb82ce28248d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "This is how the 3-0 came: Bellingham finishes off a great team play",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX1ZxWGhBcVI1eHluNGtvU1l0eHlsck9LZUlaNWZXX0FOZGRRSjZMNXV6RVg3d2c4dmRqUVBxN25kVTdqekN5OXFnMXpRTS0xWVVRb3BPeXo4Nks3WThDT0dLa2VBbUNtLTlWNXp0RTc2RW9jNl83STA5Sl9TS2FzU1p1UHRIeTFpQ1RJRGVMVHliQmgzRGdka3MyaWxwUl92SGhkOUthSG9Ca0lsQ19CVHJDWmZ1bGhDM2dYUUtDanY2dXBTTmJZdEZaanpnQlI4cWJpbEN6VGhiZw?oc=5",
+      "publishedAt": "2026-09-12T21:00:49Z"
     },
     {
       "id": "62e61240c4235b1d920c",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMHpBYnNHUlhyeHo2YmxSRG9PbDFJbHoyVUVBbVRUUVRBZGhuNElUSmQxZ05ncGRwc2p3UDcwSnF2b2kwVU1PVTJVREg1WDlKLXNOemRkVDVmWWtQazJkNFJ4Nm1qVDdxVUNhXzJUN3FpXzJvZnM4aGJpZ2J0aUQ4XzF3NE4wMVFrNmpkSGVIZE52ZG5jX3BNTG1R?oc=5",
       "publishedAt": "2026-09-12T14:26:00Z"
-    },
-    {
-      "id": "602223e338a0ff8fd376",
-      "category": "Official",
-      "time": "NEW",
-      "title": "A commanding win with a brace from Mbappé",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFd2d2NGOWZScXRZZTVJdHZvS1ExblpET2U3bGNIZUZyV2Y0MFpKcmtYNjUtY2FpVHJKc3BraTZLQTd2cWp1UDdQS0xsaGNYaTdDeFR3RVUyR1VWbTNwRlAzSHNhSkozeUNyd1VVZFJaV0E4TDhmZ1ZWYi05bF9oaHI4RHhMb3lPbS1kOWoySUdzR3RyeXZFajVzLXRLSHBvQzRqRW1pVFp6RnJ0empOaA?oc=5",
-      "publishedAt": "2026-09-12T14:25:00Z"
     }
   ],
-  "updatedAt": "2026-09-14T01:18:39Z",
+  "updatedAt": "2026-09-14T06:23:34Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
