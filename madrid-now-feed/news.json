@@ -232,16 +232,6 @@
       "publishedAt": "2026-09-12T19:32:00Z"
     },
     {
-      "id": "e477a155a6062af4fef7",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Schedules for matchdays 5, 6, and 7 of LaLiga",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWldsMHJDbjExZklVT1pJYlRtYnlRUDVtdDZDcjdNV0JZNFI0RDhOYUZHT0tUcXpYZzZMZlVVdGM4eTZmUDlWdWt5U2twWmYwamxmc2JPMDVkOEpzb25VSExIY08yU3cwTHRLZEt4cC1LTzBjVjA1d251MWh5TkwyblY2enczTldJR0g4WUxydjdqT1JWZU5JOVZNRk15RUxiMzlMTWpYa1V5R1NCRXdobk0zbUVweFpnSVdfa0pMeFptNDg4b2Y4QTI3TVc4cTRJc2JVQUNuMFhjRmZwcjZDUVpfN2VEeW1MbXhKNVRuTzF0ZE0?oc=5",
-      "publishedAt": "2026-09-12T17:15:00Z"
-    },
-    {
       "id": "4dacb857232637668489",
       "category": "Official",
       "time": "NEW",
@@ -300,9 +290,19 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMHpBYnNHUlhyeHo2YmxSRG9PbDFJbHoyVUVBbVRUUVRBZGhuNElUSmQxZ05ncGRwc2p3UDcwSnF2b2kwVU1PVTJVREg1WDlKLXNOemRkVDVmWWtQazJkNFJ4Nm1qVDdxVUNhXzJUN3FpXzJvZnM4aGJpZ2J0aUQ4XzF3NE4wMVFrNmpkSGVIZE52ZG5jX3BNTG1R?oc=5",
       "publishedAt": "2026-09-12T14:26:00Z"
+    },
+    {
+      "id": "602223e338a0ff8fd376",
+      "category": "Official",
+      "time": "NEW",
+      "title": "A commanding win with a brace from Mbappé",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFd2d2NGOWZScXRZZTVJdHZvS1ExblpET2U3bGNIZUZyV2Y0MFpKcmtYNjUtY2FpVHJKc3BraTZLQTd2cWp1UDdQS0xsaGNYaTdDeFR3RVUyR1VWbTNwRlAzSHNhSkozeUNyd1VVZFJaV0E4TDhmZ1ZWYi05bF9oaHI4RHhMb3lPbS1kOWoySUdzR3RyeXZFajVzLXRLSHBvQzRqRW1pVFp6RnJ0empOaA?oc=5",
+      "publishedAt": "2026-09-12T14:25:00Z"
     }
   ],
-  "updatedAt": "2026-09-13T23:27:08Z",
+  "updatedAt": "2026-09-14T01:18:39Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
