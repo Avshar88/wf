@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "ff16a424ee97b46c9e46",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Midweek football = 😍 #football #realmadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=3bR0G77SM84",
+      "publishedAt": "2026-09-14T20:00:25Z"
+    },
+    {
+      "id": "b9c831ff22c050e27ca9",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🔥 READY! 🔜 Elche #RealMadrid #RMCity #ElcheRealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=PjBeyCAORVE",
+      "publishedAt": "2026-09-14T18:39:44Z"
+    },
+    {
+      "id": "53b02d50d0faafb44fb7",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⚔️ ALL SET FOR ELCHE | Real Madrid Training",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=e0ym2ef7LnI",
+      "publishedAt": "2026-09-14T18:32:23Z"
+    },
+    {
       "id": "24a628c0d1ee9d9922b9",
       "category": "Official",
       "time": "NEW",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
       "publishedAt": "2026-09-12T20:32:00Z"
-    },
-    {
-      "id": "080cfc492467e9027d8c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "aiming to maintain a perfect record at the Bernabéu - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFVXa3BxMVlqdk1SUGVib1g1VDFDWG5BMEp2dFg0dDN3VmhPV0FidmtLdUJacUtSdVRRaFMtbGZwZU5NZS1zX2tGNDgzX0xiLWl5MUp1U0w3RU82cm9ra3ZoZVdhZ0FOdDhsRXhaWG1kV3pfUklvT0ZrZGJpVTN3WDJTN2ktTjlOYUhlVVJZc1NYOVloTl90bzZMQjhLT25jWEw0VXJnMFlQaTEzTlM5V0RRQkxJMEJsVnJOTVVHeDZ2WnFHdE9JcFYxTmRPaUVlUEE?oc=5",
-      "publishedAt": "2026-09-12T20:32:00Z"
-    },
-    {
-      "id": "a31c64291bc6f7298244",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "😏 Hey, Jude. #RealMadrid #LaLigaHighlights #RealMadridRayo",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=-KmwVgXe3q0",
-      "publishedAt": "2026-09-12T20:07:47Z"
-    },
-    {
-      "id": "e7160fdf1560480528c4",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🫡🔥⚽️ #Mbappe #Carreras #RealMadrid #LaLigaHighlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=-imW2lhNrls",
-      "publishedAt": "2026-09-12T20:04:11Z"
     }
   ],
-  "updatedAt": "2026-09-14T18:31:05Z",
+  "updatedAt": "2026-09-14T21:57:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
