@@ -2,24 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "07ffcf37ebc1d520f219",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Elche-Real Madrid: aiming for victory at the Martínez Valero",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX04xT0VkQkFRdDExc3RodG5BTFE2MHdBTWc1Y2tEaXMwWElxVlc3R1RfZzlUQnFaX1NlQXlqdlprYkctYXk4Q0ZZMDVPZjVMT0cwZXIyYjJVSHhQbHRiR1k4R1pyTnNMRDQyb3NNSWpvcFd2OWRiQ3pxNkd0eTZYSW04d21mMDBIX0hSOXQ2c05DVnRlS1N0N1pMY2FYR3hlczNCbDZURjZMSEk3LUg5bC1vN09aNThhZ1lJTWxIcGpDcmNCVFJDWGlJbkUyNkE4?oc=5",
-      "publishedAt": "2026-09-14T22:24:12Z"
-    },
-    {
-      "id": "6b276098bac5cb0f4acf",
+      "id": "aba65c54dc23f253261a",
       "category": "Official",
       "time": "NEW",
       "title": "Eighty-three years ago, Santiago Bernabéu was elected president of Real Madrid",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWdxMnZhX0k3UXhRRS1EeWhqbTdBbDBUZWJ2THRwUWxjaWdFOWgtTW9PbHlGNkVOYldKNHptQnFqRDhCQkRha3FmVEpMN3l6bWFjZnBiOTBNMVF1dDltTEpmU2xuQ3p3UzNFdkFKQnFNaG11ek5hWlF4dElLVVk5OXBPcjFMTkw3N0Vwd2NSV3J1azV6c0pfZWVLb2lXRFYzd0pLMzFEaGVVMWdNV3FjV2NEWDV0anpUR3lFVEJZNzdBRVo0VmI3dS05UTZCaWtN?oc=5",
-      "publishedAt": "2026-09-14T22:23:55Z"
+      "publishedAt": "2026-09-15T04:08:40Z"
+    },
+    {
+      "id": "6dbabef91bcb836063fe",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Elche-Real Madrid: aiming for victory at the Martínez Valero",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX04xT0VkQkFRdDExc3RodG5BTFE2MHdBTWc1Y2tEaXMwWElxVlc3R1RfZzlUQnFaX1NlQXlqdlprYkctYXk4Q0ZZMDVPZjVMT0cwZXIyYjJVSHhQbHRiR1k4R1pyTnNMRDQyb3NNSWpvcFd2OWRiQ3pxNkd0eTZYSW04d21mMDBIX0hSOXQ2c05DVnRlS1N0N1pMY2FYR3hlczNCbDZURjZMSEk3LUg5bC1vN09aNThhZ1lJTWxIcGpDcmNCVFJDWGlJbkUyNkE4?oc=5",
+      "publishedAt": "2026-09-14T22:30:00Z"
     },
     {
       "id": "ff16a424ee97b46c9e46",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-12T21:00:49Z"
     }
   ],
-  "updatedAt": "2026-09-15T00:09:18Z",
+  "updatedAt": "2026-09-15T04:47:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
