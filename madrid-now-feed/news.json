@@ -2,6 +2,76 @@
   "version": 2,
   "stories": [
     {
+      "id": "0a57c853e1d6d0b9aeb4",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Elche 2-3 Real Madrid | LaLiga #ElcheRealMadrid #LaLigaHighlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ww5fC8kPSvM",
+      "publishedAt": "2026-09-15T23:10:31Z"
+    },
+    {
+      "id": "d3603b3bc5116c931660",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Elche 2-3 Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=1bvL_TgSjMA",
+      "publishedAt": "2026-09-15T22:54:32Z"
+    },
+    {
+      "id": "47e018f2ee685357cc1c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "💪🖐️ #ElcheRealMadrid #RealMadrid #football",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=JgUfBeiROL4",
+      "publishedAt": "2026-09-15T21:59:08Z"
+    },
+    {
+      "id": "0196daa71a23facc90b3",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Espi winner rescues Real Madrid after Elche comeback",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEJpdk9hOVJzR19BYVJhWGVYWW16aGdLVy1RdlJGREE0QU9maDh1NDYtMHVCa1RuRmhZVnFPRnhlVHZURF8ya3BveF9WRzRwZE5VWF94eGNMX1lOOFF6TXpReTFXb0lIQ2MtQU1TMmVaVmZtUGdDR29kekxscmZlaE5NUU14d25xa2N1QWw1NE5TeHgwNGVlU3hRMmlydE8xNno4Ug?oc=5",
+      "publishedAt": "2026-09-15T21:42:58Z"
+    },
+    {
+      "id": "84cdb0e83942ac113e9b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Elche CF vs Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=K4_t9HjqY48",
+      "publishedAt": "2026-09-15T21:40:53Z"
+    },
+    {
+      "id": "df6cabd058b3ff627a26",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Carlos Espí: “I try to help the team in any way I can and I’m very happy”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaEE2dGk1MWRkMDBTMW9RNDI1b0hhTE1yWk9JZUV3NFlsdjhaTVRFYWV3N19iOGtjWHA1WkVBbGV4aXlTM2loQzNDZ1NfbmpORkpiYVJISVRNOXgtdGNnOV9fV3dLbFpCSG53ZW1LdjJjQlI1dmhCVW1OWEhySVlEN0lwRzFRSW9fRVgzTHVoT2YwRjlkaXlrSEdpd1lCbEFBVlFZQ0VwMHluXzRIN3ZmS2piSTJGYnkxRkVtbjhTZUJnbGYwemZNbGxqNmpqeU42?oc=5",
+      "publishedAt": "2026-09-15T21:20:42Z"
+    },
+    {
+      "id": "5b58f2b1a453f8e60447",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid triumphs in Elche",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzBLUmtNU294cHRuRDFVWmxzb3pac0s2ekpFUXpnQjY3ZFlSYjVpZ09PU2Y1a0tMZXIwUEdHSDMzYV9yRjRzT2RIRWtnMHpSLVlwWVIzbmZIRFdPSm1tVlJmZkpqQ085SGd6aTlxQ1ppbDdzamZtQWxtYTEwVkRNd2hwWmhxbkVVakdTMy1DbHI0cFBJMEt4OWhrSXN6NERYS21ObDQtMXJTeWFrckVz?oc=5",
+      "publishedAt": "2026-09-15T21:00:50Z"
+    },
+    {
       "id": "f27ff6a1b394c71ecbb5",
       "category": "Matchday",
       "time": "NEW",
@@ -10,6 +80,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=78SzxcOSTow",
       "publishedAt": "2026-09-15T20:56:08Z"
+    },
+    {
+      "id": "b471bf58e46841a03006",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Valverde, 250 LaLiga matches with Real Madrid: \"I want to keep making history at the best club in the world\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUFDMkNtaS1BVlEwZnQzX1FvX0daYWd4SExrUG5fMU4wa291N3lVcHFfRDVycDFGWHZjX0FxZ01mUDh0RU1FdlVQakRRWkZKTzh2a1pZN1lnM2psdmFHNUF2TmI2UDRNSU1XNUxqMVNXQXZIWXh5RjJ4N3FCNUVNRlAyUHdZVEVodVFpQ29hZ04wYUE?oc=5",
+      "publishedAt": "2026-09-15T20:16:00Z"
     },
     {
       "id": "299bfbace29f884bbba5",
@@ -30,16 +110,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVZ0U1kxa1l1cTh1LVRaY0dzWnpFOGtFcHExS0VkS1pSREFxTzVyVG9Qa2RzRHd2MFFxMXRqaHJYdnFwV0RBcFVfa3M1NTludlJ3c3JGNFFITjh6bVduTlBKUGQ2dkFGNjg3UTMxWm94b0FiUTQ2ZUFLUDFPOWN1VVZ6TVA0RTlaMjBCSmYtNDBSVTllaHROYzNZS3VoZjNFX2prY0RBUkZ4X2E0aU9idXlTc0o3QWlua1YwODVScEc?oc=5",
       "publishedAt": "2026-09-15T18:20:00Z"
-    },
-    {
-      "id": "84cdb0e83942ac113e9b",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⏱️ MINUTO A MINUTO | Elche CF vs Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=K4_t9HjqY48",
-      "publishedAt": "2026-09-15T17:30:31Z"
     },
     {
       "id": "aab4b47ca14e63f7efa2",
@@ -230,79 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTmZvLUVpSVYxZEp4d25qa3ZhUWpNVzBIRGpmT3k3QWR3SEhBTnBsajR3UTFzb3hwRUpYc0FDY1oyeU5NUk1iLXotQTJGdEpfUXNSMUNRSjg1Y1Zpa3A3clhBVVFTcU1QZXh6Y19PNnQxbUpLSmMzUDVSVFhVUlpIQ003OUl6WVlzZzU2QnpGWHA1VDFOUVdBTGs0SGlhZmI5T2I3alA5NTdnM2JMTGhMbEJEU25LT0R4eU9MTHdqcGI0cmduSnNYOVl6X2xkQUlpR0VKSnZ6eWtvajNBMGRyRmU0OXU?oc=5",
       "publishedAt": "2026-09-14T08:00:00Z"
-    },
-    {
-      "id": "7002f0a80e8777dc85eb",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"Against Elche, I’d like to play well and win\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX1dDT01TMENrQmVNd05XMEkxX0lCdHk0bUpwU2ZCdnRIRTRHMjlDb2pOd3NoaURmajY1YVlCTGd0Y290YzlOVkVpdzVfVXRWVUZKdVN3Mnp6VVc3N2p4T2duenR2aUtLVC15bTRGOWlONndjU1NoUDktSzA2Y2E4UlB0OHRVYkdwMk1MVWtXVkFIcWJpbGxKdnBB?oc=5",
-      "publishedAt": "2026-09-14T06:55:00Z"
-    },
-    {
-      "id": "ac8d7b4aa3c345f5c111",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Final training session before the match against Elche",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHBkc0NLQk1IWFRRQkNEZTlROVdiQjQwcW10TG13eW93TXprbXVxNFpYQkFMU2RtOWdSZUl1a3AzVDVSZnVRWDBNcUhYcGF4aVJyRV9zOW9RaVlSVzUwZUY0N21uUTdnbS0yWkFkUko5dTlTWWdJM3hqLUUtYU1nMWx4bjcycEhmcGFyUHlqc2lBbnF1YlUxMWlIN19lX0tRQkJQbXBBNjhyNDQ?oc=5",
-      "publishedAt": "2026-09-14T06:52:00Z"
-    },
-    {
-      "id": "ba11da2fdacbc0eb3130",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Lamine Yamal says Mbappe his only rival for Ballon d'Or",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTd0YVhySzluYlR2ak5IM2FxbjdHTFVoZEpZQ0JubVZRNDRiWXUwNUdNUGJVSzVEWGU0bUIyb21ueUNvQ1dndE5TeVJXR2VtSmhOVTR6VHJpQUpUajJEZTZnblBETV9uQXJsdXR4ZUdEcDI3aTFCTnRzV3IyaFhyUXAtNTFfLVgtTG9VdmZRVnJuUl9KTHhEMTY1ZjBTYV9IRXc?oc=5",
-      "publishedAt": "2026-09-14T05:11:00Z"
-    },
-    {
-      "id": "affe984697c3629850c0",
-      "category": "Reported",
-      "time": "NEW",
-      "title": "Lamine Yamal says Mbappe his only rival for Ballon d'Or - reuters.com",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTd0YVhySzluYlR2ak5IM2FxbjdHTFVoZEpZQ0JubVZRNDRiWXUwNUdNUGJVSzVEWGU0bUIyb21ueUNvQ1dndE5TeVJXR2VtSmhOVTR6VHJpQUpUajJEZTZnblBETV9uQXJsdXR4ZUdEcDI3aTFCTnRzV3IyaFhyUXAtNTFfLVgtTG9VdmZRVnJuUl9KTHhEMTY1ZjBTYV9IRXc?oc=5",
-      "publishedAt": "2026-09-14T05:11:00Z"
-    },
-    {
-      "id": "8ef29e07eeabc10f9b0d",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🤌 On today's menu: two tasty training goals! #rmcity #football #realmadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=K0wb55ccu0w",
-      "publishedAt": "2026-09-13T18:01:39Z"
-    },
-    {
-      "id": "5e0b871593c74eb9a271",
-      "category": "Official",
-      "time": "NEW",
-      "title": "👀 CUCURELLA'S CHEEKY LOB! | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=feJdC7x-AfM",
-      "publishedAt": "2026-09-13T17:56:27Z"
-    },
-    {
-      "id": "025d770bd8e930de5c0a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🎶 ¡Hala Madriiid! ¡Y nada más! 🎶 #RealMadridRayo #Mbappé #Bellingham #Carreras",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=WNL7xzkOk1s",
-      "publishedAt": "2026-09-13T16:00:14Z"
     }
   ],
-  "updatedAt": "2026-09-15T21:27:04Z",
+  "updatedAt": "2026-09-15T23:34:29Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
