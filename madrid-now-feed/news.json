@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "f27ff6a1b394c71ecbb5",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🪄🎩🇹🇷 #ElcheRealMadrid #LaLigaHightlights #Futbol",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=78SzxcOSTow",
+      "publishedAt": "2026-09-15T20:56:08Z"
+    },
+    {
+      "id": "299bfbace29f884bbba5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Tribute to Cucurella for the World Cup",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYW4wY0FOckg2V1RRdG10Zi1UdC10VWlScTEySzJ5WjVGSkcyZngtb185RFg5dmFLdW1qaU1GOUF4YTEwczhybWxjdmJPWnpXZHFfemJpcGQtWXlydXhkZnU0SU1WV1ZUdnlPemEzZWNyc3luYXYxeFpJTU9iMGtPMjZIVnBjd3dBT2FDaFlDcUIxY084R1dWVUVtVjkyVWluVDZra2tWbXo3bVRnNnI2N3JsbEhlbExsaFBjMEFfX0Y?oc=5",
+      "publishedAt": "2026-09-15T19:30:00Z"
+    },
+    {
+      "id": "37cff84209316d180028",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's starting lineup against Elche",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVZ0U1kxa1l1cTh1LVRaY0dzWnpFOGtFcHExS0VkS1pSREFxTzVyVG9Qa2RzRHd2MFFxMXRqaHJYdnFwV0RBcFVfa3M1NTludlJ3c3JGNFFITjh6bVduTlBKUGQ2dkFGNjg3UTMxWm94b0FiUTQ2ZUFLUDFPOWN1VVZ6TVA0RTlaMjBCSmYtNDBSVTllaHROYzNZS3VoZjNFX2prY0RBUkZ4X2E0aU9idXlTc0o3QWlua1YwODVScEc?oc=5",
+      "publishedAt": "2026-09-15T18:20:00Z"
+    },
+    {
       "id": "84cdb0e83942ac113e9b",
       "category": "Matchday",
       "time": "NEW",
@@ -32,14 +62,14 @@
       "publishedAt": "2026-09-15T15:06:00Z"
     },
     {
-      "id": "456f6dbd82b22472627b",
+      "id": "e4cb5dcbc968a855e9c3",
       "category": "Matchday",
       "time": "NEW",
       "title": "Matchday 6 Liga schedules",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZzhuRHdQaGJVSzhuSWUySXlvZVEzemJpdkNud1h4bEhCdTFCdUh2UmwtbUg5SkI5YnBFY25SWW9kWDFjbjNwOVFkSFBHc1RwUTJlNURGMlNXTEIxaXROQkdhbld1YnFtZFR3SnhJdFc1b0d4UlRhWDRlQWRRdGVlZWNfbUsySUswZ1JSUW9iTElSc3NZZVB5dldIYWp2Uk5MRmhhXzNjeWczcnlMdWJ3SlFNbjhoZnp0?oc=5",
-      "publishedAt": "2026-09-15T14:04:57Z"
+      "publishedAt": "2026-09-15T14:45:00Z"
     },
     {
       "id": "98a9420462e4b8aa4a89",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=WNL7xzkOk1s",
       "publishedAt": "2026-09-13T16:00:14Z"
-    },
-    {
-      "id": "76537ebc717e5bf5d72e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔥 WHAT A SHOW FROM MBAPPÉ, BELLINGHAM AND CARRERAS! 🤯 | REAL MADRID 4-1 RAYO VALLECANO",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=4E81zoOk7g8",
-      "publishedAt": "2026-09-13T15:12:59Z"
-    },
-    {
-      "id": "b78caffd1649c34ba391",
-      "category": "Official",
-      "time": "NEW",
-      "title": "This is how the victory against Rayo Vallecano was experienced",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1VyMm11MUFKLV9oN3M3a0kwLXBLSzR4LTQyTjdYS29TbnFwWDk4YmN2Q0RCdk5sbXl0ZU1hRFFVZlF6SFNHZWtieldFNDNLb0FnakN3ZXMwREZxY2E0THhZWG1uQU50S0ZUMVdjdDFMREdWSjBUU19sQkUwSF80ck9HWDNEN1hNQ0RPY05HZ2tYRnF3NkFVNVlUb042S3lhcG5yc3E5ZWJ0dWtES1BmZ3doNWdtM3JiMmRPRWh4WWtlM0xCTklsTw?oc=5",
-      "publishedAt": "2026-09-13T13:14:00Z"
-    },
-    {
-      "id": "806bec69775c894bd572",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Gabriel Valero | Matches | Real Madrid",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQckIyY1gycURReDNkVzNHeWhBcmZFbVg5MjA1cTdPQ214MFFfTU0zWEtpMGxyb1lfSVNmdFh1UUpNbkFjRkZiVlpfcGdOd0g3c3VDSmF6aGdqNWRxT1g4NWNDMFdJTXROUm9wNlhQSEx3SUpDOXVqRTR5aDZEVGhoUU9UR0R4aUI3WWtiM3BNdmpjLTg?oc=5",
-      "publishedAt": "2026-09-13T09:57:31Z"
     }
   ],
-  "updatedAt": "2026-09-15T18:19:01Z",
+  "updatedAt": "2026-09-15T21:27:04Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
