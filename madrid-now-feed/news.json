@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "6cdb6025466d36ae0284",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid begins preparations for the derby",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYUwxRnZBUnhxaVVVaE1GRHk1YzRZMWhuT21ER0F4Nl9lQV9yVjdOVU5YdkVSNjBhSlpXZTBGT2ppSFMwb050aUdMWlRHNzNLbGVMQUJnWVlWVUpIa0o5YlBJenlSbTlSNkdnRTIwTGo2NHAxQk1ZZHM1OWs2WnotSVBGVEFGa21vVFp2NWExWXo4MW5NRGt6QzkxSWlQYVRRRG1XNlFIUFVRSzR5U0lSN3hB?oc=5",
+      "publishedAt": "2026-09-17T08:30:01Z"
+    },
+    {
       "id": "6ee0e9070fb31f56b9cc",
       "category": "Reported",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ3R5azdCMUJhcjU1bjdjbFdLSlN3cW9iUDA0dXd6WnU2YWZCNDdSV1QtYURZa3BmS3ZEaktpUzRNSVdGUzdBb0J2RE9pcnMtclRiNGlWTktRTmItVmQ1Q3JZc2tWbENCNmhmWC1sSmdiT3I1ZXZUSXVfN2YyVGZsUElFZ1hjbmY2aWxZRWlUc1U?oc=5",
       "publishedAt": "2026-09-15T20:09:00Z"
-    },
-    {
-      "id": "1ed0118ad311b8b27590",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Güler's great free kick that resulted in the first goal",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnhpNmdzckh0WHdLaFlmQ01sNENWZFJGNDRIQjhJVkYtbnZpOTREcHJsZEEyZzdLQTd2dDI3LU1FRjM1ckhNRVJVVHBEZExyZ0t1WjU0YkxmQ0dyN1h6NHlxUGRHUlRyOXR1bEs1eUYwcVRSV2hhZnc5NUVZSXJBTEdjRkRXdGZTcTZHZkx0bGtJX2RkWWpwOQ?oc=5",
-      "publishedAt": "2026-09-15T20:08:00Z"
     }
   ],
-  "updatedAt": "2026-09-16T22:17:53Z",
+  "updatedAt": "2026-09-17T14:44:03Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
