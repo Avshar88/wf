@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "d43480a075cf101ce863",
+      "category": "Official",
+      "time": "NEW",
+      "title": "New session before hosting Valencia",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbWxlcWNOMEpCeGN1SjgtUG9ZcENDRzBNMVFzNGdtSzRVenByUjNnem1lSDk0RHJiLXdTdmY1U3hLajZTMF9VMVVreDRlM0lwcF9aTnhUTHpEZjFVOVdCNms2ZURUVTJsc2RxQVV0emdaN0FpMC1IVmdDRUppVDhFZVhndnRBNWlEYzNwdzlrNy1wcnkwWVA4amI5cFg3M0dKSFYyNGdZU0VGUUlIRElhYktwV1NqVGlqRGczUTRlNjI1TmFQVGU4Tm9XNlI?oc=5",
+      "publishedAt": "2026-09-17T16:49:00Z"
+    },
+    {
       "id": "1732290a35ee31c0bfe5",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQak4zMXJScnl3ekNGcGdWMkZ2TnNfT29pQnI5MnZzeC1OdGFMbGltdUg2Y2lnX2NLbFF4MVduZ2M5WmF0YUYzX3k4M3NfRXQ4aW5zbS1JeFIwNVpaWkNvNGdIWHVjTjRWOE5JU1VBWXlTSGZsbHdaWjF4ei1PR2VLci1qSnU4WThxemhRNWlTd09ObkNwVGQ5TXgyUy1RODlCblhtd0trR0ZCLWw5QkE0QXdpNkx4QjhHRmlXMkNhS1RDaXJoSmNpWjBYTWZhTHBzTnRGNkdQWlFQb2M3V3c?oc=5",
       "publishedAt": "2026-09-15T21:30:38Z"
-    },
-    {
-      "id": "df6cabd058b3ff627a26",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Carlos Espí: “I try to help the team in any way I can and I’m very happy”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaEE2dGk1MWRkMDBTMW9RNDI1b0hhTE1yWk9JZUV3NFlsdjhaTVRFYWV3N19iOGtjWHA1WkVBbGV4aXlTM2loQzNDZ1NfbmpORkpiYVJISVRNOXgtdGNnOV9fV3dLbFpCSG53ZW1LdjJjQlI1dmhCVW1OWEhySVlEN0lwRzFRSW9fRVgzTHVoT2YwRjlkaXlrSEdpd1lCbEFBVlFZQ0VwMHluXzRIN3ZmS2piSTJGYnkxRkVtbjhTZUJnbGYwemZNbGxqNmpqeU42?oc=5",
-      "publishedAt": "2026-09-15T21:20:42Z"
     }
   ],
-  "updatedAt": "2026-09-17T18:34:08Z",
+  "updatedAt": "2026-09-17T23:39:47Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
