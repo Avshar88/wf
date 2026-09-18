@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "63cce6a954dd585a0186",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Athenea: \"The team is ready and excited for everything that's coming\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdlhkejZBZzBWRWttTVhJTXZ1WTNvcXNwVkNhcllVMDBwRXF3c2trSVlYS1VIckk4WGVXbWx1a3lQX016X21mQmJodUxTTVdnS2dFMVJkVzJYTTc0NHNJT05pSmlldVdaWXdvVFlCZ3pwQzYtdVBHc1diaDF0VWNVY29Ub1hfcXAzNWR5amtFbVV4OUxiRmJ5bVVpbW5yU2ZmU1ZLSk82QXZ0ZmhfcFllODFMNmdpV0xteFZzZ3JXR2stbUNXNVcyVE1ZQUxldXBMQ0dkeV9lUUVpWjRSSGlmeFZpcw?oc=5",
+      "publishedAt": "2026-09-18T03:14:47Z"
+    },
+    {
       "id": "d43480a075cf101ce863",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=K4_t9HjqY48",
       "publishedAt": "2026-09-15T21:40:53Z"
-    },
-    {
-      "id": "16e88dc3dccbc3283f82",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: \"In the face of difficulty, this team reacts and wins\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQak4zMXJScnl3ekNGcGdWMkZ2TnNfT29pQnI5MnZzeC1OdGFMbGltdUg2Y2lnX2NLbFF4MVduZ2M5WmF0YUYzX3k4M3NfRXQ4aW5zbS1JeFIwNVpaWkNvNGdIWHVjTjRWOE5JU1VBWXlTSGZsbHdaWjF4ei1PR2VLci1qSnU4WThxemhRNWlTd09ObkNwVGQ5TXgyUy1RODlCblhtd0trR0ZCLWw5QkE0QXdpNkx4QjhHRmlXMkNhS1RDaXJoSmNpWjBYTWZhTHBzTnRGNkdQWlFQb2M3V3c?oc=5",
-      "publishedAt": "2026-09-15T21:30:38Z"
     }
   ],
-  "updatedAt": "2026-09-17T23:39:47Z",
+  "updatedAt": "2026-09-18T06:11:14Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
