@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "69ce2cab8d3a3bf263fc",
+      "id": "17f3ed261b0cd2762008",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Valencia: aiming for victory at the Di Stéfano",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRjR2Smo0RzB0OUgxRTF3NXV0cEJac3lWdGxDLUVkeXdJczFVNVBIQldtdnc2QnJoSjJzWWtfWXQzY2IxN2hmNWJsbmNrNFNJZHFjeld5ODViM3JiZzJ5S0FPeU1yWUJvV2RBN2trOHBPR1Z1UWpELTgyUXNmbXh1SVIxX3l3dWlTbm5XRExKeUU1NHJoaXJQcVI0LUdlb0FlblZxX0Fpc09IbGxvbjVTaVd4dmFUWXc?oc=5",
+      "publishedAt": "2026-09-19T08:43:00Z"
+    },
+    {
+      "id": "91bc31422febfa594e9a",
       "category": "Official",
       "time": "NEW",
       "title": "Olympiacos-Real Madrid: Going for the EuroLeague Super Cup",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU3lrODB5WW9NdHgwTWwzdElPU1VRM2R1OTY2U0xQVEszcHdTajB6aTRjOFJQNThZSUpYam1rbWctWkl4M0NVX3ZMYk9PNjJDVVJQTjV4eWtIUUxwSW92RlYzZkNtX0xPSW8yVDVDc1RLYm53SHBvQW40RkMyd2hmLXp4VTJPQjNmMVJWZXNuczNXeFlOQktVOTRjM2NCdzZLUzItWHU5Z0lpUHVuVkVqOVViZWJ4dW02MlJrWE1INTlwSzN4ckFlaHBDYVA?oc=5",
-      "publishedAt": "2026-09-19T04:12:03Z"
+      "publishedAt": "2026-09-19T06:21:16Z"
     },
     {
       "id": "ab96d9745bb15b57a140",
@@ -20,16 +30,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcF94a0JLblc5Y1ZpSTBhVzJRSGpSYXEyYWppMC1mWXk5dGZFQkRuZXFyRTdHTDZrZ2lEWUZFZjBaTXUzaGlJRDJrdE83SEpGdnVMMzFYcFFGLUxHYVJyNWZxclBWS2VoMG1KNHdmcWhwUmI4NElOb0c2dEYzVTI1ZWVxdUY5OV9HcHVPTHdaa0UzRHRFc0dWVVdXd2trVVJFTjAwVEZHTDBVRW9IOU11bU5qR1pKNVhp?oc=5",
       "publishedAt": "2026-09-19T02:06:57Z"
-    },
-    {
-      "id": "636751d19f21502d3113",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid-Valencia: aiming for victory at the Di Stéfano",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRjR2Smo0RzB0OUgxRTF3NXV0cEJac3lWdGxDLUVkeXdJczFVNVBIQldtdnc2QnJoSjJzWWtfWXQzY2IxN2hmNWJsbmNrNFNJZHFjeld5ODViM3JiZzJ5S0FPeU1yWUJvV2RBN2trOHBPR1Z1UWpELTgyUXNmbXh1SVIxX3l3dWlTbm5XRExKeUU1NHJoaXJQcVI0LUdlb0FlblZxX0Fpc09IbGxvbjVTaVd4dmFUWXc?oc=5",
-      "publishedAt": "2026-09-19T00:29:39Z"
     },
     {
       "id": "233a17ce810141d270a4",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-17T13:42:00Z"
     }
   ],
-  "updatedAt": "2026-09-19T04:58:58Z",
+  "updatedAt": "2026-09-19T09:11:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
