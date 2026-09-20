@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "bc7337d3ce8881e8a4a4",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Atlético de Madrid 2-1 Real Madrid | LaLiga #AtletiRealMadrid #LaLigaHighlights",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=8aI8S-WxHg4",
+      "publishedAt": "2026-09-20T21:03:59Z"
+    },
+    {
+      "id": "0499041556a2cfa97775",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Atlético de Madrid 2-1 Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=pDoKer6yJFU",
+      "publishedAt": "2026-09-20T21:01:25Z"
+    },
+    {
       "id": "521d992777a318e6a0d6",
       "category": "Reported",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFoxcnIzbnhBNFJKV0hBNkQyTkNpdXppck5iVVIzTXFRM1M2MEpqOXo2c3N3cXB3T3FDSnZVX2VNeW9Sbjk4czlmMTZWNXpoRHNrc2ptdGZSTk5pbDVXdUp3WExKbi01Sk9ZYVRkcEtHV2FBRVYwbUNPeUZVNjhoVWVwNGdFLXR4Q0o0WDhYZjdlUlVKOEZUNVZnaE1wTWlUaUhnQ2NhX1JwMldoMjZvNFVR?oc=5",
       "publishedAt": "2026-09-19T14:47:00Z"
-    },
-    {
-      "id": "f0c45f7ea92b2d2ca8ce",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: ‘Derbies are about history, culture and the passion of the fans, players and managers’",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYU0wazBjeHBNVVF2Q3NQbjZYYlg5MFpUOC1sMGdaS2tEdktNd2M3ZjdVbndnYmtvMnpVdjVHaVAtWDFpRVZOMi1UQjlMdm5BVGswSmhkSWNpN3R1aVQ0RkZnNzN0djczRTRTQlhxUG5temRUUHdRMTNQeVlmZDQ0ejZlMkszdEVQbVRqaVJtLXlJUDdTODR1ZVp3?oc=5",
-      "publishedAt": "2026-09-19T13:30:00Z"
-    },
-    {
-      "id": "f455d43965b65854a7a0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Álvaro López: “We are very proud, we’ve made history”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNEFVSzVHWmxHWHVyMy01Q1FxU0JkdW41UGx2M2pMbmlrb3o5bUNOdG01aEVQdERBVTNEeTZGVUtLRXZ4RDZhYU4wUF9pQ2lSejhscUdmZ0pBN3R5LWtZSWdQOEdRaW42QnNIQjZMNVhyM1hVU09FRDBzTGQ4Sko3UDhVVm55bTZ5Um52SWNWUkdZQmt0bDMzbDhOazZuS0xBNFZQN3Y5T0tiLWxsUUxWTXNZbVlxWWVxQWJlN2dhTUR6N0hrOGRKVGllWTlhSTZFbndxLXJXLWlCS2lnN1lSX0p1Yw?oc=5",
-      "publishedAt": "2026-09-19T13:25:00Z"
     }
   ],
-  "updatedAt": "2026-09-20T19:14:33Z",
+  "updatedAt": "2026-09-20T21:33:31Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
