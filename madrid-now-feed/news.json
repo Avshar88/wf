@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "9789ad02c7818feb95fc",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Atletico ride derby storm to beat 10-man Real Madrid 2-1",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRW51c2Njb1p0eEpuRnA2REVWblZzRzBlY2dPZWMtQjFTYno3RDVSLW9yWUh0OVJDNVJjX2gwQTFYUDFaY2FIRHhvaWllbVRXNUJBMkdEdnhGTzR6TlRZSFNFVnJVdFh4WDNMTGtYRmZSRGZ3bzlxS1NuXzhDaVFDYW15cUJWQXl2NlcyVi1XTU0wSUVxalZfWjhTbTBleVZQS2ZyS3RR?oc=5",
+      "publishedAt": "2026-09-20T16:29:57Z"
+    },
+    {
       "id": "3585fa0a034ae0a247fa",
       "category": "Matchday",
       "time": "NEW",
@@ -9,7 +19,7 @@
       "summary": "New video update from Real Madrid's official YouTube channel.",
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=CoidTkQh36I",
-      "publishedAt": "2026-09-20T12:55:11Z"
+      "publishedAt": "2026-09-20T16:27:31Z"
     },
     {
       "id": "f754a8f0dd73725a3902",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNjRvdU9oNzZzdm9kSGVMM0xvdjV4cVZDX0p6SnVUTGZFNGtwWnc3aFZSUHdUQXJ3Mk1wVUdDWjl5OE54WDFHSnUzZFRrS0FLWkswaEc5dFQ0SXJocnhIbFBmSWJEWkdSYXl4Y3BMTThSMnB6RnpiNDgxb3l2RUpjTlZ5eXJsWm5QX0J2aHo1bXZQS3Nld2dQdTk0bTlzMy1hLURhQ2NJY1NHZWVfd0t5b21qbmNtQV9Lcjk0d0FhbHlwQ0VHOEE?oc=5",
       "publishedAt": "2026-09-19T07:14:00Z"
-    },
-    {
-      "id": "c6a90c800c056717aaff",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Olympiacos-Real Madrid: Going for the EuroLeague Super Cup",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU3lrODB5WW9NdHgwTWwzdElPU1VRM2R1OTY2U0xQVEszcHdTajB6aTRjOFJQNThZSUpYam1rbWctWkl4M0NVX3ZMYk9PNjJDVVJQTjV4eWtIUUxwSW92RlYzZkNtX0xPSW8yVDVDc1RLYm53SHBvQW40RkMyd2hmLXp4VTJPQjNmMVJWZXNuczNXeFlOQktVOTRjM2NCdzZLUzItWHU5Z0lpUHVuVkVqOVViZWJ4dW02MlJrWE1INTlwSzN4ckFlaHBDYVA?oc=5",
-      "publishedAt": "2026-09-19T07:00:00Z"
     }
   ],
-  "updatedAt": "2026-09-20T13:41:33Z",
+  "updatedAt": "2026-09-20T16:58:09Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
