@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "3585fa0a034ae0a247fa",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Atlético de Madrid vs Real Madrid | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=CoidTkQh36I",
+      "publishedAt": "2026-09-20T12:55:11Z"
+    },
+    {
+      "id": "f754a8f0dd73725a3902",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎯 That #Kaka precision 🆚 Atlético de Madrid #RealMadrid #AtletiRealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=3oRCZBZdYOE",
+      "publishedAt": "2026-09-20T11:45:12Z"
+    },
+    {
+      "id": "24319476e881a1411910",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Derby day needs no introduction. #realmadrid #derby",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=efCr9nC0Rn4",
+      "publishedAt": "2026-09-20T09:38:35Z"
+    },
+    {
       "id": "066f3ee1b57c96633cda",
       "category": "Matchday",
       "time": "NEW",
@@ -10,6 +40,16 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=gH-CUSlRw4Q",
       "publishedAt": "2026-09-20T08:44:45Z"
+    },
+    {
+      "id": "c3d01cba89edbb2c88c9",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's starting lineup against Atlético",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3ppN2hLZE5RdXo0b2l1SnF6ckJpZmYtOTBKa1ozYm45TlkyOG9xcVdfcFB0V2JSalo1S1FjYUpkaURYSEFxNWtHQTNHUnVOQjMzUkdjR0RpUTlRSEV2c29kY3lqUkExYzFkSjV5TFlJZmxzdjlKZlRDdEpEYzNPSG04V2x6OHlCU05BNXU3TGJxRklHUjBFUWhUM0NHdTl2MHY0ZUlSOGRWaF8yQ1V0YVFRQWVZZUpDeTU1WVZWa1FydE9z?oc=5",
+      "publishedAt": "2026-09-20T07:38:00Z"
     },
     {
       "id": "78b156850591be583ddd",
@@ -260,49 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU3lrODB5WW9NdHgwTWwzdElPU1VRM2R1OTY2U0xQVEszcHdTajB6aTRjOFJQNThZSUpYam1rbWctWkl4M0NVX3ZMYk9PNjJDVVJQTjV4eWtIUUxwSW92RlYzZkNtX0xPSW8yVDVDc1RLYm53SHBvQW40RkMyd2hmLXp4VTJPQjNmMVJWZXNuczNXeFlOQktVOTRjM2NCdzZLUzItWHU5Z0lpUHVuVkVqOVViZWJ4dW02MlJrWE1INTlwSzN4ckFlaHBDYVA?oc=5",
       "publishedAt": "2026-09-19T07:00:00Z"
-    },
-    {
-      "id": "ab96d9745bb15b57a140",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Laso: “My team’s been magnificent in both games”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcF94a0JLblc5Y1ZpSTBhVzJRSGpSYXEyYWppMC1mWXk5dGZFQkRuZXFyRTdHTDZrZ2lEWUZFZjBaTXUzaGlJRDJrdE83SEpGdnVMMzFYcFFGLUxHYVJyNWZxclBWS2VoMG1KNHdmcWhwUmI4NElOb0c2dEYzVTI1ZWVxdUY5OV9HcHVPTHdaa0UzRHRFc0dWVVdXd2trVVJFTjAwVEZHTDBVRW9IOU11bU5qR1pKNVhp?oc=5",
-      "publishedAt": "2026-09-19T02:06:57Z"
-    },
-    {
-      "id": "233a17ce810141d270a4",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Mbappe leaves Nike, signs with On as Swiss sportswear maker forays into soccer",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEplMVM4YWswdDhOamVlXzZYS0d5dzFaVUZNSHJxdHE4cTd5c2s1Yjc0N2pkVkU5N0hhV2N4TGxFa0FiV3RHQUdVMG15NUFsRjFwRV9qSFFPcmtOVGpfM3ZkS2ZyUHJnMG8waHJ1NW9Qb0FNeDJXSDU5dnNRMURFcG1CazM3Y0FZZS1YVkowcllmZHdXRkFGNElsc2NoaDd2emc?oc=5",
-      "publishedAt": "2026-09-18T21:57:58Z"
-    },
-    {
-      "id": "8ce02868d1925dd50d81",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Mbappe leaves Nike, signs with On as Swiss sportswear maker forays into soccer - reuters.com",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEplMVM4YWswdDhOamVlXzZYS0d5dzFaVUZNSHJxdHE4cTd5c2s1Yjc0N2pkVkU5N0hhV2N4TGxFa0FiV3RHQUdVMG15NUFsRjFwRV9qSFFPcmtOVGpfM3ZkS2ZyUHJnMG8waHJ1NW9Qb0FNeDJXSDU5dnNRMURFcG1CazM3Y0FZZS1YVkowcllmZHdXRkFGNElsc2NoaDd2emc?oc=5",
-      "publishedAt": "2026-09-18T21:57:58Z"
-    },
-    {
-      "id": "91c1acd53470780e2c5d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Tavares: \"The key was continuing to believe until the end\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNThDM21rTlpEZmY3Xzlfa056a01xdThsSk5mYm9SMkFXNk5JYmlMYklsM1ZLNXRjT1ExWG1POXEzbzRVVVQwekxaWVRFc1dwTlFFUnBYUUpZVW8wczhEMk9fZWpQS3pQb2dNeWxRUTliZ1M2MEhlcUxkRUV6THFEX2NxRVZmWHp4akNYRjZHMmhySmFvVUxvb0dOekZ5aEhqOXdrNmNJQ2FzRVZ1NjZuMnUxVUVXMWJOYW9OQUFnNlVadFRENTlRWmc4REhXeWs?oc=5",
-      "publishedAt": "2026-09-18T19:30:00Z"
     }
   ],
-  "updatedAt": "2026-09-20T09:42:03Z",
+  "updatedAt": "2026-09-20T13:41:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
