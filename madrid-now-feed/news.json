@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "1641abcbb9da69b9db4c",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad for the match against PSG",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVmZlR3V2TlJWOG1Ec0tRUVczQkFSdjZaU1pManluLS1BVXBiaE5OR3JOQnhLeUNFZXpoVkNMQ0EwN2FqcThlNzI0eTlsSW9VR095UmZSdDdld3FQUzY4VkVaV1lhVDN6YVdpd0tWd2dNLXVENFFkcHhwd3B6VjNGRkxvWGZtb2stVG9xSV9NYUk0YUhya2g4a3FESzY3Q1ZKSm1KWm05R3Jka2ZSb1NHNmtONm5seUh3aFJKQXZvazREdw?oc=5",
+      "publishedAt": "2026-09-22T14:29:44Z"
+    },
+    {
+      "id": "85a0aff1f09b2fd7d706",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Schedules of madridistas called up to their national teams",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ1QzMVVIRGo3RkJMTzY0Q3NTSHhCb2NSeDZ5QW5FZUdwa0g0aWpuM25FVk9JeEJxUi05SjdrcmtHaVFfVmQxekdmUGFIY2UtSkdTNXFoT2Ywa2RuOC1iUUFSV3dFNGdPWkx5WkFFRGtUTFBHRWNPTW5ja1dyeDJpSWhJT1FSQ1NEX0RZcHFxdXhPT2g5TFhQUWdiZlVuQ2pPN3Niekx1RnZrTTc5NjlpVHJFcEpuQl80NDllbXRDVEZnTWZfSmlVY2xJNXBSN0tVZXhrQXFB?oc=5",
+      "publishedAt": "2026-09-22T14:23:59Z"
+    },
+    {
+      "id": "479c27ffbed0da3ae924",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Valverde has sprained ankle, say Real Madrid",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRVZJbmVQa0RRc2ZVZWVZa3BoY3VqdncwZzVnb2FPdV9xZFNkekdYZ0RaSDl2aUp5SWVfUjRYaXpMdEVwa0lsNnU3UEhZTzhaX1E5QXJsc0JKcjBNVExXVzRlOF9tU1JiLW5WbGNGUFU0RDBubmtfcDRLeFdTOHdDOHVhYzNYaW9Cc1Z6NVJtcmVVRmt2OUdfRg?oc=5",
+      "publishedAt": "2026-09-22T11:00:42Z"
+    },
+    {
+      "id": "e60ccf61a963d4562c05",
+      "category": "Official",
+      "time": "NEW",
+      "title": "New medical report on Valverde",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVllZZ3c2YWRuSkp5TXphZ3o5dTR4TGNnWW44Wl9Id2VnbEN5NlhObmFIcXRZLXdtUDVENjE0cW5ONTM2bnc4NnFSUjNoU2g4ak9TQ1hQcVQ2YUNVaVdpT0Znc1NxQnp5alBxNnlXVk04bElIT0NqaE44T0lFN0xCcUhWOFBNb01ra0RVTnIxeEU4ZXJjWU5NTS0zaXJ6NVhrMHN3MDB5WDlFLXNoM0JPa0JZelNsdw?oc=5",
+      "publishedAt": "2026-09-22T10:01:00Z"
+    },
+    {
       "id": "5451fedc999e041dbb22",
       "category": "Matchday",
       "time": "NEW",
@@ -32,20 +72,20 @@
       "publishedAt": "2026-09-21T17:15:44Z"
     },
     {
-      "id": "a44a65cb72d87f83d504",
+      "id": "148f26a68606331b6c25",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
+      "title": "Web oficial del Real Madrid CF",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FVnJGQmNTWVR1cTZwcHpDbTBVTThJcHdmRHI4bHZGdTN6ckhCSW1fLUZVVjg0S055ZEhJeTF3SHVYQzFwQk9FMUpWY3c1d2ViS1VTQTFzcllPbXBQX3p1dFNLbWtIZFJWYjVWZ2FveElYMks4?oc=5",
       "publishedAt": "2026-09-21T15:50:12Z"
     },
     {
-      "id": "148f26a68606331b6c25",
+      "id": "a44a65cb72d87f83d504",
       "category": "Official",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
+      "title": "Web oficial del Real Madrid CF - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FVnJGQmNTWVR1cTZwcHpDbTBVTThJcHdmRHI4bHZGdTN6ckhCSW1fLUZVVjg0S055ZEhJeTF3SHVYQzFwQk9FMUpWY3c1d2ViS1VTQTFzcllPbXBQX3p1dFNLbWtIZFJWYjVWZ2FveElYMks4?oc=5",
@@ -82,20 +122,20 @@
       "publishedAt": "2026-09-21T13:00:56Z"
     },
     {
-      "id": "7a1f9887415cee4d6fdb",
+      "id": "6cf391ddcfd82997be7d",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid CF official website - realmadrid.com",
+      "title": "Real Madrid CF official website",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pdTVkNTRDNmtaQ3I2LXo3amY2NXQxQ2lFd0dtNzQ3RGRvd05TNjUzUW1BeUdNVzJmU1F3MG9IYnNVTHowS0h2TUh3RXZzbEstNDQ2UER5U3QwRmFiRkpz?oc=5",
       "publishedAt": "2026-09-21T02:04:22Z"
     },
     {
-      "id": "6cf391ddcfd82997be7d",
+      "id": "7a1f9887415cee4d6fdb",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid CF official website",
+      "title": "Real Madrid CF official website - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pdTVkNTRDNmtaQ3I2LXo3amY2NXQxQ2lFd0dtNzQ3RGRvd05TNjUzUW1BeUdNVzJmU1F3MG9IYnNVTHowS0h2TUh3RXZzbEstNDQ2UER5U3QwRmFiRkpz?oc=5",
@@ -152,20 +192,20 @@
       "publishedAt": "2026-09-20T17:59:34Z"
     },
     {
-      "id": "5249c32a900f0631bec8",
+      "id": "11d04ef3ac9866125953",
       "category": "Official",
       "time": "NEW",
-      "title": "Medical Report on Valverde - realmadrid.com",
+      "title": "Medical Report on Valverde",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRRNWxjcnI0UGdYNlYxMlZieFpMZFd4SzZRUVBuejVmMThIU1BFOXdnM3Iyd0w4MEhvcXBrUUNXUnJ2d2RQcWNCdllBT3FWUjlwcnIxcFRZcC02LVRkNlNhM09tX2FfOTZFQk0wV3dCMzN3ZlpBYWJSTUUxZTFVQnl3ajVUTHMyeXNFb3dJWjhxWFdRY3I4Y2JSY0lnNXBnTjVmM0RVQk1wLXloTWc?oc=5",
       "publishedAt": "2026-09-20T17:59:00Z"
     },
     {
-      "id": "11d04ef3ac9866125953",
+      "id": "5249c32a900f0631bec8",
       "category": "Official",
       "time": "NEW",
-      "title": "Medical Report on Valverde",
+      "title": "Medical Report on Valverde - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRRNWxjcnI0UGdYNlYxMlZieFpMZFd4SzZRUVBuejVmMThIU1BFOXdnM3Iyd0w4MEhvcXBrUUNXUnJ2d2RQcWNCdllBT3FWUjlwcnIxcFRZcC02LVRkNlNhM09tX2FfOTZFQk0wV3dCMzN3ZlpBYWJSTUUxZTFVQnl3ajVUTHMyeXNFb3dJWjhxWFdRY3I4Y2JSY0lnNXBnTjVmM0RVQk1wLXloTWc?oc=5",
@@ -182,20 +222,20 @@
       "publishedAt": "2026-09-20T17:39:43Z"
     },
     {
-      "id": "65f79902198b3e6dc8d7",
+      "id": "4ca54db31e6dd711d657",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid begins the EuroLeague this Thursday - realmadrid.com",
+      "title": "Real Madrid begins the EuroLeague this Thursday",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3l3a0t1WkwxR2gtRHpCVkZYQmFGR3FXbGNWandRUktqT2JJZVJTRlhad0FLLWxDVHozS1BIeDlhN0FxdUEycDBBWUw1QmZVTXZCNVlnR2Z5VktWTy1HNnJuZmtPZ0EtNlk3Q1I3N0dTWnA0amFaNng4NWNUUUVrZERrdW9jVnpsX3hHNGlKRXpmUG1iUE9fbmFlM0FzZnJ5cVk1bUNBY21hZF9Rb3VOTGRSVEYyd1hXeThIRGFlbTQyaEpH?oc=5",
       "publishedAt": "2026-09-20T17:39:00Z"
     },
     {
-      "id": "4ca54db31e6dd711d657",
+      "id": "65f79902198b3e6dc8d7",
       "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid begins the EuroLeague this Thursday",
+      "title": "Real Madrid begins the EuroLeague this Thursday - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3l3a0t1WkwxR2gtRHpCVkZYQmFGR3FXbGNWandRUktqT2JJZVJTRlhad0FLLWxDVHozS1BIeDlhN0FxdUEycDBBWUw1QmZVTXZCNVlnR2Z5VktWTy1HNnJuZmtPZ0EtNlk3Q1I3N0dTWnA0amFaNng4NWNUUUVrZERrdW9jVnpsX3hHNGlKRXpmUG1iUE9fbmFlM0FzZnJ5cVk1bUNBY21hZF9Rb3VOTGRSVEYyd1hXeThIRGFlbTQyaEpH?oc=5",
@@ -260,49 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmJrcDRqOVcxR1F1VTJlMVpfSmk1TUU2QndlamYyZXNTa2VCczZ5ajFKWDBvRlNWSXlwUkt5VDRqV3ZrY3hXMmROSVJNTU5iNklqQ1BFVi1SNXJoazlXSGk1dGQ0VF9mLU1GaTR4bjBaYXpGZ2dzN0F6aHp2aTk2UlBMR0dJckZzQWJDa0hGeTNyNXc?oc=5",
       "publishedAt": "2026-09-20T07:42:00Z"
-    },
-    {
-      "id": "e5e1087987c2aca9af03",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid's starting lineup against Atlético - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3ppN2hLZE5RdXo0b2l1SnF6ckJpZmYtOTBKa1ozYm45TlkyOG9xcVdfcFB0V2JSalo1S1FjYUpkaURYSEFxNWtHQTNHUnVOQjMzUkdjR0RpUTlRSEV2c29kY3lqUkExYzFkSjV5TFlJZmxzdjlKZlRDdEpEYzNPSG04V2x6OHlCU05BNXU3TGJxRklHUjBFUWhUM0NHdTl2MHY0ZUlSOGRWaF8yQ1V0YVFRQWVZZUpDeTU1WVZWa1FydE9z?oc=5",
-      "publishedAt": "2026-09-20T07:38:00Z"
-    },
-    {
-      "id": "c3d01cba89edbb2c88c9",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid's starting lineup against Atlético",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3ppN2hLZE5RdXo0b2l1SnF6ckJpZmYtOTBKa1ozYm45TlkyOG9xcVdfcFB0V2JSalo1S1FjYUpkaURYSEFxNWtHQTNHUnVOQjMzUkdjR0RpUTlRSEV2c29kY3lqUkExYzFkSjV5TFlJZmxzdjlKZlRDdEpEYzNPSG04V2x6OHlCU05BNXU3TGJxRklHUjBFUWhUM0NHdTl2MHY0ZUlSOGRWaF8yQ1V0YVFRQWVZZUpDeTU1WVZWa1FydE9z?oc=5",
-      "publishedAt": "2026-09-20T07:38:00Z"
-    },
-    {
-      "id": "719f86267b6d70263844",
-      "category": "Official",
-      "time": "NEW",
-      "title": "A dreadful refereeing performance decides the derby",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTFotdnVkUTc0WkU1ZGk3dUFCLUl2Z2JfMmloZ09SZ1FEYWFhWi16dmRISUR4c0pDUHpOblYycDFCYUx6TnJSMVBNODFjeTdpMEhWTU9XcVE1cHQ5ZmxwQThqVEZ3SzYzZGhiM1VIeDdEWXFFVmVjT3dwb0RpY3JpSXVKZUE0OS1yb3J6MUdndnlncFVjaXRtS1IxdzB5T0VUcFYxX2ZJVF8?oc=5",
-      "publishedAt": "2026-09-20T07:35:00Z"
-    },
-    {
-      "id": "78b156850591be583ddd",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Victory against Valencia",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOejIwOHVrX29NeFlCUEVUU3RRdU56dnNjVTFuWWt5LUZDRmdoaEZ3Uzc4aUJEYkN3YVRaR2diM1pUQm5tdk5tSGNtaF9wT0lKaHBNUnVDZ3d5aFdFTGU3ckd4ZS1qdG8yVTc4MWF2WXljbExCNVN5c2xOUDNhaXlneWhQN2JpODNnRjVxNlB1T0Vmb1NocTJlYUhwLU1HYnVGWkprNmZzTWNUV2dqWjdtckxkSVlaYkhWR3hhdVo3R2M?oc=5",
-      "publishedAt": "2026-09-19T20:30:45Z"
     }
   ],
-  "updatedAt": "2026-09-22T10:08:04Z",
+  "updatedAt": "2026-09-22T14:46:07Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
