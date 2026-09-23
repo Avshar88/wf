@@ -2,24 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "edbf8bcf7b4a1b71ab44",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Reaction: Caruso calls on Real Madrid to be 'more clinical'",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRU9KODBkMVRqc2FtWEdyOE5HODkzcDZGWEpIam1fQlZNSkZ2ZXNYc2pqZzM1TllrVW1ZWUZheXpwVHc4OEJWRFFidEhsUjJfUDN0aEh4LTJvM2REcThVZjBHNDNaeFJMenVvbV9BSjRyNExsaHVLZ1A4c2t0V2ZrVHc2YzVpVFFMQ2VUQS03dG1Cd3doYnJ6blM0RXFDbl9GMjhuYy1JUk92cjlZQy1UeXBIUF9zQUMtQ0FwdDExUWNjNW40MkFMNDEzaHhlcWtna245eUdHN005aXM?oc=5",
-      "publishedAt": "2026-09-22T22:38:14Z"
-    },
-    {
-      "id": "1b9e8d5cc398c0880fd1",
+      "id": "2f5ff4141885d21cf242",
       "category": "Official",
       "time": "NEW",
       "title": "73 years since Di Stéfano's debut with Real Madrid - realmadrid.com",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUnd6SEIwbDFPa1VrUE1WcXMtelEwZm8xeGYxdjktR0JLTkFDam95bE9PUWZzNFlBTzZjbTJXY3l0RjlhVmlzVDhJakFnM2JxQW1yWUVWN3pSdVo5aGh0dXE4NjN2NVhpUDhmZ0o0TG5MSTlRbmtFU2RsdFhZbkFVVFV2cUNIeVlFUmEwZFc2QUZjMTBWR2VUOURQSEFJSG1md3VaWG9xUjc0MTlMcFpoM3daY0psQ1JxVUF5b0xwZDRkdHhfcUE?oc=5",
-      "publishedAt": "2026-09-22T22:05:25Z"
+      "publishedAt": "2026-09-23T04:02:12Z"
+    },
+    {
+      "id": "43cc786f19ce70239bb7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Reaction: Caruso calls on Real Madrid to be 'more clinical'",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRU9KODBkMVRqc2FtWEdyOE5HODkzcDZGWEpIam1fQlZNSkZ2ZXNYc2pqZzM1TllrVW1ZWUZheXpwVHc4OEJWRFFidEhsUjJfUDN0aEh4LTJvM2REcThVZjBHNDNaeFJMenVvbV9BSjRyNExsaHVLZ1A4c2t0V2ZrVHc2YzVpVFFMQ2VUQS03dG1Cd3doYnJ6blM0RXFDbl9GMjhuYy1JUk92cjlZQy1UeXBIUF9zQUMtQ0FwdDExUWNjNW40MkFMNDEzaHhlcWtna245eUdHN005aXM?oc=5",
+      "publishedAt": "2026-09-23T02:56:14Z"
     },
     {
       "id": "d190fc89203d04f0da39",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-20T17:39:00Z"
     }
   ],
-  "updatedAt": "2026-09-23T01:44:53Z",
+  "updatedAt": "2026-09-23T06:41:31Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
