@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "9b9d70e7b09dae032d4a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Medical report on Konaté",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEd6cnIwSzVkM0txTVVMS3pwd0g0N2ZQZlJadHZKODBUcC04Q2FLbFpGS3BnMHdfcDJlZkc5Wk9zYmtFUTZyME1fWDlMRmFSTFBmbTFSVTdNUDhfX1VfYVNBb2V6aldZeEF6SVR0em5qY2k5SXBJN0EyRU4wcGgwM2phTkNmY0hSOEo4SEhELTR6elhwOWJBM2QwU1V0RkRPb2t0NVItX21XRms?oc=5",
+      "publishedAt": "2026-09-24T15:56:00Z"
+    },
+    {
+      "id": "237300aba5c66453fb06",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Schedules for madridistas called up to their national teams",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ1QzMVVIRGo3RkJMTzY0Q3NTSHhCb2NSeDZ5QW5FZUdwa0g0aWpuM25FVk9JeEJxUi05SjdrcmtHaVFfVmQxekdmUGFIY2UtSkdTNXFoT2Ywa2RuOC1iUUFSV3dFNGdPWkx5WkFFRGtUTFBHRWNPTW5ja1dyeDJpSWhJT1FSQ1NEX0RZcHFxdXhPT2g5TFhQUWdiZlVuQ2pPN3Niekx1RnZrTTc5NjlpVHJFcEpuQl80NDllbXRDVEZnTWZfSmlVY2xJNXBSN0tVZXhrQXFB?oc=5",
+      "publishedAt": "2026-09-24T11:58:23Z"
+    },
+    {
+      "id": "60d782a39fe04cfb4c18",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Defeat in the EuroLeague opener",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1dHdTJ3ZnNjc2tJTzNHQnZrb1lWNmhWS0lHOU9uN1ZyZmt0Si1SUmQ2NHVycy1nV244UENNVHJXRS13RmlwdHhqeVI0cWhMZXNaZjF3UXVMN0k1Nno0R1RWNEhOc0M1VFREbXRyNktWZGYyVjV6eVhfZDdpWHVPMEhmbUExbEVSMEc1RnIwMks0bnRGc3ZTSmJCUlZlc200Nmc?oc=5",
+      "publishedAt": "2026-09-24T09:13:00Z"
+    },
+    {
+      "id": "61ef92270d1c5b79bad6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Pedro Martínez: “We didn’t have control in the final minutes”",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQmdVNENMZ19qcjl3M1BzTHJZU29LRDh6NVZ2Nk1JZ250Ull3bUY4SXdoZ29POEdrTWhMdVlZTmdJUUt6WUtHVHphdElGcVkyWTdNLXY5SHdpMkcyTUI1a0JCZWctODk2RFhBUFU0M3pCdXEzX2l5aGpMcFpqS2dQbFBVM1c2bkp4OHVKRlZUaUdyRnZwTVlaSlVEaWtVb0U?oc=5",
+      "publishedAt": "2026-09-24T09:11:00Z"
+    },
+    {
       "id": "9e14e012e2bc77f67708",
       "category": "Reported",
       "time": "NEW",
@@ -260,49 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQmJYbWdaU3dod2ozWjRBNEFYMXNya0hCejMyejdIdFpkS2M2QUttLUpUNjI5Sk9vRmNKWW1VckVSdVRtMDZrRWJ2YnFJSnVUdHBOUWJrYVVFQ0V5R2JLN0NVUzAwQ2J3WHhqSDV3Qms0N1Y3QlZkenhKdmhjNnNzUFRuMktmbHk0SVJDVThRdHFJX1htU2xscjlKVGlPR0JNeC1nWGo4aDZybDFlX09pSkwwNE1PQW8?oc=5",
       "publishedAt": "2026-09-21T15:20:00Z"
-    },
-    {
-      "id": "c48b0d1a505d23d2de6f",
-      "category": "Official",
-      "time": "NEW",
-      "title": "The Super Cup champion prepares for their EuroLeague debut",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObkRvMGhFYjJyMWdxMTQ1ZmRWRE50RmNiNU5kdVZCR2YyQUQ5RGpYdzFOdC1aVWVLQjFrR29LNFNaM1pGSUVOX01LUnlOVm9idTFrUFdpa0RReDBUX0ZrWTkzdGtaSzBERDEzM1lITV8yUjZ3QUNucEpSeUhpNkhtRjJwQU5oWlJQaDdhLVU5Z2lNRlF2V2hxX1c5ZDg3YWtMNGlnZExoOVk4amFjaG42blVBLVdVX296RnRlempoNG9ObUpkb0ZueU01Qzc3YUdJcWc?oc=5",
-      "publishedAt": "2026-09-21T13:13:00Z"
-    },
-    {
-      "id": "4f440d333d4a092b7614",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Pau Quesada: \"The Champions League begins against a great opponent, with our fans, and the team is very motivated\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZW9TbDRnNHBNQUlqd2hkbHRJczM4dkZ5U28wVVl4Q2NQcjZYeHRJU01fZG1fUVJVWmFjcWdmWVVCZkxMU0NzYm82RjJNXzNfdXpSaXhxeEZOR0NRRlpRanRkTHFubnJlQThCU1pLbXh2SXNGVmU1alRNUEptUEtiQWZQLTg3enVFLUVFcEJqeTZmT1ZGeEtSTzNnSGNzNHc?oc=5",
-      "publishedAt": "2026-09-21T13:00:56Z"
-    },
-    {
-      "id": "6cf391ddcfd82997be7d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid CF official website",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pdTVkNTRDNmtaQ3I2LXo3amY2NXQxQ2lFd0dtNzQ3RGRvd05TNjUzUW1BeUdNVzJmU1F3MG9IYnNVTHowS0h2TUh3RXZzbEstNDQ2UER5U3QwRmFiRkpz?oc=5",
-      "publishedAt": "2026-09-21T02:04:22Z"
-    },
-    {
-      "id": "7a1f9887415cee4d6fdb",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid CF official website - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pdTVkNTRDNmtaQ3I2LXo3amY2NXQxQ2lFd0dtNzQ3RGRvd05TNjUzUW1BeUdNVzJmU1F3MG9IYnNVTHowS0h2TUh3RXZzbEstNDQ2UER5U3QwRmFiRkpz?oc=5",
-      "publishedAt": "2026-09-21T02:04:22Z"
     }
   ],
-  "updatedAt": "2026-09-24T15:09:03Z",
+  "updatedAt": "2026-09-24T19:05:15Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
