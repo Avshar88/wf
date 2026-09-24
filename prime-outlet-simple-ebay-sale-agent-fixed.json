@@ -51,6 +51,36 @@
               "name": "saleDurationDays",
               "value": 7,
               "type": "number"
+            },
+            {
+              "id": "fee",
+              "name": "ebayFeeRate",
+              "value": 0.1325,
+              "type": "number"
+            },
+            {
+              "id": "orderfee",
+              "name": "ebayPerOrderFee",
+              "value": 0.4,
+              "type": "number"
+            },
+            {
+              "id": "label",
+              "name": "shippingLabelCost",
+              "value": 0,
+              "type": "number"
+            },
+            {
+              "id": "minmargin",
+              "name": "minMarginPct",
+              "value": 25,
+              "type": "number"
+            },
+            {
+              "id": "minnet",
+              "name": "minNetProfit",
+              "value": 1,
+              "type": "number"
             }
           ]
         },
@@ -142,7 +172,7 @@
         "sendBody": true,
         "contentType": "json",
         "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ requests:[{ addSheet:{ properties:{ title:$('Config').first().json.saleSheetName, gridProperties:{ rowCount:1000, columnCount:7 } } } }] }) }}",
+        "jsonBody": "={{ JSON.stringify({ requests:[{ addSheet:{ properties:{ title:$('Config').first().json.saleSheetName, gridProperties:{ rowCount:1000, columnCount:11 } } } }] }) }}",
         "options": {}
       },
       "id": "createtab",
@@ -163,13 +193,13 @@
     {
       "parameters": {
         "method": "PUT",
-        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:G1?valueInputOption=USER_ENTERED' }}",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:K1?valueInputOption=USER_ENTERED' }}",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleSheetsOAuth2Api",
         "sendBody": true,
         "contentType": "json",
         "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ majorDimension:'ROWS', values:[['SKU','Title','Our Price','Exact Market Median','Suggested Sale','Net after Cost','Decision']] }) }}",
+        "jsonBody": "={{ JSON.stringify({ majorDimension:'ROWS', values:[['Item ID','SKU','Title','Our Price','Exact Market Median','Suggested Sale','Net Profit','Margin %','Min Price','Decision','Note']] }) }}",
         "options": {}
       },
       "id": "headers",
@@ -177,7 +207,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        1420,
+        1660,
         300
       ],
       "credentials": {
@@ -189,7 +219,7 @@
     },
     {
       "parameters": {
-        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:G1000?valueRenderOption=FORMULA' }}",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:K1000?valueRenderOption=FORMULA' }}",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleSheetsOAuth2Api",
         "options": {}
@@ -199,7 +229,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        1660,
+        1420,
         300
       ],
       "credentials": {
@@ -266,7 +296,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const selected=$('Select Active Listings').all();\nconst responses=$input.all();\nconst oldValues=($('Read Existing Sale Agent').first().json.values||[]);\nconst oldHeaders=(oldValues[0]||[]).map(v=>String(v??'').trim());\nfunction oldObj(row){const o={};oldHeaders.forEach((h,i)=>o[h]=row[i]??'');return o;}\nfunction t(v){return v===null||v===undefined?'':String(v).trim();}\nfunction num(v){const x=Number(v);return Number.isFinite(x)?x:null;}\nfunction money(v){return Math.round((Number(v||0)+Number.EPSILON)*100)/100;}\nfunction parseItemId(titleCell){\n  const m=String(titleCell||'').match(/\\/itm\\/(\\d+)/);\n  return m?m[1]:'';\n}\nconst oldMap={};\nfor(let i=1;i<oldValues.length;i++){\n  const r=oldObj(oldValues[i]);\n  const itemId=parseItemId(r.Title);\n  const suggestion=t(r['Suggested Sale']);\n  if(itemId && suggestion){\n    oldMap[itemId+'|'+suggestion]=t(r.Decision).toUpperCase();\n  }\n}\nconst cost=Number($('Config').first().json.productCost||3);\nconst rows=[];\nconst generatedAt=new Date().toISOString();\nlet audited=0,insufficient=0,notAboveMarket=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  if(!body.ok || !body.audit){insufficient++;continue;}\n  audited++;\n  const audit=body.audit;\n  const data=audit.data||audit.DATA||{};\n  const market=audit.market||audit.MARKET||{};\n  const exact=Number(market.exactCompetitorCount||0);\n  const median=num(market.medianComparableBuyerTotal);\n  const ownTotal=num(market.ourBuyerTotal);\n  let shipping=num(data.shipping);\n  if(shipping===null && ownTotal!==null) shipping=money(Math.max(0,ownTotal-src.currentPrice));\n  if(exact<2 || median===null){insufficient++;continue;}\n  const targetItem=money(Math.max(0.99,median-(shipping||0)));\n  if(src.currentPrice<=targetItem*1.03){notAboveMarket++;continue;}\n  const needed=((src.currentPrice-targetItem)/src.currentPrice)*100;\n  let discount=Math.round(needed/5)*5;\n  discount=Math.max(5,Math.min(15,discount));\n  const salePrice=money(src.currentPrice*(1-discount/100));\n  const afterCost=money(salePrice-cost);\n  if(afterCost<1) continue;\n  const suggestion=discount+'% → $'+salePrice.toFixed(2);\n  const key=src.itemId+'|'+suggestion;\n  const oldDecision=oldMap[key]||'';\n  const decision=['APPROVE','SKIP','DONE','FAILED'].includes(oldDecision)?oldDecision:'';\n  const safeTitle=(src.title||src.sku||src.itemId).replace(/\"/g,'\"\"');\n  const safeUrl=String(src.ebayUrl||('https://www.ebay.com/itm/'+src.itemId)).replace(/\"/g,'');\n  const titleFormula='=HYPERLINK(\"'+safeUrl+'\",\"'+safeTitle+'\")';\n  rows.push([\n    src.sku,\n    titleFormula,\n    src.currentPrice,\n    median,\n    suggestion,\n    afterCost,\n    decision\n  ]);\n}\nreturn [{json:{rows,rowCount:rows.length,audited,insufficient,notAboveMarket,generatedAt}}];"
+        "jsCode": "const cfg=$('Config').first().json;\nconst selected=$('Select Active Listings').all();\nconst responses=$input.all();\nconst HEADERS=['Item ID','SKU','Title','Our Price','Exact Market Median','Suggested Sale','Net Profit','Margin %','Min Price','Decision','Note'];\nconst oldValues=($('Read Existing Sale Agent').first().json.values||[]);\nconst oldHeaders=(oldValues[0]||[]).map(v=>String(v??'').trim());\nfunction oldObj(row){const o={};oldHeaders.forEach((h,i)=>o[h]=row[i]??'');return o;}\nfunction t(v){return v===null||v===undefined?'':String(v).trim();}\nfunction num(v){if(v===null||v===undefined||v==='')return null;const x=Number(v);return Number.isFinite(x)?x:null;}\nfunction money(v){return Math.round((Number(v||0)+Number.EPSILON)*100)/100;}\nfunction ceilMoney(v){return Math.ceil(v*100-1e-9)/100;}\nfunction parseItemId(titleCell){const m=String(titleCell||'').match(/\\/itm\\/(\\d+)/);return m?m[1]:'';}\nfunction parseSale(text){const m=String(text||'').match(/\\$([0-9]+(?:\\.[0-9]+)?)/);return m?Number(m[1]):null;}\n\n// Economics: eBay fees apply to item + shipping charged to buyer\nconst feeRate=Number(cfg.ebayFeeRate??0.1325);\nconst perOrder=Number(cfg.ebayPerOrderFee??0.40);\nconst cost=Number(cfg.productCost??3);\nconst label=Number(cfg.shippingLabelCost??0);\nconst minMargin=Number(cfg.minMarginPct??25)/100;\nconst minNet=Number(cfg.minNetProfit??1);\nfunction econ(sale,ship){const gross=sale+ship;const net=gross-gross*feeRate-perOrder-cost-label;return {net:money(net),margin:gross>0?net/gross:0};}\nfunction floorPrice(ship){\n  const fixed=perOrder+cost+label;\n  const byMargin=(1-feeRate-minMargin)>0?fixed/(1-feeRate-minMargin)-ship:Infinity;\n  const byProfit=(minNet+fixed)/(1-feeRate)-ship;\n  return ceilMoney(Math.max(0.99,byMargin,byProfit));\n}\n\n// Previous decisions keyed by Item ID only (survive price/median changes)\nconst oldMap={};\nfor(let i=1;i<oldValues.length;i++){\n  const r=oldObj(oldValues[i]);\n  const itemId=t(r['Item ID'])||parseItemId(r.Title);\n  if(!itemId) continue;\n  oldMap[itemId]={decision:t(r.Decision).toUpperCase(),suggestion:t(r['Suggested Sale']),obj:r};\n}\n\nconst rows=[];\nconst seen=new Set();\nconst generatedAt=new Date().toISOString();\nlet audited=0,insufficient=0,notAboveMarket=0,marginBlocked=0,recheck=0,stale=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  if(!body.ok || !body.audit){insufficient++;continue;}\n  audited++;\n  const audit=body.audit;\n  const data=audit.data||audit.DATA||{};\n  const market=audit.market||audit.MARKET||{};\n  const exact=Number(market.exactCompetitorCount||0);\n  const median=num(market.medianComparableBuyerTotal);\n  const ownTotal=num(market.ourBuyerTotal);\n  let shipping=num(data.shipping);\n  if(shipping===null && ownTotal!==null) shipping=money(Math.max(0,ownTotal-src.currentPrice));\n  shipping=shipping||0;\n  if(exact<2 || median===null || median<=0){insufficient++;continue;}\n  const targetItem=money(Math.max(0.99,median-shipping));\n  if(src.currentPrice<=targetItem*1.03){notAboveMarket++;continue;}\n  const needed=((src.currentPrice-targetItem)/src.currentPrice)*100;\n  let discount=Math.max(5,Math.min(15,Math.round(needed/5)*5));\n  const floor=floorPrice(shipping);\n  const notes=[];\n  while(discount>=5 && money(src.currentPrice*(1-discount/100))<floor){discount-=5;notes.push('Discount capped by margin');}\n  if(discount<5){marginBlocked++;continue;}\n  const salePrice=money(src.currentPrice*(1-discount/100));\n  const e=econ(salePrice,shipping);\n  const suggestion=discount+'% → $'+salePrice.toFixed(2);\n  const old=oldMap[src.itemId];\n  let decision=old&&['APPROVE','RECHECK','SKIP','DONE','FAILED'].includes(old.decision)?old.decision:'';\n  if(decision==='RECHECK') decision='';\n  if(decision==='APPROVE' && old.suggestion && old.suggestion!==suggestion){\n    const approved=parseSale(old.suggestion);\n    if(approved===null || salePrice<approved){\n      decision='RECHECK';recheck++;\n      notes.push('Deeper than approved ('+old.suggestion+') — type APPROVE again to confirm');\n    }else{\n      notes.push('Repriced up since approval (was '+old.suggestion+')');\n    }\n  }\n  const safeTitle=(src.title||src.sku||src.itemId).replace(/\"/g,'\"\"');\n  const safeUrl=String(src.ebayUrl||('https://www.ebay.com/itm/'+src.itemId)).replace(/\"/g,'');\n  seen.add(src.itemId);\n  rows.push([\n    src.itemId,\n    src.sku,\n    '=HYPERLINK(\"'+safeUrl+'\",\"'+safeTitle+'\")',\n    src.currentPrice,\n    median,\n    suggestion,\n    e.net,\n    Math.round(e.margin*1000)/10,\n    floor,\n    decision,\n    [...new Set(notes)].join('; ')\n  ]);\n}\n\n// Carry over decided rows that were not re-suggested, so nothing disappears silently\nfor(const itemId of Object.keys(oldMap)){\n  if(seen.has(itemId)) continue;\n  const old=oldMap[itemId];\n  let decision=old.decision,note=t(old.obj.Note);\n  if(decision==='APPROVE'||decision==='RECHECK'){\n    decision='STALE';stale++;\n    note='Not suggested this run (price changed, no longer above market, margin, or audit failed). Clear row or wait for a new suggestion.';\n  }else if(decision!=='DONE' && decision!=='FAILED') continue;\n  const row=HEADERS.map(h=>h==='Item ID'?itemId:(old.obj[h]??''));\n  row[HEADERS.indexOf('Decision')]=decision;\n  row[HEADERS.indexOf('Note')]=note;\n  rows.push(row);\n}\nreturn [{json:{rows,rowCount:rows.length,audited,insufficient,notAboveMarket,marginBlocked,recheck,stale,generatedAt}}];"
       },
       "id": "buildrows",
       "name": "Build Simple Sale Rows",
@@ -280,7 +310,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:G1000:clear' }}",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:K1000:clear' }}",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleSheetsOAuth2Api",
         "sendBody": true,
@@ -340,7 +370,7 @@
     {
       "parameters": {
         "method": "PUT",
-        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:G1000?valueInputOption=USER_ENTERED' }}",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:K1000?valueInputOption=USER_ENTERED' }}",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleSheetsOAuth2Api",
         "sendBody": true,
@@ -366,7 +396,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const rows=$('Build Simple Sale Rows').first().json.rows||[];\nconst generatedAt=$('Build Simple Sale Rows').first().json.generatedAt;\nfunction parseItemId(titleCell){\n  const m=String(titleCell||'').match(/\\/itm\\/(\\d+)/);\n  return m?m[1]:'';\n}\nfunction salePrice(text){\n  const m=String(text||'').match(/\\$([0-9]+(?:\\.[0-9]+)?)/);\n  return m?Number(m[1]):null;\n}\nconst out=[];\nfor(let i=0;i<rows.length;i++){\n  const r=rows[i];\n  if(String(r[6]||'').trim().toUpperCase()!=='APPROVE') continue;\n  const itemId=parseItemId(r[1]);\n  const proposed=salePrice(r[4]);\n  if(!itemId || proposed===null) continue;\n  out.push({json:{\n    kind:'approval',\n    rowNumber:i+2,\n    itemId,\n    sku:String(r[0]||''),\n    currentPrice:Number(r[2]),\n    proposedPrice:proposed,\n    analyzedAt:generatedAt\n  }});\n}\nreturn out.length?out:[{json:{kind:'none'}}];"
+        "jsCode": "const rows=$('Build Simple Sale Rows').first().json.rows||[];\nconst generatedAt=$('Build Simple Sale Rows').first().json.generatedAt;\nfunction salePrice(text){\n  const m=String(text||'').match(/\\$([0-9]+(?:\\.[0-9]+)?)/);\n  return m?Number(m[1]):null;\n}\nconst out=[];\nfor(let i=0;i<rows.length;i++){\n  const r=rows[i];\n  if(String(r[9]||'').trim().toUpperCase()!=='APPROVE') continue;\n  const itemId=String(r[0]||'').trim();\n  const proposed=salePrice(r[5]);\n  const floor=Number(r[8]);\n  if(!itemId || proposed===null || !Number.isFinite(floor) || proposed<floor) continue;\n  out.push({json:{\n    kind:'approval',\n    rowNumber:i+2,\n    itemId,\n    sku:String(r[1]||''),\n    currentPrice:Number(r[3]),\n    proposedPrice:proposed,\n    priceFloor:floor,\n    analyzedAt:generatedAt\n  }});\n}\nreturn out.length?out:[{json:{kind:'none'}}];"
       },
       "id": "approvals",
       "name": "Select APPROVE Rows",
@@ -419,7 +449,7 @@
         "sendBody": true,
         "contentType": "json",
         "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ action:'ebay_marketing_markdown_sale', approved:true, runRequested:true, itemId:$json.itemId, sku:$json.sku||'', proposedPrice:$json.proposedPrice, expectedCurrentPrice:$json.currentPrice, priceFloor:$('Config').first().json.productCost, analyzedAt:$json.analyzedAt, durationDays:$('Config').first().json.saleDurationDays }) }}",
+        "jsonBody": "={{ JSON.stringify({ action:'ebay_marketing_markdown_sale', approved:true, runRequested:true, itemId:$json.itemId, sku:$json.sku||'', proposedPrice:$json.proposedPrice, expectedCurrentPrice:$json.currentPrice, priceFloor:$json.priceFloor, analyzedAt:$json.analyzedAt, durationDays:$('Config').first().json.saleDurationDays }) }}",
         "options": {}
       },
       "id": "execute",
@@ -440,7 +470,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const selected=$('Select APPROVE Rows').all().filter(x=>x.json.kind==='approval');\nconst responses=$input.all();\nconst data=[];\nlet done=0,failed=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  const ok=body.ok===true;\n  if(ok) done++; else failed++;\n  data.push({\n    range:\"'\"+$('Config').first().json.saleSheetName+\"'!G\"+src.rowNumber,\n    majorDimension:'ROWS',\n    values:[[ok?'DONE':'FAILED']]\n  });\n}\nreturn [{json:{data,done,failed,attempted:selected.length}}];"
+        "jsCode": "const selected=$('Select APPROVE Rows').all().filter(x=>x.json.kind==='approval');\nconst responses=$input.all();\nconst data=[];\nlet done=0,failed=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  const ok=body.ok===true;\n  if(ok) done++; else failed++;\n  data.push({\n    range:\"'\"+$('Config').first().json.saleSheetName+\"'!J\"+src.rowNumber,\n    majorDimension:'ROWS',\n    values:[[ok?'DONE':'FAILED']]\n  });\n}\nreturn [{json:{data,done,failed,attempted:selected.length}}];"
       },
       "id": "execupdates",
       "name": "Build Execution Status",
@@ -480,7 +510,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const s=$('Build Simple Sale Rows').first().json;\nlet attempted=0,done=0,failed=0;\ntry{\n  const e=$('Build Execution Status').first().json;\n  attempted=Number(e.attempted||0); done=Number(e.done||0); failed=Number(e.failed||0);\n}catch(err){}\nreturn [{json:{\n  ok:true,\n  suggestions:s.rowCount,\n  audited:s.audited,\n  insufficient:s.insufficient,\n  notAboveMarket:s.notAboveMarket,\n  approvalsAttempted:attempted,\n  salesCreated:done,\n  salesFailed:failed\n}}];"
+        "jsCode": "const s=$('Build Simple Sale Rows').first().json;\nlet attempted=0,done=0,failed=0;\ntry{\n  const e=$('Build Execution Status').first().json;\n  attempted=Number(e.attempted||0); done=Number(e.done||0); failed=Number(e.failed||0);\n}catch(err){}\nreturn [{json:{\n  ok:true,\n  suggestions:s.rowCount,\n  audited:s.audited,\n  insufficient:s.insufficient,\n  notAboveMarket:s.notAboveMarket,\n  marginBlocked:s.marginBlocked,\n  needsRecheck:s.recheck,\n  staleApprovals:s.stale,\n  approvalsAttempted:attempted,\n  salesCreated:done,\n  salesFailed:failed\n}}];"
       },
       "id": "summary",
       "name": "Sale Agent Summary",
@@ -541,7 +571,7 @@
       "main": [
         [
           {
-            "node": "Write Simple Headers",
+            "node": "Read Existing Sale Agent",
             "type": "main",
             "index": 0
           }
@@ -552,7 +582,7 @@
       "main": [
         [
           {
-            "node": "Read Existing Sale Agent",
+            "node": "Read eBay Live",
             "type": "main",
             "index": 0
           }
@@ -563,7 +593,7 @@
       "main": [
         [
           {
-            "node": "Read eBay Live",
+            "node": "Write Simple Headers",
             "type": "main",
             "index": 0
           }
@@ -727,7 +757,7 @@
         ],
         [
           {
-            "node": "Write Simple Headers",
+            "node": "Read Existing Sale Agent",
             "type": "main",
             "index": 0
           }
