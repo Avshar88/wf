@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "9e14e012e2bc77f67708",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Lifelong fan Alcaraz 'suffering' as Real Madrid off to a slow start",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUNDMUdLLTJMeC1LNUhjbTV2TG84cy11dkNfeHZEaUtINGotQjJYbTBLMVRvdF9BaVp3NnlnbDBic1NBM1ZqUmJHR2Uzc3g4VXlFQVVFTGQ3QklQQjNySmxid2c5X1g3Q2czX0RzWnNnMnRrNmNFLTBxemNGQk5NaXdkZnZSVXNEY0RGX2lVeDZCQ2t3RU9ORXhHRjdtcE9ZX3Jpbzh0QXFNZUE?oc=5",
+      "publishedAt": "2026-09-24T07:51:11Z"
+    },
+    {
       "id": "13d283971f91128d3cb8",
       "category": "Official",
       "time": "NEW",
@@ -122,6 +132,16 @@
       "publishedAt": "2026-09-22T16:34:09Z"
     },
     {
+      "id": "da5860eb20fd91b4f6ae",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Official Statement",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ1A3eVZNUFdVSU5WUndEeEhWdkQxenZCN1dNUllhT1d3SjV2am9XSWJiWEw1TDRYVHdXcm9TUzVZZ1k4VjVzc01oMWN3RDJCNXREQUZObURYYjBiM05Fa0xNY0J0N1gtanV4anhOdG1NM1lmcXV2UVRrNXUyUWx1dS1RSHZXZUV3c3B0c3VQakp1Y1hPWGMxNFJSTzR0bXBt?oc=5",
+      "publishedAt": "2026-09-22T16:15:00Z"
+    },
+    {
       "id": "d4c8cbc7504276d0ae53",
       "category": "Matchday",
       "time": "NEW",
@@ -140,16 +160,6 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25haDFBamM0ZUFOSlh4cGpsREF2cm5nU201UHZaYmZ1SkR6eG1XOUwxWDNIZUFQd0U1ZFdXdzVOWE9NWC0tZXdFN2gxWFNoYU5lU0tHMmlLRkNpYThCcTRWSThyR0tEMGZkT01aLUxJS1ZiQ082ekdGTzZOU2Z3dVJjbWp5cXlFa25kbk4zeHpsNTFnMUZhOWRhcHpuZ3l4bk5WMzlHYS1Pb3BFWFRseGg3aDc?oc=5",
       "publishedAt": "2026-09-22T16:09:43Z"
-    },
-    {
-      "id": "95028099ffa8b540d3ea",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Official Statement",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeEFUclhCOHhud0N3ZVhXTlB6ZWk0ZHk1dUpZNG42S1laTlVXdFdKV25NUkNpQU1jbjZuSUpfOE9mYThOQ1RuTWgzSDVXa0ZWaF9ja2dMMzlTZmNKOXVHTERfM084REUyR0dTaHJrZENVODFXbFZvYXAzRnVSQWtuWlQzRnR3MmF3dXNlaml2SQ?oc=5",
-      "publishedAt": "2026-09-22T14:49:00Z"
     },
     {
       "id": "479c27ffbed0da3ae924",
@@ -190,6 +200,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVllZZ3c2YWRuSkp5TXphZ3o5dTR4TGNnWW44Wl9Id2VnbEN5NlhObmFIcXRZLXdtUDVENjE0cW5ONTM2bnc4NnFSUjNoU2g4ak9TQ1hQcVQ2YUNVaVdpT0Znc1NxQnp5alBxNnlXVk04bElIT0NqaE44T0lFN0xCcUhWOFBNb01ra0RVTnIxeEU4ZXJjWU5NTS0zaXJ6NVhrMHN3MDB5WDlFLXNoM0JPa0JZelNsdw?oc=5",
       "publishedAt": "2026-09-22T10:01:00Z"
+    },
+    {
+      "id": "eedcc63dcce4db5ad0bf",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Tuesday 22 September 2026 Estadio Alfredo Di Stéfano - Madrid",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XemZvZkM2WThJMHEzXzc5WVNXeEg1UE5vaTAyZzZuOXFSWEstSUxWLUdoOHlnREstTm4wOFY3VldqRDJFbjVpWHhUMXJTSkFxbUhIdFlMbWhGS1dxanA0d1BjWjNadw?oc=5",
+      "publishedAt": "2026-09-22T07:00:00Z"
     },
     {
       "id": "df3cf7a929b1c6c1064a",
@@ -248,7 +268,7 @@
       "title": "The Super Cup champion prepares for their EuroLeague debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNT2RyQUVXQVcwbjRtU0Y5MTNhU2xZcGd3ZUQ0NUtjZDFUc0xzN191OFpOeDJMc0NPVTNBTF82R0c5Q1FUMk5BeEczWFUzVzZiZkFqTnJiYlRKSnJnN1ZMTUQwS3c4Sjd1ZEh1RDBXbHJwb2JrTEkwOUtSd1dKUl9fM09aZ080cW9vYlFWVG9Bak9TdzFaN2lZeG15aTE2UDVTWnFYeWVMMDh4Yk9yWnRoX1RyUVU1dnN5b3kzUlltTjBYTk1LakFRYm1BM2ZtQUxqRTg4dVpGMjBkRnQyVnRTOTkwbEtab1NrT1cxZ19GaDVGN3Z3OGZUSlVIZHB5Y3ZNVnRuaFduT2szZ3UtMkE?oc=5",
+      "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObkRvMGhFYjJyMWdxMTQ1ZmRWRE50RmNiNU5kdVZCR2YyQUQ5RGpYdzFOdC1aVWVLQjFrR29LNFNaM1pGSUVOX01LUnlOVm9idTFrUFdpa0RReDBUX0ZrWTkzdGtaSzBERDEzM1lITV8yUjZ3QUNucEpSeUhpNkhtRjJwQU5oWlJQaDdhLVU5Z2lNRlF2V2hxX1c5ZDg3YWtMNGlnZExoOVk4amFjaG42blVBLVdVX296RnRlempoNG9ObUpkb0ZueU01Qzc3YUdJcWc?oc=5",
       "publishedAt": "2026-09-21T13:13:00Z"
     },
     {
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pdTVkNTRDNmtaQ3I2LXo3amY2NXQxQ2lFd0dtNzQ3RGRvd05TNjUzUW1BeUdNVzJmU1F3MG9IYnNVTHowS0h2TUh3RXZzbEstNDQ2UER5U3QwRmFiRkpz?oc=5",
       "publishedAt": "2026-09-21T02:04:22Z"
-    },
-    {
-      "id": "bc7337d3ce8881e8a4a4",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "HIGHLIGHTS | Atlético de Madrid 2-1 Real Madrid | LaLiga #AtletiRealMadrid #LaLigaHighlights",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=8aI8S-WxHg4",
-      "publishedAt": "2026-09-20T21:03:59Z"
-    },
-    {
-      "id": "0499041556a2cfa97775",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "HIGHLIGHTS | Atlético de Madrid 2-1 Real Madrid | LaLiga",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=pDoKer6yJFU",
-      "publishedAt": "2026-09-20T21:01:25Z"
     }
   ],
-  "updatedAt": "2026-09-23T22:29:14Z",
+  "updatedAt": "2026-09-24T10:16:34Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
