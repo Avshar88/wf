@@ -1,0 +1,743 @@
+{
+  "name": "Prime Outlet — Simple eBay Sale Agent",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "primary",
+              "name": "primarySpreadsheetId",
+              "value": "1uyacRk7Nh2V_vwPQLqST-oyZ5Q0GPJzjNKbAWBGCNk8",
+              "type": "string"
+            },
+            {
+              "id": "control",
+              "name": "controlSpreadsheetId",
+              "value": "1c02lLx4b2M6YiooTcQTK5ZqnewT47mCJ-MAZbLpZTmw",
+              "type": "string"
+            },
+            {
+              "id": "sheet",
+              "name": "saleSheetName",
+              "value": "Sale Agent",
+              "type": "string"
+            },
+            {
+              "id": "max",
+              "name": "maxAuditItems",
+              "value": 20,
+              "type": "number"
+            },
+            {
+              "id": "cost",
+              "name": "productCost",
+              "value": 3,
+              "type": "number"
+            },
+            {
+              "id": "duration",
+              "name": "saleDurationDays",
+              "value": 7,
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "config",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $json.controlSpreadsheetId + '?fields=sheets.properties' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "options": {}
+      },
+      "id": "tabs",
+      "name": "Check Spreadsheet Tabs",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const title=$('Config').first().json.saleSheetName;\nconst sheets=$input.first().json.sheets||[];\nconst found=sheets.find(s=>String((s.properties||{}).title||'')===title);\nreturn [{json:{needsCreate:!found,sheetId:found ? found.properties.sheetId : null}}];"
+      },
+      "id": "checktab",
+      "name": "Need Sale Agent Tab?",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        700,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "needs-create",
+              "leftValue": "={{ $json.needsCreate }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "ifcreate",
+      "name": "Tab Missing?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        940,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + ':batchUpdate' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ requests:[{ addSheet:{ properties:{ title:$('Config').first().json.saleSheetName, gridProperties:{ rowCount:1000, columnCount:7 } } } }] }) }}",
+        "options": {}
+      },
+      "id": "createtab",
+      "name": "Create Sale Agent Tab",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1180,
+        220
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:G1?valueInputOption=USER_ENTERED' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ majorDimension:'ROWS', values:[['SKU','Title','Our Price','Exact Market Median','Suggested Sale','Net after Cost','Decision']] }) }}",
+        "options": {}
+      },
+      "id": "headers",
+      "name": "Write Simple Headers",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1420,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:G1000?valueRenderOption=FORMULA' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "options": {}
+      },
+      "id": "oldrows",
+      "name": "Read Existing Sale Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1660,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.primarySpreadsheetId + '/values/%27eBay%20Live%27!A1:Q1000?valueRenderOption=UNFORMATTED_VALUE' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "options": {}
+      },
+      "id": "live",
+      "name": "Read eBay Live",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1900,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const values=$input.first().json.values||[];\nif(values.length<2) return [];\nconst headers=values[0].map(v=>String(v??'').trim());\nconst max=Math.max(1,Math.min(50,Number($('Config').first().json.maxAuditItems||20)));\nfunction obj(row){const o={};headers.forEach((h,i)=>o[h]=row[i]??'');return o;}\nfunction t(v){return v===null||v===undefined?'':String(v).trim();}\nfunction n(v){const x=Number(v);return Number.isFinite(x)?x:null;}\nconst out=[];\nfor(let i=1;i<values.length;i++){\n  const r=obj(values[i]);\n  const itemId=t(r['Item ID']);\n  const qty=n(r['Available Qty']);\n  const price=n(r.Price);\n  if(!itemId || qty===null || qty<=0 || price===null || price<=0) continue;\n  out.push({json:{\n    itemId,\n    sku:t(r.SKU),\n    title:t(r.Title),\n    ebayUrl:t(r['eBay URL'])||('https://www.ebay.com/itm/'+itemId),\n    currentPrice:price\n  }});\n  if(out.length>=max) break;\n}\nreturn out;"
+      },
+      "id": "select",
+      "name": "Select Active Listings",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2140,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.N8N_EBAY_AUDIT_WEB_APP_URL }}",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ action:'ebay_listing_audit', itemId:$json.itemId, sku:$json.sku||'', sharedSecret:$env.N8N_EBAY_AUDIT_SHARED_SECRET }) }}",
+        "options": {}
+      },
+      "id": "audit",
+      "name": "Exact Market Audit",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2380,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const selected=$('Select Active Listings').all();\nconst responses=$input.all();\nconst oldValues=($('Read Existing Sale Agent').first().json.values||[]);\nconst oldHeaders=(oldValues[0]||[]).map(v=>String(v??'').trim());\nfunction oldObj(row){const o={};oldHeaders.forEach((h,i)=>o[h]=row[i]??'');return o;}\nfunction t(v){return v===null||v===undefined?'':String(v).trim();}\nfunction num(v){const x=Number(v);return Number.isFinite(x)?x:null;}\nfunction money(v){return Math.round((Number(v||0)+Number.EPSILON)*100)/100;}\nfunction parseItemId(titleCell){\n  const m=String(titleCell||'').match(/\\/itm\\/(\\d+)/);\n  return m?m[1]:'';\n}\nconst oldMap={};\nfor(let i=1;i<oldValues.length;i++){\n  const r=oldObj(oldValues[i]);\n  const itemId=parseItemId(r.Title);\n  const suggestion=t(r['Suggested Sale']);\n  if(itemId && suggestion){\n    oldMap[itemId+'|'+suggestion]=t(r.Decision).toUpperCase();\n  }\n}\nconst cost=Number($('Config').first().json.productCost||3);\nconst rows=[];\nconst generatedAt=new Date().toISOString();\nlet audited=0,insufficient=0,notAboveMarket=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  if(!body.ok || !body.audit){insufficient++;continue;}\n  audited++;\n  const audit=body.audit;\n  const data=audit.data||audit.DATA||{};\n  const market=audit.market||audit.MARKET||{};\n  const exact=Number(market.exactCompetitorCount||0);\n  const median=num(market.medianComparableBuyerTotal);\n  const ownTotal=num(market.ourBuyerTotal);\n  let shipping=num(data.shipping);\n  if(shipping===null && ownTotal!==null) shipping=money(Math.max(0,ownTotal-src.currentPrice));\n  if(exact<2 || median===null){insufficient++;continue;}\n  const targetItem=money(Math.max(0.99,median-(shipping||0)));\n  if(src.currentPrice<=targetItem*1.03){notAboveMarket++;continue;}\n  const needed=((src.currentPrice-targetItem)/src.currentPrice)*100;\n  let discount=Math.round(needed/5)*5;\n  discount=Math.max(5,Math.min(15,discount));\n  const salePrice=money(src.currentPrice*(1-discount/100));\n  const afterCost=money(salePrice-cost);\n  if(afterCost<1) continue;\n  const suggestion=discount+'% → $'+salePrice.toFixed(2);\n  const key=src.itemId+'|'+suggestion;\n  const oldDecision=oldMap[key]||'';\n  const decision=['APPROVE','SKIP','DONE','FAILED'].includes(oldDecision)?oldDecision:'';\n  const safeTitle=(src.title||src.sku||src.itemId).replace(/\"/g,'\"\"');\n  const safeUrl=String(src.ebayUrl||('https://www.ebay.com/itm/'+src.itemId)).replace(/\"/g,'');\n  const titleFormula='=HYPERLINK(\"'+safeUrl+'\",\"'+safeTitle+'\")';\n  rows.push([\n    src.sku,\n    titleFormula,\n    src.currentPrice,\n    median,\n    suggestion,\n    afterCost,\n    decision\n  ]);\n}\nreturn [{json:{rows,rowCount:rows.length,audited,insufficient,notAboveMarket,generatedAt}}];"
+      },
+      "id": "buildrows",
+      "name": "Build Simple Sale Rows",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2620,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:G1000:clear' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({}) }}",
+        "options": {}
+      },
+      "id": "clear",
+      "name": "Clear Old Sale Rows",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2860,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "has-suggestions",
+              "leftValue": "={{ $('Build Simple Sale Rows').first().json.rowCount }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "ifsuggestions",
+      "name": "Has Sale Suggestions?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A2:G1000?valueInputOption=USER_ENTERED' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ majorDimension:'ROWS', values:$('Build Simple Sale Rows').first().json.rows }) }}",
+        "options": {}
+      },
+      "id": "writerows",
+      "name": "Write Sale Suggestions",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3340,
+        220
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const rows=$('Build Simple Sale Rows').first().json.rows||[];\nconst generatedAt=$('Build Simple Sale Rows').first().json.generatedAt;\nfunction parseItemId(titleCell){\n  const m=String(titleCell||'').match(/\\/itm\\/(\\d+)/);\n  return m?m[1]:'';\n}\nfunction salePrice(text){\n  const m=String(text||'').match(/\\$([0-9]+(?:\\.[0-9]+)?)/);\n  return m?Number(m[1]):null;\n}\nconst out=[];\nfor(let i=0;i<rows.length;i++){\n  const r=rows[i];\n  if(String(r[6]||'').trim().toUpperCase()!=='APPROVE') continue;\n  const itemId=parseItemId(r[1]);\n  const proposed=salePrice(r[4]);\n  if(!itemId || proposed===null) continue;\n  out.push({json:{\n    kind:'approval',\n    rowNumber:i+2,\n    itemId,\n    sku:String(r[0]||''),\n    currentPrice:Number(r[2]),\n    proposedPrice:proposed,\n    analyzedAt:generatedAt\n  }});\n}\nreturn out.length?out:[{json:{kind:'none'}}];"
+      },
+      "id": "approvals",
+      "name": "Select APPROVE Rows",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3580,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "has-approval",
+              "leftValue": "={{ $json.kind }}",
+              "rightValue": "approval",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "ifapprove",
+      "name": "Has APPROVE?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3820,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://script.google.com/macros/s/AKfycbz1ygOuqE9bczo-q-3UtQNhSs8rGJp0Vi6KdJyk3N9f2nm-MYexJnH4l0dMgIlZdVXw/exec",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ action:'ebay_marketing_markdown_sale', approved:true, runRequested:true, itemId:$json.itemId, sku:$json.sku||'', proposedPrice:$json.proposedPrice, expectedCurrentPrice:$json.currentPrice, priceFloor:$('Config').first().json.productCost, analyzedAt:$json.analyzedAt, durationDays:$('Config').first().json.saleDurationDays }) }}",
+        "options": {}
+      },
+      "id": "execute",
+      "name": "Execute APPROVED Sale Event",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4060,
+        220
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "poWriteQuery2026",
+          "name": "Prime Outlet eBay Write Query Auth"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const selected=$('Select APPROVE Rows').all().filter(x=>x.json.kind==='approval');\nconst responses=$input.all();\nconst data=[];\nlet done=0,failed=0;\nfor(let i=0;i<selected.length;i++){\n  const src=selected[i].json;\n  const body=(responses[i]&&responses[i].json)||{};\n  const ok=body.ok===true;\n  if(ok) done++; else failed++;\n  data.push({\n    range:\"'\"+$('Config').first().json.saleSheetName+\"'!G\"+src.rowNumber,\n    majorDimension:'ROWS',\n    values:[[ok?'DONE':'FAILED']]\n  });\n}\nreturn [{json:{data,done,failed,attempted:selected.length}}];"
+      },
+      "id": "execupdates",
+      "name": "Build Execution Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        4300,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values:batchUpdate' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ valueInputOption:'USER_ENTERED', data:$json.data }) }}",
+        "options": {}
+      },
+      "id": "markstatus",
+      "name": "Mark DONE / FAILED",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4540,
+        220
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const s=$('Build Simple Sale Rows').first().json;\nlet attempted=0,done=0,failed=0;\ntry{\n  const e=$('Build Execution Status').first().json;\n  attempted=Number(e.attempted||0); done=Number(e.done||0); failed=Number(e.failed||0);\n}catch(err){}\nreturn [{json:{\n  ok:true,\n  suggestions:s.rowCount,\n  audited:s.audited,\n  insufficient:s.insufficient,\n  notAboveMarket:s.notAboveMarket,\n  approvalsAttempted:attempted,\n  salesCreated:done,\n  salesFailed:failed\n}}];"
+      },
+      "id": "summary",
+      "name": "Sale Agent Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        4780,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Check Spreadsheet Tabs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Spreadsheet Tabs": {
+      "main": [
+        [
+          {
+            "node": "Need Sale Agent Tab?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Need Sale Agent Tab?": {
+      "main": [
+        [
+          {
+            "node": "Tab Missing?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Sale Agent Tab": {
+      "main": [
+        [
+          {
+            "node": "Write Simple Headers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Simple Headers": {
+      "main": [
+        [
+          {
+            "node": "Read Existing Sale Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Existing Sale Agent": {
+      "main": [
+        [
+          {
+            "node": "Read eBay Live",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read eBay Live": {
+      "main": [
+        [
+          {
+            "node": "Select Active Listings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Select Active Listings": {
+      "main": [
+        [
+          {
+            "node": "Exact Market Audit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Exact Market Audit": {
+      "main": [
+        [
+          {
+            "node": "Build Simple Sale Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Simple Sale Rows": {
+      "main": [
+        [
+          {
+            "node": "Clear Old Sale Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clear Old Sale Rows": {
+      "main": [
+        [
+          {
+            "node": "Has Sale Suggestions?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Sale Suggestions?": {
+      "main": [
+        [
+          {
+            "node": "Write Sale Suggestions",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Select APPROVE Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Sale Suggestions": {
+      "main": [
+        [
+          {
+            "node": "Select APPROVE Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Select APPROVE Rows": {
+      "main": [
+        [
+          {
+            "node": "Has APPROVE?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has APPROVE?": {
+      "main": [
+        [
+          {
+            "node": "Execute APPROVED Sale Event",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sale Agent Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute APPROVED Sale Event": {
+      "main": [
+        [
+          {
+            "node": "Build Execution Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Execution Status": {
+      "main": [
+        [
+          {
+            "node": "Mark DONE / FAILED",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mark DONE / FAILED": {
+      "main": [
+        [
+          {
+            "node": "Sale Agent Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tab Missing?": {
+      "main": [
+        [
+          {
+            "node": "Create Sale Agent Tab",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Write Simple Headers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "1"
+}
