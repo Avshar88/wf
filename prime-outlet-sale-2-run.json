@@ -1,0 +1,391 @@
+{
+  "name": "Prime Outlet — Sale Agent 2: RUN Approved",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "prime-outlet-sale-run",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "7a9ad0b4-683e-5234-92c3-6f354c377bfe",
+      "name": "Run Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "a77a31eb-3df8-5abe-aed5-ac22957eef12"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "control",
+              "name": "controlSpreadsheetId",
+              "value": "1c02lLx4b2M6YiooTcQTK5ZqnewT47mCJ-MAZbLpZTmw",
+              "type": "string"
+            },
+            {
+              "id": "sheet",
+              "name": "saleSheetName",
+              "value": "Sale Agent",
+              "type": "string"
+            },
+            {
+              "id": "duration",
+              "name": "saleDurationDays",
+              "value": 7,
+              "type": "number"
+            },
+            {
+              "id": "hooksecret",
+              "name": "webhookSecret",
+              "value": "CHANGE_ME_SAME_AS_APPS_SCRIPT",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e1ee28e2-d89d-5960-b286-eee74160055d",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Webhook calls must carry the shared secret; manual runs skip this check\nconst cfg=$input.first().json;\nlet body;\ntry{ body=$('Run Webhook').first().json.body; }catch(e){ body=undefined; }\nif(body!==undefined && String((body||{}).secret||'')!==String(cfg.webhookSecret||'')){\n  throw new Error('Wrong or missing secret');\n}\nreturn [{json:cfg}];"
+      },
+      "id": "18102dff-b75d-54c6-84f0-2794f1cda8b4",
+      "name": "Check Secret",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values/%27' + encodeURIComponent($('Config').first().json.saleSheetName) + '%27!A1:L1000?valueRenderOption=UNFORMATTED_VALUE' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "options": {}
+      },
+      "id": "0471e9e5-ab4e-529e-889e-71fd16bb52c7",
+      "name": "Read Sale Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        300
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const COL={title:0,price:1,median:2,offer:3,net:4,margin:5,decision:6,status:7,itemId:8,sku:9,floor:10,sale:11};\nfunction t(v){return v===null||v===undefined?'':String(v).trim();}\nfunction num(v){if(v===null||v===undefined||v==='')return null;const x=Number(v);return Number.isFinite(x)?x:null;}\nfunction normDecision(v){const s=t(v).toUpperCase();if(['ԱՅՈ','YES','Y','APPROVE'].includes(s))return 'YES';if(['ՈՉ','NO','N','SKIP'].includes(s))return 'NO';return '';}\nfunction isDone(s){return t(s).startsWith('✅');}\nconst values=$input.first().json.values||[];\nif(t((values[0]||[])[COL.itemId])!=='Item ID') throw new Error('Sale Agent tab is not in the expected layout. Run \"Refresh\" first.');\nconst valid=[],invalid=[];\nfor(let i=1;i<values.length;i++){\n  const r=values[i]||[];\n  if(normDecision(r[COL.decision])!=='YES' || isDone(r[COL.status])) continue;\n  const rowNumber=i+1;\n  const itemId=t(r[COL.itemId]);\n  const sale=num(r[COL.sale]);\n  const floor=num(r[COL.floor]);\n  const price=num(r[COL.price]);\n  if(!itemId || sale===null || price===null){invalid.push({rowNumber,reason:'Տողում տվյալ չկա, թարմացրու առաջարկները'});continue;}\n  if(floor===null || sale<floor){invalid.push({rowNumber,reason:'Գինը ցածր է Min Price-ից'});continue;}\n  valid.push({kind:'approval',rowNumber,itemId,sku:t(r[COL.sku]),currentPrice:price,proposedPrice:sale,priceFloor:floor});\n}\nconst analyzedAt=new Date().toISOString();\nif(!valid.length) return [{json:{kind:'none',invalid}}];\nreturn valid.map(v=>({json:{...v,analyzedAt,invalid}}));"
+      },
+      "id": "81f2e833-33a6-5fad-8ee1-d7a7c813b22f",
+      "name": "Select Approved",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Has Approved?",
+              "leftValue": "={{ $json.kind }}",
+              "rightValue": "approval",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "539fa268-ed6c-5122-bcd4-3d97a4c09b22",
+      "name": "Has Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://script.google.com/macros/s/AKfycbz1ygOuqE9bczo-q-3UtQNhSs8rGJp0Vi6KdJyk3N9f2nm-MYexJnH4l0dMgIlZdVXw/exec",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ action:'ebay_marketing_markdown_sale', approved:true, runRequested:true, itemId:$json.itemId, sku:$json.sku||'', proposedPrice:$json.proposedPrice, expectedCurrentPrice:$json.currentPrice, priceFloor:$json.priceFloor, analyzedAt:$json.analyzedAt, durationDays:$('Config').first().json.saleDurationDays }) }}",
+        "options": {}
+      },
+      "id": "execute",
+      "name": "Execute APPROVED Sale Event",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        220
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "poWriteQuery2026",
+          "name": "Prime Outlet eBay Write Query Auth"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const cfg=$('Config').first().json;\nconst selected=$('Select Approved').all().map(x=>x.json);\nconst approvals=selected.filter(x=>x.kind==='approval');\nlet responses=[];\ntry{ responses=$('Execute APPROVED Sale Event').all(); }catch(e){}\nconst today=new Date().toISOString().slice(0,10);\nconst sheet=\"'\"+cfg.saleSheetName+\"'\";\nfunction errText(b){\n  const e=b.error||b.message||b.reason||'';\n  const s=typeof e==='string'?e:(e.message||JSON.stringify(e));\n  return (s||'անհայտ սխալ').slice(0,150);\n}\nconst data=[];\nconst results=[];\nlet done=0,failed=0;\napprovals.forEach((a,i)=>{\n  const b=(responses[i]&&responses[i].json)||{};\n  const ok=b.ok===true;\n  if(ok) done++; else failed++;\n  const status=ok?'✅ Ստեղծված '+today:'❌ Սխալ — '+errText(b);\n  data.push({range:sheet+'!H'+a.rowNumber,majorDimension:'ROWS',values:[[status]]});\n  results.push({row:a.rowNumber,itemId:a.itemId,ok});\n});\nfor(const inv of (selected[0]&&selected[0].invalid)||[]){\n  failed++;\n  data.push({range:sheet+'!H'+inv.rowNumber,majorDimension:'ROWS',values:[['❌ '+inv.reason]]});\n}\nreturn [{json:{data,hasUpdates:data.length>0,attempted:approvals.length,done,failed,results}}];"
+      },
+      "id": "a8991ea8-b0c9-5e47-8149-31b57d183aeb",
+      "name": "Build Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Has Updates?",
+              "leftValue": "={{ $json.hasUpdates }}",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "16174773-5352-511d-8e3a-d4a1c4b72273",
+      "name": "Has Updates?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1760,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ 'https://sheets.googleapis.com/v4/spreadsheets/' + $('Config').first().json.controlSpreadsheetId + '/values:batchUpdate' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleSheetsOAuth2Api",
+        "options": {},
+        "sendBody": true,
+        "contentType": "json",
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ valueInputOption:'USER_ENTERED', data:$json.data }) }}"
+      },
+      "id": "2610ee02-c4c9-5b17-a1c7-627a6ce16988",
+      "name": "Write Status",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1980,
+        220
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ ok:true, attempted:$('Build Status').first().json.attempted, done:$('Build Status').first().json.done, failed:$('Build Status').first().json.failed }) }}",
+        "options": {}
+      },
+      "id": "5cbe4e16-de29-54c8-b54b-1b1ba01a5c87",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        2200,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Run Webhook": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Check Secret",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Secret": {
+      "main": [
+        [
+          {
+            "node": "Read Sale Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Sale Agent": {
+      "main": [
+        [
+          {
+            "node": "Select Approved",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Select Approved": {
+      "main": [
+        [
+          {
+            "node": "Has Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Approved?": {
+      "main": [
+        [
+          {
+            "node": "Execute APPROVED Sale Event",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Build Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute APPROVED Sale Event": {
+      "main": [
+        [
+          {
+            "node": "Build Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Status": {
+      "main": [
+        [
+          {
+            "node": "Has Updates?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Updates?": {
+      "main": [
+        [
+          {
+            "node": "Write Status",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Status": {
+      "main": [
+        [
+          {
+            "node": "Respond",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "1"
+}
