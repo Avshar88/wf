@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "410ab43aa0577454fde3",
+      "id": "ad41b730585403e54f9a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "0-1: Mbappé scores in France's victory over Turkey",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX3hORFF2R3dtR0NRYzJ2cl96M2RRSVlUVkRoakYxSnd5aG1HLWlRNjlieVpHMWhRTmluTXRkRTNMRUtPU2ZZLVBsY3MzbGprcHpTZ3FJU28tLXBSYzJNUmJkd1VBZlh5QnA0MVVCdDQ1VUsyNFh4bXR3aFRmbzZseUUtQldld0s1cGVuN2RWYXJqLTdpNlJ0b2NOSlBXVTFzcUlOd2s0ZXh1T3lxaWFfcDFrSWZZTl9kd2Qw?oc=5",
+      "publishedAt": "2026-09-25T20:22:00Z"
+    },
+    {
+      "id": "6b5238e46fad7a851917",
       "category": "Official",
       "time": "NEW",
       "title": "Victory in the first game of the U League",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGJFY3JJZEsxaHJHSzRWRmpsT1l1OFJXM1BkRExEZkV0bGpFWElkOEk4M2l3MVI4aVBjWXFmeHEtRWFSNXhrVkY3X0U1Wmhyd2dvSmpzTnhhUXFickltVVhkV1VLdlRfTU1fdlQxWVJEUjVSa3hYakFtOWZVdjV4ajQ1U2l6M0VEYlI4Q05FQmlBNjh2MjJWWTE4VUpQS1ZvV2pPUUxxZmJ0dEwyR3BpcWtmLVVnWXpG?oc=5",
-      "publishedAt": "2026-09-25T18:55:48Z"
+      "publishedAt": "2026-09-25T19:00:42Z"
     },
     {
       "id": "b3a40bb07ea09db3e387",
@@ -290,19 +300,9 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25haDFBamM0ZUFOSlh4cGpsREF2cm5nU201UHZaYmZ1SkR6eG1XOUwxWDNIZUFQd0U1ZFdXdzVOWE9NWC0tZXdFN2gxWFNoYU5lU0tHMmlLRkNpYThCcTRWSThyR0tEMGZkT01aLUxJS1ZiQ082ekdGTzZOU2Z3dVJjbWp5cXlFa25kbk4zeHpsNTFnMUZhOWRhcHpuZ3l4bk5WMzlHYS1Pb3BFWFRseGg3aDc?oc=5",
       "publishedAt": "2026-09-22T16:09:43Z"
-    },
-    {
-      "id": "24cc66d29c7ef43d5e17",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid call for new LaLiga president following Tebas statements - reuters.com",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25haDFBamM0ZUFOSlh4cGpsREF2cm5nU201UHZaYmZ1SkR6eG1XOUwxWDNIZUFQd0U1ZFdXdzVOWE9NWC0tZXdFN2gxWFNoYU5lU0tHMmlLRkNpYThCcTRWSThyR0tEMGZkT01aLUxJS1ZiQ082ekdGTzZOU2Z3dVJjbWp5cXlFa25kbk4zeHpsNTFnMUZhOWRhcHpuZ3l4bk5WMzlHYS1Pb3BFWFRseGg3aDc?oc=5",
-      "publishedAt": "2026-09-22T16:09:43Z"
     }
   ],
-  "updatedAt": "2026-09-25T19:15:32Z",
+  "updatedAt": "2026-09-25T22:22:02Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
