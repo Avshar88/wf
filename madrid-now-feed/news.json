@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "6b3f5a1fcec1aa2cf5bb",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGF6eVFxZ1Fia2ZGWFJVZXVvMlpmZGRwSG9TLUF4dGNmRk1rellRaTVLb1dFdUstOFd5amx2eUtiaDNSci00VC12eWdaRFIzM2ZtMWlIckxsOFRmOFg0blV1WkJjS0hUZWF5VTBtNklvWDVNM25aTmpJcXpGekk5VUJ5RVRUWGNQZEtkdThWbTJSWkxqUzdMOXJKNjQ2cnZJSG02Ri15R2laMUU?oc=5",
+      "publishedAt": "2026-09-26T18:05:43Z"
+    },
+    {
       "id": "48101d1784d145c49603",
       "category": "Official",
       "time": "NEW",
@@ -40,6 +50,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUFFOENIa0dIbnFLWFNvd1lsaWN4MUo3Z2FZcUMybDZkb1ZvbGV6OTJsZWxYTlY2SlpMdGZyVFZ0ZTdoQWg2UFlYdkJFWGhhU1Q0NjlEemhNVlBVc2QtVFZWY2I2XzFyTlkzVU93WnVRQTNFVGZETlZRdTFxUFZNMVJqd0lRVF9VVURmZFFOYXRqc0FsaEtzVEFtZW1oaVRGdEwwMWRGRzZkdw?oc=5",
       "publishedAt": "2026-09-26T09:15:00Z"
+    },
+    {
+      "id": "83eb8c6beb53d00b31f1",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "France's Mbappe out of Nations League squad with knee injury",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcmhfWjd6eVp2cnJEaWVLZWk0TUFJX2ZvSDZnSGZyajdFZ3BjNVIzYmx5eWIwZWhmX3RDUXRDT3pPZXBPZEtIU1ZTazhPMnNPd2d5Ui1KV0JJVWNQNzVWYjJZVG9SZ0RQWThRaENNc1I0ajhFMC1YNnRFaTFfa0ZPeTFVNG9Gclh3Z2VFOG50NENteDZybjY4ZU0xWTljVk53aHozMkQ5OXpteXpXdGpma09vVGM?oc=5",
+      "publishedAt": "2026-09-25T21:43:46Z"
     },
     {
       "id": "ad41b730585403e54f9a",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUnd6SEIwbDFPa1VrUE1WcXMtelEwZm8xeGYxdjktR0JLTkFDam95bE9PUWZzNFlBTzZjbTJXY3l0RjlhVmlzVDhJakFnM2JxQW1yWUVWN3pSdVo5aGh0dXE4NjN2NVhpUDhmZ0o0TG5MSTlRbmtFU2RsdFhZbkFVVFV2cUNIeVlFUmEwZFc2QUZjMTBWR2VUOURQSEFJSG1md3VaWG9xUjc0MTlMcFpoM3daY0psQ1JxVUF5b0xwZDRkdHhfcUE?oc=5",
       "publishedAt": "2026-09-23T08:36:00Z"
-    },
-    {
-      "id": "2f5ff4141885d21cf242",
-      "category": "Official",
-      "time": "NEW",
-      "title": "73 years since Di Stéfano's debut with Real Madrid - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUnd6SEIwbDFPa1VrUE1WcXMtelEwZm8xeGYxdjktR0JLTkFDam95bE9PUWZzNFlBTzZjbTJXY3l0RjlhVmlzVDhJakFnM2JxQW1yWUVWN3pSdVo5aGh0dXE4NjN2NVhpUDhmZ0o0TG5MSTlRbmtFU2RsdFhZbkFVVFV2cUNIeVlFUmEwZFc2QUZjMTBWR2VUOURQSEFJSG1md3VaWG9xUjc0MTlMcFpoM3daY0psQ1JxVUF5b0xwZDRkdHhfcUE?oc=5",
-      "publishedAt": "2026-09-23T04:02:12Z"
-    },
-    {
-      "id": "e3a8442b862f50d9c8cc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Reaction: Caruso calls on Real Madrid to be 'more clinical'",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSlNYOGpHcU91VWhUVnNxZi1pNzFLeDJLNlZMWmx3QjNWdUtRV2JiT3VCemNteEtnd3lTUUcxcHhDVHlvMmJYZ2dzQUtlbUcyQjBUQm1jandPLXVKcUluYkF3RkcwNGVjN0tlT1F3aWc1MXpuNFNnUFAtYjBPcHZnSWFoRzF1M2dPamxqSGlpOFRpT3RLV2ZFYmwtSzRWc24wNjg5dVJsVmdKVTF3TjZVTTRkdmxxLUx0aU9XQVNyVmxmQkdILUxhakdJX3E?oc=5",
-      "publishedAt": "2026-09-23T03:46:06Z"
     }
   ],
-  "updatedAt": "2026-09-26T17:45:54Z",
+  "updatedAt": "2026-09-26T20:09:19Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
