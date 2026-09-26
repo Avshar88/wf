@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "605a579eb9a267d80d09",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Unicaja: The League kicks off",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLXZpMHF3Q0Fwcm9RVFlDSG5tcnlHdUdOZGFDeFozWmpNSG96Q1NZNTJlNW5JUDlnMlpBM2FzWFkzeEtxM1pYY1QzaTlmaFIxN2QzekIzb2tQczI4NjZxVGFWLUg2UUhweXowbW9NTURBSFlnekhyYjZqLWVHcURjNmJhaWJTdDlSMmhTUzBIM19hOVdfNk1rNlFVTQ?oc=5",
+      "publishedAt": "2026-09-26T22:12:23Z"
+    },
+    {
+      "id": "e7ad9fce3b8dac64422a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "2-3: Spain triumphs over England at Wembley",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNlA1bmNkTm82MU1uU25YWmdXeWp5eE92SW9meWdyVGVOZ3dkb1B1WTdxazk0NUk1am8tYlUtY2JfbXAwbTVVakNxYVJmWi1uSUk1X0pLVEhMcWhMWl9RYlV4TDludlE0RF9qUEtiN2tVb1prSUFmNTRaVXBSSERoQXNYR2JtLUtzZ2FaNWVOQ250QkZOV1l0YmFHOHBPX1RtaGRaMUU2aFBqaGdQQ25HY2pBNU9hMWFqSmE4QlhB?oc=5",
+      "publishedAt": "2026-09-26T19:36:00Z"
+    },
+    {
       "id": "6b3f5a1fcec1aa2cf5bb",
       "category": "Reported",
       "time": "NEW",
@@ -242,16 +262,6 @@
       "publishedAt": "2026-09-24T07:51:11Z"
     },
     {
-      "id": "54c0a5b43b0b7c33b491",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1E2b1hPOVp0dWtFSGZQNnZIMTJHWVg1Z0JDeGxMMHM0cERNSU9FT09kWVpyUE5YaUZSUFo3REhhVE5oNEw3d3JKUG0yZWFWUXNOWG5VNHZLTm9nRmRDemt5YldmNndDSy16aVhKS2FMZnptQlQ5MFpnMmVvS3dCRUVOWEpuQktveXBWQmQ3VHBndw?oc=5",
-      "publishedAt": "2026-09-23T23:31:37Z"
-    },
-    {
       "id": "13d283971f91128d3cb8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLXM5STlraURMdEg3bVU2T3dNZjBpSVdoczhDVEhuNnBjdTZKVnFub2ctUi1CUXVXOG1LUDAxSzVsUF9xNURaNUUzMEhJLVNKd1JLTU5MSVRyMWRxUnUzVUVQLVZYUGlkc1F3UldEc2ZWZnF3VTRLa3VTZl9QZ0RRNmVGY1hUU3hvRHRCOHlmLW1IcVh6eEF4c0VraXBxbUVJ?oc=5",
       "publishedAt": "2026-09-23T09:10:00Z"
-    },
-    {
-      "id": "60a2d53ec646778be0b4",
-      "category": "Official",
-      "time": "NEW",
-      "title": "73 years since Di Stéfano's debut with Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUnd6SEIwbDFPa1VrUE1WcXMtelEwZm8xeGYxdjktR0JLTkFDam95bE9PUWZzNFlBTzZjbTJXY3l0RjlhVmlzVDhJakFnM2JxQW1yWUVWN3pSdVo5aGh0dXE4NjN2NVhpUDhmZ0o0TG5MSTlRbmtFU2RsdFhZbkFVVFV2cUNIeVlFUmEwZFc2QUZjMTBWR2VUOURQSEFJSG1md3VaWG9xUjc0MTlMcFpoM3daY0psQ1JxVUF5b0xwZDRkdHhfcUE?oc=5",
-      "publishedAt": "2026-09-23T08:36:00Z"
     }
   ],
-  "updatedAt": "2026-09-26T20:09:19Z",
+  "updatedAt": "2026-09-26T22:44:03Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
