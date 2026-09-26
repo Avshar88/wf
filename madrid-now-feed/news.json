@@ -182,6 +182,16 @@
       "publishedAt": "2026-09-24T07:51:11Z"
     },
     {
+      "id": "54c0a5b43b0b7c33b491",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1E2b1hPOVp0dWtFSGZQNnZIMTJHWVg1Z0JDeGxMMHM0cERNSU9FT09kWVpyUE5YaUZSUFo3REhhVE5oNEw3d3JKUG0yZWFWUXNOWG5VNHZLTm9nRmRDemt5YldmNndDSy16aVhKS2FMZnptQlQ5MFpnMmVvS3dCRUVOWEpuQktveXBWQmQ3VHBndw?oc=5",
+      "publishedAt": "2026-09-23T23:31:37Z"
+    },
+    {
       "id": "13d283971f91128d3cb8",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ1QzMVVIRGo3RkJMTzY0Q3NTSHhCb2NSeDZ5QW5FZUdwa0g0aWpuM25FVk9JeEJxUi05SjdrcmtHaVFfVmQxekdmUGFIY2UtSkdTNXFoT2Ywa2RuOC1iUUFSV3dFNGdPWkx5WkFFRGtUTFBHRWNPTW5ja1dyeDJpSWhJT1FSQ1NEX0RZcHFxdXhPT2g5TFhQUWdiZlVuQ2pPN3Niekx1RnZrTTc5NjlpVHJFcEpuQl80NDllbXRDVEZnTWZfSmlVY2xJNXBSN0tVZXhrQXFB?oc=5",
       "publishedAt": "2026-09-22T16:38:00Z"
-    },
-    {
-      "id": "3623967366e18d6d7ab2",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Mbappe misses France training with illness ahead of Nations League games",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzI2Mmw4TmxXc0xJWEd5Z3RqNy1xc3dFVTdUWXFVamM2NnBybGgwMjdrWVVzUXU0dTJhcm50d1FSSkxwUjNkTkdqNm9BZVlpcWlzaFA3N0EzME9RVEJOdE9Ma09TR0JzWkQxT0xVNEpXY09iVkV3a0xqVDhZLTgxUHZYblM4OVB3NjRqR1NwNW1VYmNxZWFUTmIwaDN2WGtYZWUxX082RzRZekkxLWFza3FNMHFURmk5THhn?oc=5",
-      "publishedAt": "2026-09-22T16:34:09Z"
     }
   ],
-  "updatedAt": "2026-09-26T05:26:49Z",
+  "updatedAt": "2026-09-26T10:01:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
