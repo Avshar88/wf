@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "8a7ae221f89982b073ad",
+      "category": "Transfers",
+      "time": "NEW",
+      "title": "🚨💣 CARRICK: UNITED DECISION! JULIÁN: BARÇA WHY THAT? DEAL ALMOST DONE! KANE, KARL AND REAL MADRID…",
+      "summary": "New video update from Fabrizio Romano's official YouTube channel.",
+      "source": "Fabrizio Romano",
+      "href": "https://www.youtube.com/watch?v=CWqB0D8KJxc",
+      "publishedAt": "2026-09-27T14:59:52Z"
+    },
+    {
       "id": "e61e1debf8d1cfdc95d3",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUF9pc0lXbDRMa2xvVU1xVWVUY2N2MHlpN3N2cHY2YS0wZ0dITUJlTTAtZVNPYWtiNFB1SFNkdHM1VUVkcjNZbWRCTmNoeFdPV012R0thMml3M04wRnV4TVNYcHkwTmRMTENHYTBvd0tQaTNDUy16Y3ZvdnI0ZWNQcUREVjVsTTNQN203VWdpd0V6elg4M29OZHE2NHlYMFdES09QWkw0OVlETWNrRXFaVWIzbUxjd0FINDlVZ2JRMDNwck9mZU83UktzcEhkTklJNlVVYw?oc=5",
       "publishedAt": "2026-09-25T09:21:00Z"
-    },
-    {
-      "id": "aa4ad3e9bdb97ae9fa53",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid kicks off the league on Sunday against Unicaja",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUF9pc0lXbDRMa2xvVU1xVWVUY2N2MHlpN3N2cHY2YS0wZ0dITUJlTTAtZVNPYWtiNFB1SFNkdHM1VUVkcjNZbWRCTmNoeFdPV012R0thMml3M04wRnV4TVNYcHkwTmRMTENHYTBvd0tQaTNDUy16Y3ZvdnI0ZWNQcUREVjVsTTNQN203VWdpd0V6elg4M29OZHE2NHlYMFdES09QWkw0OVlETWNrRXFaVWIzbUxjd0FINDlVZ2JRMDNwck9mZU83UktzcEhkTklJNlVVYw?oc=5",
-      "publishedAt": "2026-09-25T09:21:00Z"
     }
   ],
-  "updatedAt": "2026-09-27T10:50:51Z",
+  "updatedAt": "2026-09-27T15:21:31Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
