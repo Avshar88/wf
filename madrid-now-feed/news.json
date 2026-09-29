@@ -2,24 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "3161ff0031941c5b038c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Anadolu Efes-Real Madrid: aiming for victory in Istanbul",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTBPclQ1U0lmQ0lhMGJEUjFoXzhvYjlwaFdPSmJwSlZYcGljc2NwdVcwWUdydVkzSkRqX3d6MDdvODVRRWR6b3JKQjZ5Vzg4OG5mQ3l2amxFZktpZTREY2VmRGcyNkQxVHhDYjhteEVSWDIyamlzNHZMRENKdTFTeW9qenFYRVNEcURnTUFFSXYzTm5oQVhuYzJlX3lTMEtTUkE?oc=5",
-      "publishedAt": "2026-09-29T00:40:26Z"
-    },
-    {
-      "id": "eb6713b3665df5b6262f",
+      "id": "c3cd0bff236f74e9f16f",
       "category": "Official",
       "time": "NEW",
       "title": "38 years since the first Supercopa de España triumph",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbV9tbDE2UVVZanBVaVRmcVlNVzl5Z1BlRjBEUnBHTXdpNTg4dnBhdncxdlpSTHM4cE00UEFaUm5GRUMxS0kzWE94OVU0MkdaQXQxcWc1T1JxZnRtOC1IZDlRRy1FS0JZaVBpM2FVcHM4VHR4a0wzZXdMcXdLd0FYS1RPX0RMVGJaNC01VGFNRmlGSXpXRzV6RFg1bFZ6VU9MN3RsVU5QS00xV1dDeFVqYTBlNHNKMGhkZUE?oc=5",
-      "publishedAt": "2026-09-28T22:12:24Z"
+      "publishedAt": "2026-09-29T04:05:44Z"
+    },
+    {
+      "id": "67741031b841bad8643b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Anadolu Efes-Real Madrid: aiming for victory in Istanbul",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTBPclQ1U0lmQ0lhMGJEUjFoXzhvYjlwaFdPSmJwSlZYcGljc2NwdVcwWUdydVkzSkRqX3d6MDdvODVRRWR6b3JKQjZ5Vzg4OG5mQ3l2amxFZktpZTREY2VmRGcyNkQxVHhDYjhteEVSWDIyamlzNHZMRENKdTFTeW9qenFYRVNEcURnTUFFSXYzTm5oQVhuYzJlX3lTMEtTUkE?oc=5",
+      "publishedAt": "2026-09-29T04:00:55Z"
     },
     {
       "id": "b3b89db73f23b946cac2",
@@ -262,20 +262,20 @@
       "publishedAt": "2026-09-26T19:36:00Z"
     },
     {
-      "id": "6b3f5a1fcec1aa2cf5bb",
+      "id": "0c5da388ace81392fc37",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
+      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid - reuters.com",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGF6eVFxZ1Fia2ZGWFJVZXVvMlpmZGRwSG9TLUF4dGNmRk1rellRaTVLb1dFdUstOFd5amx2eUtiaDNSci00VC12eWdaRFIzM2ZtMWlIckxsOFRmOFg0blV1WkJjS0hUZWF5VTBtNklvWDVNM25aTmpJcXpGekk5VUJ5RVRUWGNQZEtkdThWbTJSWkxqUzdMOXJKNjQ2cnZJSG02Ri15R2laMUU?oc=5",
       "publishedAt": "2026-09-26T18:05:43Z"
     },
     {
-      "id": "0c5da388ace81392fc37",
+      "id": "6b3f5a1fcec1aa2cf5bb",
       "category": "Reported",
       "time": "NEW",
-      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid - reuters.com",
+      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
       "summary": "Latest verified Real Madrid update published by Reuters.",
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGF6eVFxZ1Fia2ZGWFJVZXVvMlpmZGRwSG9TLUF4dGNmRk1rellRaTVLb1dFdUstOFd5amx2eUtiaDNSci00VC12eWdaRFIzM2ZtMWlIckxsOFRmOFg0blV1WkJjS0hUZWF5VTBtNklvWDVNM25aTmpJcXpGekk5VUJ5RVRUWGNQZEtkdThWbTJSWkxqUzdMOXJKNjQ2cnZJSG02Ri15R2laMUU?oc=5",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-09-26T16:35:00Z"
     }
   ],
-  "updatedAt": "2026-09-29T02:40:58Z",
+  "updatedAt": "2026-09-29T09:01:13Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
