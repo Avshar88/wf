@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "3764c133530c85d28247",
+      "id": "c8f8800c49e4b8362b71",
       "category": "Official",
       "time": "NEW",
       "title": "Hapoel Tel Aviv-Real Madrid: second EuroLeague game in 48 hours",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWdKZ2pJU2d1bGdhZkE2b1l4WkwxNXB4MkJCeXExVzY0Wk1vRUlhaE9SemJGd2hyengteG45S0Eyb3ladm1PSDVJZDUxQUo3bVZfajF4V1lhZnRVWGozcWRLRUlRNVYtejl2SFdlR2luT1hCVG1mRThZRmx2Ry1Ud09GYjdiazZhbmM4VjhxbDgtMElXUUlzWDBUV3A3aTRpbGp2UjlB?oc=5",
-      "publishedAt": "2026-09-30T22:17:28Z"
+      "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPckZZdXJ6Tmd1SHZiUmIzdUFGTjVpWWhmWUlVSEJvZjh2ME9qTXF5ekdZYVVFa1F4STlfRk5LZEozSm9Yc2w1TVpKMlJOeDZoZ2ZBRUZjbTdFeUdtNkhxNVQtTnBsM0VDUF9sVFBpekpSZVpmS01abWhKVjBPaTYtYVliY1JKbE5JNWkxQjdNQW1HdlF3UkMxelctSHVRRDN2VnhMTGhSN19UOTltQ2JyVXhIc2hvYjVSd0Vzei1COFVaZXc3ZmZ0b004a3NhMDlIWGE3NnhYMzRXMXV2UExUMjBLdXA?oc=5",
+      "publishedAt": "2026-09-30T22:12:30Z"
+    },
+    {
+      "id": "2680f0fc5f4aba1583a3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "2-0: Thiago Pitarch scores in Spain U-20 victory over Mexico",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNGZtNmlIY0daX1E2cGpZSGdIQWdIS2VZcjBLYktNeDFudkxjVGF1UTJpczZ2b0x6bVFzNlRfZ2cyQ1VEVDFiNXh4NGwtQW9wLUdsQmk3VUdFQkQ0c2h5MEdJLVQxNjZQLUlib1ppajFWeDJleWVtMEhuSmc0QzgzbFdBVEhoSzY3ZWp6WnA1RUVRVUxCVnA1bDdyU2cwYUZPMnN0NHphVFZpWm93LUE?oc=5",
+      "publishedAt": "2026-09-30T20:50:20Z"
     },
     {
       "id": "69d539ff97307abdf49b",
@@ -72,16 +82,6 @@
       "publishedAt": "2026-09-30T12:11:54Z"
     },
     {
-      "id": "1a6d17fc2de2a8bb9b3e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Asencio's medical report",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFZ5ZnVWcm5kWlJuOXFEZy1wSUZrV1BsdGo1QVdyai1CUHBwcm8wREdvVV9rYU00WXZIaDRuRmxadFNEQ1hVSThNRy00cFE2Y0RsajBQWkRyQm1zcUVDRS1SVk9NTS1UZmp4eERqenMyaHdtZl9UX1l6ejZWLXEtV1R0RF80d3JoTFhpTUw2eWtGbEpWc2hCTnd1ZG1oWXBWdi1aSXBHRzdyODdZ?oc=5",
-      "publishedAt": "2026-09-30T11:32:46Z"
-    },
-    {
       "id": "211fa6945dc47e815ff7",
       "category": "Official",
       "time": "NEW",
@@ -100,6 +100,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUkYxLW00M0J4TjBCVGtCdTlrQndkSzl1OFM3eFJ6MDlWdVYzVmczYzFFOHpqZ0xINlFwNGsyekl2LW50N3ZCSXVqOUlNcHFFc0RIUGh0UkpJUnJNSm9EZ0ZkQzk3a0tMQld0b2RrdmVIckQ2S3ltVmZ4NzR6elRkaUQ1aDZCb1VJaVdNb2dxeW5iSi1KM3FoRU5ZbEFhT0J2bGJvVVpIUXpCeWY0eTJXSHNuRHRWa1c4T1hjY1B0Y1JmQVlmNEZBczFydERBdTQtYnJnSjdhcmVTQQ?oc=5",
       "publishedAt": "2026-09-30T11:29:44Z"
+    },
+    {
+      "id": "2ee10008284dcd18e4ba",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Asencio's medical report",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFZ5ZnVWcm5kWlJuOXFEZy1wSUZrV1BsdGo1QVdyai1CUHBwcm8wREdvVV9rYU00WXZIaDRuRmxadFNEQ1hVSThNRy00cFE2Y0RsajBQWkRyQm1zcUVDRS1SVk9NTS1UZmp4eERqenMyaHdtZl9UX1l6ejZWLXEtV1R0RF80d3JoTFhpTUw2eWtGbEpWc2hCTnd1ZG1oWXBWdi1aSXBHRzdyODdZ?oc=5",
+      "publishedAt": "2026-09-30T11:14:00Z"
     },
     {
       "id": "f147fc4c31da2a7cbe7d",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1pZNFFKbDlobjFfeFhfOEMyQk1aakN2aWJDSWxoUE1kY2hHNlc1NVEzMi13U3dIQ3FReF9oZU9abnB5WVN6enNKV0lyYmt4ME1EbU5rYnRSckhCaFJIQkZXNUlvdHBmNm1IaWg1b3JGZi1ReFdZSFVqZHBrZThBNk1GZnB5U19hT2pPWEk3WXZkd0JEbTQ5clREbndYbms5aFNvX0ZxbUlEY2FTUW5XcklZeUF3enpTNVZ2aUwyZmhrdmppV0t5MW5hMDlQczZ2Um9RZWF3?oc=5",
       "publishedAt": "2026-09-29T13:35:00Z"
-    },
-    {
-      "id": "d00ce96f0b479149c51a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid is preparing for the match against Manchester City - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1pZNFFKbDlobjFfeFhfOEMyQk1aakN2aWJDSWxoUE1kY2hHNlc1NVEzMi13U3dIQ3FReF9oZU9abnB5WVN6enNKV0lyYmt4ME1EbU5rYnRSckhCaFJIQkZXNUlvdHBmNm1IaWg1b3JGZi1ReFdZSFVqZHBrZThBNk1GZnB5U19hT2pPWEk3WXZkd0JEbTQ5clREbndYbms5aFNvX0ZxbUlEY2FTUW5XcklZeUF3enpTNVZ2aUwyZmhrdmppV0t5MW5hMDlQczZ2Um9RZWF3?oc=5",
-      "publishedAt": "2026-09-29T13:35:00Z"
     }
   ],
-  "updatedAt": "2026-09-30T23:40:42Z",
+  "updatedAt": "2026-10-01T02:23:51Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
