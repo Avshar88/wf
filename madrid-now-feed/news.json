@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "aefd871d92b9195ef6a0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWUwaUJsNzItMUtmTlk1Zk45aE01bXBhSk9BdXU5NUw5blNuazlZeU9ZRnQxYndWZEplejlWUkNlSjNfRlh4QkJYQTV5S3ZrWi0tY0tKUkpsNWFtaVg5TDN6emJnVDRHM2M3cld2NHJQTElwMmtFS01ocl9mY2R3bWI2aVYwVE0?oc=5",
+      "publishedAt": "2026-10-03T02:35:07Z"
+    },
+    {
       "id": "d414975849ec6ad5f6b7",
       "category": "Official",
       "time": "NEW",
@@ -90,16 +100,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQm9UaHBEck4zSTdDM0RfZ3AxaDFnTHpXT2h3TXJGNGdLUG5DTklSWGJMQmZ0dDFLOGlHMW9iR3RRdHdsekhzZ2hwWGY2c3BhcUZzc2lRYnUyUkJ1eFpjYUh6OThDdDJ3OVF6REM1ZnhQZ1A0VzBtLXhOVnRtaDVGeUZETUtTX3owSDJDYWdMaEFNbUxJU3FIRDZNd0UxVU41UmtTazJkanMyZlA2NF9KZU5B?oc=5",
       "publishedAt": "2026-10-02T08:30:54Z"
-    },
-    {
-      "id": "dc0e7761069ffcd1f120",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfd3lfVjFlYUhESzMwU21rQUlRZ3FGQ0xXRDg3XzdNUE91alU0Yk1oTW9vb1c1ZlhLeUhzdVNUSjNwcXpEenJycUdVR1VROGR0MUsyTm5qTExpWmVaWVpQcVFTTjNRbU5sSG1Sb1BmbC1sdnVtWVE?oc=5",
-      "publishedAt": "2026-10-02T05:32:43Z"
     },
     {
       "id": "21425d7a87018466c242",
@@ -272,6 +272,16 @@
       "publishedAt": "2026-10-01T08:30:30Z"
     },
     {
+      "id": "2299b1d462a7ada14ade",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Champions League insights: Real Madrid's wide overloads | Video | UEFA Champions League 2026/27",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVl9ISFlNdU1yQ2lmVlB0NzNHTWFtV0tlcjYxSFlmNGVpVU5mbmp3VFNCQ1JQNGhGWkh1M0FYdlNzUnBoNzQzeUt3MllDV21MeTdEUnllV1ROOVpPZWRtN0dGdTdxU2V0akdNUkYyOWllMzJLdU5DUHIzTW1fNzdIRFpRbnRkZ25wUUlmV01SMFNycUJTeDN6OHdubV9hU0Vub3FqM0F4eUx4b3ZsblBESFhfMGx0VnVYUVotLWVPdUlENjBXcXlwRGRyY1hTREtFVGlFZnpn?oc=5",
+      "publishedAt": "2026-10-01T03:32:28Z"
+    },
+    {
       "id": "c8f8800c49e4b8362b71",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPckZZdXJ6Tmd1SHZiUmIzdUFGTjVpWWhmWUlVSEJvZjh2ME9qTXF5ekdZYVVFa1F4STlfRk5LZEozSm9Yc2w1TVpKMlJOeDZoZ2ZBRUZjbTdFeUdtNkhxNVQtTnBsM0VDUF9sVFBpekpSZVpmS01abWhKVjBPaTYtYVliY1JKbE5JNWkxQjdNQW1HdlF3UkMxelctSHVRRDN2VnhMTGhSN19UOTltQ2JyVXhIc2hvYjVSd0Vzei1COFVaZXc3ZmZ0b004a3NhMDlIWGE3NnhYMzRXMXV2UExUMjBLdXA?oc=5",
       "publishedAt": "2026-09-30T22:12:30Z"
-    },
-    {
-      "id": "b78e05e5d403610c5c13",
-      "category": "Official",
-      "time": "NEW",
-      "title": "2-0: Thiago Pitarch scores in Spain U-20 victory over Mexico",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNGZtNmlIY0daX1E2cGpZSGdIQWdIS2VZcjBLYktNeDFudkxjVGF1UTJpczZ2b0x6bVFzNlRfZ2cyQ1VEVDFiNXh4NGwtQW9wLUdsQmk3VUdFQkQ0c2h5MEdJLVQxNjZQLUlib1ppajFWeDJleWVtMEhuSmc0QzgzbFdBVEhoSzY3ZWp6WnA1RUVRVUxCVnA1bDdyU2cwYUZPMnN0NHphVFZpWm93LUE?oc=5",
-      "publishedAt": "2026-09-30T16:06:00Z"
     }
   ],
-  "updatedAt": "2026-10-03T00:42:26Z",
+  "updatedAt": "2026-10-03T05:44:08Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
