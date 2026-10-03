@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "bd32defaf3a929d69047",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Barcelona-Real Madrid: first Clásico of the season",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
+      "publishedAt": "2026-10-03T22:18:22Z"
+    },
+    {
+      "id": "1f5a7e946d7f06a5d26d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
+      "publishedAt": "2026-10-03T21:56:03Z"
+    },
+    {
       "id": "6517e0b12e1684756915",
       "category": "Matchday",
       "time": "NEW",
@@ -10,16 +30,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
       "publishedAt": "2026-10-03T19:32:00Z"
-    },
-    {
-      "id": "ed154f2ed7e55c4a2e9c",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Barcelona-Real Madrid: first Clásico of the season",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
-      "publishedAt": "2026-10-03T19:12:20Z"
     },
     {
       "id": "cf0453590d9a5bed405e",
@@ -168,7 +178,7 @@
       "title": "Carlos Espí called up to the Spanish national team",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaDV1TC1HcmYxV0FkZzQ0bXZCNFBPWV9ZVk9kZm1NUWVnSk0wYjRQMnplbEZDZWJ3UEw1STh3RHV3bG5IX0I2SUhMZk5aRkRFSFJVM0pyMHhlTlFJc0twMThhRkVsX1NHR0g1T1RyeFNBVld4Wm9PY0lRa1FFQVlLbVM0c0hFdDVHSEp2Qmd0SHVhODROdUZkN2dlcFR6UnpZbHhwVTljQmd6RUc4UkdGZU9GUDByVUlGTTJaNEVQQmFiRk9Eejd6dTYwOEtNbXl2dkhn?oc=5",
+      "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRS1fNkFDaXY0SXp6a0lMc1dENFNqUElYWnV5eExJNU9CdnpZWVVaOURCeEcyOTN1UUhBanVCcTNjc2U2NHpCODBKRkhDMHNPcjVuUWhUYlJ0N19NSGgyMVpfcS1oY3VxaElmM1NzclRsNkhsclNZaHdXRXZWaUlJaVN6c3VwNVcxNTZLTllMXzFtelhRUHR5WHpOd09STnFqRWtIanA5dTJtMUkwMDdFS19OMnp4WEs1akF3ZXBtdHljel9ieHlqNFZNWGREazVaU1NBczlUVmNNdjJmRW5QVHJVb2ViQlYyNnV6WDZScnhfaV9PSkpUM0pZZXZyNXdodGVZWmcyek9mNVdfbXR6OEhn?oc=5",
       "publishedAt": "2026-10-02T13:36:00Z"
     },
     {
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb2t5XzNiTHZFdGNSYmxURmFCNkNMNFJDcXlKR3FkeHhLM09YU2ExcUhYUFdweUxDRzlzNHlnbDF5Y0dkMDZlTENUeVM3ajlyVE5YZ1Q4UUdqZGMwTmVZdFJobThmTTZxU1pjRmJvcjlNODBCMWpMOVRGRk1JaFI0OUJSVm83OE9JSEJMNnNMSm8tbmRxM0FhUXdxdlNfTGxhLXVMZVVwTUNaYnRaS1BqTVlpMnlxcFBraVhXTGc4OTUyaVVpMFJ2NDdEX0NiekZ2bUVqRXpGYmRqdVBrQ25B?oc=5",
       "publishedAt": "2026-10-01T10:34:00Z"
-    },
-    {
-      "id": "0ec4cfa5fe303f43f166",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Fundación CB Canarias-Real Madrid: first away game in the Liga U - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb2t5XzNiTHZFdGNSYmxURmFCNkNMNFJDcXlKR3FkeHhLM09YU2ExcUhYUFdweUxDRzlzNHlnbDF5Y0dkMDZlTENUeVM3ajlyVE5YZ1Q4UUdqZGMwTmVZdFJobThmTTZxU1pjRmJvcjlNODBCMWpMOVRGRk1JaFI0OUJSVm83OE9JSEJMNnNMSm8tbmRxM0FhUXdxdlNfTGxhLXVMZVVwTUNaYnRaS1BqTVlpMnlxcFBraVhXTGc4OTUyaVVpMFJ2NDdEX0NiekZ2bUVqRXpGYmRqdVBrQ25B?oc=5",
-      "publishedAt": "2026-10-01T10:34:00Z"
     }
   ],
-  "updatedAt": "2026-10-03T21:26:29Z",
+  "updatedAt": "2026-10-03T23:56:44Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
