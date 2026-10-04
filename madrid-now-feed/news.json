@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "158b1f845ac97c633fb6",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid vs Real Betis - LALIGA FC FUTURES - LALIGA official website",
+      "summary": "Latest verified Real Madrid update published by LaLiga.",
+      "source": "LaLiga",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2E0QTIxZE9PN05KZFFqelhfOHBucjB1T2tvYXBtUllXVThNNGlNMXpuUVpaaTg2eWJYcm1aZHg5X3J5MjMyaUtmTmctYmdqc0pFUXc1V2Q4Ri1ZeE9oRVdFYW5PZWlyS2VXWGhfWEkxR1pFcW50VTRGc2tEaUtXZWtHUUFrQjBGQ3d4cnozUkdGM2tfUTRyWXRYZWtZcEdRcDRzVEM0bHR1YjBucUd0aG1wSlRzLTZsVFV6Rg?oc=5",
+      "publishedAt": "2026-10-04T11:27:59Z"
+    },
+    {
+      "id": "e688e33549d6f743f3ae",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid Wins in Overtime - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
+      "publishedAt": "2026-10-04T10:35:00Z"
+    },
+    {
       "id": "8d5388d322b41bbcecfe",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1BOWnZUbUNvemgwang2dTh2Z1RfVU01ODVpZmRDWFdMdHlCOTktbzV2WXhNZ1dJVE1hYlRyOFZFbnVPSE1qWml0RURFaUp2NFVJek5XU0lDc1AyMGJYdGkzUjZ5RE5nemljQVRCUzdHMHpSV3JaZmtMNUNpY0o5Q0gzcG1PQXlTX2llOUxjYllYdUc5cVFfOW9GRmhHNkgzcHEzTGktSjF0cjNIQUV2VXFuLWNHbTRhY2c?oc=5",
       "publishedAt": "2026-10-02T09:24:00Z"
-    },
-    {
-      "id": "008ac44adcb55d58ff5b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid World reopens its doors on October 7",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1BOWnZUbUNvemgwang2dTh2Z1RfVU01ODVpZmRDWFdMdHlCOTktbzV2WXhNZ1dJVE1hYlRyOFZFbnVPSE1qWml0RURFaUp2NFVJek5XU0lDc1AyMGJYdGkzUjZ5RE5nemljQVRCUzdHMHpSV3JaZmtMNUNpY0o5Q0gzcG1PQXlTX2llOUxjYllYdUc5cVFfOW9GRmhHNkgzcHEzTGktSjF0cjNIQUV2VXFuLWNHbTRhY2c?oc=5",
-      "publishedAt": "2026-10-02T09:24:00Z"
-    },
-    {
-      "id": "d4634145a8a827bf419e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Fifth training session of the week",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQm9UaHBEck4zSTdDM0RfZ3AxaDFnTHpXT2h3TXJGNGdLUG5DTklSWGJMQmZ0dDFLOGlHMW9iR3RRdHdsekhzZ2hwWGY2c3BhcUZzc2lRYnUyUkJ1eFpjYUh6OThDdDJ3OVF6REM1ZnhQZ1A0VzBtLXhOVnRtaDVGeUZETUtTX3owSDJDYWdMaEFNbUxJU3FIRDZNd0UxVU41UmtTazJkanMyZlA2NF9KZU5B?oc=5",
-      "publishedAt": "2026-10-02T08:30:54Z"
     }
   ],
-  "updatedAt": "2026-10-04T10:03:48Z",
+  "updatedAt": "2026-10-04T15:16:25Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
