@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "bd32defaf3a929d69047",
+      "id": "bc20f8e9a7c7b158c911",
       "category": "Official",
       "time": "NEW",
       "title": "Barcelona-Real Madrid: first Clásico of the season",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
-      "publishedAt": "2026-10-03T22:18:22Z"
+      "publishedAt": "2026-10-04T03:09:18Z"
     },
     {
       "id": "1f5a7e946d7f06a5d26d",
@@ -30,6 +30,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
       "publishedAt": "2026-10-03T19:32:00Z"
+    },
+    {
+      "id": "402af053612b9ba8e0de",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd05GUjdHN0U4Zk9DUUxfTmV6VG1GeXhySVRERHFpQzdVTnB2VXZFVTQ0ZjM0aUtwYzlSSndxeUtGMDFYeFl2Y3AyQ1lGeVN4b0Nad3hvbjMwQmVleW5qb1M1LWRTOERMVzFSamFSdnZVV2g3d3lXQi10SnU0bUVEOTlLUVFYeERnUTRHM2RRVVo2eVFOZkE?oc=5",
+      "publishedAt": "2026-10-03T18:46:14Z"
     },
     {
       "id": "cf0453590d9a5bed405e",
@@ -100,16 +110,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnJCbGlxVVJ3VzRzX3pfRDhueGpRQ0xMUm1FVW1qNGxJVW5RaHhhaGgwSG80Y05iNTdYZmdSck9IcXgwZ2RlY2h0eURBX2JqT2pMYzJzc2dnX0tGZ1R2Nm5Wblo3cDRHaVMyTUk1UHg4TFVuSTIyUlI1MVRpTF91VXAzbF80RHVGejNhUkNhUjFaM1lCZVNUYklzQS1PWlU?oc=5",
       "publishedAt": "2026-10-03T10:31:00Z"
-    },
-    {
-      "id": "aefd871d92b9195ef6a0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWUwaUJsNzItMUtmTlk1Zk45aE01bXBhSk9BdXU5NUw5blNuazlZeU9ZRnQxYndWZEplejlWUkNlSjNfRlh4QkJYQTV5S3ZrWi0tY0tKUkpsNWFtaVg5TDN6emJnVDRHM2M3cld2NHJQTElwMmtFS01ocl9mY2R3bWI2aVYwVE0?oc=5",
-      "publishedAt": "2026-10-03T02:35:07Z"
     },
     {
       "id": "05ed6b9b5b2baca82376",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-01T10:34:00Z"
     }
   ],
-  "updatedAt": "2026-10-03T23:56:44Z",
+  "updatedAt": "2026-10-04T03:36:51Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
