@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "0d67d5a254455bece917",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Maledon, 78 PIR in two games",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZDBXSW03dVlzZE03MlJpUFZ1UWhiTkRlcktTZ3JpYjRPcW5KWm81dGxSTlFfZEprRjQtX1RzOVEtc0tkX0FIUEJNMlFNbC14TURnNWN0MVBRQUU5aDdNV1Z6RTh0MTB0NDJoNDA1YzlWLVNvR0ZtcXNtalJjWlN4RGxxVC1OMExpQi03TVlVNm04N0pWNFdGWFktYnBwM2E4UEc1VmVhUTkwZWlCOUc1eXFuR1hEbmhYMkh3?oc=5",
+      "publishedAt": "2026-10-04T23:01:39Z"
+    },
+    {
+      "id": "5b7096a3bbfe2ea412fd",
+      "category": "Official",
+      "time": "NEW",
+      "title": "96 years since Ricardo Zamora's debut",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU1pvNkI1Q2pGMWVZQkNRSmI4WVZlMjN0bEVGdkFDejB5MU5MeG10b3ZTZERGdDBwZi1YdWJDdjY1RHAzUVJQVlF2dllKbEQwbjVqc2lLV09KamoxMm9JYTRqbXdBX0ZNSXNtWkxRR0I0VGdiem14V3JJaHYxUFdBcHVCMmZlTFJNQ2J4ZmF0QXVHd3MwZ0pDVU91UVo4WDkyUTM1WVRXelF3V3g4aGRZRUN3?oc=5",
+      "publishedAt": "2026-10-04T22:10:50Z"
+    },
+    {
       "id": "7f00981b04bebd2fab4d",
       "category": "Official",
       "time": "NEW",
@@ -40,16 +60,6 @@
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMlM3RVlIYUIyaGM1QV9kRXhMYVVyVHJrbzZaYkRJcjBQa1Q2OTlJWlZIMUtxLVNfLXFUbmpTY2JaVVM1Q0xSd051dWhYTFQtcVNyZ3lPSDM5OVlpa0tMbnBYMVlWZUkwdzRkb1E3WUZYeDQyZGl1eXN6TkgyT001eVhBbU9MOXE2T3VVbTl3?oc=5",
       "publishedAt": "2026-10-04T17:49:43Z"
-    },
-    {
-      "id": "f1f7ebc147b4a93e4af1",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Maledon, 78 PIR in two games",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZDBXSW03dVlzZE03MlJpUFZ1UWhiTkRlcktTZ3JpYjRPcW5KWm81dGxSTlFfZEprRjQtX1RzOVEtc0tkX0FIUEJNMlFNbC14TURnNWN0MVBRQUU5aDdNV1Z6RTh0MTB0NDJoNDA1YzlWLVNvR0ZtcXNtalJjWlN4RGxxVC1OMExpQi03TVlVNm04N0pWNFdGWFktYnBwM2E4UEc1VmVhUTkwZWlCOUc1eXFuR1hEbmhYMkh3?oc=5",
-      "publishedAt": "2026-10-04T17:04:07Z"
     },
     {
       "id": "2af33efb2b606e6d4da5",
@@ -182,16 +192,6 @@
       "publishedAt": "2026-10-03T19:32:00Z"
     },
     {
-      "id": "402af053612b9ba8e0de",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd05GUjdHN0U4Zk9DUUxfTmV6VG1GeXhySVRERHFpQzdVTnB2VXZFVTQ0ZjM0aUtwYzlSSndxeUtGMDFYeFl2Y3AyQ1lGeVN4b0Nad3hvbjMwQmVleW5qb1M1LWRTOERMVzFSamFSdnZVV2g3d3lXQi10SnU0bUVEOTlLUVFYeERnUTRHM2RRVVo2eVFOZkE?oc=5",
-      "publishedAt": "2026-10-03T18:46:14Z"
-    },
-    {
       "id": "a0a89e0add36b78bd339",
       "category": "Official",
       "time": "NEW",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-03T10:40:00Z"
     }
   ],
-  "updatedAt": "2026-10-04T21:54:09Z",
+  "updatedAt": "2026-10-05T00:14:43Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
