@@ -62,6 +62,16 @@
       "publishedAt": "2026-10-04T17:49:43Z"
     },
     {
+      "id": "c6d0c7b04f13bceaa09c",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid hosts Partizan this Thursday in the EuroLeague - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnhoeWc2WmljcHlQcENiTnVzQzJQVklVb2hWeE1rdDYxZG00YzNDMnVicHdhMUxBNHZpdlpyVF9Pd19iNnpjWWpLemJMLUVSaUtLRlJqcGJBR1FtUTUwbWhhWHdYOGo1QmM0dGxxRUZpWTR4b2J5N0JWU2lHZlhnMFpVdXI4eFIzQmhWNU5PTS1aQjM5X1JFM1FVSWNlWDdVQlN3M2duUUJLU3I5TGFtZktFQnk5VUVsc1c0U2FIaEtzdlFMWHc5cXRYd1l4RHF2NXNV?oc=5",
+      "publishedAt": "2026-10-04T13:07:00Z"
+    },
+    {
       "id": "2af33efb2b606e6d4da5",
       "category": "Official",
       "time": "NEW",
@@ -70,16 +80,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnhoeWc2WmljcHlQcENiTnVzQzJQVklVb2hWeE1rdDYxZG00YzNDMnVicHdhMUxBNHZpdlpyVF9Pd19iNnpjWWpLemJMLUVSaUtLRlJqcGJBR1FtUTUwbWhhWHdYOGo1QmM0dGxxRUZpWTR4b2J5N0JWU2lHZlhnMFpVdXI4eFIzQmhWNU5PTS1aQjM5X1JFM1FVSWNlWDdVQlN3M2duUUJLU3I5TGFtZktFQnk5VUVsc1c0U2FIaEtzdlFMWHc5cXRYd1l4RHF2NXNV?oc=5",
       "publishedAt": "2026-10-04T13:07:00Z"
-    },
-    {
-      "id": "55999e77a43fa95fe59f",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid vs Real Betis - LALIGA FC FUTURES",
-      "summary": "Latest verified Real Madrid update published by LaLiga.",
-      "source": "LaLiga",
-      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2E0QTIxZE9PN05KZFFqelhfOHBucjB1T2tvYXBtUllXVThNNGlNMXpuUVpaaTg2eWJYcm1aZHg5X3J5MjMyaUtmTmctYmdqc0pFUXc1V2Q4Ri1ZeE9oRVdFYW5PZWlyS2VXWGhfWEkxR1pFcW50VTRGc2tEaUtXZWtHUUFrQjBGQ3d4cnozUkdGM2tfUTRyWXRYZWtZcEdRcDRzVEM0bHR1YjBucUd0aG1wSlRzLTZsVFV6Rg?oc=5",
-      "publishedAt": "2026-10-04T11:27:59Z"
     },
     {
       "id": "158b1f845ac97c633fb6",
@@ -92,20 +92,30 @@
       "publishedAt": "2026-10-04T11:27:59Z"
     },
     {
-      "id": "65f95a23a6ff4d8ad27d",
-      "category": "Official",
+      "id": "55999e77a43fa95fe59f",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "Real Madrid Wins in Overtime",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
-      "publishedAt": "2026-10-04T10:35:00Z"
+      "title": "Real Madrid vs Real Betis - LALIGA FC FUTURES",
+      "summary": "Latest verified Real Madrid update published by LaLiga.",
+      "source": "LaLiga",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2E0QTIxZE9PN05KZFFqelhfOHBucjB1T2tvYXBtUllXVThNNGlNMXpuUVpaaTg2eWJYcm1aZHg5X3J5MjMyaUtmTmctYmdqc0pFUXc1V2Q4Ri1ZeE9oRVdFYW5PZWlyS2VXWGhfWEkxR1pFcW50VTRGc2tEaUtXZWtHUUFrQjBGQ3d4cnozUkdGM2tfUTRyWXRYZWtZcEdRcDRzVEM0bHR1YjBucUd0aG1wSlRzLTZsVFV6Rg?oc=5",
+      "publishedAt": "2026-10-04T11:27:59Z"
     },
     {
       "id": "e688e33549d6f743f3ae",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid Wins in Overtime - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
+      "publishedAt": "2026-10-04T10:35:00Z"
+    },
+    {
+      "id": "65f95a23a6ff4d8ad27d",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid Wins in Overtime",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
@@ -132,16 +142,6 @@
       "publishedAt": "2026-10-04T10:13:00Z"
     },
     {
-      "id": "9c5df5747bf41335807a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
-      "publishedAt": "2026-10-04T09:56:03Z"
-    },
-    {
       "id": "8d5388d322b41bbcecfe",
       "category": "Official",
       "time": "NEW",
@@ -152,14 +152,14 @@
       "publishedAt": "2026-10-04T09:56:03Z"
     },
     {
-      "id": "96a364b7502f4c0b66b0",
+      "id": "9c5df5747bf41335807a",
       "category": "Official",
       "time": "NEW",
-      "title": "Barcelona-Real Madrid: first Clásico of the season",
+      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
-      "publishedAt": "2026-10-04T07:00:00Z"
+      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
+      "publishedAt": "2026-10-04T09:56:03Z"
     },
     {
       "id": "e3a4b234513e5f322428",
@@ -172,14 +172,14 @@
       "publishedAt": "2026-10-04T07:00:00Z"
     },
     {
-      "id": "6517e0b12e1684756915",
-      "category": "Matchday",
+      "id": "96a364b7502f4c0b66b0",
+      "category": "Official",
       "time": "NEW",
-      "title": "The Barcelona-Real Madrid match will now be played tomorrow at 7:00 pm CEST",
+      "title": "Barcelona-Real Madrid: first Clásico of the season",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
-      "publishedAt": "2026-10-03T19:32:00Z"
+      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
+      "publishedAt": "2026-10-04T07:00:00Z"
     },
     {
       "id": "0c0b56c71470e58ae3a2",
@@ -192,24 +192,14 @@
       "publishedAt": "2026-10-03T19:32:00Z"
     },
     {
-      "id": "a0a89e0add36b78bd339",
-      "category": "Official",
+      "id": "6517e0b12e1684756915",
+      "category": "Matchday",
       "time": "NEW",
-      "title": "Web oficial del Real Madrid CF - realmadrid.com",
+      "title": "The Barcelona-Real Madrid match will now be played tomorrow at 7:00 pm CEST",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd05GUjdHN0U4Zk9DUUxfTmV6VG1GeXhySVRERHFpQzdVTnB2VXZFVTQ0ZjM0aUtwYzlSSndxeUtGMDFYeFl2Y3AyQ1lGeVN4b0Nad3hvbjMwQmVleW5qb1M1LWRTOERMVzFSamFSdnZVV2g3d3lXQi10SnU0bUVEOTlLUVFYeERnUTRHM2RRVVo2eVFOZkE?oc=5",
-      "publishedAt": "2026-10-03T18:46:14Z"
-    },
-    {
-      "id": "cf0453590d9a5bed405e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "0-7: Bellingham shines in England's thrashing of Croatia",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkF6dkpBV1Nvd0NiX3pxVk83OEIwdXhFOWZLaW1NcWJHTF8wRFBVcHJZRGhnRkwxbk9iTE45N1NRUHhOcExpRk0xRzE5eTJPbGIxS2k4cDZOQnI4OF96cmNWLUNQbUk5T29BYjdKenE1a2l6M0w3OEJwVks4bjVQUDgtbG1kOGc5djNjejJyN0hVY0lRWjN3akg0aFJNVkY1NklKZi0wclRZcVZFYUl0TEo2dkRHMktKOTFuZjVZS3Utelo0VGVyNFFFTzV6M01yTDVBX3VuMmhnb0Zp?oc=5",
-      "publishedAt": "2026-10-03T16:46:00Z"
+      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
+      "publishedAt": "2026-10-03T19:32:00Z"
     },
     {
       "id": "07f2e55c234867f806ab",
@@ -222,20 +212,30 @@
       "publishedAt": "2026-10-03T16:46:00Z"
     },
     {
-      "id": "77f8385fb3a666c5d5bc",
-      "category": "Matchday",
+      "id": "cf0453590d9a5bed405e",
+      "category": "Official",
       "time": "NEW",
-      "title": "Real Madrid squad list for the match against Barcelona",
+      "title": "0-7: Bellingham shines in England's thrashing of Croatia",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
-      "publishedAt": "2026-10-03T16:30:00Z"
+      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkF6dkpBV1Nvd0NiX3pxVk83OEIwdXhFOWZLaW1NcWJHTF8wRFBVcHJZRGhnRkwxbk9iTE45N1NRUHhOcExpRk0xRzE5eTJPbGIxS2k4cDZOQnI4OF96cmNWLUNQbUk5T29BYjdKenE1a2l6M0w3OEJwVks4bjVQUDgtbG1kOGc5djNjejJyN0hVY0lRWjN3akg0aFJNVkY1NklKZi0wclRZcVZFYUl0TEo2dkRHMktKOTFuZjVZS3Utelo0VGVyNFFFTzV6M01yTDVBX3VuMmhnb0Zp?oc=5",
+      "publishedAt": "2026-10-03T16:46:00Z"
     },
     {
       "id": "d009e406cb1fab57bc8c",
       "category": "Matchday",
       "time": "NEW",
       "title": "Real Madrid squad list for the match against Barcelona - realmadrid.com",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
+      "publishedAt": "2026-10-03T16:30:00Z"
+    },
+    {
+      "id": "77f8385fb3a666c5d5bc",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid squad list for the match against Barcelona",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
@@ -262,16 +262,6 @@
       "publishedAt": "2026-10-03T15:32:00Z"
     },
     {
-      "id": "1ca4846333ba8afe81fa",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid's October Schedule",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVEpzVXd5dG1IZzJtQzVMdGM3TUFSZmplNE1acTNmLXByalprM2EzQUVEUEFtRGs3Q3Zhck13UHQ2MlYtMm9sN0ZmVHExdnJXNkplekJRR0g2Y3NvazZ3bUpWT2NGanU1LUVNaXRpSE5TRTVHSWdqdEpaRFBuTkR3cTlsR21Ya0ZQdFhNMERyR1Bab2pDckJjSHNQaWtNWW1QNkpEMm9lM2NRc2lkbkNSd1BWWGdhZDVwMS1MVW5B?oc=5",
-      "publishedAt": "2026-10-03T12:38:00Z"
-    },
-    {
       "id": "f5c83f347de35264afb6",
       "category": "Official",
       "time": "NEW",
@@ -282,14 +272,14 @@
       "publishedAt": "2026-10-03T12:38:00Z"
     },
     {
-      "id": "1bdc84be496777051d72",
-      "category": "Matchday",
+      "id": "1ca4846333ba8afe81fa",
+      "category": "Official",
       "time": "NEW",
-      "title": "The Racing de Santander-Real Madrid match will be played on Sunday, November 1, at 4:15 pm",
+      "title": "Real Madrid's October Schedule",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQV2M5dlJJdG1fZVJENG01QjFST1dFRDlLYURwS0ExR1ZaVEJvc280SHBOc25Cd0ZkSlY3RDNJbnJ5SlgwRHlSSURWWGlCRW93QUV3MkRiM0pHS0NwTUpFcGhzUUpKZjc2UENNcmlmazlZYlIxWjdGNExWbEpWVlFEdFVyR0EyeUd3RFJSRV9pcEt0UXpsYmZTSlNaQ0xqTjNQenlaYkQ1dkxrZXBvSlZOZWVBQmdfUXFHcW1MSkVWdmVOSzMzbTJmdW9FSVVyc0RTMWFIZzdXX2FZdVJNb09DX0pEQWRCd0lsbmNvOHV4WWZmN01o?oc=5",
-      "publishedAt": "2026-10-03T10:40:00Z"
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVEpzVXd5dG1IZzJtQzVMdGM3TUFSZmplNE1acTNmLXByalprM2EzQUVEUEFtRGs3Q3Zhck13UHQ2MlYtMm9sN0ZmVHExdnJXNkplekJRR0g2Y3NvazZ3bUpWT2NGanU1LUVNaXRpSE5TRTVHSWdqdEpaRFBuTkR3cTlsR21Ya0ZQdFhNMERyR1Bab2pDckJjSHNQaWtNWW1QNkpEMm9lM2NRc2lkbkNSd1BWWGdhZDVwMS1MVW5B?oc=5",
+      "publishedAt": "2026-10-03T12:38:00Z"
     },
     {
       "id": "cc76f9c9c78e43b038c8",
@@ -300,9 +290,19 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQV2M5dlJJdG1fZVJENG01QjFST1dFRDlLYURwS0ExR1ZaVEJvc280SHBOc25Cd0ZkSlY3RDNJbnJ5SlgwRHlSSURWWGlCRW93QUV3MkRiM0pHS0NwTUpFcGhzUUpKZjc2UENNcmlmazlZYlIxWjdGNExWbEpWVlFEdFVyR0EyeUd3RFJSRV9pcEt0UXpsYmZTSlNaQ0xqTjNQenlaYkQ1dkxrZXBvSlZOZWVBQmdfUXFHcW1MSkVWdmVOSzMzbTJmdW9FSVVyc0RTMWFIZzdXX2FZdVJNb09DX0pEQWRCd0lsbmNvOHV4WWZmN01o?oc=5",
       "publishedAt": "2026-10-03T10:40:00Z"
+    },
+    {
+      "id": "1bdc84be496777051d72",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "The Racing de Santander-Real Madrid match will be played on Sunday, November 1, at 4:15 pm",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQV2M5dlJJdG1fZVJENG01QjFST1dFRDlLYURwS0ExR1ZaVEJvc280SHBOc25Cd0ZkSlY3RDNJbnJ5SlgwRHlSSURWWGlCRW93QUV3MkRiM0pHS0NwTUpFcGhzUUpKZjc2UENNcmlmazlZYlIxWjdGNExWbEpWVlFEdFVyR0EyeUd3RFJSRV9pcEt0UXpsYmZTSlNaQ0xqTjNQenlaYkQ1dkxrZXBvSlZOZWVBQmdfUXFHcW1MSkVWdmVOSzMzbTJmdW9FSVVyc0RTMWFIZzdXX2FZdVJNb09DX0pEQWRCd0lsbmNvOHV4WWZmN01o?oc=5",
+      "publishedAt": "2026-10-03T10:40:00Z"
     }
   ],
-  "updatedAt": "2026-10-05T00:14:43Z",
+  "updatedAt": "2026-10-05T05:40:45Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
