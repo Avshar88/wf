@@ -2,6 +2,26 @@
   "version": 2,
   "stories": [
     {
+      "id": "96ac5a4ac8dcfc8ee6ab",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🤩 #ViniJr 🤩 #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=J3-zbga-wr0",
+      "publishedAt": "2026-10-06T16:53:41Z"
+    },
+    {
+      "id": "1fd727656aaa530347e0",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🚀 VINI JR., ENDRICK, BRAHIM & DUMFRIES ARE BACK! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=HMIaxq5VmKo",
+      "publishedAt": "2026-10-06T16:51:25Z"
+    },
+    {
       "id": "915ee47bc13bc873f1a5",
       "category": "Official",
       "time": "NEW",
@@ -280,29 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
       "publishedAt": "2026-10-03T19:32:00Z"
-    },
-    {
-      "id": "cf0453590d9a5bed405e",
-      "category": "Official",
-      "time": "NEW",
-      "title": "0-7: Bellingham shines in England's thrashing of Croatia",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkF6dkpBV1Nvd0NiX3pxVk83OEIwdXhFOWZLaW1NcWJHTF8wRFBVcHJZRGhnRkwxbk9iTE45N1NRUHhOcExpRk0xRzE5eTJPbGIxS2k4cDZOQnI4OF96cmNWLUNQbUk5T29BYjdKenE1a2l6M0w3OEJwVks4bjVQUDgtbG1kOGc5djNjejJyN0hVY0lRWjN3akg0aFJNVkY1NklKZi0wclRZcVZFYUl0TEo2dkRHMktKOTFuZjVZS3Utelo0VGVyNFFFTzV6M01yTDVBX3VuMmhnb0Zp?oc=5",
-      "publishedAt": "2026-10-03T16:46:00Z"
-    },
-    {
-      "id": "07f2e55c234867f806ab",
-      "category": "Official",
-      "time": "NEW",
-      "title": "0-7: Bellingham shines in England's thrashing of Croatia - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkF6dkpBV1Nvd0NiX3pxVk83OEIwdXhFOWZLaW1NcWJHTF8wRFBVcHJZRGhnRkwxbk9iTE45N1NRUHhOcExpRk0xRzE5eTJPbGIxS2k4cDZOQnI4OF96cmNWLUNQbUk5T29BYjdKenE1a2l6M0w3OEJwVks4bjVQUDgtbG1kOGc5djNjejJyN0hVY0lRWjN3akg0aFJNVkY1NklKZi0wclRZcVZFYUl0TEo2dkRHMktKOTFuZjVZS3Utelo0VGVyNFFFTzV6M01yTDVBX3VuMmhnb0Zp?oc=5",
-      "publishedAt": "2026-10-03T16:46:00Z"
     }
   ],
-  "updatedAt": "2026-10-06T14:30:00Z",
+  "updatedAt": "2026-10-06T19:43:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
