@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "28a566a8c51647a196c3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Trent turns 28 years old",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmpfYjh4dWpIU0FUYjQ0QXJldFJDa2hOWTNaMXlZQTJfV1BsQi1ZXzFXRE5NaFU0M2x6ZFVSVWJ1Z0R0cmNVLWhGbWlkdjA1WVo4V3MxUkZTd1ZES2hJVzVBanVKbnJwaDY4RnpNVEhlbFJKZmdhUzN2UlNDQkJrZlVUVk5YSU5mU1ptcnJHTndtMUFPblhXSXRuaFpOckhpOEJN?oc=5",
+      "publishedAt": "2026-10-06T22:12:41Z"
+    },
+    {
+      "id": "313943c48fd7dd7aa43e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "1-2: Spain qualifies for the Nations League quarter-finals",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYTRTU01GRF8taHd6N3VmOWh1RkdnZFF4MllyNV9oMkRzUG1ZeENrTmVLREg4TFlXNmdaUXNjUGxPck5GYjJCWFM3RmctOGlRRkhvR19JMU1UbE0yV3ZsN2stYUNlTVJ5c2RtZmNQN0IyMkZNa1kwU3FaOVhmT2tLSmFBVmxiWTFCUTJzX2hOYWxxZVpQVHBnTXhyTDg0dDFMeUUxLWJIbllKakxJWHNPV3I0SlVLNHo2NGc?oc=5",
+      "publishedAt": "2026-10-06T20:28:00Z"
+    },
+    {
+      "id": "55978cdb26dcab58d4db",
+      "category": "Official",
+      "time": "NEW",
+      "title": "3-0: Bellingham and Trent start in England's win over the Czech Republic",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLVJXd3JWa2JjOEdEVGVxeEpVR1NqaEthcXdEQ2ljeUVmX3hOaGRod1BSZms4UUh4UjVoTHVCd0I4RnFCa1ViYlhFeEJCdDR3aWFMMjFRblYtMXR4WkZzM0xDRlRMSXhQTUdGN2o4elRRMURCaGRRX21yVjJHZTlnSWdkS1pnZWU4Sk5Bazl4UlZCMExsSDV3ekkxUmo2WEZ0YXFTQWx4NGxYRkRBdUtRMk9mUjE2WnNsaEpZZnlSRDlfbEFMZjVpLThaTTdnUS1wYVVvSWJaa0NtamFUNFFBYkxPck43Uk1QZHc?oc=5",
+      "publishedAt": "2026-10-06T20:25:00Z"
+    },
+    {
       "id": "96ac5a4ac8dcfc8ee6ab",
       "category": "Official",
       "time": "NEW",
@@ -20,6 +50,26 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=HMIaxq5VmKo",
       "publishedAt": "2026-10-06T16:51:25Z"
+    },
+    {
+      "id": "df4c64ab6b6a8cafc142",
+      "category": "Official",
+      "time": "NEW",
+      "title": "La Liga returns to the Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS1ByUU05MkoxS2Ezem9MY3cxUFZ5YXM1WW5VT2F3SFRkaTB1bXlmdl80LXc5WFNrM3c3eUVNSVo4ajNSX2Fqam9jUGRETFZHcGF6bWUza05NWHliRnh6azAxSHlneHZZeGEwYnJHWUlTQ2R0R1hEM1BNSmVuWHpsU245VzNuTk8zakxqdVZFTDZsYlh6NEF4OG1xMTh2RjZZTEQyU0d0cjZyUVJzVzRQRHRmanREeUFGRkNXTU5TU3duX3FSV29YTTdja1lqWHAxbWNoalB4UktpU3U4VDVmU0EwaV92ZzNKVnc?oc=5",
+      "publishedAt": "2026-10-06T14:41:00Z"
+    },
+    {
+      "id": "f4171a269896bc5203ca",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUDRLaFB2bE15R1Q4Y3BaV0hsNWxOV0x0WktSek9laHJGaE1INnZ4azN1LXhMZFcyVkN0TDU3NFFMb1ZxNDd6NWwzc0RnSTVHS0wzeks2OC1MalV0eFJnaWdWM0EwcTNuQ2NGTDFTQ1V4YmFrSjdndjhVY3Eta200dGZjdmRmd1lHV2lTekZB?oc=5",
+      "publishedAt": "2026-10-06T11:38:25Z"
     },
     {
       "id": "915ee47bc13bc873f1a5",
@@ -250,59 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbmlVSHE0MThtdG1nZVVyU3BMS0NSTmpfUHIxMkZOQUJpaFJ6Rms5VUp5Mi1LdjNxZEJMTm9wQWE4VGRKaE83cDRZYkVSOXlqRVJleWVTQ3lPeXdnVnE1UmdrMlNJWmVDN1ZReUQ0X1YxVVl4cklkTFBYNUxyUmhUbjUxcjZkVkdiU3dHXzBWNm5oVGUwMXRIVUdRNXBVVXZGOVJnR0ZpN0NTOC1xNG96VzMwYzQ?oc=5",
       "publishedAt": "2026-10-04T10:13:00Z"
-    },
-    {
-      "id": "8d5388d322b41bbcecfe",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
-      "publishedAt": "2026-10-04T09:56:03Z"
-    },
-    {
-      "id": "96a364b7502f4c0b66b0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Barcelona-Real Madrid: first Clásico of the season",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
-      "publishedAt": "2026-10-04T07:00:00Z"
-    },
-    {
-      "id": "e3a4b234513e5f322428",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Barcelona-Real Madrid: first Clásico of the season - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanl0UlhYY0ZCNl90bHM5S1h3RmJESHVEcWNDU1JHYWdmSmczeWZibjBpaThnVjVBTVBKbDMxLWliTXFnVVBaNk9qb1lPTlg4bXdaZkY4NGNxUEo0OC1vZkNCTVdZenoxVVIxUUp1TTZBMm9SRmVpV1VhYnQ3Y2JfMXJudUZVT0lPZDVobGpfSV9iaERsbDVUX1FVQkFYVXZVV1I3dUhXWjk3d0gyLTBZRUw0VEVyVVoxNFZTaGppWXQyaU9yLXk4WXNndw?oc=5",
-      "publishedAt": "2026-10-04T07:00:00Z"
-    },
-    {
-      "id": "6517e0b12e1684756915",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The Barcelona-Real Madrid match will now be played tomorrow at 7:00 pm CEST",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
-      "publishedAt": "2026-10-03T19:32:00Z"
-    },
-    {
-      "id": "0c0b56c71470e58ae3a2",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The Barcelona-Real Madrid match will now be played tomorrow at 7:00 pm CEST - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
-      "publishedAt": "2026-10-03T19:32:00Z"
     }
   ],
-  "updatedAt": "2026-10-06T19:43:33Z",
+  "updatedAt": "2026-10-06T23:15:49Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
