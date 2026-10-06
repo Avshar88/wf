@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "def20b4382e7fce4d0df",
+      "id": "eae662e5af833c626582",
       "category": "Official",
       "time": "NEW",
       "title": "24 years since Ronaldo's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0FvbmEybjhweThreXVxUkRkQjdpc1VqZjgtVndKNnRQelh0SERESFc2V284Sl9kRjlJSXRlV3A2XzVrNHpxcDZRSWtzUHRvNmxLcE1IRUJJOEQxTFFHY09qdk5MTzBRSTJXWGhMS0k2c003RUo2T0hNT3h0MmtlWHRwdUJSNGN5THpZQnhtOGstWmY0ZVJWRFN0UFpETDFVeWhzRU01bW8?oc=5",
-      "publishedAt": "2026-10-05T22:01:51Z"
+      "publishedAt": "2026-10-06T05:43:34Z"
     },
     {
       "id": "30d39a3ed5dab0c6d646",
@@ -30,6 +30,26 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeXdVbWxvVmFEcVRzcmtvUTJvUW10N09BUF9teU5SdXJRQ3hRcDMzemlvbUJxQ3p5ZkNhOE9mTkU5NVc4SHEtbUtaUXFWRE84QnJ2LTA2RHMtYmtGM2tWdnNNeHA2NFBIZTc5eDRvU3luRUNLRzZLMURMY1lXSHlwMW0yN3pZeVpmUXk5UmxnNTVSQTBIWTBXaWdQWWZWYnJNcXl4cVhzckZodmc?oc=5",
       "publishedAt": "2026-10-05T14:59:00Z"
+    },
+    {
+      "id": "9c42d519fae0e7f59894",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔋 First training session of the week! #RMCity",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=M4h22YPSmlc",
+      "publishedAt": "2026-10-05T14:07:32Z"
+    },
+    {
+      "id": "d08965f62058f2498dfe",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Maledon, 78 PIR in two games",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZDBXSW03dVlzZE03MlJpUFZ1UWhiTkRlcktTZ3JpYjRPcW5KWm81dGxSTlFfZEprRjQtX1RzOVEtc0tkX0FIUEJNMlFNbC14TURnNWN0MVBRQUU5aDdNV1Z6RTh0MTB0NDJoNDA1YzlWLVNvR0ZtcXNtalJjWlN4RGxxVC1OMExpQi03TVlVNm04N0pWNFdGWFktYnBwM2E4UEc1VmVhUTkwZWlCOUc1eXFuR1hEbmhYMkh3?oc=5",
+      "publishedAt": "2026-10-05T13:20:00Z"
     },
     {
       "id": "2e5686011eb7cfe746b3",
@@ -60,16 +80,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObi1LcDRhbkNpU3JnQ0d5Z1BhWTNwM3J1Wm5fRW50Z2tJRHV0aXhqeWdqSVdMQ3pmUXJEazhNUlkwUi1NcWtkeXN0eWoyZy1uOHM1ZWdDbC1JREFnRmlXZkM2SDJBNHZnWlVWNGhmbGpCdUdPOG9BaXR4Sll2eDBQQ3dTdS1XemE2Q3JBQ0RpX3E1WmNLS0FWWklPNHVwTE5fbUM5bVJJVGxxN0k?oc=5",
       "publishedAt": "2026-10-05T06:49:00Z"
-    },
-    {
-      "id": "91aa510d46ccfa6ae5f0",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Maledon, 78 PIR in two games",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZDBXSW03dVlzZE03MlJpUFZ1UWhiTkRlcktTZ3JpYjRPcW5KWm81dGxSTlFfZEprRjQtX1RzOVEtc0tkX0FIUEJNMlFNbC14TURnNWN0MVBRQUU5aDdNV1Z6RTh0MTB0NDJoNDA1YzlWLVNvR0ZtcXNtalJjWlN4RGxxVC1OMExpQi03TVlVNm04N0pWNFdGWFktYnBwM2E4UEc1VmVhUTkwZWlCOUc1eXFuR1hEbmhYMkh3?oc=5",
-      "publishedAt": "2026-10-05T05:01:39Z"
     },
     {
       "id": "62f783a4f4b0d63449c8",
@@ -192,6 +202,16 @@
       "publishedAt": "2026-10-04T10:32:00Z"
     },
     {
+      "id": "bccb6b292d56ba6c58ba",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
+      "publishedAt": "2026-10-04T10:32:00Z"
+    },
+    {
       "id": "5982fdf048a0606b69be",
       "category": "Official",
       "time": "NEW",
@@ -200,16 +220,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbmlVSHE0MThtdG1nZVVyU3BMS0NSTmpfUHIxMkZOQUJpaFJ6Rms5VUp5Mi1LdjNxZEJMTm9wQWE4VGRKaE83cDRZYkVSOXlqRVJleWVTQ3lPeXdnVnE1UmdrMlNJWmVDN1ZReUQ0X1YxVVl4cklkTFBYNUxyUmhUbjUxcjZkVkdiU3dHXzBWNm5oVGUwMXRIVUdRNXBVVXZGOVJnR0ZpN0NTOC1xNG96VzMwYzQ?oc=5",
       "publishedAt": "2026-10-04T10:13:00Z"
-    },
-    {
-      "id": "9c5df5747bf41335807a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Monbus Obradoiro-Real Madrid: First Away Game in the League",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX3hpUGZhc2otMFNGWThOMVhKTzQ0T3lLc3I5SXNrTE5KQjBSVi03dGpMSlk1SmN4M0pmZjV0SVJnblJVZ0ZJeVdmZGkxLUFCcE0yWElWSXZpMVMxMlRMZVV0MWxTUVl2ZVA2RTFBeXpNcGhDYXVJQ1pTdl9IemZCbkozWl8zbFl0ZTY5VS1HSE1Xd2FiUzN0cmpYalRoUQ?oc=5",
-      "publishedAt": "2026-10-04T09:56:03Z"
     },
     {
       "id": "8d5388d322b41bbcecfe",
@@ -242,14 +252,14 @@
       "publishedAt": "2026-10-04T07:00:00Z"
     },
     {
-      "id": "aef41eda23077b724af3",
+      "id": "6517e0b12e1684756915",
       "category": "Matchday",
       "time": "NEW",
       "title": "The Barcelona-Real Madrid match will now be played tomorrow at 7:00 pm CEST",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTUFndm9ZVGhydmFvWHYtUEZTU2JMT1NJTFlRM19rVkVkR1RxNVZwVS1wc0hxb2w4bjZTTTRYUFlRd0prN2h1MmV0LUVVSURvaGRCbVpkT2NCdkZGYTl0Vjd2VENNYjB0TW1Xcm1FUlo3S2NtZjZCdnRZMy02Tnhqb2wweGZtVTFIVkNtZEtxSzhBQjFpazhGZHRDMURYT2t6OExZbDZjZV9NOFhSa0tOUWFmV1pQQ0dDamp0RndwLS14TWhDem94YVJ4OHV6M3BqRy1vNg?oc=5",
-      "publishedAt": "2026-10-03T19:51:57Z"
+      "publishedAt": "2026-10-03T19:32:00Z"
     },
     {
       "id": "0c0b56c71470e58ae3a2",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
       "publishedAt": "2026-10-03T16:30:00Z"
-    },
-    {
-      "id": "d009e406cb1fab57bc8c",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid squad list for the match against Barcelona - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
-      "publishedAt": "2026-10-03T16:30:00Z"
     }
   ],
-  "updatedAt": "2026-10-06T01:27:46Z",
+  "updatedAt": "2026-10-06T07:48:45Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
