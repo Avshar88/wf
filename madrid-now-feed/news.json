@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "eae662e5af833c626582",
+      "id": "915ee47bc13bc873f1a5",
       "category": "Official",
       "time": "NEW",
       "title": "24 years since Ronaldo's debut",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0FvbmEybjhweThreXVxUkRkQjdpc1VqZjgtVndKNnRQelh0SERESFc2V284Sl9kRjlJSXRlV3A2XzVrNHpxcDZRSWtzUHRvNmxLcE1IRUJJOEQxTFFHY09qdk5MTzBRSTJXWGhMS0k2c003RUo2T0hNT3h0MmtlWHRwdUJSNGN5THpZQnhtOGstWmY0ZVJWRFN0UFpETDFVeWhzRU01bW8?oc=5",
-      "publishedAt": "2026-10-06T05:43:34Z"
+      "publishedAt": "2026-10-06T09:38:00Z"
+    },
+    {
+      "id": "9b60d8b1a50e38394abc",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Mourinho begins to welcome back internationals",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRFJ0blluMDRBaU9OZEZuNnRsQ3BOZldsaG9sNGFaNS1vQzQ0TVk2ZXdQQWZFRG9YRDNnLUV3XzBPWnQ3ejBMT2dJZG45Z04tTlVtS2VjT0tqN3NSbGdVakdXVXJPcDNidEs4WHktcjZyRXBpNl9BMGhqWHRfeWFZNVVEZ3JOQmlQRUFWYmtyOVBOUWNJdDBmVU1Kbi1nSDRXRnFlVEt0Y1NFRzQ?oc=5",
+      "publishedAt": "2026-10-06T08:30:55Z"
     },
     {
       "id": "30d39a3ed5dab0c6d646",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkF6dkpBV1Nvd0NiX3pxVk83OEIwdXhFOWZLaW1NcWJHTF8wRFBVcHJZRGhnRkwxbk9iTE45N1NRUHhOcExpRk0xRzE5eTJPbGIxS2k4cDZOQnI4OF96cmNWLUNQbUk5T29BYjdKenE1a2l6M0w3OEJwVks4bjVQUDgtbG1kOGc5djNjejJyN0hVY0lRWjN3akg0aFJNVkY1NklKZi0wclRZcVZFYUl0TEo2dkRHMktKOTFuZjVZS3Utelo0VGVyNFFFTzV6M01yTDVBX3VuMmhnb0Zp?oc=5",
       "publishedAt": "2026-10-03T16:46:00Z"
-    },
-    {
-      "id": "77f8385fb3a666c5d5bc",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Real Madrid squad list for the match against Barcelona",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjUtMzk3SWpoVV83UHBuUHZBTnZ5ZGZiYVRnY2RVNnFMYjZBa0tSWXVaX2RsQXNCamFEXzlwM1FMMWZEUTNlajJJaXUtMmRGbFExa0RCQ0RmV1FueEoyYmZiaGJrT3NkSGtDemFsV05vWnlXRUh0a3dmb2tNTkE5Z3hhVkhhaEhldjg2MmpmcEl1MEdFMGtUWHFmWUxGanp2S0lndGJVY3RzcTR4Z3VqcW5EVXlKamFaTWZ6cE5oSWxsZEtzWlRXbQ?oc=5",
-      "publishedAt": "2026-10-03T16:30:00Z"
     }
   ],
-  "updatedAt": "2026-10-06T07:48:45Z",
+  "updatedAt": "2026-10-06T14:30:00Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
