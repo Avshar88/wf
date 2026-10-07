@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "28a566a8c51647a196c3",
+      "id": "fa75fd5e8b4578967fa8",
       "category": "Official",
       "time": "NEW",
       "title": "Trent turns 28 years old",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmpfYjh4dWpIU0FUYjQ0QXJldFJDa2hOWTNaMXlZQTJfV1BsQi1ZXzFXRE5NaFU0M2x6ZFVSVWJ1Z0R0cmNVLWhGbWlkdjA1WVo4V3MxUkZTd1ZES2hJVzVBanVKbnJwaDY4RnpNVEhlbFJKZmdhUzN2UlNDQkJrZlVUVk5YSU5mU1ptcnJHTndtMUFPblhXSXRuaFpOckhpOEJN?oc=5",
-      "publishedAt": "2026-10-06T22:12:41Z"
+      "publishedAt": "2026-10-06T22:08:24Z"
     },
     {
       "id": "313943c48fd7dd7aa43e",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-04T10:13:00Z"
     }
   ],
-  "updatedAt": "2026-10-06T23:15:49Z",
+  "updatedAt": "2026-10-07T02:24:15Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
