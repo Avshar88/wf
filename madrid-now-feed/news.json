@@ -2,14 +2,34 @@
   "version": 2,
   "stories": [
     {
-      "id": "fbc20ecba8a0fda12479",
+      "id": "79ec3b388cba069e23e1",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔥 STUNNING GOAL FROM DIOMANDE AFTER A BRILLIANT MOVE WITH BRAHIM! 😱 | REAL MADRID",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=TBJaPeUgDtA",
+      "publishedAt": "2026-10-07T19:35:35Z"
+    },
+    {
+      "id": "a29a7a576fda2c652041",
       "category": "Official",
       "time": "NEW",
       "title": "Uber Eats, new official sponsor of Real Madrid",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2RBY0VOTkxFbDdna0pQVmJsVlNJZHN5VFdydHNwOG05cUVDUFFIVEZ4ajJHZzQ4SmFXTGpnd1NjQ2ZkTmxPOGJ2SmxLUkJBY1ZkWUFQejFMa0ZNZnhIbnQxVFpiV3BfLTkwSlppaEVsVHZEYzFiS01BS0RTekEtQkN6U3FXUTJfcV82aUZMYl9fSmJDLXB4cDZ3TTZlRm9pNURpX0FSSnNBZ29BMDY4MlNOUllSUQ?oc=5",
-      "publishedAt": "2026-10-07T15:14:05Z"
+      "publishedAt": "2026-10-07T19:20:29Z"
+    },
+    {
+      "id": "03da74b5aeed59965f62",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Brahim ➕ Diomande 🟰 Golazo. #RMCity #Diomande #Brahim",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=fChUU12iOGU",
+      "publishedAt": "2026-10-07T19:05:27Z"
     },
     {
       "id": "afdd2f13282ed40418bf",
@@ -280,29 +300,9 @@
       "source": "LaLiga",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2E0QTIxZE9PN05KZFFqelhfOHBucjB1T2tvYXBtUllXVThNNGlNMXpuUVpaaTg2eWJYcm1aZHg5X3J5MjMyaUtmTmctYmdqc0pFUXc1V2Q4Ri1ZeE9oRVdFYW5PZWlyS2VXWGhfWEkxR1pFcW50VTRGc2tEaUtXZWtHUUFrQjBGQ3d4cnozUkdGM2tfUTRyWXRYZWtZcEdRcDRzVEM0bHR1YjBucUd0aG1wSlRzLTZsVFV6Rg?oc=5",
       "publishedAt": "2026-10-04T11:27:59Z"
-    },
-    {
-      "id": "65f95a23a6ff4d8ad27d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid Wins in Overtime",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
-      "publishedAt": "2026-10-04T10:35:00Z"
-    },
-    {
-      "id": "e688e33549d6f743f3ae",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid Wins in Overtime - realmadrid.com",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeERyNFFSclkzVGlzT0ZadnNCeUxUWF9pN2dfOW5SYnl5aVlsbzVLWGtLY0dvXzZqQWl5MjFaNlBkWWNCVDJOVS1oNlJGMjRXTUZSZ2NUa0FEd1FPQXQ1UlRicG1CZlFCdmhVVklpcjNlbHBuWlBCeEFQXzVuaGF0eDVtQ1pEbW9nc2VCLUVoS3UzMDVTdERhaXRxbVpiVkFtTHpjeWRmOA?oc=5",
-      "publishedAt": "2026-10-04T10:35:00Z"
     }
   ],
-  "updatedAt": "2026-10-07T15:51:08Z",
+  "updatedAt": "2026-10-07T20:49:17Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
