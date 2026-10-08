@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "b9d1a07d15e2f05b3a44",
+      "id": "1367775ca709d9247981",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid-Partizan: The EuroLeague returns to the Movistar Arena",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUGhlOVBKNWhPdnJqUHNpa1pDV1dBVTFhMjZfWHNMZTNNSFlndEQxNTB3dDZxUjJ6Y21GMGVOcnNyRG52SmVMSDgzM0VCaFVPQjRJakJDczhHUFdnSzB6TERoQmZ3LWhqRUVySDFTdXA4ZE5LaS1NTFdkRnUyS215a3pTUDBqY1gzVXVkOTF3REhCQzYzRjN4RENwMzk?oc=5",
-      "publishedAt": "2026-10-07T21:23:31Z"
+      "publishedAt": "2026-10-08T03:23:31Z"
     },
     {
       "id": "5c024925c365f65bf732",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-04T13:07:00Z"
     }
   ],
-  "updatedAt": "2026-10-08T00:27:08Z",
+  "updatedAt": "2026-10-08T06:24:52Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
