@@ -2,14 +2,94 @@
   "version": 2,
   "stories": [
     {
-      "id": "1367775ca709d9247981",
+      "id": "d8d461d1878cbf65f290",
+      "category": "Official",
+      "time": "NEW",
+      "title": "👊 Fully focused on Villarreal CF!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=X1IhifL0eOc",
+      "publishedAt": "2026-10-08T18:00:34Z"
+    },
+    {
+      "id": "f5cfc5b9afad1afbfd8b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Arda Güler, Mahou Five-Star Player of September",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRHJLRE8wQkVLZ0U1UlNDdktVZno4WWduRk1VamFzbnB6MHJUZDhsWllQcTZYVy1HdVVxTEZGWE13WGdxS3p2Y1k1a1JSQkpmeWE2U3hORmpaeEJ2NnN3Q0FKNy1vTGhSdS1PWVdSOU5hTldjQ1I4WHNMeTVsZ1BYcDVsSGtWSGl0VXV0Y3V0Si1fS2RTaEVteHFsZjhjajNrTUdRaDVQZ2Rub1d1a3ozNGJvZ0RxUnhhQnR0V1hpY2x2YUw3VGhPeXg5QllTMTVj?oc=5",
+      "publishedAt": "2026-10-08T16:31:00Z"
+    },
+    {
+      "id": "8a05dd3e470eab9a9b55",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Schedules of madridistas called up by their national teams",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR2FkeG5sT1NabkZZbTZqNnBUMHJyTkR2cGpWRVlQNkxRV3RTMV8zTVIyQWFsTFU3cmxycnQ1c1lTWl9JeTkxQlJFNDFvQVRIWWpKZnhTQmxDYldaWlJSX2wwVE9YVkFVcHMzUW5hS0p2OUtRakNfd1ItemlFdW1PQjlNdzBNOTlBZ01sQ2NVb3FHRTk0Y2lwcjlCZ1QySVNqVVNjMlNiMVZVTlBuYW9fMkVVX2hwdWdtb1RMa1N3RU1KNHlsZUJmV0pacVYwMTBETUFJdlBxSQ?oc=5",
+      "publishedAt": "2026-10-08T15:20:00Z"
+    },
+    {
+      "id": "06acab27591301ecd724",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "💪 FULL SQUAD BACK in training! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=UKtSTLXAaHI",
+      "publishedAt": "2026-10-08T13:28:55Z"
+    },
+    {
+      "id": "d7e2ef0708ec4bfc9d45",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid-Partizan: The EuroLeague returns to the Movistar Arena",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUGhlOVBKNWhPdnJqUHNpa1pDV1dBVTFhMjZfWHNMZTNNSFlndEQxNTB3dDZxUjJ6Y21GMGVOcnNyRG52SmVMSDgzM0VCaFVPQjRJakJDczhHUFdnSzB6TERoQmZ3LWhqRUVySDFTdXA4ZE5LaS1NTFdkRnUyS215a3pTUDBqY1gzVXVkOTF3REhCQzYzRjN4RENwMzk?oc=5",
-      "publishedAt": "2026-10-08T03:23:31Z"
+      "publishedAt": "2026-10-08T09:23:32Z"
+    },
+    {
+      "id": "36768388abbd387c4a0e",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Gabriela Sabatini visits the Santiago Bernabéu",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3JjbnN2a21pSERjeTVXU0EtS1p3WEdnTDctWjdLUGNjMFlITnVPVVowZFJNNjBnUW5JMzVpQ0NKa0lxOXMxcm9tYXo3MkVsYXY2aGlqYnFTc1RFTTBpR3RjcWNiZjREMGI0Zkh6b2ZKaUdHYjlKcmNjZGY1ak1hOW0tcjE1NVFDRzRr?oc=5",
+      "publishedAt": "2026-10-08T09:22:00Z"
+    },
+    {
+      "id": "c7c4b33337fe19abbb29",
+      "category": "Official",
+      "time": "NEW",
+      "title": "'The 21st Century Bernabéu: José Manuel Ballester,' PHotoESPAÑA exhibition on the Tour",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPS2FkNE1lX09MRFF6YV9sbTl5ZjBuTHlVODlDSDVTTTlBdXRia0MxUS1hVkZJSUI0MXRnckxHLThjS0xxZFpJTm9ZY2Nlck83cm81alpQSGdzMGdReDhYV0tPckZNSmlVYTRoZmpNbzJzRmdBXzNuWGtnU0ZwMEtxZ3B4MGwza2xLeDNkcEZPWks2VGtfUkY1MlVXRE03NlA3bElnYXFLVGhNSG16dWRlandpdjl5cTYzeHd2NkdaRE9pam1DTTMzZGpzMllzZW1nWVl0NkFybDB5aFFpbk1uSnJsU08?oc=5",
+      "publishedAt": "2026-10-08T08:43:00Z"
+    },
+    {
+      "id": "fda0895dbb82fa5589f5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Llull, chosen as the Most Healthy Player of the 2025/26 season",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcERuZGpIcTVCOVRWUG1FMVdHN3BLcGtpS1IzU2lJeVhCMDFYeWRYTzRLeW5iSi11RTBCSFNXOUgzeUx1ZjNsbzktSlFCNnhacVZweWNQVlJZNVBVZTZkeGI3MHo1LVNuT2ZlVmcwRTZrcHlqYTBOaDJxWk1mU3pRU0NBZmJjVXBCUTQxUS1zT1REcUUydnVOVDh4d1F3OWtDbE5IU3JSb3BZS3FNNlNhd0pfcmRKYjhNMWRoanRXVUZWeXpBNTU2ZnBfYWFSRm11WDFsR2tJbTM?oc=5",
+      "publishedAt": "2026-10-08T08:19:00Z"
+    },
+    {
+      "id": "aea8a65629b8f02f2e09",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid continues preparing for the match against Villarreal",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEdzbElTQVctcVJUZVQtM2pFTXNuTmNOdERVSm5TVU9OY1NSX1IxQ1Nac2IyenVUQXFFN001X2xQX1J0YmJ3Wjdiak15eU9uYmxnSG95WEZrblVYRl9zZ0xBc3dyUnNybHd6YzdKOXMwRVZDY1d1ZzViUkVBcV91dnh0MkZuNFhvVWRLS1hMQUM1WGd6Z0VrSVFBRlAxeXJJVUYwWXVaYVdXLWs?oc=5",
+      "publishedAt": "2026-10-08T06:51:00Z"
     },
     {
       "id": "5c024925c365f65bf732",
@@ -142,16 +222,6 @@
       "publishedAt": "2026-10-06T14:41:00Z"
     },
     {
-      "id": "f4171a269896bc5203ca",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUDRLaFB2bE15R1Q4Y3BaV0hsNWxOV0x0WktSek9laHJGaE1INnZ4azN1LXhMZFcyVkN0TDU3NFFMb1ZxNDd6NWwzc0RnSTVHS0wzeks2OC1MalV0eFJnaWdWM0EwcTNuQ2NGTDFTQ1V4YmFrSjdndjhVY3Eta200dGZjdmRmd1lHV2lTekZB?oc=5",
-      "publishedAt": "2026-10-06T11:38:25Z"
-    },
-    {
       "id": "915ee47bc13bc873f1a5",
       "category": "Official",
       "time": "NEW",
@@ -230,79 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVNZTGlTRUlsd3hQaVlIdmFweWZZLXBNWXAzR2FwUTBpMmRVcHFyVTAzN01pYV9KMDFfZnJvT3J6eG1WeVowSHdmbzgtTDZ3cFB1QS1YTEJjV0pfWVFWVC1YTTNPbFVaalVwQTBOX1hxRkpnUDA4VUphQW4za3NRbHRpVGFRYjhmTmNzMHJaVGthM29ER1hYZWhIVzNRdGF4REpR?oc=5",
       "publishedAt": "2026-10-05T09:54:00Z"
-    },
-    {
-      "id": "ef09f891531e57b355bf",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The team completes the first training session of the week",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObi1LcDRhbkNpU3JnQ0d5Z1BhWTNwM3J1Wm5fRW50Z2tJRHV0aXhqeWdqSVdMQ3pmUXJEazhNUlkwUi1NcWtkeXN0eWoyZy1uOHM1ZWdDbC1JREFnRmlXZkM2SDJBNHZnWlVWNGhmbGpCdUdPOG9BaXR4Sll2eDBQQ3dTdS1XemE2Q3JBQ0RpX3E1WmNLS0FWWklPNHVwTE5fbUM5bVJJVGxxN0k?oc=5",
-      "publishedAt": "2026-10-05T06:49:00Z"
-    },
-    {
-      "id": "62f783a4f4b0d63449c8",
-      "category": "Official",
-      "time": "NEW",
-      "title": "96 years since Ricardo Zamora's debut",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU1pvNkI1Q2pGMWVZQkNRSmI4WVZlMjN0bEVGdkFDejB5MU5MeG10b3ZTZERGdDBwZi1YdWJDdjY1RHAzUVJQVlF2dllKbEQwbjVqc2lLV09KamoxMm9JYTRqbXdBX0ZNSXNtWkxRR0I0VGdiem14V3JJaHYxUFdBcHVCMmZlTFJNQ2J4ZmF0QXVHd3MwZ0pDVU91UVo4WDkyUTM1WVRXelF3V3g4aGRZRUN3?oc=5",
-      "publishedAt": "2026-10-04T23:14:00Z"
-    },
-    {
-      "id": "7f00981b04bebd2fab4d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "2-1: Portugal's victory over Norway",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1g5T2hzeFdOM2F0dHo5cVRZWUNkVXJIQlpKWTFadUJFQ2JWdWFVUHRWZk9tREs2aU1KdnNpRHF1c3VtN3lOS1hRdUxFWno5cU5rZWxPblFDUXFqaUd4NHozRmlaQTZHSURwckQzSU5EMTdET18wYjFlVkh0ejA2aWdZVDhHaGlTWERDbVVWeEN2cDAwM0dYQXlFMzFreHhySGxqdUIwY1Q0Rm5nVi04eGRR?oc=5",
-      "publishedAt": "2026-10-04T20:45:00Z"
-    },
-    {
-      "id": "148439cafe8d9919f698",
-      "category": "Official",
-      "time": "NEW",
-      "title": "2-1: Dumfries, starter in the Netherlands' victory against Serbia",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWmxsOWk0VWl6S2s2ZnYwcTN0X1kyR1NnWHZSWGVIa0k3RmV6OWRxU2JXN093WHhhbEEzOG00RVd5M3dLaXIyTk9yRGZ5U0F3ZlFiQ1FzYk13aHZnbE1SOGdVMmdVV2lIbUMzRUx3RHlrYVNuakpnUGlRMDNob2E1SFdBZkVGS213d2JPdU4xWWpVemZSVDZjU1U2Q2d6aTNxTUJHNW9uX3p0SWxKNTIwVTg4SHFYMXpoSExhQmI4bzA1aGFjVnBkQjdvUVBRODNNRjJpMlJpS1VtdFZl?oc=5",
-      "publishedAt": "2026-10-04T20:39:00Z"
-    },
-    {
-      "id": "70d390e30ea3d354adba",
-      "category": "Official",
-      "time": "NEW",
-      "title": "1-1: Brahim features in Morocco's draw with Mali",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX1NpQ3kwdldkN21lZU1YRS1vZmtNV2k4TmpJOVpKQjJSMk5HVlVHTEQ2RUVzQW5ONDJ1X2lsQWlXQWViTjFkeUhNdk1KaWlLdzFRUnpOcTJBM0xVZHVZbGd6elowMEhGS3dKc2U3cVExaFVNYWpWNkNJbXZWQmsxMGVsbGlNcGpuRmJRNTZaVnhDVU9YYmlvMmktTGh1d19BRHY2VFlPUQ?oc=5",
-      "publishedAt": "2026-10-04T20:04:00Z"
-    },
-    {
-      "id": "fd59e0e4640989eb8902",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Jude Bellingham | Features | UEFA Nations League",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMlM3RVlIYUIyaGM1QV9kRXhMYVVyVHJrbzZaYkRJcjBQa1Q2OTlJWlZIMUtxLVNfLXFUbmpTY2JaVVM1Q0xSd051dWhYTFQtcVNyZ3lPSDM5OVlpa0tMbnBYMVlWZUkwdzRkb1E3WUZYeDQyZGl1eXN6TkgyT001eVhBbU9MOXE2T3VVbTl3?oc=5",
-      "publishedAt": "2026-10-04T17:49:43Z"
-    },
-    {
-      "id": "2af33efb2b606e6d4da5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid hosts Partizan this Thursday in the EuroLeague",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnhoeWc2WmljcHlQcENiTnVzQzJQVklVb2hWeE1rdDYxZG00YzNDMnVicHdhMUxBNHZpdlpyVF9Pd19iNnpjWWpLemJMLUVSaUtLRlJqcGJBR1FtUTUwbWhhWHdYOGo1QmM0dGxxRUZpWTR4b2J5N0JWU2lHZlhnMFpVdXI4eFIzQmhWNU5PTS1aQjM5X1JFM1FVSWNlWDdVQlN3M2duUUJLU3I5TGFtZktFQnk5VUVsc1c0U2FIaEtzdlFMWHc5cXRYd1l4RHF2NXNV?oc=5",
-      "publishedAt": "2026-10-04T13:07:00Z"
     }
   ],
-  "updatedAt": "2026-10-08T13:46:20Z",
+  "updatedAt": "2026-10-08T19:28:39Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
