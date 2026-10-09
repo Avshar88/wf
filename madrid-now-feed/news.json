@@ -2,14 +2,14 @@
   "version": 2,
   "stories": [
     {
-      "id": "377a6f983c19c390c5f4",
+      "id": "a8b886e00a969a265d9e",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid hosts Manresa on Sunday",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHNfVS1MckNUYjU4TXk0eHBXRW9jcUtoR3YxX1E3b2x6UEFzMEZ1LUNXMnU0Yk94VGx6UUZkTjNORUhNLVpDVzNMR0dmWGZZTmxSbkx6Z2ZJSFItOV9rX0tlOTRmQzFkRmFreTZiZVJOdUZzTHhWc3RpTHRvSWlpaU8yZU5hN2FHRWx5R3FrSFR6RHZaeHdVZVdzSVJteHJaRGFyaUlaVXFkM21XTmJFRlBad1lRTTd4U3pscGx3em5ITG9HRG5sTkdR?oc=5",
-      "publishedAt": "2026-10-08T22:07:27Z"
+      "publishedAt": "2026-10-08T22:06:05Z"
     },
     {
       "id": "93c7bc1a17bbb2d0b1b8",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-05T20:27:00Z"
     }
   ],
-  "updatedAt": "2026-10-08T23:50:32Z",
+  "updatedAt": "2026-10-09T03:08:13Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
