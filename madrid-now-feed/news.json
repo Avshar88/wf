@@ -2,14 +2,44 @@
   "version": 2,
   "stories": [
     {
-      "id": "36155fb38f7dee6ff01f",
+      "id": "4311a35bff93d13b9aee",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's starting lineup against Villarreal",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVFEakh2SlVfYTRfRURaWVFhempaR3hYVDBuLS12ejByTVR3U3Q4RmlrRDlQTmRSWEdJVktmQ2liQjIxY1RVdnFEOWdtOHlURUtweU1aWHotMFlIRFhXVEt6eTFBMEFnQzBOeWt4QjR6QnZFWmJXTExhOGhpdktFem9ad0ZlbFJWTU1nM0oyTHBTZEJtcExPcjNhMUtoZXRwZGJ2MVlXQ3lrRWFBRXR2TG5jck5CNDVuTUtDb1VqSDFWZE9vMzFB?oc=5",
+      "publishedAt": "2026-10-10T17:45:27Z"
+    },
+    {
+      "id": "7455b87630773ff076c0",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | Real Madrid vs Villarreal | LaLiga",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=F0OdcGLAWHQ",
+      "publishedAt": "2026-10-10T17:29:32Z"
+    },
+    {
+      "id": "d718155593beaee6f950",
+      "category": "Official",
+      "time": "NEW",
+      "title": "😍 The best view in the WORLD!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=cyazNBjz_GQ",
+      "publishedAt": "2026-10-10T17:13:57Z"
+    },
+    {
+      "id": "aa40a809ee36a122055c",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid-Villarreal: The League returns to the Bernabéu",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOejRpaEtHYTRuY1Y0bUhRWk10clUwY090Qy1zMHp0bjdiZ3pyT2J2a1ZZUTRodzZRVk90UERERmRwN3JwMzBZZnE2S1hRUVRYZ3kzVElvd3dOeVpvUFFhb09KVHduQTREUElTUFpXaDRJeDIzdUxWOW1ITlkwekx5WjhzQnk4N0VMV3JrTjltTi1Vb0VJZXp0QzFhaEtPSlphTk1BakcxcnFDVEt5M19VT0thSGxrcERhZndoaWN3a0QzMEJ3dWRpSmdzYTZNV095VzBJSHFPWC1TUlo1YXMtLTR3?oc=5",
-      "publishedAt": "2026-10-10T11:34:04Z"
+      "publishedAt": "2026-10-10T13:13:00Z"
     },
     {
       "id": "bb5bd5208d5fe9161168",
@@ -270,39 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2RBY0VOTkxFbDdna0pQVmJsVlNJZHN5VFdydHNwOG05cUVDUFFIVEZ4ajJHZzQ4SmFXTGpnd1NjQ2ZkTmxPOGJ2SmxLUkJBY1ZkWUFQejFMa0ZNZnhIbnQxVFpiV3BfLTkwSlppaEVsVHZEYzFiS01BS0RTekEtQkN6U3FXUTJfcV82aUZMYl9fSmJDLXB4cDZ3TTZlRm9pNURpX0FSSnNBZ29BMDY4MlNOUllSUQ?oc=5",
       "publishedAt": "2026-10-07T19:37:00Z"
-    },
-    {
-      "id": "79ec3b388cba069e23e1",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🔥 STUNNING GOAL FROM DIOMANDE AFTER A BRILLIANT MOVE WITH BRAHIM! 😱 | REAL MADRID",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=TBJaPeUgDtA",
-      "publishedAt": "2026-10-07T19:35:35Z"
-    },
-    {
-      "id": "03da74b5aeed59965f62",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Brahim ➕ Diomande 🟰 Golazo.",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=fChUU12iOGU",
-      "publishedAt": "2026-10-07T19:05:27Z"
-    },
-    {
-      "id": "03da74b5aeed59965f62",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Brahim ➕ Diomande 🟰 Golazo. #RMCity #Diomande #Brahim",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=fChUU12iOGU",
-      "publishedAt": "2026-10-07T19:05:27Z"
     }
   ],
-  "updatedAt": "2026-10-10T13:28:10Z",
+  "updatedAt": "2026-10-10T17:55:41Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
