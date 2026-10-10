@@ -2,14 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "3049de332abbf8d44ff5",
+      "id": "9b7b7ef6db7ed9fb8ae2",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid-Villarreal: The League returns to the Bernabéu",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOejRpaEtHYTRuY1Y0bUhRWk10clUwY090Qy1zMHp0bjdiZ3pyT2J2a1ZZUTRodzZRVk90UERERmRwN3JwMzBZZnE2S1hRUVRYZ3kzVElvd3dOeVpvUFFhb09KVHduQTREUElTUFpXaDRJeDIzdUxWOW1ITlkwekx5WjhzQnk4N0VMV3JrTjltTi1Vb0VJZXp0QzFhaEtPSlphTk1BakcxcnFDVEt5M19VT0thSGxrcERhZndoaWN3a0QzMEJ3dWRpSmdzYTZNV095VzBJSHFPWC1TUlo1YXMtLTR3?oc=5",
-      "publishedAt": "2026-10-09T22:09:43Z"
+      "publishedAt": "2026-10-10T05:30:47Z"
+    },
+    {
+      "id": "e8fd8f5cd348c78a6339",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Burgos: aiming for the third consecutive victory in Liga U",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcWktM1k5NHVXMkFlbWZzQlpJUElvaDh6VWdreWk3WEZxcWlvZW81ZEQ3Q1Z2eHdDUHgxeXFKWHh2el9oNktvYmNkTGlVdHN0NVY3TUV3V3ZKVU5HYXpJZ0lVZWRSbkdxaHRWaEE2Q1JfT1V1U0hwLThDZTZQZTVxbzhlNE9DTWNndGtHU2dxV3ZKajNwNU5JUHE5SHh4M3BvQWxNYTBRX3BsbmR0cmV2bzBvY0xWLXQxM2tmb1JnZmY4RDhrZ0t4X3hyNDFNemllb3ZRUVhrRDlxZw?oc=5",
+      "publishedAt": "2026-10-09T17:09:00Z"
     },
     {
       "id": "4ff46d1cfcbde4f70793",
@@ -80,16 +90,6 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHNfVS1MckNUYjU4TXk0eHBXRW9jcUtoR3YxX1E3b2x6UEFzMEZ1LUNXMnU0Yk94VGx6UUZkTjNORUhNLVpDVzNMR0dmWGZZTmxSbkx6Z2ZJSFItOV9rX0tlOTRmQzFkRmFreTZiZVJOdUZzTHhWc3RpTHRvSWlpaU8yZU5hN2FHRWx5R3FrSFR6RHZaeHdVZVdzSVJteHJaRGFyaUlaVXFkM21XTmJFRlBad1lRTTd4U3pscGx3em5ITG9HRG5sTkdR?oc=5",
       "publishedAt": "2026-10-09T09:50:00Z"
-    },
-    {
-      "id": "fd7502fb0769cdbde063",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid-Burgos: aiming for the third consecutive victory in Liga U",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcWktM1k5NHVXMkFlbWZzQlpJUElvaDh6VWdreWk3WEZxcWlvZW81ZEQ3Q1Z2eHdDUHgxeXFKWHh2el9oNktvYmNkTGlVdHN0NVY3TUV3V3ZKVU5HYXpJZ0lVZWRSbkdxaHRWaEE2Q1JfT1V1U0hwLThDZTZQZTVxbzhlNE9DTWNndGtHU2dxV3ZKajNwNU5JUHE5SHh4M3BvQWxNYTBRX3BsbmR0cmV2bzBvY0xWLXQxM2tmb1JnZmY4RDhrZ0t4X3hyNDFNemllb3ZRUVhrRDlxZw?oc=5",
-      "publishedAt": "2026-10-09T09:46:01Z"
     },
     {
       "id": "403b06b8645e98dd06ad",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-07T09:12:00Z"
     }
   ],
-  "updatedAt": "2026-10-10T01:11:11Z",
+  "updatedAt": "2026-10-10T07:01:36Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
