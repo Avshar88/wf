@@ -2,16 +2,6 @@
   "version": 2,
   "stories": [
     {
-      "id": "2b0421d975c50272b67b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid visits Olimpia Milan tomorrow",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS1YzSXRoVTZVZGR5eVdiS3BWcjBTa3p5OVpHVzh2LWU1cE10SWFkTFQxaTV0dUgzQndVLXlkRVJaTE9QUEYyNU54WVRQdnhLWG9icUV4aHlHV2hhWDNXN0hLbXJqNkNBSUM2XzNVQ2thOUtmZXVYQ0YzMmNXRnRTT3JFeTllR19HM1JZLTQ4UWl4MllFejl2YXdHc1B0VWUzUVgwVHlxbktWX0gyMkxUbk5jOEUxNmFXeTBjd3RjSUV5UTNSV1ZoZTBTMm9VaXc?oc=5",
-      "publishedAt": "2026-10-11T22:21:26Z"
-    },
-    {
       "id": "3baece75f965aafc9eb1",
       "category": "Matchday",
       "time": "NEW",
@@ -20,6 +10,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWExrZFZIYnhHdXlFMldPUndKR2pIRzNiRFdUcWVxaWNZMnQzOFc2Rm04SFJEc2F5SFNLalhnUnY5eEgtdTdkTGd5SlhGS2h5c2U1VE1ONWlQNHdoS1VZVk1ySDREcXM0TlZNMnFpbUZYNWtqOUp3U0swZTREb2o2a0d6aGJraWotNWNUaUtMdVI2WlR1bkMwRW1mQW9Ga0VRZDJqZU9IdHNtczlXSDdkd1hFY2kxbTEwQWozbllvN0tLaFY2Z3VKb0pEakFCQWRvaXJ3el9n?oc=5",
       "publishedAt": "2026-10-11T22:17:45Z"
+    },
+    {
+      "id": "230e677e2cea2928ff97",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid visits Olimpia Milan tomorrow",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS1YzSXRoVTZVZGR5eVdiS3BWcjBTa3p5OVpHVzh2LWU1cE10SWFkTFQxaTV0dUgzQndVLXlkRVJaTE9QUEYyNU54WVRQdnhLWG9icUV4aHlHV2hhWDNXN0hLbXJqNkNBSUM2XzNVQ2thOUtmZXVYQ0YzMmNXRnRTT3JFeTllR19HM1JZLTQ4UWl4MllFejl2YXdHc1B0VWUzUVgwVHlxbktWX0gyMkxUbk5jOEUxNmFXeTBjd3RjSUV5UTNSV1ZoZTBTMm9VaXc?oc=5",
+      "publishedAt": "2026-10-11T22:14:57Z"
     },
     {
       "id": "a81fa4eb612676ddc00a",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-09T17:09:00Z"
     }
   ],
-  "updatedAt": "2026-10-11T23:06:29Z",
+  "updatedAt": "2026-10-12T02:17:48Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
