@@ -2,6 +2,36 @@
   "version": 2,
   "stories": [
     {
+      "id": "8260d0306e08e85b96ab",
+      "category": "Reported",
+      "time": "NEW",
+      "title": "Real Madrid's Vinicius to miss Clasico after four-game suspension",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnF6eDJEYkthTmpwV0E2UkozMEk5Tkh1QTA5Mzk3Rk9mNHgxSFNBMktsZXk5d3QyYzJpZVRScC1jN0o1a0xNY2RaZ3EydjFDaEhVRkotV1IzdF9kQnBwZU1CYWFrcndocDZXd3RuR3AybkN6bkJfN0xZNmRILWlsTmtjVXZJMjZCQ3Y5VEtXLXhpcVJneWRCdUZNLWtjTGhpOC13dUtJd0J4MllNN3dZbA?oc=5",
+      "publishedAt": "2026-10-14T18:08:12Z"
+    },
+    {
+      "id": "081d4319deb14b142911",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🏟️ Stadio Olimpico 🏟️",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=-PszFHxr0Is",
+      "publishedAt": "2026-10-14T17:55:59Z"
+    },
+    {
+      "id": "d7e5a9399b7c63b0607f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "📲 Champions League is calling!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ldGCpVnk-t4",
+      "publishedAt": "2026-10-14T17:09:12Z"
+    },
+    {
       "id": "d7e5a9399b7c63b0607f",
       "category": "Matchday",
       "time": "NEW",
@@ -15,11 +45,31 @@
       "id": "3e54662dd6d7bfe4f1c4",
       "category": "Matchday",
       "time": "NEW",
+      "title": "🪄 Champions League magic!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=6yh935Fst9g",
+      "publishedAt": "2026-10-14T16:55:05Z"
+    },
+    {
+      "id": "3e54662dd6d7bfe4f1c4",
+      "category": "Matchday",
+      "time": "NEW",
       "title": "🪄 Champions League magic! #RealMadrid #UCL",
       "summary": "New video update from Real Madrid's official YouTube channel.",
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=6yh935Fst9g",
       "publishedAt": "2026-10-14T16:55:05Z"
+    },
+    {
+      "id": "daefec9659c4fe5b40a3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "⚔️ We're READY!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=l-U-tyf8l3s",
+      "publishedAt": "2026-10-14T16:55:03Z"
     },
     {
       "id": "daefec9659c4fe5b40a3",
@@ -72,14 +122,24 @@
       "publishedAt": "2026-10-14T14:13:28Z"
     },
     {
-      "id": "5ffa93b722706bf0b153",
+      "id": "08e531a3baeafa82e56b",
       "category": "Official",
       "time": "NEW",
       "title": "Jantunen: \"We must keep building on what we've done in the last few games\"",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3pCMXJnRm9CZ3ZPb3pxOUZmY2g3eVlELXFWWl9CN3pIWmpjdDJRR2Q2ZFRNQnJ5VHZWdmp3bG0zYWRxR3d6X1Fxck9IamdPVzlKMFdpaGZ1dFhxU2g3OXhzRFRCUlF4eEc4TFdMWVR5S2c0YWRDcmNRazYzQm9rdGdJTXNYcmE3ejRQNGhUM1pBM09nb2xldjhVM3MxeVRRdEtzS3MxT0xUZw?oc=5",
-      "publishedAt": "2026-10-14T12:04:00Z"
+      "publishedAt": "2026-10-14T12:45:29Z"
+    },
+    {
+      "id": "b13f4d9469383d08d109",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🪗🏛️🤍😊",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=voX8Lw47g1s",
+      "publishedAt": "2026-10-14T12:00:23Z"
     },
     {
       "id": "b13f4d9469383d08d109",
@@ -240,69 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRnhPc1FiT1VVd3Q5MHpiNktnRDdIWjBNVE1YZUF4Y1FPNE1TUUdSYVlDUzRJZnlPSVluamRoeEwydTRNaGFyZW5XMUJ1TFZSdnAydGZPb3Ffcm45N3BvSmNxSHRmVE9PU1hodWhhM0djOWhxRkxzNld2dEJ4THRieHpWYTM1VDNqa3kzZjd0dHE1Yi1ELWtjZXY2S3NSSlg0TkVJU2xPRDlLNW9TNVBsQ3REMUM2SnIwOGdIekJKRjQ0MDBMZ0ZzRVdMVDZrdzA?oc=5",
       "publishedAt": "2026-10-13T14:31:00Z"
-    },
-    {
-      "id": "4cc0659778c4af3654f2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid is already in Rome",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMlVzZVpYRC03X1d0UGF1TTVDTUl1X0M5QnpNNVpia1Raam92YVN6YTVacFczMldTU2l5VFRsNUxmZGJhVTNiWXB5M281Y3FlTXVoSWJuU0hWWlpwckswREEyQmU2TkhjTlVrUGNKOS1KMGRNRlBTMzZ4MDNhS09FaEZ1cEpzZlVaaDFKek5tUDRKd01OeEZvRXNJZFVJeXFtcldvektQOXVFLVJr?oc=5",
-      "publishedAt": "2026-10-13T13:00:26Z"
-    },
-    {
-      "id": "97e6403c4fad33a6c49b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid Squad Against Roma",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMzM3VHJYbnpsdlJSbGFnSjV0NnR5dkVSVW94OVdYV0dfUTJ4WVlpN21FTTZKYTJVR3dEYzd2c0o0TVE3UGh2Ukd1Z1NlMEdaSF80YU9xeldyU3laNUE4eXkxdkg5ZUJORy1ORzY5XzlWUTNNVWlqRWNjX3BJdl9ra0d6aXJrSGxJY3BtY2x2WmNIODBSR0FaRGhsSllDdDRzVllscTFOUTJDUmdEa0xiUFlqRm5LUzZ6U2N0NEVab3c?oc=5",
-      "publishedAt": "2026-10-13T12:30:25Z"
-    },
-    {
-      "id": "e25347e7b2455be19226",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Tchouameni: “It’s an important match, we want to win and keep earning points in the Champions”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdE5vdnpzQ0RScE9rd0s3b3lJVmhKNjM5V2ZObVEwQ0dTZkljTFpsTGxRT0xhUl9DUXVBV2gtajlUN2NiMnQ5OUNuWGhicHJ6YWlRLVJHVF92MVExMF83TGl2empoQkRjTlRCQnJsVFRETVkzSVZOb0Fza0NUQk1IdENuQkVSbFhtOVB6b1AzZ3RZVWNXVmRTbm9naWk5NVJiSEtfQVBRNnZlN3Q4eFNWRUJrSjN6bF9XZXc?oc=5",
-      "publishedAt": "2026-10-13T11:07:00Z"
-    },
-    {
-      "id": "d54a97de5213c7d1c675",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Mourinho: “We put pressure on ourselves because we want to win\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGRuakdYbklJNGZkQ1FWbkkxazNjcDJjbDlra2o3YmdLa2dmM2pDUC05SXlFV25rLXdwcUVWTExacW1IQ0xhang5bU5POVluVDlnYi1adW1lQ0V1VVFXaC1fbzZLdVh3OFVyNjQtVUUwQkNydUtqRDVwa0JsR0piM0l3cUJoeDIyREpURkEzZXZTSUdESkg0X2ZB?oc=5",
-      "publishedAt": "2026-10-13T10:58:00Z"
-    },
-    {
-      "id": "70d9c9943ea21ead72ce",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Olimpia Milan-Real Madrid: aiming for the fourth consecutive victory",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMFFIQktodGJmNWltNFh5MHZ1d3E1UExYR0hVUzZYTk9lalNZVkNJY3ZzQUJFWV9xdzBQTlRtQWFRUVd0Z0t5Vk0tckdvR0ptMWMtSm5aV1JCXzBlOURzMGRhMGh3SEpTTDRBSEdNYy10bV9KMmFYOG93NGwtRWZvaDhIeEJGX3QxaHd5RGk2NklzaTdSSTkyNTJQUXMwV1VuMVJFeExVOWxxRlFQRnhXS3huMmF0T0RhSm5hQThTTHNIb0RaUHNvYmlWZVZfaEczUU55Q2dteWM5aUhLQVpFa3FncEZrS21EN1lF?oc=5",
-      "publishedAt": "2026-10-13T09:59:35Z"
-    },
-    {
-      "id": "301381e8140ed6be61f5",
-      "category": "Transfers",
-      "time": "NEW",
-      "title": "Former Real Madrid defender Carvajal signs for Getafe",
-      "summary": "Latest verified Real Madrid update published by Reuters.",
-      "source": "Reuters",
-      "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZkM3MllnblROWk0tcHN5eEFRcjhEcG90WEFkSi1Zc3VOVWpZTWNzbWJyU1MwaWlKSVctSzBvUDhHeWNOamRyZWh0Q0E0RUk5cXdPcUlKaS1WZmVIZFNEclBkRC1OM3RnYXpKOUk4NkJmVXhhNVlteUYtcHNvNDZBWWpjZHNkOGZuSUlOa0pQcGo0bG5BcTBrWUl0S3h3N21O?oc=5",
-      "publishedAt": "2026-10-13T09:12:07Z"
     }
   ],
-  "updatedAt": "2026-10-14T17:55:52Z",
+  "updatedAt": "2026-10-14T21:05:52Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
