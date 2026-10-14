@@ -2,34 +2,84 @@
   "version": 2,
   "stories": [
     {
-      "id": "e5b4848d536118a8d9d9",
-      "category": "Matchday",
+      "id": "5ffa93b722706bf0b153",
+      "category": "Official",
       "time": "NEW",
-      "title": "Kylian Mbappé's great Champions League games: Monaco breakthrough, Camp Nou hat-trick and four-goal heroics",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNE42dWxXVkhyWW9hcGIxMmJ6TEpJTmJqY1Rqa1BBTmEwOWJjZ1VGaTRmYVZEMXl0Nl9YejkwUU9mOTdQQ3U1UHMxU0lQSjl6c1R2aUtXM1hSc1ktbXhEVWY3YWRWelpiOXBXYmhyTEdIN0c0WndkdTZCS1lNR1NWaC1sSV9VUnIzeHdVdFRNLUxxaDdqdWZ6aTA3bWxFUGl1Y19pVXlOR2dKbF9ubkppTDc5UkdGT2tQdXd1S2Y5eHFteVZBV045OWI1RVFfOWVJdXJtZzRuclVOM3lp?oc=5",
-      "publishedAt": "2026-10-14T06:45:00Z"
-    },
-    {
-      "id": "2cbf250617d3d769cabb",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "aiming for the second victory in the Champions League",
+      "title": "Jantunen: \"We must keep building on what we've done in the last few games\"",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMkJOdkNDSzdOZm9HdVJPYzNHaFFBWTVHcTZXZFI4VFFJTVFCTjE0Z1VVN0VXR185UDJucXpmNE1EWEotYUNVZGRmTUR1TGlIRWNRQ2x2NG5oYkNOMUZZYnJJdi0xcWpjckhybE9GMHFYbUxSNkxBTmlLOUNjd2hOMTBjR1FKaGk5WjZ4ZHNVQmE1UGdSOTV5ZEpua2YwTXFoSFZVeDhwUjg2QnVIakNvTENOSVRiSVpPVE51dzh2eUY?oc=5",
-      "publishedAt": "2026-10-14T06:10:30Z"
+      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3pCMXJnRm9CZ3ZPb3pxOUZmY2g3eVlELXFWWl9CN3pIWmpjdDJRR2Q2ZFRNQnJ5VHZWdmp3bG0zYWRxR3d6X1Fxck9IamdPVzlKMFdpaGZ1dFhxU2g3OXhzRFRCUlF4eEc4TFdMWVR5S2c0YWRDcmNRazYzQm9rdGdJTXNYcmE3ejRQNGhUM1pBM09nb2xldjhVM3MxeVRRdEtzS3MxT0xUZw?oc=5",
+      "publishedAt": "2026-10-14T12:04:00Z"
     },
     {
-      "id": "ecb0255ee20dd5805ffe",
+      "id": "b13f4d9469383d08d109",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🪗🏛️🤍😊 #UCL #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=voX8Lw47g1s",
+      "publishedAt": "2026-10-14T12:00:23Z"
+    },
+    {
+      "id": "386bd1e919f50fa7a0a6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Pedro Martínez: \"We need to prepare very well because it’s going to be a high-rhythm game\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjlQa1RlNVM2emFZa0l6ay1kOUt3Nmdrc01ScE82YnVOc3BpdGx2WHFubVFRbWYtMHN6cnRvSnR4OWRQTTV2V2hxZFhadEdPY25kY0d6YkdhM2E0ZlhOM2JkeFFxWGt0UE9xdzNNLUJ4NFNoZGxBN0RLaXlyTlo1YTlfMGFGczY0Y051RlN4VlQ2eFVrUnIzYklwcE9kX0dGcWVJWV9ERDl0cEtUVEl4QTRGOVlITU9LU3RhYTJCMkQzNjRycGM1aHhxVWEwcGI5eVNGZWNIZlBTakZ5di02REhpUF9FQnZXalF2UjVaOElnY2M?oc=5",
+      "publishedAt": "2026-10-14T11:56:00Z"
+    },
+    {
+      "id": "7e6ec7e1f6a573671114",
       "category": "Official",
       "time": "NEW",
       "title": "Real Madrid hosts Asvel tomorrow in the EuroLeague",
       "summary": "Latest verified Real Madrid update published by Real Madrid.",
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa2V0ZnpHYVUzaFNwZU5hb1laZE5YR09FM1ExS2IteS1ua3dpeVdvc2N6cUFyZFBONWlzN1pwQ1pkUDFPNGZSdWhuRm9lcUZ6a1paYkxVd0UyNWNnSnE2VHlBNU5EZkprSGhNTFUzSWNYeGhjS0JsNUVjYW80WWt2UnRDSW42NVpCM25JZklWWk9XOWlRQTUzOGZCRTNLemNmZG10dXprZndzekR2OHBBSTlNX3RvejRnUkVJamluekpnU3N2LWs3bXNMZw?oc=5",
-      "publishedAt": "2026-10-14T04:09:44Z"
+      "publishedAt": "2026-10-14T10:09:44Z"
+    },
+    {
+      "id": "778d6961f5cbdbadb95a",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "aiming for the second victory in the Champions League",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMkJOdkNDSzdOZm9HdVJPYzNHaFFBWTVHcTZXZFI4VFFJTVFCTjE0Z1VVN0VXR185UDJucXpmNE1EWEotYUNVZGRmTUR1TGlIRWNRQ2x2NG5oYkNOMUZZYnJJdi0xcWpjckhybE9GMHFYbUxSNkxBTmlLOUNjd2hOMTBjR1FKaGk5WjZ4ZHNVQmE1UGdSOTV5ZEpua2YwTXFoSFZVeDhwUjg2QnVIakNvTENOSVRiSVpPVE51dzh2eUY?oc=5",
+      "publishedAt": "2026-10-14T09:39:00Z"
+    },
+    {
+      "id": "2001fd86a00f97f39609",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Registration now open for the 2027 football campuses",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRExfYVJMM1A2dHBZcnhnR24xdEZzbVktakxqSHZMQldwY3lEUXZYWXZiMmF1NUpvSmNzb1VEM18tU01UMHVsTU1Dek4xM3kwTDRqMFhCT3hEM0s0aWVKemp0d2Z6elNpZzh3NnRLTXpzR2lJTmI4TV9RYWFwenppMEpmRUh3UDlGbEt1N2U5U184QkVSMmN2ZjJYRHFiRGdpb3Atd1FHa1R4ckhKXzg5cjZRb19UdjhTb25aZFdRbDEyZXVsa3c?oc=5",
+      "publishedAt": "2026-10-14T09:33:00Z"
+    },
+    {
+      "id": "50541298b206f436c663",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid, adidas, and FARM Rio present a new collection inspired by Brazil",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVnJ6a1RBRjZDMERpTzdzLXJTY0YxSEprdm04dnlLZzlkYThpNHlXUE9LMTV0NnlVOGdnNXpESFFROUhIczdpSjZvaTlYNjJkWXRIR2NMcmpKTENoMkU0R0t4V3FMa0lfa2pSR0YzcU15Qzc3VXVMY1JMSHBvYjI0TDdWZUstV3ZTX1lSWFVMb0s4RUhmWmFTVGlSeklzbnN6RWg3bHZ1aHVkYU9DQ2FOLWJObllCOGtqZFRIdHhkSEMwR0ZTckVQS2MybEN0cEhTaVFEX2pJTzNGa0ZmeFE?oc=5",
+      "publishedAt": "2026-10-14T09:15:00Z"
+    },
+    {
+      "id": "35d0d4d5b75e052848bf",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Kylian Mbappé's great Champions League games: Monaco breakthrough, Camp Nou hat-trick and four-goal heroics",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNE42dWxXVkhyWW9hcGIxMmJ6TEpJTmJqY1Rqa1BBTmEwOWJjZ1VGaTRmYVZEMXl0Nl9YejkwUU9mOTdQQ3U1UHMxU0lQSjl6c1R2aUtXM1hSc1ktbXhEVWY3YWRWelpiOXBXYmhyTEdIN0c0WndkdTZCS1lNR1NWaC1sSV9VUnIzeHdVdFRNLUxxaDdqdWZ6aTA3bWxFUGl1Y19pVXlOR2dKbF9ubkppTDc5UkdGT2tQdXd1S2Y5eHFteVZBV045OWI1RVFfOWVJdXJtZzRuclVOM3lp?oc=5",
+      "publishedAt": "2026-10-14T06:53:47Z"
     },
     {
       "id": "13f6f09c61b5567c0c32",
@@ -250,59 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOeUNUdHl4c18zRUFvQmJOUUxoRTNmNGFNWjFxN3Yxekl1OVBkT21hdnhnTGpJWUE0U3RlQnB0M0l1YjIwVExvUXpMT0NrUWhYdGRRUFRPblBLQUJ4X3ZGbjk4amdZNUdGb2JQT0VGczluSVp4eENNb2FlZWJUWnAyaF9PdjBJRm1EQXc3M0RraEhOMTJZZi00UTBkWXlxRDI1eFdDd2V6UXRmeTZTUWkxcmxud1huWGxCY1lTbUtmX04wcmNsdlRlOWY0UUQ2a0ZDSWxLX0ExdW83dExUMlFOUHFlQ2Y5TU5TZ1ZOaDlWWjdMN1FfcVFPMTBoOTI4dw?oc=5",
       "publishedAt": "2026-10-12T12:29:00Z"
-    },
-    {
-      "id": "a211d182417cba26280a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "The Valencia-Real Madrid match will take place on Saturday, November 7, at 9:00 pm CEST",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdnd6bU5iOXdXRUk4amZrTGxySU5YekNKb0tlM0F3cEFLc1hSMlR3dnhKTmdWcEhPa1BuOGl2UzN5cmNINmkzbWR2aXBrcHNtVkpDTkVhakhwYjRHZ3RwYlJXclotN0lUSGpSa0loSy1oaWFFLTlHdElacGhTSl85c3RBcVh5MkZjWkN1b2RrV184ZHV4Q1JXcGVMWnlDa19QLUZsNW5vVXgwcU9mSjVJU1o5RHZsaFR2Njl4UFpyWjgwTnVzOGVkS0JPdFhrMDNkRWl5SE15anRZMEIzeXBhU2M3OS0wdXhD?oc=5",
-      "publishedAt": "2026-10-12T09:46:00Z"
-    },
-    {
-      "id": "f3a18d3fe5ea1212b201",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid visits Olimpia Milan tomorrow",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS1YzSXRoVTZVZGR5eVdiS3BWcjBTa3p5OVpHVzh2LWU1cE10SWFkTFQxaTV0dUgzQndVLXlkRVJaTE9QUEYyNU54WVRQdnhLWG9icUV4aHlHV2hhWDNXN0hLbXJqNkNBSUM2XzNVQ2thOUtmZXVYQ0YzMmNXRnRTT3JFeTllR19HM1JZLTQ4UWl4MllFejl2YXdHc1B0VWUzUVgwVHlxbktWX0gyMkxUbk5jOEUxNmFXeTBjd3RjSUV5UTNSV1ZoZTBTMm9VaXc?oc=5",
-      "publishedAt": "2026-10-12T09:35:00Z"
-    },
-    {
-      "id": "34936c0c3ad5310d3f42",
-      "category": "Official",
-      "time": "NEW",
-      "title": "The team prepares for the visit to Olimpia Milan",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR1pwZzVMUkhLNFZENnhnQk9sV1ZMTzZqbzBiaG5pSVVqNVM3NHk1MmJLNGpXX1IzY2VVbEZwNVcwaUZoS3YxWkRDOU5UeU9PaFEtbTFVZHl3OFo4SkY3RFR2WFpad3Q1WFVIUXRaTlhOMVFGR1dVR3VaUlh6RlNWWlNsMV9nZ2lDdEcybGNLY1FWMkVSN044Q3ltSVQ5Y1FGOGpzRzRlaU1OemtrWDJZdWcySnhVNWxqWDlJbHJaLVFIMEtvQld0cDJnWDY?oc=5",
-      "publishedAt": "2026-10-12T08:34:00Z"
-    },
-    {
-      "id": "dfe65be6ae178b43b3ab",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "71 years since the first European Cup match at the Bernabéu",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWExrZFZIYnhHdXlFMldPUndKR2pIRzNiRFdUcWVxaWNZMnQzOFc2Rm04SFJEc2F5SFNLalhnUnY5eEgtdTdkTGd5SlhGS2h5c2U1VE1ONWlQNHdoS1VZVk1ySDREcXM0TlZNMnFpbUZYNWtqOUp3U0swZTREb2o2a0d6aGJraWotNWNUaUtMdVI2WlR1bkMwRW1mQW9Ga0VRZDJqZU9IdHNtczlXSDdkd1hFY2kxbTEwQWozbllvN0tLaFY2Z3VKb0pEakFCQWRvaXJ3el9n?oc=5",
-      "publishedAt": "2026-10-12T08:26:00Z"
-    },
-    {
-      "id": "550c8cebf941e6d8f9d2",
-      "category": "Official",
-      "time": "NEW",
-      "title": "François Letexier to referee Roma-Real Madrid",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQWpCV21CcDg2YkU3TnZqZFFTbXd1OFV5QlhlYmpCaV9rRkNhczNmTWhHUXVMWHNTS0VLZkVfcTVvODFHX2ZYczFCVjNRZGRsSF9Eb19Kb05qU2Y3SWJ3djlvTlRZZHlaNkI5OHZVcnprOG5DaFpVOG1TT0ZXOHJRTDU3ZFczV2R3LWdBU3FPLWE2Y1duc0loYWtkb2puUU5vQ19udzdfM18?oc=5",
-      "publishedAt": "2026-10-12T07:19:00Z"
     }
   ],
-  "updatedAt": "2026-10-14T07:35:52Z",
+  "updatedAt": "2026-10-14T13:02:57Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
