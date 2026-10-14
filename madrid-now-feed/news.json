@@ -2,6 +2,76 @@
   "version": 2,
   "stories": [
     {
+      "id": "d7e5a9399b7c63b0607f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "📲 Champions League is calling! #RealMadrid #UCL",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=ldGCpVnk-t4",
+      "publishedAt": "2026-10-14T17:09:12Z"
+    },
+    {
+      "id": "3e54662dd6d7bfe4f1c4",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🪄 Champions League magic! #RealMadrid #UCL",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=6yh935Fst9g",
+      "publishedAt": "2026-10-14T16:55:05Z"
+    },
+    {
+      "id": "daefec9659c4fe5b40a3",
+      "category": "Official",
+      "time": "NEW",
+      "title": "⚔️ We're READY! #UCL #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=l-U-tyf8l3s",
+      "publishedAt": "2026-10-14T16:55:03Z"
+    },
+    {
+      "id": "8b48ef2a97f585f97626",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | AS Roma vs Real Madrid | Champions League",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=aYCYIRoO9II",
+      "publishedAt": "2026-10-14T16:29:21Z"
+    },
+    {
+      "id": "3d82d878e5629c6747e7",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Deck's medical report",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDlhX3p4dEZvWG1ZRGFsZEpyeXk1N1NSWTczMGFLOVl1SGc5MG81TmRLaUt2ZlNFZmN4aDdSN0lSTFQya1hPTHprRWxDZ2ZJS21ubHdtYVh0Q3pCbC1Sb0hqczBNQ3RkM0FkLU9xYjBUak0wSVhadm8yQ0NJcDZzX0VYakoxMy1nRjU4eUdTZ2VTOHFQazFUNWI2aU5vZTJySnNjTGp3?oc=5",
+      "publishedAt": "2026-10-14T16:08:00Z"
+    },
+    {
+      "id": "22ec8b211ff98c87fa9a",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Web oficial del Real Madrid CF",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeVVuOG1udUJjWF8yaGxBSjU0MVA1ZjJEMHdMTktEMjlhaHJKaXF1U0ZXRTdWNXVBOE1CbjNIZ051M2Q1bWVsNUM1Wjd4eEw2UzBGZl9BZ3A2WVdYZWd4NWNhNkZNSlpSelpRVTQ0dWYySGlPdUxndTY4T1FxYUJHdEpwQQ?oc=5",
+      "publishedAt": "2026-10-14T15:23:25Z"
+    },
+    {
+      "id": "6692b229350668831fe5",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🚀 Cristiano Ronaldo 🆚 Roma",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=A31DpJDA0xs",
+      "publishedAt": "2026-10-14T14:13:28Z"
+    },
+    {
       "id": "5ffa93b722706bf0b153",
       "category": "Official",
       "time": "NEW",
@@ -30,6 +100,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjlQa1RlNVM2emFZa0l6ay1kOUt3Nmdrc01ScE82YnVOc3BpdGx2WHFubVFRbWYtMHN6cnRvSnR4OWRQTTV2V2hxZFhadEdPY25kY0d6YkdhM2E0ZlhOM2JkeFFxWGt0UE9xdzNNLUJ4NFNoZGxBN0RLaXlyTlo1YTlfMGFGczY0Y051RlN4VlQ2eFVrUnIzYklwcE9kX0dGcWVJWV9ERDl0cEtUVEl4QTRGOVlITU9LU3RhYTJCMkQzNjRycGM1aHhxVWEwcGI5eVNGZWNIZlBTakZ5di02REhpUF9FQnZXalF2UjVaOElnY2M?oc=5",
       "publishedAt": "2026-10-14T11:56:00Z"
+    },
+    {
+      "id": "e39a74880d1f16537801",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid's starting lineup against Roma",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkUyR0c5bHg3MXA3R2lXeDJiVVFNZmptTkUxMkR5NzY1aEVvSFg4b3NER3lkdGtoaFZXUXo1QmExcm1QTmRqek1lTEJybGd5YXJtVzBjT1NGNkNEdGhMQ0o0Szg2ZUstOWNFMmxaYVBNRW1DaFp4Y3pjUnp4NkVsdXJOMGxqOXVucTlyWm0tTlgyYzVqM0JGNVhSeVE1cWIySjlGWjdBdFR2VndRQU9QclZJWk1BdDdsWGVmR2VrOA?oc=5",
+      "publishedAt": "2026-10-14T10:37:00Z"
     },
     {
       "id": "7e6ec7e1f6a573671114",
@@ -162,16 +242,6 @@
       "publishedAt": "2026-10-13T14:31:00Z"
     },
     {
-      "id": "e6f234142530f115280d",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR3h3RmFSQy1pelpiRG5KN2U5ZFVrbk5sS216YTFiN3BkWm5HcGtrSHpnN3BPSlU3WkdBdmhQZ0tVTmFJOHZ1eWFGNmROWWFwQktodnFISlJwRGEyaDJteXpWZnJCTXhNamlHMk92MjFuc3lyZXZuY1FJRGd1OGd3dzV2QUNlN0xVdXNwajcxRHVBd0lLbUtDNDhIekFFcWdKdDhmaGs2Unh2SGZNSFdxdHMyYnl2aThJd2FyRDM0R0ZSOUkwSHJ1TEZORm9UZw?oc=5",
-      "publishedAt": "2026-10-13T13:30:00Z"
-    },
-    {
       "id": "4cc0659778c4af3654f2",
       "category": "Official",
       "time": "NEW",
@@ -230,79 +300,9 @@
       "source": "Reuters",
       "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZkM3MllnblROWk0tcHN5eEFRcjhEcG90WEFkSi1Zc3VOVWpZTWNzbWJyU1MwaWlKSVctSzBvUDhHeWNOamRyZWh0Q0E0RUk5cXdPcUlKaS1WZmVIZFNEclBkRC1OM3RnYXpKOUk4NkJmVXhhNVlteUYtcHNvNDZBWWpjZHNkOGZuSUlOa0pQcGo0bG5BcTBrWUl0S3h3N21O?oc=5",
       "publishedAt": "2026-10-13T09:12:07Z"
-    },
-    {
-      "id": "e9cb8ddd92be7154903a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Final training session before traveling to Rome",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY29SV1JJUjRfdWVkWDV3QUhfRmVjcERFc2pHM0RCazhVRDMwajRlWGI4WmF0azdjalNOQzVndmt0eWhIZ2NwZnk1dXo3aUswbHhxX01MclJaa0x0ZHBPa3NLVm5QTElua1F5Z3ZjeWZpN21PTTd3ZXhhMnZtM3RCaGVMOGdlNkZnOF9RUlhycjNGMEg0TUNRemQyd0I3WU5SZkY4OUFqWEZDOTU4bHFWaWln?oc=5",
-      "publishedAt": "2026-10-13T08:30:44Z"
-    },
-    {
-      "id": "c06ebb8b534015d500c6",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "☝️ Yan Diomande's first goal as a madridista!",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=cOgKYyIMei0",
-      "publishedAt": "2026-10-13T08:00:04Z"
-    },
-    {
-      "id": "116661a84d25214d5cfc",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Deck's medical report",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPelJlU3ZBUGgweW9WZ3ZGNllkdE5BWXhnSDlRUXhpaHphVDlZa1VzT09QQlByN2JUVmtva0Y5QWNOaV9YSnRUTFJUTUd4VER3Ynd0V2NReTNkTS1HWXhkenFvYlZrTm1CVm9lMHBKUmE4dWEwX0JRc0llVEw0RElXRVhJQVl1b2pJaDViVVhPR0dVRkFGVkNuWDQxdlRNVmlhOVg0MzV3?oc=5",
-      "publishedAt": "2026-10-12T15:46:00Z"
-    },
-    {
-      "id": "e69896f9dbd55e5e074a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "⚙️ Getting ready for the #UCL! #RMCity #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=JY-wu-f1kcc",
-      "publishedAt": "2026-10-12T15:45:49Z"
-    },
-    {
-      "id": "8a9b89617461e5dd0959",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "🚀 MILITÃO, HUIJSEN & ENDRICK WITH SOME STUNNING GOALS! | Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=CSGo--c0GGQ",
-      "publishedAt": "2026-10-12T15:43:23Z"
-    },
-    {
-      "id": "31edca56c7001ca1a1eb",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Madrid returns to the Champions League in Rome",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVlBTTZ5NER0WHF4VlZiWFlzdi1uenR3Y3YwM2tqZ2xhYUJmZ21rTDFEZzM3UjRjbExJMnU0cnR6RFdscXVmemU4TEY3Yzcwb1g5U1YtU1dyUlpjRWRyYUJZbG1nUW1rN3dyOHc5ZTNOV1huS2YzOV95LUFrUlNUQl8xaGlvd3QtUWN1bFdBYnRpVHpVdmY5Yldha2gtbmJ2aVE?oc=5",
-      "publishedAt": "2026-10-12T13:41:00Z"
-    },
-    {
-      "id": "de93673755bb9c7ef405",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Pedro Martínez: “We must stay true to our identity and have a mindset of continuous improvement”",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOeUNUdHl4c18zRUFvQmJOUUxoRTNmNGFNWjFxN3Yxekl1OVBkT21hdnhnTGpJWUE0U3RlQnB0M0l1YjIwVExvUXpMT0NrUWhYdGRRUFRPblBLQUJ4X3ZGbjk4amdZNUdGb2JQT0VGczluSVp4eENNb2FlZWJUWnAyaF9PdjBJRm1EQXc3M0RraEhOMTJZZi00UTBkWXlxRDI1eFdDd2V6UXRmeTZTUWkxcmxud1huWGxCY1lTbUtmX04wcmNsdlRlOWY0UUQ2a0ZDSWxLX0ExdW83dExUMlFOUHFlQ2Y5TU5TZ1ZOaDlWWjdMN1FfcVFPMTBoOTI4dw?oc=5",
-      "publishedAt": "2026-10-12T12:29:00Z"
     }
   ],
-  "updatedAt": "2026-10-14T13:02:57Z",
+  "updatedAt": "2026-10-14T17:55:52Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
