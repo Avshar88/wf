@@ -2,24 +2,24 @@
   "version": 2,
   "stories": [
     {
-      "id": "996f7a77a8cff8ee336a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Champions League highlights and round-up: Real Madrid and Paris headline record-breaking night",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbXh0TzBzUFVKNUtVa3FTYm0tQlJUcTF0NWJSWXlyNFZTMmdfSFEtcDdJdlhLcXdDRmUzNlBHUmg4YktFVDdkTW1vbXZkd2RnYVBObjJSNHR6YTlkNDItUjhQYThTWUVYdW9ZdklvR18zU1FuaTRPNnF2TF9oaTZ0UDhMRnB2bnNyZ2luXzhkQy0xdUNuNEhBeHV1ai1DdzlNRk5PNGl0ZmJDWks2Tll6Umc3Mmp2RlhUMURXWlozQ2FCZEV2MDhPQS1EY19sVGVxOEZfcVhUdlR4Zw?oc=5",
-      "publishedAt": "2026-10-14T23:03:45Z"
-    },
-    {
-      "id": "52559f9270b6e78b354f",
+      "id": "bfa0acef8117beb3383a",
       "category": "Matchday",
       "time": "NEW",
       "title": "Champions League reaction: Antonio Rüdiger on Real Madrid's comeback win",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNFRJeF9QOHVxZEF2alpIREhUVzA1Q3I5am5FZWpmdF9ib0lPb2pXYXJMN25qUTlkNDRQU0ZCcTZzQm9WbkJsVXJlQ21wZk9QMHRXOUFaNHFqNHdISHNDZVMtSkc0TXJLcWVESDkydnBPbkc1WjR1VlA5Zk9ZR2xzQThTTDN4bHVod0JUUVhjRlN6cUJvMDhZVzh4VUNQdGpCRE1GVXZmZVlPbmx4cjZwNEpWdlU3SGpDYW92TGxGVnVIUTgzOFc1T3FmYV8?oc=5",
-      "publishedAt": "2026-10-14T22:49:48Z"
+      "publishedAt": "2026-10-14T23:49:48Z"
+    },
+    {
+      "id": "ecdc8fa3fac0b23f988e",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Champions League highlights and round-up: Real Madrid and Paris headline record-breaking night",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbXh0TzBzUFVKNUtVa3FTYm0tQlJUcTF0NWJSWXlyNFZTMmdfSFEtcDdJdlhLcXdDRmUzNlBHUmg4YktFVDdkTW1vbXZkd2RnYVBObjJSNHR6YTlkNDItUjhQYThTWUVYdW9ZdklvR18zU1FuaTRPNnF2TF9oaTZ0UDhMRnB2bnNyZ2luXzhkQy0xdUNuNEhBeHV1ai1DdzlNRk5PNGl0ZmJDWks2Tll6Umc3Mmp2RlhUMURXWlozQ2FCZEV2MDhPQS1EY19sVGVxOEZfcVhUdlR4Zw?oc=5",
+      "publishedAt": "2026-10-14T23:14:54Z"
     },
     {
       "id": "6ed2970a56a599b98fd6",
@@ -302,7 +302,7 @@
       "publishedAt": "2026-10-14T12:00:23Z"
     }
   ],
-  "updatedAt": "2026-10-15T01:54:10Z",
+  "updatedAt": "2026-10-15T06:33:38Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
