@@ -2,14 +2,34 @@
   "version": 2,
   "stories": [
     {
-      "id": "bfa0acef8117beb3383a",
+      "id": "9e9c4f7a647f8ca1f4d6",
+      "category": "Official",
+      "time": "NEW",
+      "title": "ACCESS DENIED 🚫",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=akR6zl81ca8",
+      "publishedAt": "2026-10-15T10:03:17Z"
+    },
+    {
+      "id": "f9453adff57ad39d137b",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Inclusive day between beneficiaries from Cambodia and Spain",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVC1UZWpCcW5TSnJYNFZBRVB3cEJYbWRFcnp6c1k1M0F3ZHVWOUpIQVBIODJFd05oOHFJNnh5NlgxS3lxSENLNzhUSDVzN3NOTmxmU0VjRWE1V284a2hqRHI5b3Zkci1xM0N0MURQN01OYzBycW5Yb2dubmI1Ml9vQ3JnX04wd2ZZcnJXVHlQQ2Z4QlBZdlU2aXFjaUViOUZ5UnZ3VG9rZjdTMlp5UndscU1UOG5GZUpOd2dXX0pGekFxQnhx?oc=5",
+      "publishedAt": "2026-10-15T09:03:00Z"
+    },
+    {
+      "id": "f3fb68e2748a3a2f9c6e",
       "category": "Matchday",
       "time": "NEW",
-      "title": "Champions League reaction: Antonio Rüdiger on Real Madrid's comeback win",
+      "title": "Champions League highlights: Roma 3-4 Real Madrid",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNFRJeF9QOHVxZEF2alpIREhUVzA1Q3I5am5FZWpmdF9ib0lPb2pXYXJMN25qUTlkNDRQU0ZCcTZzQm9WbkJsVXJlQ21wZk9QMHRXOUFaNHFqNHdISHNDZVMtSkc0TXJLcWVESDkydnBPbkc1WjR1VlA5Zk9ZR2xzQThTTDN4bHVod0JUUVhjRlN6cUJvMDhZVzh4VUNQdGpCRE1GVXZmZVlPbmx4cjZwNEpWdlU3SGpDYW92TGxGVnVIUTgzOFc1T3FmYV8?oc=5",
-      "publishedAt": "2026-10-14T23:49:48Z"
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWlrVkZoQ0l2WVk2NlpRRnJPS0wtSXJqQll6NDFuUmk5SWMzajROZXpPSnp3WktXR2VmaGdZYWd0dnhkVU5qOXdESFhsVUlKOXgyVm81LWpyVTBwUjZOTTVUa0t3RVhXVjJxSGxGSFRyUFBsZHZDbHBvbjkxWXdvSnVzeGZHZmxGZjFnMkVmcXRpM2RjMHZTR0NfLTdqaXFSTWFoRXdJT1g0OHpRS1hRS3dpdXVoS2N6aW5sZXpwZDFYdw?oc=5",
+      "publishedAt": "2026-10-15T08:00:48Z"
     },
     {
       "id": "ecdc8fa3fac0b23f988e",
@@ -22,6 +42,36 @@
       "publishedAt": "2026-10-14T23:14:54Z"
     },
     {
+      "id": "86a7786fc2f83e853e5a",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Tenth consecutive away victory against Italian teams in the Champions League",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbllndk45U1J2VVByeGxjZW9lZzAwVC03VDhTeXNsTm53c01MeHB5azNEQmx0SEx2QmQzTlpzWkZaTW9NSTVPRXNPTnQzYVYzTHMxd1d3SEt1UkhYdHlqajdMRGdVWWpjRDRmbXlBODF2Q1FOTWlmUzYtVVBHckVlSnhrX3pQczlFVmFhMU1NRGI3N0ZYNUR5UWp1elZVajRKS2F4Ulh5eXJXX2lsa29WRnd6aGkxSEE3bl9oYUVpWmJrc0hUbEh3Z0FTdXFMeDJRNFRya1d2LW5yM0h1enFPUFFjb3RmNHFBLWhkMnFGdTE?oc=5",
+      "publishedAt": "2026-10-14T23:09:00Z"
+    },
+    {
+      "id": "cb63ca91a5c9b8390fc8",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "HIGHLIGHTS | Roma 3-4 Real Madrid | Champions League",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=zkgpyvjJl84",
+      "publishedAt": "2026-10-14T23:00:13Z"
+    },
+    {
+      "id": "ce4ebb729b23317288fb",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Champions League reaction: Antonio Rüdiger on Real Madrid's comeback win",
+      "summary": "Latest verified Real Madrid update published by UEFA.",
+      "source": "UEFA",
+      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEN2OUJDVnFhY3MtSWt6SGpMLUh3UmNPazZfVjg0VkxRVFRMZGFrd0g3dVRMbGZ6QkNtVGVYRmt3cDFkbThCQ0Zhb0tkdDlEYWZBNkV3dXlRVUp3c3V0TVp5b2dhTHZpT2JkcE1rbnZFZHZJZkhjN3E1OExyeUpPcjdGa1FkWFFQd19abUlQTC12TU9ON0h3RE9ISUF6aUNSZ3p4cjlTMWFWTjZwQXBaTmIxX2Y3U2I5YkQ2ZTE2WDRxclZsSDBkMjh6SWRJTWFRVGloTHpaWXY?oc=5",
+      "publishedAt": "2026-10-14T23:00:04Z"
+    },
+    {
       "id": "6ed2970a56a599b98fd6",
       "category": "Official",
       "time": "NEW",
@@ -30,6 +80,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcTVORWl6Z3VmRm5ZM1ZzOUtubkJ5TUlrdXB4UmJSRFl6QTk3dHl0bHNUT0VUdEhzVkZIWEtMWHFqQnd1QkU4OV8xaWppV0RFTzJuSVZYODY4ejN6MjBJWks0VFB2d3c0dVlIWHNwVDhVbjkya2tSNUFiUy1aTmxPZVVZREhkdmZCbGg0WW54bnd0LTA?oc=5",
       "publishedAt": "2026-10-14T22:43:00Z"
+    },
+    {
+      "id": "3241cbb605045ca7e859",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🌟 MVP of the night!",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=PV9MMhn07NY",
+      "publishedAt": "2026-10-14T22:17:47Z"
     },
     {
       "id": "06635e6a7b32d2ccda80",
@@ -82,6 +142,16 @@
       "publishedAt": "2026-10-14T21:42:36Z"
     },
     {
+      "id": "1598e98e196303af6835",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Rüdiger completed the comeback after the corner taken by Güler",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaXlNMzV1QmttVUYzV0xLaEYxS0JaaGN1a3lnbDJlZXhMR1YtY21ZQ2dMeElQdlFaRXVPcC1wcjRJWWtwb3FTQTJGZElxNEhhODUtcHVCb0tKemFFb0FBNXFmbUgwQVpQNVc5WkpXNXhkZHAzdXpHUWhGOGdqVjRrMFZGTFRIMnM2c1Yyd1N0TE1YV1I2N3lSdDExQ2FtNms?oc=5",
+      "publishedAt": "2026-10-14T21:40:00Z"
+    },
+    {
       "id": "3cc97545531195a9b634",
       "category": "Official",
       "time": "NEW",
@@ -90,6 +160,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOXzR2UWFveHF5Nm04VjI2MkgxOFBTWUVvSmxFOG4tT1dYU3ZnZ1ExZEV0MC1FR2JqTU8yZ3JTS01vX0taLURDVnBHSG5DN3Q4ZnIxeENXZlNXSVhydDU2cERyaHJORU1lOHAyZjNFckVpWVhia3B3aU9fakFDVWxMTUNLYU5pcFp6eXgzeHppSkx6TzktV2VGekxUcWJzQ1lGa2Z5Z0JmUmhXZnYwc3B5X3FUbUtvdw?oc=5",
       "publishedAt": "2026-10-14T21:12:00Z"
+    },
+    {
+      "id": "8b48ef2a97f585f97626",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "⏱️ MINUTO A MINUTO | AS Roma vs Real Madrid | Champions League",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=aYCYIRoO9II",
+      "publishedAt": "2026-10-14T21:07:53Z"
     },
     {
       "id": "e3e75321a4311578785d",
@@ -220,89 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=l-U-tyf8l3s",
       "publishedAt": "2026-10-14T16:55:03Z"
-    },
-    {
-      "id": "8b48ef2a97f585f97626",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "⏱️ MINUTO A MINUTO | AS Roma vs Real Madrid | Champions League",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=aYCYIRoO9II",
-      "publishedAt": "2026-10-14T16:29:21Z"
-    },
-    {
-      "id": "3d82d878e5629c6747e7",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Deck's medical report",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDlhX3p4dEZvWG1ZRGFsZEpyeXk1N1NSWTczMGFLOVl1SGc5MG81TmRLaUt2ZlNFZmN4aDdSN0lSTFQya1hPTHprRWxDZ2ZJS21ubHdtYVh0Q3pCbC1Sb0hqczBNQ3RkM0FkLU9xYjBUak0wSVhadm8yQ0NJcDZzX0VYakoxMy1nRjU4eUdTZ2VTOHFQazFUNWI2aU5vZTJySnNjTGp3?oc=5",
-      "publishedAt": "2026-10-14T16:08:00Z"
-    },
-    {
-      "id": "b4179354e850b1ac376b",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Real Madrid hosts Asvel tomorrow in the EuroLeague",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa2V0ZnpHYVUzaFNwZU5hb1laZE5YR09FM1ExS2IteS1ua3dpeVdvc2N6cUFyZFBONWlzN1pwQ1pkUDFPNGZSdWhuRm9lcUZ6a1paYkxVd0UyNWNnSnE2VHlBNU5EZkprSGhNTFUzSWNYeGhjS0JsNUVjYW80WWt2UnRDSW42NVpCM25JZklWWk9XOWlRQTUzOGZCRTNLemNmZG10dXprZndzekR2OHBBSTlNX3RvejRnUkVJamluekpnU3N2LWs3bXNMZw?oc=5",
-      "publishedAt": "2026-10-14T15:30:00Z"
-    },
-    {
-      "id": "22ec8b211ff98c87fa9a",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Web oficial del Real Madrid CF",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeVVuOG1udUJjWF8yaGxBSjU0MVA1ZjJEMHdMTktEMjlhaHJKaXF1U0ZXRTdWNXVBOE1CbjNIZ051M2Q1bWVsNUM1Wjd4eEw2UzBGZl9BZ3A2WVdYZWd4NWNhNkZNSlpSelpRVTQ0dWYySGlPdUxndTY4T1FxYUJHdEpwQQ?oc=5",
-      "publishedAt": "2026-10-14T15:23:25Z"
-    },
-    {
-      "id": "6692b229350668831fe5",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🚀 Cristiano Ronaldo 🆚 Roma",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=A31DpJDA0xs",
-      "publishedAt": "2026-10-14T14:13:28Z"
-    },
-    {
-      "id": "5ffa93b722706bf0b153",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Jantunen: \"We must keep building on what we've done in the last few games\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3pCMXJnRm9CZ3ZPb3pxOUZmY2g3eVlELXFWWl9CN3pIWmpjdDJRR2Q2ZFRNQnJ5VHZWdmp3bG0zYWRxR3d6X1Fxck9IamdPVzlKMFdpaGZ1dFhxU2g3OXhzRFRCUlF4eEc4TFdMWVR5S2c0YWRDcmNRazYzQm9rdGdJTXNYcmE3ejRQNGhUM1pBM09nb2xldjhVM3MxeVRRdEtzS3MxT0xUZw?oc=5",
-      "publishedAt": "2026-10-14T12:04:00Z"
-    },
-    {
-      "id": "b13f4d9469383d08d109",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🪗🏛️🤍😊",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=voX8Lw47g1s",
-      "publishedAt": "2026-10-14T12:00:23Z"
-    },
-    {
-      "id": "b13f4d9469383d08d109",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🪗🏛️🤍😊 #UCL #RealMadrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=voX8Lw47g1s",
-      "publishedAt": "2026-10-14T12:00:23Z"
     }
   ],
-  "updatedAt": "2026-10-15T06:33:38Z",
+  "updatedAt": "2026-10-15T11:59:16Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
