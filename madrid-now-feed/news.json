@@ -2,6 +2,46 @@
   "version": 2,
   "stories": [
     {
+      "id": "f4183d32ed114e647f83",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🎯 Vini Jr. 🎯 #RMCity #RealMadrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=yaadxZp8v84",
+      "publishedAt": "2026-10-16T17:24:50Z"
+    },
+    {
+      "id": "7c84b773253bf3d3256e",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "🔛 Getting READY for SEVILLA with some BRILLIANT goals! | Real Madrid",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=EoNQQxVIW-Q",
+      "publishedAt": "2026-10-16T17:18:34Z"
+    },
+    {
+      "id": "52cc335e7bd981e9f632",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid demand resignation of LaLiga chief after Nazi propaganda comparison",
+      "summary": "Latest verified Real Madrid update published by Reuters.",
+      "source": "Reuters",
+      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYWFGWUdvejd4bExIMDdDY3FXdUJQeDFoTFhtWXY0Y3FiZVNGUkxDOHZwTFYxb04xWjMzTHF0akhQQ0tuRWJJZ05FX1VnWDZSZDFZREx3X0lsS2pScmhTQlZPeUI3a095dWFmVFVoUzlBNklNY2UwcEFsaGNFeDRfdzRIZk94QU5KMm5PYmNmekVMTkY3RHZfcmZNaC1kOUd5bDFpQV9nWGlrMFV6dnR5bERFeHl0QlFLbVphVml1WDdUUVhD?oc=5",
+      "publishedAt": "2026-10-16T16:07:44Z"
+    },
+    {
+      "id": "b7d4f1e3261d7748f8c2",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Real Madrid-Espanyol: the League returns",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0VoQ0ItUDV2aDMxNEZoTWNOcFZJQTM5VTE3OElXU3R2b1JsYk9vZTZXQ0c5Y1BzYThIeHpaV2YyZUx2R3drX083SEpzcmhtQjFYQVpmdnBwb2lGRHlzUTFGSlI3aDFZVHQ4RDlCYk8wOUlZUzQtR3RBUGVoX2JjeklnbmlmZFlhQUwwTUlWLVBLcGxhWU9oSzJiQjUwTy03VFljVEdnOGlFTkhKZ1EwaklqVTVDVTBIbllYTDNaWWpja1lGak52UFlNQlI5T1FE?oc=5",
+      "publishedAt": "2026-10-16T15:00:00Z"
+    },
+    {
       "id": "62e51d6fb613d471edac",
       "category": "Official",
       "time": "NEW",
@@ -20,6 +60,16 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1NzX1B0NEZBRnJFemFmQmhMRjN0NVdZbmprZ21fUlFkVTdVNFNzNW13VTJHTDI3VHZYSlZfZlJhN2g1c1QyQ2VUNl9naDVid3p4UWxtNzE1SEFjWlBYMUhoTm91Zm91cVZWZGwxaGRUbmJDZVZPZVBGUVAtS3RQN0E0dlVnVV9Wc3dVeGNfWQ?oc=5",
       "publishedAt": "2026-10-16T11:54:00Z"
+    },
+    {
+      "id": "6dbdf6698b3f92385f7b",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Bellingham: \"It’s an honor to reach 150 matches at the biggest club\"",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3Z3b0YxdFhSUGF5cGpScWlZXzBHUFFvVmMwRE1ObGFxbXE2YlVmVUM5ekZPQ1RQNWo2eWRjbzZGSWFlRlJNeFpkdm9xUXcwLXNmTC1scm1NdWs3OWlNU2pqUVJqUTBPb0VFN05TaGtabWRVcnZmaU13QzkwR0pZNUJGcjZGSDRtbG9UTWJycUk1cENpUnkzcUdhMnNmd3BEbFFEQ2RjeWJvNHNtV3JCQndBUVVtZ2JaOHdnY1pUV08?oc=5",
+      "publishedAt": "2026-10-16T10:50:00Z"
     },
     {
       "id": "76ec6b49a0aced7c89dd",
@@ -242,67 +292,17 @@
       "publishedAt": "2026-10-15T08:00:48Z"
     },
     {
-      "id": "ead9c07abf3af8248e71",
+      "id": "2fe2581f8ffb0eedc38e",
       "category": "Matchday",
       "time": "NEW",
       "title": "Champions League reaction: Antonio Rüdiger on Real Madrid's comeback win",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
       "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEN2OUJDVnFhY3MtSWt6SGpMLUh3UmNPazZfVjg0VkxRVFRMZGFrd0g3dVRMbGZ6QkNtVGVYRmt3cDFkbThCQ0Zhb0tkdDlEYWZBNkV3dXlRVUp3c3V0TVp5b2dhTHZpT2JkcE1rbnZFZHZJZkhjN3E1OExyeUpPcjdGa1FkWFFQd19abUlQTC12TU9ON0h3RE9ISUF6aUNSZ3p4cjlTMWFWTjZwQXBaTmIxX2Y3U2I5YkQ2ZTE2WDRxclZsSDBkMjh6SWRJTWFRVGloTHpaWXY?oc=5",
-      "publishedAt": "2026-10-15T07:55:44Z"
-    },
-    {
-      "id": "62f775acf854e9181909",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Champions League highlights: Roma 3-4 Real Madrid | Highlights",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZzdTTG90TUNKZkR0QVZlRGRiQ0VsVXlNZjJrSjh0X2I0WGJnRzZFbVp0eVBSNklUdE9hN3luZG9GUC1yeUQ3TGxEUTdIVmloNWtNVkRycW9RSllNeGJRcG5zaVFHV1JWQTc3XzV4Vmw3bGZaSHpDSklvMzhzSEZSRmFabXdfZzJfeFJFQ0hTN0pzbGo3dFUxUzN1OXdSQVdBcnczdl9iZzRMWmxla1hxVWZwTkY3b3FVNTVodzlhVk4wTXVhc25ncmtna3pPOVV3YTdCenFIVlVWbW52?oc=5",
-      "publishedAt": "2026-10-14T23:25:04Z"
-    },
-    {
-      "id": "ecdc8fa3fac0b23f988e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Champions League highlights and round-up: Real Madrid and Paris headline record-breaking night",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbXh0TzBzUFVKNUtVa3FTYm0tQlJUcTF0NWJSWXlyNFZTMmdfSFEtcDdJdlhLcXdDRmUzNlBHUmg4YktFVDdkTW1vbXZkd2RnYVBObjJSNHR6YTlkNDItUjhQYThTWUVYdW9ZdklvR18zU1FuaTRPNnF2TF9oaTZ0UDhMRnB2bnNyZ2luXzhkQy0xdUNuNEhBeHV1ai1DdzlNRk5PNGl0ZmJDWks2Tll6Umc3Mmp2RlhUMURXWlozQ2FCZEV2MDhPQS1EY19sVGVxOEZfcVhUdlR4Zw?oc=5",
-      "publishedAt": "2026-10-14T23:14:54Z"
-    },
-    {
-      "id": "86a7786fc2f83e853e5a",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Tenth consecutive away victory against Italian teams in the Champions League",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbllndk45U1J2VVByeGxjZW9lZzAwVC03VDhTeXNsTm53c01MeHB5azNEQmx0SEx2QmQzTlpzWkZaTW9NSTVPRXNPTnQzYVYzTHMxd1d3SEt1UkhYdHlqajdMRGdVWWpjRDRmbXlBODF2Q1FOTWlmUzYtVVBHckVlSnhrX3pQczlFVmFhMU1NRGI3N0ZYNUR5UWp1elZVajRKS2F4Ulh5eXJXX2lsa29WRnd6aGkxSEE3bl9oYUVpWmJrc0hUbEh3Z0FTdXFMeDJRNFRya1d2LW5yM0h1enFPUFFjb3RmNHFBLWhkMnFGdTE?oc=5",
-      "publishedAt": "2026-10-14T23:09:00Z"
-    },
-    {
-      "id": "cb63ca91a5c9b8390fc8",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "HIGHLIGHTS | Roma 3-4 Real Madrid | Champions League",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=zkgpyvjJl84",
-      "publishedAt": "2026-10-14T23:00:13Z"
-    },
-    {
-      "id": "6ed2970a56a599b98fd6",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Courtois: \"We believed until the end\"",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcTVORWl6Z3VmRm5ZM1ZzOUtubkJ5TUlrdXB4UmJSRFl6QTk3dHl0bHNUT0VUdEhzVkZIWEtMWHFqQnd1QkU4OV8xaWppV0RFTzJuSVZYODY4ejN6MjBJWks0VFB2d3c0dVlIWHNwVDhVbjkya2tSNUFiUy1aTmxPZVVZREhkdmZCbGg0WW54bnd0LTA?oc=5",
-      "publishedAt": "2026-10-14T22:43:00Z"
+      "publishedAt": "2026-10-15T05:50:03Z"
     }
   ],
-  "updatedAt": "2026-10-16T14:14:18Z",
+  "updatedAt": "2026-10-16T18:03:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
