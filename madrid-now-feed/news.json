@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "3cd75c7848916ce17e47",
+      "category": "Official",
+      "time": "NEW",
+      "title": "Casademont Zaragoza-Real Madrid: aiming for the third victory in Liga U",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaktYS0RseW8yZEtJOTd0ZjJfdVVjb24xUExlbk8zeEZQNTNMUFR2RndRbXQ2Z0RDamx3U3puQnZra1lSNjhpS0VxYUJIamlqMUZ2WG90YUlMWDZrc3ByMmlGODFuU2VBM1IwNHhjNGEtSzlZaENNbzNoVXhFbVU2d2VRMXR6YS1OUG5zb0xyYjhzaDV3aDBvQXV4Q3NJQlN4MUc1RFltOUJ4VlJvMkM1cWd4enJZRmg3Ymg1cnZCR3ItRnlVM240N1d2SUU2czVWOFJJZ2xzVnM3QVk?oc=5",
+      "publishedAt": "2026-10-16T08:00:10Z"
+    },
+    {
       "id": "04a64d6626dd75efbb36",
       "category": "Official",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbjVBb2lna05pbVhHMV9PSjJZcENSWUNmTjlBYzBWQXBoQ3BEdjc2d0lnYU9WdG1qbkdJQVRvS3JKeWpBRGd4YXBRZ3VHcXZrWDVEOXRLWXdqM1lKSDBxMmJQUFc3TE9iTWlHSGMxTXQzUDdXMmMybDZUOWpjcml1eUdKV3lQbjdhZVc1SWJsOFRNMkZsRlVuNWRva05rZVdl?oc=5",
       "publishedAt": "2026-10-14T21:45:00Z"
-    },
-    {
-      "id": "1598e98e196303af6835",
-      "category": "Official",
-      "time": "NEW",
-      "title": "Rüdiger completed the comeback after the corner taken by Güler",
-      "summary": "Latest verified Real Madrid update published by Real Madrid.",
-      "source": "Real Madrid",
-      "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaXlNMzV1QmttVUYzV0xLaEYxS0JaaGN1a3lnbDJlZXhMR1YtY21ZQ2dMeElQdlFaRXVPcC1wcjRJWWtwb3FTQTJGZElxNEhhODUtcHVCb0tKemFFb0FBNXFmbUgwQVpQNVc5WkpXNXhkZHAzdXpHUWhGOGdqVjRrMFZGTFRIMnM2c1Yyd1N0TE1YV1I2N3lSdDExQ2FtNms?oc=5",
-      "publishedAt": "2026-10-14T21:40:00Z"
     }
   ],
-  "updatedAt": "2026-10-16T00:47:18Z",
+  "updatedAt": "2026-10-16T09:41:33Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
