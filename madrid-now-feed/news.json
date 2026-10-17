@@ -2,6 +2,16 @@
   "version": 2,
   "stories": [
     {
+      "id": "a7d85f60c3e232c30362",
+      "category": "Official",
+      "time": "NEW",
+      "title": "🛡️ Three colours, one badge.",
+      "summary": "New video update from Real Madrid's official YouTube channel.",
+      "source": "Real Madrid",
+      "href": "https://www.youtube.com/watch?v=GBVajX7w9Vc",
+      "publishedAt": "2026-10-17T17:00:16Z"
+    },
+    {
       "id": "86bbb7814ef3400f10d0",
       "category": "Matchday",
       "time": "NEW",
@@ -290,19 +300,9 @@
       "source": "Real Madrid",
       "href": "https://www.youtube.com/watch?v=HypVlm9K7Jk",
       "publishedAt": "2026-10-15T17:08:07Z"
-    },
-    {
-      "id": "d4e133b9b6aa224888bf",
-      "category": "Official",
-      "time": "NEW",
-      "title": "🔥 REAL MADRID’S EPIC COMEBACK IN ROME! | Roma 3-4 Real Madrid",
-      "summary": "New video update from Real Madrid's official YouTube channel.",
-      "source": "Real Madrid",
-      "href": "https://www.youtube.com/watch?v=hQZE4AwBRmw",
-      "publishedAt": "2026-10-15T17:00:17Z"
     }
   ],
-  "updatedAt": "2026-10-17T16:21:25Z",
+  "updatedAt": "2026-10-17T18:34:22Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
