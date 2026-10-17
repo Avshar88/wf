@@ -92,6 +92,16 @@
       "publishedAt": "2026-10-16T08:31:00Z"
     },
     {
+      "id": "61b273ce9086feeb558f",
+      "category": "Matchday",
+      "time": "NEW",
+      "title": "Real Madrid prepares for the match against Sevilla",
+      "summary": "Latest verified Real Madrid update published by Real Madrid.",
+      "source": "Real Madrid",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWs4TFpMOTFXVzB0Tmg5OG93c1JjRnNLZ0diOGtrYklfVk5JeEIzSG50M0ZLUDNJUXVRUzVsbDU1V3ppSHdIVmpSX1htTk9WQk9ramQ3bVZ6U2VSMjZEZURpaXdYX2FNQkdaRHBuT0VMcnl6cnd5NmxleG52T1RjZ1luRWowRmtHWjB4RWNuMDRON09VeUFfRlN0ZzNaTmF6TkV0WE40Rml2N1pJQWR4ZXp3?oc=5",
+      "publishedAt": "2026-10-16T08:30:28Z"
+    },
+    {
       "id": "04a64d6626dd75efbb36",
       "category": "Official",
       "time": "NEW",
@@ -282,27 +292,17 @@
       "publishedAt": "2026-10-15T09:03:00Z"
     },
     {
-      "id": "2fe2581f8ffb0eedc38e",
-      "category": "Matchday",
-      "time": "NEW",
-      "title": "Champions League reaction: Antonio Rüdiger on Real Madrid's comeback win",
-      "summary": "Latest verified Real Madrid update published by UEFA.",
-      "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEN2OUJDVnFhY3MtSWt6SGpMLUh3UmNPazZfVjg0VkxRVFRMZGFrd0g3dVRMbGZ6QkNtVGVYRmt3cDFkbThCQ0Zhb0tkdDlEYWZBNkV3dXlRVUp3c3V0TVp5b2dhTHZpT2JkcE1rbnZFZHZJZkhjN3E1OExyeUpPcjdGa1FkWFFQd19abUlQTC12TU9ON0h3RE9ISUF6aUNSZ3p4cjlTMWFWTjZwQXBaTmIxX2Y3U2I5YkQ2ZTE2WDRxclZsSDBkMjh6SWRJTWFRVGloTHpaWXY?oc=5",
-      "publishedAt": "2026-10-15T05:50:03Z"
-    },
-    {
-      "id": "2ba6533ae55a1999d442",
+      "id": "f3fb68e2748a3a2f9c6e",
       "category": "Matchday",
       "time": "NEW",
       "title": "Champions League highlights: Roma 3-4 Real Madrid",
       "summary": "Latest verified Real Madrid update published by UEFA.",
       "source": "UEFA",
-      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZzdTTG90TUNKZkR0QVZlRGRiQ0VsVXlNZjJrSjh0X2I0WGJnRzZFbVp0eVBSNklUdE9hN3luZG9GUC1yeUQ3TGxEUTdIVmloNWtNVkRycW9RSllNeGJRcG5zaVFHV1JWQTc3XzV4Vmw3bGZaSHpDSklvMzhzSEZSRmFabXdfZzJfeFJFQ0hTN0pzbGo3dFUxUzN1OXdSQVdBcnczdl9iZzRMWmxla1hxVWZwTkY3b3FVNTVodzlhVk4wTXVhc25ncmtna3pPOVV3YTdCenFIVlVWbW52?oc=5",
-      "publishedAt": "2026-10-14T23:25:04Z"
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWlrVkZoQ0l2WVk2NlpRRnJPS0wtSXJqQll6NDFuUmk5SWMzajROZXpPSnp3WktXR2VmaGdZYWd0dnhkVU5qOXdESFhsVUlKOXgyVm81LWpyVTBwUjZOTTVUa0t3RVhXVjJxSGxGSFRyUFBsZHZDbHBvbjkxWXdvSnVzeGZHZmxGZjFnMkVmcXRpM2RjMHZTR0NfLTdqaXFSTWFoRXdJT1g0OHpRS1hRS3dpdXVoS2N6aW5sZXpwZDFYdw?oc=5",
+      "publishedAt": "2026-10-15T08:00:48Z"
     }
   ],
-  "updatedAt": "2026-10-16T20:54:48Z",
+  "updatedAt": "2026-10-17T01:14:32Z",
   "refreshSeconds": 60,
   "collectionIntervalMinutes": 5,
   "availableSources": [
